@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>leilão - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">leilão</span>
+    <a class="download-json" href="../jsons/leilão.json" download="leilão.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">leilão</i></h1>
+  <p><strong>Roleset id:</strong> leilão.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trade.xml">trade.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/trade.html">verb-trade.01</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: seller</li>
+<li class="arg1">Arg 1: sold</li>
+<li class="arg2">Arg 2: highest bidder</li>
+<li class="arg3">Arg 3: price paid</li>
+<li class="arg4">Arg 4: beneficiary</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_446990945779986432l::leilão::1">1: e tem início o <span class="rel">leilão</span> <span class="arg1">de a #PETR4</span> ! De olho em a abertura . =)</h3>
+<ul>
+<li class="rel">rel: leilão</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: de a #PETR4</li>
+<li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: -</li>
+<li class="arg4">Arg 4: -</li>
+</ul>
+<h3 data-instance-id="dante_01_444482105675104256l::leilão::1">2: $DASA3 - Dasa ( dasa-nm ) - Aquisicao De Acoes Remanescentes De o <span class="rel">Leilao</span> http://t.co/0HuaywrCqa</h3>
+<ul>
+<li class="rel">rel: leilão</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: De Ações</li>
+<li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: -</li>
+<li class="arg4">Arg 4: -</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <div class="argument-table-scroll" tabindex="0" aria-label="Realização sintática"><table id="relations-table" class="expanded-arguments" style="--arg-count:5">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th><th class="arg4">Arg 4</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_446990945779986432l::leilão::1"><td>1</td><td class="arg0">-</td><td class="arg1">de a #PETR4</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>e tem início o <span class="rel">leilão</span> <span class="arg1">de a #PETR4</span><sub class="deprel">nmod</sub> ! De olho em a abertura . =)</td></tr><tr data-instance-id="dante_01_444482105675104256l::leilão::1"><td>2</td><td class="arg0">-</td><td class="arg1">De Ações</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>$DASA3 - Dasa ( dasa-nm ) - Aquisicao De Acoes Remanescentes De o <span class="rel">Leilao</span> http://t.co/0HuaywrCqa</td></tr><tr data-instance-id="dante_01_444077459664023552l::leilão::1"><td>3</td><td class="arg0">-</td><td class="arg1">Opa</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>$DASA3 - Dasa ( dasa-nm ) - Fato Relevante - Resultado Final <span class="rel">Leilao</span> <span class="arg1">Opa</span><sub class="deprel">nmod</sub> http://t.co/tE2KAm5lnC</td></tr><tr data-instance-id="dante_01_461484549030297600l::leilão::1"><td>4</td><td class="arg0">-</td><td class="arg1">de energia</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Hoje tem <span class="rel">leilão</span> emergencial <span class="arg1">de energia</span><sub class="deprel">nmod</sub> , que depende largamente de ELET6 . Boa oportunidade para fechar contratos estáveis e de margem maior .</td></tr><tr data-instance-id="dante_01_462198318102482945l::leilão::1"><td>5</td><td class="arg0">-</td><td class="arg1">De Energia</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>$ELET3 - Eletrobras ( elet-n1 ) - <span class="rel">Leilao</span> <span class="arg1">De Energia</span><sub class="deprel">nmod</sub> http://t.co/8kHVf6iVwI</td></tr><tr data-instance-id="dante_01_456479295968272384l::leilão::1"><td>6</td><td class="arg0">-</td><td class="arg1">A-0</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>#CPFE3 - CPFL fecha contrato de energia de Serra de a Mesa e não disputará <span class="rel">leilão</span> <span class="arg1">A-0</span><sub class="deprel">det</sub> - http://t.co/Hk3v5n3Xap</td></tr><tr data-instance-id="dante_01_459037552989966336l::leilão::1"><td>7</td><td class="arg0">-</td><td class="arg1">De Petrq87 ( petr3 )</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>$PETR3 - <span class="rel">Leilao</span> <span class="arg1">De Petrq87 ( petr3 )</span><sub class="deprel">nmod</sub> Ate 15:35 H - Oscilacao Maxima Permitida http://t.co/RgMJZcPtfT</td></tr><tr data-instance-id="dante_01_456159880961744896l::leilão::1"><td>8</td><td class="arg0">-</td><td class="arg1">de fechamento</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>OIBR4 foi para o <span class="rel">leilão</span> <span class="arg1">de fechamento</span><sub class="deprel">nmod</sub> caindo mais de 10 % ...</td></tr><tr data-instance-id="dante_01_462323742912557057l::leilão::1"><td>9</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>OIBR4 vai explodir em o <span class="rel">leilão</span> .</td></tr><tr data-instance-id="dante_01_443480227277455360l::leilão::1"><td>10</td><td class="arg0">ML</td><td class="arg1">lote de 100 milha</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>@ferrisss <span class="arg0">ML</span><sub class="deprel">nsubj</sub> desovou <span class="arg1">lote de 100 milha</span><sub class="deprel">nmod</sub> em a petr4 em o <span class="rel">leilao</span> , simplesmente 3 vezes o lote vendido durante todo o pregao</td></tr><tr data-instance-id="dante_01_451813351711334400l::leilão::1"><td>11</td><td class="arg0">-</td><td class="arg1">final de a ABEV3</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>bonito ver o bradescão e o itaú brigando com o Morgan Stanley e o Credit Suiss em o <span class="rel">leilão</span> <span class="arg1">final de a ABEV3</span><sub class="deprel">nmod</sub> .</td></tr><tr data-instance-id="dante_01_442029907129143297l::leilão::1"><td>12</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>#vale5 encerrado em o <span class="rel">leilão</span> 27,09 Loss ( - 0,96 % )</td></tr><tr data-instance-id="dante_01_447100306728681472l::leilão::1"><td>13</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>petr4 saindo em o <span class="rel">leilão</span></td></tr><tr data-instance-id="dante_01_453631123914899457l::leilão::1"><td>14</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>@ferrisss Epa ganhei em a Petr4 hoje duas compras uma em 15,84 venda 16,02 e outra compra 15,9 venda em o <span class="rel">leilao</span> .</td></tr><tr data-instance-id="dante_01_461596679620542464l::leilão::1"><td>15</td><td class="arg0">-</td><td class="arg1">#PETR4</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'><span class="arg1">#PETR4</span><sub class="deprel">nmod</sub> <span class="rel">leilão</span> maluquinho ! ! !</td></tr><tr data-instance-id="dante_01_451811019154010112l::leilão::1"><td>16</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Goll4 quase 6 % de alta hj com a bolsa caindo , piores , CYre3 - 5,21 e Rsid3 - 4,86 até o <span class="rel">leilão</span></td></tr><tr data-instance-id="dante_01_462319584553758723l::leilão::1"><td>17</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>#bovespa #oibr4 Meu Senhor Todo-Poderoso que <span class="rel">leilão</span> é esse ? ? ô.Ô</td></tr><tr data-instance-id="dante_01_441602347777925121l::leilão::1"><td>18</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>@danielzatta que nem , to em vale5 agora .. comprei a 28,2 .. stop de perda em 28,1 ... e alvo em 28,98 .. ou levar ate o <span class="rel">leilao</span> de hoje ...</td></tr><tr data-instance-id="dante_01_449261548754972672l::leilão::1"><td>19</td><td class="arg0">-</td><td class="arg1">por a divisão de lácteos de a BRF</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>#BRFS3 - O <span class="rel">leilão</span> <span class="arg1">por a divisão de lácteos de a BRF</span><sub class="deprel">nmod</sub> começou - http://t.co/fewoACB7aD</td></tr><tr data-instance-id="dante_01_447099598587572224l::leilão::1"><td>20</td><td class="arg0">-</td><td class="arg1">de a #PETR4</td><td class="arg2">-</td><td class="arg3">R$ 17.2</td><td class="arg4">-</td><td class='texto'><span class="rel">leilão</span> <span class="arg1">de a #PETR4</span><sub class="deprel">nmod</sub> tá bonito , <span class="arg3">R$ 17.2</span><sub class="deprel">nummod</sub> ! ! ! o.O</td></tr><tr data-instance-id="dante_01_451871894732423169l::leilão::1"><td>21</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Sobre o <span class="rel">leilao</span> de pre abertura eu compro efetivamente uma ação ex. petr3 ( live at http://t.co/Gmj7qMwiiw )</td></tr><tr data-instance-id="dante_01_443394009567088640l::leilão::1"><td>22</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Sobre a saída de #LLXL3 de o IBOV , lembram de o efeito ' zé mané ' de a ult vez ? Então , não achem voces que a LLX vai afundar em o <span class="rel">leilão</span> de a saída .</td></tr><tr data-instance-id="dante_01_443760585290027008l::leilão::1"><td>23</td><td class="arg0">-</td><td class="arg1">De Petrp73 ( petr3 )</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>$PETR3 - <span class="rel">Leilao</span> <span class="arg1">De Petrp73 ( petr3 )</span><sub class="deprel">nmod</sub> Ate 11:52h - Oscilacao Maxima Permitida http://t.co/Se9c4kzLDX</td></tr><tr data-instance-id="dante_01_463669474844233728l::leilão::1"><td>24</td><td class="arg0">-</td><td class="arg1">Ações PCAR4</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'><span class="arg1">Ações PCAR4</span><sub class="deprel">nmod</sub> ainda em <span class="rel">leilão</span> de abertura indicam queda de mais de 4 % ... Vamos garimpar ...</td></tr><tr data-instance-id="dante_01_451703359612157952l::leilão::1"><td>25</td><td class="arg0">-</td><td class="arg1">#PETR4</td><td class="arg2">-</td><td class="arg3">por R$ 16,00</td><td class="arg4">-</td><td class='texto'><span class="arg1">#PETR4</span><sub class="deprel">root</sub> <span class="arg3">por R$ 16,00</span><sub class="deprel">nmod</sub> em o <span class="rel">leilão</span> ? Caraca ... o fechamento ajustado - por causa de o JCP - de ontem foi em os R$ 15,57 ... o.O</td></tr><tr data-instance-id="dante_01_461596119689342976l::leilão::1"><td>26</td><td class="arg0">-</td><td class="arg1">de #PETR4</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>o <span class="rel">leilão</span> <span class="arg1">de #PETR4</span><sub class="deprel">nmod</sub> tá bem agradável para o vendido ... ( R$ 18,90 em o momento , mas tava em R$ 33,00 até agora há há ... o.O )</td></tr><tr data-instance-id="dante_01_462318215440642049l::leilão::1"><td>27</td><td class="arg0">-</td><td class="arg1">de a #PETR4</td><td class="arg2">-</td><td class="arg3">33</td><td class="arg4">-</td><td class='texto'>pô , de novo <span class="rel">leilão</span> <span class="arg1">de a #PETR4</span><sub class="deprel">nmod</sub> começando em os R$ <span class="arg3">33</span><sub class="deprel">nummod</sub> ? ! ! ? ! ?</td></tr><tr data-instance-id="dante_01_461467831213629440l::leilão::1"><td>28</td><td class="arg0">-</td><td class="arg1">de energia</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'><span class="rel">Leilão</span> <span class="arg1">de energia</span><sub class="deprel">nmod</sub> , fala de presidente de a Petrobras , Vale e mais 5 movimentam radar : Graça Fo ... http://t.co/6nFS1FZVJK #infomoney #vale5</td></tr><tr data-instance-id="dante_01_444462050371461120l::leilão::1"><td>29</td><td class="arg0">-</td><td class="arg1">em a #CSNA3</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Bom dia a todos ... olhem só o <span class="rel">leilão</span> <span class="arg1">em a #CSNA3</span><sub class="deprel">nmod</sub> ! Vai abrir com forte alta .</td></tr><tr data-instance-id="dante_01_453267806331891712l::leilão::1"><td>30</td><td class="arg0">em a #bovespa</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>Fim de o <span class="rel">leilão</span> <span class="arg0">em a #bovespa</span><sub class="deprel">nmod</sub> #petr4 alta de 6,61 % em a máxima de o dia , #vale5 alta de 1,93 % e #bbas3 alta de 5,64 % , #ibov alta de 2,1 %</td></tr><tr data-instance-id="dante_01_453268042580262912l::leilão::1"><td>31</td><td class="arg0">em a #bovespa</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>RT @Fontes_ : Fim de o <span class="rel">leilão</span> <span class="arg0">em a #bovespa</span><sub class="deprel">nmod</sub> #petr4 alta de 6,61 % em a máxima de o dia , #vale5 alta de 1,93 % e #bbas3 alta de 5,64 % , #ibov alta de 2 …</td></tr><tr data-instance-id="dante_01_449531461797154816l::leilão::1"><td>32</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">tá a 28,16</td><td class='texto'>Parece que VALE5 vai abrir forte . Em o <span class="rel">leilão</span> de abertura <span class="arg4">tá a 28,16</span><sub class="deprel">parataxis</sub> .</td></tr><tr data-instance-id="dante_01_462314687338917888l::leilão::1"><td>33</td><td class="arg0">-</td><td class="arg1">de PETR4 e VALE5</td><td class="arg2">-</td><td class="arg3">-</td><td class="arg4">-</td><td class='texto'>só eu que tô curioso pra ver o comportamento ( e o volume ) <span class="arg1">de PETR4 e VALE5</span><sub class="deprel">nmod</sub> em o <span class="rel">leilão</span> de fechamento de hoje ? =)</td></tr></tbody>
+    </table></div>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th><th class="arg4">Arg 4</th></tr></thead>
+        <tbody><tr><td>case</td><td>0</td><td>1</td><td>0</td><td class="arg3">0</td><td class="arg4">0</td></tr><tr><td>det</td><td>0</td><td>1</td><td>0</td><td class="arg3">0</td><td class="arg4">0</td></tr><tr><td>nmod</td><td>2</td><td>18</td><td>0</td><td class="arg3">1</td><td class="arg4">0</td></tr><tr><td>nsubj</td><td>1</td><td>0</td><td>0</td><td class="arg3">0</td><td class="arg4">0</td></tr><tr><td>nummod</td><td>0</td><td>0</td><td>0</td><td class="arg3">2</td><td class="arg4">0</td></tr><tr><td>parataxis</td><td>0</td><td>0</td><td>0</td><td class="arg3">0</td><td class="arg4">1</td></tr><tr><td>root</td><td>0</td><td>1</td><td>0</td><td class="arg3">0</td><td class="arg4">0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=l" title="Voltar para letra L">← Voltar para L</a>
+
+</body>
+</html>

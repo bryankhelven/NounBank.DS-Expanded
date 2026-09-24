@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>perspectiva - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">perspectiva</span>
+    <a class="download-json" href="../jsons/perspectiva.json" download="perspectiva.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">perspectiva</i></h1>
+  <p><strong>Roleset id:</strong> perspectiva.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/perspective.xml">perspective.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/opine.html">verb-opine.01</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: speaker</li>
+<li class="arg1">Arg 1: opinion</li>
+<li class="arg2">Arg 2: hearer</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_464201927031803904l::perspectiva::1">1: #BOVESPA #USIM5 <span class="arg0">S&amp;P</span> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span> : http://t.co/JdfGy10phl #BR</h3>
+<ul>
+<li class="rel">rel: perspectiva</li>
+<li class="arg0">Arg 0: S&amp;P</li>
+<li class="arg1">Arg 1: de nota de a Usiminas para estável</li>
+<li class="arg2">Arg 2: -</li>
+</ul>
+<h3 data-instance-id="dante_01_450653213835145216l::perspectiva::1">2: #BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span> . http://t.co/dcYSiVa45x #ASIA</h3>
+<ul>
+<li class="rel">rel: perspectiva</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: de estímulo em a China</li>
+<li class="arg2">Arg 2: -</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <table id="relations-table">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_464201927031803904l::perspectiva::1"><td>1</td><td class="arg0">S&amp;P</td><td class="arg1">de nota de a Usiminas para estável</td><td class="arg2">-</td><td class='texto'>#BOVESPA #USIM5 <span class="arg0">S&amp;P</span><sub class="deprel">nsubj</sub> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span><sub class="deprel">obl</sub> : http://t.co/JdfGy10phl #BR</td></tr><tr data-instance-id="dante_01_450653213835145216l::perspectiva::1"><td>2</td><td class="arg0">-</td><td class="arg1">de estímulo em a China</td><td class="arg2">-</td><td class='texto'>#BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span><sub class="deprel">nmod</sub> . http://t.co/dcYSiVa45x #ASIA</td></tr><tr data-instance-id="dante_01_456867956006588416l::perspectiva::1"><td>3</td><td class="arg0">-</td><td class="arg1">de divulgação de nova pesquisa de o IBOPE</td><td class="arg2">-</td><td class='texto'>@coroneldoblog Apenas a <span class="rel">perspectiva</span> <span class="arg1">de divulgação de nova pesquisa de o IBOPE</span><sub class="deprel">nmod</sub> , logo mais , faz Petrobrás ( PETR4 ) disparar em a Bovespa de novo .</td></tr><tr data-instance-id="dante_01_448888350523813888l::perspectiva::1"><td>4</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>#PETR3 #PETR4 - Fitch afirma rating de a Petrobras em BBB com <span class="rel">perspectiva</span> estável - http://t.co/O6p9US6gV4</td></tr><tr data-instance-id="dante_01_449269972699975681l::perspectiva::1"><td>5</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a eleição</td><td class="arg2">-</td><td class='texto'>Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a eleição</span><sub class="deprel">obj</sub> ...</td></tr><tr data-instance-id="dante_01_449597804189847552l::perspectiva::1"><td>6</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a el</td><td class="arg2">-</td><td class='texto'>RT @chrinvestor : Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a el</span><sub class="deprel">obj:wtrunc</sub> …</td></tr></tbody>
+    </table>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th></tr></thead>
+        <tbody><tr><td>nmod</td><td>0</td><td>2</td><td>0</td></tr><tr><td>nsubj</td><td>1</td><td>0</td><td>0</td></tr><tr><td>obj</td><td>0</td><td>1</td><td>0</td></tr><tr><td>obj:wtrunc</td><td>0</td><td>1</td><td>0</td></tr><tr><td>obl</td><td>0</td><td>1</td><td>0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=p" title="Voltar para letra P">← Voltar para P</a>
+
+</body>
+</html>

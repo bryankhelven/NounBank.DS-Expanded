@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cotação - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">cotação</span>
+    <a class="download-json" href="../jsons/cotação.json" download="cotação.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">cotação</i></h1>
+  <p><strong>Roleset id:</strong> cotação.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/quotation.xml">quotation.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/quote.html">verb-quote.01</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: quoter</li>
+<li class="arg1">Arg 1: theme</li>
+<li class="arg2">Arg 2: source</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_441252640320933889l::cotação::1">1: Ação ex-dividendos hoje : CSNA3 , ITSA3 , ITSA4 , ITUB3 e ITUB4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span> . Saiba mais ! http://t.co/C7k4DuDID2</h3>
+<ul>
+<li class="rel">rel: cotação</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: foram ajustadas</li>
+<li class="arg2">Arg 2: -</li>
+</ul>
+<h3 data-instance-id="dante_01_443369295138287616l::cotação::1">2: Ações ex-dividendos hoje : VIVT3 e VIVT4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span> . Saiba mais ! http://t.co/C7k4DuDID2</h3>
+<ul>
+<li class="rel">rel: cotação</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: foram ajustadas</li>
+<li class="arg2">Arg 2: -</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <table id="relations-table">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_441252640320933889l::cotação::1"><td>1</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-dividendos hoje : CSNA3 , ITSA3 , ITSA4 , ITUB3 e ITUB4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_443369295138287616l::cotação::1"><td>2</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : VIVT3 e VIVT4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_445544931286089728l::cotação::1"><td>3</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : CIEL3 e TOTS3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_446270093685948416l::cotação::1"><td>4</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-dividendos hoje : KROT3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_446628649891287040l::cotação::1"><td>5</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-dividendos hoje : CRUZ3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_446986109680373760l::cotação::1"><td>6</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : KLBN3 , KLBN4 e KLBN11 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_448076336100544512l::cotação::1"><td>7</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ALPA3 , ALPA4 , LAME3 e LAME4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_450979848862060544l::cotação::1"><td>8</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ITUB3 , ITUB4 e SULA11 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_451698214216159232l::cotação::1"><td>9</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ABEV3 e ODPV3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_454233943685210112l::cotação::1"><td>10</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : BRKM3 e BRKM5 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_454596117842657280l::cotação::1"><td>11</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ALLL3 , BEMA3 e GRND3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_458587150532247552l::cotação::1"><td>12</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : AMAR3 e LREN3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_459668711092523008l::cotação::1"><td>13</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : CPLE3 , CPLE6 , IGTA3 , LIGT3 e VLID3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_460755872399237120l::cotação::1"><td>14</td><td class="arg0">-</td><td class="arg1">ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ARZZ3 , ELPL , EQTL3 , GETI , GFSA3 , IMCH3 , JSLG3 , KEPL3 , MAGG3 e MILS3 . <span class="rel">Cotações</span> <span class="arg1">ajustadas</span><sub class="deprel">acl</sub> ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_461121066325512192l::cotação::1"><td>15</td><td class="arg0">-</td><td class="arg1">ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ABRE11 , AEDU3 , ALSC3 , BBRK3 , BRAP , CYRE3 , DASA3 , EMBR3 , FLRY3 e SEER3 . <span class="rel">Cotações</span> <span class="arg1">ajustadas</span><sub class="deprel">acl</sub> ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_461489900689559553l::cotação::1"><td>16</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : CESP , CPFE3 , ECOR3 , ENBR3 , GRND3 , ODPV3 , SSBR3 , POSI3 e TGMA3 . As <span class="rel">cotações</span> <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_463661481389998080l::cotação::1"><td>17</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>RT @daltonvieira : Ação ex-dividendos hoje : PCAR4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_467283300554637312l::cotação::1"><td>18</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : MRVE3 e SULA11 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_441550780672540672l::cotação::1"><td>19</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-juros hoje : BBDC3 , BBDC4 e MPLU3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_445544684958789632l::cotação::1"><td>20</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : CIEL3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_446269948810510336l::cotação::1"><td>21</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : LREN3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_449161247217704960l::cotação::1"><td>22</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : CTIP3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_450979666925731840l::cotação::1"><td>23</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : RENT3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_451698018430226432l::cotação::1"><td>24</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-juros hoje : ODPV3 , PETR3 e PETR4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_461121982013390848l::cotação::1"><td>25</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-juros hoje : BRAP3 e BRAP4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_463296237513740288l::cotação::1"><td>26</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : BBDC3 e BBDC4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_463296486709948416l::cotação::1"><td>27</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-bonificação hoje : ITSA3 e ITSA4 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/RR6Wuao1Kv</td></tr><tr data-instance-id="dante_01_446694551160233985l::cotação::1"><td>28</td><td class="arg0">-</td><td class="arg1">de mudança</td><td class="arg2">-</td><td class='texto'>Virada : BBAS3 em ponto perigoso <span class="arg1">de mudança</span><sub class="deprel">nmod</sub> de a <span class="rel">cotação</span> para baixo . IMA-crash alto . http://t.co/rowQqe82CN</td></tr><tr data-instance-id="dante_01_444475914035163136l::cotação::1"><td>29</td><td class="arg0">-</td><td class="arg1"> continuam melhorando</td><td class="arg2">-</td><td class='texto'>volume diminuindo um pouco em a #PETR4 ... mas <span class="rel">cotações</span> continuam melhorando . Já disse ... agradeçam a Fator . ,)</td></tr><tr data-instance-id="dante_01_469914585508876288l::cotação::1"><td>30</td><td class="arg0">-</td><td class="arg1">começar a corrigir um pouco</td><td class="arg2">-</td><td class='texto'>ah , lembra que o volume de a #PETR4 tava caindo e caindo ? Pois então ... foi só a <span class="rel">cotação</span> <span class="arg1">começar a corrigir um pouco</span><sub class="deprel">nsubj</sub> pra ele aumentar . ,)</td></tr><tr data-instance-id="dante_01_441550937262665728l::cotação::1"><td>31</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : GGBR3 , GGBR4 , GOAU3 , GOAU4 e MPLU3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_449161393988968448l::cotação::1"><td>32</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-dividendos hoje : SANB11 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_459306891961970688l::cotação::1"><td>33</td><td class="arg0">-</td><td class="arg1">ajustadas</td><td class="arg2">-</td><td class='texto'>RT @daltonvieira : Ações ex-dividendos hoje : ARTR3 , AUTM3 , LEVE3 , HGTX3 , RDNI3 , VIVT3 e VIVT4 . <span class="rel">Cotações</span> históricas <span class="arg1">ajustadas</span><sub class="deprel">acl</sub> . Saiba mais htt …</td></tr><tr data-instance-id="dante_01_460758238779432960l::cotação::1"><td>34</td><td class="arg0">-</td><td class="arg1">ajustadas</td><td class="arg2">-</td><td class='texto'>RT @daltonvieira : Ações ex-dividendos hoje : ARZZ3 , ELPL , EQTL3 , GETI , GFSA3 , IMCH3 , JSLG3 , KEPL3 , MAGG3 e MILS3 . <span class="rel">Cotações</span> <span class="arg1">ajustadas</span><sub class="deprel">acl</sub> ! http:/ …</td></tr><tr data-instance-id="dante_01_468732911655845888l::cotação::1"><td>35</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : BBAS3 , BVMF3 e ETER3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/C7k4DuDID2</td></tr><tr data-instance-id="dante_01_443729962336796672l::cotação::1"><td>36</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : BBAS3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_448076052364296192l::cotação::1"><td>37</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-juros hoje : ALPA3 , ALPA4 , CRUZ3 , POMO3 , POMO4 e RADL3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_453511483784454144l::cotação::1"><td>38</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-juros hoje : SBSP3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/utSF6DP4ug</td></tr><tr data-instance-id="dante_01_458947931052457985l::cotação::1"><td>39</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-bonificação hoje : DTEX3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/RR6Wuao1Kv</td></tr><tr data-instance-id="dante_01_450688462857834496l::cotação::1"><td>40</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : <span class="rel">Cotações</span> de a commodi ... http://t.co/gCQ5AkNoWz #infomoney #vale5</td></tr><tr data-instance-id="dante_01_450721159739609088l::cotação::1"><td>41</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>RT @clickinv_VALE5 : Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : <span class="rel">Cotações</span> de a commodi ... http://t.co/gCQ5AkNoWz …</td></tr><tr data-instance-id="dante_01_456414030609932289l::cotação::1"><td>42</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ação ex-dividendos hoje : CCRO3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/xlwIhPylwX</td></tr><tr data-instance-id="dante_01_456777574425710593l::cotação::1"><td>43</td><td class="arg0">-</td><td class="arg1">foram ajustadas</td><td class="arg2">-</td><td class='texto'>Ações ex-dividendos hoje : ALUP11 , COCE5 , PCAR4 , QGEP3 e SLCE3 . As <span class="rel">cotações</span> históricas <span class="arg1">foram ajustadas</span><sub class="deprel">nsubj:pass</sub> . Saiba mais ! http://t.co/xlwIhPylwX</td></tr><tr data-instance-id="dante_01_449938384048635904l::cotação::1"><td>44</td><td class="arg0">Bovespa</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Gráfico interativo - Petrobras PN - PETR4 - <span class="rel">Cotações</span> <span class="arg0">Bovespa</span><sub class="deprel">nmod</sub> - http://t.co/ASPBmyoBSk http://t.co/VoE1ko70sQ via @sharethis</td></tr><tr data-instance-id="dante_01_455717055686541313l::cotação::1"><td>45</td><td class="arg0">-</td><td class="arg1">Explode</td><td class="arg2">-</td><td class='texto'>vale petr4 hrt <span class="arg1">Explode</span><sub class="deprel">nsubj</sub> <span class="rel">cotação</span> ! ! !</td></tr><tr data-instance-id="dante_01_448595371955343360l::cotação::1"><td>46</td><td class="arg0">-</td><td class="arg1">entrou em o canal de variação estatístico</td><td class="arg2">-</td><td class='texto'>Sinal de os tempos , hoje a PETR3 recebeu alta , saiu de a UTI e <span class="arg1">entrou em o canal de variação estatístico</span><sub class="deprel">obl</sub> de suas <span class="rel">cotações</span> , muito bom !</td></tr><tr data-instance-id="dante_01_464480004689379328l::cotação::1"><td>47</td><td class="arg0">BOVESPA</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Petr3.SA tipo PETROBRAS ON em dezembro 28 de 2007 a <span class="rel">cotação</span> <span class="arg0">BOVESPA</span><sub class="deprel">nmod</sub> estava em minima R$ 51,08 e maxima R$ 52,23 , fonte Thomson Reuters .</td></tr></tbody>
+    </table>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th></tr></thead>
+        <tbody><tr><td>acl</td><td>0</td><td>4</td><td>0</td></tr><tr><td>nmod</td><td>2</td><td>1</td><td>0</td></tr><tr><td>nsubj</td><td>0</td><td>3</td><td>0</td></tr><tr><td>nsubj:pass</td><td>0</td><td>34</td><td>0</td></tr><tr><td>obl</td><td>0</td><td>1</td><td>0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=c" title="Voltar para letra C">← Voltar para C</a>
+
+</body>
+</html>

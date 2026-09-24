@@ -1,0 +1,598 @@
+{
+  "status": "PASS",
+  "official_json_files": 143,
+  "official_instances": 1756,
+  "all_instances_including_legacy": 1757,
+  "seller_json_instances": 1,
+  "patch_strict_validation": {
+    "cotação.json": 47,
+    "distribuição.json": 28,
+    "indicação.json": 320,
+    "investimento.json": 33,
+    "notícia.json": 31,
+    "relatório.json": 24,
+    "resistência.json": 122,
+    "spread.json": 4,
+    "venda.json": 149
+  },
+  "missing_eight_instances": 754,
+  "legacy_warning_count": 70,
+  "legacy_warning_counts": {
+    "REALIZATION_NOT_EXACT_SUBSTRING": 58,
+    "REALIZATION_WITHOUT_SYNTAX": 12
+  },
+  "legacy_warnings": [
+    {
+      "file": "alienação.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "De Particiacao Acionaria"
+    },
+    {
+      "file": "antro.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "corrupção e inépcia"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Acoes Remanescentes De o Leilao"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 6,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Direitos Economicos - federal Foods"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 7,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Cias"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 8,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Quotas"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 9,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "ações"
+    },
+    {
+      "file": "aquisição.json",
+      "sense": 0,
+      "example": 9,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "Banco Santander ( SANB11 )"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "12.94"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "12.94"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "15.35"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "15.35"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "15.35"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "15.35"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 6,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "13.5"
+    },
+    {
+      "file": "briga.json",
+      "sense": 0,
+      "example": 6,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "13.5"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Candidatos"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Candidatos"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 6,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg1",
+      "value": "candidato"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 7,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Candidato"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 8,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Candidatos"
+    },
+    {
+      "file": "candidato.json",
+      "sense": 0,
+      "example": 9,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Candidatos"
+    },
+    {
+      "file": "causa.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg0",
+      "value": "Jean Willis"
+    },
+    {
+      "file": "chance.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de desabar - acl"
+    },
+    {
+      "file": "comparação.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "com a dasa"
+    },
+    {
+      "file": "compra.json",
+      "sense": 0,
+      "example": 15,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg1",
+      "value": "rompimento"
+    },
+    {
+      "file": "compra.json",
+      "sense": 0,
+      "example": 15,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "rompimento"
+    },
+    {
+      "file": "compra.json",
+      "sense": 0,
+      "example": 77,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg1",
+      "value": "rompimento"
+    },
+    {
+      "file": "compra.json",
+      "sense": 0,
+      "example": 77,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "rompimento"
+    },
+    {
+      "file": "confirmação.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de o rompimento de os R$ 16,60"
+    },
+    {
+      "file": "convocação.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "para a AGO"
+    },
+    {
+      "file": "coordenador.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "De o Comite de Auditoria"
+    },
+    {
+      "file": "descoberta.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de nova jazida de #propina"
+    },
+    {
+      "file": "descoberta.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg3",
+      "value": "em o pré-sal"
+    },
+    {
+      "file": "diretoria.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "De Regulação"
+    },
+    {
+      "file": "divulgação.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "Pesquisa dia 28"
+    },
+    {
+      "file": "entendimento.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "é que haverá uma gestão mais ética , profissional e menos politica"
+    },
+    {
+      "file": "entrada.json",
+      "sense": 0,
+      "example": 15,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg0",
+      "value": "Todos Papeis"
+    },
+    {
+      "file": "exemplo.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg1",
+      "value": "exemplo"
+    },
+    {
+      "file": "exemplo.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "exemplo"
+    },
+    {
+      "file": "exemplo.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "nota-se algumas ações em o vermelho"
+    },
+    {
+      "file": "exemplo.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg1",
+      "value": "exemplo"
+    },
+    {
+      "file": "exemplo.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "exemplo"
+    },
+    {
+      "file": "expectativa.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "é de que sejam anunciados estímulos em a economia chinesa"
+    },
+    {
+      "file": "exploração.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de o fisiologismo em a bacia de as almas"
+    },
+    {
+      "file": "exploração.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de o fisiologismo em a bacia de as almas"
+    },
+    {
+      "file": "hora.json",
+      "sense": 0,
+      "example": 6,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de pensar em a PETR4"
+    },
+    {
+      "file": "leilão.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "De Ações"
+    },
+    {
+      "file": "licença.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "Do Diretor De Distribuicao"
+    },
+    {
+      "file": "meio.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de escândalos de corrupção."
+    },
+    {
+      "file": "oferta.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "bônus no exterior"
+    },
+    {
+      "file": "oferta.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "US$ 8,5 bihões"
+    },
+    {
+      "file": "oferta.json",
+      "sense": 0,
+      "example": 9,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "-5.199999999999999"
+    },
+    {
+      "file": "oferta.json",
+      "sense": 0,
+      "example": 9,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "-5.199999999999999"
+    },
+    {
+      "file": "olhada.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg0",
+      "value": "Live_trade"
+    },
+    {
+      "file": "olhada.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg0",
+      "value": "Live_trade"
+    },
+    {
+      "file": "olhada.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "vem vale5?"
+    },
+    {
+      "file": "pedido.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Procuracao"
+    },
+    {
+      "file": "posição.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "que já alcançaram realização parcial"
+    },
+    {
+      "file": "posição.json",
+      "sense": 0,
+      "example": 8,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg0",
+      "value": "minhas"
+    },
+    {
+      "file": "posição.json",
+      "sense": 0,
+      "example": 17,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "em o ibovespa"
+    },
+    {
+      "file": "proposta.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Dividendos"
+    },
+    {
+      "file": "proposta.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Aumento de Capital Social"
+    },
+    {
+      "file": "proposta.json",
+      "sense": 0,
+      "example": 2,
+      "type": "REALIZATION_WITHOUT_SYNTAX",
+      "arg": "Arg2",
+      "value": "Ago"
+    },
+    {
+      "file": "proposta.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "de Incorporacao"
+    },
+    {
+      "file": "reapresentação.json",
+      "sense": 0,
+      "example": 5,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg1",
+      "value": "Relatório De Análise Gerencial"
+    },
+    {
+      "file": "relação.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "R$ 2,943 bilhões em o mesmo período de 2013"
+    },
+    {
+      "file": "retorno.json",
+      "sense": 0,
+      "example": 1,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg0",
+      "value": "da Ibovespa"
+    },
+    {
+      "file": "reunião.json",
+      "sense": 0,
+      "example": 0,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "com o conselho de administração"
+    },
+    {
+      "file": "zona.json",
+      "sense": 0,
+      "example": 3,
+      "type": "REALIZATION_NOT_EXACT_SUBSTRING",
+      "arg": "Arg2",
+      "value": "em fibo"
+    }
+  ],
+  "site_missing_json_targets": [],
+  "manifest_entries": 143,
+  "aggregate_zip_members": 143,
+  "aggregate_zip_instances": 1756,
+  "aggregate_zip_crc_bad_member": null,
+  "backup_root": "/home/bryan/workspace/NounBank.DS/.nounbank_backup/recovery_v2_20260818_113358",
+  "backed_up": [
+    "jsons/_manifest.json",
+    "jsons/nounbank.ds_all_jsons.zip"
+  ],
+  "stale_hardcoded_count_candidates": [],
+  "policy": "Patch-touched JSONs strict; legacy JSON inconsistencies diagnostic/non-blocking."
+}

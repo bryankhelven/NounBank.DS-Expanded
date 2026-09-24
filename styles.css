@@ -1,0 +1,241 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #333;
+  }
+  
+  .header {
+    width: 100%;
+    background: #222;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-left: 10px; /* Espaço da borda esquerda */
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .header a:hover, .header a.active {
+    background-color: #3f4f7f;
+  }
+  
+  /* Botão "Download JSONs" no header */
+  .header a.download-all-btn.busy {
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: progress;
+  }
+
+  .gradient-box {
+    width: 75%;
+    min-height: 50vh;
+    background: linear-gradient(to top left, #0f0f2f, #3f4f7f);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column;
+    padding: 40px;
+    margin: 60px auto 0; /* Auto horizontal para centralizar e 60px superior */
+    margin-top: calc(100px + 20px);
+  }
+  
+  .title {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 80%;
+  }
+  
+  .alphabet-buttons {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .letter-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .letter-button:hover {
+    background-color: #3f4f7f;
+  }
+  
+  .hidden-content-box {
+    display: none;
+    background-color: #444; /* Acinzentado mais claro que o fundo geral */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    /* Resto do seu estilo para content-box */
+  }
+
+.content-link {
+    color: #a9b1d6; /* Exemplo de uma cor clara que funcionará bem com fundo cinza-médio */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .content-link:hover {
+    color: #c0caff; /* Uma tonalidade mais clara para o hover */
+  }
+  
+  .letter-button.selected {
+    background-color: #3f4f7f; /* A mesma cor usada para o hover */
+  }
+  
+.content {
+    background-color: #444; /* Fundo acinzentado */
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 15px;
+  }
+  
+  h1, h2 {
+    color: #a9b1d6;
+  }
+  
+  p, li {
+    color: #c0caff;
+  }
+
+  .content a {
+    color: #a9b1d6; /* Cor clara para contraste com o fundo */
+    text-decoration: underline;
+  }
+  
+  .content a:hover {
+    color: #c0caff; /* Cor mais clara ao passar o mouse */
+  }
+  
+  .arg0 { color: #FF6347; } /* Vermelho - para Arg 0 */
+  .arg1 { color: #4682B4; } /* Azul - para Arg 1 */
+  .arg2 { color: #32CD32; } /* Verde - para Arg 2 */
+  .rel { color: #FFD700; } /* Dourado - para rel */
+  .u { text-decoration: underline; }
+  .sub { vertical-align: sub; font-size: smaller; }
+
+/* Estilos para as colunas Arg */
+th.arg0, td.arg0,
+th.arg1, td.arg1{
+  width: 5%; /* Reduz a largura para dar mais espaço à coluna Texto */
+  min-width: 50px; /* Ajuste a largura mínima conforme necessário */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Ajuste específico para largura mínima do cabeçalho Arg 2 para controlar sua largura */
+th.arg2, td.arg2{
+  min-width: 20px; /* Ajuste conforme necessário */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+/* Estilo para a coluna Texto */
+th, td {
+  white-space: normal; /* Permite a quebra de linha */
+}
+
+/* Estilo específico para as colunas Arg para evitar quebra de linha */
+th.arg0, th.arg1, th.arg2, td.arg0, td.arg1, td.arg2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Estilos para garantir sublinhado nas palavras com subscrito */
+.u { 
+  text-decoration: underline; 
+}
+
+/* Estilos para a tabela */
+table {
+  table-layout: auto; /* Permite que a tabela ajuste dinamicamente a largura das colunas */
+  width: 100%; /* Faz a tabela ocupar a largura total disponível */
+}
+
+.statistics-table-container {
+  margin-top: 30px; /* Distância da tabela anterior */
+  text-align: center; /* Centraliza o título da tabela */
+}
+
+:is(#statistics-table, [id|="statistics-table"]) {
+  margin: 20px auto; /* Centraliza a tabela na div e adiciona espaço acima/abaixo */
+  border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+  width: 80%; /* Ajuste a largura conforme necessário */
+}
+
+:is(#statistics-table, [id|="statistics-table"]), :is(#statistics-table, [id|="statistics-table"]) th, :is(#statistics-table, [id|="statistics-table"]) td {
+  border: 1px solid #ddd; /* Adiciona bordas à tabela e às células */
+}
+
+:is(#statistics-table, [id|="statistics-table"]) th, :is(#statistics-table, [id|="statistics-table"]) td {
+  padding: 8px; /* Espaçamento interno nas células */
+  text-align: center; /* Centraliza o texto nas células */
+}
+
+:is(#statistics-table, [id|="statistics-table"]) th {
+  background-color: #f2f2f2; /* Cor de fundo para cabeçalhos da tabela */
+  color: black; /* Cor do texto para cabeçalhos da tabela */
+}
+
+/* Aplicando cores específicas para Arg 0, Arg 1 e Arg 2 como na tabela anterior */
+:is(#statistics-table, [id|="statistics-table"]) .arg0 { color: #FF6347; }
+:is(#statistics-table, [id|="statistics-table"]) .arg1 { color: #4682B4; }
+:is(#statistics-table, [id|="statistics-table"]) .arg2 { color: #32CD32; }
+
+
+/* Additional roles; existing role colors and compact tables stay unchanged. */
+.arg3, :is(#statistics-table, [id|="statistics-table"]) .arg3 { color: #B57EDC; }
+.arg4, :is(#statistics-table, [id|="statistics-table"]) .arg4 { color: #CD7F32; }
+.argument-table-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments {
+  table-layout: fixed;
+  min-width: calc(3.5rem + var(--arg-count) * 7rem + 28rem);
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments col.argcol { width: 7rem; }
+:is(#relations-table, [id|="relations-table"]).expanded-arguments col.textcol { width: auto; }
+:is(#relations-table, [id|="relations-table"]).expanded-arguments td {
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments td[class^="arg"] { text-align: center; }
+
+.content:has(.expanded-arguments) { overflow-wrap: anywhere; }
+.content:has(.expanded-arguments) .statistics-table-container { overflow-x: auto; }

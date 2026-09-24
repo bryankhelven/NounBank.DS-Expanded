@@ -1,0 +1,159 @@
+name: NBE remote browser smoke
+run-name: NBE remote smoke ${{ inputs.run_nonce }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      page_url:
+        description: "GitHub Pages root URL"
+        required: true
+        type: string
+      run_nonce:
+        description: "Unique run correlation token"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remote Pages browser smoke
+        id: smoke
+        shell: bash
+        env:
+          PAGE_URL: ${{ inputs.page_url }}
+          RUN_NONCE: ${{ inputs.run_nonce }}
+        run: |
+          set -uo pipefail
+          ROOT="${PAGE_URL%/}/"
+          LEMMA="${ROOT}site_pages/compra.html"
+          JSON_URL="${ROOT}jsons/compra.json"
+          FAIL=0
+          CHECKS="$GITHUB_WORKSPACE/C11_CHECKS.tsv"
+          : > "$CHECKS"
+
+          record() {
+            local name="$1" status="$2"
+            printf '%s\t%s\n' "$name" "$status" | tee -a "$CHECKS"
+            if [ "$status" != PASS ]; then FAIL=1; fi
+          }
+
+          ready=0
+          for i in $(seq 1 90); do
+            if curl -fsS --max-time 20 "$ROOT" >/tmp/nbe_root_source.html 2>/dev/null; then
+              ready=1
+              echo "C11_ROOT_HTTP=READY POLL=$i"
+              break
+            fi
+            echo "C11_ROOT_HTTP=PENDING POLL=$i"
+            sleep 4
+          done
+          if [ "$ready" = 1 ]; then record root_http PASS; else record root_http FAIL; fi
+
+          BROWSER="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$BROWSER" ]; then
+            sudo apt-get update -qq
+            if sudo apt-get install -y chromium >/dev/null; then
+              BROWSER="$(command -v chromium || true)"
+            fi
+          fi
+          if [ -n "$BROWSER" ]; then record browser_available PASS; else record browser_available FAIL; fi
+
+          if [ -n "$BROWSER" ] && "$BROWSER" --headless=new --no-sandbox --disable-gpu \
+              --virtual-time-budget=10000 --dump-dom "$ROOT" > /tmp/nbe_root_dom.html; then
+            record root_browser_process PASS
+            grep -Fq 'NounBank.DS Expanded' /tmp/nbe_root_dom.html && record root_title_subtitle PASS || record root_title_subtitle FAIL
+            grep -Fq 'id="btn-C"' /tmp/nbe_root_dom.html && record root_alphabet_control PASS || record root_alphabet_control FAIL
+            grep -Fq 'id="download-all-json"' /tmp/nbe_root_dom.html && record root_download_control PASS || record root_download_control FAIL
+            grep -Fq 'scripts.js' /tmp/nbe_root_dom.html && record root_script_contract PASS || record root_script_contract FAIL
+          else
+            record root_browser_process FAIL
+            record root_title_subtitle FAIL
+            record root_alphabet_control FAIL
+            record root_download_control FAIL
+            record root_script_contract FAIL
+          fi
+
+          if [ -n "$BROWSER" ] && "$BROWSER" --headless=new --no-sandbox --disable-gpu \
+              --virtual-time-budget=5000 --dump-dom "$LEMMA" > /tmp/nbe_compra_dom.html; then
+            record lemma_browser_process PASS
+            grep -Fq 'class="rel"' /tmp/nbe_compra_dom.html && record lemma_relation_markup PASS || record lemma_relation_markup FAIL
+            grep -Fq '../jsons/compra.json' /tmp/nbe_compra_dom.html && record lemma_json_link PASS || record lemma_json_link FAIL
+            grep -Fq 'id="relations-table"' /tmp/nbe_compra_dom.html && record lemma_argument_table PASS || record lemma_argument_table FAIL
+          else
+            record lemma_browser_process FAIL
+            record lemma_relation_markup FAIL
+            record lemma_json_link FAIL
+            record lemma_argument_table FAIL
+          fi
+
+          if curl -fsS --max-time 20 "$JSON_URL" -o /tmp/nbe_compra.json; then
+            record json_http PASS
+            if python3 - <<'PY'
+          import json
+          p='/tmp/nbe_compra.json'
+          d=json.load(open(p, encoding='utf-8'))
+          required={'expanded_metadata','lemma','lemma_base','senses','unresolved_instances'}
+          assert set(d) == required, (set(d), required)
+          assert d['lemma']=='compra'
+          assert isinstance(d['senses'], list)
+          assert isinstance(d['unresolved_instances'], list)
+          assert d['senses'], 'compra must expose at least one resolved sense'
+          PY
+            then
+              record json_endpoint_schema PASS
+            else
+              record json_endpoint_schema FAIL
+            fi
+          else
+            record json_http FAIL
+            record json_endpoint_schema FAIL
+          fi
+
+          export C11_FAIL="$FAIL"
+          python3 - <<'PY'
+          import json, os, datetime
+          root=os.environ['PAGE_URL'].rstrip('/')+'/'
+          checks={}
+          with open(os.path.join(os.environ['GITHUB_WORKSPACE'],'C11_CHECKS.tsv'), encoding='utf-8') as f:
+              for line in f:
+                  name,status=line.rstrip('\n').split('\t',1)
+                  checks[name]=status
+          failed=[k for k,v in checks.items() if v!='PASS']
+          out={
+            'status':'PASS' if not failed else 'FAIL',
+            'run_nonce':os.environ['RUN_NONCE'],
+            'page_url':root,
+            'checks':checks,
+            'failed_checks':failed,
+            'tested_urls':{
+              'root':root,
+              'lemma':root+'site_pages/compra.html',
+              'json':root+'jsons/compra.json'
+            },
+            'timestamp_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()
+          }
+          with open('C11_REMOTE_BROWSER_SMOKE.json','w',encoding='utf-8') as f:
+              json.dump(out,f,ensure_ascii=False,indent=2)
+              f.write('\n')
+          print(json.dumps({'C11_RESULT':out['status'],'failed_checks':failed},ensure_ascii=False))
+          PY
+
+          if [ "$FAIL" -ne 0 ]; then
+            echo 'ERROR=C11_REMOTE_BROWSER_SMOKE_FAILED'
+            exit 1
+          fi
+          echo 'C11=GREEN'
+
+      - name: Upload browser-smoke evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nbe-remote-browser-smoke
+          path: |
+            C11_REMOTE_BROWSER_SMOKE.json
+            C11_CHECKS.tsv
+          if-no-files-found: error

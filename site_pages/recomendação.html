@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>recomendação - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">recomendação</span>
+    <a class="download-json" href="../jsons/recomendação.json" download="recomendação.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">recomendação</i></h1>
+  <p><strong>Roleset id:</strong> recomendação.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/recommendation.xml">recommendation.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/recommend.html">verb-recommend.01</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: recommender</li>
+<li class="arg1">Arg 1: thing recommended</li>
+<li class="arg2">Arg 2: recommended to</li>
+<li class="arg3">Arg 3: secondary attribute</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_443881920188145664l::recomendação::1">1: RT @AASchwartz : @piavu e as <span class="rel">recomendações</span> <span class="arg1">de compra</span> em jbss3 e mmxm3 de o @ferrisss em o início de o ano . Se ele soubesse um mín de AT não levava …</h3>
+<ul>
+<li class="rel">rel: recomendação</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: de compra</li>
+<li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: -</li>
+</ul>
+<h3 data-instance-id="dante_01_456842896021278720l::recomendação::1">2: Guiné aprova proposta de cassar concessões de Vale e BSGR , diz fonte : A <span class="rel">recomendação</span> foi fei ... http://t.co/YccHpNWsUt #infomoney #vale5</h3>
+<ul>
+<li class="rel">rel: recomendação</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: -</li>
+<li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: -</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <div class="argument-table-scroll" tabindex="0" aria-label="Realização sintática"><table id="relations-table" class="expanded-arguments" style="--arg-count:4">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_443881920188145664l::recomendação::1"><td>1</td><td class="arg0">-</td><td class="arg1">de compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>RT @AASchwartz : @piavu e as <span class="rel">recomendações</span> <span class="arg1">de compra</span><sub class="deprel">nmod</sub> em jbss3 e mmxm3 de o @ferrisss em o início de o ano . Se ele soubesse um mín de AT não levava …</td></tr><tr data-instance-id="dante_01_456842896021278720l::recomendação::1"><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Guiné aprova proposta de cassar concessões de Vale e BSGR , diz fonte : A <span class="rel">recomendação</span> foi fei ... http://t.co/YccHpNWsUt #infomoney #vale5</td></tr><tr data-instance-id="dante_01_444083603308175360l::recomendação::1"><td>3</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>BB Investimentos troca 5 ativos de sua carteira , veja <span class="rel">recomendações</span> : Em este mês , entraram as ... http://t.co/6nvfUxbw1P #infomoney #vale5</td></tr><tr data-instance-id="dante_01_444579970325557248l::recomendação::1"><td>4</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Santander <span class="rel">recomenda</span> 2 novos papéis para o mês , confira : BRF e Braskem são as novas recomenda ... http://t.co/7hzE9qppCV #infomoney #vale5</td></tr><tr data-instance-id="dante_01_451411205161508866l::recomendação::1"><td>5</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>BBSE3 - ' É muito cedo para basear a <span class="rel">recomendação</span> em o resultado de as eleições ' , diz BTG - InfoMoney Veja mais em : http://t.co/thncBwA5YP</td></tr><tr data-instance-id="dante_01_466323359324991488l::recomendação::1"><td>6</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Geral troca EZTec por Itaú Unibanco , confira as 10 <span class="rel">recomendações</span> : A Geral Investimentos fez ... http://t.co/Tk3Klt4bBt #infomoney #vale5</td></tr><tr data-instance-id="dante_01_445656208997744640l::recomendação::1"><td>7</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Veja as 10 ações preferidas de a Socopa para comprar em esta semana : Continuam entre as <span class="rel">recomend</span> ... http://t.co/pqQ9H0vNAL #infomoney #vale5</td></tr><tr data-instance-id="dante_01_461129245134426113l::recomendação::1"><td>8</td><td class="arg0">-</td><td class="arg1">de compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#goau4 ganhou <span class="rel">recomendação</span> <span class="arg1">de compra</span><sub class="deprel">nmod</sub> de uma corretora e já reflete em o preço . #bbas3 disparou ontem , rompeu resistência e Mm : COMPRAR !</td></tr><tr data-instance-id="dante_01_461130593787719680l::recomendação::1"><td>9</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#abev3 também andou <span class="rel">recomendação</span> e sobe forte . Continuo comprado . Vou entrar em #cemig4 por as Mm , de olho em uma resistência ~ 16.65</td></tr><tr data-instance-id="dante_01_441294832774836224l::recomendação::1"><td>10</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Corretora indica compra de Vale , Cielo e mais 8 ações , confira : Permanecem entre as <span class="rel">recomend</span> ... http://t.co/tveDkCIOc0 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_451843384052047872l::recomendação::1"><td>11</td><td class="arg0">-</td><td class="arg1">de Compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#MRFG3 - Análise #Ichimoku - <span class="rel">Recomendação</span> <span class="arg1">de Compra</span><sub class="deprel">nmod</sub> . http://t.co/TdLbYJsEds</td></tr><tr data-instance-id="dante_01_453511628504702978l::recomendação::1"><td>12</td><td class="arg0">-</td><td class="arg1">de Compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#NATU3 - Análise #Ichimoku - <span class="rel">Recomendação</span> <span class="arg1">de Compra</span><sub class="deprel">nmod</sub> . http://t.co/cVGkA7dvAT</td></tr><tr data-instance-id="dante_01_454022702027001856l::recomendação::1"><td>13</td><td class="arg0">-</td><td class="arg1">de Compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#UGPA3 - <span class="rel">Recomendação</span> <span class="arg1">de Compra</span><sub class="deprel">nmod</sub> - Análise #Ichimoku . http://t.co/rhIXdSFo3Q</td></tr><tr data-instance-id="dante_01_454374627708784640l::recomendação::1"><td>14</td><td class="arg0">-</td><td class="arg1">de Compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#CRUZ3 - Análise #Ichimoku - <span class="rel">Recomendação</span> <span class="arg1">de Compra</span><sub class="deprel">nmod</sub> . http://t.co/3xVuPeOwc9</td></tr><tr data-instance-id="dante_01_464864439670702080l::recomendação::1"><td>15</td><td class="arg0">-</td><td class="arg1">de venda</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>@luizmoratoneto temos <span class="rel">recomendação</span> <span class="arg1">de venda</span><sub class="deprel">nmod</sub> para PDGR3 .</td></tr><tr data-instance-id="dante_01_443815228737069056l::recomendação::1"><td>16</td><td class="arg0">-</td><td class="arg1">de compra</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>@piavu e as <span class="rel">recomendações</span> <span class="arg1">de compra</span><sub class="deprel">nmod</sub> em jbss3 e mmxm3 de o @ferrisss em o início de o ano . Se ele soubesse um mín de AT não levava essas cacetadas !</td></tr><tr data-instance-id="dante_01_444475433904783360l::recomendação::1"><td>17</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>JPMORGAN eleva <span class="rel">recomendação</span> s/ Usiminas e Gerdau para ' overweight ' . Agora USIM5 + 3,26 % e GGBR4 , + 1,87 %</td></tr><tr data-instance-id="dante_01_443098557596598273l::recomendação::1"><td>18</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>VALE5 em o topo de as <span class="rel">recomendações</span> faz tempo e EU FORA ! .. ô quem poderá nos defender ?</td></tr></tbody>
+    </table></div>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th></tr></thead>
+        <tbody><tr><td>nmod</td><td>0</td><td>8</td><td>0</td><td class="arg3">0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=r" title="Voltar para letra R">← Voltar para R</a>
+
+</body>
+</html>

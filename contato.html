@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato — NounBank.DS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header idêntico ao index -->
+  <header class="header">
+    <nav>
+      <a href="index.html">NounBank.DS</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html" class="active">Contato</a>
+      <!-- Botão para baixar TODOS os JSONs da pasta /jsons via manifesto -->
+      <a id="download-all-json"
+   class="download-all-btn"
+   href="jsons/nounbank.ds_expanded_all_jsons.zip"
+   download="nounbank.ds_expanded_all_jsons.zip"
+   title="Baixar todos os JSONs">Download JSONs</a>
+    </nav>
+  </header>
+
+  <!-- Caixa principal de conteúdo: usa os estilos globais de .content do seu styles.css -->
+  <!-- Adicionamos apenas o recuo superior para compensar o header fixo -->
+  <div class="content" style="margin-top: calc(100px + 20px);">
+    <h1>Contato</h1>
+    <p>
+      Fale conosco pelo e-mail:
+      <a href="mailto:bryankhelven@ieee.org">bryankhelven@ieee.org</a>
+    </p>
+    <p>
+      Repositório do projeto:
+      <a href="https://github.com/bryankhelven/NounBank.DS-Expanded" target="_blank" rel="noopener">
+        github.com/bryankhelven/NounBank.DS
+      </a>
+    </p>
+    <p>
+      Dúvidas, sugestões e contribuições são bem-vindas. Se preferir, abra uma issue diretamente no GitHub ;D
+    </p>
+  </div>
+
+  <!-- Mesmos scripts do index para o botão “Download JSONs” funcionar nesta página também -->
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

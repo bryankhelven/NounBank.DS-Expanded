@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>contrato - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">contrato</span>
+    <a class="download-json" href="../jsons/contrato.json" download="contrato.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">contrato</i></h1>
+  <p><strong>Roleset id:</strong> contrato.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/contract.xml">contract.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/contract.html">verb-contract.02</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: causer of contract</li>
+<li class="arg1">Arg 1: reason, purpose</li>
+<li class="arg2">Arg 2: contracted with</li>
+<li class="arg3">Arg 3: payment ammount</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_455723336879075328l::contrato::1">1: Notas gerais <span class="arg0">A PETROBRAS ( PETR4 )</span> assinou <span class="arg2">com o Grupo Électricité de France</span> <span class="rel">contrato</span> <span class="arg1">para a venda de sua</span> ... http://t.co/h3dMUjViMQ</h3>
+<ul>
+<li class="rel">rel: contrato</li>
+<li class="arg0">Arg 0: A PETROBRAS ( PETR4 )</li>
+<li class="arg1">Arg 1: para a venda de sua</li>
+<li class="arg2">Arg 2: com o Grupo Électricité de France</li>
+<li class="arg3">Arg 3: -</li>
+</ul>
+<h3 data-instance-id="dante_01_453581504170717184l::contrato::1">2: #BOVESPA #CCRO3 CCR divulga fato relevante sobre assinatura de o <span class="rel">contrato</span> de concessão - Aeroporto de Confins . http://t.co/hFQSZwrqSn #BR</h3>
+<ul>
+<li class="rel">rel: contrato</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: de concessão - Aeroporto de Confin</li>
+<li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: -</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <div class="argument-table-scroll" tabindex="0" aria-label="Realização sintática"><table id="relations-table" class="expanded-arguments" style="--arg-count:4">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_455723336879075328l::contrato::1"><td>1</td><td class="arg0">A PETROBRAS ( PETR4 )</td><td class="arg1">para a venda de sua</td><td class="arg2">com o Grupo Électricité de France</td><td class="arg3">-</td><td class='texto'>Notas gerais <span class="arg0">A PETROBRAS ( PETR4 )</span><sub class="deprel">nsubj</sub> assinou <span class="arg2">com o Grupo Électricité de France</span><sub class="deprel">flat:name</sub> <span class="rel">contrato</span> <span class="arg1">para a venda de sua</span><sub class="deprel">nmod:strunc</sub> ... http://t.co/h3dMUjViMQ</td></tr><tr data-instance-id="dante_01_453581504170717184l::contrato::1"><td>2</td><td class="arg0">-</td><td class="arg1">de concessão - Aeroporto de Confin</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#BOVESPA #CCRO3 CCR divulga fato relevante sobre assinatura de o <span class="rel">contrato</span> de concessão - Aeroporto de Confins . http://t.co/hFQSZwrqSn #BR</td></tr><tr data-instance-id="dante_01_461484549030297600l::contrato::1"><td>3</td><td class="arg0">Boa oportunidade</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Hoje tem leilão emergencial de energia , que depende largamente de ELET6 . <span class="arg0">Boa oportunidade</span><sub class="deprel">parataxis</sub> para fechar <span class="rel">contratos</span> estáveis e de margem maior .</td></tr><tr data-instance-id="dante_01_456479295968272384l::contrato::1"><td>4</td><td class="arg0">CPFL</td><td class="arg1">de energia de Serra de a Mesa</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#CPFE3 - <span class="arg0">CPFL</span><sub class="deprel">nsubj</sub> fecha <span class="rel">contrato</span> <span class="arg1">de energia de Serra de a Mesa</span><sub class="deprel">flat:name</sub> e não disputará leilão A-0 - http://t.co/Hk3v5n3Xap</td></tr><tr data-instance-id="dante_01_453237939460669440l::contrato::1"><td>5</td><td class="arg0">-</td><td class="arg1">para compra</td><td class="arg2">de a Getnet</td><td class="arg3">-</td><td class='texto'>#SANB11 - Santander Brasil assina <span class="rel">contrato</span> <span class="arg1">para compra</span><sub class="deprel">nmod</sub> <span class="arg2">de a Getnet</span><sub class="deprel">nmod</sub> - http://t.co/H56HB4FQ41</td></tr><tr data-instance-id="dante_01_453504179232079872l::contrato::1"><td>6</td><td class="arg0">-</td><td class="arg1">De Concessao De o Aeroporto De Confins</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>$CCRO3 - Ccr Sa ( ccro-nm ) - Assinatura De o <span class="rel">Contrato</span> <span class="arg1">De Concessao De o Aeroporto De Confins</span><sub class="deprel">nmod</sub> http://t.co/GRgDTOBXof</td></tr><tr data-instance-id="dante_01_472334907549954048l::contrato::1"><td>7</td><td class="arg0">-</td><td class="arg1">sem</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>#PETR4 A Petrobras contestou hoje que o conselho de a estatal tenha aprovado , em apenas 14 dias , dois <span class="rel">contratos</span> <span class="arg1">sem</span><sub class="deprel">nmod:strunc</sub> ... http://t.co/AJpnCodlAV</td></tr><tr data-instance-id="dante_01_443031972336525312l::contrato::1"><td>8</td><td class="arg0">Klabin</td><td class="arg1">para Projeto Puma</td><td class="arg2">com a Pöyry</td><td class="arg3">-</td><td class='texto'>#IBOV #KLBN4 <span class="arg0">Klabin</span><sub class="deprel">nsubj</sub> fecha <span class="rel">contrato</span> <span class="arg2">com a Pöyry</span><sub class="deprel">nmod</sub> <span class="arg1">para Projeto Puma</span><sub class="deprel">flat:name</sub> : http://t.co/WPqvXaEQB2</td></tr><tr data-instance-id="dante_01_449526805775790080l::contrato::1"><td>9</td><td class="arg0">-</td><td class="arg1">de as estruturas temporárias</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>PETR4 sobe 8 % e a gremistada preocupada com o <span class="rel">contrato</span> <span class="arg1">de as estruturas temporárias</span><sub class="deprel">amod</sub> ... Vida injusta essa !</td></tr><tr data-instance-id="dante_01_447358522020601857l::contrato::expanded::18"><td>10</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>@toleranciazero6 @marisascruz  Venda PETR4 a descoberto após aumento da gasolina e divugue os podres do <span class="rel">contrato</span>, recompre lá embaixo.</td></tr><tr data-instance-id="dante_01_453164729242894336l::contrato::expanded::17"><td>11</td><td class="arg0">A PETROBRAS PETR4</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">por o menos R$ 90 bilhões</td><td class='texto'>Notas gerais  A PETROBRAS (PETR4) teria assinado pelo menos R$ 90 bilhões em <span class="rel">contratos</span> sem licitação desde 2011... http://t.co/u9Bft3wAw6</td></tr><tr data-instance-id="dante_01_456146151402524674l::contrato::expanded::4"><td>12</td><td class="arg0">de o marido sic de a Graça</td><td class="arg1">-</td><td class="arg2">com a Petr4</td><td class="arg3">-</td><td class='texto'>Vixi... 20<span class="rel">contratos</span> sem licitação do marido (sic) da Graça <span class="arg2">com a Petr4</span><sub class="deprel">nmod</sub>... Mário Couto bota pra f.. ferver...</td></tr><tr data-instance-id="dante_01_463292117713190915l::contrato::expanded::10"><td>13</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">bilionários</td><td class='texto'>A @DilmaBR mentiu => A @Petrobras barra apuração de <span class="rel">contratos</span> <span class="arg3">bilionários</span><sub class="deprel">amod</sub> no TCU http://t.co/8kzU8R0TBn  #Petr3 #Petr4</td></tr><tr data-instance-id="dante_01_463292384504455168l::contrato::expanded::13"><td>14</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">bilionários</td><td class='texto'>RT @PAPAntiPetralha: A @DilmaBR mentiu => A @Petrobras barra apuração de <span class="rel">contratos</span> <span class="arg3">bilionários</span><sub class="deprel">amod</sub> no TCU http://t.co/sjeuDUpLay  #Petr3 #Petr4</td></tr><tr data-instance-id="dante_01_468757309192425472l::contrato::expanded::3"><td>15</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">de 1 milhão 2 milhões de dolares</td><td class='texto'>#PETR4 '<span class="rel">contrato</span> de 1 milhão, 2 milhões de dolares nem passam pela autorização da diretoria' Ex-presidente da @petrobras na CPI hahahahahaha</td></tr><tr data-instance-id="dante_01_468757591590715392l::contrato::expanded::6"><td>16</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">de 1 milhão 2 milhões de dolares</td><td class='texto'>RT @ClaudioDeLucca: #PETR4 '<span class="rel">contrato</span> de 1 milhão, 2 milhões de dolares nem passam pela autorização da diretoria' Ex-presidente da @petrobra…</td></tr><tr data-instance-id="dante_01_469457551306665984l::contrato::expanded::13"><td>17</td><td class="arg0">-</td><td class="arg1">para a conturbada construção</td><td class="arg2">-</td><td class="arg3">-</td><td class='texto'>Notas gerais  A PETROBRAS (PETR4) esclareceu ontem que todos os <span class="rel">contratos</span> e aditivos <span class="arg1">para a conturbada construção</span><sub class="deprel">nmod</sub>... http://t.co/DTTsUJsh3i</td></tr></tbody>
+    </table></div>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th></tr></thead>
+        <tbody><tr><td>amod</td><td>0</td><td>1</td><td>0</td><td class="arg3">2</td></tr><tr><td>flat:name</td><td>0</td><td>2</td><td>1</td><td class="arg3">0</td></tr><tr><td>nmod</td><td>1</td><td>4</td><td>3</td><td class="arg3">2</td></tr><tr><td>nmod:strunc</td><td>0</td><td>2</td><td>0</td><td class="arg3">0</td></tr><tr><td>nsubj</td><td>4</td><td>0</td><td>0</td><td class="arg3">0</td></tr><tr><td>obj</td><td>0</td><td>0</td><td>0</td><td class="arg3">1</td></tr><tr><td>parataxis</td><td>1</td><td>0</td><td>0</td><td class="arg3">0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=c" title="Voltar para letra C">← Voltar para C</a>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tendência - NounBank.DS</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+:root{
+  --header-h: 56px;
+}
+body{margin:0;}
+/* ===== Top bar ===== */
+.site-header{
+  position: sticky; top:0; z-index:1000;
+  /* alpha menor -> mais transparente */
+  background: rgba(20,20,20,0.70);
+  transition: background .2s ease, backdrop-filter .2s ease;
+}
+.site-header.scrolled{
+  /* ainda mais transparente quando rolar */
+  background: rgba(20,20,20,0.40);
+  backdrop-filter: blur(6px);
+}
+.site-nav{
+  height: var(--header-h);
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 0 16px;
+}
+.site-nav .home-link{
+  color:#cfe3ff; text-decoration:none; font-weight:600;
+  padding:8px 12px; border-radius:10px; background:rgba(84,102,170,.25);
+}
+.site-nav .home-link:hover{ background:rgba(84,102,170,.35); }
+.site-nav .page-title{
+  color:#cfd8ff; opacity:.75; font-weight:600;
+  text-align:center; margin:0 12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* ===== Botão JSON (agora dentro da header, alinhado) ===== */
+.site-nav .download-json{
+  display:inline-block; text-decoration:none; font-weight:700;
+  padding:10px 14px; border-radius:12px; color:#fff;
+  background:#2e7d32; box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .08s ease, box-shadow .2s ease, opacity .2s ease;
+  opacity:.95;
+}
+.site-nav .download-json:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(0,0,0,.35); opacity:1; }
+
+/* ===== “Voltar para X” (flutuante no rodapé) ===== */
+.back-link{ color:#9ecbff; text-decoration:none; font-weight:500; }
+.back-link:hover{ text-decoration:underline; }
+.back-floating{
+  position: fixed; right: 20px; bottom: 20px; z-index: 980;
+  background:#2b2b2b; color:#cfe3ff; padding:10px 12px; border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35); text-decoration:none;
+}
+
+/* ===== Tabela de realização sintática ===== */
+#relations-table{ width:100%; border-collapse:collapse; }
+#relations-table col.numcol{ width:3.5rem; }
+#relations-table col.argcol{ width:18rem; }
+#relations-table col.textcol{ width:auto; }
+#relations-table thead th{
+  text-align:center; padding:.45rem .6rem; white-space:nowrap;
+}
+#relations-table tbody td{
+  padding:.45rem .6rem; vertical-align:top; border-bottom:1px solid #fff;
+}
+#relations-table tbody tr:last-child td{ border-bottom:none; }
+#relations-table tbody td:first-child{ text-align:center; }
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a class="home-link" href="../index.html">Home</a>
+    <span class="page-title">tendência</span>
+    <a class="download-json" href="../jsons/tendência.json" download="tendência.json" aria-label="Baixar JSON">JSON download</a>
+  </nav>
+</header>
+
+<script>
+(function(){
+  const h = document.querySelector('.site-header');
+  if(!h) return;
+  const onScroll = () => h.classList.toggle('scrolled', window.scrollY > 16);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+})();
+</script>
+
+<div class="content">
+
+  <h1>Nome predicador: <i style="color: red;">tendência</i></h1>
+  <p><strong>Roleset id:</strong> tendência.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/tendency.xml">tendency.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/tend.html">verb-tend.02</a></p>
+  <h2>Roles:</h2>
+  <ul>
+<li class="arg0">Arg 0: theme</li>
+<li class="arg1">Arg 1: attribute</li>
+</ul>
+  <h2>Exemplos:</h2>
+  <h3 data-instance-id="dante_01_454017714236166144l::tendência::1">1: Antes de o anúncio de o CADE era possível observar em o gráfico diário de #CSNA3 que a <span class="rel">tendência</span> <span class="arg1">já ( cont )</span> http://t.co/ATIuGyLLGq</h3>
+<ul>
+<li class="rel">rel: tendência</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: já ( cont )</li>
+</ul>
+<h3 data-instance-id="dante_01_443559711980679168l::tendência::1">2: Publiquei estudo de a #HGTX3 em o gráfico diário . Rompendo <span class="rel">tendência</span> <span class="arg1">de baixa</span> ? ? ? Veja em http://t.co/oRA4bA8Qye</h3>
+<ul>
+<li class="rel">rel: tendência</li>
+<li class="arg0">Arg 0: -</li>
+<li class="arg1">Arg 1: de baixa</li>
+</ul>
+  <br><br>
+
+  <h2>Realização sintática da estrutura de argumentos</h2>
+
+    <table id="relations-table">
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_454017714236166144l::tendência::1"><td>1</td><td class="arg0">-</td><td class="arg1">já ( cont )</td><td class='texto'>Antes de o anúncio de o CADE era possível observar em o gráfico diário de #CSNA3 que a <span class="rel">tendência</span> <span class="arg1">já ( cont )</span><sub class="deprel">parataxis</sub> http://t.co/ATIuGyLLGq</td></tr><tr data-instance-id="dante_01_443559711980679168l::tendência::1"><td>2</td><td class="arg0">-</td><td class="arg1">de baixa</td><td class='texto'>Publiquei estudo de a #HGTX3 em o gráfico diário . Rompendo <span class="rel">tendência</span> <span class="arg1">de baixa</span><sub class="deprel">nmod</sub> ? ? ? Veja em http://t.co/oRA4bA8Qye</td></tr><tr data-instance-id="dante_01_456937609185341440l::tendência::1"><td>3</td><td class="arg0">-</td><td class="arg1">de alta em CIEL3</td><td class='texto'>antes de confirmar <span class="rel">tendência</span> <span class="arg1">de alta em CIEL3</span><sub class="deprel">obl</sub> eu ja sabia que ia aumentar</td></tr><tr data-instance-id="dante_01_443477913480863744l::tendência::1"><td>4</td><td class="arg0">linha de</td><td class="arg1">mensal</td><td class='texto'>#BBAS3 olhem a <span class="arg0">linha de</span><sub class="deprel">case</sub> <span class="rel">tendência</span> <span class="arg1">mensal</span><sub class="deprel">amod</sub> , PONTO CRÍTICO ou FUNDO . http://t.co/K03MhZTWlY http://t.co/OCV7jkie8s</td></tr><tr data-instance-id="dante_01_444503548139552768l::tendência::1"><td>5</td><td class="arg0">linha de</td><td class="arg1">mensal</td><td class='texto'>#BBAS3 <span class="arg1">MENSAL</span><sub class="deprel">amod</sub> Ponto Crítico porque a <span class="arg0">linha de</span><sub class="deprel">case</sub> <span class="rel">tendência</span> mensal foi perdida . Final de o mês vamos confirmar a perda . http://t.co/NAcq3RyTEn</td></tr><tr data-instance-id="dante_01_459365635928391681l::tendência::1"><td>6</td><td class="arg0">-</td><td class="arg1">imediata e de curto prazo</td><td class='texto'>@ojappadonodo6 Hoje monitorando ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , RENT3 , UGPA3 ... Para <span class="rel">tendência</span> <span class="arg1">imediata e de curto prazo</span><sub class="deprel">parataxis</sub> ...</td></tr><tr data-instance-id="dante_01_472441262214098944l::tendência::1"><td>7</td><td class="arg0">linha de</td><td class="arg1">-</td><td class='texto'>GGBR4 perde <span class="arg0">linha de</span><sub class="deprel">case</sub> <span class="rel">tendência</span> e entra em alerta http://t.co/9Hti4sHxJW</td></tr><tr data-instance-id="dante_01_460899883462180865l::tendência::1"><td>8</td><td class="arg0">Linha de</td><td class="arg1">de baixa</td><td class='texto'>Vale5 - Diário ::: <span class="arg0">Linha de</span><sub class="deprel">case</sub> <span class="rel">Tendência</span> <span class="arg1">de baixa</span><sub class="deprel">nmod</sub> , zona de sobre-venda ! http://t.co/m5dEkcVXf3</td></tr><tr data-instance-id="dante_01_461495723847319552l::tendência::1"><td>9</td><td class="arg0">reversão de</td><td class="arg1">para a PETR4</td><td class='texto'>@clubedopairico Zé , qual seria a confirmação de que os shootings stars estão indicando uma <span class="arg0">reversão de</span><sub class="deprel">mark</sub> <span class="rel">tendência</span> <span class="arg1">para a PETR4</span><sub class="deprel">nmod</sub> ? ?</td></tr><tr data-instance-id="dante_01_441058259676303361l::tendência::1"><td>10</td><td class="arg0">-</td><td class="arg1">e resultados favoráveis</td><td class='texto'>Fevereiro 2014 : Ainda não é o momento de entrar : VALE5 , CSNA3 ou PETR4 . <span class="rel">Tendência</span> <span class="arg1">e resultados favoráveis</span><sub class="deprel">amod</sub> : ESTC3 , PSSA3 , EMBR3 e WEGE3 .</td></tr><tr data-instance-id="dante_01_470213923732733952l::tendência::1"><td>11</td><td class="arg0">revertendo</td><td class="arg1">de baixa após romper canal</td><td class='texto'>#CRUZ3 : pode estar <span class="arg0">revertendo</span><sub class="deprel">xcomp</sub> <span class="rel">tendência</span> <span class="arg1">de baixa após romper canal</span><sub class="deprel">obj</sub> . Melhor se superar os 23.52 . #Whoknows ? http://t.co/tZVAMpMQVG</td></tr><tr data-instance-id="dante_01_447000792143527936l::tendência::1"><td>12</td><td class="arg0">em linda</td><td class="arg1">de baixa</td><td class='texto'>LLXL3 vai fazer fundo duplo se ela não consegue romper os 0.98 . Desde 09-2010 <span class="arg0">em linda</span><sub class="deprel">amod</sub> <span class="rel">tend.</span> <span class="arg1">de baixa</span><sub class="deprel">nmod</sub> .</td></tr><tr data-instance-id="dante_01_463664480288006145l::tendência::1"><td>13</td><td class="arg0">continua em a</td><td class="arg1">de alta</td><td class='texto'>Entrei em #petr4 , com projeção de crescimento . #hype3 ta maravilhosa , <span class="arg0">continua em a</span><sub class="deprel">det</sub> <span class="rel">tendência</span> <span class="arg1">de alta</span><sub class="deprel">nmod</sub> .</td></tr><tr data-instance-id="dante_01_452414292881838080l::tendência::1"><td>14</td><td class="arg0">deixou a</td><td class="arg1">de baixa</td><td class='texto'>Em o diário #VALE5 <span class="arg0">deixou a</span><sub class="deprel">det</sub> <span class="rel">tendência</span> <span class="arg1">de baixa</span><sub class="deprel">nmod</sub> para trás mas permanece tendo problema com a #MediaROCK - Leia mais em http://t.co/eMq6N9TOJC</td></tr><tr data-instance-id="dante_01_454225628166754305l::tendência::1"><td>15</td><td class="arg0">reversão de</td><td class="arg1">-</td><td class='texto'>Ontem em o diário de a #PETR4 fêz candle de <span class="arg0">reversão de</span><sub class="deprel">case</sub> <span class="rel">tendência</span> e respeirou suporte em os 15,4 e alvos 16,5 e 17,2 http://t.co/ReowwtCzqj</td></tr><tr data-instance-id="dante_01_445952104105275392l::tendência::1"><td>16</td><td class="arg0">sair de a</td><td class="arg1">de baixa</td><td class='texto'>#HYPE3 ficando bonita para <span class="arg0">sair de a</span><sub class="deprel">det</sub> <span class="rel">tendência</span> <span class="arg1">de baixa</span><sub class="deprel">nmod</sub> , descontão fabuloso . Em os ~ 15,8 deve corrigir e de ai vamos buscar o fundo para entrar .</td></tr><tr data-instance-id="dante_01_456503335634231296l::tendência::1"><td>17</td><td class="arg0">-</td><td class="arg1">alta</td><td class='texto'>@RaphaFigueredo tem que romper os 9.03 inicialmente . CTIP3 também me parece uma boa . <span class="rel">Tend.</span> <span class="arg1">alta</span><sub class="deprel">amod</sub> e após correção , próximo a mm20 .</td></tr><tr data-instance-id="dante_01_459134249883697154l::tendência::1"><td>18</td><td class="arg0">-</td><td class="arg1">de alta</td><td class='texto'>@Andresmoraes @YouTube Segundo violino em a estc3 . Ser estopado em um ativo com essa <span class="rel">tendência</span> <span class="arg1">de alta</span><sub class="deprel">nmod</sub> doi ...</td></tr></tbody>
+    </table>
+
+
+    <div class="statistics-table-container">
+      <h2>Frequência das realizações sintáticas</h2>
+      <table id="statistics-table">
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th></tr></thead>
+        <tbody><tr><td>amod</td><td>1</td><td>4</td></tr><tr><td>case</td><td>5</td><td>0</td></tr><tr><td>det</td><td>3</td><td>0</td></tr><tr><td>mark</td><td>1</td><td>0</td></tr><tr><td>nmod</td><td>0</td><td>8</td></tr><tr><td>obj</td><td>0</td><td>1</td></tr><tr><td>obl</td><td>0</td><td>1</td></tr><tr><td>parataxis</td><td>0</td><td>2</td></tr><tr><td>xcomp</td><td>1</td><td>0</td></tr></tbody>
+      </table>
+    </div>
+
+</div>
+
+<a class="back-link back-floating" href="../index.html?letter=t" title="Voltar para letra T">← Voltar para T</a>
+
+</body>
+</html>

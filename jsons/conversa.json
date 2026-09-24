@@ -1,0 +1,106 @@
+{
+  "expanded_metadata": {
+    "corrective_authority": "ORCH_RECON_000115",
+    "resource": "NounBank.DS Expanded",
+    "target_corpus": "DANTEStocks_ONLY"
+  },
+  "lemma": "conversa",
+  "lemma_base": "conversa",
+  "senses": [
+    {
+      "english_roleset": "conversation.01",
+      "english_roleset_source": "verb-discuss.01",
+      "examples": [
+        {
+          "instance_id": "dante_01_459330478110412800l::conversa::1",
+          "predicate": {
+            "char_end": 51,
+            "char_start": 42,
+            "form": "conversas"
+          },
+          "realization": {
+            "Arg0": "ALL",
+            "Arg1": "para que a concessionária aumente o volume de o transporte de",
+            "Arg2": "Rumo",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "sent_ID": "dante_01_459330478110412800l",
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "case",
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "text": "( ALLL3 ) : A ALL e a Rumo deram início a conversas para que a concessionária aumente o volume de o transporte de ... http://t.co/t2JXbpKAef"
+        },
+        {
+          "instance_id": "dante_01_441968116361609217l::conversa::1",
+          "predicate": {
+            "char_end": 48,
+            "char_start": 39,
+            "form": "conversas"
+          },
+          "realization": {
+            "Arg0": "Telecom Italia",
+            "Arg1": "de fusão sobre TIM",
+            "Arg2": "TIM",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "sent_ID": "dante_01_441968116361609217l",
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "text": "#TIMP3 - Telecom Italia diz que não há conversas de fusão sobre TIM - http://t.co/O502wucYkW"
+        }
+      ],
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/conversation.xml",
+      "pt_roleset": "conversa.01",
+      "pt_sense_hint": 1,
+      "pt_sense_index": 1,
+      "roles": [
+        {
+          "desc": "agent",
+          "id": "Arg0"
+        },
+        {
+          "desc": "topic",
+          "id": "Arg1"
+        },
+        {
+          "desc": "actor2",
+          "id": "Arg2"
+        },
+        {
+          "desc": "medium",
+          "id": "Arg3"
+        },
+        {
+          "desc": null,
+          "id": "Arg4"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "flat:name": 1,
+          "nsubj": 1
+        },
+        "Arg1": {
+          "case": 1,
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1,
+          "nsubj": 1
+        }
+      }
+    }
+  ],
+  "unresolved_instances": []
+}
