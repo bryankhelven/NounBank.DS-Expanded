@@ -1,12 +1,14 @@
-# Statistics definitions
+# Definições das estatísticas
 
-Public statistics are recomputed from the frozen ORCH158 tables.
+A página de Estatísticas resume propriedades observadas no NounBank.DS Expanded.
 
-- **licensed role inventory**: roles available for a semantic unit;
-- **role slot**: predicate instance × licensed role;
-- **realized argument**: a role slot with status YES;
-- **overt argument count per instance**: number of realized numbered roles (`ARG0...ARGn`) in that occurrence;
-- **distinct role labels per lemma**: how many numbered ARG labels are ever realized by a lemma across its regular instances;
-- **maximum overt arguments per lemma**: maximum number simultaneously realized in any one regular occurrence of that lemma.
+- **Lema**: entrada lexical do recurso.
+- **Ocorrência predicadora**: ocorrência em que o nome manifesta uso predicador no contexto.
+- **Ocorrência não predicadora**: ocorrência em que o nome não manifesta uso predicador no contexto.
+- **Argumento realizado**: papel semântico que aparece explicitamente na ocorrência.
+- **Argumentos por ocorrência**: quantidade de papéis numerados (Arg0...Arg4) realizados simultaneamente em um exemplo.
+- **Papéis distintos por lema**: quantidade de rótulos argumentais diferentes efetivamente observados para um lema ao longo do corpus.
+- **Papéis previstos pelo roleset**: conjunto de papéis associado ao roleset, independentemente de todos aparecerem em uma mesma ocorrência.
+- **Mapeamento para o NomBank**: correspondência entre a leitura nominal em português e um roleset nominal do NomBank em inglês, quando disponível.
 
-These measures must not be conflated.
+A quantidade de papéis prevista por um roleset não deve ser confundida com a quantidade de argumentos efetivamente realizada em uma ocorrência.
