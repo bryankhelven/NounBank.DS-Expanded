@@ -1,517 +1,131 @@
 {
   "lemma": "arrancada",
   "lemma_base": "arrancada",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "arrancada",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 4,
-      "S": 4,
-      "N": 0,
-      "argument_YES": 1,
-      "argument_NO": 12,
-      "argument_ABSTAIN": 7
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "arrancada.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "surge.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/surge.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 5,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOGICAL SUBJECT, PATIENT, THING RISING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT, AMOUNT RISEN",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARGM",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg1",
+          "desc": "LOGICAL SUBJECT, PATIENT, THING RISING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "EXT, AMOUNT RISEN"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT"
+        },
+        {
+          "id": "ArgM",
+          "desc": "MEDIUM"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448167613152387073l",
+          "text": "Tá faltando VALE5 dar uma arrancada forte. Ação de maior peso no IBOV não pode ficar nessa pasmaceira por muito tempo.",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "surge.01",
-            "status": "APPROXIMATE_REVIEWED"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "form": "arrancada",
-          "sent_id": "dante_01_448167613152387073l",
-          "sentence_text": "Tá faltando VALE5 dar uma arrancada forte. Ação de maior peso no IBOV não pode ficar nessa pasmaceira por muito tempo.",
-          "split": "dev",
-          "token_id": "6",
-          "token_instance_id": "dev::dante_01_448167613152387073l::6",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0051-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_448167613152387073l::arrancada::1",
+          "predicate": {
+            "form": "arrancada"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOGICAL SUBJECT, PATIENT, THING RISING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT, AMOUNT RISEN",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARGM",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
+          "sent_ID": "dante_01_449175888555692032l",
+          "text": "vamos ver como a #PETR4 se comporta no teste dos R$14,70 agora ... (que arrancada doida ... 2x por causa do IBOPE, que legal ...)",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "surge.01",
-            "status": "APPROXIMATE_REVIEWED"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "form": "arrancada",
-          "sent_id": "dante_01_449175888555692032l",
-          "sentence_text": "vamos ver como a #PETR4 se comporta no teste dos R$14,70 agora ... (que arrancada doida ... 2x por causa do IBOPE, que legal ...)",
-          "split": "train",
-          "token_id": "19",
-          "token_instance_id": "train::dante_01_449175888555692032l::19",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0051-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_449175888555692032l::arrancada::1",
+          "predicate": {
+            "form": "arrancada"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOGICAL SUBJECT, PATIENT, THING RISING",
-                "head_token_id": "14",
-                "role": "ARG1",
-                "span_text": "de a #PETR4",
-                "span_token_ids": [
-                  12,
-                  13,
-                  14
-                ],
-                "status": "YES",
-                "head_form": "#PETR4",
-                "head_lemma": "#PETR4",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT, AMOUNT RISEN",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARGM",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
+          "sent_ID": "dante_01_460867123427147776l",
+          "text": "a parte mais 'divertida' da arrancada de hoje da #PETR4 é o volume ... Normalmente quando tinha arrancadão o volume era gigante ...",
+          "realization": {
+            "Arg1": "de a #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "surge.01",
-            "status": "APPROXIMATE_REVIEWED"
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "form": "arrancada",
-          "sent_id": "dante_01_460867123427147776l",
-          "sentence_text": "a parte mais 'divertida' da arrancada de hoje da #PETR4 é o volume ... Normalmente quando tinha arrancadão o volume era gigante ...",
-          "split": "train",
-          "token_id": "9",
-          "token_instance_id": "train::dante_01_460867123427147776l::9",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0051-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_460867123427147776l::arrancada::1",
+          "predicate": {
+            "form": "arrancada"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOGICAL SUBJECT, PATIENT, THING RISING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT, AMOUNT RISEN",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARGM",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
+          "sent_ID": "dante_01_460867123427147776l",
+          "text": "a parte mais 'divertida' da arrancada de hoje da #PETR4 é o volume ... Normalmente quando tinha arrancadão o volume era gigante ...",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "surge.01",
-            "status": "APPROXIMATE_REVIEWED"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "ArgM": null
           },
-          "form": "arrancadão",
-          "sent_id": "dante_01_460867123427147776l",
-          "sentence_text": "a parte mais 'divertida' da arrancada de hoje da #PETR4 é o volume ... Normalmente quando tinha arrancadão o volume era gigante ...",
-          "split": "train",
-          "token_id": "22",
-          "token_instance_id": "train::dante_01_460867123427147776l::22",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0051-S001",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          "instance_id": "dante_01_460867123427147776l::arrancada::2",
+          "predicate": {
+            "form": "arrancadão"
           }
         }
       ],
-      "lemma": "arrancada",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "arrancada",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "surge.01",
-          "enmap_status": "APPROXIMATE_REVIEWED",
-          "lemma": "arrancada",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "LOGICAL SUBJECT, PATIENT, THING RISING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "EXT, AMOUNT RISEN",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "MEDIUM",
-              "generalized_description": "MEDIUM",
-              "role_label": "ARGM",
-              "role_number": "M"
-            }
-          ],
-          "observed_instance_count": 4,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0051-S001"
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
         }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 4,
-        "instances_total": 4,
-        "regular_argument_instances": 4,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      }
     }
-  }
+  ]
 }

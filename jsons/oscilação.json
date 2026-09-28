@@ -1,422 +1,112 @@
 {
   "lemma": "oscilação",
   "lemma_base": "oscilação",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "oscilação",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 3,
-      "S": 3,
-      "N": 0,
-      "argument_YES": 2,
-      "argument_NO": 6,
-      "argument_ABSTAIN": 7
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "oscilação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "fluctuation.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fluctuation.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING MOVING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOW POINT",
-                "head_token_id": "10",
-                "role": "ARG3",
-                "span_text": "Ate 11:52h",
-                "span_token_ids": [
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "11:52h",
-                "head_lemma": "11h:52",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "CROSS_ROLE_SPAN_CONFLICT",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "HIGH POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
+          "id": "Arg1",
+          "desc": "THING MOVING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "LOW POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "HIGH POINT"
+        },
+        {
+          "id": "Arg5",
+          "desc": "MEDIUM"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443760585290027008l",
+          "text": "$PETR3 - Leilao De Petrp73 (petr3) Ate 11:52h - Oscilacao Maxima Permitida http://t.co/Se9c4kzLDX",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "Ate 11:52h",
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "fluctuation.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "Oscilacao",
-          "sent_id": "dante_01_443760585290027008l",
-          "sentence_text": "$PETR3 - Leilao De Petrp73 (petr3) Ate 11:52h - Oscilacao Maxima Permitida http://t.co/Se9c4kzLDX",
-          "split": "train",
-          "token_id": "12",
-          "token_instance_id": "train::dante_01_443760585290027008l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0469-S005",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443760585290027008l::oscilação::1",
+          "predicate": {
+            "form": "Oscilacao"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING MOVING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOW POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "HIGH POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 4
+          "sent_ID": "dante_01_459037552989966336l",
+          "text": "$PETR3 - Leilao De Petrq87(petr3) Ate 15:35 H - Oscilacao Maxima Permitida http://t.co/RgMJZcPtfT",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "fluctuation.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "Oscilacao",
-          "sent_id": "dante_01_459037552989966336l",
-          "sentence_text": "$PETR3 - Leilao De Petrq87(petr3) Ate 15:35 H - Oscilacao Maxima Permitida http://t.co/RgMJZcPtfT",
-          "split": "train",
-          "token_id": "13",
-          "token_instance_id": "train::dante_01_459037552989966336l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0469-S005",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_459037552989966336l::oscilação::1",
+          "predicate": {
+            "form": "Oscilacao"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING MOVING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "EXT OR MNR",
-                "head_token_id": "10",
-                "role": "ARG2",
-                "span_text": "- 1,11 %",
-                "span_token_ids": [
-                  8,
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "%",
-                "head_lemma": "%",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "LOW POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "HIGH POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "MEDIUM",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_460225661630947328l",
+          "text": "#PETROBRAS ON PETR3 Preço  R$ 15,12 #Oscilação -1,11% Nº de Negócios 16.661",
+          "realization": {
+            "Arg1": null,
+            "Arg2": "- 1,11 %",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "fluctuation.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "#Oscilação",
-          "sent_id": "dante_01_460225661630947328l",
-          "sentence_text": "#PETROBRAS ON PETR3 Preço  R$ 15,12 #Oscilação -1,11% Nº de Negócios 16.661",
-          "split": "train",
-          "token_id": "7",
-          "token_instance_id": "train::dante_01_460225661630947328l::7",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0469-S005",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          "instance_id": "dante_01_460225661630947328l::oscilação::1",
+          "predicate": {
+            "form": "#Oscilação"
           }
         }
       ],
-      "lemma": "oscilação",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "oscilação",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "fluctuation.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "oscilação",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING MOVING",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "LOW POINT",
-              "generalized_description": "LOW",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "HIGH POINT",
-              "generalized_description": "HIGH",
-              "role_label": "ARG4",
-              "role_number": "4"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "MEDIUM",
-              "generalized_description": "MEDIUM",
-              "role_label": "ARG5",
-              "role_number": "5"
-            }
-          ],
-          "observed_instance_count": 3,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0469-S005"
+      "syntactic_profile": {
+        "Arg3": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1
         }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 3,
-        "instances_total": 3,
-        "regular_argument_instances": 3,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      }
     }
-  }
+  ]
 }

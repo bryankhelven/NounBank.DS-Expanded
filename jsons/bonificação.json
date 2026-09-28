@@ -1,452 +1,132 @@
 {
   "lemma": "bonificação",
   "lemma_base": "bonificação",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "bonificação",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 7,
-      "S": 7,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 8,
-      "argument_ABSTAIN": 4
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "bonificação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "bonus.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/bonus.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "id": "Arg0",
+          "desc": "GIVER"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING GIVEN"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ENTITY GIVEN TO"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_458933400754470912l",
+          "text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Aumento Do Capital Social C/bonif Em Acoes http://t.co/Sg8gRLFTnW",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "bonus.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "bonif",
-          "sent_id": "dante_01_458933400754470912l",
-          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Aumento Do Capital Social C/bonif Em Acoes http://t.co/Sg8gRLFTnW",
-          "split": "test",
-          "token_id": "17",
-          "token_instance_id": "test::dante_01_458933400754470912l::17",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0086-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_458933400754470912l::bonificação::1",
+          "predicate": {
+            "form": "bonif"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_441566478580875265l",
+          "text": "$CIEL3 - Cielo (ciel-nm)-ago/e -31/03/2014-10h00-bonificacao/alteracao Do Estatuto Social http://t.co/ZODi2E6KmJ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "bonus.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "bonificacao",
-          "sent_id": "dante_01_441566478580875265l",
-          "sentence_text": "$CIEL3 - Cielo (ciel-nm)-ago/e -31/03/2014-10h00-bonificacao/alteracao Do Estatuto Social http://t.co/ZODi2E6KmJ",
-          "split": "train",
-          "token_id": "14",
-          "token_instance_id": "train::dante_01_441566478580875265l::14",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0086-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_441566478580875265l::bonificação::1",
+          "predicate": {
+            "form": "bonificacao"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
+          "sent_ID": "dante_01_446283986005143552l",
+          "text": "Notas gerais  O banco SANTANDER (SANB11) aprovou a planejada bonificação de ações da companhia, o que resultará... http://t.co/aMcLBRvqpd",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "bonus.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "bonificação",
-          "sent_id": "dante_01_446283986005143552l",
-          "sentence_text": "Notas gerais  O banco SANTANDER (SANB11) aprovou a planejada bonificação de ações da companhia, o que resultará... http://t.co/aMcLBRvqpd",
-          "split": "train",
-          "token_id": "12",
-          "token_instance_id": "train::dante_01_446283986005143552l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0086-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_446283986005143552l::bonificação::1",
+          "predicate": {
+            "form": "bonificação"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_448129883009716224l",
+          "text": "$DTEX3 - Duratex (dtex-nm) - Ago/e - 22/04/2014 - 8h30 / Bonificacao Em Acoes http://t.co/qGdgdWDJix",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "bonus.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "Bonificacao",
-          "sent_id": "dante_01_448129883009716224l",
-          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Ago/e - 22/04/2014 - 8h30 / Bonificacao Em Acoes http://t.co/qGdgdWDJix",
-          "split": "train",
-          "token_id": "14",
-          "token_instance_id": "train::dante_01_448129883009716224l::14",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0086-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "form": "ex-bonificação",
-          "sent_id": "dante_01_458947931052457985l",
-          "sentence_text": "Ação ex-bonificação hoje: DTEX3. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
-          "split": "train",
-          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
-          "token_id": "2",
-          "token_instance_id": "train::dante_01_458947931052457985l::2",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": null,
-            "terminal_category": "TERMINAL_NONEXACT",
-            "terminal_disposition": "DERIVATIONAL_FINANCIAL_STATUS_NOT_IN_INVENTORY"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "form": "ex",
-          "sent_id": "dante_01_458954558325403648l",
-          "sentence_text": "dtex3 amanhace ex bonificação de 10%",
-          "split": "train",
-          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_458954558325403648l::3",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": null,
-            "terminal_category": "TERMINAL_NONEXACT",
-            "terminal_disposition": "DERIVATIONAL_FINANCIAL_STATUS_NOT_IN_INVENTORY"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "form": "ex-bonificação",
-          "sent_id": "dante_01_463296486709948416l",
-          "sentence_text": "Ações ex-bonificação hoje: ITSA3 e ITSA4. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
-          "split": "train",
-          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
-          "token_id": "2",
-          "token_instance_id": "train::dante_01_463296486709948416l::2",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": null,
-            "terminal_category": "TERMINAL_NONEXACT",
-            "terminal_disposition": "DERIVATIONAL_FINANCIAL_STATUS_NOT_IN_INVENTORY"
+          "instance_id": "dante_01_448129883009716224l::bonificação::1",
+          "predicate": {
+            "form": "Bonificacao"
           }
         }
       ],
-      "lemma": "bonificação",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "bonificação",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "bonus.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "bonificação",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "GIVER",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING GIVEN",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ENTITY GIVEN TO",
-              "generalized_description": "RECIPIENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            }
-          ],
-          "observed_instance_count": 4,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0086-S004"
-        }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 7,
-        "instances_total": 7,
-        "regular_argument_instances": 4,
-        "terminal_semantic_exceptions": 3
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ],
+  "pending_instances": [
+    {
+      "sent_ID": "dante_01_458947931052457985l",
+      "text": "Ação ex-bonificação hoje: DTEX3. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
+      "instance_id": "dante_01_458947931052457985l::bonificação::1",
+      "predicate": {
+        "form": "ex-bonificação"
+      },
+      "resolution_status": "awaiting_sense_resolution"
+    },
+    {
+      "sent_ID": "dante_01_458954558325403648l",
+      "text": "dtex3 amanhace ex bonificação de 10%",
+      "instance_id": "dante_01_458954558325403648l::bonificação::1",
+      "predicate": {
+        "form": "ex"
+      },
+      "resolution_status": "awaiting_sense_resolution"
+    },
+    {
+      "sent_ID": "dante_01_463296486709948416l",
+      "text": "Ações ex-bonificação hoje: ITSA3 e ITSA4. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
+      "instance_id": "dante_01_463296486709948416l::bonificação::1",
+      "predicate": {
+        "form": "ex-bonificação"
+      },
+      "resolution_status": "awaiting_sense_resolution"
+    }
+  ]
 }

@@ -1,366 +1,91 @@
 {
   "lemma": "pena",
   "lemma_base": "pena",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "pena",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "DUPB::L1197_0032::E01::NOUN_SENSE::NEW::005",
-      "dupb_source_locator": "headword=pena;leaf=1197",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 7,
-      "S": 4,
-      "N": 3,
-      "argument_YES": 0,
-      "argument_NO": 8,
-      "argument_ABSTAIN": 0
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "pena.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "regret.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/regret.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "REGRETER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING REGRETTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "regret.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Pena",
-          "sent_id": "dante_01_449544099507736577l",
-          "sentence_text": "RT @chrinvestor: Só ontem a #PETR4 ganhou R$14 Bi em valor de mercado. Isso representa 5 'Pasadenas'. Pena q essa valorização é uma exceção…",
-          "split": "dev",
-          "token_id": "24",
-          "token_instance_id": "dev::dante_01_449544099507736577l::24",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "DUPB::L1197_0044::E01::NOUN_SENSE::NEW::001",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
-          }
+          "id": "Arg0",
+          "desc": "REGRETER"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "REGRETER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING REGRETTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "regret.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Pena",
-          "sent_id": "dante_01_449543752609464321l",
-          "sentence_text": "Só ontem a #PETR4 ganhou R$14 Bi em valor de mercado. Isso representa 5 'Pasadenas'. Pena q essa valorização é uma exceção e não uma regra.",
-          "split": "train",
-          "token_id": "21",
-          "token_instance_id": "train::dante_01_449543752609464321l::21",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "DUPB::L1197_0044::E01::NOUN_SENSE::NEW::001",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "pena",
-          "sent_id": "dante_01_449866873417789440l",
-          "sentence_text": "Boeing novinho na frota da gol!!! Está valendo a pena investir em goll4! Rsrs parabéns @VoeGOLoficial http://t.co/MXGHUqK3db",
-          "split": "train",
-          "token_id": "15",
-          "token_instance_id": "train::dante_01_449866873417789440l::15"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "pena",
-          "sent_id": "dante_01_452861055509991424l",
-          "sentence_text": "@ferrisss oi Ferri, estou comprado em CIEL3 q já subiu bastante. Na sua opinião vale a pena trocar por MMX? Medo do fantasma do Eike...",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_452861055509991424l::20"
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "REGRETER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING REGRETTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "regret.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "pena",
-          "sent_id": "dante_01_456388669415227393l",
-          "sentence_text": "É uma pena ver como o PT com sua gestão nefasta destrói empresas tão boas como a #PETR4 e #VALE5 . Coitado dos acionistas .",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_456388669415227393l::3",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "DUPB::L1197_0044::E01::NOUN_SENSE::NEW::001",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "REGRETER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING REGRETTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "regret.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "pena",
-          "sent_id": "dante_01_456848399242133504l",
-          "sentence_text": "#OIBR4 uma pena o papel ficar assim, só me resta uma alternativa comprar mais para abaixar minha média.",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_456848399242133504l::3",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "DUPB::L1197_0044::E01::NOUN_SENSE::NEW::001",
-            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "pena",
-          "sent_id": "dante_01_459316647241605121l",
-          "sentence_text": "Preço de aluguel de OIBR4 a 120% ao ano. Vale mais a pena alugar suas ações da Oi do que o seu apê.",
-          "split": "train",
-          "token_id": "16",
-          "token_instance_id": "train::dante_01_459316647241605121l::16"
+          "id": "Arg1",
+          "desc": "THING REGRETTED"
         }
       ],
-      "lemma": "pena",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "headword=pena;leaf=1197",
-        "dupb_source_unit_id": "DUPB::L1197_0032::E01::NOUN_SENSE::NEW::005",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "pena",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
+      "examples": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "regret.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "pena",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "REGRETER",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING REGRETTED",
-              "generalized_description": "CAUSE",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 4,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "DUPB::L1197_0044::E01::NOUN_SENSE::NEW::001"
+          "sent_ID": "dante_01_449544099507736577l",
+          "text": "RT @chrinvestor: Só ontem a #PETR4 ganhou R$14 Bi em valor de mercado. Isso representa 5 'Pasadenas'. Pena q essa valorização é uma exceção…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_449544099507736577l::pena::1",
+          "predicate": {
+            "form": "Pena"
+          }
+        },
+        {
+          "sent_ID": "dante_01_449543752609464321l",
+          "text": "Só ontem a #PETR4 ganhou R$14 Bi em valor de mercado. Isso representa 5 'Pasadenas'. Pena q essa valorização é uma exceção e não uma regra.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_449543752609464321l::pena::1",
+          "predicate": {
+            "form": "Pena"
+          }
+        },
+        {
+          "sent_ID": "dante_01_456388669415227393l",
+          "text": "É uma pena ver como o PT com sua gestão nefasta destrói empresas tão boas como a #PETR4 e #VALE5 . Coitado dos acionistas .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_456388669415227393l::pena::1",
+          "predicate": {
+            "form": "pena"
+          }
+        },
+        {
+          "sent_ID": "dante_01_456848399242133504l",
+          "text": "#OIBR4 uma pena o papel ficar assim, só me resta uma alternativa comprar mais para abaixar minha média.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_456848399242133504l::pena::1",
+          "predicate": {
+            "form": "pena"
+          }
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 3,
-        "S": 4,
-        "instances_total": 7,
-        "regular_argument_instances": 4,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

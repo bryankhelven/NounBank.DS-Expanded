@@ -1,461 +1,135 @@
 {
   "lemma": "motivo",
   "lemma_base": "motivo",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "motivo",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 8,
-      "S": 8,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 1,
-      "argument_ABSTAIN": 7
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "motivo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "reason.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reason.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "id": "Arg1",
+          "desc": "ACTION"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446282720717856768l",
+          "text": "Quem tiver interesse em doar PETR3 ou 4 em aluguel, procurar @brunogmusa. Para PF compensa muito. Paga boa taxa! Motivo JSCP @ferrisss",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "Motivo",
-          "sent_id": "dante_01_446282720717856768l",
-          "sentence_text": "Quem tiver interesse em doar PETR3 ou 4 em aluguel, procurar @brunogmusa. Para PF compensa muito. Paga boa taxa! Motivo JSCP @ferrisss",
-          "split": "test",
-          "token_id": "24",
-          "token_instance_id": "test::dante_01_446282720717856768l::24",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_446282720717856768l::motivo::1",
+          "predicate": {
+            "form": "Motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_443714729400631296l",
+          "text": "Queda de 20% no ano do minério de ferro negociado na China é o principal motivo para a derrocada recente da Vale. #VALE5",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivo",
-          "sent_id": "dante_01_443714729400631296l",
-          "sentence_text": "Queda de 20% no ano do minério de ferro negociado na China é o principal motivo para a derrocada recente da Vale. #VALE5",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_443714729400631296l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443714729400631296l::motivo::1",
+          "predicate": {
+            "form": "motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_448508309373743105l",
+          "text": "@emirsader @gravz 'Bill Gates do mercado de capitais' Então qual o motivo da alta da PETR4..???",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivo",
-          "sent_id": "dante_01_448508309373743105l",
-          "sentence_text": "@emirsader @gravz 'Bill Gates do mercado de capitais' Então qual o motivo da alta da PETR4..???",
-          "split": "train",
-          "token_id": "15",
-          "token_instance_id": "train::dante_01_448508309373743105l::15",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_448508309373743105l::motivo::1",
+          "predicate": {
+            "form": "motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_449658096475197440l",
+          "text": "@EstadaoEconomia Não acharam o motivo ainda? Uma dica: O BTGPACTUAL comprou quase 10 milhões de ações de PETR4 dia 20 e 21/3. Pagou 13,81",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivo",
-          "sent_id": "dante_01_449658096475197440l",
-          "sentence_text": "@EstadaoEconomia Não acharam o motivo ainda? Uma dica: O BTGPACTUAL comprou quase 10 milhões de ações de PETR4 dia 20 e 21/3. Pagou 13,81",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_449658096475197440l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_449658096475197440l::motivo::1",
+          "predicate": {
+            "form": "motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_451717014810529792l",
+          "text": "Um motivo a menos para a alta da PETR4. Que venha a correção!",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivo",
-          "sent_id": "dante_01_451717014810529792l",
-          "sentence_text": "Um motivo a menos para a alta da PETR4. Que venha a correção!",
-          "split": "train",
-          "token_id": "2",
-          "token_instance_id": "train::dante_01_451717014810529792l::2",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_451717014810529792l::motivo::1",
+          "predicate": {
+            "form": "motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_456089794812973056l",
+          "text": "Os 3 motivos para a derrocada da Vale hoje, ações caem mais de 3%: Além da China, papel é pr... http://t.co/R0uWXA99UG #infomoney #vale5",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivos",
-          "sent_id": "dante_01_456089794812973056l",
-          "sentence_text": "Os 3 motivos para a derrocada da Vale hoje, ações caem mais de 3%: Além da China, papel é pr... http://t.co/R0uWXA99UG #infomoney #vale5",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_456089794812973056l::3",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_456089794812973056l::motivo::1",
+          "predicate": {
+            "form": "motivos"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_460842012531757056l",
+          "text": "@RoamerON o JCP da PETR4 normalmente vem em 4x ... fizeram de uma vez só. Motivo ? ... 'nem ideia' =/",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "Motivo",
-          "sent_id": "dante_01_460842012531757056l",
-          "sentence_text": "@RoamerON o JCP da PETR4 normalmente vem em 4x ... fizeram de uma vez só. Motivo ? ... 'nem ideia' =/",
-          "split": "train",
-          "token_id": "18",
-          "token_instance_id": "train::dante_01_460842012531757056l::18",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_460842012531757056l::motivo::1",
+          "predicate": {
+            "form": "Motivo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 1,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_461613393976111106l",
+          "text": "Vale e Ambev perdem R$ 15 bi em valor e small cap sobe 26% 'sem motivo': Anhanguera dispara ... http://t.co/zlztvmAOJU #infomoney #vale5",
+          "realization": {
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "reason.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null
           },
-          "form": "motivo",
-          "sent_id": "dante_01_461613393976111106l",
-          "sentence_text": "Vale e Ambev perdem R$ 15 bi em valor e small cap sobe 26% 'sem motivo': Anhanguera dispara ... http://t.co/zlztvmAOJU #infomoney #vale5",
-          "split": "train",
-          "token_id": "18",
-          "token_instance_id": "train::dante_01_461613393976111106l::18",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0439-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_461613393976111106l::motivo::1",
+          "predicate": {
+            "form": "motivo"
           }
         }
       ],
-      "lemma": "motivo",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "motivo",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "reason.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "motivo",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ACTION",
-              "generalized_description": "ACTION",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 8,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0439-S001"
-        }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 8,
-        "instances_total": 8,
-        "regular_argument_instances": 8,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

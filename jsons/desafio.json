@@ -2,91 +2,15 @@
   "lemma": "desafio",
   "lemma_base": "desafio",
   "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "desafio",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "lemma::desafio::NOUN_SENSE::02",
-      "dupb_source_locator": "L0479_0227",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 1,
-      "S": 1,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 0,
-      "argument_ABSTAIN": 0
-    },
-    "current_record": {
-      "instances": [
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "form": "desafios",
-          "sent_id": "dante_01_468734838485561344l",
-          "sentence_text": "Empresas de pagamento e tranf. de recursos terão grandes desafios nos próximos anos... @chrinvestor Abre o olho #CIEL3",
-          "split": "train",
-          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
-          "token_id": "10",
-          "token_instance_id": "train::dante_01_468734838485561344l::10",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": null,
-            "terminal_category": "TERMINAL_NONEXACT",
-            "terminal_disposition": "COMMON_CHALLENGE_DIFFICULTY_SENSE_NOT_IN_INVENTORY"
-          }
-        }
-      ],
-      "lemma": "desafio",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L0479_0227",
-        "dupb_source_unit_id": "lemma::desafio::NOUN_SENSE::02",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "desafio",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
+  "pending_instances": [
+    {
+      "sent_ID": "dante_01_468734838485561344l",
+      "text": "Empresas de pagamento e tranf. de recursos terão grandes desafios nos próximos anos... @chrinvestor Abre o olho #CIEL3",
+      "instance_id": "dante_01_468734838485561344l::desafio::1",
+      "predicate": {
+        "form": "desafios"
       },
-      "observed_semantic_units": [],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 1,
-        "instances_total": 1,
-        "regular_argument_instances": 0,
-        "terminal_semantic_exceptions": 1
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "resolution_status": "awaiting_sense_resolution"
     }
-  }
+  ]
 }
