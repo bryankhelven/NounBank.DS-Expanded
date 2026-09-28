@@ -69,6 +69,36 @@
       "4": 55,
       "5": 41,
       "6": 8
+    },
+    "argument_lineage": {
+      "V1_REUSE_1747": {
+        "instances": 1747,
+        "role_slots": 8721,
+        "YES": 1863,
+        "description": "Gold publicado V1 reutilizado"
+      },
+      "V1_IDENTITY_REPAIRED_9": {
+        "instances": 9,
+        "role_slots": 45,
+        "YES": 11,
+        "description": "Gold V1 preservado após reparo de identidade"
+      },
+      "V1_INHERITED_NEW_38": {
+        "instances": 38,
+        "role_slots": 190,
+        "YES": 33,
+        "NO": 148,
+        "ABSTAIN": 9,
+        "description": "Novos contextos de predicadores herdados"
+      },
+      "EXPANDED_NEW_1730": {
+        "instances": 1730,
+        "role_slots": 6028,
+        "YES": 762,
+        "NO": 3975,
+        "ABSTAIN": 1291,
+        "description": "Novos predicadores da expansão"
+      }
     }
   },
   "enmap_new_units": {
@@ -90,5 +120,21 @@
       "ENMAP_TERMINAL_NONALIGNED": 52,
       "CONSTRUCTION_SPECIFIC": 19
     }
+  },
+  "compatibility": {
+    "canonical_v1_lemmas": 145,
+    "canonical_v1_examples": 1756,
+    "expanded_lemmas": 709,
+    "added_lemmas": 564,
+    "v1_payload_compatibility": "145/145 PASS",
+    "lexical_multiplier": 4.889655172413793,
+    "lexical_growth_percent": 388.9655172413793
+  },
+  "methodology": {
+    "HEAD_SPAN_required_for_YES": true,
+    "V1_span_reanchors": 96,
+    "V1_heads_derived_inside_frozen_span": 104,
+    "generic_unresolved": 0,
+    "target_corpus": "DANTEStocks_ONLY"
   }
 }
