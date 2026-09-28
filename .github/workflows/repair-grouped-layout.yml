@@ -1,0 +1,29 @@
+name: Repair grouped V1-compatible layout
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - tools/_repair_grouped_layout.py
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Rebuild pages
+        run: python3 tools/_repair_grouped_layout.py
+      - name: Commit pages
+        run: |
+          rm -f tools/_repair_grouped_layout.py
+          rm -f .github/workflows/repair-grouped-layout.yml
+          git config user.name "NounBank.DS Expanded Bot"
+          git config user.email "noreply@github.com"
+          git add -A
+          git commit -m "Repair grouped V1-compatible lemma pages"
+          git push origin HEAD:main
