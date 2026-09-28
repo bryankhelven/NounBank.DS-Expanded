@@ -1,0 +1,31 @@
+name: One-shot public sanitization
+on:
+  push:
+    branches:
+      - fix/public-sanitization-predicative-only
+    paths:
+      - .github/workflows/one-shot-public-sanitization.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sanitize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/public-sanitization-predicative-only
+          fetch-depth: 0
+      - name: Run sanitizer
+        run: python3 tools/_one_shot_sanitize.py
+      - name: Commit sanitized public tree
+        run: |
+          rm -f tools/_one_shot_sanitize.py
+          rm -f .github/workflows/one-shot-public-sanitization.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Apply predicative-only public sanitization"
+          git push origin HEAD:fix/public-sanitization-predicative-only
