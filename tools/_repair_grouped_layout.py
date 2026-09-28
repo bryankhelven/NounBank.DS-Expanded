@@ -112,3 +112,5 @@ for item in manifest:
 assert len(list(PD.glob("*.html")))==494
 print("PAGES=494")
 print("ACORDO_GROUPS=",len(group_senses(json.loads((JD/"acordo.json").read_text())["senses"])))
+
+# trigger
