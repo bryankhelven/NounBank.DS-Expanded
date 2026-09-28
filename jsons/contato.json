@@ -1,292 +1,1280 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "contato",
   "lemma_base": "contato",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_445910135513546752l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "KROT3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "dev::dante_01_445910135513546752l::22"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_443024919610531840l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "GGBR4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
-      "token_instance_id": "test::dante_01_443024919610531840l::22"
+    "lexical_authority": {
+      "lemma": "contato",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "headword=contato/contacto;leaf=409",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_453621090594877440l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "SUZB5 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "test::dante_01_453621090594877440l::22"
+    "summary": {
+      "contextual_instances": 20,
+      "S": 20,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 20,
+      "argument_ABSTAIN": 20
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_445910135513546752l",
+          "sentence_text": "KROT3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "dev",
+          "token_id": "22",
+          "token_instance_id": "dev::dante_01_445910135513546752l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_443024919610531840l",
+          "sentence_text": "GGBR4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
+          "split": "test",
+          "token_id": "22",
+          "token_instance_id": "test::dante_01_443024919610531840l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_453621090594877440l",
+          "sentence_text": "SUZB5 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "test",
+          "token_id": "22",
+          "token_instance_id": "test::dante_01_453621090594877440l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_459689389082546176l",
+          "sentence_text": "SUZB5 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "test",
+          "token_id": "24",
+          "token_instance_id": "test::dante_01_459689389082546176l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_443577788847886336l",
+          "sentence_text": "BVMF3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_443577788847886336l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_443577830132420608l",
+          "sentence_text": "CIEL3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_443577830132420608l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_445960707155439617l",
+          "sentence_text": "USIM5 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_445960707155439617l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_446650332391936001l",
+          "sentence_text": "BVMF3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_446650332391936001l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_446650385768677376l",
+          "sentence_text": "BBAS3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_446650385768677376l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_448448004203483136l",
+          "sentence_text": "LAME4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_448448004203483136l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_453187222423224321l",
+          "sentence_text": "NATU3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_453187222423224321l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_454292819583459328l",
+          "sentence_text": "VIVT4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_454292819583459328l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_454339944950284289l",
+          "sentence_text": "MRVE3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_454339944950284289l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_456873147132690433l",
+          "sentence_text": "ELET3 bateu no objetivo do Anderson agora,quer ver e saber quais as operações do Anderson.Entre em contato: centraltrader@hotmail.com.",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_456873147132690433l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_459326429826932736l",
+          "sentence_text": "NATU3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_459326429826932736l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_459328682411429888l",
+          "sentence_text": "FIBR3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_459328682411429888l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_459688639933714432l",
+          "sentence_text": "LREN3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_459688639933714432l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_460775838628458496l",
+          "sentence_text": "HGTX3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_460775838628458496l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_461164099326705664l",
+          "sentence_text": "LAME4 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_461164099326705664l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "CONTACTOR, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CONTACTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "contact.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "contato",
+          "sent_id": "dante_01_465860177078808576l",
+          "sentence_text": "NATU3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com.",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_465860177078808576l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0165-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_459689389082546176l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "SUZB5 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "test::dante_01_459689389082546176l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
+      "lemma": "contato",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "headword=contato/contacto;leaf=409",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "contato",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "contact.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "contato",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "CONTACTOR, AGENT",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "ENTITY CONTACTED",
+              "generalized_description": "CONTACTED",
+              "role_label": "ARG1",
+              "role_number": "1"
+            }
+          ],
+          "observed_instance_count": 20,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0165-S002"
+        }
       ],
-      "sent_ID": "dante_01_443577788847886336l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "BVMF3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
-      "token_instance_id": "train::dante_01_443577788847886336l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_443577830132420608l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "CIEL3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com.",
-      "token_instance_id": "train::dante_01_443577830132420608l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_445960707155439617l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "USIM5 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_445960707155439617l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_446650332391936001l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "BVMF3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_446650332391936001l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_446650385768677376l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "BBAS3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_446650385768677376l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_448448004203483136l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "LAME4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_448448004203483136l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_453187222423224321l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "NATU3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_453187222423224321l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_454292819583459328l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "VIVT4 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_454292819583459328l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_454339944950284289l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "MRVE3 bateu no objetivo do Anderson agora quer ver e saber quais as operações do Anderson entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_454339944950284289l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_456873147132690433l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "ELET3 bateu no objetivo do Anderson agora,quer ver e saber quais as operações do Anderson.Entre em contato: centraltrader@hotmail.com.",
-      "token_instance_id": "train::dante_01_456873147132690433l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_459326429826932736l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "NATU3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_459326429826932736l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_459328682411429888l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "FIBR3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_459328682411429888l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_459688639933714432l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "LREN3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_459688639933714432l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_460775838628458496l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "HGTX3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_460775838628458496l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_461164099326705664l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "LAME4 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com",
-      "token_instance_id": "train::dante_01_461164099326705664l::24"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0165-S001",
-        "NBDS2-L0165-S002",
-        "NBDS2-L0165-S003",
-        "NBDS2-L0165-S004",
-        "NBDS2-L0165-S005",
-        "NBDS2-L0165-S006"
-      ],
-      "sent_ID": "dante_01_465860177078808576l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "NATU3 bateu no objetivo do Anderson agora, quer ver e saber quais as operações do Anderson, entre em contato: centraltrader@hotmail.com.",
-      "token_instance_id": "train::dante_01_465860177078808576l::24"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 20,
+        "instances_total": 20,
+        "regular_argument_instances": 20,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

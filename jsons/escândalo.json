@@ -1,156 +1,631 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "escândalo",
   "lemma_base": "escândalo",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_456438382630305792l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Será ao Vivo? RT @Trader_Richter: Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatilidade!",
-      "token_instance_id": "test::dante_01_456438382630305792l::18"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_446613472970047488l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Vcs sabem como o PT rebate um escândalo igual a esse da Petr4?! Ñ?! Com outro escândalo no prazo máx de 1semana #ModusOperandiPetista",
-      "token_instance_id": "train::dante_01_446613472970047488l::22"
+    "lexical_authority": {
+      "lemma": "escândalo",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "current_authority": "LEGOS",
+      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "LEGOS",
+      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_446613472970047488l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Vcs sabem como o PT rebate um escândalo igual a esse da Petr4?! Ñ?! Com outro escândalo no prazo máx de 1semana #ModusOperandiPetista",
-      "token_instance_id": "train::dante_01_446613472970047488l::8"
+    "summary": {
+      "contextual_instances": 9,
+      "S": 9,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 11,
+      "argument_ABSTAIN": 7
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalos",
+          "sent_id": "dante_01_456438382630305792l",
+          "sentence_text": "Será ao Vivo? RT @Trader_Richter: Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatilidade!",
+          "split": "test",
+          "token_id": "18",
+          "token_instance_id": "test::dante_01_456438382630305792l::18",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalo",
+          "sent_id": "dante_01_446613472970047488l",
+          "sentence_text": "Vcs sabem como o PT rebate um escândalo igual a esse da Petr4?! Ñ?! Com outro escândalo no prazo máx de 1semana #ModusOperandiPetista",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_446613472970047488l::8",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalo",
+          "sent_id": "dante_01_446613472970047488l",
+          "sentence_text": "Vcs sabem como o PT rebate um escândalo igual a esse da Petr4?! Ñ?! Com outro escândalo no prazo máx de 1semana #ModusOperandiPetista",
+          "split": "train",
+          "token_id": "22",
+          "token_instance_id": "train::dante_01_446613472970047488l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escandalos",
+          "sent_id": "dante_01_446696198293184512l",
+          "sentence_text": "Petr4 - Quando ha noticias ´´boas´´ acao cai.. quando aparece escandalos e outras not. nao agradeveis, sobe.. #toforaaaaa",
+          "split": "train",
+          "token_id": "16",
+          "token_instance_id": "train::dante_01_446696198293184512l::16",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalo",
+          "sent_id": "dante_01_446754279949631488l",
+          "sentence_text": "Ainda sobre o escândalo da #PETROBRAS #PETR4. PT não privatizou a empresa: preferiu QUEBRÁ-LA! http://t.co/U3MhxNvaxS",
+          "split": "train",
+          "token_id": "4",
+          "token_instance_id": "train::dante_01_446754279949631488l::4",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalo",
+          "sent_id": "dante_01_448260983841382400l",
+          "sentence_text": "“@lambari_trader: Agora no JN, mais escândalo na PeTebrás...” E até quando vai a subida da petr3 e petr4??",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_448260983841382400l::10",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalos",
+          "sent_id": "dante_01_451396974261338112l",
+          "sentence_text": "O fundo ocorreu no dia 17/03, nos R$12,57. Em 12 pregões já subiu mais de 30%. Isso tudo, no meio de escândalos de corrupção. #PETR4",
+          "split": "train",
+          "token_id": "31",
+          "token_instance_id": "train::dante_01_451396974261338112l::31",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalos",
+          "sent_id": "dante_01_456430377955889152l",
+          "sentence_text": "Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatilidade!",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_456430377955889152l::10",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ACTION",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "scandal.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "escândalos",
+          "sent_id": "dante_01_456438576054431745l",
+          "sentence_text": "RT @marisascruz: Será ao Vivo? RT @Trader_Richter: Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatil…",
+          "split": "train",
+          "token_id": "21",
+          "token_instance_id": "train::dante_01_456438576054431745l::21",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0271-S005",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_446696198293184512l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Petr4 - Quando ha noticias ´´boas´´ acao cai.. quando aparece escandalos e outras not. nao agradeveis, sobe.. #toforaaaaa",
-      "token_instance_id": "train::dante_01_446696198293184512l::16"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
+      "lemma": "escândalo",
+      "lexical_authority": {
+        "current_authority": "LEGOS",
+        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "LEGOS",
+        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+        "legacy_status": "RESOLVED",
+        "lemma": "escândalo",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "scandal.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "escândalo",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "AGENT",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "ACTION",
+              "generalized_description": "ACTION",
+              "role_label": "ARG1",
+              "role_number": "1"
+            }
+          ],
+          "observed_instance_count": 9,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0271-S005"
+        }
       ],
-      "sent_ID": "dante_01_446754279949631488l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Ainda sobre o escândalo da #PETROBRAS #PETR4. PT não privatizou a empresa: preferiu QUEBRÁ-LA! http://t.co/U3MhxNvaxS",
-      "token_instance_id": "train::dante_01_446754279949631488l::4"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_448260983841382400l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "“@lambari_trader: Agora no JN, mais escândalo na PeTebrás...” E até quando vai a subida da petr3 e petr4??",
-      "token_instance_id": "train::dante_01_448260983841382400l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_451396974261338112l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "O fundo ocorreu no dia 17/03, nos R$12,57. Em 12 pregões já subiu mais de 30%. Isso tudo, no meio de escândalos de corrupção. #PETR4",
-      "token_instance_id": "train::dante_01_451396974261338112l::31"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_456430377955889152l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatilidade!",
-      "token_instance_id": "train::dante_01_456430377955889152l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0271-S001",
-        "NBDS2-L0271-S002",
-        "NBDS2-L0271-S003",
-        "NBDS2-L0271-S004",
-        "NBDS2-L0271-S005",
-        "NBDS2-L0271-S006",
-        "NBDS2-L0271-S007",
-        "NBDS2-L0271-S008"
-      ],
-      "sent_ID": "dante_01_456438576054431745l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "RT @marisascruz: Será ao Vivo? RT @Trader_Richter: Nestor Cerveró vai falar agora, 11 horas sobre escândalos da PETR4. Que comece a volatil…",
-      "token_instance_id": "train::dante_01_456438576054431745l::21"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 9,
+        "instances_total": 9,
+        "regular_argument_instances": 9,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

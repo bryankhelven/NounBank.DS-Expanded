@@ -1,60 +1,277 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "coincidência",
   "lemma_base": "coincidência",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0130-S001",
-        "NBDS2-L0130-S002",
-        "NBDS2-L0130-S003",
-        "NBDS2-L0130-S004"
-      ],
-      "sent_ID": "dante_01_445626237487427584l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Uma coisa interessante que acabei de observar. Tanto PETR3 quando PETR4 tem 107M de ações alugadas. Será isso coincidencia? @dfittarelli",
-      "token_instance_id": "test::dante_01_445626237487427584l::21"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0130-S001",
-        "NBDS2-L0130-S002",
-        "NBDS2-L0130-S003",
-        "NBDS2-L0130-S004"
-      ],
-      "sent_ID": "dante_01_445626541658365952l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "RT @Smarttrade10: Uma coisa interessante que acabei de observar. Tanto PETR3 quando PETR4 tem 107M de ações alugadas. Será isso coincidenci…",
-      "token_instance_id": "test::dante_01_445626541658365952l::25"
+    "lexical_authority": {
+      "lemma": "coincidência",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "NONE_OF_THREE",
+      "source_legos": "NO",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "lemma::coincidência::NOUN_SENSE::01",
+      "dupb_source_locator": "L0365_0163",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0130-S001",
-        "NBDS2-L0130-S002",
-        "NBDS2-L0130-S003",
-        "NBDS2-L0130-S004"
-      ],
-      "sent_ID": "dante_01_445998715699220480l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "PETR4 Petrobras repica na Bolsa e dá uma chance pra galera ganhar unzinho. Será coincidência o papel subir logo depois do exercício? Heeheh",
-      "token_instance_id": "train::dante_01_445998715699220480l::17"
+    "summary": {
+      "contextual_instances": 4,
+      "S": 4,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 1,
+      "argument_ABSTAIN": 3
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0130-S001",
-        "NBDS2-L0130-S002",
-        "NBDS2-L0130-S003",
-        "NBDS2-L0130-S004"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING(S) HAPPENING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "coincidence.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "coincidencia",
+          "sent_id": "dante_01_445626237487427584l",
+          "sentence_text": "Uma coisa interessante que acabei de observar. Tanto PETR3 quando PETR4 tem 107M de ações alugadas. Será isso coincidencia? @dfittarelli",
+          "split": "test",
+          "token_id": "21",
+          "token_instance_id": "test::dante_01_445626237487427584l::21",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0130-S003",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING(S) HAPPENING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "coincidence.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "coincidenci",
+          "sent_id": "dante_01_445626541658365952l",
+          "sentence_text": "RT @Smarttrade10: Uma coisa interessante que acabei de observar. Tanto PETR3 quando PETR4 tem 107M de ações alugadas. Será isso coincidenci…",
+          "split": "test",
+          "token_id": "25",
+          "token_instance_id": "test::dante_01_445626541658365952l::25",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0130-S003",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING(S) HAPPENING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "coincidence.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "coincidência",
+          "sent_id": "dante_01_445998715699220480l",
+          "sentence_text": "PETR4 Petrobras repica na Bolsa e dá uma chance pra galera ganhar unzinho. Será coincidência o papel subir logo depois do exercício? Heeheh",
+          "split": "train",
+          "token_id": "17",
+          "token_instance_id": "train::dante_01_445998715699220480l::17",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0130-S003",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING(S) HAPPENING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "coincidence.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "coincidência",
+          "sent_id": "dante_01_453531201522139136l",
+          "sentence_text": "#PETR4 e #VALE5 abriram hoje em gap exatamente em cima da MM200 períodos no gráfico diário não ajustado. Apenas uma coincidência?",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_453531201522139136l::24",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0130-S003",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_453531201522139136l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#PETR4 e #VALE5 abriram hoje em gap exatamente em cima da MM200 períodos no gráfico diário não ajustado. Apenas uma coincidência?",
-      "token_instance_id": "train::dante_01_453531201522139136l::24"
+      "lemma": "coincidência",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L0365_0163",
+        "dupb_source_unit_id": "lemma::coincidência::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "coincidência",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "NONE_OF_THREE",
+        "source_legos": "NO",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "coincidence.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "coincidência",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING(S) HAPPENING",
+              "generalized_description": "PATIENT",
+              "role_label": "ARG1",
+              "role_number": "1"
+            }
+          ],
+          "observed_instance_count": 4,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0130-S003"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 4,
+        "instances_total": 4,
+        "regular_argument_instances": 4,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

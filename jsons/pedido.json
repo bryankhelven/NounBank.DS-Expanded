@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "pedido",
   "lemma_base": "pedido",
   "senses": [
     {
+      "pt_roleset": "pedido.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "request.01",
       "english_roleset_source": "verb-request.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/request.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "asker"
+        },
+        {
+          "id": "Arg1",
+          "desc": "favor"
+        },
+        {
+          "id": "Arg2",
+          "desc": "hearer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_443546875632029696l::pedido::1",
-          "predicate": {
-            "char_end": 51,
-            "char_start": 45,
-            "form": "pedido"
-          },
+          "sent_ID": "dante_01_443546875632029696l",
+          "text": "#PETR4 RT @kitowgallo : PGR manda para o Rio pedido para apurar suposto suborno em a Petrobras : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD",
           "realization": {
             "Arg0": "PGR",
             "Arg1": "para apurar suposto suborno em a Petrobras",
@@ -25,47 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_443546875632029696l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#PETR4 RT @kitowgallo : PGR manda para o Rio pedido para apurar suposto suborno em a Petrobras : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD"
+          }
         },
         {
-          "instance_id": "dante_01_451457092516577283l::pedido::1",
-          "predicate": {
-            "char_end": 36,
-            "char_start": 30,
-            "form": "pedido"
-          },
-          "realization": {
-            "Arg0": "A oposição",
-            "Arg1": "de criação de CPI para investigar a Petrobras PETR4.SA",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_451457092516577283l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por senadores e deputados ."
-        },
-        {
-          "instance_id": "dante_01_451460186029719552l::pedido::1",
-          "predicate": {
-            "char_end": 57,
-            "char_start": 51,
-            "form": "pedido"
-          },
+          "text": "A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por senadores e deputados .",
           "realization": {
             "Arg0": "A oposição",
             "Arg1": "de criação de CPI para investigar a Petrobras PETR4.SA",
@@ -73,23 +60,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451460186029719552l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @AlesandroAlves : A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por sen …"
+          }
         },
         {
-          "instance_id": "dante_01_445556435427287040l::pedido::1",
-          "predicate": {
-            "char_end": 60,
-            "char_start": 54,
-            "form": "pedido"
+          "sent_ID": "dante_01_451460186029719552l",
+          "text": "RT @AlesandroAlves : A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por sen …",
+          "realization": {
+            "Arg0": "A oposição",
+            "Arg1": "de criação de CPI para investigar a Petrobras PETR4.SA",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445556435427287040l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Material A Disposicao ( pedido Publico De Procuracao ) http://t.co/0vmBXdZc0u",
           "realization": {
             "Arg0": null,
             "Arg1": "de Procuracao",
@@ -97,41 +96,13 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_445556435427287040l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Material A Disposicao ( pedido Publico De Procuracao ) http://t.co/0vmBXdZc0u"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/request.xml",
-      "pt_roleset": "pedido.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "asker",
-          "id": "Arg0"
-        },
-        {
-          "desc": "favor",
-          "id": "Arg1"
-        },
-        {
-          "desc": "hearer",
-          "id": "Arg2"
-        },
-        {
-          "desc": "beneficiary",
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
@@ -147,5 +118,555 @@
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "pedido",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 4,
+      "S": 4,
+      "N": 0,
+      "argument_YES": 8,
+      "argument_NO": 12,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "5",
+                "role": "Arg0",
+                "span_text": "PGR",
+                "span_token_ids": [
+                  5
+                ],
+                "status": "YES",
+                "head_form": "PGR",
+                "head_lemma": "PGR",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "para apurar suposto suborno em a Petrobras",
+                "span_token_ids": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "status": "YES",
+                "head_form": "apurar",
+                "head_lemma": "apurar",
+                "head_deprel": "acl"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "9",
+                "role": "Arg2",
+                "span_text": "para o Rio",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "Rio",
+                "head_lemma": "Rio",
+                "head_deprel": "obl"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "request.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "pedido",
+          "sent_id": "dante_01_443546875632029696l",
+          "sentence_text": "#PETR4 RT @kitowgallo: PGR manda para o Rio pedido para apurar suposto suborno na Petrobras: Procuradoria da Repúb... http://t.co/kDSqPTbzcD",
+          "split": "dev",
+          "token_id": "10",
+          "token_instance_id": "dev::dante_01_443546875632029696l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0490-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "5",
+                "role": "Arg0",
+                "span_text": "A oposição",
+                "span_token_ids": [
+                  4,
+                  5
+                ],
+                "status": "YES",
+                "head_form": "oposição",
+                "head_lemma": "oposição",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg1",
+                "span_text": "de criação de CPI para investigar a Petrobras PETR4.SA",
+                "span_token_ids": [
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ],
+                "status": "YES",
+                "head_form": "criação",
+                "head_lemma": "criação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "request.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "pedido",
+          "sent_id": "dante_01_451460186029719552l",
+          "sentence_text": "RT @AlesandroAlves: A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA, desta vez composta por sen…",
+          "split": "test",
+          "token_id": "9",
+          "token_instance_id": "test::dante_01_451460186029719552l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0490-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Procuracao",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Procuracao",
+                "head_lemma": "procuração",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "request.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "pedido",
+          "sent_id": "dante_01_445556435427287040l",
+          "sentence_text": "$BRFS3 - Brf Sa (brfs-nm) - Material A Disposicao (pedido Publico De Procuracao) http://t.co/0vmBXdZc0u",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_445556435427287040l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0490-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "2",
+                "role": "Arg0",
+                "span_text": "A oposição",
+                "span_token_ids": [
+                  1,
+                  2
+                ],
+                "status": "YES",
+                "head_form": "oposição",
+                "head_lemma": "oposição",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "8",
+                "role": "Arg1",
+                "span_text": "de criação de CPI para investigar a Petrobras PETR4.SA",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "criação",
+                "head_lemma": "criação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "request.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "pedido",
+          "sent_id": "dante_01_451457092516577283l",
+          "sentence_text": "A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA, desta vez composta por senadores e deputados.",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_451457092516577283l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0490-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "pedido",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "pedido",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "request.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "pedido",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 4,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0490-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 4,
+        "instances_total": 4,
+        "regular_argument_instances": 4,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

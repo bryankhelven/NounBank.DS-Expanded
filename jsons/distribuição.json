@@ -1,18 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "distribuição",
   "lemma_base": "distribuição",
   "senses": [
     {
+      "pt_roleset": "distribuição.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "distribution.01",
       "english_roleset_source": "verb-distribute.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/distribution.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "distributor"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing distributed"
+        },
+        {
+          "id": "Arg2",
+          "desc": "distributed to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_461124301060849664l::distribuição::1",
+          "sent_ID": "dante_01_461124301060849664l",
+          "text": "$CYRE3 - Cyrela Realt ( cyre ) - Deliberacoes De a Ago/e / Distribuicao De Dividendo http://t.co/m7Rt4wHstX",
           "realization": {
             "Arg0": "$CYRE3 - Cyrela Realt ( cyre )",
             "Arg1": "De Dividendo",
@@ -20,18 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_461124301060849664l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$CYRE3 - Cyrela Realt ( cyre ) - Deliberacoes De a Ago/e / Distribuicao De Dividendo http://t.co/m7Rt4wHstX"
+          }
         },
         {
-          "instance_id": "dante_01_459664701614731264l::distribuição::1",
+          "sent_ID": "dante_01_459664701614731264l",
+          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/a8VHtsh8Xw",
           "realization": {
             "Arg0": "$LIGT3 - Light S/a ( ligt-nm )",
             "Arg1": "De Dividendo",
@@ -39,18 +60,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_459664701614731264l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/a8VHtsh8Xw"
+          }
         },
         {
-          "instance_id": "dante_01_448882754701508608l::distribuição::1",
+          "sent_ID": "dante_01_448882754701508608l",
+          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - Ago/e - 10/04/2014 - 16h00 - Distribuicao De Dividendo http://t.co/uwgDsLkOnk",
           "realization": {
             "Arg0": "$ALLL3 - All Amer Lat ( alll-nm )",
             "Arg1": "De Dividendo",
@@ -58,37 +78,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_448882754701508608l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - Ago/e - 10/04/2014 - 16h00 - Distribuicao De Dividendo http://t.co/uwgDsLkOnk"
+          }
         },
         {
-          "instance_id": "dante_01_451368222600986624l::distribuição::1",
-          "realization": {
-            "Arg0": "$DASA3 - Dasa ( dasa-nm )",
-            "Arg1": "De Dividendo",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_451368222600986624l",
-          "syntax": {
-            "Arg0": "nmod",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$DASA3 - Dasa ( dasa-nm ) Ago 28/04/2014 11h00 Distribuicao De Dividendo http://t.co/t0sVt3htz6"
-        },
-        {
-          "instance_id": "dante_01_460825538517794816l::distribuição::1",
+          "text": "$DASA3 - Dasa ( dasa-nm ) Ago 28/04/2014 11h00 Distribuicao De Dividendo http://t.co/t0sVt3htz6",
           "realization": {
             "Arg0": "$DASA3 - Dasa ( dasa-nm )",
             "Arg1": "De Dividendo",
@@ -96,42 +96,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_460825538517794816l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$DASA3 - Dasa ( dasa-nm ) - Deliberacoes De a Ago / Distribuicao De Dividendo http://t.co/9eQGNWhrwd"
+          }
         },
         {
-          "instance_id": "dante_01_448151500116606976l::distribuição::1",
-          "predicate": {
-            "char_end": 69,
-            "char_start": 57,
-            "form": "distribuição"
-          },
+          "sent_ID": "dante_01_460825538517794816l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) - Deliberacoes De a Ago / Distribuicao De Dividendo http://t.co/9eQGNWhrwd",
           "realization": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "$DASA3 - Dasa ( dasa-nm )",
+            "Arg1": "De Dividendo",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
           "sent_ID": "dante_01_448151500116606976l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Navio gigante de a Vale aporta por a 1ª vez em centro de distribuição em a Malásia : Em sua viagem ... http://t.co/BH5YJv5MUg #infomoney #vale5"
-        },
-        {
-          "instance_id": "dante_01_453583096823443456l::distribuição::1",
+          "text": "Navio gigante de a Vale aporta por a 1ª vez em centro de distribuição em a Malásia : Em sua viagem ... http://t.co/BH5YJv5MUg #infomoney #vale5",
           "realization": {
             "Arg0": null,
             "Arg1": null,
@@ -139,18 +132,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_453583096823443456l",
           "syntax": {
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Encerramento De a Licenca De o Diretor De Distribuicao http://t.co/t0zHiXiVwN"
+          }
         },
         {
-          "instance_id": "dante_01_462197122784563200l::distribuição::1",
+          "sent_ID": "dante_01_453583096823443456l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Encerramento De a Licenca De o Diretor De Distribuicao http://t.co/t0zHiXiVwN",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462197122784563200l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/tLHgq4UcIa",
           "realization": {
             "Arg0": "$ELET3 - Eletrobras ( elet-n1 )",
             "Arg1": "De Juros Sobre O Capital Proprio",
@@ -158,18 +168,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_462197122784563200l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/tLHgq4UcIa"
+          }
         },
         {
-          "instance_id": "dante_01_443109051715817472l::distribuição::1",
+          "sent_ID": "dante_01_443109051715817472l",
+          "text": "$PETR3 - Petrobras ( petr ) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento De o Capital http://t.co/vfiIT5AhIW",
           "realization": {
             "Arg0": "$PETR3 - Petrobras ( petr )",
             "Arg1": "De Jcp",
@@ -177,18 +186,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_443109051715817472l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$PETR3 - Petrobras ( petr ) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento De o Capital http://t.co/vfiIT5AhIW"
+          }
         },
         {
-          "instance_id": "dante_01_451699904235466753l::distribuição::1",
+          "sent_ID": "dante_01_451699904235466753l",
+          "text": "$PETR3 - Petrobras ( petr ) - Distribuicao De Juros Sobre Capital Proprio / Valor Atualizado http://t.co/LUcMhv9FuB",
           "realization": {
             "Arg0": "$PETR3 - Petrobras ( petr )",
             "Arg1": "De Juros Sobre Capital Proprio",
@@ -196,18 +204,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451699904235466753l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$PETR3 - Petrobras ( petr ) - Distribuicao De Juros Sobre Capital Proprio / Valor Atualizado http://t.co/LUcMhv9FuB"
+          }
         },
         {
-          "instance_id": "dante_01_446612137251975168l::distribuição::1",
+          "sent_ID": "dante_01_446612137251975168l",
+          "text": "$CRUZ3 - Souza Cruz ( cruz ) - Distribuicao De Dividendo http://t.co/sVHeWwwDEQ",
           "realization": {
             "Arg0": "$CRUZ3 - Souza Cruz ( cruz )",
             "Arg1": "De Dividendo",
@@ -215,18 +222,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_446612137251975168l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$CRUZ3 - Souza Cruz ( cruz ) - Distribuicao De Dividendo http://t.co/sVHeWwwDEQ"
+          }
         },
         {
-          "instance_id": "dante_01_444458706374524929l::distribuição::1",
+          "sent_ID": "dante_01_444458706374524929l",
+          "text": "$EMBR3 - Embraer ( embr-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/iag5yUYxkc",
           "realization": {
             "Arg0": "$EMBR3 - Embraer ( embr-nm )",
             "Arg1": "De Juros Sobre Capital Proprio",
@@ -234,18 +240,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_444458706374524929l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$EMBR3 - Embraer ( embr-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/iag5yUYxkc"
+          }
         },
         {
-          "instance_id": "dante_01_448784949853032448l::distribuição::1",
+          "sent_ID": "dante_01_448784949853032448l",
+          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/g7c3cn2A1B",
           "realization": {
             "Arg0": "$ECOR3 - Ecorodovias ( ecor-nm )",
             "Arg1": "De Juros Sobre Capital Proprio",
@@ -253,18 +258,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_448784949853032448l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/g7c3cn2A1B"
+          }
         },
         {
-          "instance_id": "dante_01_446638058633699328l::distribuição::1",
+          "sent_ID": "dante_01_446638058633699328l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid",
           "realization": {
             "Arg0": "$RENT3 - Localiza ( rent-nm )",
             "Arg1": "De Juros Cp",
@@ -272,18 +276,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_446638058633699328l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$RENT3 - Localiza ( rent-nm ) - Proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid"
+          }
         },
         {
-          "instance_id": "dante_01_459657331467649026l::distribuição::1",
+          "sent_ID": "dante_01_459657331467649026l",
+          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Deliberacoes De Assembleias / Distribuicao De Dividendo http://t.co/IoOoCOiGT1",
           "realization": {
             "Arg0": "$LIGT3 - Light S/a ( ligt-nm )",
             "Arg1": "De Dividendo",
@@ -291,18 +294,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_459657331467649026l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Deliberacoes De Assembleias / Distribuicao De Dividendo http://t.co/IoOoCOiGT1"
+          }
         },
         {
-          "instance_id": "dante_01_451685086862508032l::distribuição::1",
+          "sent_ID": "dante_01_451685086862508032l",
+          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) Ago/e 28/04/14 10h30 Dist. De Dividendo ( complemento ) http://t.co/roZDihEpaA",
           "realization": {
             "Arg0": "$ECOR3 - Ecorodovias ( ecor-nm )",
             "Arg1": "De Dividendo",
@@ -310,37 +312,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451685086862508032l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) Ago/e 28/04/14 10h30 Dist. De Dividendo ( complemento ) http://t.co/roZDihEpaA"
+          }
         },
         {
-          "instance_id": "dante_01_448902501086273536l::distribuição::1",
-          "realization": {
-            "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
-            "Arg1": "De Dividendo",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_448902501086273536l",
-          "syntax": {
-            "Arg0": "nmod",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 22/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/1lJw1uN5m7"
-        },
-        {
-          "instance_id": "dante_01_449542990672199680l::distribuição::1",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 22/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/1lJw1uN5m7",
           "realization": {
             "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
             "Arg1": "De Dividendo",
@@ -348,18 +330,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449542990672199680l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 28/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/cqdsO4mZIq"
+          }
         },
         {
-          "instance_id": "dante_01_449649666217746432l::distribuição::1",
+          "sent_ID": "dante_01_449542990672199680l",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 28/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/cqdsO4mZIq",
+          "realization": {
+            "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449649666217746432l",
+          "text": "$HGTX3 - Cia Hering ( hgtx-nm ) - Ago/e - 23/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/WcPwQGDChr",
           "realization": {
             "Arg0": "$HGTX3 - Cia Hering ( hgtx-nm )",
             "Arg1": "De Dividendo",
@@ -367,18 +366,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449649666217746432l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$HGTX3 - Cia Hering ( hgtx-nm ) - Ago/e - 23/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/WcPwQGDChr"
+          }
         },
         {
-          "instance_id": "dante_01_451347694989369344l::distribuição::1",
+          "sent_ID": "dante_01_451347694989369344l",
+          "text": "$ESTC3 - Estacio Part ( estc-nm ) Ago/e 30/04/2014 11h00 Distribuicao De Dividendo http://t.co/cuE0jepyyo",
           "realization": {
             "Arg0": "$ESTC3 - Estacio Part ( estc-nm )",
             "Arg1": "De Dividendo",
@@ -386,18 +384,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451347694989369344l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ESTC3 - Estacio Part ( estc-nm ) Ago/e 30/04/2014 11h00 Distribuicao De Dividendo http://t.co/cuE0jepyyo"
+          }
         },
         {
-          "instance_id": "dante_01_453227212003901442l::distribuição::1",
+          "sent_ID": "dante_01_453227212003901442l",
+          "text": "$CTIP3 - Cetip ( ctip-nm ) Ago/e 28/04/2014 10h00 Distribuicao De Dividendo http://t.co/8E9tQwMP72",
           "realization": {
             "Arg0": "$CTIP3 - Cetip ( ctip-nm )",
             "Arg1": "De Dividendo",
@@ -405,18 +402,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_453227212003901442l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$CTIP3 - Cetip ( ctip-nm ) Ago/e 28/04/2014 10h00 Distribuicao De Dividendo http://t.co/8E9tQwMP72"
+          }
         },
         {
-          "instance_id": "dante_01_453540037515558912l::distribuição::1",
+          "sent_ID": "dante_01_453540037515558912l",
+          "text": "$BRML3 - Br Malls Par ( brml-nm ) - Ago/e - 30/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/GDk4GzbOYE",
           "realization": {
             "Arg0": "$BRML3 - Br Malls Par ( brml-nm )",
             "Arg1": "De Dividendo",
@@ -424,18 +420,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_453540037515558912l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$BRML3 - Br Malls Par ( brml-nm ) - Ago/e - 30/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/GDk4GzbOYE"
+          }
         },
         {
-          "instance_id": "dante_01_456788707576532992l::distribuição::1",
+          "sent_ID": "dante_01_456788707576532992l",
+          "text": "$EMBR3 - Embraer ( embr-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/oayCW0wAQx",
           "realization": {
             "Arg0": "$EMBR3 - Embraer ( embr-nm )",
             "Arg1": "De Dividendo",
@@ -443,18 +438,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_456788707576532992l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$EMBR3 - Embraer ( embr-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/oayCW0wAQx"
+          }
         },
         {
-          "instance_id": "dante_01_457101556056588288l::distribuição::1",
+          "sent_ID": "dante_01_457101556056588288l",
+          "text": "$JBSS3 - Jbs ( jbss-nm ) - Ago/e - 30/04/2014 - 10h00 - Distribuicao De Dividendos http://t.co/YcUIpaVlPw",
           "realization": {
             "Arg0": "$JBSS3 - Jbs ( jbss-nm )",
             "Arg1": "De Dividendos",
@@ -462,18 +456,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_457101556056588288l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$JBSS3 - Jbs ( jbss-nm ) - Ago/e - 30/04/2014 - 10h00 - Distribuicao De Dividendos http://t.co/YcUIpaVlPw"
+          }
         },
         {
-          "instance_id": "dante_01_459398634690600960l::distribuição::1",
+          "sent_ID": "dante_01_459398634690600960l",
+          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Divindendo http://t.co/3VhamlAjCu",
           "realization": {
             "Arg0": "$EVEN3 - Even ( even-nm )",
             "Arg1": "De Divindendo",
@@ -481,18 +474,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_459398634690600960l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Divindendo http://t.co/3VhamlAjCu"
+          }
         },
         {
-          "instance_id": "dante_01_459399897276751872l::distribuição::1",
+          "sent_ID": "dante_01_459399897276751872l",
+          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Dividendo http://t.co/36gmqfcQG4",
           "realization": {
             "Arg0": "$EVEN3 - Even ( even-nm )",
             "Arg1": "De Dividendo",
@@ -500,18 +492,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_459399897276751872l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Dividendo http://t.co/36gmqfcQG4"
+          }
         },
         {
-          "instance_id": "dante_01_450970150016397312l::distribuição::1",
+          "sent_ID": "dante_01_450970150016397312l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Distribuicao De Juros Sobre O Capital Proprio ( valor Final ) http://t.co/55QS0ImihK",
           "realization": {
             "Arg0": "$RENT3 - Localiza ( rent-nm )",
             "Arg1": "De Juros Sobre O Capital Proprio",
@@ -519,23 +510,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_450970150016397312l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$RENT3 - Localiza ( rent-nm ) - Distribuicao De Juros Sobre O Capital Proprio ( valor Final ) http://t.co/55QS0ImihK"
+          }
         },
         {
-          "instance_id": "dante_01_470981899696209920l::distribuição::1",
-          "predicate": {
-            "char_end": 56,
-            "char_start": 44,
-            "form": "distribuição"
-          },
+          "sent_ID": "dante_01_470981899696209920l",
+          "text": "#CMIG4 - Cemig vai investir R$ 3 bilhões em distribuição de energia até 2017 - http://t.co/H3Ilcyc3vd",
           "realization": {
             "Arg0": null,
             "Arg1": "de energia",
@@ -543,74 +528,21 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_470981899696209920l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#CMIG4 - Cemig vai investir R$ 3 bilhões em distribuição de energia até 2017 - http://t.co/H3Ilcyc3vd"
-        },
-        {
-          "instance_id": "dante_01_448068726219628547l::distribuição::expanded::9",
-          "predicate": {
-            "char_end": 41,
-            "char_start": 29,
-            "form": "Distribuicao"
-          },
-          "realization": {
-            "Arg0": "$CRUZ3 Souza Cruz cruz",
-            "Arg1": "De Juros Sobre O Capital Proprio",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_448068726219628547l",
-          "syntax": {
-            "Arg0": "nmod",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$CRUZ3 - Souza Cruz (cruz) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/jry8ZCXZPW",
-          "token_instance_id": "test::dante_01_448068726219628547l::9"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/distribution.xml",
-      "pt_roleset": "distribuição.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "distributor",
-          "id": "Arg0"
-        },
-        {
-          "desc": "thing distributed",
-          "id": "Arg1"
-        },
-        {
-          "desc": "distributed to",
-          "id": "Arg2"
-        },
-        {
-          "desc": null,
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
         "Arg0": {
-          "nmod": 26
+          "nmod": 25
         },
         "Arg1": {
-          "nmod": 27
+          "nmod": 26
         },
         "Arg2": {
           "nmod": 2
@@ -618,5 +550,3261 @@
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "distribuição",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 29,
+      "S": 29,
+      "N": 0,
+      "argument_YES": 55,
+      "argument_NO": 90,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$HGTX3 - Cia Hering ( hgtx-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$HGTX3",
+                "head_lemma": "$HGTX3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "17",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  16,
+                  17
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_449649666217746432l",
+          "sentence_text": "$HGTX3 - Cia Hering (hgtx-nm) - Ago/e - 23/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/WcPwQGDChr",
+          "split": "dev",
+          "token_id": "15",
+          "token_instance_id": "dev::dante_01_449649666217746432l::15",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$CTIP3 - Cetip ( ctip-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$CTIP3",
+                "head_lemma": "$CTIP3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_453227212003901442l",
+          "sentence_text": "$CTIP3 - Cetip (ctip-nm)   Ago/e   28/04/2014   10h00   Distribuicao De Dividendo http://t.co/8E9tQwMP72",
+          "split": "dev",
+          "token_id": "10",
+          "token_instance_id": "dev::dante_01_453227212003901442l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$BRML3 - Br Malls Par ( brml-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "status": "YES",
+                "head_form": "$BRML3",
+                "head_lemma": "$BRML3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "18",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  17,
+                  18
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_453540037515558912l",
+          "sentence_text": "$BRML3 - Br Malls Par (brml-nm) - Ago/e - 30/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/GDk4GzbOYE",
+          "split": "dev",
+          "token_id": "16",
+          "token_instance_id": "dev::dante_01_453540037515558912l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 5,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_453583096823443456l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Encerramento Da Licenca Do Diretor De Distribuicao http://t.co/t0zHiXiVwN",
+          "split": "dev",
+          "token_id": "16",
+          "token_instance_id": "dev::dante_01_453583096823443456l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$LIGT3 - Light S/a ( ligt-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$LIGT3",
+                "head_lemma": "$LIGT3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg2",
+                "span_text": "A os Acionistas",
+                "span_token_ids": [
+                  10,
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Acionistas",
+                "head_lemma": "acionista",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_459664701614731264l",
+          "sentence_text": "$LIGT3 - Light S/a (ligt-nm) - Aviso Aos Acionistas / Distribuicao De Dividendo http://t.co/a8VHtsh8Xw",
+          "split": "dev",
+          "token_id": "14",
+          "token_instance_id": "dev::dante_01_459664701614731264l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$DASA3 - Dasa ( dasa-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$DASA3",
+                "head_lemma": "$DASA3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_460825538517794816l",
+          "sentence_text": "$DASA3 - Dasa (dasa-nm)- Deliberacoes Da Ago / Distribuicao De Dividendo http://t.co/9eQGNWhrwd",
+          "split": "dev",
+          "token_id": "13",
+          "token_instance_id": "dev::dante_01_460825538517794816l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "distributor",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Souza Cruz",
+                "span_token_ids": [
+                  3,
+                  4
+                ],
+                "status": "YES",
+                "head_form": "Souza",
+                "head_lemma": "Souza",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "thing distributed",
+                "head_token_id": "11",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre O Capital Proprio",
+                "span_token_ids": [
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "distributed to",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_448068726219628547l",
+          "sentence_text": "$CRUZ3 - Souza Cruz (cruz) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/jry8ZCXZPW",
+          "split": "test",
+          "token_id": "9",
+          "token_instance_id": "test::dante_01_448068726219628547l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$ECOR3 - Ecorodovias ( ecor-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$ECOR3",
+                "head_lemma": "$ECOR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre Capital Proprio",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_448784949853032448l",
+          "sentence_text": "$ECOR3 - Ecorodovias (ecor-nm) - Distribuicao De Juros Sobre Capital Proprio http://t.co/g7c3cn2A1B",
+          "split": "test",
+          "token_id": "8",
+          "token_instance_id": "test::dante_01_448784949853032448l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$PETR3 - Petrobras ( petr )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$PETR3",
+                "head_lemma": "$PETR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Jcp",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Jcp",
+                "head_lemma": "jcp",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distr.",
+          "sent_id": "dante_01_443109051715817472l",
+          "sentence_text": "$PETR3 - Petrobras (petr) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento Do Capital http://t.co/vfiIT5AhIW",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_443109051715817472l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$EMBR3 - Embraer ( embr-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$EMBR3",
+                "head_lemma": "$EMBR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre Capital Proprio",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_444458706374524929l",
+          "sentence_text": "$EMBR3 - Embraer (embr-nm)- Distribuicao De Juros Sobre Capital Proprio http://t.co/iag5yUYxkc",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_444458706374524929l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$CRUZ3 - Souza Cruz ( cruz )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$CRUZ3",
+                "head_lemma": "$CRUZ3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_446612137251975168l",
+          "sentence_text": "$CRUZ3 - Souza Cruz (cruz) - Distribuicao De Dividendo http://t.co/sVHeWwwDEQ",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_446612137251975168l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$RENT3 - Localiza ( rent-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$RENT3",
+                "head_lemma": "$RENT3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Juros Cp",
+                "span_token_ids": [
+                  15,
+                  16,
+                  17
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_446638058633699328l",
+          "sentence_text": "$RENT3 - Localiza (rent-nm) - Proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_446638058633699328l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 5,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "distribuição",
+          "sent_id": "dante_01_448151500116606976l",
+          "sentence_text": "Navio gigante da Vale aporta pela 1ª vez em centro de distribuição na Malásia: Em sua viagem... http://t.co/BH5YJv5MUg #infomoney #vale5",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_448151500116606976l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$ALLL3 - All Amer Lat ( alll-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "status": "YES",
+                "head_form": "$ALLL3",
+                "head_lemma": "$ALLL3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "18",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  17,
+                  18
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_448882754701508608l",
+          "sentence_text": "$ALLL3 - All Amer Lat (alll-nm) - Ago/e - 10/04/2014 - 16h00 - Distribuicao De Dividendo http://t.co/uwgDsLkOnk",
+          "split": "train",
+          "token_id": "16",
+          "token_instance_id": "train::dante_01_448882754701508608l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$AEDU3 - Anhanguera ( aedu-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$AEDU3",
+                "head_lemma": "$AEDU3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_448902501086273536l",
+          "sentence_text": "$AEDU3 - Anhanguera (aedu-nm) - Ago - 22/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/1lJw1uN5m7",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_448902501086273536l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$AEDU3 - Anhanguera ( aedu-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$AEDU3",
+                "head_lemma": "$AEDU3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_449542990672199680l",
+          "sentence_text": "$AEDU3 - Anhanguera (aedu-nm) - Ago - 28/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/cqdsO4mZIq",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_449542990672199680l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$RENT3 - Localiza ( rent-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$RENT3",
+                "head_lemma": "$RENT3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre O Capital Proprio",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_450970150016397312l",
+          "sentence_text": "$RENT3 - Localiza (rent-nm) - Distribuicao De Juros Sobre O Capital Proprio (valor Final) http://t.co/55QS0ImihK",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_450970150016397312l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$ESTC3 - Estacio Part ( estc-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$ESTC3",
+                "head_lemma": "$ESTC3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "13",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  12,
+                  13
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_451347694989369344l",
+          "sentence_text": "$ESTC3 - Estacio Part (estc-nm)   Ago/e   30/04/2014   11h00   Distribuicao De Dividendo http://t.co/cuE0jepyyo",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_451347694989369344l::11",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$DASA3 - Dasa ( dasa-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$DASA3",
+                "head_lemma": "$DASA3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_451368222600986624l",
+          "sentence_text": "$DASA3 - Dasa (dasa-nm)  Ago   28/04/2014   11h00   Distribuicao De Dividendo http://t.co/t0sVt3htz6",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_451368222600986624l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$ECOR3 - Ecorodovias ( ecor-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$ECOR3",
+                "head_lemma": "$ECOR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Dist.",
+          "sent_id": "dante_01_451685086862508032l",
+          "sentence_text": "$ECOR3 - Ecorodovias (ecor-nm)   Ago/e   28/4/14   10h30  Dist. De Dividendo(complemento) http://t.co/roZDihEpaA",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_451685086862508032l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$PETR3 - Petrobras ( petr )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$PETR3",
+                "head_lemma": "$PETR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre Capital Proprio",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_451699904235466753l",
+          "sentence_text": "$PETR3 - Petrobras (petr)- Distribuicao De Juros Sobre Capital Proprio / Valor Atualizado http://t.co/LUcMhv9FuB",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_451699904235466753l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$EMBR3 - Embraer ( embr-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$EMBR3",
+                "head_lemma": "$EMBR3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg2",
+                "span_text": "A os Acionistas",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "Acionistas",
+                "head_lemma": "acionista",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_456788707576532992l",
+          "sentence_text": "$EMBR3 - Embraer (embr-nm) - Aviso Aos Acionistas / Distribuicao De Dividendo http://t.co/oayCW0wAQx",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_456788707576532992l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$JBSS3 - Jbs ( jbss-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$JBSS3",
+                "head_lemma": "$JBSS3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Dividendos",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Dividendos",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_457101556056588288l",
+          "sentence_text": "$JBSS3 - Jbs (jbss-nm) - Ago/e - 30/04/2014 - 10h00 - Distribuicao De Dividendos http://t.co/YcUIpaVlPw",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_457101556056588288l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$EVEN3 - Even ( even-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$EVEN3",
+                "head_lemma": "$EVEN3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "20",
+                "role": "Arg1",
+                "span_text": "De Divindendo",
+                "span_token_ids": [
+                  19,
+                  20
+                ],
+                "status": "YES",
+                "head_form": "Divindendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distr.",
+          "sent_id": "dante_01_459398634690600960l",
+          "sentence_text": "$EVEN3 - Even (even-nm)-ago/e-30/04/2014-10h E 11h (respectivamente) Distr. De Divindendo http://t.co/3VhamlAjCu",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_459398634690600960l::18",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$EVEN3 - Even ( even-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$EVEN3",
+                "head_lemma": "$EVEN3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "20",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  19,
+                  20
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distr.",
+          "sent_id": "dante_01_459399897276751872l",
+          "sentence_text": "$EVEN3 - Even (even-nm)-ago/e- 30/04/2014-10h E 11h (respectivamente) Distr. De Dividendo http://t.co/36gmqfcQG4",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_459399897276751872l::18",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$LIGT3 - Light S/a ( ligt-nm )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$LIGT3",
+                "head_lemma": "$LIGT3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_459657331467649026l",
+          "sentence_text": "$LIGT3 - Light S/a (ligt-nm) - Deliberacoes De Assembleias / Distribuicao De Dividendo http://t.co/IoOoCOiGT1",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_459657331467649026l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$CYRE3 - Cyrela Realt ( cyre )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "$CYRE3",
+                "head_lemma": "$CYRE3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "De Dividendo",
+                "span_token_ids": [
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Dividendo",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_461124301060849664l",
+          "sentence_text": "$CYRE3 - Cyrela Realt (cyre) - Deliberacoes Da Ago/e / Distribuicao De Dividendo http://t.co/m7Rt4wHstX",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_461124301060849664l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "$ELET3 - Eletrobras ( elet-n1 )",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "$ELET3",
+                "head_lemma": "$ELET3",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Juros Sobre O Capital Proprio",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "Juros",
+                "head_lemma": "juro",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Distribuicao",
+          "sent_id": "dante_01_462197122784563200l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/tLHgq4UcIa",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_462197122784563200l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "de energia",
+                "span_token_ids": [
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "energia",
+                "head_lemma": "energia",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "distribution.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "distribuição",
+          "sent_id": "dante_01_470981899696209920l",
+          "sentence_text": "#CMIG4 - Cemig vai investir R$ 3 bilhões em distribuição de energia até 2017 -http://t.co/H3Ilcyc3vd",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_470981899696209920l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0239-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "distribuição",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "distribuição",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "distribution.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "distribuição",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 29,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0239-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 29,
+        "instances_total": 29,
+        "regular_argument_instances": 29,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

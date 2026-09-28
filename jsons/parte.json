@@ -1,52 +1,275 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "parte",
   "lemma_base": "parte",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0484-S001",
-        "NBDS2-L0484-S002",
-        "NBDS2-L0484-S003",
-        "NBDS2-L0484-S004",
-        "NBDS2-L0484-S005",
-        "NBDS2-L0484-S006",
-        "NBDS2-L0484-S007",
-        "NBDS2-L0484-S008",
-        "NBDS2-L0484-S009",
-        "NBDS2-L0484-S010",
-        "NBDS2-L0484-S011",
-        "NBDS2-L0484-S012"
-      ],
-      "sent_ID": "dante_01_449547008043675649l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#goll4 FDP saí do sw e ela me sacaneou hj...faz parte",
-      "token_instance_id": "train::dante_01_449547008043675649l::14"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0484-S001",
-        "NBDS2-L0484-S002",
-        "NBDS2-L0484-S003",
-        "NBDS2-L0484-S004",
-        "NBDS2-L0484-S005",
-        "NBDS2-L0484-S006",
-        "NBDS2-L0484-S007",
-        "NBDS2-L0484-S008",
-        "NBDS2-L0484-S009",
-        "NBDS2-L0484-S010",
-        "NBDS2-L0484-S011",
-        "NBDS2-L0484-S012"
+    "lexical_authority": {
+      "lemma": "parte",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "lemma::parte::NOUN_SENSE::11",
+      "dupb_source_locator": "L1179_0074",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 11,
+      "S": 2,
+      "N": 9,
+      "argument_YES": 0,
+      "argument_NO": 1,
+      "argument_ABSTAIN": 1
+    },
+    "current_record": {
+      "instances": [
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "partes",
+          "sent_id": "dante_01_458629777935826944l",
+          "sentence_text": "RT @ferrisss: PETR4: Estatal tenta separar em duas partes o Campo d Lula (Bacia de santos), mas a Agência vê estratégia d empresa p pagar m…",
+          "split": "dev",
+          "token_id": "11",
+          "token_instance_id": "dev::dante_01_458629777935826944l::11"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_449641524905918464l",
+          "sentence_text": "Petrobrás segurou hoje, a leve alta do IBOVESPA, depois de passar boa parte do dia realizando lucros das ações: PETR3,+1,28% e PETR4,+0,57%",
+          "split": "test",
+          "token_id": "16",
+          "token_instance_id": "test::dante_01_449641524905918464l::16"
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "NO_STRUCTURAL_CANDIDATE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "WHOLE",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "part.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "parte",
+          "sent_id": "dante_01_449547008043675649l",
+          "sentence_text": "#goll4 FDP saí do sw e ela me sacaneou hj...faz parte",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_449547008043675649l::14",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "MEDIUM",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0484-S001",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_451706552206905344l",
+          "sentence_text": "BTG quer vender sua parte na BR Properties, Vale e mais 4 empresas no radar: PF abre 3° inqu... http://t.co/2V7qNKXYsl #infomoney #vale5",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_451706552206905344l::5"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_453874653862563841l",
+          "sentence_text": "A forte alta da Natura nos últ. 2 dias (7%) pode estar relacionada com a desistência por parte do governo de elevar o PIS do setor. #NATU3",
+          "split": "train",
+          "token_id": "23",
+          "token_instance_id": "train::dante_01_453874653862563841l::23"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_456920229818294272l",
+          "sentence_text": "#Vale5 #VALEP29 Levou-me uns muitos K. Hoje a #Valed29 recuperou boa parte. #ibovespa nunca mais.",
+          "split": "train",
+          "token_id": "15",
+          "token_instance_id": "train::dante_01_456920229818294272l::15"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_458958698875211776l",
+          "sentence_text": "Notas gerais  A KLABIN (KLBN4) vai emitir R$ 800 milhões em debêntures simples para financiar parte do projeto... http://t.co/wkPIPSbMjk",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_458958698875211776l::18"
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 1,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "WHOLE",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "part.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "parte",
+          "sent_id": "dante_01_459035339739262976l",
+          "sentence_text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show",
+          "split": "train",
+          "token_id": "17",
+          "token_instance_id": "train::dante_01_459035339739262976l::17",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "MEDIUM",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0484-S001",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_460867123427147776l",
+          "sentence_text": "a parte mais 'divertida' da arrancada de hoje da #PETR4 é o volume ... Normalmente quando tinha arrancadão o volume era gigante ...",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_460867123427147776l::2"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "parte",
+          "sent_id": "dante_01_464864356438519808l",
+          "sentence_text": "Notas gerais da ADVFN - 09/05: • A VALE (VALE5) suspendeu grande parte de sua produção de… http://t.co/BydhapQktp",
+          "split": "train",
+          "token_id": "17",
+          "token_instance_id": "train::dante_01_464864356438519808l::17"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "partes",
+          "sent_id": "dante_01_468159955246534656l",
+          "sentence_text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_468159955246534656l::8"
+        }
       ],
-      "sent_ID": "dante_01_459035339739262976l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show",
-      "token_instance_id": "train::dante_01_459035339739262976l::17"
+      "lemma": "parte",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L1179_0074",
+        "dupb_source_unit_id": "lemma::parte::NOUN_SENSE::11",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "parte",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "part.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "parte",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "WHOLE",
+              "generalized_description": "WHOLE",
+              "role_label": "ARG1",
+              "role_number": "1"
+            }
+          ],
+          "observed_instance_count": 2,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0484-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 9,
+        "S": 2,
+        "instances_total": 11,
+        "regular_argument_instances": 2,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

@@ -1,48 +1,130 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "agulhada",
   "lemma_base": "agulhada",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0017-S001",
-        "NBDS2-L0017-S002",
-        "NBDS2-L0017-S003",
-        "NBDS2-L0017-S004"
-      ],
-      "sent_ID": "dante_01_453249027585236992l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "A  #PETR4 fêz agulhada dia 20/03 e rompeu fibos em 14,23 15,00 15,75 e tem alvos 17,20 18,20 , mas esta bem esticado http://t.co/fcDyPmNGy6",
-      "token_instance_id": "test::dante_01_453249027585236992l::4"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0017-S001",
-        "NBDS2-L0017-S002",
-        "NBDS2-L0017-S003",
-        "NBDS2-L0017-S004"
-      ],
-      "sent_ID": "dante_01_452145897422323712l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "tá, a agulhada da #PETR4 nos 60min, agora, é pra valer ? Ou é mais uma pegadinha do Faustão ... ? =P",
-      "token_instance_id": "train::dante_01_452145897422323712l::4"
+    "lexical_authority": {
+      "lemma": "agulhada",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "DUPB::L0065_0114::E01::NOUN_SENSE::NEW::002",
+      "dupb_source_locator": "headword=;leaf=",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0017-S001",
-        "NBDS2-L0017-S002",
-        "NBDS2-L0017-S003",
-        "NBDS2-L0017-S004"
+    "summary": {
+      "contextual_instances": 3,
+      "S": 3,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 0,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "form": "agulhada",
+          "sent_id": "dante_01_453249027585236992l",
+          "sentence_text": "A  #PETR4 fêz agulhada dia 20/03 e rompeu fibos em 14,23 15,00 15,75 e tem alvos 17,20 18,20 , mas esta bem esticado http://t.co/fcDyPmNGy6",
+          "split": "test",
+          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
+          "token_id": "4",
+          "token_instance_id": "test::dante_01_453249027585236992l::4",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": null,
+            "terminal_category": "TERMINAL_NONEXACT",
+            "terminal_disposition": "DOMAIN_TECHNICAL_PATTERN_NOT_IN_INVENTORY"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "form": "agulhada",
+          "sent_id": "dante_01_452145897422323712l",
+          "sentence_text": "tá, a agulhada da #PETR4 nos 60min, agora, é pra valer ? Ou é mais uma pegadinha do Faustão ... ? =P",
+          "split": "train",
+          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
+          "token_id": "4",
+          "token_instance_id": "train::dante_01_452145897422323712l::4",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": null,
+            "terminal_category": "TERMINAL_NONEXACT",
+            "terminal_disposition": "DOMAIN_TECHNICAL_PATTERN_NOT_IN_INVENTORY"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "form": "agulhada",
+          "sent_id": "dante_01_472446399607369728l",
+          "sentence_text": "PETR4 pivot de baixa e agulhada do DIDI no diário http://t.co/7I8295r8lR",
+          "split": "train",
+          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_472446399607369728l::6",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": null,
+            "terminal_category": "TERMINAL_NONEXACT",
+            "terminal_disposition": "DOMAIN_TECHNICAL_PATTERN_NOT_IN_INVENTORY"
+          }
+        }
       ],
-      "sent_ID": "dante_01_472446399607369728l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "PETR4 pivot de baixa e agulhada do DIDI no diário http://t.co/7I8295r8lR",
-      "token_instance_id": "train::dante_01_472446399607369728l::6"
+      "lemma": "agulhada",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "headword=;leaf=",
+        "dupb_source_unit_id": "DUPB::L0065_0114::E01::NOUN_SENSE::NEW::002",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "agulhada",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 3,
+        "instances_total": 3,
+        "regular_argument_instances": 0,
+        "terminal_semantic_exceptions": 3
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

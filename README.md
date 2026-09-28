@@ -1,16 +1,18 @@
-# NounBank.DS
+# NounBank.DS Expanded
 
-- O NounBank.DS é um repositório de nomes predicadores extraídos de um corpus de tweets do mercado financeiro (DANTEStocks). Para cada nome predicador identificado, o recurso reúne exemplos anotados com a sua valência semântica (Arg0..Arg4) e com a realização sintática observada (rótulos UD como nsubj, nmod, obj, etc.).
+**NounBank.DS Expanded** extends the canonical [NounBank.DS](https://github.com/bryankhelven/NounBank.DS) over DANTEStocks while preserving the inherited V1 public payload and adding frozen contextual, semantic and argument authority.
 
-- Cada entrada contém: roleset em português, mapeamento para um roleset do NomBank em inglês, descrições dos papéis e exemplos reais do corpus com marcação dos argumentos e uma estatística agregada das realizações sintáticas encontradas. Os dados são também disponibilizados em formato JSON além das páginas individuais para consulta.
+Current frozen resource: 709 lexical predicates (145 inherited + 564 new), 6,416 contextual occurrences (3,618 S + 2,798 N), 3,595 exact WSD bindings + 23 typed terminal non-exact cases, 3,524 regular argument instances, 14,984 licensed role slots, and 2,669 realized arguments with HEAD + SPAN.
 
----
+## Scientific documentation
 
-## Agradecimentos
+- [Argument annotation methodology](docs/ARGUMENT_ANNOTATION_METHOD.md)
+- [Compatibility with canonical NounBank.DS](docs/V1_COMPATIBILITY.md)
+- [Public JSON schema](docs/PUBLIC_JSON_SCHEMA.md)
+- [Statistics definitions](docs/STATISTICS_DEFINITIONS.md)
+- [Provenance and limitations](docs/PROVENANCE_AND_LIMITATIONS.md)
+- [Citation](docs/CITATION.md)
 
-- Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São Paulo (<a href="http://c4ai.inova.usp.br/">C4AI</a>), com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation. O projeto também contou com o apoio do Ministério da Ciência, Tecnologia e Inovações, com recursos da Lei nº 8.248, de 23 de outubro de 1991, no âmbito do PPI-SOFTEX, coordenado pela Softex e publicado como Residência em TIC 13, DOU 01245.010222/2022-44.
+These detailed documents belong to the repository and are intentionally not part of the public website navigation.
 
-
-## Como citar
-
-Barbosa, B.K.S., Di Felippo, A. (2025). NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese. In the Proceedings of the 16th Symposium in Information and Human Language Technology (STIL). September, 29-03. Fortaleza-CE, Brazil. Available soon, 2025.
+Science authority: `ORCH_RECON_000158`. Productization corrective authority: `ORCH_RECON_000159`.

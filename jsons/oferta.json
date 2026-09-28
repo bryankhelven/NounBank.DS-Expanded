@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "oferta",
   "lemma_base": "oferta",
   "senses": [
     {
+      "pt_roleset": "oferta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "offer.01",
       "english_roleset_source": "verb-offer.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/offer.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity offering"
+        },
+        {
+          "id": "Arg1",
+          "desc": "commodity"
+        },
+        {
+          "id": "Arg2",
+          "desc": "price"
+        },
+        {
+          "id": "Arg3",
+          "desc": "beneficiary or entity offered to"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_441936742846042112l::oferta::1",
-          "predicate": {
-            "char_end": 57,
-            "char_start": 51,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_441936742846042112l",
+          "text": "Dasa (#DASA3): Edson Bueno vai à arbitragem contra oferta de compra de ações. http://t.co/OcNo5Tgf15   (Valor)",
           "realization": {
             "Arg0": "Dasa",
             "Arg1": "de ações",
@@ -25,95 +42,53 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_441936742846042112l",
           "syntax": {
             "Arg0": "parataxis",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Dasa (#DASA3): Edson Bueno vai à arbitragem contra oferta de compra de ações. http://t.co/OcNo5Tgf15   (Valor)"
+          }
         },
         {
-          "instance_id": "dante_01_443125288709279744l::oferta::1",
-          "predicate": {
-            "char_end": 56,
-            "char_start": 50,
-            "form": "oferta"
-          },
-          "realization": {
-            "Arg0": "Petrobras",
-            "Arg1": "bônus",
-            "Arg2": "US$ 8,5 bilhões",
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_443125288709279744l",
+          "text": "Petrobras (PETR4) lançou nesta segunda-feira (10) oferta de US$ 8,5 bilhões em bônus, em uma operação em seis etapas http://t.co/it9boXQdSp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "bônus no exterior",
+            "Arg2": "US$ 8,5 bihões",
+            "Arg3": "Petrobras",
+            "Arg4": null
+          },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": "nmod",
             "Arg2": "nmod",
-            "Arg3": null,
+            "Arg3": "nsubj",
             "Arg4": null
-          },
-          "text": "Petrobras (PETR4) lançou nesta segunda-feira (10) oferta de US$ 8,5 bilhões em bônus, em uma operação em seis etapas http://t.co/it9boXQdSp"
+          }
         },
         {
-          "instance_id": "dante_01_443546558307778560l::oferta::1",
-          "predicate": {
-            "char_end": 47,
-            "char_start": 41,
-            "form": "oferta"
-          },
-          "realization": {
-            "Arg0": "Petrobras",
-            "Arg1": "bônus",
-            "Arg2": "US$ 8,5 bi",
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_443546558307778560l",
+          "text": "#PETR4 RT @ativacorretora: Petrobras faz oferta de US$ 8,5 bi em bônus no exterior. Confira a matéria do Jornal da Globo com nosso...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "bônus no exterior",
+            "Arg2": "US$ 8,5 bi",
+            "Arg3": "Petrobras",
+            "Arg4": null
+          },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": "nmod",
             "Arg2": "nmod",
-            "Arg3": null,
+            "Arg3": "nsubj",
             "Arg4": null
-          },
-          "text": "#PETR4 RT @ativacorretora: Petrobras faz oferta de US$ 8,5 bi em bônus no exterior. Confira a matéria do Jornal da Globo com nosso..."
+          }
         },
         {
-          "instance_id": "dante_01_449521589277982720l::oferta::1",
-          "predicate": {
-            "char_end": 28,
-            "char_start": 22,
-            "form": "oferta"
-          },
-          "realization": {
-            "Arg0": "CVM",
-            "Arg1": "de ações",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_449521589277982720l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$OIBR4 - CVM suspende oferta de ações da Oi [Newsletter ADVFN] http://t.co/mMd8l9j3ZH"
-        },
-        {
-          "instance_id": "dante_01_451358257169567744l::oferta::1",
-          "predicate": {
-            "char_end": 83,
-            "char_start": 77,
-            "form": "oferta"
-          },
+          "text": "$OIBR4 - CVM suspende oferta de ações da Oi [Newsletter ADVFN] http://t.co/mMd8l9j3ZH",
           "realization": {
             "Arg0": "CVM",
             "Arg1": "de ações",
@@ -121,23 +96,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451358257169567744l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "As ações da Oi sobem forte, um dia depois da CVM ter revogado a suspensão da oferta de ações: OIBR4, +4,51% e OIBR3, +4,95%"
+          }
         },
         {
-          "instance_id": "dante_01_471725836199280640l::oferta::1",
-          "predicate": {
-            "char_end": 46,
-            "char_start": 40,
-            "form": "oferta"
+          "sent_ID": "dante_01_451358257169567744l",
+          "text": "As ações da Oi sobem forte, um dia depois da CVM ter revogado a suspensão da oferta de ações: OIBR4, +4,51% e OIBR3, +4,95%",
+          "realization": {
+            "Arg0": "CVM",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471725836199280640l",
+          "text": "#JBSS3 SOBE &gt; Fitch disse hoje que a oferta de compra da Hillshire Brands pela Pilgrims Pride (PPC) é neutra para o crédito da JBS.",
           "realization": {
             "Arg0": null,
             "Arg1": "Hillshire Brands",
@@ -145,23 +132,17 @@
             "Arg3": "Pilgrims Pride (PPC)",
             "Arg4": null
           },
-          "sent_ID": "dante_01_471725836199280640l",
           "syntax": {
             "Arg0": null,
             "Arg1": "flat:name",
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          },
-          "text": "#JBSS3 SOBE &gt; Fitch disse hoje que a oferta de compra da Hillshire Brands pela Pilgrims Pride (PPC) é neutra para o crédito da JBS."
+          }
         },
         {
-          "instance_id": "dante_01_461125555522240512l::oferta::1",
-          "predicate": {
-            "char_end": 36,
-            "char_start": 30,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_461125555522240512l",
+          "text": "(+) Banco Santander (SANB11): oferta para aquisição de ações. O banco anunciou nesta terça-feira que está... http://t.co/4beWp1clzY",
           "realization": {
             "Arg0": "Banco Santander",
             "Arg1": "de ações",
@@ -169,23 +150,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_461125555522240512l",
           "syntax": {
             "Arg0": "flat:name",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "(+) Banco Santander (SANB11): oferta para aquisição de ações. O banco anunciou nesta terça-feira que está... http://t.co/4beWp1clzY"
+          }
         },
         {
-          "instance_id": "dante_01_467018177952874496l::oferta::1",
-          "predicate": {
-            "char_end": 49,
-            "char_start": 43,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_467018177952874496l",
+          "text": "$BRFS3 - Brf Sa (brfs-nm)  - Resultados Da oferta De Recompra http://t.co/DBLJswVFeZ",
           "realization": {
             "Arg0": null,
             "Arg1": "De Recompra",
@@ -193,23 +168,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_467018177952874496l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$BRFS3 - Brf Sa (brfs-nm)  - Resultados Da oferta De Recompra http://t.co/DBLJswVFeZ"
+          }
         },
         {
-          "instance_id": "dante_01_451886916661948417l::oferta::1",
-          "predicate": {
-            "char_end": 41,
-            "char_start": 35,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_451886916661948417l",
+          "text": "Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES de a arbitragem http://t.co/VPQiXUgF6b #Petr4 #Petr3",
           "realization": {
             "Arg0": null,
             "Arg1": "refinaria de Pasadena",
@@ -217,23 +186,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451886916661948417l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES de a arbitragem http://t.co/VPQiXUgF6b #Petr4 #Petr3"
+          }
         },
         {
-          "instance_id": "dante_01_451887387464179712l::oferta::1",
-          "predicate": {
-            "char_end": 39,
-            "char_start": 33,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_451887387464179712l",
+          "text": "@garimpodeacoes vazou preço de a oferta oibr4 - 2,4 - 2,8",
           "realization": {
             "Arg0": null,
             "Arg1": "oibr4",
@@ -241,23 +204,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451887387464179712l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "@garimpodeacoes vazou preço de a oferta oibr4 - 2,4 - 2,8"
+          }
         },
         {
-          "instance_id": "dante_01_451012516542697472l::oferta::1",
-          "predicate": {
-            "char_end": 94,
-            "char_start": 88,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_451012516542697472l",
+          "text": "Afunda OIBR4 acionistas chora RT @infomoney : Bradesco e Itaú avaliam retirar apoio a a oferta de a Oi",
           "realization": {
             "Arg0": null,
             "Arg1": "de a Oi",
@@ -265,23 +222,17 @@
             "Arg3": "Bradesco e Itaú",
             "Arg4": null
           },
-          "sent_ID": "dante_01_451012516542697472l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": "nsubj",
             "Arg4": null
-          },
-          "text": "Afunda OIBR4 acionistas chora RT @infomoney : Bradesco e Itaú avaliam retirar apoio a a oferta de a Oi"
+          }
         },
         {
-          "instance_id": "dante_01_451782189974577153l::oferta::1",
-          "predicate": {
-            "char_end": 64,
-            "char_start": 58,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_451782189974577153l",
+          "text": "#OIBR4 - Portugal Telecom ficará com 24,87 % de a Oi após oferta - http://t.co/a2vBUej2Qe",
           "realization": {
             "Arg0": "Oi",
             "Arg1": null,
@@ -289,23 +240,17 @@
             "Arg3": "Portugal Telecom",
             "Arg4": null
           },
-          "sent_ID": "dante_01_451782189974577153l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null,
             "Arg3": "flat:name",
             "Arg4": null
-          },
-          "text": "#OIBR4 - Portugal Telecom ficará com 24,87 % de a Oi após oferta - http://t.co/a2vBUej2Qe"
+          }
         },
         {
-          "instance_id": "dante_01_461134218333257728l::oferta::1",
-          "predicate": {
-            "char_end": 42,
-            "char_start": 36,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_461134218333257728l",
+          "text": "#BR #IBOV #OIBR4 Oi precifica maior oferta subsequente de o BR em quase 4 anos : http://t.co/AaQIj1CYax",
           "realization": {
             "Arg0": "Oi",
             "Arg1": "subsequente de o BR",
@@ -313,23 +258,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_461134218333257728l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#BR #IBOV #OIBR4 Oi precifica maior oferta subsequente de o BR em quase 4 anos : http://t.co/AaQIj1CYax"
+          }
         },
         {
-          "instance_id": "dante_01_451887659263479808l::oferta::1",
-          "predicate": {
-            "char_end": 57,
-            "char_start": 51,
-            "form": "oferta"
-          },
+          "sent_ID": "dante_01_451887659263479808l",
+          "text": "RT @AryAntiPT : Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES de a arbitragem http://t.co/VPQiXUgF6b …",
           "realization": {
             "Arg0": "Petrobras",
             "Arg1": "por refinaria de Pasadena",
@@ -337,65 +276,1606 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451887659263479808l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @AryAntiPT : Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES de a arbitragem http://t.co/VPQiXUgF6b …"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/offer.xml",
-      "pt_roleset": "oferta.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "entity offering",
-          "id": "Arg0"
-        },
-        {
-          "desc": "commodity",
-          "id": "Arg1"
-        },
-        {
-          "desc": "price",
-          "id": "Arg2"
-        },
-        {
-          "desc": "beneficiary or entity offered to",
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
         "Arg0": {
+          "parataxis": 1,
+          "nsubj": 4,
           "flat:name": 1,
-          "nmod": 1,
-          "nsubj": 6,
-          "parataxis": 1
+          "nmod": 1
         },
         "Arg1": {
-          "flat:name": 1,
-          "nmod": 12
+          "nmod": 12,
+          "flat:name": 1
         },
         "Arg2": {
-          "amod": 2,
-          "nmod": 2
+          "nmod": 2,
+          "amod": 2
         },
         "Arg3": {
-          "flat:name": 1,
+          "nsubj": 3,
           "nmod": 1,
-          "nsubj": 1
+          "flat:name": 1
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "oferta",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 14,
+      "S": 14,
+      "N": 0,
+      "argument_YES": 30,
+      "argument_NO": 40,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "CVM",
+                "span_token_ids": [
+                  3
+                ],
+                "status": "YES",
+                "head_form": "CVM",
+                "head_lemma": "CVM",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg1",
+                "span_text": "de ações",
+                "span_token_ids": [
+                  6,
+                  7
+                ],
+                "status": "YES",
+                "head_form": "ações",
+                "head_lemma": "ação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_449521589277982720l",
+          "sentence_text": "$OIBR4 - CVM suspende oferta de ações da Oi [Newsletter ADVFN] http://t.co/mMd8l9j3ZH",
+          "split": "dev",
+          "token_id": "5",
+          "token_instance_id": "dev::dante_01_449521589277982720l::5",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "19",
+                "role": "Arg1",
+                "span_text": "de a Oi",
+                "span_token_ids": [
+                  17,
+                  18,
+                  19
+                ],
+                "status": "YES",
+                "head_form": "Oi",
+                "head_lemma": "Oi",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "8",
+                "role": "Arg3",
+                "span_text": "Bradesco e Itaú",
+                "span_token_ids": [
+                  8,
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "Bradesco",
+                "head_lemma": "Bradesco",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451012516542697472l",
+          "sentence_text": "Afunda OIBR4 acionistas chora RT @infomoney: Bradesco e Itaú avaliam retirar apoio à oferta da Oi",
+          "split": "dev",
+          "token_id": "16",
+          "token_instance_id": "dev::dante_01_451012516542697472l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg0",
+                "span_text": "Oi",
+                "span_token_ids": [
+                  11
+                ],
+                "status": "YES",
+                "head_form": "Oi",
+                "head_lemma": "Oi",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg3",
+                "span_text": "Portugal Telecom",
+                "span_token_ids": [
+                  3,
+                  4
+                ],
+                "status": "YES",
+                "head_form": "Portugal",
+                "head_lemma": "Portugal",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451782189974577153l",
+          "sentence_text": "#OIBR4 - Portugal Telecom ficará com 24,87% da Oi após oferta - http://t.co/a2vBUej2Qe",
+          "split": "dev",
+          "token_id": "13",
+          "token_instance_id": "dev::dante_01_451782189974577153l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg1",
+                "span_text": "De Recompra",
+                "span_token_ids": [
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "Recompra",
+                "head_lemma": "recompra",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Oferta",
+          "sent_id": "dante_01_467018177952874496l",
+          "sentence_text": "$BRFS3 - Brf Sa (brfs-nm)  - Resultados Da Oferta De Recompra http://t.co/DBLJswVFeZ",
+          "split": "dev",
+          "token_id": "12",
+          "token_instance_id": "dev::dante_01_467018177952874496l::12",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg0",
+                "span_text": "Oi",
+                "span_token_ids": [
+                  4
+                ],
+                "status": "YES",
+                "head_form": "Oi",
+                "head_lemma": "Oi",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg1",
+                "span_text": "subsequente de o BR",
+                "span_token_ids": [
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "BR",
+                "head_lemma": "BR",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_461134218333257728l",
+          "sentence_text": "#BR #IBOV #OIBR4 Oi precifica maior oferta subsequente do BR em quase 4 anos: http://t.co/AaQIj1CYax",
+          "split": "test",
+          "token_id": "7",
+          "token_instance_id": "test::dante_01_461134218333257728l::7",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "Dasa",
+                "span_token_ids": [
+                  1
+                ],
+                "status": "YES",
+                "head_form": "Dasa",
+                "head_lemma": "Dasa",
+                "head_deprel": "parataxis"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "17",
+                "role": "Arg1",
+                "span_text": "de ações",
+                "span_token_ids": [
+                  16,
+                  17
+                ],
+                "status": "YES",
+                "head_form": "ações",
+                "head_lemma": "ação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_441936742846042112l",
+          "sentence_text": "Dasa (#DASA3): Edson Bueno vai à arbitragem contra oferta de compra de ações. http://t.co/OcNo5Tgf15   (Valor)",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_441936742846042112l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "US$ 8,5 bilhões",
+                "span_token_ids": [
+                  "14 15 16"
+                ],
+                "status": "YES",
+                "head_form": "bilhões",
+                "head_lemma": "bilhão",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg2",
+                "span_text": "US$ 8,5 bilhões",
+                "span_token_ids": [
+                  "14 15 16"
+                ],
+                "status": "YES",
+                "head_form": "bilhões",
+                "head_lemma": "bilhão",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg3",
+                "span_text": "Petrobras",
+                "span_token_ids": [
+                  1
+                ],
+                "status": "YES",
+                "head_form": "Petrobras",
+                "head_lemma": "Petrobras",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_443125288709279744l",
+          "sentence_text": "Petrobras (PETR4) lançou nesta segunda-feira (10) oferta de US$ 8,5 bilhões em bônus, em uma operação em seis etapas http://t.co/it9boXQdSp",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_443125288709279744l::12",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "13",
+                "role": "Arg1",
+                "span_text": "bônus em o exterior",
+                "span_token_ids": [
+                  "13 14 15 16"
+                ],
+                "status": "YES",
+                "head_form": "bônus",
+                "head_lemma": "bônus",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg2",
+                "span_text": "US$ 8,5 bi",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "bi",
+                "head_lemma": "bilhão",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "5",
+                "role": "Arg3",
+                "span_text": "Petrobras",
+                "span_token_ids": [
+                  5
+                ],
+                "status": "YES",
+                "head_form": "Petrobras",
+                "head_lemma": "Petrobras",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_443546558307778560l",
+          "sentence_text": "#PETR4 RT @ativacorretora: Petrobras faz oferta de US$ 8,5 bi em bônus no exterior. Confira a matéria do Jornal da Globo com nosso...",
+          "split": "train",
+          "token_id": "7",
+          "token_instance_id": "train::dante_01_443546558307778560l::7",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg0",
+                "span_text": "CVM",
+                "span_token_ids": [
+                  14
+                ],
+                "status": "YES",
+                "head_form": "CVM",
+                "head_lemma": "CVM",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "23",
+                "role": "Arg1",
+                "span_text": "de ações",
+                "span_token_ids": [
+                  22,
+                  23
+                ],
+                "status": "YES",
+                "head_form": "ações",
+                "head_lemma": "ação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451358257169567744l",
+          "sentence_text": "As ações da Oi sobem forte, um dia depois da CVM ter revogado a suspensão da oferta de ações: OIBR4, +4,51% e OIBR3, +4,95%",
+          "split": "train",
+          "token_id": "21",
+          "token_instance_id": "train::dante_01_451358257169567744l::21",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "9",
+                "role": "Arg1",
+                "span_text": "refinaria de Pasadena",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "refinaria",
+                "head_lemma": "refinaria",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg2",
+                "span_text": "bilionária",
+                "span_token_ids": [
+                  7
+                ],
+                "status": "YES",
+                "head_form": "bilionária",
+                "head_lemma": "bilionário",
+                "head_deprel": "amod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451886916661948417l",
+          "sentence_text": "Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES da arbitragem   http://t.co/VPQiXUgF6b  #Petr4 #Petr3",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_451886916661948417l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg1",
+                "span_text": "oibr4",
+                "span_token_ids": [
+                  7
+                ],
+                "status": "YES",
+                "head_form": "oibr4",
+                "head_lemma": "oibr4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "8",
+                "role": "Arg2",
+                "span_text": "-",
+                "span_token_ids": [
+                  8
+                ],
+                "status": "YES",
+                "head_form": "-",
+                "head_lemma": "-",
+                "head_deprel": "advmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451887387464179712l",
+          "sentence_text": "@garimpodeacoes vazou preço da oferta oibr4 - 2,40 - 2,80",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_451887387464179712l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg0",
+                "span_text": "Petrobras",
+                "span_token_ids": [
+                  7
+                ],
+                "status": "YES",
+                "head_form": "Petrobras",
+                "head_lemma": "Petrobras",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "por refinaria de Pasadena",
+                "span_token_ids": [
+                  11,
+                  12,
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "refinaria",
+                "head_lemma": "refinaria",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg2",
+                "span_text": "bilionária",
+                "span_token_ids": [
+                  10
+                ],
+                "status": "YES",
+                "head_form": "bilionária",
+                "head_lemma": "bilionário",
+                "head_deprel": "amod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_451887659263479808l",
+          "sentence_text": "RT @AryAntiPT: Documento mostra que Petrobras fez oferta bilionária por refinaria de Pasadena ANTES da arbitragem   http://t.co/VPQiXUgF6b …",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_451887659263479808l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg0",
+                "span_text": "Banco Santander",
+                "span_token_ids": [
+                  4,
+                  5
+                ],
+                "status": "YES",
+                "head_form": "Banco",
+                "head_lemma": "Banco",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg1",
+                "span_text": "de ações",
+                "span_token_ids": [
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "ações",
+                "head_lemma": "ação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Oferta",
+          "sent_id": "dante_01_461125555522240512l",
+          "sentence_text": "(+) Banco Santander (SANB11): Oferta para aquisição de ações.   O banco anunciou nesta terça-feira que está... http://t.co/4beWp1clzY",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_461125555522240512l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg1",
+                "span_text": "Hillshire Brands",
+                "span_token_ids": [
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Hillshire",
+                "head_lemma": "Hillshire",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "18",
+                "role": "Arg3",
+                "span_text": "Pilgrim's Pride ( PPC",
+                "span_token_ids": [
+                  "18 19 20 21"
+                ],
+                "status": "YES",
+                "head_form": "Pilgrim's",
+                "head_lemma": "Pilgrim's",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "offer.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "oferta",
+          "sent_id": "dante_01_471725836199280640l",
+          "sentence_text": "#JBSS3 SOBE > Fitch disse hoje que a oferta de compra da Hillshire Brands pela Pilgrim's Pride (PPC) é neutra para o crédito da JBS.",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_471725836199280640l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0459-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "oferta",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "oferta",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "offer.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "oferta",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 14,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0459-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 14,
+        "instances_total": 14,
+        "regular_argument_instances": 14,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }
