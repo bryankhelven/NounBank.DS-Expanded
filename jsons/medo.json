@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "medo",
   "lemma_base": "medo",
   "senses": [
     {
+      "pt_roleset": "medo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "fear.01",
       "english_roleset_source": "verb-fear.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fear.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_451067992206753792l::medo::1",
-          "predicate": {
-            "char_end": 85,
-            "char_start": 81,
-            "form": "medo"
-          },
+          "sent_ID": "dante_01_451067992206753792l",
+          "text": "é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... #PETR4 dá medo ... o.O",
           "realization": {
             "Arg0": null,
             "Arg1": "#PETR4",
@@ -25,23 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451067992206753792l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nsubj",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... #PETR4 dá medo ... o.O"
+          }
         },
         {
-          "instance_id": "dante_01_446658495862292480l::medo::1",
-          "predicate": {
-            "char_end": 15,
-            "char_start": 11,
-            "form": "medo"
-          },
+          "sent_ID": "dante_01_446658495862292480l",
+          "text": "#petr4 sem medo de errar , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !",
           "realization": {
             "Arg0": null,
             "Arg1": "de errar",
@@ -49,23 +60,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_446658495862292480l",
           "syntax": {
             "Arg0": null,
             "Arg1": "acl",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#petr4 sem medo de errar , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !"
+          }
         },
         {
-          "instance_id": "dante_01_452861055509991424l::medo::1",
-          "predicate": {
-            "char_end": 117,
-            "char_start": 113,
-            "form": "Medo"
-          },
+          "sent_ID": "dante_01_452861055509991424l",
+          "text": "@ferrisss oi Ferri , estou comprado em CIEL3 q já subiu bastante . Em a sua opinião vale a pena trocar por MMX ? Medo de o fantasma de o Eike ...",
           "realization": {
             "Arg0": null,
             "Arg1": "de o fantasma de o Eike",
@@ -73,23 +78,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_452861055509991424l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "@ferrisss oi Ferri , estou comprado em CIEL3 q já subiu bastante . Em a sua opinião vale a pena trocar por MMX ? Medo de o fantasma de o Eike ..."
+          }
         },
         {
-          "instance_id": "dante_01_449629179051790336l::medo::1",
-          "predicate": {
-            "char_end": 33,
-            "char_start": 29,
-            "form": "medo"
-          },
+          "sent_ID": "dante_01_449629179051790336l",
+          "text": "@Live_Trade eu to cagando de medo de essa #PETR4 ! ! ! to com posição grnade desde o rompimento de os 14,20 dia 24/03 ! king kong adestrado por o PT",
           "realization": {
             "Arg0": "eu",
             "Arg1": "de essa #PETR4",
@@ -97,54 +96,551 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449629179051790336l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "@Live_Trade eu to cagando de medo de essa #PETR4 ! ! ! to com posição grnade desde o rompimento de os 14,20 dia 24/03 ! king kong adestrado por o PT"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fear.xml",
-      "pt_roleset": "medo.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "experiencer",
-          "id": "Arg0"
-        },
-        {
-          "desc": "theme",
-          "id": "Arg1"
-        },
-        {
-          "desc": null,
-          "id": "Arg2"
-        },
-        {
-          "desc": null,
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
-          "nsubj": 1
-        },
         "Arg1": {
+          "nsubj": 1,
           "acl": 1,
-          "nmod": 2,
+          "nmod": 2
+        },
+        "Arg0": {
           "nsubj": 1
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "medo",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 4,
+      "S": 4,
+      "N": 0,
+      "argument_YES": 5,
+      "argument_NO": 15,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "5",
+                "role": "Arg1",
+                "span_text": "de errar",
+                "span_token_ids": [
+                  4,
+                  5
+                ],
+                "status": "YES",
+                "head_form": "errar",
+                "head_lemma": "errar",
+                "head_deprel": "acl"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "fear.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "medo",
+          "sent_id": "dante_01_446658495862292480l",
+          "sentence_text": "#petr4 sem medo de errar, ou essa alta marcou o fim da queda de uma década, ou é só mais um repique momentâneo. Esse ano ainda tem eleições!",
+          "split": "test",
+          "token_id": "3",
+          "token_instance_id": "test::dante_01_446658495862292480l::3",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0423-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "2",
+                "role": "Arg0",
+                "span_text": "eu",
+                "span_token_ids": [
+                  2
+                ],
+                "status": "YES",
+                "head_form": "eu",
+                "head_lemma": "eu",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "9",
+                "role": "Arg1",
+                "span_text": "de essa #PETR4",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "#PETR4",
+                "head_lemma": "#PETR4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "fear.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "medo",
+          "sent_id": "dante_01_449629179051790336l",
+          "sentence_text": "@Live_Trade eu to cagando de medo dessa #PETR4!!! to com posição grnade desde o rompimento dos 14,20 dia 24/03! king kong adestrado pelo PT",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_449629179051790336l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0423-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "18",
+                "role": "Arg1",
+                "span_text": "#PETR4",
+                "span_token_ids": [
+                  18
+                ],
+                "status": "YES",
+                "head_form": "#PETR4",
+                "head_lemma": "#PETR4",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "fear.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "medo",
+          "sent_id": "dante_01_451067992206753792l",
+          "sentence_text": "é ... quase na máxima. Isso após testar o suporte nos R$15,50 ... #PETR4 dá medo ... o.O",
+          "split": "train",
+          "token_id": "20",
+          "token_instance_id": "train::dante_01_451067992206753792l::20",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0423-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "28",
+                "role": "Arg1",
+                "span_text": "de o fantasma de o Eike",
+                "span_token_ids": [
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "status": "YES",
+                "head_form": "fantasma",
+                "head_lemma": "fantasma",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "fear.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Medo",
+          "sent_id": "dante_01_452861055509991424l",
+          "sentence_text": "@ferrisss oi Ferri, estou comprado em CIEL3 q já subiu bastante. Na sua opinião vale a pena trocar por MMX? Medo do fantasma do Eike...",
+          "split": "train",
+          "token_id": "25",
+          "token_instance_id": "train::dante_01_452861055509991424l::25",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0423-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "medo",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "medo",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "fear.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "medo",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 4,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0423-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 4,
+        "instances_total": 4,
+        "regular_argument_instances": 4,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

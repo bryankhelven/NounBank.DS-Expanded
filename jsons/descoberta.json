@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "descoberta",
   "lemma_base": "descoberta",
   "senses": [
     {
+      "pt_roleset": "descoberta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "discovery.01",
       "english_roleset_source": "verb-discover.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/discovery.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "finder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing found, discovery"
+        },
+        {
+          "id": "Arg2",
+          "desc": "found for, beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "attribute on arg1"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_469952216032620544l::descoberta::1",
-          "predicate": {
-            "char_end": 87,
-            "char_start": 76,
-            "form": "descobertas"
-          },
+          "sent_ID": "dante_01_469952216032620544l",
+          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4",
           "realization": {
             "Arg0": null,
             "Arg1": "gigantes Libra e Franco",
@@ -25,23 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_469952216032620544l",
           "syntax": {
             "Arg0": null,
             "Arg1": "appos",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4"
+          }
         },
         {
-          "instance_id": "dante_01_469952216032620544l::descoberta::2",
-          "predicate": {
-            "char_end": 139,
-            "char_start": 129,
-            "form": "descoberta"
-          },
+          "sent_ID": "dante_01_469952216032620544l",
+          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4",
           "realization": {
             "Arg0": null,
             "Arg1": "de a Petr4",
@@ -49,23 +60,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_469952216032620544l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4"
+          }
         },
         {
-          "instance_id": "dante_01_453546592155738113l::descoberta::1",
-          "predicate": {
-            "char_end": 136,
-            "char_start": 125,
-            "form": "descobertas"
-          },
+          "sent_ID": "dante_01_453546592155738113l",
+          "text": "RT @reminiscences : Sugestao para Graça Foster melhorar Petrobras #Petr4 : fazer campanha contra Dilma … melhor que anunciar descobertas de re …",
           "realization": {
             "Arg0": null,
             "Arg1": "de re",
@@ -73,47 +78,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_453546592155738113l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod:wtrunc",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @reminiscences : Sugestao para Graça Foster melhorar Petrobras #Petr4 : fazer campanha contra Dilma … melhor que anunciar descobertas de re …"
+          }
         },
         {
-          "instance_id": "dante_01_444116429194162176l::descoberta::1",
-          "predicate": {
-            "char_end": 29,
-            "char_start": 19,
-            "form": "descoberta"
-          },
-          "realization": {
-            "Arg0": "#Petrobrás",
-            "Arg1": "de nova jazida de #propina",
-            "Arg2": null,
-            "Arg3": "em o pré-sal",
-            "Arg4": null
-          },
           "sent_ID": "dante_01_444116429194162176l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": "nmod",
-            "Arg4": null
-          },
-          "text": "#Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as almas . #PETR4"
-        },
-        {
-          "instance_id": "dante_01_444118685725507584l::descoberta::1",
-          "predicate": {
-            "char_end": 48,
-            "char_start": 38,
-            "form": "descoberta"
-          },
+          "text": "#Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as almas . #PETR4",
           "realization": {
             "Arg0": "#Petrobrás",
             "Arg1": "de nova jazida de #propina",
@@ -121,18 +96,17 @@
             "Arg3": "em o pré-sal",
             "Arg4": null
           },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
           "sent_ID": "dante_01_444118685725507584l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": "nmod",
-            "Arg4": null
-          },
-          "text": "RT @ppaulovagner : #Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as …"
-        },
-        {
-          "instance_id": "dante_01_444119089167212544l::descoberta::1",
+          "text": "RT @ppaulovagner : #Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as …",
           "realization": {
             "Arg0": "#Petrobrás",
             "Arg1": "de nova jazida de #propina",
@@ -140,18 +114,35 @@
             "Arg3": "em o pré-sal",
             "Arg4": null
           },
-          "sent_ID": "dante_01_444119089167212544l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          },
-          "text": "RT @ppaulovagner : #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas . #PETR4"
+          }
         },
         {
-          "instance_id": "dante_01_469966875737473024l::descoberta::1",
+          "sent_ID": "dante_01_444119089167212544l",
+          "text": "RT @ppaulovagner : #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas . #PETR4",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": "de nova jazida de #propina",
+            "Arg2": null,
+            "Arg3": "em o pré-sal",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469966875737473024l",
+          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …",
           "realization": {
             "Arg0": null,
             "Arg1": "gigantes Libra e Franco",
@@ -159,18 +150,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_469966875737473024l",
           "syntax": {
             "Arg0": null,
             "Arg1": "appos",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …"
+          }
         },
         {
-          "instance_id": "dante_01_469966875737473024l::descoberta::2",
+          "sent_ID": "dante_01_469966875737473024l",
+          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …",
           "realization": {
             "Arg0": null,
             "Arg1": "gigantes Libra e Franco",
@@ -178,23 +168,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_469966875737473024l",
           "syntax": {
             "Arg0": null,
             "Arg1": "appos",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …"
+          }
         },
         {
-          "instance_id": "dante_01_444081961909633024l::descoberta::1",
-          "predicate": {
-            "char_end": 49,
-            "char_start": 39,
-            "form": "Descoberta"
-          },
+          "sent_ID": "dante_01_444081961909633024l",
+          "text": "$PETR3 - Petrobras ( petr ) - Comprova Descoberta Em Aguas Profundas Em a Bacia Potiguar http://t.co/3JseOl3iVW",
           "realization": {
             "Arg0": null,
             "Arg1": "Em Aguas Profundas",
@@ -202,91 +186,24 @@
             "Arg3": "Em a Bacia Potiguar",
             "Arg4": null
           },
-          "sent_ID": "dante_01_444081961909633024l",
           "syntax": {
             "Arg0": null,
             "Arg1": "amod",
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          },
-          "text": "$PETR3 - Petrobras ( petr ) - Comprova Descoberta Em Aguas Profundas Em a Bacia Potiguar http://t.co/3JseOl3iVW"
-        },
-        {
-          "instance_id": "dante_01_469966875737473024l::descoberta::expanded::33",
-          "modifiers": [
-            {
-              "head": "Tb",
-              "role": "ARGM-ADV",
-              "span": "Tb",
-              "syntax": "advmod"
-            },
-            {
-              "head": "recente",
-              "role": "ARGM-TMP",
-              "span": "recente",
-              "syntax": "amod"
-            }
-          ],
-          "predicate": {
-            "char_end": 6,
-            "char_start": 5,
-            "form": "d"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_469966875737473024l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "RT @Adriano3Luis: OGX tem 40%  de Piapara, pré sal, Bloco BS-4.Localiza-se próximo às descobertas gigantes Libra e Franco, e Tb a recente d…",
-          "token_instance_id": "train::dante_01_469966875737473024l::33"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/discovery.xml",
-      "pt_roleset": "descoberta.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "finder",
-          "id": "Arg0"
-        },
-        {
-          "desc": "thing found, discovery",
-          "id": "Arg1"
-        },
-        {
-          "desc": "found for, beneficiary",
-          "id": "Arg2"
-        },
-        {
-          "desc": "attribute on arg1",
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
-          "nsubj": 3
-        },
         "Arg1": {
-          "amod": 1,
           "appos": 3,
           "nmod": 4,
-          "nmod:wtrunc": 1
+          "nmod:wtrunc": 1,
+          "amod": 1
+        },
+        "Arg0": {
+          "nsubj": 3
         },
         "Arg3": {
           "nmod": 4
@@ -294,5 +211,1063 @@
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "descoberta",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 9,
+      "S": 9,
+      "N": 0,
+      "argument_YES": 16,
+      "argument_NO": 29,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg1",
+                "span_text": "Em Aguas Profundas",
+                "span_token_ids": [
+                  10,
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Aguas",
+                "head_lemma": "água",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg3",
+                "span_text": "Em a Bacia Potiguar",
+                "span_token_ids": [
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "Bacia",
+                "head_lemma": "Bacia",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Descoberta",
+          "sent_id": "dante_01_444081961909633024l",
+          "sentence_text": "$PETR3 - Petrobras (petr) - Comprova Descoberta Em Aguas Profundas Na Bacia Potiguar http://t.co/3JseOl3iVW",
+          "split": "test",
+          "token_id": "9",
+          "token_instance_id": "test::dante_01_444081961909633024l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "22",
+                "role": "Arg1",
+                "span_text": "gigantes Libra e Franco",
+                "span_token_ids": [
+                  21,
+                  22,
+                  23,
+                  24
+                ],
+                "status": "YES",
+                "head_form": "Libra",
+                "head_lemma": "Libra",
+                "head_deprel": "appos"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descobertas",
+          "sent_id": "dante_01_469952216032620544l",
+          "sentence_text": "OGX tem 40%  de Piapara, pré sal, Bloco BS-4.Localiza-se próximo às descobertas gigantes Libra e Franco, e Tb a recente descoberta da Petr4",
+          "split": "test",
+          "token_id": "20",
+          "token_instance_id": "test::dante_01_469952216032620544l::20",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "33",
+                "role": "Arg1",
+                "span_text": "de a Petr4",
+                "span_token_ids": [
+                  31,
+                  32,
+                  33
+                ],
+                "status": "YES",
+                "head_form": "Petr4",
+                "head_lemma": "Petr4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descoberta",
+          "sent_id": "dante_01_469952216032620544l",
+          "sentence_text": "OGX tem 40%  de Piapara, pré sal, Bloco BS-4.Localiza-se próximo às descobertas gigantes Libra e Franco, e Tb a recente descoberta da Petr4",
+          "split": "test",
+          "token_id": "30",
+          "token_instance_id": "test::dante_01_469952216032620544l::30",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "#Petrobrás",
+                "span_token_ids": [
+                  1
+                ],
+                "status": "YES",
+                "head_form": "#Petrobrás",
+                "head_lemma": "#Petrobrás",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "6",
+                "role": "Arg1",
+                "span_text": "de nova jazida de #propina",
+                "span_token_ids": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "status": "YES",
+                "head_form": "jazida",
+                "head_lemma": "jazida",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg3",
+                "span_text": "em o pré-sal",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "pré-sal",
+                "head_lemma": "pré-sal",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descoberta",
+          "sent_id": "dante_01_444116429194162176l",
+          "sentence_text": "#Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das almas. #PETR4",
+          "split": "train",
+          "token_id": "3",
+          "token_instance_id": "train::dante_01_444116429194162176l::3",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg0",
+                "span_text": "#Petrobrás",
+                "span_token_ids": [
+                  4
+                ],
+                "status": "YES",
+                "head_form": "#Petrobrás",
+                "head_lemma": "#Petrobrás",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "9",
+                "role": "Arg1",
+                "span_text": "de nova jazida de #propina",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "jazida",
+                "head_lemma": "jazida",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg3",
+                "span_text": "em o pré-sal",
+                "span_token_ids": [
+                  12,
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "pré-sal",
+                "head_lemma": "pré-sal",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descoberta",
+          "sent_id": "dante_01_444118685725507584l",
+          "sentence_text": "RT @ppaulovagner: #Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das …",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_444118685725507584l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg0",
+                "span_text": "#Petrobrás",
+                "span_token_ids": [
+                  4
+                ],
+                "status": "YES",
+                "head_form": "#Petrobrás",
+                "head_lemma": "#Petrobrás",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "13",
+                "role": "Arg1",
+                "span_text": "n pré-sal",
+                "span_token_ids": [
+                  "12 13"
+                ],
+                "status": "YES",
+                "head_form": "pré-sal",
+                "head_lemma": "pré-sal",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "13",
+                "role": "Arg3",
+                "span_text": "n pré-sal",
+                "span_token_ids": [
+                  "12 13"
+                ],
+                "status": "YES",
+                "head_form": "pré-sal",
+                "head_lemma": "pré-sal",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "dscberta",
+          "sent_id": "dante_01_444119089167212544l",
+          "sentence_text": "RT @ppaulovagner: #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas. #PETR4",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_444119089167212544l::6",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "22",
+                "role": "Arg1",
+                "span_text": "de re",
+                "span_token_ids": [
+                  21,
+                  22
+                ],
+                "status": "YES",
+                "head_form": "re",
+                "head_lemma": "re",
+                "head_deprel": "nmod:wtrunc"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descobertas",
+          "sent_id": "dante_01_453546592155738113l",
+          "sentence_text": "RT @reminiscences: Sugestao para Graça Foster melhorar Petrobras #Petr4: fazer campanha contra Dilma… melhor que anunciar descobertas de re…",
+          "split": "train",
+          "token_id": "20",
+          "token_instance_id": "train::dante_01_453546592155738113l::20",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "25",
+                "role": "Arg1",
+                "span_text": "gigantes Libra e Franco",
+                "span_token_ids": [
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "status": "YES",
+                "head_form": "Libra",
+                "head_lemma": "Libra",
+                "head_deprel": "appos"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "descobertas",
+          "sent_id": "dante_01_469966875737473024l",
+          "sentence_text": "RT @Adriano3Luis: OGX tem 40%  de Piapara, pré sal, Bloco BS-4.Localiza-se próximo às descobertas gigantes Libra e Franco, e Tb a recente d…",
+          "split": "train",
+          "token_id": "23",
+          "token_instance_id": "train::dante_01_469966875737473024l::23",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "25",
+                "role": "Arg1",
+                "span_text": "gigantes Libra e Franco",
+                "span_token_ids": [
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "status": "YES",
+                "head_form": "Libra",
+                "head_lemma": "Libra",
+                "head_deprel": "appos"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "discovery.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "d",
+          "sent_id": "dante_01_469966875737473024l",
+          "sentence_text": "RT @Adriano3Luis: OGX tem 40%  de Piapara, pré sal, Bloco BS-4.Localiza-se próximo às descobertas gigantes Libra e Franco, e Tb a recente d…",
+          "split": "train",
+          "token_id": "33",
+          "token_instance_id": "train::dante_01_469966875737473024l::33",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0213-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "descoberta",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "descoberta",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "discovery.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "descoberta",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 9,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0213-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 9,
+        "instances_total": 9,
+        "regular_argument_instances": 9,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

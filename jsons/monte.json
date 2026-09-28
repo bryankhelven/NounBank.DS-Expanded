@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "monte",
   "lemma_base": "monte",
   "senses": [
     {
+      "pt_roleset": "monte.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "lot.01",
       "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/lot.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "quantified"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_445973204335882241l::monte::1",
-          "predicate": {
-            "char_end": 55,
-            "char_start": 50,
-            "form": "monte"
-          },
+          "sent_ID": "dante_01_445973204335882241l",
+          "text": "#VALE5 Opção VALED30 estava a 0,08 ai apareceu um monte vendendo a 0,07 e pegadinha .",
           "realization": {
             "Arg0": null,
             "Arg1": null,
@@ -25,23 +42,17 @@
             "Arg3": "vendendo a 0,07",
             "Arg4": null
           },
-          "sent_ID": "dante_01_445973204335882241l",
           "syntax": {
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
-          },
-          "text": "#VALE5 Opção VALED30 estava a 0,08 ai apareceu um monte vendendo a 0,07 e pegadinha ."
+          }
         },
         {
-          "instance_id": "dante_01_447068941912137728l::monte::1",
-          "predicate": {
-            "char_end": 59,
-            "char_start": 54,
-            "form": "monte"
-          },
+          "sent_ID": "dante_01_447068941912137728l",
+          "text": "#PETR4 querendo agulhar em o curto , 30min ... com um monte de outras indicações ... vamos ver ... ,)",
           "realization": {
             "Arg0": null,
             "Arg1": "de outras indicações",
@@ -49,47 +60,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_447068941912137728l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#PETR4 querendo agulhar em o curto , 30min ... com um monte de outras indicações ... vamos ver ... ,)"
+          }
         },
         {
-          "instance_id": "dante_01_456157178563280896l::monte::1",
-          "predicate": {
-            "char_end": 23,
-            "char_start": 18,
-            "form": "monte"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": "de perguntas Graça Foster",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_456157178563280896l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": "flat:name",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bolsa .."
-        },
-        {
-          "instance_id": "dante_01_456157420415246336l::monte::1",
-          "predicate": {
-            "char_end": 38,
-            "char_start": 33,
-            "form": "monte"
-          },
+          "text": "Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bolsa ..",
           "realization": {
             "Arg0": null,
             "Arg1": "de perguntas Graça Foster",
@@ -97,53 +78,578 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_456157420415246336l",
           "syntax": {
             "Arg0": null,
             "Arg1": "flat:name",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456157420415246336l",
+          "text": "RT @SouCalmo : Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bols …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de perguntas Graça Foster",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "text": "RT @SouCalmo : Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bols …"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/lot.xml",
-      "pt_roleset": "monte.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": null,
-          "id": "Arg0"
-        },
-        {
-          "desc": "quantified",
-          "id": "Arg1"
-        },
-        {
-          "desc": null,
-          "id": "Arg2"
-        },
-        {
-          "desc": "secondary theme",
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg1": {
-          "flat:name": 2,
-          "nmod": 1
-        },
         "Arg3": {
           "obl": 1
+        },
+        "Arg1": {
+          "nmod": 1,
+          "flat:name": 2
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "monte",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 5,
+      "S": 4,
+      "N": 1,
+      "argument_YES": 4,
+      "argument_NO": 16,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "11",
+                "role": "Arg3",
+                "span_text": "vendendo a 0,07",
+                "span_token_ids": [
+                  11,
+                  12,
+                  13
+                ],
+                "status": "YES",
+                "head_form": "vendendo",
+                "head_lemma": "vender",
+                "head_deprel": "acl"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "lot.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "monte",
+          "sent_id": "dante_01_445973204335882241l",
+          "sentence_text": "#VALE5 Opção VALED30  estava a 0,08 ai apareceu um monte vendendo a 0,07 e pegadinha.",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_445973204335882241l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0437-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg1",
+                "span_text": "de outras indicações",
+                "span_token_ids": [
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "indicações",
+                "head_lemma": "indicação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "lot.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "monte",
+          "sent_id": "dante_01_447068941912137728l",
+          "sentence_text": "#PETR4 querendo agulhar no curto, 30min ... com um monte de outras indicações ... vamos ver ... ,)",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_447068941912137728l::12",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0437-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg1",
+                "span_text": "de perguntas Graça Foster",
+                "span_token_ids": [
+                  6,
+                  7,
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "perguntas",
+                "head_lemma": "pergunta",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "lot.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "monte",
+          "sent_id": "dante_01_456157178563280896l",
+          "sentence_text": "Vc ñ respondeu um monte de perguntas Graça Foster.. Q venha a CPI..   Tanto ñ explicou, q as ações da Petr4 despencam na bolsa..",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_456157178563280896l::5",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0437-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "de perguntas Graça Foster",
+                "span_token_ids": [
+                  9,
+                  10,
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "perguntas",
+                "head_lemma": "pergunta",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "lot.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "monte",
+          "sent_id": "dante_01_456157420415246336l",
+          "sentence_text": "RT @SouCalmo: Vc ñ respondeu um monte de perguntas Graça Foster.. Q venha a CPI..   Tanto ñ explicou, q as ações da Petr4 despencam na bols…",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_456157420415246336l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0437-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "monte",
+          "sent_id": "dante_01_459714879784747008l",
+          "sentence_text": "@clubedopairico fizeram um rouba monte na VALE5 que deu do",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_459714879784747008l::5"
+        }
+      ],
+      "lemma": "monte",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "monte",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "lot.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "monte",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 4,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0437-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 1,
+        "S": 4,
+        "instances_total": 5,
+        "regular_argument_instances": 4,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

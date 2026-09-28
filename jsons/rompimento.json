@@ -1,216 +1,1331 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "rompimento",
   "lemma_base": "rompimento",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_445901398040141824l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Postado ontem  observo rompimento do diário...RT @Live_Trade: P/ Amanhã Olho em Goll4 / Klbn4",
-      "token_instance_id": "dev::dante_01_445901398040141824l::4"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_445929977440382976l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#klbn4 confirmando rompimento ontem, melhor se fechar acima 10,83 15' e romper",
-      "token_instance_id": "dev::dante_01_445929977440382976l::3"
+    "lexical_authority": {
+      "lemma": "rompimento",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "MORPH_ONLY",
+      "source_legos": "NO",
+      "source_morph": "YES",
+      "dupb_source_unit_id": "lemma::rompimento::NOUN_SENSE::01",
+      "dupb_source_locator": "L1411_0143",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_458982968405811200l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Operação feita em CIEL3, rompimento de triângulo simétrico: https://t.co/R6p7tEqEav",
-      "token_instance_id": "dev::dante_01_458982968405811200l::6"
+    "summary": {
+      "contextual_instances": 17,
+      "S": 17,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 28,
+      "argument_ABSTAIN": 23
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_445901398040141824l",
+          "sentence_text": "Postado ontem  observo rompimento do diário...RT @Live_Trade: P/ Amanhã Olho em Goll4 / Klbn4",
+          "split": "dev",
+          "token_id": "4",
+          "token_instance_id": "dev::dante_01_445901398040141824l::4",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_445929977440382976l",
+          "sentence_text": "#klbn4 confirmando rompimento ontem, melhor se fechar acima 10,83 15' e romper",
+          "split": "dev",
+          "token_id": "3",
+          "token_instance_id": "dev::dante_01_445929977440382976l::3",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_458982968405811200l",
+          "sentence_text": "Operação feita em CIEL3, rompimento de triângulo simétrico: https://t.co/R6p7tEqEav",
+          "split": "dev",
+          "token_id": "6",
+          "token_instance_id": "dev::dante_01_458982968405811200l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimrnto",
+          "sent_id": "dante_01_445910769411293184l",
+          "sentence_text": "Foi lá agora é aguardar!!! RT @Live_Trade: #vale5 26,28 o de 15 que fechar acima, cp rompimrnto",
+          "split": "test",
+          "token_id": "22",
+          "token_instance_id": "test::dante_01_445910769411293184l::22",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_443740334766710784l",
+          "sentence_text": "#Petr4 se fechar acima 13,28 15' compro o rompimento",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_443740334766710784l::10",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_444100144225865728l",
+          "sentence_text": "#PETR4 ... barreira dos R$13,50 e este volume baixo ? (com IFR intraday esticado ...) Ou aumenta o volume ou nada feito de rompimento ...",
+          "split": "train",
+          "token_id": "28",
+          "token_instance_id": "train::dante_01_444100144225865728l::28",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimrnto",
+          "sent_id": "dante_01_445921872178610176l",
+          "sentence_text": "não rompeu, não compro RT @Live_Trade: #vale5 26,28 o de 15 que fechar acima, cp rompimrnto",
+          "split": "train",
+          "token_id": "19",
+          "token_instance_id": "train::dante_01_445921872178610176l::19",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "romp",
+          "sent_id": "dante_01_446045981629771776l",
+          "sentence_text": "Papeis que monitoro para amanhã nos respec romp a confirmar:  #ibovespa (winj14) / Petr4 (até que enfim sinal) / Brkm5",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_446045981629771776l::9",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_446333024989614080l",
+          "sentence_text": "Goll4 Obj1 10,93 bora criança, vamos ver se cumpre e qdo...rs  Comprado no rompimento cfe postado",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_446333024989614080l::18",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_448093704449183744l",
+          "sentence_text": "Compra de #petr4 no rompimento dos 14,20",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_448093704449183744l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_449629179051790336l",
+          "sentence_text": "@Live_Trade eu to cagando de medo dessa #PETR4!!! to com posição grnade desde o rompimento dos 14,20 dia 24/03! king kong adestrado pelo PT",
+          "split": "train",
+          "token_id": "19",
+          "token_instance_id": "train::dante_01_449629179051790336l::19",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimentos",
+          "sent_id": "dante_01_455681580678529025l",
+          "sentence_text": "Bom dia a todos, monitoro na cp: #timp3 #osxb3  e para venda #wege3 , nos respectivos rompimentos de diário",
+          "split": "train",
+          "token_id": "21",
+          "token_instance_id": "train::dante_01_455681580678529025l::21",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_456844841087811584l",
+          "sentence_text": "faso rompimento na GGBR4 ... vai para o outro lado com forca...",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_456844841087811584l::2",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_461505776595783680l",
+          "sentence_text": "@Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento dos R$16,60 hein ? Essa promete ser das boas. =)",
+          "split": "train",
+          "token_id": "15",
+          "token_instance_id": "train::dante_01_461505776595783680l::15",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_461510589626728448l",
+          "sentence_text": "RT @clubedopairico: @Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento dos R$16,60 hein ? Essa promete ser …",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_461510589626728448l::18",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_461510858632626176l",
+          "sentence_text": "'@clubedopairico: @Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento. Mercado amarrado.",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_461510858632626176l::18",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "ENTITY CAUSING SEPARATION",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING BEING DIVIDED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE, SEPARATED FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "separation.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "rompimento",
+          "sent_id": "dante_01_468835433070460928l",
+          "sentence_text": "@Paty_Meirelles na PETR4 o rompimento dos R$17,75 abria caminho para uma queda até a região dos R$17,xx ... Só não pensei ver isso hoje, rs",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_468835433070460928l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0606-S004",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_445910769411293184l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Foi lá agora é aguardar!!! RT @Live_Trade: #vale5 26,28 o de 15 que fechar acima, cp rompimrnto",
-      "token_instance_id": "test::dante_01_445910769411293184l::22"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
+      "lemma": "rompimento",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L1411_0143",
+        "dupb_source_unit_id": "lemma::rompimento::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "rompimento",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "MORPH_ONLY",
+        "source_legos": "NO",
+        "source_morph": "YES"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "separation.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "rompimento",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "ENTITY CAUSING SEPARATION",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING BEING DIVIDED",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "SOURCE, SEPARATED FROM",
+              "generalized_description": "SOURCE",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 17,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0606-S004"
+        }
       ],
-      "sent_ID": "dante_01_443740334766710784l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#Petr4 se fechar acima 13,28 15' compro o rompimento",
-      "token_instance_id": "train::dante_01_443740334766710784l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_444100144225865728l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#PETR4 ... barreira dos R$13,50 e este volume baixo ? (com IFR intraday esticado ...) Ou aumenta o volume ou nada feito de rompimento ...",
-      "token_instance_id": "train::dante_01_444100144225865728l::28"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_445921872178610176l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "não rompeu, não compro RT @Live_Trade: #vale5 26,28 o de 15 que fechar acima, cp rompimrnto",
-      "token_instance_id": "train::dante_01_445921872178610176l::19"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_446045981629771776l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Papeis que monitoro para amanhã nos respec romp a confirmar:  #ibovespa (winj14) / Petr4 (até que enfim sinal) / Brkm5",
-      "token_instance_id": "train::dante_01_446045981629771776l::9"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_446333024989614080l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Goll4 Obj1 10,93 bora criança, vamos ver se cumpre e qdo...rs  Comprado no rompimento cfe postado",
-      "token_instance_id": "train::dante_01_446333024989614080l::18"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_448093704449183744l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Compra de #petr4 no rompimento dos 14,20",
-      "token_instance_id": "train::dante_01_448093704449183744l::6"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_449629179051790336l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@Live_Trade eu to cagando de medo dessa #PETR4!!! to com posição grnade desde o rompimento dos 14,20 dia 24/03! king kong adestrado pelo PT",
-      "token_instance_id": "train::dante_01_449629179051790336l::19"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_455681580678529025l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Bom dia a todos, monitoro na cp: #timp3 #osxb3  e para venda #wege3 , nos respectivos rompimentos de diário",
-      "token_instance_id": "train::dante_01_455681580678529025l::21"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_456844841087811584l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "faso rompimento na GGBR4 ... vai para o outro lado com forca...",
-      "token_instance_id": "train::dante_01_456844841087811584l::2"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_461505776595783680l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento dos R$16,60 hein ? Essa promete ser das boas. =)",
-      "token_instance_id": "train::dante_01_461505776595783680l::15"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_461510589626728448l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "RT @clubedopairico: @Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento dos R$16,60 hein ? Essa promete ser …",
-      "token_instance_id": "train::dante_01_461510589626728448l::18"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_461510858632626176l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "'@clubedopairico: @Andresmoraes nossa querida e amada #PETR4 na briga pela confirmação do rompimento. Mercado amarrado.",
-      "token_instance_id": "train::dante_01_461510858632626176l::18"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0606-S001",
-        "NBDS2-L0606-S002",
-        "NBDS2-L0606-S003",
-        "NBDS2-L0606-S004"
-      ],
-      "sent_ID": "dante_01_468835433070460928l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@Paty_Meirelles na PETR4 o rompimento dos R$17,75 abria caminho para uma queda até a região dos R$17,xx ... Só não pensei ver isso hoje, rs",
-      "token_instance_id": "train::dante_01_468835433070460928l::6"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 17,
+        "instances_total": 17,
+        "regular_argument_instances": 17,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

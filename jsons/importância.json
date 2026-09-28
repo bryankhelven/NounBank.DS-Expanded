@@ -1,36 +1,284 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "importância",
   "lemma_base": "importância",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0367-S001",
-        "NBDS2-L0367-S002",
-        "NBDS2-L0367-S003",
-        "NBDS2-L0367-S004"
-      ],
-      "sent_ID": "dante_01_444171983803412480l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "A importância da disciplina...#alll3 não fechou em nenhum momento acima 6,81 então só observo e não arrisco",
-      "token_instance_id": "train::dante_01_444171983803412480l::2"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0367-S001",
-        "NBDS2-L0367-S002",
-        "NBDS2-L0367-S003",
-        "NBDS2-L0367-S004"
+    "lexical_authority": {
+      "lemma": "importância",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "current_authority": "LEGOS",
+      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "LEGOS",
+      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 2,
+      "S": 2,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 6,
+      "argument_ABSTAIN": 2
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 4,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "EXPERIENCER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "VALUE",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "PURPOSE/CONTEXT",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "importance.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "importância",
+          "sent_id": "dante_01_444171983803412480l",
+          "sentence_text": "A importância da disciplina...#alll3 não fechou em nenhum momento acima 6,81 então só observo e não arrisco",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_444171983803412480l::2",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0367-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 4,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "EXPERIENCER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "VALUE",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "PURPOSE/CONTEXT",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "importance.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "importância",
+          "sent_id": "dante_01_451685101416763392l",
+          "sentence_text": "@Live_Trade @DiehlRdiehl Olhem #VALE5 já se aproximando dos R$ 30,00.Estão vendo a importância de saber deixar o lucro crescer qdo é o caso?",
+          "split": "train",
+          "token_id": "16",
+          "token_instance_id": "train::dante_01_451685101416763392l::16",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0367-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_451685101416763392l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@Live_Trade @DiehlRdiehl Olhem #VALE5 já se aproximando dos R$ 30,00.Estão vendo a importância de saber deixar o lucro crescer qdo é o caso?",
-      "token_instance_id": "train::dante_01_451685101416763392l::16"
+      "lemma": "importância",
+      "lexical_authority": {
+        "current_authority": "LEGOS",
+        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "LEGOS",
+        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+        "legacy_status": "RESOLVED",
+        "lemma": "importância",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "importance.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "importância",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "EXPERIENCER",
+              "generalized_description": "EXPERIENCER",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THEME",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "VALUE",
+              "generalized_description": "VALUE",
+              "role_label": "ARG2",
+              "role_number": "2"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "PURPOSE/CONTEXT",
+              "generalized_description": "EXT",
+              "role_label": "ARG3",
+              "role_number": "3"
+            }
+          ],
+          "observed_instance_count": 2,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0367-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 2,
+        "instances_total": 2,
+        "regular_argument_instances": 2,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

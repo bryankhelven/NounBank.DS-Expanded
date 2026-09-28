@@ -1,90 +1,251 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "intenção",
   "lemma_base": "intenção",
-  "senses": [
-    {
-      "english_roleset": null,
-      "english_roleset_source": "UNRESOLVED_NBE_V2_NO_FABRICATION",
-      "examples": [
+  "senses": [],
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
+    },
+    "lexical_authority": {
+      "lemma": "intenção",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS+MORPH",
+      "source_legos": "YES",
+      "source_morph": "YES",
+      "dupb_source_unit_id": "lemma::intenção::NOUN_SENSE::01",
+      "dupb_source_locator": "L0907_0197",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 2,
+      "S": 2,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 2,
+      "argument_ABSTAIN": 4
+    },
+    "current_record": {
+      "instances": [
         {
-          "instance_id": "dante_01_456492096237477888l::intenção::expanded::21",
-          "predicate": {
-            "char_end": 104,
-            "char_start": 96,
-            "form": "Intenção"
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "PLANNER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "INTENT, THING PLANNED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "EXTRACTED SUBJECT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
           },
-          "realization": {
-            "Arg0": "A Ambev",
-            "Arg1": "voltar a crescer 2,5 % a o ano",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "intention.01",
+            "status": "VALIDATED_ALIGNMENT"
           },
-          "sent_ID": "dante_01_456492096237477888l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "csubj",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "RT @chrinvestor: A Ambev fará o maior investimento de sua história em 2014. Serão R$ 6 Bilhões. Intenção é voltar a crescer 2,5% ao ano. #A…",
-          "token_instance_id": "test::dante_01_456492096237477888l::21"
+          "form": "Intenção",
+          "sent_id": "dante_01_456492096237477888l",
+          "sentence_text": "RT @chrinvestor: A Ambev fará o maior investimento de sua história em 2014. Serão R$ 6 Bilhões. Intenção é voltar a crescer 2,5% ao ano. #A…",
+          "split": "test",
+          "token_id": "21",
+          "token_instance_id": "test::dante_01_456492096237477888l::21",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0385-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
         },
         {
-          "instance_id": "dante_01_456417455875690497l::intenção::expanded::18",
-          "predicate": {
-            "char_end": 87,
-            "char_start": 79,
-            "form": "Intenção"
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "PLANNER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "INTENT, THING PLANNED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "EXTRACTED SUBJECT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
           },
-          "realization": {
-            "Arg0": "A Ambev",
-            "Arg1": "voltar a crescer 2,5 % a o ano",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "intention.01",
+            "status": "VALIDATED_ALIGNMENT"
           },
-          "sent_ID": "dante_01_456417455875690497l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "csubj",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "A Ambev fará o maior investimento de sua história em 2014. Serão R$ 6 Bilhões. Intenção é voltar a crescer 2,5% ao ano. #ABEV3",
-          "token_instance_id": "train::dante_01_456417455875690497l::18"
+          "form": "Intenção",
+          "sent_id": "dante_01_456417455875690497l",
+          "sentence_text": "A Ambev fará o maior investimento de sua história em 2014. Serão R$ 6 Bilhões. Intenção é voltar a crescer 2,5% ao ano. #ABEV3",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_456417455875690497l::18",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0385-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
         }
       ],
-      "nombank_url": null,
-      "pt_roleset": "intenção.01",
-      "pt_sense_hint": "intento; propósito",
-      "pt_sense_index": 1,
-      "roles": [
+      "lemma": "intenção",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L0907_0197",
+        "dupb_source_unit_id": "lemma::intenção::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "intenção",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS+MORPH",
+        "source_legos": "YES",
+        "source_morph": "YES"
+      },
+      "observed_semantic_units": [
         {
-          "desc": "quem tem a pretens?o",
-          "id": "Arg0"
-        },
-        {
-          "desc": "coisa pretendida, inten??o",
-          "id": "Arg1"
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "intention.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "intenção",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "PLANNER",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "INTENT, THING PLANNED",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "EXTRACTED SUBJECT",
+              "generalized_description": "EXT",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 2,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0385-S001"
         }
       ],
-      "syntactic_profile": {
-        "Arg0": {
-          "nsubj": 2
-        },
-        "Arg1": {
-          "csubj": 2
-        }
-      }
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 2,
+        "instances_total": 2,
+        "regular_argument_instances": 2,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ],
-  "unresolved_instances": []
+  }
 }

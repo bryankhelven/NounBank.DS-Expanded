@@ -1,16 +1,31 @@
-# NounBank.DS
+# NounBank.DS Expanded
 
-- O NounBank.DS é um repositório de nomes predicadores extraídos de um corpus de tweets do mercado financeiro (DANTEStocks). Para cada nome predicador identificado, o recurso reúne exemplos anotados com a sua valência semântica (Arg0..Arg4) e com a realização sintática observada (rótulos UD como nsubj, nmod, obj, etc.).
+**NounBank.DS Expanded** amplia o [NounBank.DS](https://github.com/bryankhelven/NounBank.DS), mantendo as 145 entradas da versão original e acrescentando 564 novos lemas do DANTEStocks.
 
-- Cada entrada contém: roleset em português, mapeamento para um roleset do NomBank em inglês, descrições dos papéis e exemplos reais do corpus com marcação dos argumentos e uma estatística agregada das realizações sintáticas encontradas. Os dados são também disponibilizados em formato JSON além das páginas individuais para consulta.
+## Recurso
 
----
+- 709 lemas;
+- 6.416 ocorrências analisadas;
+- 3.618 ocorrências predicadoras e 2.798 não predicadoras;
+- 2.669 realizações argumentais observadas;
+- mapeamento para rolesets do NomBank em inglês quando há correspondência adequada;
+- exemplos reais com REL, Arg0...Arg4 e relações sintáticas da Universal Dependencies.
 
-## Agradecimentos
+As 564 entradas acrescentadas pela expansão aparecem com a marca **NEW** na interface.
 
-- Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São Paulo (<a href="http://c4ai.inova.usp.br/">C4AI</a>), com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation. O projeto também contou com o apoio do Ministério da Ciência, Tecnologia e Inovações, com recursos da Lei nº 8.248, de 23 de outubro de 1991, no âmbito do PPI-SOFTEX, coordenado pela Softex e publicado como Residência em TIC 13, DOU 01245.010222/2022-44.
+## Consulta
 
+A interface permite navegar pelos lemas, consultar rolesets e papéis semânticos, observar exemplos do corpus e examinar as realizações sintáticas dos argumentos.
 
-## Como citar
+A página **Estatísticas** reúne uma visão visual da expansão do inventário e das distribuições observadas no recurso.
 
-Barbosa, B.K.S., Di Felippo, A. (2025). NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese. In the Proceedings of the 16th Symposium in Information and Human Language Technology (STIL). September, 29-03. Fortaleza-CE, Brazil. Available soon, 2025.
+## Dados
+
+Os dados podem ser baixados em JSON pela própria interface.
+
+## Documentação
+
+- [Compatibilidade com o NounBank.DS original](docs/V1_COMPATIBILITY.md)
+- [Formato dos dados](docs/PUBLIC_JSON_SCHEMA.md)
+- [Definições das estatísticas](docs/STATISTICS_DEFINITIONS.md)
+- [Como citar](docs/CITATION.md)

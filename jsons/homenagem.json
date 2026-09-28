@@ -1,48 +1,277 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "homenagem",
   "lemma_base": "homenagem",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0358-S001",
-        "NBDS2-L0358-S002",
-        "NBDS2-L0358-S003",
-        "NBDS2-L0358-S004"
-      ],
-      "sent_ID": "dante_01_443020718650163200l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "RT @lambari_trader: PETR4 a $`13,13! Homenagem perfeita  da Petrobrás à competência e honestidade com que o PT vem administrando a empresa …",
-      "token_instance_id": "dev::dante_01_443020718650163200l::10"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0358-S001",
-        "NBDS2-L0358-S002",
-        "NBDS2-L0358-S003",
-        "NBDS2-L0358-S004"
-      ],
-      "sent_ID": "dante_01_441271548268511233l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Ouçam o Lambari… PETR4 vai a $13, numa JUSTA homenagem ao PT, qua qua qua...",
-      "token_instance_id": "test::dante_01_441271548268511233l::14"
+    "lexical_authority": {
+      "lemma": "homenagem",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS+MORPH",
+      "source_legos": "YES",
+      "source_morph": "YES",
+      "dupb_source_unit_id": "lemma::homenagem::NOUN_SENSE::01",
+      "dupb_source_locator": "L0835_0223",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0358-S001",
-        "NBDS2-L0358-S002",
-        "NBDS2-L0358-S003",
-        "NBDS2-L0358-S004"
+    "summary": {
+      "contextual_instances": 3,
+      "S": 3,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 2,
+      "argument_ABSTAIN": 4
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTED",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "tribute.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Homenagem",
+          "sent_id": "dante_01_443020718650163200l",
+          "sentence_text": "RT @lambari_trader: PETR4 a $`13,13! Homenagem perfeita  da Petrobrás à competência e honestidade com que o PT vem administrando a empresa …",
+          "split": "dev",
+          "token_id": "10",
+          "token_instance_id": "dev::dante_01_443020718650163200l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0358-S004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTED",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "tribute.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "homenagem",
+          "sent_id": "dante_01_441271548268511233l",
+          "sentence_text": "Ouçam o Lambari… PETR4 vai a $13, numa JUSTA homenagem ao PT, qua qua qua...",
+          "split": "test",
+          "token_id": "14",
+          "token_instance_id": "test::dante_01_441271548268511233l::14",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0358-S004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 0,
+            "realized_yes": 0,
+            "role_slots": 2,
+            "roles": [
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTING",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING COMPLEMENTED",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "tribute.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Homenagem",
+          "sent_id": "dante_01_443018719959474176l",
+          "sentence_text": "PETR4 a $`13,13! Homenagem perfeita  da Petrobrás à competência e honestidade com que o PT vem administrando a empresa e o Brasil!",
+          "split": "train",
+          "token_id": "7",
+          "token_instance_id": "train::dante_01_443018719959474176l::7",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0358-S004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        }
       ],
-      "sent_ID": "dante_01_443018719959474176l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "PETR4 a $`13,13! Homenagem perfeita  da Petrobrás à competência e honestidade com que o PT vem administrando a empresa e o Brasil!",
-      "token_instance_id": "train::dante_01_443018719959474176l::7"
+      "lemma": "homenagem",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L0835_0223",
+        "dupb_source_unit_id": "lemma::homenagem::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "homenagem",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS+MORPH",
+        "source_legos": "YES",
+        "source_morph": "YES"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "tribute.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "homenagem",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING COMPLEMENTING",
+              "generalized_description": "COMPLEMENTER",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING COMPLEMENTED",
+              "generalized_description": "COMPLEMENTED",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 3,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0358-S004"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 3,
+        "instances_total": 3,
+        "regular_argument_instances": 3,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

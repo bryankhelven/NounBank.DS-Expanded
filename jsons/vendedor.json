@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "vendedor",
   "lemma_base": "vendedor",
   "senses": [
     {
+      "pt_roleset": "vendedor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "seller.01",
       "english_roleset_source": "verb-sell.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/seller.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing sold"
+        },
+        {
+          "id": "Arg2",
+          "desc": "buyer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_445981754990804992l::vendedor::1",
-          "predicate": {
-            "char_end": 12,
-            "char_start": 4,
-            "form": "vendedor"
-          },
+          "sent_ID": "dante_01_445981754990804992l",
+          "text": "Sou vendedor de BRKM5 . Estou analisando time , hoje ou amanhã . @ferrisss @dfittarelli @HudsonPF @JPedro_Sullivan",
           "realization": {
             "Arg0": null,
             "Arg1": "de BRKM5",
@@ -25,23 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_445981754990804992l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Sou vendedor de BRKM5 . Estou analisando time , hoje ou amanhã . @ferrisss @dfittarelli @HudsonPF @JPedro_Sullivan"
+          }
         },
         {
-          "instance_id": "dante_01_444100391253585920l::vendedor::1",
-          "predicate": {
-            "char_end": 54,
-            "char_start": 46,
-            "form": "vendedor"
-          },
+          "sent_ID": "dante_01_444100391253585920l",
+          "text": "Destaques BTC #PETR3 #PETR4 #SBSP3 #BBAS3 Sou vendedor de todas a o longo de o dia . Petrobras aparece em tds criterios @ferrisss @dfittarelli",
           "realization": {
             "Arg0": null,
             "Arg1": "de todas",
@@ -49,77 +60,441 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_444100391253585920l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Destaques BTC #PETR3 #PETR4 #SBSP3 #BBAS3 Sou vendedor de todas a o longo de o dia . Petrobras aparece em tds criterios @ferrisss @dfittarelli"
-        },
-        {
-          "instance_id": "dante_01_443095041951944704l::vendedor::expanded::7",
-          "predicate": {
-            "char_end": 35,
-            "char_start": 26,
-            "form": "vendedora"
-          },
-          "realization": {
-            "Arg0": "ela",
-            "Arg1": "em VALE5",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_443095041951944704l",
-          "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "@ferrisss E ela é a maior vendedora em VALE5",
-          "token_instance_id": "train::dante_01_443095041951944704l::7"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/seller.xml",
-      "pt_roleset": "vendedor.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "seller",
-          "id": "Arg0"
-        },
-        {
-          "desc": "thing sold",
-          "id": "Arg1"
-        },
-        {
-          "desc": "buyer",
-          "id": "Arg2"
-        },
-        {
-          "desc": "price paid",
-          "id": "Arg3"
-        },
-        {
-          "desc": "beneficiary",
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
-          "nsubj": 1
-        },
         "Arg1": {
-          "nmod": 3
+          "nmod": 2
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "vendedor",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 3,
+      "S": 3,
+      "N": 0,
+      "argument_YES": 4,
+      "argument_NO": 11,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "seller",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "ela",
+                "span_token_ids": [
+                  3
+                ],
+                "status": "YES",
+                "head_form": "ela",
+                "head_lemma": "ele",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "thing sold",
+                "head_token_id": "9",
+                "role": "Arg1",
+                "span_text": "em VALE5",
+                "span_token_ids": [
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "VALE5",
+                "head_lemma": "VALE5",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "buyer",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "price paid",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "beneficiary",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "seller.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "vendedora",
+          "sent_id": "dante_01_443095041951944704l",
+          "sentence_text": "@ferrisss E ela é a maior vendedora em VALE5",
+          "split": "train",
+          "token_id": "7",
+          "token_instance_id": "train::dante_01_443095041951944704l::7",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0685-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "de todas",
+                "span_token_ids": [
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "todas",
+                "head_lemma": "todo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "seller.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "vendedor",
+          "sent_id": "dante_01_444100391253585920l",
+          "sentence_text": "Destaques BTC #PETR3 #PETR4 #SBSP3 #BBAS3 Sou vendedor de todas ao longo do dia. Petrobras aparece em tds criterios @ferrisss @dfittarelli",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_444100391253585920l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0685-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg1",
+                "span_text": "de BRKM5",
+                "span_token_ids": [
+                  3,
+                  4
+                ],
+                "status": "YES",
+                "head_form": "BRKM5",
+                "head_lemma": "BRKM5",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "seller.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "vendedor",
+          "sent_id": "dante_01_445981754990804992l",
+          "sentence_text": "Sou vendedor de BRKM5.  Estou analisando time, hoje ou amanhã. @ferrisss @dfittarelli @HudsonPF @JPedro_Sullivan",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_445981754990804992l::2",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0685-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "vendedor",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "vendedor",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "seller.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "vendedor",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 3,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0685-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 3,
+        "instances_total": 3,
+        "regular_argument_instances": 3,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

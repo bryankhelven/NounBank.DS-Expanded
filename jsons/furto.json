@@ -1,69 +1,179 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "furto",
   "lemma_base": "furto",
-  "senses": [
-    {
-      "english_roleset": null,
-      "english_roleset_source": "UNRESOLVED_NBE_V2_NO_FABRICATION",
-      "examples": [
+  "senses": [],
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
+    },
+    "lexical_authority": {
+      "lemma": "furto",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "NONE_OF_THREE",
+      "source_legos": "NO",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "lemma::furto::NOUN_SENSE::01",
+      "dupb_source_locator": "L0768_0086",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 1,
+      "S": 1,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 3,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
         {
-          "instance_id": "dante_01_446666522036293632l::furto::expanded::25",
-          "predicate": {
-            "char_end": 126,
-            "char_start": 121,
-            "form": "FURTO"
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THIEF, AGENT",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING STOLEN",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "STOLEN FROM",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
           },
-          "realization": {
-            "Arg0": null,
-            "Arg1": "dinheiro em a #petrobras",
-            "Arg2": "Fundos de aposentadoria empresas saudáveis FGTS gente de bem",
-            "Arg3": null,
-            "Arg4": null
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "theft.01",
+            "status": "VALIDATED_ALIGNMENT"
           },
-          "sent_ID": "dante_01_446666522036293632l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": "obj",
-            "Arg2": "dislocated",
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Fundos de aposentadoria, empresas saudáveis, FGTS, gente de bem, TODOS PUSERAM dinheiro na #petrobras e #pETR4 em queda. FURTO NACIONAL!",
-          "token_instance_id": "dev::dante_01_446666522036293632l::25"
+          "form": "FURTO",
+          "sent_id": "dante_01_446666522036293632l",
+          "sentence_text": "Fundos de aposentadoria, empresas saudáveis, FGTS, gente de bem, TODOS PUSERAM dinheiro na #petrobras e #pETR4 em queda. FURTO NACIONAL!",
+          "split": "dev",
+          "token_id": "25",
+          "token_instance_id": "dev::dante_01_446666522036293632l::25",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0334-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
         }
       ],
-      "nombank_url": null,
-      "pt_roleset": "furto.01",
-      "pt_sense_hint": "roubo; subtração furtiva",
-      "pt_sense_index": 1,
-      "roles": [
+      "lemma": "furto",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L0768_0086",
+        "dupb_source_unit_id": "lemma::furto::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "furto",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "NONE_OF_THREE",
+        "source_legos": "NO",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
         {
-          "desc": "quem comete o roubo (ladr?o)",
-          "id": "Arg0"
-        },
-        {
-          "desc": "coisa roubada",
-          "id": "Arg1"
-        },
-        {
-          "desc": "propriet?rio do arg1 (roubar algu?m ou de algu?m)",
-          "id": "Arg2"
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "theft.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "furto",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THIEF, AGENT",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING STOLEN",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "STOLEN FROM",
+              "generalized_description": "SOURCE",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 1,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0334-S001"
         }
       ],
-      "syntactic_profile": {
-        "Arg1": {
-          "obj": 1
-        },
-        "Arg2": {
-          "dislocated": 1
-        }
-      }
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 1,
+        "instances_total": 1,
+        "regular_argument_instances": 1,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ],
-  "unresolved_instances": []
+  }
 }

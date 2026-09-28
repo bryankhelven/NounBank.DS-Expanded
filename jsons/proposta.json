@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "proposta",
   "lemma_base": "proposta",
   "senses": [
     {
+      "pt_roleset": "proposta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "proposal.01",
       "english_roleset_source": "verb-propose.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/proposal.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity proposing"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing proposed, proposition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary or entity proposed to"
+        },
+        {
+          "id": "Arg3",
+          "desc": "label"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_446638058633699328l::proposta::1",
-          "predicate": {
-            "char_end": 38,
-            "char_start": 30,
-            "form": "proposta"
-          },
+          "sent_ID": "dante_01_446638058633699328l",
+          "text": "$RENT3 - Localiza (rent-nm) - proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid",
           "realization": {
             "Arg0": "Localiza",
             "Arg1": "de Dividendos",
@@ -25,23 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_446638058633699328l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$RENT3 - Localiza (rent-nm) - proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid"
+          }
         },
         {
-          "instance_id": "dante_01_448061183451746304l::proposta::1",
-          "predicate": {
-            "char_end": 56,
-            "char_start": 48,
-            "form": "Proposta"
-          },
+          "sent_ID": "dante_01_448061183451746304l",
+          "text": "$DTEX3 - Duratex ( dtex-nm ) - Fato Relevante - Proposta De Aumento De Capital Social http://t.co/7naGCJeqAn",
           "realization": {
             "Arg0": "Duratex ( dtex-nm )",
             "Arg1": "De Aumento De Capital Social",
@@ -49,47 +60,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_448061183451746304l",
           "syntax": {
             "Arg0": "nmod",
-            "Arg1": "nmod",
+            "Arg1": "amod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$DTEX3 - Duratex ( dtex-nm ) - Fato Relevante - Proposta De Aumento De Capital Social http://t.co/7naGCJeqAn"
+          }
         },
         {
-          "instance_id": "dante_01_460783757025624064l::proposta::1",
-          "predicate": {
-            "char_end": 59,
-            "char_start": 51,
-            "form": "Proposta"
-          },
+          "sent_ID": "dante_01_460783757025624064l",
+          "text": "$ENBR3 - Energias Br (enbr-nm) - Reapresentacao Da Proposta Da Ago/e http://t.co/gBsA5NtlSy",
           "realization": {
             "Arg0": "Energias Br",
             "Arg1": null,
-            "Arg2": "Ago/e",
+            "Arg2": "Ago",
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_460783757025624064l",
           "syntax": {
-            "Arg0": "nmod",
+            "Arg0": "flat:name",
             "Arg1": null,
-            "Arg2": "nmod",
+            "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ENBR3 - Energias Br (enbr-nm) - Reapresentacao Da Proposta Da Ago/e http://t.co/gBsA5NtlSy"
+          }
         },
         {
-          "instance_id": "dante_01_456398217542766592l::proposta::1",
-          "predicate": {
-            "char_end": 66,
-            "char_start": 58,
-            "form": "proposta"
-          },
+          "sent_ID": "dante_01_456398217542766592l",
+          "text": "$CSAN3 - Cosan ( csan-nm ) - Fato Relevante - Aprovacao - proposta De Incorporacao - all E Rumo http://t.co/ctpNxKDEsC",
           "realization": {
             "Arg0": "Cosan ( csan-nm )",
             "Arg1": "De Incorporacao",
@@ -97,23 +96,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_456398217542766592l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$CSAN3 - Cosan ( csan-nm ) - Fato Relevante - Aprovacao - proposta De Incorporacao - all E Rumo http://t.co/ctpNxKDEsC"
+          }
         },
         {
-          "instance_id": "dante_01_456842896021278720l::proposta::1",
-          "predicate": {
-            "char_end": 21,
-            "char_start": 13,
-            "form": "proposta"
-          },
+          "sent_ID": "dante_01_456842896021278720l",
+          "text": "Guiné aprova proposta de cassar concessões de Vale e BSGR, diz fonte: A recomendação foi fei... http://t.co/YccHpNWsUt #infomoney #vale5",
           "realization": {
             "Arg0": "Guiné",
             "Arg1": "de cassar concessões de Vale e BSGR",
@@ -121,23 +114,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_456842896021278720l",
           "syntax": {
             "Arg0": "nsubj",
-            "Arg1": "acl",
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Guiné aprova proposta de cassar concessões de Vale e BSGR, diz fonte: A recomendação foi fei... http://t.co/YccHpNWsUt #infomoney #vale5"
+          }
         },
         {
-          "instance_id": "dante_01_449545769029496834l::proposta::1",
-          "predicate": {
-            "char_end": 42,
-            "char_start": 34,
-            "form": "Proposta"
-          },
+          "sent_ID": "dante_01_449545769029496834l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Proposta A Ago ( juros Sobre O Capital Proprio ) http://t.co/uNETqgtLAP",
           "realization": {
             "Arg0": "Eletrobras ( elet-n1 )",
             "Arg1": "juros Sobre O Capital Proprio",
@@ -145,106 +132,999 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449545769029496834l",
           "syntax": {
             "Arg0": "nmod",
-            "Arg1": "parataxis",
+            "Arg1": "amod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Proposta A Ago ( juros Sobre O Capital Proprio ) http://t.co/uNETqgtLAP"
-        },
-        {
-          "instance_id": "dante_01_449542704209612801l::proposta::1",
-          "predicate": {
-            "char_end": 39,
-            "char_start": 31,
-            "form": "Proposta"
-          },
-          "realization": {
-            "Arg0": "Eletrobras (elet-n1)",
-            "Arg1": "juros Sobre O Capital Proprio",
-            "Arg2": "A Ago",
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_449542704209612801l",
-          "syntax": {
-            "Arg0": "nmod",
-            "Arg1": "parataxis",
-            "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$ELET3 - Eletrobras (elet-n1)- Proposta A Ago (juros Sobre O Capital Proprio) http://t.co/KYIQa6FoQV"
-        },
-        {
-          "instance_id": "dante_01_451323756733296640l::proposta::1",
-          "predicate": {
-            "char_end": 66,
-            "char_start": 61,
-            "form": "Prop."
-          },
-          "realization": {
-            "Arg0": "Cosan (csan-nm)",
-            "Arg1": null,
-            "Arg2": "rumo E All",
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_451323756733296640l",
-          "syntax": {
-            "Arg0": "nmod",
-            "Arg1": null,
-            "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "$CSAN3 - Cosan (csan-nm)- Fato Relevante - Extensao De Prazo Prop. Vinculante -rumo E All http://t.co/7ymF2YkjpP"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/proposal.xml",
-      "pt_roleset": "proposta.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "entity proposing",
-          "id": "Arg0"
-        },
-        {
-          "desc": "thing proposed, proposition",
-          "id": "Arg1"
-        },
-        {
-          "desc": "beneficiary or entity proposed to",
-          "id": "Arg2"
-        },
-        {
-          "desc": "label",
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
         "Arg0": {
-          "nmod": 7,
+          "nmod": 4,
+          "flat:name": 1,
           "nsubj": 1
         },
         "Arg1": {
-          "acl": 1,
           "nmod": 3,
-          "parataxis": 2
+          "amod": 2
         },
         "Arg2": {
-          "nmod": 6
+          "nmod": 3
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "proposta",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 8,
+      "S": 8,
+      "N": 0,
+      "argument_YES": 18,
+      "argument_NO": 19,
+      "argument_ABSTAIN": 3
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REANCHOR_9",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Duratex ( dtex-nm )",
+                "span_token_ids": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "13",
+                "role": "Arg1",
+                "span_text": "De Aumento De Capital Social",
+                "span_token_ids": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "ORCH106_INHERITED_IDENTITY_REPAIR_OR_ADDITION_RECOVERED_FROM_V1DELTA001",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "",
+          "sent_id": "dante_01_448061183451746304l",
+          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Proposta De Aumento De Capital Social http://t.co/7naGCJeqAn",
+          "split": "dev",
+          "token_id": "11",
+          "token_instance_id": "dev::dante_01_448061183451746304l::11",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "Guiné",
+                "span_token_ids": [
+                  1
+                ],
+                "status": "YES",
+                "head_form": "Guiné",
+                "head_lemma": "Guiné",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "5",
+                "role": "Arg1",
+                "span_text": "de cassar concessões de Vale e BSGR",
+                "span_token_ids": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "cassar",
+                "head_lemma": "cassar",
+                "head_deprel": "acl"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "proposta",
+          "sent_id": "dante_01_456842896021278720l",
+          "sentence_text": "Guiné aprova proposta de cassar concessões de Vale e BSGR, diz fonte: A recomendação foi fei... http://t.co/YccHpNWsUt #infomoney #vale5",
+          "split": "dev",
+          "token_id": "3",
+          "token_instance_id": "dev::dante_01_456842896021278720l::3",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Localiza",
+                "span_token_ids": [
+                  3
+                ],
+                "status": "YES",
+                "head_form": "Localiza",
+                "head_lemma": "Localiza",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg1",
+                "span_text": "De Dividendos",
+                "span_token_ids": [
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "Dividendos",
+                "head_lemma": "dividendo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg2",
+                "span_text": "Ago",
+                "span_token_ids": [
+                  12
+                ],
+                "status": "YES",
+                "head_form": "Ago",
+                "head_lemma": "Ago",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Proposta",
+          "sent_id": "dante_01_446638058633699328l",
+          "sentence_text": "$RENT3 - Localiza (rent-nm) - Proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_446638058633699328l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity proposing",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Eletrobras",
+                "span_token_ids": [
+                  3
+                ],
+                "status": "YES",
+                "head_form": "Eletrobras",
+                "head_lemma": "Eletrobras",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "thing proposed, proposition",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "juros Sobre O Capital Proprio",
+                "span_token_ids": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "juros",
+                "head_lemma": "juro",
+                "head_deprel": "parataxis"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "beneficiary or entity proposed to",
+                "head_token_id": "10",
+                "role": "Arg2",
+                "span_text": "A Ago",
+                "span_token_ids": [
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "Ago",
+                "head_lemma": "Ago",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "label",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "ORCH106_INHERITED_IDENTITY_REPAIR_OR_ADDITION_RECOVERED_FROM_V1DELTA001",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "",
+          "sent_id": "dante_01_449542704209612801l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1)- Proposta A Ago (juros Sobre O Capital Proprio) http://t.co/KYIQa6FoQV",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_449542704209612801l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REANCHOR_9",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Eletrobras ( elet-n1 )",
+                "span_token_ids": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "juros Sobre O Capital Proprio",
+                "span_token_ids": [
+                  12,
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "10",
+                "role": "Arg2",
+                "span_text": "A Ago",
+                "span_token_ids": [
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "ORCH106_INHERITED_IDENTITY_REPAIR_OR_ADDITION_RECOVERED_FROM_V1DELTA001",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "",
+          "sent_id": "dante_01_449545769029496834l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Proposta A Ago (juros Sobre O Capital Proprio) http://t.co/uNETqgtLAP",
+          "split": "train",
+          "token_id": "8",
+          "token_instance_id": "train::dante_01_449545769029496834l::8",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "PROPOSER_NOT_EXPLICITLY_RECOVERABLE",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity proposing",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PROPOSAL_CONTENT_TRUNCATED_OR_UNDERSPECIFIED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "thing proposed, proposition",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PROPOSAL_RECIPIENT_AMBIGUOUS",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "beneficiary or entity proposed to",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "label",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 3
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Prop.",
+          "sent_id": "dante_01_451323756733296640l",
+          "sentence_text": "$CSAN3 - Cosan (csan-nm)- Fato Relevante - Extensao De Prazo Prop. Vinculante -rumo E All http://t.co/7ymF2YkjpP",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_451323756733296640l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REANCHOR_9",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Cosan ( csan-nm )",
+                "span_token_ids": [
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg1",
+                "span_text": "De Incorporacao",
+                "span_token_ids": [
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": "17",
+                "role": "Arg2",
+                "span_text": "all E Rumo",
+                "span_token_ids": [
+                  17,
+                  18,
+                  19
+                ],
+                "status": "YES",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED_AFTER_TARGETED_IDENTITY_COMPATIBILITY",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD+TARGETED_IDENTITY_REANCHOR",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "ORCH106_INHERITED_IDENTITY_REPAIR_OR_ADDITION_RECOVERED_FROM_V1DELTA001",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "",
+          "sent_id": "dante_01_456398217542766592l",
+          "sentence_text": "$CSAN3 - Cosan (csan-nm) - Fato Relevante - Aprovacao-proposta De Incorporacao-all E Rumo http://t.co/ctpNxKDEsC",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_456398217542766592l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "3",
+                "role": "Arg0",
+                "span_text": "Energias Br",
+                "span_token_ids": [
+                  3,
+                  4
+                ],
+                "status": "YES",
+                "head_form": "Energias",
+                "head_lemma": "Energias",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg2",
+                "span_text": "Ago/e",
+                "span_token_ids": [
+                  15
+                ],
+                "status": "YES",
+                "head_form": "Ago/e",
+                "head_lemma": "ago/e",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "proposal.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Proposta",
+          "sent_id": "dante_01_460783757025624064l",
+          "sentence_text": "$ENBR3 - Energias Br (enbr-nm) - Reapresentacao Da Proposta Da Ago/e http://t.co/gBsA5NtlSy",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_460783757025624064l::12",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0540-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "proposta",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "proposta",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "proposal.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "proposta",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 8,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0540-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 8,
+        "instances_total": 8,
+        "regular_argument_instances": 8,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

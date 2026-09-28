@@ -1,34 +1,111 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "beliscada",
   "lemma_base": "beliscada",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0078-S001",
-        "NBDS2-L0078-S002",
-        "NBDS2-L0078-S003"
-      ],
-      "sent_ID": "dante_01_462328786717904896l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "BELISCADA (compra) - PETR4 http://t.co/BJGz6cISsI via @OInvestmania",
-      "token_instance_id": "test::dante_01_462328786717904896l::1"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0078-S001",
-        "NBDS2-L0078-S002",
-        "NBDS2-L0078-S003"
+    "lexical_authority": {
+      "lemma": "beliscada",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "DUPB::L0218_0272::E01::NOUN_SENSE::NEW::001",
+      "dupb_source_locator": "headword=;leaf=",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 2,
+      "S": 2,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 0,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "form": "BELISCADA",
+          "sent_id": "dante_01_462328786717904896l",
+          "sentence_text": "BELISCADA (compra) - PETR4 http://t.co/BJGz6cISsI via @OInvestmania",
+          "split": "test",
+          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
+          "token_id": "1",
+          "token_instance_id": "test::dante_01_462328786717904896l::1",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": null,
+            "terminal_category": "TERMINAL_NONEXACT",
+            "terminal_disposition": "DOMAIN_SLANG_SENSE_NOT_IN_INVENTORY"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "form": "beliscada",
+          "sent_id": "dante_01_443033075057172480l",
+          "sentence_text": "@ferrisss a #petr4 tem q chegar nos 12,50 portanto, pode esperar uma beliscada nos 44.6k no ibolixo",
+          "split": "train",
+          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
+          "token_id": "15",
+          "token_instance_id": "train::dante_01_443033075057172480l::15",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": null,
+            "terminal_category": "TERMINAL_NONEXACT",
+            "terminal_disposition": "DOMAIN_SLANG_SENSE_NOT_IN_INVENTORY"
+          }
+        }
       ],
-      "sent_ID": "dante_01_443033075057172480l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@ferrisss a #petr4 tem q chegar nos 12,50 portanto, pode esperar uma beliscada nos 44.6k no ibolixo",
-      "token_instance_id": "train::dante_01_443033075057172480l::15"
+      "lemma": "beliscada",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "headword=;leaf=",
+        "dupb_source_unit_id": "DUPB::L0218_0272::E01::NOUN_SENSE::NEW::001",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "beliscada",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 2,
+        "instances_total": 2,
+        "regular_argument_instances": 0,
+        "terminal_semantic_exceptions": 2
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

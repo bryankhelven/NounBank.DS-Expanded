@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "volta",
   "lemma_base": "volta",
   "senses": [
     {
+      "pt_roleset": "volta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "return.01",
       "english_roleset_source": "verb-return.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/return.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "entity in motion"
+        },
+        {
+          "id": "Arg2",
+          "desc": "extent - - rare"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_458580699046367233l::volta::1",
-          "predicate": {
-            "char_end": 18,
-            "char_start": 13,
-            "form": "volta"
-          },
+          "sent_ID": "dante_01_458580699046367233l",
+          "text": "De olho em a volta de o feriado : Vale caiu mais de 2 % em a NYSE : Em esta sessão , o o mercado deve fi ... http://t.co/7ABoXOqTHu #infomoney #vale5",
           "realization": {
             "Arg0": null,
             "Arg1": null,
@@ -25,152 +42,699 @@
             "Arg3": "de o feriado",
             "Arg4": null
           },
-          "sent_ID": "dante_01_458580699046367233l",
           "syntax": {
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          },
-          "text": "De olho em a volta de o feriado : Vale caiu mais de 2 % em a NYSE : Em esta sessão , o o mercado deve fi ... http://t.co/7ABoXOqTHu #infomoney #vale5"
-        },
-        {
-          "instance_id": "dante_01_445687884738494464l::volta::expanded::9",
-          "predicate": {
-            "char_end": 33,
-            "char_start": 28,
-            "form": "volta"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_445687884738494464l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Vou no centro espírita e na volta farei análises de #PETR4 , #VALE5 , #MMXM3 , #CCXC3 , #ibovespa .",
-          "token_instance_id": "train::dante_01_445687884738494464l::9"
-        },
-        {
-          "instance_id": "dante_01_468809655331074049l::volta::expanded::2",
-          "predicate": {
-            "char_end": 9,
-            "char_start": 4,
-            "form": "volta"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": "de a #PETR4",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_468809655331074049l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "que volta da #PETR4 hein ? o.O",
-          "token_instance_id": "train::dante_01_468809655331074049l::2"
-        },
-        {
-          "instance_id": "dante_01_469790871827648513l::volta::expanded::15",
-          "predicate": {
-            "char_end": 72,
-            "char_start": 67,
-            "form": "volta"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_469790871827648513l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Greve dos investidores, ninguém envia ordens amanhã e depois, pela volta da #OGXP3 a R$ 18, #PETR4 nos 40 e #VALE5 nos R$ 60!!",
-          "token_instance_id": "train::dante_01_469790871827648513l::15"
-        },
-        {
-          "instance_id": "dante_01_469792261463879680l::volta::expanded::18",
-          "predicate": {
-            "char_end": 92,
-            "char_start": 87,
-            "form": "volta"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_469792261463879680l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "RT @ClaudioDeLucca: Greve dos investidores, ninguém envia ordens amanhã e depois, pela volta da #OGXP3 a R$ 18, #PETR4 nos 40 e #VALE5 nos …",
-          "token_instance_id": "train::dante_01_469792261463879680l::18"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/return.xml",
-      "pt_roleset": "volta.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": null,
-          "id": "Arg0"
-        },
-        {
-          "desc": "entity in motion",
-          "id": "Arg1"
-        },
-        {
-          "desc": "extent - - rare",
-          "id": "Arg2"
-        },
-        {
-          "desc": "start point",
-          "id": "Arg3"
-        },
-        {
-          "desc": "end point",
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg1": {
-          "nmod": 1
-        },
         "Arg3": {
           "nmod": 1
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "volta",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 11,
+      "S": 5,
+      "N": 6,
+      "argument_YES": 3,
+      "argument_NO": 18,
+      "argument_ABSTAIN": 4
+    },
+    "current_record": {
+      "instances": [
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_459041599486697472l",
+          "sentence_text": "VOLTEI! Após uma semana de férias no Rio, tô de volta. E já entrei em VALE5 a $27,63, com lançamento VALEE29, exerc. $28,70. Ô trem bão!",
+          "split": "test",
+          "token_id": "14",
+          "token_instance_id": "test::dante_01_459041599486697472l::14"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_444137554791890944l",
+          "sentence_text": "RT @Live_Trade: de volta...#petr4 chegando 13,15, faltam 2 cents, vale5 26,20 tb interessa na compra",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_444137554791890944l::5"
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity in motion",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "extent - - rare",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "start point",
+                "head_token_id": "4",
+                "role": "Arg3",
+                "span_text": "em o centro espírita",
+                "span_token_ids": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "status": "YES",
+                "head_form": "centro",
+                "head_lemma": "centro",
+                "head_deprel": "obl"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "end point",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "return.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "volta",
+          "sent_id": "dante_01_445687884738494464l",
+          "sentence_text": "Vou no centro espírita e na volta farei análises de #PETR4 , #VALE5 , #MMXM3 , #CCXC3 , #ibovespa .",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_445687884738494464l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0697-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_446496889144229888l",
+          "sentence_text": "@edmilsonpapo10 achei, olha: PETR4,  2008,  por volta de R$ 45,00",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_446496889144229888l::11"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_446669072130797568l",
+          "sentence_text": "#BBAS3 de volta na LTA mensal http://t.co/wYmAH2b1HE",
+          "split": "train",
+          "token_id": "3",
+          "token_instance_id": "train::dante_01_446669072130797568l::3"
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_457322989500248064l",
+          "sentence_text": "@pagina2 Petr4 fechou ontem por volta de 16,40/16,50.",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_457322989500248064l::6"
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "8",
+                "role": "Arg3",
+                "span_text": "de o feriado",
+                "span_token_ids": [
+                  6,
+                  7,
+                  8
+                ],
+                "status": "YES",
+                "head_form": "feriado",
+                "head_lemma": "feriado",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "return.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "volta",
+          "sent_id": "dante_01_458580699046367233l",
+          "sentence_text": "De olho na volta do feriado: Vale caiu mais de 2% na NYSE: Nesta sessão, o o mercado deve fi... http://t.co/7ABoXOqTHu #infomoney #vale5",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_458580699046367233l::5",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0697-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "N",
+          "form": "volta",
+          "sent_id": "dante_01_461696075838271488l",
+          "sentence_text": "Quando FHC entregou o mandato, a ação PETR4 valia por volta de R$ 5,xx, ajustando-se o valor.  Hoje vale por vol... http://t.co/lx9zNxWokq",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_461696075838271488l::12"
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity in motion",
+                "head_token_id": "5",
+                "role": "Arg1",
+                "span_text": "de a #PETR4",
+                "span_token_ids": [
+                  3,
+                  4,
+                  5
+                ],
+                "status": "YES",
+                "head_form": "#PETR4",
+                "head_lemma": "#PETR4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "extent - - rare",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "start point",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "end point",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "return.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "volta",
+          "sent_id": "dante_01_468809655331074049l",
+          "sentence_text": "que volta da #PETR4 hein ? o.O",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_468809655331074049l::2",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0697-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "COORDINATED_MOVING_ENTITIES_ENTANGLED_WITH_ENDPOINT_VALUES",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity in motion",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "extent - - rare",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "start point",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "MULTIPLE_ENDPOINT_VALUES_NOT_SAFELY_SEPARABLE",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "end point",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "return.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "volta",
+          "sent_id": "dante_01_469790871827648513l",
+          "sentence_text": "Greve dos investidores, ninguém envia ordens amanhã e depois, pela volta da #OGXP3 a R$ 18, #PETR4 nos 40 e #VALE5 nos R$ 60!!",
+          "split": "train",
+          "token_id": "15",
+          "token_instance_id": "train::dante_01_469790871827648513l::15",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0697-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "TRUNCATED_COORDINATED_MOVING_ENTITIES_ENTANGLED_WITH_ENDPOINT_VALUES",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "entity in motion",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "extent - - rare",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "start point",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "TRUNCATED_MULTIPLE_ENDPOINT_VALUES_NOT_SAFELY_SEPARABLE",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "end point",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "return.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "volta",
+          "sent_id": "dante_01_469792261463879680l",
+          "sentence_text": "RT @ClaudioDeLucca: Greve dos investidores, ninguém envia ordens amanhã e depois, pela volta da #OGXP3 a R$ 18, #PETR4 nos 40 e #VALE5 nos …",
+          "split": "train",
+          "token_id": "18",
+          "token_instance_id": "train::dante_01_469792261463879680l::18",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0697-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "volta",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "volta",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "return.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "volta",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 5,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0697-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 6,
+        "S": 5,
+        "instances_total": 11,
+        "regular_argument_instances": 5,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

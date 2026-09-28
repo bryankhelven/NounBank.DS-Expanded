@@ -1,75 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sobre — NounBank.DS</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sobre — NounBank.DS Expanded</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header idêntico ao index -->
-  <header class="header">
-    <nav>
-      <a href="index.html">NounBank.DS</a>
-      <a href="sobre.html" class="active">Sobre</a>
-      <a href="contato.html">Contato</a>
-      <!-- Botão para baixar TODOS os JSONs da pasta /jsons via manifesto -->
-      <a id="download-all-json"
-   class="download-all-btn"
-   href="jsons/nounbank.ds_expanded_all_jsons.zip"
-   download="nounbank.ds_expanded_all_jsons.zip"
-   title="Baixar todos os JSONs">Download JSONs</a>
-    </nav>
-  </header>
-
-  <!-- Caixa principal de conteúdo: usa os estilos globais de .content do seu styles.css -->
-  <!-- Adicionamos apenas o recuo superior para compensar o header fixo -->
-  <div class="content" style="margin-top: calc(100px + 20px);">
-    <h1>NounBank.DS</h1>
-    <p>
-      O <strong>NounBank.DS</strong> é um repositório de nomes predicadores
-      extraídos de um corpus de tweets do mercado financeiro (DANTEStocks).
-      Para cada nome predicador identificado, o recurso reúne exemplos anotados com a sua
-      valência semântica (Arg0..Arg4) e com a realização sintática observada
-      (rótulos UD como <em>nsubj</em>, <em>nmod</em>, <em>obj</em>, etc.).
-    </p>
-    <p>
-      O objetivo deste projeto é fornecer um inventário pesquisável de frames nominais em
-      Português do Brasil que sirva tanto para investigação linguística (lexicografia e
-      semântica de predicados nominais) quanto para aplicações em PLN — por exemplo,
-      expansão de recursos léxicos, desambiguação semântica e análise de eventos
-      em textos sociais.
-    </p>
-    <p>
-      Cada entrada contém: roleset em português, mapeamento para um roleset do NomBank em inglês,
-      descrições dos papéis e exemplos reais do corpus com marcação dos argumentos e uma estatística agregada das realizações sintáticas encontradas.
-      Os dados são também disponibilizados em formato JSON além das páginas individuais para consulta.
-    </p>
-
-    <h2>Agradecimentos</h2>
-    <p>
-      Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São
-      Paulo (<a href="http://c4ai.inova.usp.br/">C4AI</a>), com apoio da Fundação de Amparo à Pesquisa
-      do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation.
-      O projeto também contou com o apoio do Ministério da Ciência, Tecnologia e Inovações,
-      com recursos da Lei nº 8.248, de 23 de outubro de 1991, no âmbito do PPI-SOFTEX,
-      coordenado pela Softex e publicado como Residência em TIC 13, DOU 01245.010222/2022-44.
-    </p>
-
-    <h2>Como citar</h2>
-    <p>
-      Barbosa, B.K.S., Di Felippo, A. (2025).
-      <em>NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese.</em>
-      In the Proceedings of the 16th Symposium in Information and Human Language Technology (STIL).
-      September, 29-03. Fortaleza-CE, Brazil. Available soon, 2025.
-
-      
-    </p>
-  </div>
-
-  <!-- Mesmos scripts do index para o botão “Download JSONs” funcionar nesta página também -->
-  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
-  <script src="scripts.js"></script>
-</body>
-</html>
+<header class="header"><nav>
+<a href="index.html">NounBank.DS<sup class="brand-power">Expanded</sup></a>
+<a href="statistics.html">Estatísticas</a>
+<a href="sobre.html" class="active">Sobre</a>
+<a href="contato.html">Contato</a>
+<a class="download-all-btn" href="jsons/nounbank.ds_expanded_all_jsons.zip" download>Download JSONs</a>
+</nav></header>
+<main class="content page-top">
+<h1>Sobre o NounBank.DS<sup class="brand-power">Expanded</sup></h1>
+<p>O <strong>NounBank.DS<sup>Expanded</sup></strong> amplia o <a href="https://github.com/bryankhelven/NounBank.DS">NounBank.DS</a>, um repositório de nomes predicadores extraídos do corpus DANTEStocks, formado por textos do domínio financeiro.</p>
+<p>A versão original reúne 145 nomes predicadores. A expansão mantém essas entradas e acrescenta 564 novos lemas, totalizando <strong>709 nomes</strong> analisados em <strong>6.416 ocorrências</strong> do corpus.</p>
+<p>Para cada nome predicador, o recurso apresenta os <strong>rolesets</strong>, os papéis semânticos <strong>Arg0, Arg1, Arg2, Arg3 e Arg4</strong> quando licenciados, exemplos reais do DANTEStocks e a <strong>realização sintática</strong> dos argumentos com rótulos da Universal Dependencies, como <em>nsubj</em>, <em>nmod</em>, <em>obj</em> e outros. Nos exemplos, o nome predicador é identificado como <strong>REL</strong>, seguindo a convenção da versão original.</p>
+<p>A expansão também distingue, no contexto, ocorrências em que o nome funciona como predicador e ocorrências em que não manifesta uso predicador. Quando há correspondência adequada, a entrada informa ainda o mapeamento para um roleset do <a href="https://nlp.cs.nyu.edu/meyers/nombank/">NomBank</a> em inglês.</p>
+<h2>O que mudou em relação ao NounBank.DS?</h2>
+<p>Os 145 lemas da versão original foram preservados e podem ser reconhecidos na nova interface. As 564 novas entradas são marcadas com <strong>NEW</strong>. A página <a href="statistics.html">Estatísticas</a> apresenta uma visão geral da ampliação do inventário, dos usos predicadores e das realizações argumentais observadas.</p>
+<h2>Como citar</h2>
+<p>Barbosa, B. K. S.; Di Felippo, A. (2025). <em>NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese</em>. Proceedings of STIL 2025.</p>
+<h2>Agradecimentos</h2>
+<p>Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São Paulo (C4AI), com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation. O projeto também contou com apoio do Ministério da Ciência, Tecnologia e Inovações no âmbito do PPI-SOFTEX.</p>
+</main>
+</body></html>

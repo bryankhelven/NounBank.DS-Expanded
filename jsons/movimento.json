@@ -1,232 +1,874 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "movimento",
   "lemma_base": "movimento",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_446339121917599744l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@clubedopairico  Ibovespa nas médias. Se bobear da pra brincar de urso se o mov. da PETR4 for só uma correção. De olho! o.O",
-      "token_instance_id": "dev::dante_01_446339121917599744l::16"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_449545783881510912l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Hoje estamos vendo o primeiro sinal de exaustão do movimento altista da PETR4.",
-      "token_instance_id": "test::dante_01_449545783881510912l::11"
+    "lexical_authority": {
+      "lemma": "movimento",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "current_authority": "LEGOS",
+      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS+MORPH",
+      "source_legos": "YES",
+      "source_morph": "YES",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "LEGOS",
+      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_441961900067524608l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Vou 'monitorar' a operação aqui pelo acho que temos boa chance de ter um movimento direcional forte na PETR4..",
-      "token_instance_id": "train::dante_01_441961900067524608l::17"
+    "summary": {
+      "contextual_instances": 11,
+      "S": 11,
+      "N": 0,
+      "argument_YES": 3,
+      "argument_NO": 23,
+      "argument_ABSTAIN": 4
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": "19",
+                "role": "ARG1",
+                "span_text": "de a PETR4",
+                "span_token_ids": [
+                  17,
+                  18,
+                  19
+                ],
+                "status": "YES",
+                "head_form": "PETR4",
+                "head_lemma": "PETR4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "mov.",
+          "sent_id": "dante_01_446339121917599744l",
+          "sentence_text": "@clubedopairico  Ibovespa nas médias. Se bobear da pra brincar de urso se o mov. da PETR4 for só uma correção. De olho! o.O",
+          "split": "dev",
+          "token_id": "16",
+          "token_instance_id": "dev::dante_01_446339121917599744l::16",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": "15",
+                "role": "ARG1",
+                "span_text": "de a PETR4",
+                "span_token_ids": [
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "PETR4",
+                "head_lemma": "PETR4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_449545783881510912l",
+          "sentence_text": "Hoje estamos vendo o primeiro sinal de exaustão do movimento altista da PETR4.",
+          "split": "test",
+          "token_id": "11",
+          "token_instance_id": "test::dante_01_449545783881510912l::11",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_441961900067524608l",
+          "sentence_text": "Vou 'monitorar' a operação aqui pelo acho que temos boa chance de ter um movimento direcional forte na PETR4..",
+          "split": "train",
+          "token_id": "17",
+          "token_instance_id": "train::dante_01_441961900067524608l::17",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_443787672898002944l",
+          "sentence_text": "#bbas3 atenção que pode pintar um movimento relevante com extremos em 19,04 e 18,95, o lado que virar vai dar plimplim, aposto na compra.",
+          "split": "train",
+          "token_id": "7",
+          "token_instance_id": "train::dante_01_443787672898002944l::7",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_444473450040922112l",
+          "sentence_text": "@Smarttrade10 minhas RENT3 foram devolvidas e ñ teve nenhum grande movimento nisso. Alguma coisa frustrou. @ferrisss",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_444473450040922112l::11",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_446350618240630784l",
+          "sentence_text": "#PETR4 hoje com um ótimo movimento de alta! Quem aproveitou se deu muito bem hj no #daytrade!",
+          "split": "train",
+          "token_id": "6",
+          "token_instance_id": "train::dante_01_446350618240630784l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_446352784481603584l",
+          "sentence_text": "pô ... já pensou se o movimento contínua e fura os R$13,30 ? Awuele shooting star no 120min da #PETR4 ficaria lindo ... ,)",
+          "split": "train",
+          "token_id": "7",
+          "token_instance_id": "train::dante_01_446352784481603584l::7",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": "6",
+                "role": "ARG1",
+                "span_text": "de a #PETR4",
+                "span_token_ids": [
+                  4,
+                  5,
+                  6
+                ],
+                "status": "YES",
+                "head_form": "#PETR4",
+                "head_lemma": "#PETR4",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_454629008538603520l",
+          "sentence_text": "tá explicado movimento da #PETR4 hoje. PF pegou peixe grande, implicação grande no 'guvêrno'. E minhas #INDJ14 ó… nada de conseguir vender.",
+          "split": "train",
+          "token_id": "3",
+          "token_instance_id": "train::dante_01_454629008538603520l::3",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_460784899197505536l",
+          "sentence_text": "#USIM5 está se segurando bem, zona muito boa de suporte. Se furar 9,07 o movimento pode começar a ganhar força.",
+          "split": "train",
+          "token_id": "17",
+          "token_instance_id": "train::dante_01_460784899197505536l::17",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "MOVED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "DESTINATION",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "movement.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "movimento",
+          "sent_id": "dante_01_460855833405190144l",
+          "sentence_text": "#goau4 cruzou média móvel para subir, mas como andou de lado nos últimos dias, vou aguardar para formar posição. Pouco volume de movimento.",
+          "split": "train",
+          "token_id": "27",
+          "token_instance_id": "train::dante_01_460855833405190144l::27",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S009",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": null,
+            "status": "AMBIGUOUS"
+          },
+          "form": "Movimento",
+          "sent_id": "dante_01_467278962154942464l",
+          "sentence_text": "Governo da Nova Caledônia recebe relatório da Vale sobre vazamento: Movimento ocorreu mais t... http://t.co/rtndP6NyW5 #infomoney #vale5",
+          "split": "train",
+          "terminal_exception_type": "ENMAP_TERMINAL_NONALIGNED",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_467278962154942464l::14",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0440-S003",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_443787672898002944l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#bbas3 atenção que pode pintar um movimento relevante com extremos em 19,04 e 18,95, o lado que virar vai dar plimplim, aposto na compra.",
-      "token_instance_id": "train::dante_01_443787672898002944l::7"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
+      "lemma": "movimento",
+      "lexical_authority": {
+        "current_authority": "LEGOS",
+        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "LEGOS",
+        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+        "legacy_status": "RESOLVED",
+        "lemma": "movimento",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS+MORPH",
+        "source_legos": "YES",
+        "source_morph": "YES"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "",
+          "enmap_status": "AMBIGUOUS",
+          "lemma": "movimento",
+          "licensed_role_inventory": [],
+          "observed_instance_count": 1,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0440-S003"
+        },
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "movement.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "movimento",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "MOVER",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "MOVED",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "DESTINATION",
+              "generalized_description": "GOAL",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 10,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0440-S009"
+        }
       ],
-      "sent_ID": "dante_01_444473450040922112l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "@Smarttrade10 minhas RENT3 foram devolvidas e ñ teve nenhum grande movimento nisso. Alguma coisa frustrou. @ferrisss",
-      "token_instance_id": "train::dante_01_444473450040922112l::11"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_446350618240630784l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#PETR4 hoje com um ótimo movimento de alta! Quem aproveitou se deu muito bem hj no #daytrade!",
-      "token_instance_id": "train::dante_01_446350618240630784l::6"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_446352784481603584l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "pô ... já pensou se o movimento contínua e fura os R$13,30 ? Awuele shooting star no 120min da #PETR4 ficaria lindo ... ,)",
-      "token_instance_id": "train::dante_01_446352784481603584l::7"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_454629008538603520l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "tá explicado movimento da #PETR4 hoje. PF pegou peixe grande, implicação grande no 'guvêrno'. E minhas #INDJ14 ó… nada de conseguir vender.",
-      "token_instance_id": "train::dante_01_454629008538603520l::3"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_460784899197505536l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#USIM5 está se segurando bem, zona muito boa de suporte. Se furar 9,07 o movimento pode começar a ganhar força.",
-      "token_instance_id": "train::dante_01_460784899197505536l::17"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_460855833405190144l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#goau4 cruzou média móvel para subir, mas como andou de lado nos últimos dias, vou aguardar para formar posição. Pouco volume de movimento.",
-      "token_instance_id": "train::dante_01_460855833405190144l::27"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0440-S001",
-        "NBDS2-L0440-S002",
-        "NBDS2-L0440-S003",
-        "NBDS2-L0440-S004",
-        "NBDS2-L0440-S005",
-        "NBDS2-L0440-S006",
-        "NBDS2-L0440-S007",
-        "NBDS2-L0440-S008",
-        "NBDS2-L0440-S009",
-        "NBDS2-L0440-S010",
-        "NBDS2-L0440-S011",
-        "NBDS2-L0440-S012"
-      ],
-      "sent_ID": "dante_01_467278962154942464l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Governo da Nova Caledônia recebe relatório da Vale sobre vazamento: Movimento ocorreu mais t... http://t.co/rtndP6NyW5 #infomoney #vale5",
-      "token_instance_id": "train::dante_01_467278962154942464l::14"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 11,
+        "instances_total": 11,
+        "regular_argument_instances": 10,
+        "terminal_semantic_exceptions": 1
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

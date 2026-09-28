@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "estimativa",
   "lemma_base": "estimativa",
   "senses": [
     {
+      "pt_roleset": "estimativa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "estimate.01",
       "english_roleset_source": "verb-estimate.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/estimate.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "estimator"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing estimated"
+        },
+        {
+          "id": "Arg2",
+          "desc": "estimated-to-be, attribute of arg1"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_461524178286706689l::estimativa::1",
-          "predicate": {
-            "char_end": 50,
-            "char_start": 40,
-            "form": "estimativa"
-          },
+          "sent_ID": "dante_01_461524178286706689l",
+          "text": "#vale5 lucra 5,91 bi em o trimestre , a estimativa de mercado por a agência Bloomberg era de um lucro líquido de R$ 6,23 bilhões em o período .",
           "realization": {
             "Arg0": "por a agência Bloomberg",
             "Arg1": "de mercado",
@@ -25,47 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_461524178286706689l",
           "syntax": {
             "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#vale5 lucra 5,91 bi em o trimestre , a estimativa de mercado por a agência Bloomberg era de um lucro líquido de R$ 6,23 bilhões em o período ."
+          }
         },
         {
-          "instance_id": "dante_01_444448840863997952l::estimativa::1",
-          "predicate": {
-            "char_end": 12,
-            "char_start": 2,
-            "form": "estimativa"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": "de prejuízo para a Petrobras em o caso de racionamento",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_444448840863997952l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritário ! ! ! #PETR4"
-        },
-        {
-          "instance_id": "dante_01_444449194305409024l::estimativa::1",
-          "predicate": {
-            "char_end": 30,
-            "char_start": 20,
-            "form": "estimativa"
-          },
+          "text": "A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritário ! ! ! #PETR4",
           "realization": {
             "Arg0": null,
             "Arg1": "de prejuízo para a Petrobras em o caso de racionamento",
@@ -73,74 +60,31 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_444449194305409024l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @chrinvestor : A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritá …"
+          }
         },
         {
-          "instance_id": "dante_01_448484680095236096l::estimativa::expanded::11",
-          "modifiers": [
-            {
-              "head": "inicial",
-              "role": "ARGM-TMP",
-              "span": "inicial",
-              "syntax": "amod"
-            }
-          ],
-          "predicate": {
-            "char_end": 60,
-            "char_start": 50,
-            "form": "estimativa"
-          },
+          "sent_ID": "dante_01_444449194305409024l",
+          "text": "RT @chrinvestor : A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritá …",
           "realization": {
             "Arg0": null,
-            "Arg1": "Sinergias com compra de a Seara por a #JBSS3",
+            "Arg1": "de prejuízo para a Petrobras em o caso de racionamento",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_448484680095236096l",
           "syntax": {
             "Arg0": null,
-            "Arg1": "nsubj",
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Sinergias com compra da Seara pela #JBSS3 superam estimativa inicial, diz CEO http://t.co/VOiUs0cpyx",
-          "token_instance_id": "dev::dante_01_448484680095236096l::11"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/estimate.xml",
-      "pt_roleset": "estimativa.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "estimator",
-          "id": "Arg0"
-        },
-        {
-          "desc": "thing estimated",
-          "id": "Arg1"
-        },
-        {
-          "desc": "estimated-to-be, attribute of arg1",
-          "id": "Arg2"
-        },
-        {
-          "desc": null,
-          "id": "Arg3"
-        },
-        {
-          "desc": null,
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
@@ -148,11 +92,557 @@
           "nmod": 1
         },
         "Arg1": {
-          "nmod": 3,
-          "nsubj": 1
+          "nmod": 3
         }
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "estimativa",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 4,
+      "S": 4,
+      "N": 0,
+      "argument_YES": 5,
+      "argument_NO": 15,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "7",
+                "role": "Arg1",
+                "span_text": "de prejuízo para a Petrobras em o caso de racionamento",
+                "span_token_ids": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "prejuízo",
+                "head_lemma": "prejuízo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "estimate.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "estimativa",
+          "sent_id": "dante_01_444449194305409024l",
+          "sentence_text": "RT @chrinvestor: A estimativa de prejuízo para a Petrobras no caso de racionamento é de R$ 620 milhões de dólares. Pobre acionista minoritá…",
+          "split": "dev",
+          "token_id": "5",
+          "token_instance_id": "dev::dante_01_444449194305409024l::5",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0284-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "estimator",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "thing estimated",
+                "head_token_id": "1",
+                "role": "Arg1",
+                "span_text": "Sinergias com compra de a Seara por a #JBSS3",
+                "span_token_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "Sinergias",
+                "head_lemma": "sinergia",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "estimated-to-be, attribute of arg1",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "estimate.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "estimativa",
+          "sent_id": "dante_01_448484680095236096l",
+          "sentence_text": "Sinergias com compra da Seara pela #JBSS3 superam estimativa inicial, diz CEO http://t.co/VOiUs0cpyx",
+          "split": "dev",
+          "token_id": "11",
+          "token_instance_id": "dev::dante_01_448484680095236096l::11",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0284-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "4",
+                "role": "Arg1",
+                "span_text": "de prejuízo para a Petrobras em o caso de racionamento",
+                "span_token_ids": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "prejuízo",
+                "head_lemma": "prejuízo",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "estimate.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "estimativa",
+          "sent_id": "dante_01_444448840863997952l",
+          "sentence_text": "A estimativa de prejuízo para a Petrobras no caso de racionamento é de R$ 620 milhões de dólares. Pobre acionista minoritário !!! #PETR4",
+          "split": "train",
+          "token_id": "2",
+          "token_instance_id": "train::dante_01_444448840863997952l::2",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0284-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 3,
+            "realized_yes": 2,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "15",
+                "role": "Arg0",
+                "span_text": "por a agência Bloomberg",
+                "span_token_ids": [
+                  13,
+                  14,
+                  15,
+                  16
+                ],
+                "status": "YES",
+                "head_form": "agência",
+                "head_lemma": "agência",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "de mercado",
+                "span_token_ids": [
+                  11,
+                  12
+                ],
+                "status": "YES",
+                "head_form": "mercado",
+                "head_lemma": "mercado",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "estimate.01",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "estimativa",
+          "sent_id": "dante_01_461524178286706689l",
+          "sentence_text": "#vale5 lucra 5,91bi no trimestre, a estimativa de mercado pela agência Bloomberg era de um lucro líquido  de R$ 6,23 bilhões no período.",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_461524178286706689l::10",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0284-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "estimativa",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "estimativa",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "estimate.01",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "estimativa",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 4,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0284-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 4,
+        "instances_total": 4,
+        "regular_argument_instances": 4,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

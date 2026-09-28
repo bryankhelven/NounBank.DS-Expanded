@@ -1,23 +1,40 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "causa",
   "lemma_base": "causa",
   "senses": [
     {
+      "pt_roleset": "causa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
       "english_roleset": "reason.02",
       "english_roleset_source": "verb-motivate.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reason.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "justifier"
+        },
+        {
+          "id": "Arg1",
+          "desc": "decision or attitude being shown to be right"
+        },
+        {
+          "id": "Arg2",
+          "desc": "explicit instrument"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary predication on arg1"
+        },
+        {
+          "id": "Arg4",
+          "desc": "justified to, beneficiary"
+        }
+      ],
       "examples": [
         {
-          "instance_id": "dante_01_452088859585966080l::causa::1",
-          "predicate": {
-            "char_end": 76,
-            "char_start": 71,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_452088859585966080l",
+          "text": "Um esclarecimento : minha carteira é muito sobrecarregada de VALE5 por causa de opções . PETR4 tenho 24 % . Ou seja : 80 % de a carteira PETROVALE !",
           "realization": {
             "Arg0": null,
             "Arg1": "de opções",
@@ -25,47 +42,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_452088859585966080l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Um esclarecimento : minha carteira é muito sobrecarregada de VALE5 por causa de opções . PETR4 tenho 24 % . Ou seja : 80 % de a carteira PETROVALE !"
+          }
         },
         {
-          "instance_id": "dante_01_449564010414088193l::causa::1",
-          "predicate": {
-            "char_end": 57,
-            "char_start": 52,
-            "form": "causa"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": "de a liquidez em opções",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
           "sent_ID": "dante_01_449564010414088193l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": "nmod",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentamente o mercado ."
-        },
-        {
-          "instance_id": "dante_01_449569154329489408l::causa::1",
-          "predicate": {
-            "char_end": 78,
-            "char_start": 73,
-            "form": "causa"
-          },
+          "text": "Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentamente o mercado .",
           "realization": {
             "Arg0": null,
             "Arg1": "de a liquidez em opções",
@@ -73,23 +60,35 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449569154329489408l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "RT @lambari_trader : Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentame …"
+          }
         },
         {
-          "instance_id": "dante_01_443551844603035648l::causa::1",
-          "predicate": {
-            "char_end": 44,
-            "char_start": 39,
-            "form": "causa"
+          "sent_ID": "dante_01_449569154329489408l",
+          "text": "RT @lambari_trader : Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentame …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a liquidez em opções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443551844603035648l",
+          "text": "Jean Willas tá esperneando em o TT por causa de a debandada de o PMDB em a votação de a Petr4 ... Espera q vem mais , ser nojento ! !",
           "realization": {
             "Arg0": "Jean Willis",
             "Arg1": "de a debandada de o PMDB",
@@ -97,23 +96,17 @@
             "Arg3": "em a votação de a Petr4",
             "Arg4": null
           },
-          "sent_ID": "dante_01_443551844603035648l",
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          },
-          "text": "Jean Willas tá esperneando em o TT por causa de a debandada de o PMDB em a votação de a Petr4 ... Espera q vem mais , ser nojento ! !"
+          }
         },
         {
-          "instance_id": "dante_01_451703359612157952l::causa::1",
-          "predicate": {
-            "char_end": 78,
-            "char_start": 73,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_451703359612157952l",
+          "text": "#PETR4 por R$ 16,00 em o leilão ? Caraca ... o fechamento ajustado - por causa de o JCP - de ontem foi em os R$ 15,57 ... o.O",
           "realization": {
             "Arg0": null,
             "Arg1": "de o JCP",
@@ -121,23 +114,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451703359612157952l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "#PETR4 por R$ 16,00 em o leilão ? Caraca ... o fechamento ajustado - por causa de o JCP - de ontem foi em os R$ 15,57 ... o.O"
+          }
         },
         {
-          "instance_id": "dante_01_459790105390374913l::causa::1",
-          "predicate": {
-            "char_end": 28,
-            "char_start": 23,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_459790105390374913l",
+          "text": "Arrisquei em abev3 por causa de uma shooting star meio falsa . Por o menos as Mm estão quase revertendo para subida , mas foi arriscado .",
           "realization": {
             "Arg0": null,
             "Arg1": "de uma shooting star meio falsa",
@@ -145,23 +132,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_459790105390374913l",
           "syntax": {
             "Arg0": null,
             "Arg1": "amod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "Arrisquei em abev3 por causa de uma shooting star meio falsa . Por o menos as Mm estão quase revertendo para subida , mas foi arriscado ."
+          }
         },
         {
-          "instance_id": "dante_01_449175888555692032l::causa::1",
-          "predicate": {
-            "char_end": 109,
-            "char_start": 104,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_449175888555692032l",
+          "text": "vamos ver como a #PETR4 se comporta em o teste de os R$ 14,7 agora ... ( que arrancada doida ... 2x por causa de o IBOPE , que legal ... )",
           "realization": {
             "Arg0": null,
             "Arg1": "de o IBOPE",
@@ -169,23 +150,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_449175888555692032l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "vamos ver como a #PETR4 se comporta em o teste de os R$ 14,7 agora ... ( que arrancada doida ... 2x por causa de o IBOPE , que legal ... )"
+          }
         },
         {
-          "instance_id": "dante_01_451401534996496384l::causa::1",
-          "predicate": {
-            "char_end": 79,
-            "char_start": 74,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_451401534996496384l",
+          "text": "@AlexCanoas13 por sinal , viste a PETR4 hj ? Tá disparando justamente por causa de um boato de que a Datafolha deve apontar outra queda de a D.",
           "realization": {
             "Arg0": null,
             "Arg1": "de um boato de que a Datafolha deve apontar outra queda de a D.",
@@ -193,23 +168,17 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_451401534996496384l",
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "@AlexCanoas13 por sinal , viste a PETR4 hj ? Tá disparando justamente por causa de um boato de que a Datafolha deve apontar outra queda de a D."
+          }
         },
         {
-          "instance_id": "dante_01_456173625939599360l::causa::1",
-          "predicate": {
-            "char_end": 91,
-            "char_start": 86,
-            "form": "causa"
-          },
+          "sent_ID": "dante_01_456173625939599360l",
+          "text": "@danielschettin0 Tô com ti ... VALE5 tem um peso MONSTRUOSO em a minha carteira , por causa de a venda coberta de opções . abç !",
           "realization": {
             "Arg0": null,
             "Arg1": "de a venda coberta de opções",
@@ -217,102 +186,23 @@
             "Arg3": null,
             "Arg4": null
           },
-          "sent_ID": "dante_01_456173625939599360l",
           "syntax": {
             "Arg0": null,
             "Arg1": "obl",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          },
-          "text": "@danielschettin0 Tô com ti ... VALE5 tem um peso MONSTRUOSO em a minha carteira , por causa de a venda coberta de opções . abç !"
-        },
-        {
-          "instance_id": "dante_01_444579800519569408l::causa::expanded::26",
-          "predicate": {
-            "char_end": 116,
-            "char_start": 111,
-            "form": "Causa"
-          },
-          "realization": {
-            "Arg0": "#IBOV perdendo os 45k",
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_444579800519569408l",
-          "syntax": {
-            "Arg0": "parataxis",
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Erramos. Esperávamos repique de #PETR4 ao fundo do canal de baixa em R$ 13.50. O canal foi rompido para baixo. Causa: #IBOV perdendo os 45k.",
-          "token_instance_id": "train::dante_01_444579800519569408l::26"
-        },
-        {
-          "instance_id": "dante_01_456434999869194241l::causa::expanded::23",
-          "predicate": {
-            "char_end": 93,
-            "char_start": 87,
-            "form": "causas"
-          },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_456434999869194241l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "@clubedopairico Podia rolar um post sobre isso, heim Zé?! A perda do peso da Petr4, as causas e possíves efeitos. =)",
-          "token_instance_id": "train::dante_01_456434999869194241l::23"
-        }
-      ],
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reason.xml",
-      "pt_roleset": "causa.01",
-      "pt_sense_hint": 1,
-      "pt_sense_index": 1,
-      "roles": [
-        {
-          "desc": "justifier",
-          "id": "Arg0"
-        },
-        {
-          "desc": "decision or attitude being shown to be right",
-          "id": "Arg1"
-        },
-        {
-          "desc": "explicit instrument",
-          "id": "Arg2"
-        },
-        {
-          "desc": "secondary predication on arg1",
-          "id": "Arg3"
-        },
-        {
-          "desc": "justified to, beneficiary",
-          "id": "Arg4"
+          }
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
-          "nsubj": 1,
-          "parataxis": 1
-        },
         "Arg1": {
-          "amod": 1,
           "nmod": 7,
+          "amod": 1,
           "obl": 1
+        },
+        "Arg0": {
+          "nsubj": 1
         },
         "Arg3": {
           "nmod": 1
@@ -320,5 +210,1271 @@
       }
     }
   ],
-  "unresolved_instances": []
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "INHERITED_V1_145",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": true
+    },
+    "lexical_authority": {
+      "lemma": "causa",
+      "inventory_partition": "INHERITED_V1_145",
+      "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+      "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+      "current_authority_class": "INHERITED_V1",
+      "source_combination_v10_imported": "V1",
+      "source_legos": "",
+      "source_morph": "",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "",
+      "legacy_authority_primary_class": "",
+      "legacy_status": "PRESERVED",
+      "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY"
+    },
+    "summary": {
+      "contextual_instances": 11,
+      "S": 11,
+      "N": 0,
+      "argument_YES": 12,
+      "argument_NO": 43,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "20",
+                "role": "Arg1",
+                "span_text": "de a venda coberta de opções",
+                "span_token_ids": [
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ],
+                "status": "YES",
+                "head_form": "venda",
+                "head_lemma": "venda",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_456173625939599360l",
+          "sentence_text": "@danielschettin0 Tô contigo...  VALE5 tem um peso MONSTRUOSO na minha carteira, por causa da venda coberta de opções. abç!",
+          "split": "test",
+          "token_id": "17",
+          "token_instance_id": "test::dante_01_456173625939599360l::17",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 2,
+            "realized_yes": 3,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "1",
+                "role": "Arg0",
+                "span_text": "Jean",
+                "span_token_ids": [
+                  1
+                ],
+                "status": "YES",
+                "head_form": "Jean",
+                "head_lemma": "Jean",
+                "head_deprel": "nsubj"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "12",
+                "role": "Arg1",
+                "span_text": "de a debandada de o PMDB",
+                "span_token_ids": [
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                "status": "YES",
+                "head_form": "debandada",
+                "head_lemma": "debandada",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "18",
+                "role": "Arg3",
+                "span_text": "em a votação de a Petr4",
+                "span_token_ids": [
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "status": "YES",
+                "head_form": "votação",
+                "head_lemma": "votação",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_443551844603035648l",
+          "sentence_text": "Jean Willas tá esperneando no TT por causa da debandada do PMDB na votação da Petr4... Espera q vem mais, ser nojento!!",
+          "split": "train",
+          "token_id": "9",
+          "token_instance_id": "train::dante_01_443551844603035648l::9",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "justifier",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__EXPLICIT_REALIZATION",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "decision or attitude being shown to be right",
+                "head_token_id": "29",
+                "role": "Arg1",
+                "span_text": "#IBOV perdendo os 45k",
+                "span_token_ids": [
+                  28,
+                  29,
+                  30,
+                  31
+                ],
+                "status": "YES",
+                "head_form": "perdendo",
+                "head_lemma": "perder",
+                "head_deprel": "parataxis"
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "explicit instrument",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "secondary predication on arg1",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "justified to, beneficiary",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "Causa",
+          "sent_id": "dante_01_444579800519569408l",
+          "sentence_text": "Erramos. Esperávamos repique de #PETR4 ao fundo do canal de baixa em R$ 13.50. O canal foi rompido para baixo. Causa: #IBOV perdendo os 45k.",
+          "split": "train",
+          "token_id": "26",
+          "token_instance_id": "train::dante_01_444579800519569408l::26",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "27",
+                "role": "Arg1",
+                "span_text": "de o IBOPE",
+                "span_token_ids": [
+                  25,
+                  26,
+                  27
+                ],
+                "status": "YES",
+                "head_form": "IBOPE",
+                "head_lemma": "IBOPE",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_449175888555692032l",
+          "sentence_text": "vamos ver como a #PETR4 se comporta no teste dos R$14,70 agora ... (que arrancada doida ... 2x por causa do IBOPE, que legal ...)",
+          "split": "train",
+          "token_id": "24",
+          "token_instance_id": "train::dante_01_449175888555692032l::24",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "16",
+                "role": "Arg1",
+                "span_text": "de a liquidez em opções",
+                "span_token_ids": [
+                  14,
+                  15,
+                  16,
+                  17,
+                  18
+                ],
+                "status": "YES",
+                "head_form": "liquidez",
+                "head_lemma": "liquidez",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_449564010414088193l",
+          "sentence_text": "Mas não dá pra ficar sem PETR4 na carteira, por causa da liquidez em opções. Essas últimas altas reaqueceram violentamente o mercado.",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_449564010414088193l::13",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "19",
+                "role": "Arg1",
+                "span_text": "de a liquidez em opções",
+                "span_token_ids": [
+                  17,
+                  18,
+                  19,
+                  20,
+                  21
+                ],
+                "status": "YES",
+                "head_form": "liquidez",
+                "head_lemma": "liquidez",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_449569154329489408l",
+          "sentence_text": "RT @lambari_trader: Mas não dá pra ficar sem PETR4 na carteira, por causa da liquidez em opções. Essas últimas altas reaqueceram violentame…",
+          "split": "train",
+          "token_id": "16",
+          "token_instance_id": "train::dante_01_449569154329489408l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "17",
+                "role": "Arg1",
+                "span_text": "de um boato de que a Datafolha deve apontar outra queda de a D.",
+                "span_token_ids": [
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28
+                ],
+                "status": "YES",
+                "head_form": "boato",
+                "head_lemma": "boato",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_451401534996496384l",
+          "sentence_text": "@AlexCanoas13 por sinal, viste a PETR4 hj? Tá disparando justamente por causa de um boato de que a Datafolha deve apontar outra queda da D.",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_451401534996496384l::14",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "19",
+                "role": "Arg1",
+                "span_text": "de o JCP",
+                "span_token_ids": [
+                  17,
+                  18,
+                  19
+                ],
+                "status": "YES",
+                "head_form": "JCP",
+                "head_lemma": "JCP",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_451703359612157952l",
+          "sentence_text": "#PETR4 por R$16,00 no leilão ? Caraca ... o fechamento ajustado - por causa do JCP - de ontem foi nos R$15,57 ... o.O",
+          "split": "train",
+          "token_id": "16",
+          "token_instance_id": "train::dante_01_451703359612157952l::16",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "14",
+                "role": "Arg1",
+                "span_text": "de opções",
+                "span_token_ids": [
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "opções",
+                "head_lemma": "opção",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_452088859585966080l",
+          "sentence_text": "Um esclarecimento: minha carteira é muito sobrecarregada de VALE5 por causa de opções. PETR4 tenho 24%. Ou seja: 80% da carteira PETROVALE!",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_452088859585966080l::12",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_INHERITED_NEW_38",
+            "realized_no": 5,
+            "realized_yes": 0,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "justifier",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "decision or attitude being shown to be right",
+                "head_token_id": null,
+                "role": "Arg1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "explicit instrument",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "secondary predication on arg1",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_CONVENTION_CONTEXTUAL_ADJUDICATION__NOT_REALIZED",
+                "authority": "NOUNBANK_DS_V1_ROLE_CONVENTION+CURRENT_CONTEXTUAL_ADJUDICATION",
+                "description": "justified to, beneficiary",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causas",
+          "sent_id": "dante_01_456434999869194241l",
+          "sentence_text": "@clubedopairico Podia rolar um post sobre isso, heim Zé?! A perda do peso da Petr4, as causas e possíves efeitos. =)",
+          "split": "train",
+          "token_id": "23",
+          "token_instance_id": "train::dante_01_456434999869194241l::23",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "V1_REUSE_1747",
+            "realized_no": 4,
+            "realized_yes": 1,
+            "role_slots": 5,
+            "roles": [
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": "8",
+                "role": "Arg1",
+                "span_text": "de uma shooting star meio falsa",
+                "span_token_ids": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "status": "YES",
+                "head_form": "shooting",
+                "head_lemma": "shooting",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+                "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+                "description": "",
+                "head_token_id": null,
+                "role": "Arg4",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "V1_PUBLISHED_149_CROSSWALK",
+            "english_nombank_roleset": "reason.02",
+            "status": "INHERITED_V1_ALIGNMENT"
+          },
+          "form": "causa",
+          "sent_id": "dante_01_459790105390374913l",
+          "sentence_text": "Arrisquei em abev3 por causa de uma shooting star meio falsa. Pelo menos as Mm estão quase revertendo para subida, mas foi arriscado.",
+          "split": "train",
+          "token_id": "5",
+          "token_instance_id": "train::dante_01_459790105390374913l::5",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0116-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
+        }
+      ],
+      "lemma": "causa",
+      "lexical_authority": {
+        "current_authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+        "current_authority_class": "INHERITED_V1",
+        "current_authority_family": "NOUNBANK_DS_V1_PUBLISHED",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "INHERITED_V1_145",
+        "legacy_authority_primary": "",
+        "legacy_authority_primary_class": "",
+        "legacy_status": "PRESERVED",
+        "lemma": "causa",
+        "lineage_authority": "V1DELTA001__REUSE_V1_WHERE_VALID__PROCESS_DELTA_ONLY",
+        "source_combination_v10_imported": "V1",
+        "source_legos": "",
+        "source_morph": ""
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "reason.02",
+          "enmap_status": "INHERITED_V1_ALIGNMENT",
+          "lemma": "causa",
+          "licensed_role_inventory": [
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg0",
+              "role_number": "0"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg1",
+              "role_number": "1"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg2",
+              "role_number": "2"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg3",
+              "role_number": "3"
+            },
+            {
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "generalized_description": "",
+              "role_label": "Arg4",
+              "role_number": "4"
+            }
+          ],
+          "observed_instance_count": 11,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "INHERITED_V1_149",
+          "semantic_unit_id": "NBDS2-L0116-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 11,
+        "instances_total": 11,
+        "regular_argument_instances": 11,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
+    }
+  }
 }

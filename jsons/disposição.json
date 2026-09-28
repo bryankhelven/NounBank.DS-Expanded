@@ -1,155 +1,1043 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "disposição",
   "lemma_base": "disposição",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_458988430052302849l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ENBR3 - Energias Br (enbr-nm) - Material A Disposicao http://t.co/aCe1pdwhIa",
-      "token_instance_id": "dev::dante_01_458988430052302849l::11"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_462216743596089344l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ELET3 - Eletrobras (elet-n1) - Material A Disposicao (formulario 20-f) http://t.co/48ERgtWbLc",
-      "token_instance_id": "dev::dante_01_462216743596089344l::10"
+    "lexical_authority": {
+      "lemma": "disposição",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "current_authority": "LEGOS",
+      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS+MORPH",
+      "source_legos": "YES",
+      "source_morph": "YES",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "LEGOS",
+      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_464065444404789248l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ELET3 - Eletrobras (elet-n1)- Material A Disposicao (ata) http://t.co/HQfQTM4bve",
-      "token_instance_id": "dev::dante_01_464065444404789248l::10"
+    "summary": {
+      "contextual_instances": 13,
+      "S": 13,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 37,
+      "argument_ABSTAIN": 2
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_458988430052302849l",
+          "sentence_text": "$ENBR3 - Energias Br (enbr-nm) - Material A Disposicao http://t.co/aCe1pdwhIa",
+          "split": "dev",
+          "token_id": "11",
+          "token_instance_id": "dev::dante_01_458988430052302849l::11",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_462216743596089344l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Material A Disposicao (formulario 20-f) http://t.co/48ERgtWbLc",
+          "split": "dev",
+          "token_id": "10",
+          "token_instance_id": "dev::dante_01_462216743596089344l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_464065444404789248l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1)- Material A Disposicao (ata) http://t.co/HQfQTM4bve",
+          "split": "dev",
+          "token_id": "10",
+          "token_instance_id": "dev::dante_01_464065444404789248l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_462331459194601472l",
+          "sentence_text": "$RENT3 - Localiza (rent-nm)- Material A Disposicao (politica De Divulgacao E Negociacao) http://t.co/hIu0WyzXA6",
+          "split": "test",
+          "token_id": "10",
+          "token_instance_id": "test::dante_01_462331459194601472l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_445556435427287040l",
+          "sentence_text": "$BRFS3 - Brf Sa (brfs-nm) - Material A Disposicao (pedido Publico De Procuracao) http://t.co/0vmBXdZc0u",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_445556435427287040l::11",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_449551026488893440l",
+          "sentence_text": "$CIEL3 - Cielo (ciel-nm)- Material A Disposicao (indicacao De Candidatos A Membros Do Ca http://t.co/3GExefQijD",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_449551026488893440l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disp.",
+          "sent_id": "dante_01_450605466079723520l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Material A Disp. (indic. De Candidatos A Membros Do Ca) http://t.co/myIM01vKEt",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_450605466079723520l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 2
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_450979739944382464l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1) - Material A Disposicao (candidatos A Membros Do Ca E Cf) http://t.co/l9Z7Qm4mAV",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_450979739944382464l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_451724418772131840l",
+          "sentence_text": "$ELET3 - Eletrobras (elet-n1)- Material A Disposicao (indicacao De Candidatos) http://t.co/yIXX3MnjIO",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_451724418772131840l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_456080818830864384l",
+          "sentence_text": "$PDGR3 - Pdg Realt (pdgr-nm) - Material A Disposicao (indicacao De Candidatos Para O Ca) http://t.co/8KQgdZbmKD",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_456080818830864384l::11",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_457104428223713280l",
+          "sentence_text": "$TIMP3 - Tim Part S/a (timp-nm) - Material A Disposicao (formulario Anual 20-f) http://t.co/ByZiu4kQHY",
+          "split": "train",
+          "token_id": "12",
+          "token_instance_id": "train::dante_01_457104428223713280l::12",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_459389829080690689l",
+          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Material A Disposicao (politicas De Divulg. E De Negoc.) http://t.co/ZG4dXwIhJf",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_459389829080690689l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 3,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THEME",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "RECIPIENT",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "SOURCE",
+                "head_token_id": null,
+                "role": "ARG3",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "availability.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Disposicao",
+          "sent_id": "dante_01_462217520930648064l",
+          "sentence_text": "$PETR3 - Petrobras (petr) - Material A Disposicao (formulario 20-f) http://t.co/Bjuo7krfrW",
+          "split": "train",
+          "token_id": "10",
+          "token_instance_id": "train::dante_01_462217520930648064l::10",
+          "wsd": {
+            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004",
+            "terminal_category": "EXACT_RESOLVED_POST_EXHAUSTIVE_READJUDICATION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_ORCH133_USER_AUTHORIZED_REAUDIT"
+          }
+        }
       ],
-      "sent_ID": "dante_01_462331459194601472l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$RENT3 - Localiza (rent-nm)- Material A Disposicao (politica De Divulgacao E Negociacao) http://t.co/hIu0WyzXA6",
-      "token_instance_id": "test::dante_01_462331459194601472l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
+      "lemma": "disposição",
+      "lexical_authority": {
+        "current_authority": "LEGOS",
+        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "LEGOS",
+        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+        "legacy_status": "RESOLVED",
+        "lemma": "disposição",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS+MORPH",
+        "source_legos": "YES",
+        "source_morph": "YES"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "availability.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "disposição",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THEME",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "RECIPIENT",
+              "generalized_description": "RECIPIENT",
+              "role_label": "ARG2",
+              "role_number": "2"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "SOURCE",
+              "generalized_description": "SOURCE",
+              "role_label": "ARG3",
+              "role_number": "3"
+            }
+          ],
+          "observed_instance_count": 13,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "DUPB::L0534_0006::E01::NOUN_SENSE::NEW::004"
+        }
       ],
-      "sent_ID": "dante_01_445556435427287040l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$BRFS3 - Brf Sa (brfs-nm) - Material A Disposicao (pedido Publico De Procuracao) http://t.co/0vmBXdZc0u",
-      "token_instance_id": "train::dante_01_445556435427287040l::11"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_449551026488893440l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$CIEL3 - Cielo (ciel-nm)- Material A Disposicao (indicacao De Candidatos A Membros Do Ca http://t.co/3GExefQijD",
-      "token_instance_id": "train::dante_01_449551026488893440l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_450605466079723520l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ELET3 - Eletrobras (elet-n1) - Material A Disp. (indic. De Candidatos A Membros Do Ca) http://t.co/myIM01vKEt",
-      "token_instance_id": "train::dante_01_450605466079723520l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_450979739944382464l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ELET3 - Eletrobras (elet-n1) - Material A Disposicao (candidatos A Membros Do Ca E Cf) http://t.co/l9Z7Qm4mAV",
-      "token_instance_id": "train::dante_01_450979739944382464l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_451724418772131840l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$ELET3 - Eletrobras (elet-n1)- Material A Disposicao (indicacao De Candidatos) http://t.co/yIXX3MnjIO",
-      "token_instance_id": "train::dante_01_451724418772131840l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_456080818830864384l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$PDGR3 - Pdg Realt (pdgr-nm) - Material A Disposicao (indicacao De Candidatos Para O Ca) http://t.co/8KQgdZbmKD",
-      "token_instance_id": "train::dante_01_456080818830864384l::11"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_457104428223713280l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$TIMP3 - Tim Part S/a (timp-nm) - Material A Disposicao (formulario Anual 20-f) http://t.co/ByZiu4kQHY",
-      "token_instance_id": "train::dante_01_457104428223713280l::12"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_459389829080690689l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$DTEX3 - Duratex (dtex-nm) - Material A Disposicao (politicas De Divulg. E De Negoc.) http://t.co/ZG4dXwIhJf",
-      "token_instance_id": "train::dante_01_459389829080690689l::10"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0237-S001",
-        "NBDS2-L0237-S002",
-        "NBDS2-L0237-S003"
-      ],
-      "sent_ID": "dante_01_462217520930648064l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$PETR3 - Petrobras (petr) - Material A Disposicao (formulario 20-f) http://t.co/Bjuo7krfrW",
-      "token_instance_id": "train::dante_01_462217520930648064l::10"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 13,
+        "instances_total": 13,
+        "regular_argument_instances": 13,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

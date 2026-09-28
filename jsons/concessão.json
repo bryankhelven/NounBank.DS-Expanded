@@ -1,82 +1,486 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "concessão",
   "lemma_base": "concessão",
   "senses": [],
-  "unresolved_instances": [
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0148-S001",
-        "NBDS2-L0148-S002",
-        "NBDS2-L0148-S003",
-        "NBDS2-L0148-S004",
-        "NBDS2-L0148-S005",
-        "NBDS2-L0148-S006"
-      ],
-      "sent_ID": "dante_01_456842896021278720l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Guiné aprova proposta de cassar concessões de Vale e BSGR, diz fonte: A recomendação foi fei... http://t.co/YccHpNWsUt #infomoney #vale5",
-      "token_instance_id": "dev::dante_01_456842896021278720l::6"
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0148-S001",
-        "NBDS2-L0148-S002",
-        "NBDS2-L0148-S003",
-        "NBDS2-L0148-S004",
-        "NBDS2-L0148-S005",
-        "NBDS2-L0148-S006"
-      ],
-      "sent_ID": "dante_01_460058959152685056l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "República da Guiné revoga concessão da Vale no país http://t.co/88tnZa1Vog #VALE5 #Mercados",
-      "token_instance_id": "dev::dante_01_460058959152685056l::6"
+    "lexical_authority": {
+      "lemma": "concessão",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "DUPB_BACKED",
+      "current_authority": "DUPB",
+      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "lemma::concessão::NOUN_SENSE::01",
+      "dupb_source_locator": "L0388_0157",
+      "legacy_authority_primary": "DUPB",
+      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0148-S001",
-        "NBDS2-L0148-S002",
-        "NBDS2-L0148-S003",
-        "NBDS2-L0148-S004",
-        "NBDS2-L0148-S005",
-        "NBDS2-L0148-S006"
-      ],
-      "sent_ID": "dante_01_453504179232079872l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "$CCRO3 - Ccr Sa (ccro-nm) - Assinatura Do Contrato De Concessao Do Aeroporto De Confins http://t.co/GRgDTOBXof",
-      "token_instance_id": "train::dante_01_453504179232079872l::14"
+    "summary": {
+      "contextual_instances": 5,
+      "S": 5,
+      "N": 0,
+      "argument_YES": 4,
+      "argument_NO": 7,
+      "argument_ABSTAIN": 4
     },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0148-S001",
-        "NBDS2-L0148-S002",
-        "NBDS2-L0148-S003",
-        "NBDS2-L0148-S004",
-        "NBDS2-L0148-S005",
-        "NBDS2-L0148-S006"
+    "current_record": {
+      "instances": [
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "GRANTER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING GRANTED",
+                "head_token_id": "8",
+                "role": "ARG1",
+                "span_text": "de Vale e BSGR",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                "status": "YES",
+                "head_form": "Vale",
+                "head_lemma": "Vale",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "BENEFICIARY, GRANTED-TO",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "grant.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "concessões",
+          "sent_id": "dante_01_456842896021278720l",
+          "sentence_text": "Guiné aprova proposta de cassar concessões de Vale e BSGR, diz fonte: A recomendação foi fei... http://t.co/YccHpNWsUt #infomoney #vale5",
+          "split": "dev",
+          "token_id": "6",
+          "token_instance_id": "dev::dante_01_456842896021278720l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0148-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "GRANTER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING GRANTED",
+                "head_token_id": "9",
+                "role": "ARG1",
+                "span_text": "de a Vale",
+                "span_token_ids": [
+                  7,
+                  8,
+                  9
+                ],
+                "status": "YES",
+                "head_form": "Vale",
+                "head_lemma": "Vale",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "BENEFICIARY, GRANTED-TO",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "grant.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "concessão",
+          "sent_id": "dante_01_460058959152685056l",
+          "sentence_text": "República da Guiné revoga concessão da Vale no país http://t.co/88tnZa1Vog #VALE5 #Mercados",
+          "split": "dev",
+          "token_id": "6",
+          "token_instance_id": "dev::dante_01_460058959152685056l::6",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0148-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "GRANTER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING GRANTED",
+                "head_token_id": "17",
+                "role": "ARG1",
+                "span_text": "De o Aeroporto De Confins",
+                "span_token_ids": [
+                  15,
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "status": "YES",
+                "head_form": "Aeroporto",
+                "head_lemma": "Aeroporto",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "BENEFICIARY, GRANTED-TO",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 0
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "grant.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "Concessao",
+          "sent_id": "dante_01_453504179232079872l",
+          "sentence_text": "$CCRO3 - Ccr Sa (ccro-nm) - Assinatura Do Contrato De Concessao Do Aeroporto De Confins http://t.co/GRgDTOBXof",
+          "split": "train",
+          "token_id": "14",
+          "token_instance_id": "train::dante_01_453504179232079872l::14",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0148-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 2,
+            "realized_yes": 0,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "GRANTER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING GRANTED",
+                "head_token_id": null,
+                "role": "ARG1",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "BENEFICIARY, GRANTED-TO",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "grant.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "concessão",
+          "sent_id": "dante_01_453581504170717184l",
+          "sentence_text": "#BOVESPA #CCRO3 CCR divulga fato relevante sobre assinatura do contrato de concessão - Aeroporto de Confins. http://t.co/hFQSZwrqSn #BR",
+          "split": "train",
+          "token_id": "13",
+          "token_instance_id": "train::dante_01_453581504170717184l::13",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0148-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        },
+        {
+          "argument_resource": {
+            "lane": "EXPANDED_NEW_1730",
+            "realized_no": 1,
+            "realized_yes": 1,
+            "role_slots": 3,
+            "roles": [
+              {
+                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "GRANTER",
+                "head_token_id": null,
+                "role": "ARG0",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "ABSTAIN",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              },
+              {
+                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "THING GRANTED",
+                "head_token_id": "14",
+                "role": "ARG1",
+                "span_text": "de a Vale",
+                "span_token_ids": [
+                  12,
+                  13,
+                  14
+                ],
+                "status": "YES",
+                "head_form": "Vale",
+                "head_lemma": "Vale",
+                "head_deprel": "nmod"
+              },
+              {
+                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
+                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
+                "description": "BENEFICIARY, GRANTED-TO",
+                "head_token_id": null,
+                "role": "ARG2",
+                "span_text": null,
+                "span_token_ids": [],
+                "status": "NO",
+                "head_form": null,
+                "head_lemma": null,
+                "head_deprel": null
+              }
+            ],
+            "status": "REGULAR_ARGUMENT_RESOURCE",
+            "terminal_abstain": 1
+          },
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": "grant.01",
+            "status": "VALIDATED_ALIGNMENT"
+          },
+          "form": "concessão",
+          "sent_id": "dante_01_460752061437456385l",
+          "sentence_text": "Petrobras e ANP vão à arbitragem, Guiné revoga concessão da Vale e mais 7 no radar: Também e... http://t.co/Es9vhUmmJZ #infomoney #vale5",
+          "split": "train",
+          "token_id": "11",
+          "token_instance_id": "train::dante_01_460752061437456385l::11",
+          "wsd": {
+            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
+            "confidence": "HIGH",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0148-S002",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          }
+        }
       ],
-      "sent_ID": "dante_01_453581504170717184l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "#BOVESPA #CCRO3 CCR divulga fato relevante sobre assinatura do contrato de concessão - Aeroporto de Confins. http://t.co/hFQSZwrqSn #BR",
-      "token_instance_id": "train::dante_01_453581504170717184l::13"
-    },
-    {
-      "candidate_semantic_unit_ids": [
-        "NBDS2-L0148-S001",
-        "NBDS2-L0148-S002",
-        "NBDS2-L0148-S003",
-        "NBDS2-L0148-S004",
-        "NBDS2-L0148-S005",
-        "NBDS2-L0148-S006"
+      "lemma": "concessão",
+      "lexical_authority": {
+        "current_authority": "DUPB",
+        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "current_authority_family": "DUPB_BACKED",
+        "dupb_source_locator": "L0388_0157",
+        "dupb_source_unit_id": "lemma::concessão::NOUN_SENSE::01",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "DUPB",
+        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
+        "legacy_status": "RESOLVED",
+        "lemma": "concessão",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "grant.01",
+          "enmap_status": "VALIDATED_ALIGNMENT",
+          "lemma": "concessão",
+          "licensed_role_inventory": [
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "GRANTER",
+              "generalized_description": "AGENT",
+              "role_label": "ARG0",
+              "role_number": "0"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "THING GRANTED",
+              "generalized_description": "THEME",
+              "role_label": "ARG1",
+              "role_number": "1"
+            },
+            {
+              "authority": "ORCH_RECON_000151_ROLEINV001",
+              "description": "BENEFICIARY, GRANTED-TO",
+              "generalized_description": "BENEFICIARY",
+              "role_label": "ARG2",
+              "role_number": "2"
+            }
+          ],
+          "observed_instance_count": 5,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0148-S002"
+        }
       ],
-      "sent_ID": "dante_01_460752061437456385l",
-      "status": "TERMINAL_WSD_ABSTENTION",
-      "text": "Petrobras e ANP vão à arbitragem, Guiné revoga concessão da Vale e mais 7 no radar: Também e... http://t.co/Es9vhUmmJZ #infomoney #vale5",
-      "token_instance_id": "train::dante_01_460752061437456385l::11"
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 5,
+        "instances_total": 5,
+        "regular_argument_instances": 5,
+        "terminal_semantic_exceptions": 0
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ]
+  }
 }

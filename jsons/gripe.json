@@ -1,49 +1,109 @@
 {
-  "expanded_metadata": {
-    "corrective_authority": "ORCH_RECON_000115",
-    "resource": "NounBank.DS Expanded",
-    "target_corpus": "DANTEStocks_ONLY"
-  },
   "lemma": "gripe",
   "lemma_base": "gripe",
-  "senses": [
-    {
-      "english_roleset": null,
-      "english_roleset_source": "UNRESOLVED_NBE_V2_NO_FABRICATION",
-      "examples": [
+  "senses": [],
+  "expanded_v2": {
+    "schema_version": "nbe-ds-expanded-public-json/2.0",
+    "science_authority": "ORCH_RECON_000158",
+    "productization_authority": "ORCH_RECON_000159",
+    "target_corpus": "DANTEStocks_ONLY",
+    "lineage": {
+      "inventory_partition": "NEW_564",
+      "extends_canonical_nounbank_ds": true,
+      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
+      "v1_legacy_payload_preserved": false
+    },
+    "lexical_authority": {
+      "lemma": "gripe",
+      "inventory_partition": "NEW_564",
+      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "current_authority": "LEGOS",
+      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+      "source_combination_v10_imported": "LEGOS_ONLY",
+      "source_legos": "YES",
+      "source_morph": "NO",
+      "dupb_source_unit_id": "",
+      "dupb_source_locator": "",
+      "legacy_authority_primary": "LEGOS",
+      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+      "legacy_status": "RESOLVED",
+      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
+    },
+    "summary": {
+      "contextual_instances": 1,
+      "S": 1,
+      "N": 0,
+      "argument_YES": 0,
+      "argument_NO": 0,
+      "argument_ABSTAIN": 0
+    },
+    "current_record": {
+      "instances": [
         {
-          "instance_id": "dante_01_463383564978253824l::gripe::expanded::3",
-          "predicate": {
-            "char_end": 18,
-            "char_start": 13,
-            "form": "gripe"
+          "contextual_authority_lineage": "PRESERVED_ORCH40",
+          "contextual_predicativity": "S",
+          "english_alignment": {
+            "authority": "ORCH_RECON_000150",
+            "english_nombank_roleset": null,
+            "status": "NO_ENGLISH_NOMBANK_MATCH"
           },
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "sent_ID": "dante_01_463383564978253824l",
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
-          },
-          "text": "Vale pegando gripe da China… uma borboletinha bate asas na China e vira um furacao no porto da Vale5…",
-          "token_instance_id": "test::dante_01_463383564978253824l::3"
+          "form": "gripe",
+          "sent_id": "dante_01_463383564978253824l",
+          "sentence_text": "Vale pegando gripe da China… uma borboletinha bate asas na China e vira um furacao no porto da Vale5…",
+          "split": "test",
+          "terminal_exception_type": "ENMAP_TERMINAL_NONALIGNED",
+          "token_id": "3",
+          "token_instance_id": "test::dante_01_463383564978253824l::3",
+          "wsd": {
+            "authority": "ORCH106_EFFECTIVE_SEM006",
+            "confidence": "ACCEPTED",
+            "generic_abstain": "NO",
+            "semantic_unit_id": "NBDS2-L0349-S001",
+            "terminal_category": "EXACT_RESOLUTION",
+            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          }
         }
       ],
-      "nombank_url": null,
-      "pt_roleset": "gripe.01",
-      "pt_sense_hint": "doença infecciosa e contagiosa, acompanhada de febre, mal-estar e sensação de tremor",
-      "pt_sense_index": 1,
-      "roles": [],
-      "syntactic_profile": {}
+      "lemma": "gripe",
+      "lexical_authority": {
+        "current_authority": "LEGOS",
+        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
+        "dupb_source_locator": "",
+        "dupb_source_unit_id": "",
+        "inventory_partition": "NEW_564",
+        "legacy_authority_primary": "LEGOS",
+        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
+        "legacy_status": "RESOLVED",
+        "lemma": "gripe",
+        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
+        "source_combination_v10_imported": "LEGOS_ONLY",
+        "source_legos": "YES",
+        "source_morph": "NO"
+      },
+      "observed_semantic_units": [
+        {
+          "authority": "ORCH_RECON_000150",
+          "english_nombank_roleset": "",
+          "enmap_status": "NO_ENGLISH_NOMBANK_MATCH",
+          "lemma": "gripe",
+          "licensed_role_inventory": [],
+          "observed_instance_count": 1,
+          "pt_wsd_status": "EXACT",
+          "roleset_alignment_scope": "NEW_564_ENMAP001",
+          "semantic_unit_id": "NBDS2-L0349-S001"
+        }
+      ],
+      "resource": "NounBank.DS Expanded",
+      "schema_version": "nbe-expanded-release/2.0-rc.2",
+      "statistics": {
+        "N": 0,
+        "S": 1,
+        "instances_total": 1,
+        "regular_argument_instances": 0,
+        "terminal_semantic_exceptions": 1
+      },
+      "target_corpus": "DANTEStocks_ONLY"
     }
-  ],
-  "unresolved_instances": []
+  }
 }
