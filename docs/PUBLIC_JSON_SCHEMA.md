@@ -1,16 +1,7 @@
 # Formato dos dados
 
-Cada arquivo JSON corresponde a um lema do NounBank.DS Expanded.
+Os JSONs públicos do NounBank.DS Expanded seguem a organização da versão original: `lemma`, `lemma_base` e `senses`. Cada sense reúne `pt_roleset`, `english_roleset` quando resolvido, `roles`, `examples`, `realization`, `syntax`, `predicate` e `syntactic_profile`.
 
-A estrutura pública foi concebida para manter compatibilidade com o NounBank.DS original e representar, de forma legível por máquina:
+Durante esta etapa de revisão, `pending_instances` preserva apenas ocorrências já identificadas como predicadoras que ainda aguardam resolução manual de sense e/ou roleset.
 
-- o lema;
-- os rolesets associados;
-- o mapeamento para o NomBank em inglês, quando disponível;
-- os papéis semânticos (Arg0, Arg1, ...);
-- os exemplos do DANTEStocks;
-- a realização textual dos argumentos;
-- as relações sintáticas observadas segundo a Universal Dependencies;
-- a distinção contextual entre usos predicadores e não predicadores.
-
-Nos 145 lemas herdados, os dados da versão original são preservados.
+Ocorrências não predicadoras e metadados internos de construção não são publicados.
