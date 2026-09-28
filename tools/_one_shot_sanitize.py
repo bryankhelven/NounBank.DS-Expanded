@@ -74,7 +74,7 @@ for p in files:
             ers={eng(i) for i in rr if eng(i)}; er=next(iter(ers)) if len(ers)==1 else meta.get("english_nombank_roleset")
             inv=meta.get("licensed_role_inventory") or []
             roles=[{"id":nr(q.get("role_label")),"desc":q.get("description") or None}
-                   for q in sorted(inv,key=lambda z:int(z.get("role_number") or 999))
+                   for q in sorted(inv,key=lambda z:(0,int(str(z.get("role_number")))) if str(z.get("role_number") or "").isdigit() else (1,str(z.get("role_number") or "")))
                    if re.fullmatch(r"Arg[0-9]+",nr(q.get("role_label")))]
             if not roles and any(regular(i) for i in rr):
                 seen={}
