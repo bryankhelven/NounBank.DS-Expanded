@@ -8,8 +8,11 @@ files=sorted(p for p in jd.glob("*.json") if p.name not in {"_manifest.json","st
 assert len(files)==709
 
 def nr(r):
-    m=re.fullmatch(r"(?i)arg([0-9]+)",str(r or ""))
-    return f"Arg{int(m.group(1))}" if m else str(r or "")
+    s=str(r or "")
+    m=re.fullmatch(r"(?i)arg([0-9]+)",s)
+    if m: return f"Arg{int(m.group(1))}"
+    if re.fullmatch(r"(?i)argm",s): return "ArgM"
+    return s
 def eng(i): return (i.get("english_alignment") or {}).get("english_nombank_roleset")
 def sid(i): return (i.get("wsd") or {}).get("semantic_unit_id")
 def rows(i): return (i.get("argument_resource") or {}).get("roles") or []
@@ -75,14 +78,14 @@ for p in files:
             inv=meta.get("licensed_role_inventory") or []
             roles=[{"id":nr(q.get("role_label")),"desc":q.get("description") or None}
                    for q in sorted(inv,key=lambda z:(0,int(str(z.get("role_number")))) if str(z.get("role_number") or "").isdigit() else (1,str(z.get("role_number") or "")))
-                   if re.fullmatch(r"Arg[0-9]+",nr(q.get("role_label")))]
+                   if re.fullmatch(r"Arg(?:[0-9]+|M)",nr(q.get("role_label")))]
             if not roles and any(regular(i) for i in rr):
                 seen={}
                 for i in rr:
                     for q in rows(i):
                         rid=nr(q.get("role"))
-                        if re.fullmatch(r"Arg[0-9]+",rid) and rid not in seen:seen[rid]=q.get("description") or None
-                roles=[{"id":r,"desc":seen[r]} for r in sorted(seen,key=lambda q:int(q[3:]))]
+                        if re.fullmatch(r"Arg(?:[0-9]+|M)",rid) and rid not in seen:seen[rid]=q.get("description") or None
+                roles=[{"id":r,"desc":seen[r]} for r in sorted(seen,key=lambda q:(0,int(q[3:])) if q[3:].isdigit() else (1,q[3:]))]
             rids=[r["id"] for r in roles]; es=[ex(i,l,om[id(i)],rids,regular(i)) for i in rr]
             s={"pt_roleset":f"{l}.{j:02d}","pt_sense_index":j,"pt_sense_hint":j,
                "english_roleset":er or None,"english_roleset_source":None,"nombank_url":nb(er),
