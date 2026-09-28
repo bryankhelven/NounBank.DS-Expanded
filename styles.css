@@ -31,3 +31,32 @@ body,html{margin:0;min-height:100%;font-family:Arial,sans-serif;background:#333;
 .pending-section{border:1px solid #8a7041;border-radius:10px;padding:15px;margin-top:24px;background:#3b362b}
 .pending-lemma-grid{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
 .pending-lemma{display:inline-block;text-decoration:none!important;background:#2d323c;border:1px solid #8a7041;border-radius:999px;padding:6px 10px;color:#f0dba5!important}
+
+
+/* Alphabet list: read vertically first, then continue in the next column. */
+#content-box.hidden-content-box{
+  display:block !important;
+  column-count:5;
+  column-gap:10px;
+}
+#content-box.hidden-content-box .lemma-card{
+  display:flex;
+  width:100%;
+  box-sizing:border-box;
+  break-inside:avoid;
+  -webkit-column-break-inside:avoid;
+  page-break-inside:avoid;
+  margin:0 0 9px 0;
+}
+@media(max-width:1100px){
+  #content-box.hidden-content-box{column-count:4}
+}
+@media(max-width:850px){
+  #content-box.hidden-content-box{column-count:3}
+}
+@media(max-width:620px){
+  #content-box.hidden-content-box{column-count:2}
+}
+@media(max-width:420px){
+  #content-box.hidden-content-box{column-count:1}
+}
