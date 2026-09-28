@@ -1,926 +1,251 @@
 {
   "lemma": "amigo",
   "lemma_base": "amigo",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "amigo",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "headword=amigo;leaf=91",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 14,
-      "S": 14,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 28,
-      "argument_ABSTAIN": 0
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "amigo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "friend.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/friend.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg0",
+          "desc": "RELATION HOLDER"
+        },
+        {
+          "id": "Arg1",
+          "desc": "RELATION RECEPTOR"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_442043212606496768l",
+          "text": "#brfs3 postado p/ um amigo hj pela manhã.RT @Live_Trade: @CaciqueInvest  se não ficar acima 44,70 nos 15' pode dar continuidade na correção.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_442043212606496768l",
-          "sentence_text": "#brfs3 postado p/ um amigo hj pela manhã.RT @Live_Trade: @CaciqueInvest  se não ficar acima 44,70 nos 15' pode dar continuidade na correção.",
-          "split": "dev",
-          "token_id": "5",
-          "token_instance_id": "dev::dante_01_442043212606496768l::5",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_442043212606496768l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_450638876106055680l",
+          "text": "@Live_Trade Bom dia meu amigo, e o KING KONG (#petr4), sabe me dizer suporte e resistência? abraço",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_450638876106055680l",
-          "sentence_text": "@Live_Trade Bom dia meu amigo, e o KING KONG (#petr4), sabe me dizer suporte e resistência? abraço",
-          "split": "dev",
-          "token_id": "5",
-          "token_instance_id": "dev::dante_01_450638876106055680l::5",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_450638876106055680l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_448932128404037633l",
+          "text": "Boa noite caro amigo. Saberia informar-me qual foi o fato concreto para a queda da OI hoje na Bovespa? obrig @Fontes_ OIBR4  R$3,18 -11,42%",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_448932128404037633l",
-          "sentence_text": "Boa noite caro amigo. Saberia informar-me qual foi o fato concreto para a queda da OI hoje na Bovespa? obrig @Fontes_ OIBR4  R$3,18 -11,42%",
-          "split": "test",
-          "token_id": "4",
-          "token_instance_id": "test::dante_01_448932128404037633l::4",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_448932128404037633l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_442007959133229056l",
+          "text": "@Live_Trade @Jgrafista11 @aecioneto amigos, vêem venda na AEDU3? Obg",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigos",
-          "sent_id": "dante_01_442007959133229056l",
-          "sentence_text": "@Live_Trade @Jgrafista11 @aecioneto amigos, vêem venda na AEDU3? Obg",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_442007959133229056l::4",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_442007959133229056l::amigo::1",
+          "predicate": {
+            "form": "amigos"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_442042736737140736l",
+          "text": "... eu tenho um amiguinho... que falou... que #petr4 vai a 10 reau... faz tempo ! ... rsss #ABRAX Amiguinho !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amiguinho",
-          "sent_id": "dante_01_442042736737140736l",
-          "sentence_text": "... eu tenho um amiguinho... que falou... que #petr4 vai a 10 reau... faz tempo ! ... rsss #ABRAX Amiguinho !",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_442042736737140736l::5",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_442042736737140736l::amigo::1",
+          "predicate": {
+            "form": "amiguinho"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_442042736737140736l",
+          "text": "... eu tenho um amiguinho... que falou... que #petr4 vai a 10 reau... faz tempo ! ... rsss #ABRAX Amiguinho !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "Amiguinho",
-          "sent_id": "dante_01_442042736737140736l",
-          "sentence_text": "... eu tenho um amiguinho... que falou... que #petr4 vai a 10 reau... faz tempo ! ... rsss #ABRAX Amiguinho !",
-          "split": "train",
-          "token_id": "23",
-          "token_instance_id": "train::dante_01_442042736737140736l::23",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_442042736737140736l::amigo::2",
+          "predicate": {
+            "form": "Amiguinho"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_446743884065157122l",
+          "text": "#petr4 postado Objs  hj para um amigo  @aecioneto 13,83 e 14,06  rsrsrs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_446743884065157122l",
-          "sentence_text": "#petr4 postado Objs  hj para um amigo  @aecioneto 13,83 e 14,06  rsrsrs",
-          "split": "train",
-          "token_id": "7",
-          "token_instance_id": "train::dante_01_446743884065157122l::7",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_446743884065157122l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_447053182150393856l",
+          "text": "E aí amigos, tá bom de comprar PETR4 agora ou ainda cai mais um pouco (muito)?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigos",
-          "sent_id": "dante_01_447053182150393856l",
-          "sentence_text": "E aí amigos, tá bom de comprar PETR4 agora ou ainda cai mais um pouco (muito)?",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_447053182150393856l::3",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_447053182150393856l::amigo::1",
+          "predicate": {
+            "form": "amigos"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_448872808349966336l",
+          "text": "RT @Live_Trade: Postei hj a um amig obj de petr4 14,68, qual foi a máx de hj? rs ele pode confirmar...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amig",
-          "sent_id": "dante_01_448872808349966336l",
-          "sentence_text": "RT @Live_Trade: Postei hj a um amig obj de petr4 14,68, qual foi a máx de hj? rs ele pode confirmar...",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_448872808349966336l::8",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_448872808349966336l::amigo::1",
+          "predicate": {
+            "form": "amig"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_453198293934559232l",
+          "text": "Ei, só uma observação. PETR4 ainda tem projeção de baixa. Fica calmo amigo que fica se gabando dessa alta...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_453198293934559232l",
-          "sentence_text": "Ei, só uma observação. PETR4 ainda tem projeção de baixa. Fica calmo amigo que fica se gabando dessa alta...",
-          "split": "train",
-          "token_id": "16",
-          "token_instance_id": "train::dante_01_453198293934559232l::16",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_453198293934559232l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_453570078781743104l",
+          "text": "@ferrisss @deSimoni123  como chama seu amigo que comprou petr4 a 12,50? Mister M? Aposto que ele vendeu na maxima hj a 17,07, mágico.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_453570078781743104l",
-          "sentence_text": "@ferrisss @deSimoni123  como chama seu amigo que comprou petr4 a 12,50? Mister M? Aposto que ele vendeu na maxima hj a 17,07, mágico.",
-          "split": "train",
-          "token_id": "6",
-          "token_instance_id": "train::dante_01_453570078781743104l::6",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_453570078781743104l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_454284964583190528l",
+          "text": "Ihhhh,o cara deu mesmo call de compra em PETR4 com base no candle de ontem? Traça o Fibonacci melhor ai amigo...rsrs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amigo",
-          "sent_id": "dante_01_454284964583190528l",
-          "sentence_text": "Ihhhh,o cara deu mesmo call de compra em PETR4 com base no candle de ontem? Traça o Fibonacci melhor ai amigo...rsrs",
-          "split": "train",
-          "token_id": "25",
-          "token_instance_id": "train::dante_01_454284964583190528l::25",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_454284964583190528l::amigo::1",
+          "predicate": {
+            "form": "amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_456146063598944256l",
+          "text": "RT @Pepez_Legal: @coroneldoblog Amigo, está acompanhando PETR4 ?? > http://t.co/WxnN4AOaKT  A Graça está piorando ainda mais o cenário.. rs…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "Amigo",
-          "sent_id": "dante_01_456146063598944256l",
-          "sentence_text": "RT @Pepez_Legal: @coroneldoblog Amigo, está acompanhando PETR4 ?? > http://t.co/WxnN4AOaKT  A Graça está piorando ainda mais o cenário.. rs…",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_456146063598944256l::5",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_456146063598944256l::amigo::1",
+          "predicate": {
+            "form": "Amigo"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION HOLDER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "RELATION RECEPTOR",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_459023285372866560l",
+          "text": "olha lá a minha amiga vendendo mais um pouquinho hoje ... Interessante ... Interessante ... #PETR4 (desde ontem foram 820k, R$13milhões +-)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "friend.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "amiga",
-          "sent_id": "dante_01_459023285372866560l",
-          "sentence_text": "olha lá a minha amiga vendendo mais um pouquinho hoje ... Interessante ... Interessante ... #PETR4 (desde ontem foram 820k, R$13milhões +-)",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_459023285372866560l::5",
-          "wsd": {
-            "authority": "ORCH106_EFFECTIVE_SEM006",
-            "confidence": "ACCEPTED",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0030-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+          "instance_id": "dante_01_459023285372866560l::amigo::1",
+          "predicate": {
+            "form": "amiga"
           }
         }
       ],
-      "lemma": "amigo",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "headword=amigo;leaf=91",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "amigo",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "friend.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "amigo",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "RELATION HOLDER",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "RELATION RECEPTOR",
-              "generalized_description": "RELATION",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 14,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0030-S001"
-        }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 14,
-        "instances_total": 14,
-        "regular_argument_instances": 14,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

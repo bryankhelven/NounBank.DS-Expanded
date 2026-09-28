@@ -1,159 +1,43 @@
 {
   "lemma": "apoio",
   "lemma_base": "apoio",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "apoio",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "lemma::apoio::NOUN_SENSE::01",
-      "dupb_source_locator": "L0127_0124",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 1,
-      "S": 1,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 1,
-      "argument_ABSTAIN": 1
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "apoio.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "support.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/support.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "HELPER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "PERSON OR PROJECT BEING SUPPORTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "id": "Arg0",
+          "desc": "HELPER"
+        },
+        {
+          "id": "Arg1",
+          "desc": "PERSON OR PROJECT BEING SUPPORTED"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_451012516542697472l",
+          "text": "Afunda OIBR4 acionistas chora RT @infomoney: Bradesco e Itaú avaliam retirar apoio à oferta da Oi",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "support.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "apoio",
-          "sent_id": "dante_01_451012516542697472l",
-          "sentence_text": "Afunda OIBR4 acionistas chora RT @infomoney: Bradesco e Itaú avaliam retirar apoio à oferta da Oi",
-          "split": "dev",
-          "token_id": "13",
-          "token_instance_id": "dev::dante_01_451012516542697472l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0042-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_451012516542697472l::apoio::1",
+          "predicate": {
+            "form": "apoio"
           }
         }
       ],
-      "lemma": "apoio",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L0127_0124",
-        "dupb_source_unit_id": "lemma::apoio::NOUN_SENSE::01",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "apoio",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "support.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "apoio",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "HELPER",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "PERSON OR PROJECT BEING SUPPORTED",
-              "generalized_description": "TASK",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0042-S001"
-        }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 1,
-        "instances_total": 1,
-        "regular_argument_instances": 1,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

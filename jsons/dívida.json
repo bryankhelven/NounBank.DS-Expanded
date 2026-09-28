@@ -1,1271 +1,323 @@
 {
   "lemma": "dívida",
   "lemma_base": "dívida",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "dívida",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 16,
-      "S": 16,
-      "N": 0,
-      "argument_YES": 3,
-      "argument_NO": 36,
-      "argument_ABSTAIN": 9
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "dívida.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "debt.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/debt.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg0",
+          "desc": "GIVER"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING GIVEN"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ENTITY GIVEN TO"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443465687450021888l",
+          "text": "Com cinco autuações da Receita, a Petrobras terá que pagar multa de R$ 8,7 Bilhões. Mais uma dívida que se junta ao bolo. #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_443465687450021888l",
-          "sentence_text": "Com cinco autuações da Receita, a Petrobras terá que pagar multa de R$ 8,7 Bilhões. Mais uma dívida que se junta ao bolo. #PETR4",
-          "split": "dev",
-          "token_id": "21",
-          "token_instance_id": "dev::dante_01_443465687450021888l::21",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443465687450021888l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_443573367518822401l",
+          "text": "RT @bovespabrokers: #PETR4 rompeu a barreira dos R$13,00!! Agora eu me pergunto: e se vier a notícia do rebaixamento da dívida soberana no …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_443573367518822401l",
-          "sentence_text": "RT @bovespabrokers: #PETR4 rompeu a barreira dos R$13,00!! Agora eu me pergunto: e se vier a notícia do rebaixamento da dívida soberana no …",
-          "split": "test",
-          "token_id": "29",
-          "token_instance_id": "test::dante_01_443573367518822401l::29",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443573367518822401l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 1,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": "4",
-                "role": "ARG1",
-                "span_text": "de a Petrobras",
-                "span_token_ids": [
-                  2,
-                  3,
-                  4
-                ],
-                "status": "YES",
-                "head_form": "Petrobras",
-                "head_lemma": "Petrobras",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_441891559420600321l",
+          "text": "Dívida da Petrobras aumenta seis vezes desde 2007 e atinge R$ 268 bilhões http://t.co/QiI2R71GsW via @UOLEconomia #UOL #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a Petrobras",
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
           },
-          "form": "Dívida",
-          "sent_id": "dante_01_441891559420600321l",
-          "sentence_text": "Dívida da Petrobras aumenta seis vezes desde 2007 e atinge R$ 268 bilhões http://t.co/QiI2R71GsW via @UOLEconomia #UOL #PETR4",
-          "split": "train",
-          "token_id": "1",
-          "token_instance_id": "train::dante_01_441891559420600321l::1",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_441891559420600321l::dívida::1",
+          "predicate": {
+            "form": "Dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 1,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": "7",
-                "role": "ARG1",
-                "span_text": "de a Petrobras",
-                "span_token_ids": [
-                  5,
-                  6,
-                  7
-                ],
-                "status": "YES",
-                "head_form": "Petrobras",
-                "head_lemma": "Petrobras",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_441945453010370560l",
+          "text": "#PETR3 #PETR4 - Dívida da Petrobras aumenta seis vezes desde 2007, entenda - http://t.co/4dhREtWRqv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a Petrobras",
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
           },
-          "form": "Dívida",
-          "sent_id": "dante_01_441945453010370560l",
-          "sentence_text": "#PETR3 #PETR4 - Dívida da Petrobras aumenta seis vezes desde 2007, entenda - http://t.co/4dhREtWRqv",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_441945453010370560l::4",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_441945453010370560l::dívida::1",
+          "predicate": {
+            "form": "Dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 1,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": "11",
-                "role": "ARG1",
-                "span_text": "de a Petrobras",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11
-                ],
-                "status": "YES",
-                "head_form": "Petrobras",
-                "head_lemma": "Petrobras",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_443006627583889408l",
+          "text": "Olha a #PETR4 ai... Leia 'Dívida da Petrobras aumenta seis vezes desde 2007 e atinge R$ 268 bilhões'  http://t.co/ApKXYCXtsR",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a Petrobras",
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
           },
-          "form": "Dívida",
-          "sent_id": "dante_01_443006627583889408l",
-          "sentence_text": "Olha a #PETR4 ai... Leia 'Dívida da Petrobras aumenta seis vezes desde 2007 e atinge R$ 268 bilhões'  http://t.co/ApKXYCXtsR",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_443006627583889408l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443006627583889408l::dívida::1",
+          "predicate": {
+            "form": "Dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_443024517963972609l",
+          "text": "#PETR4 rompeu a barreira dos R$13,00!! Agora eu me pergunto: e se vier a notícia do rebaixamento da dívida soberana no final deste mês!?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_443024517963972609l",
-          "sentence_text": "#PETR4 rompeu a barreira dos R$13,00!! Agora eu me pergunto: e se vier a notícia do rebaixamento da dívida soberana no final deste mês!?",
-          "split": "train",
-          "token_id": "26",
-          "token_instance_id": "train::dante_01_443024517963972609l::26",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443024517963972609l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_443519036333514752l",
+          "text": "RT @Ricamconsult: Há 6 anos, a #PETR4 valia R$510 bilhões. Hoje, vale R$165 bilhões e tem R$300 bilhões em dívidas. http://t.co/KZ7ujAkKYn",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívidas",
-          "sent_id": "dante_01_443519036333514752l",
-          "sentence_text": "RT @Ricamconsult: Há 6 anos, a #PETR4 valia R$510 bilhões. Hoje, vale R$165 bilhões e tem R$300 bilhões em dívidas. http://t.co/KZ7ujAkKYn",
-          "split": "train",
-          "token_id": "27",
-          "token_instance_id": "train::dante_01_443519036333514752l::27",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_443519036333514752l::dívida::1",
+          "predicate": {
+            "form": "dívidas"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_444934617783869440l",
+          "text": "#OIL #IBOV #PETR4 Petrobras faz alerta sobre dívida e rating de crédito: http://t.co/6U2NC2nFmI #BR",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_444934617783869440l",
-          "sentence_text": "#OIL #IBOV #PETR4 Petrobras faz alerta sobre dívida e rating de crédito: http://t.co/6U2NC2nFmI #BR",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_444934617783869440l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_444934617783869440l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_444958920105529345l",
+          "text": "Se fosse investimentos(ñ é) 3,5 x  receita é d+ '@exame_noticias: #PETR4 faz alerta sobre dívida e rating de crédito http://t.co/Nz50xccbTH'",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_444958920105529345l",
-          "sentence_text": "Se fosse investimentos(ñ é) 3,5 x  receita é d+ '@exame_noticias: #PETR4 faz alerta sobre dívida e rating de crédito http://t.co/Nz50xccbTH'",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_444958920105529345l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_444958920105529345l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_445258830608609281l",
+          "text": "#PETR3 #PETR4 - Conselho Fiscal da Petrobras faz alerta sobre dívida e rating de crédito - http://t.co/1Wvbdr6yQh",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_445258830608609281l",
-          "sentence_text": "#PETR3 #PETR4 - Conselho Fiscal da Petrobras faz alerta sobre dívida e rating de crédito - http://t.co/1Wvbdr6yQh",
-          "split": "train",
-          "token_id": "12",
-          "token_instance_id": "train::dante_01_445258830608609281l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_445258830608609281l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_447010493866442752l",
+          "text": "Goldman Sachs diz que é bom vender CSNA3, por dívidas e resultados abaixo dos esperados...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívidas",
-          "sent_id": "dante_01_447010493866442752l",
-          "sentence_text": "Goldman Sachs diz que é bom vender CSNA3, por dívidas e resultados abaixo dos esperados...",
-          "split": "train",
-          "token_id": "11",
-          "token_instance_id": "train::dante_01_447010493866442752l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_447010493866442752l::dívida::1",
+          "predicate": {
+            "form": "dívidas"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_447013482442260481l",
+          "text": "RT @ppaulovagner: Nossa, sera mesmo! PCT = 500% RT @garimpodeacoes: Goldman Sachs diz que é bom vender CSNA3, por dívidas e resultados abai…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívidas",
-          "sent_id": "dante_01_447013482442260481l",
-          "sentence_text": "RT @ppaulovagner: Nossa, sera mesmo! PCT = 500% RT @garimpodeacoes: Goldman Sachs diz que é bom vender CSNA3, por dívidas e resultados abai…",
-          "split": "train",
-          "token_id": "26",
-          "token_instance_id": "train::dante_01_447013482442260481l::26",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_447013482442260481l::dívida::1",
+          "predicate": {
+            "form": "dívidas"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_450970603181596672l",
+          "text": "$JBSS3 - Jbs (jbss-nm) - Emissao De Us$ 750 Milhoes, Cupom De 7,25% Em Titulos De Divida http://t.co/zgVZ1U1gRa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "Divida",
-          "sent_id": "dante_01_450970603181596672l",
-          "sentence_text": "$JBSS3 - Jbs (jbss-nm) - Emissao De Us$ 750 Milhoes, Cupom De 7,25% Em Titulos De Divida http://t.co/zgVZ1U1gRa",
-          "split": "train",
-          "token_id": "21",
-          "token_instance_id": "train::dante_01_450970603181596672l::21",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_450970603181596672l::dívida::1",
+          "predicate": {
+            "form": "Divida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_453970950300925953l",
+          "text": "$GGBR4 - GERDAU (GGBR4) pretende fazer troca de títulos de dívida http://t.co/JWdaIg9ZVI",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_453970950300925953l",
-          "sentence_text": "$GGBR4 - GERDAU (GGBR4) pretende fazer troca de títulos de dívida http://t.co/JWdaIg9ZVI",
-          "split": "train",
-          "token_id": "13",
-          "token_instance_id": "train::dante_01_453970950300925953l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_453970950300925953l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_467347548311916544l",
+          "text": "@instmillenium daí fica bem marcado que os governos levam 53%  + o imposto sobre o frete, e a Petr4 vai afundando em dívidas!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívidas",
-          "sent_id": "dante_01_467347548311916544l",
-          "sentence_text": "@instmillenium daí fica bem marcado que os governos levam 53%  + o imposto sobre o frete, e a Petr4 vai afundando em dívidas!",
-          "split": "train",
-          "token_id": "26",
-          "token_instance_id": "train::dante_01_467347548311916544l::26",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_467347548311916544l::dívida::1",
+          "predicate": {
+            "form": "dívidas"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "GIVER",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GIVEN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY GIVEN TO",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_467349717719191552l",
+          "text": "@ferrisss JBSS3 - Ta caro manter a dívida -0.8B para 1.2B de EBTDA. Se baixar o endividamento fica graça e a ML explodiria! Conseguem?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "debt.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
           },
-          "form": "dívida",
-          "sent_id": "dante_01_467349717719191552l",
-          "sentence_text": "@ferrisss JBSS3 - Ta caro manter a dívida -0.8B para 1.2B de EBTDA. Se baixar o endividamento fica graça e a ML explodiria! Conseguem?",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_467349717719191552l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0247-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_467349717719191552l::dívida::1",
+          "predicate": {
+            "form": "dívida"
           }
         }
       ],
-      "lemma": "dívida",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "dívida",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "debt.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "dívida",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "GIVER",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING GIVEN",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ENTITY GIVEN TO",
-              "generalized_description": "RECIPIENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            }
-          ],
-          "observed_instance_count": 16,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0247-S001"
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 3
         }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 16,
-        "instances_total": 16,
-        "regular_argument_instances": 16,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      }
     }
-  }
+  ]
 }

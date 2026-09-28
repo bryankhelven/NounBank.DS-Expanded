@@ -1,178 +1,54 @@
 {
   "lemma": "guerra",
   "lemma_base": "guerra",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "guerra",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "lemma::guerra::NOUN_SENSE::03",
-      "dupb_source_locator": "L0808_0070",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 2,
-      "S": 2,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 2,
-      "argument_ABSTAIN": 0
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "guerra.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "war.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/war.xml",
+      "roles": [
         {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "form": "guerra",
-          "sent_id": "dante_01_446258938812833792l",
-          "sentence_text": "Novo data center da BM&FBovespa (#BVMF3) custou R$ 200 milhões e tem sala de guerra. http://t.co/BDW1VFzQy7",
-          "split": "test",
-          "terminal_exception_type": "WSD_TERMINAL_NONEXACT",
-          "token_id": "18",
-          "token_instance_id": "test::dante_01_446258938812833792l::18",
-          "wsd": {
-            "authority": "POST_ORCH133_USER_AUTHORIZED_EXHAUSTIVE_104_READJUDICATION",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": null,
-            "terminal_category": "TERMINAL_NONEXACT",
-            "terminal_disposition": "LEXICALIZED_COMPOUND_NOT_IN_INVENTORY"
-          }
+          "id": "Arg0",
+          "desc": "WARMONGER, AGENT"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "WARMONGER, AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "WAR AGAINST/OVER",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg1",
+          "desc": "WAR AGAINST/OVER"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453654222123171840l",
+          "text": "@clubedopairico Pé frio!?Não,isso é sinal de guerra ao mercado ou no minimo burrice pq foi só o abrir a boca sobre petr4 q a bolsa caiu!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "war.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "guerra",
-          "sent_id": "dante_01_453654222123171840l",
-          "sentence_text": "@clubedopairico Pé frio!?Não,isso é sinal de guerra ao mercado ou no minimo burrice pq foi só o abrir a boca sobre petr4 q a bolsa caiu!",
-          "split": "train",
-          "token_id": "12",
-          "token_instance_id": "train::dante_01_453654222123171840l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0351-S003",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_453654222123171840l::guerra::1",
+          "predicate": {
+            "form": "guerra"
           }
         }
       ],
-      "lemma": "guerra",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L0808_0070",
-        "dupb_source_unit_id": "lemma::guerra::NOUN_SENSE::03",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "guerra",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
-        {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "war.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "guerra",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "WARMONGER, AGENT",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "WAR AGAINST/OVER",
-              "generalized_description": "TOPIC",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0351-S003"
-        }
-      ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 2,
-        "instances_total": 2,
-        "regular_argument_instances": 1,
-        "terminal_semantic_exceptions": 1
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
     }
-  }
+  ],
+  "pending_instances": [
+    {
+      "sent_ID": "dante_01_446258938812833792l",
+      "text": "Novo data center da BM&FBovespa (#BVMF3) custou R$ 200 milhões e tem sala de guerra. http://t.co/BDW1VFzQy7",
+      "instance_id": "dante_01_446258938812833792l::guerra::1",
+      "predicate": {
+        "form": "guerra"
+      },
+      "resolution_status": "awaiting_sense_resolution"
+    }
+  ]
 }

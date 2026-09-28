@@ -1,2958 +1,773 @@
 {
   "lemma": "aumento",
   "lemma_base": "aumento",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "aumento",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "lemma::aumento::NOUN_SENSE::01",
-      "dupb_source_locator": "L0175_0238",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 26,
-      "S": 26,
-      "N": 0,
-      "argument_YES": 21,
-      "argument_NO": 87,
-      "argument_ABSTAIN": 22
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "aumento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "increase.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/increase.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "15",
-                "role": "ARG1",
-                "span_text": "De Capital Social",
-                "span_token_ids": [
-                  14,
-                  15,
-                  16
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg0",
+          "desc": "CAUSER OF INCREASE"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING INCREASING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453511624864051200l",
+          "text": "Notas gerais  A ANEEL aprovou aumento médio de 14,7% nas tarifas de energia dos consumidores da CEMIG (CMIG4),... http://t.co/nP4s3iqN6u",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de 14,7 %",
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "Aumento",
-          "sent_id": "dante_01_448061183451746304l",
-          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Proposta De Aumento De Capital Social http://t.co/7naGCJeqAn",
-          "split": "dev",
-          "token_id": "13",
-          "token_instance_id": "dev::dante_01_448061183451746304l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_453511624864051200l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": "10",
-                "role": "ARG2",
-                "span_text": "de 14,7 %",
-                "span_token_ids": [
-                  8,
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "%",
-                "head_lemma": "%",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
+          "sent_ID": "dante_01_466611507988803584l",
+          "text": "RTRS - MANTEGA: NÃO SE DEVE ANUNCIAR AUMENTO DA GASOLINA, 'SE DEVE FAZER' #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "DE A GASOLINA",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "aumento",
-          "sent_id": "dante_01_453511624864051200l",
-          "sentence_text": "Notas gerais  A ANEEL aprovou aumento médio de 14,7% nas tarifas de energia dos consumidores da CEMIG (CMIG4),... http://t.co/nP4s3iqN6u",
-          "split": "dev",
-          "token_id": "6",
-          "token_instance_id": "dev::dante_01_453511624864051200l::6",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_466611507988803584l::aumento::1",
+          "predicate": {
+            "form": "AUMENTO"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "12",
-                "role": "ARG1",
-                "span_text": "DE A GASOLINA",
-                "span_token_ids": [
-                  10,
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "GASOLINA",
-                "head_lemma": "gasolina",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_446975198274002944l",
+          "text": "já pensou, se para abafar possível 'crise' na #PETR4 a reunião de conselho de hoje decidir por um aumento nos combustíveis ? o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "AUMENTO",
-          "sent_id": "dante_01_466611507988803584l",
-          "sentence_text": "RTRS - MANTEGA: NÃO SE DEVE ANUNCIAR AUMENTO DA GASOLINA, 'SE DEVE FAZER' #PETR4",
-          "split": "dev",
-          "token_id": "9",
-          "token_instance_id": "dev::dante_01_466611507988803584l::9",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_446975198274002944l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "22",
-                "role": "ARG1",
-                "span_text": "de a volatilidade",
-                "span_token_ids": [
-                  20,
-                  21,
-                  22
-                ],
-                "status": "YES",
-                "head_form": "volatilidade",
-                "head_lemma": "volatilidade",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_446353294722486272l",
+          "text": "@clubedopairico O que o PT está fazendo para resolver a questão da petr4? nada. só um aumento na gasolina resolveria a curto prazo",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "aumento",
-          "sent_id": "dante_01_441961599499501568l",
-          "sentence_text": "Fora das operações regulares penso seriamente em montar um Streaddle na PETR4 assim que ela mostrar aumento da volatilidade...",
-          "split": "test",
-          "token_id": "19",
-          "token_instance_id": "test::dante_01_441961599499501568l::19",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_446353294722486272l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_447358522020601857l",
+          "text": "@toleranciazero6 @marisascruz  Venda PETR4 a descoberto após aumento da gasolina e divugue os podres do contrato, recompre lá embaixo.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a gasolina",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "aumento",
-          "sent_id": "dante_01_446975198274002944l",
-          "sentence_text": "já pensou, se para abafar possível 'crise' na #PETR4 a reunião de conselho de hoje decidir por um aumento nos combustíveis ? o.O",
-          "split": "test",
-          "token_id": "23",
-          "token_instance_id": "test::dante_01_446975198274002944l::23",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_447358522020601857l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "14",
-                "role": "ARG1",
-                "span_text": "De o Capital Social",
-                "span_token_ids": [
-                  12,
-                  13,
-                  14,
-                  15
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_452135225947340800l",
+          "text": "#ABEV3 - Ambev vai manter preço da cerveja sem aumento até o fim da Copa - http://t.co/uQvcMid5PG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "Aumento",
-          "sent_id": "dante_01_458933400754470912l",
-          "sentence_text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Aumento Do Capital Social C/bonif Em Acoes http://t.co/Sg8gRLFTnW",
-          "split": "test",
-          "token_id": "11",
-          "token_instance_id": "test::dante_01_458933400754470912l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_452135225947340800l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "8",
-                "role": "ARG1",
-                "span_text": "de capital",
-                "span_token_ids": [
-                  7,
-                  8
-                ],
-                "status": "YES",
-                "head_form": "capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_461522403651104769l",
+          "text": "#abev3 Governo irá aumentar novamente a tributação da cerveja e refrigerante no País. É o segundo aumento em menos de um mês.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "aumento",
-          "sent_id": "dante_01_460950788429594624l",
-          "sentence_text": "#BR #BOVESPA #ABEV3 Ambev fará aumento de capital para incorporar benefício fiscal:  http://t.co/6YS0n7kWf4",
-          "split": "test",
-          "token_id": "6",
-          "token_instance_id": "test::dante_01_460950788429594624l::6",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_461522403651104769l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 2,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "8",
-                "role": "ARG1",
-                "span_text": "de capital",
-                "span_token_ids": [
-                  7,
-                  8
-                ],
-                "status": "YES",
-                "head_form": "capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": "12",
-                "role": "ARG2",
-                "span_text": "de R$ 185,8 milhões",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "milhões",
-                "head_lemma": "milhão",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_471702597414690816l",
+          "text": "Organização Mundial de Saúde faz incentivo ao aumento dos impostos no tabaco para salvar mais vidas, efeito da notícia foi venda na #CRUZ3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de os impostos em o tabaco",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
           },
-          "form": "aumento",
-          "sent_id": "dante_01_471981619243651072l",
-          "sentence_text": "Gol (#GOLL4) fará aumento de capital de R$185,8 milhões. http://t.co/m9QraDXf6m",
-          "split": "test",
-          "token_id": "6",
-          "token_instance_id": "test::dante_01_471981619243651072l::6",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "14",
-                "role": "ARG1",
-                "span_text": "de salário",
-                "span_token_ids": [
-                  13,
-                  14
-                ],
-                "status": "YES",
-                "head_form": "salário",
-                "head_lemma": "salário",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_441675472393744384l",
-          "sentence_text": "@JHPastorellii @petrobras  orgulho de que ah! deve ser funcionário teve aumento de salário ok! analise tonto http://t.co/BgLmYn5LsL",
-          "split": "train",
-          "token_id": "12",
-          "token_instance_id": "train::dante_01_441675472393744384l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S003",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "21",
-                "role": "ARG1",
-                "span_text": "De o Capital",
-                "span_token_ids": [
-                  19,
-                  20,
-                  21
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_443109051715817472l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento Do Capital http://t.co/vfiIT5AhIW",
-          "split": "train",
-          "token_id": "18",
-          "token_instance_id": "train::dante_01_443109051715817472l::18",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "16",
-                "role": "ARG1",
-                "span_text": "de a exploração de o fisiologismo em a bacia de as almas",
-                "span_token_ids": [
-                  14,
-                  15,
-                  16,
-                  17,
-                  18,
-                  19,
-                  20,
-                  21,
-                  22,
-                  23,
-                  24,
-                  25
-                ],
-                "status": "YES",
-                "head_form": "exploração",
-                "head_lemma": "exploração",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_444116429194162176l",
-          "sentence_text": "#Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das almas. #PETR4",
-          "split": "train",
-          "token_id": "13",
-          "token_instance_id": "train::dante_01_444116429194162176l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "19",
-                "role": "ARG1",
-                "span_text": "de a exploração de o fisiologismo em a bacia de as",
-                "span_token_ids": [
-                  17,
-                  18,
-                  19,
-                  20,
-                  21,
-                  22,
-                  23,
-                  24,
-                  25,
-                  26,
-                  27
-                ],
-                "status": "YES",
-                "head_form": "exploração",
-                "head_lemma": "exploração",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_444118685725507584l",
-          "sentence_text": "RT @ppaulovagner: #Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das …",
-          "split": "train",
-          "token_id": "16",
-          "token_instance_id": "train::dante_01_444118685725507584l::16",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 5,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_444119089167212544l",
-          "sentence_text": "RT @ppaulovagner: #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas. #PETR4",
-          "split": "train",
-          "token_id": "15",
-          "token_instance_id": "train::dante_01_444119089167212544l::15",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "2",
-                "role": "ARG1",
-                "span_text": "Qual",
-                "span_token_ids": [
-                  2
-                ],
-                "status": "YES",
-                "head_form": "Qual",
-                "head_lemma": "qual",
-                "head_deprel": "nsubj"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_445623987893469184l",
-          "sentence_text": "@Smarttrade10 Qual foi o aumento do BTC de CSNA3, após o comunicado do Benjamin Steinbruch ?",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_445623987893469184l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_446353294722486272l",
-          "sentence_text": "@clubedopairico O que o PT está fazendo para resolver a questão da petr4? nada. só um aumento na gasolina resolveria a curto prazo",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_446353294722486272l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "11",
-                "role": "ARG1",
-                "span_text": "de a gasolina",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11
-                ],
-                "status": "YES",
-                "head_form": "gasolina",
-                "head_lemma": "gasolina",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_447358522020601857l",
-          "sentence_text": "@toleranciazero6 @marisascruz  Venda PETR4 a descoberto após aumento da gasolina e divugue os podres do contrato, recompre lá embaixo.",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_447358522020601857l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "12",
-                "role": "ARG1",
-                "span_text": "De Capital",
-                "span_token_ids": [
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_448822972179304448l",
-          "sentence_text": "$BRML3 - Br Malls Par (brml-nm)- Aumento De Capital Atraves Do Plano De Opcao De Compra http://t.co/8dTQuP5X5T",
-          "split": "train",
-          "token_id": "10",
-          "token_instance_id": "train::dante_01_448822972179304448l::10",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_452135225947340800l",
-          "sentence_text": "#ABEV3 - Ambev vai manter preço da cerveja sem aumento até o fim da Copa - http://t.co/uQvcMid5PG",
-          "split": "train",
-          "token_id": "11",
-          "token_instance_id": "train::dante_01_452135225947340800l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_453539784531927041l",
-          "sentence_text": "$SBSP3 - Sabesp (sbsp-nm)-ago/e-30/04/2014 - 10h00 - Aumento Capital Sem Emissao De Acoes http://t.co/jpD54JYXa4",
-          "split": "train",
-          "token_id": "14",
-          "token_instance_id": "train::dante_01_453539784531927041l::14",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "11",
-                "role": "ARG1",
-                "span_text": "De o Capital Social",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_456399910208675840l",
-          "sentence_text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social Atraves Do Plano De Opcao De Compra http://t.co/fk1RgIHH78",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_456399910208675840l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "21",
-                "role": "ARG1",
-                "span_text": "De o Cap",
-                "span_token_ids": [
-                  19,
-                  20,
-                  21
-                ],
-                "status": "YES",
-                "head_form": "Cap",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_459711941817417728l",
-          "sentence_text": "$HGTX3 - Cia Hering (hgtx-nm) - Age - 2a Convocacao - 07/05/2014 - 15h / Aumento Do Cap. http://t.co/dyHY6t7JGO",
-          "split": "train",
-          "token_id": "18",
-          "token_instance_id": "train::dante_01_459711941817417728l::18",
-          "wsd": {
-            "authority": "ORCH56_WSD117_PROMOTED_FOR_MASTER_BY_ORCH133",
-            "confidence": "MEDIUM",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "lemma::aumento::NOUN_SENSE::01",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_WSD117"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_461522403651104769l",
-          "sentence_text": "#abev3 Governo irá aumentar novamente a tributação da cerveja e refrigerante no País. É o segundo aumento em menos de um mês.",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_461522403651104769l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": "11",
-                "role": "ARG2",
-                "span_text": "de 8,16 %",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11
-                ],
-                "status": "YES",
-                "head_form": "%",
-                "head_lemma": "%",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_464738307692191744l",
-          "sentence_text": "#GOLL4 O transporte doméstico de passageiros registrou aumento de 8,16% na demanda medida em passageiros... http://t.co/8pIYzbanHG",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_464738307692191744l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "11",
-                "role": "ARG1",
-                "span_text": "De o Capital Social",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "Capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Aumento",
-          "sent_id": "dante_01_464744370223480832l",
-          "sentence_text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social / Periodo De Preferencia http://t.co/aWk9ESEXJP",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_464744370223480832l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "12",
-                "role": "ARG1",
-                "span_text": "de os impostos em o tabaco",
-                "span_token_ids": [
-                  10,
-                  11,
-                  12,
-                  13,
-                  14,
-                  15
-                ],
-                "status": "YES",
-                "head_form": "impostos",
-                "head_lemma": "imposto",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_471702597414690816l",
-          "sentence_text": "Organização Mundial de Saúde faz incentivo ao aumento dos impostos no tabaco para salvar mais vidas, efeito da notícia foi venda na #CRUZ3",
-          "split": "train",
-          "token_id": "9",
-          "token_instance_id": "train::dante_01_471702597414690816l::9",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 5,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF INCREASE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING INCREASING",
-                "head_token_id": "7",
-                "role": "ARG1",
-                "span_text": "de capital",
-                "span_token_ids": [
-                  6,
-                  7
-                ],
-                "status": "YES",
-                "head_form": "capital",
-                "head_lemma": "capital",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "increase.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "aumento",
-          "sent_id": "dante_01_471998284022964224l",
-          "sentence_text": "#BOVESPA #GOLL4 Gol faz aumento de capital de R$ 185,7 mi e prevê investimento da AirFrance. http://t.co/0Kro8OpwaD",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_471998284022964224l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0065-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_471702597414690816l::aumento::1",
+          "predicate": {
+            "form": "aumento"
           }
         }
       ],
-      "lemma": "aumento",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L0175_0238",
-        "dupb_source_unit_id": "lemma::aumento::NOUN_SENSE::01",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "aumento",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 3
+        }
+      }
+    },
+    {
+      "pt_roleset": "aumento.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "increase.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/increase.xml",
+      "roles": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "increase.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "aumento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF INCREASE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING INCREASING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            }
-          ],
-          "observed_instance_count": 8,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0065-S002"
+          "id": "Arg0",
+          "desc": "CAUSER OF INCREASE"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "increase.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "aumento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF INCREASE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING INCREASING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0065-S003"
+          "id": "Arg1",
+          "desc": "THING INCREASING"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "increase.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "aumento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF INCREASE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING INCREASING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            }
-          ],
-          "observed_instance_count": 3,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0065-S004"
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "increase.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "aumento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF INCREASE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING INCREASING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            }
-          ],
-          "observed_instance_count": 13,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0065-S006"
+          "id": "Arg3",
+          "desc": "START POINT"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "increase.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "aumento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF INCREASE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING INCREASING",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "lemma::aumento::NOUN_SENSE::01"
+          "id": "Arg4",
+          "desc": "END POINT"
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 26,
-        "instances_total": 26,
-        "regular_argument_instances": 26,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "examples": [
+        {
+          "sent_ID": "dante_01_441675472393744384l",
+          "text": "@JHPastorellii @petrobras  orgulho de que ah! deve ser funcionário teve aumento de salário ok! analise tonto http://t.co/BgLmYn5LsL",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de salário",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_441675472393744384l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "aumento.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "english_roleset": "increase.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/increase.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "CAUSER OF INCREASE"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING INCREASING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441961599499501568l",
+          "text": "Fora das operações regulares penso seriamente em montar um Streaddle na PETR4 assim que ela mostrar aumento da volatilidade...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a volatilidade",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_441961599499501568l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_445623987893469184l",
+          "text": "@Smarttrade10 Qual foi o aumento do BTC de CSNA3, após o comunicado do Benjamin Steinbruch ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Qual",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_445623987893469184l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_464738307692191744l",
+          "text": "#GOLL4 O transporte doméstico de passageiros registrou aumento de 8,16% na demanda medida em passageiros... http://t.co/8pIYzbanHG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de 8,16 %",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_464738307692191744l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1,
+          "nsubj": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "aumento.04",
+      "pt_sense_index": 4,
+      "pt_sense_hint": 4,
+      "english_roleset": "increase.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/increase.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "CAUSER OF INCREASE"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING INCREASING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448061183451746304l",
+          "text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Proposta De Aumento De Capital Social http://t.co/7naGCJeqAn",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Capital Social",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_448061183451746304l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_458933400754470912l",
+          "text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Aumento Do Capital Social C/bonif Em Acoes http://t.co/Sg8gRLFTnW",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Capital Social",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_458933400754470912l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_460950788429594624l",
+          "text": "#BR #BOVESPA #ABEV3 Ambev fará aumento de capital para incorporar benefício fiscal:  http://t.co/6YS0n7kWf4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de capital",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_460950788429594624l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_471981619243651072l",
+          "text": "Gol (#GOLL4) fará aumento de capital de R$185,8 milhões. http://t.co/m9QraDXf6m",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de capital",
+            "Arg2": "de R$ 185,8 milhões",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_471981619243651072l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_443109051715817472l",
+          "text": "$PETR3 - Petrobras (petr) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento Do Capital http://t.co/vfiIT5AhIW",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Capital",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_443109051715817472l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_444116429194162176l",
+          "text": "#Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das almas. #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a exploração de o fisiologismo em a bacia de as almas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_444116429194162176l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_444118685725507584l",
+          "text": "RT @ppaulovagner: #Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a exploração de o fisiologismo em a bacia de as",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_444118685725507584l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_444119089167212544l",
+          "text": "RT @ppaulovagner: #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas. #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_444119089167212544l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_448822972179304448l",
+          "text": "$BRML3 - Br Malls Par (brml-nm)- Aumento De Capital Atraves Do Plano De Opcao De Compra http://t.co/8dTQuP5X5T",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Capital",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_448822972179304448l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453539784531927041l",
+          "text": "$SBSP3 - Sabesp (sbsp-nm)-ago/e-30/04/2014 - 10h00 - Aumento Capital Sem Emissao De Acoes http://t.co/jpD54JYXa4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_453539784531927041l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_456399910208675840l",
+          "text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social Atraves Do Plano De Opcao De Compra http://t.co/fk1RgIHH78",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Capital Social",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_456399910208675840l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_464744370223480832l",
+          "text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social / Periodo De Preferencia http://t.co/aWk9ESEXJP",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Capital Social",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_464744370223480832l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        },
+        {
+          "sent_ID": "dante_01_471998284022964224l",
+          "text": "#BOVESPA #GOLL4 Gol faz aumento de capital de R$ 185,7 mi e prevê investimento da AirFrance. http://t.co/0Kro8OpwaD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de capital",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_471998284022964224l::aumento::1",
+          "predicate": {
+            "form": "aumento"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 11
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "aumento.05",
+      "pt_sense_index": 5,
+      "pt_sense_hint": 5,
+      "english_roleset": "increase.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/increase.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "CAUSER OF INCREASE"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING INCREASING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459711941817417728l",
+          "text": "$HGTX3 - Cia Hering (hgtx-nm) - Age - 2a Convocacao - 07/05/2014 - 15h / Aumento Do Cap. http://t.co/dyHY6t7JGO",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Cap",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_459711941817417728l::aumento::1",
+          "predicate": {
+            "form": "Aumento"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
     }
-  }
+  ]
 }

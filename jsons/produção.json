@@ -1,2353 +1,568 @@
 {
   "lemma": "produção",
   "lemma_base": "produção",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "produção",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "lemma::produção::NOUN_SENSE::03",
-      "dupb_source_locator": "L1290_0071",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 28,
-      "S": 25,
-      "N": 3,
-      "argument_YES": 10,
-      "argument_NO": 77,
-      "argument_ABSTAIN": 13
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "produção.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "production.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/production.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "10",
-                "role": "ARG1",
-                "span_text": "De Petroleo E Gas Natural",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12,
-                  13
-                ],
-                "status": "YES",
-                "head_form": "Petroleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Producao",
-          "sent_id": "dante_01_441559785218244608l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Producao De Petroleo E Gas Natural Em Janeiro http://t.co/wf0dVBgd7F",
-          "split": "dev",
-          "token_id": "8",
-          "token_instance_id": "dev::dante_01_441559785218244608l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
+          "id": "Arg0",
+          "desc": "CREATOR"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Produção",
-          "sent_id": "dante_01_445923755190001664l",
-          "sentence_text": "Petrobras: Produção é prioridade no momento  Maria das Graças Foster, presidente da PETROBRAS (PETR4), afirmou... http://t.co/acGt0E4NHH",
-          "split": "dev",
-          "token_id": "3",
-          "token_instance_id": "dev::dante_01_445923755190001664l::3",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
+          "id": "Arg1",
+          "desc": "CREATION"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "22",
-                "role": "ARG1",
-                "span_text": "de petróleo",
-                "span_token_ids": [
-                  21,
-                  22
-                ],
-                "status": "YES",
-                "head_form": "petróleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_453685323869200385l",
-          "sentence_text": "#OIL #AL #BR #PETR4 Royalties totalizam R$ 4,657 bilhões no 1º tri. devido ao crescimento da produção de petróleo. http://t.co/8bqYjafWaY",
-          "split": "dev",
-          "token_id": "20",
-          "token_instance_id": "dev::dante_01_453685323869200385l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
+          "id": "Arg2",
+          "desc": "BENEFICIARY"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "15",
-                "role": "ARG1",
-                "span_text": "de 428 mil barris dia",
-                "span_token_ids": [
-                  12,
-                  13,
-                  14,
-                  15,
-                  17
-                ],
-                "status": "YES",
-                "head_form": "barris",
-                "head_lemma": "barril",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_456877196523491329l",
-          "sentence_text": "#PETR3 #PETR4 - Petrobras bate recorde no pré-sal com produção de 428 mil barris/dia - http://t.co/GqHcGaBnhX",
-          "split": "dev",
-          "token_id": "11",
-          "token_instance_id": "dev::dante_01_456877196523491329l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "10",
-                "role": "ARG1",
-                "span_text": "De Petroleo",
-                "span_token_ids": [
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "Petroleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Prod.",
-          "sent_id": "dante_01_472473292683886592l",
-          "sentence_text": "$PETR3 - Petrobras (petr)- Prod. De Petroleo No Pre-sal Cresceu 4% E Foi Recorde Em Abril http://t.co/xpXSY2lAIr",
-          "split": "dev",
-          "token_id": "8",
-          "token_instance_id": "dev::dante_01_472473292683886592l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_441409696948584448l",
-          "sentence_text": "RT @chrinvestor: Preocupações com a #PETR4 não param de crescer: produção, sumiço de investimentos, caixa e o endividamento. Quem arrisca u…",
-          "split": "test",
-          "token_id": "13",
-          "token_instance_id": "test::dante_01_441409696948584448l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "10",
-                "role": "ARG1",
-                "span_text": "De Petroleo E Gas Natural",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12,
-                  13
-                ],
-                "status": "YES",
-                "head_form": "Petroleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Producao",
-          "sent_id": "dante_01_450969372144967680l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Producao De Petroleo E Gas Natural Em Fevereiro http://t.co/GZjy04UwUv",
-          "split": "test",
-          "token_id": "8",
-          "token_instance_id": "test::dante_01_450969372144967680l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Producao",
-          "sent_id": "dante_01_453144121008746496l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Novo Recorde De Producao Mensal No Pre-sal http://t.co/7KW3u72c6R",
-          "split": "test",
-          "token_id": "11",
-          "token_instance_id": "test::dante_01_453144121008746496l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_453503076918640640l",
-          "sentence_text": "$PETR4 - Petrobras reinicia produção na P-20 [Newsletter ADVFN] http://t.co/Sns4b4JuNR",
-          "split": "test",
-          "token_id": "5",
-          "token_instance_id": "test::dante_01_453503076918640640l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produç",
-          "sent_id": "dante_01_456490837195509760l",
-          "sentence_text": "Pessimismo com China não se justifica, diz presidente da Vale: 'Estamos comemorando a produç... http://t.co/qxxUF3Iefq #infomoney #vale5",
-          "split": "test",
-          "token_id": "18",
-          "token_instance_id": "test::dante_01_456490837195509760l::18",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "12",
-                "role": "ARG1",
-                "span_text": "De 40 Mil Barris",
-                "span_token_ids": [
-                  9,
-                  10,
-                  11,
-                  12
-                ],
-                "status": "YES",
-                "head_form": "Barris",
-                "head_lemma": "barril",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Producao",
-          "sent_id": "dante_01_441551076610027520l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Producao De 40 Mil Barris Por Dia Em Cascade & Chinook http://t.co/pN8dvarHzp",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_441551076610027520l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_441563014731665408l",
-          "sentence_text": "Essa notícia do recorde de produção da #PETR4 no pré sal ta com uma cara de ter vindo pra tentar defender fundo...",
-          "split": "train",
-          "token_id": "7",
-          "token_instance_id": "train::dante_01_441563014731665408l::7",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Prod",
-          "sent_id": "dante_01_441589989944860673l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Prod De 40 Mil Barris Dia Cascade E Chinook - Reapresentacao http://t.co/RBAlmZx1OK",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_441589989944860673l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Produção",
-          "sent_id": "dante_01_441595881222332416l",
-          "sentence_text": "#PETR3 #PETR4 - Produção de petróleo da Petrobras cai 2,4% em janeiro - http://t.co/N7EiRfUM90",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_441595881222332416l::4",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_441917006304927744l",
-          "sentence_text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
-          "split": "train",
-          "token_id": "6",
-          "token_instance_id": "train::dante_01_441917006304927744l::6",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "19",
-                "role": "ARG1",
-                "span_text": "de petróleo",
-                "span_token_ids": [
-                  18,
-                  19
-                ],
-                "status": "YES",
-                "head_form": "petróleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_441917006304927744l",
-          "sentence_text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
-          "split": "train",
-          "token_id": "17",
-          "token_instance_id": "train::dante_01_441917006304927744l::17",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Produção",
-          "sent_id": "dante_01_445900371408728064l",
-          "sentence_text": "$PETR4 - Petrobras: Produção é prioridade no momento [Newsletter ADVFN] http://t.co/GSFIVOj2pd",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_445900371408728064l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "7",
-                "role": "ARG1",
-                "span_text": "de petróleo e gás natural",
-                "span_token_ids": [
-                  6,
-                  7,
-                  8,
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "petróleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_450978152383533056l",
-          "sentence_text": "Notas gerais  A produção total de petróleo e gás natural da PETROBRAS (PETR4) no Brasil no mês de fevereiro foi... http://t.co/qEEHshr7en",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_450978152383533056l::4",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Produção",
-          "sent_id": "dante_01_451041767530700800l",
-          "sentence_text": "#PETR3 #PETR4 - Produção de petróleo da Petrobras sobe 0,3% em fevereiro ante janeiro - http://t.co/CDckhrhhWc",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_451041767530700800l::4",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "Prod.",
-          "sent_id": "dante_01_452424503684243457l",
-          "sentence_text": "#PETR4 RT @petrobras: ANP: Prod. gás natural no Brasil bate recorde, alcança 83,2 mi de metros cúbicos por dia em fev http://t.co/PoP9Kr73iJ",
-          "split": "train",
-          "token_id": "7",
-          "token_instance_id": "train::dante_01_452424503684243457l::7"
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "10",
-                "role": "ARG1",
-                "span_text": "de combustíveis",
-                "span_token_ids": [
-                  9,
-                  10
-                ],
-                "status": "YES",
-                "head_form": "combustíveis",
-                "head_lemma": "combustível",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_453201841292328960l",
-          "sentence_text": "#PETR3 #PETR4 - Petrobras atinge recorde de produção de combustíveis em março - http://t.co/zQKbucIEKs",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_453201841292328960l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_453514589926199296l",
-          "sentence_text": "Petrobras reinicia produção na P-20  A PETROBRAS (PETR4) informou ontem à noite, após o fechamento do mercado,... http://t.co/LzbDonGJdB",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_453514589926199296l::3",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Producao",
-          "sent_id": "dante_01_457101197456199680l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Producao No Pre-sal Bate Novo Recorde http://t.co/q5KXhuIGpK",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_457101197456199680l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "Producao",
-          "sent_id": "dante_01_462211238685343744l",
-          "sentence_text": "$PETR3 - Petrobras (petr) - Producao De Petroleo No Pre-sal Bate Novo Recorde Em Marco http://t.co/nEOJgoeW5T",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_462211238685343744l::8"
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_462318214954119168l",
-          "sentence_text": "4 horas depois a #PETR4 envia uma errata ao mercado modificando a produção de 0,2% para 2,4%. Estava subindo antes por que?? Só no Brasil...",
-          "split": "train",
-          "token_id": "14",
-          "token_instance_id": "train::dante_01_462318214954119168l::14",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": "7",
-                "role": "ARG1",
-                "span_text": "de petróleo",
-                "span_token_ids": [
-                  6,
-                  7
-                ],
-                "status": "YES",
-                "head_form": "petróleo",
-                "head_lemma": "petróleo",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Produção",
-          "sent_id": "dante_01_463767842274689024l",
-          "sentence_text": "#PETR4 RT @PortalOTempo: Produção de petróleo cresce 14,4% e a de gás natural bate recorde  http://t.co/fK3TH9zYgq",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_463767842274689024l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S010",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATOR",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CREATION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "BENEFICIARY",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SOURCE, THING CHANGED",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "production.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "produção",
-          "sent_id": "dante_01_464864356438519808l",
-          "sentence_text": "Notas gerais da ADVFN - 09/05: • A VALE (VALE5) suspendeu grande parte de sua produção de… http://t.co/BydhapQktp",
-          "split": "train",
-          "token_id": "20",
-          "token_instance_id": "train::dante_01_464864356438519808l::20",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0531-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "Produção",
-          "sent_id": "dante_01_467371093570093057l",
-          "sentence_text": "#PETR3 #PETR4 - Produção de petróleo no pré-sal bate novo recorde - http://t.co/Ky2sjzL8al",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_467371093570093057l::4"
+          "id": "Arg3",
+          "desc": "SOURCE, THING CHANGED"
         }
       ],
-      "lemma": "produção",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L1290_0071",
-        "dupb_source_unit_id": "lemma::produção::NOUN_SENSE::03",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "produção",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
+      "examples": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "production.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "produção",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CREATOR",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CREATION",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "BENEFICIARY",
-              "generalized_description": "BENEFICIARY",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "SOURCE, THING CHANGED",
-              "generalized_description": "MATERIAL",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 6,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0531-S001"
+          "sent_ID": "dante_01_445923755190001664l",
+          "text": "Petrobras: Produção é prioridade no momento  Maria das Graças Foster, presidente da PETROBRAS (PETR4), afirmou... http://t.co/acGt0E4NHH",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_445923755190001664l::produção::1",
+          "predicate": {
+            "form": "Produção"
+          }
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "production.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "produção",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CREATOR",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CREATION",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "BENEFICIARY",
-              "generalized_description": "BENEFICIARY",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "SOURCE, THING CHANGED",
-              "generalized_description": "MATERIAL",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 19,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0531-S010"
+          "sent_ID": "dante_01_441409696948584448l",
+          "text": "RT @chrinvestor: Preocupações com a #PETR4 não param de crescer: produção, sumiço de investimentos, caixa e o endividamento. Quem arrisca u…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441409696948584448l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453503076918640640l",
+          "text": "$PETR4 - Petrobras reinicia produção na P-20 [Newsletter ADVFN] http://t.co/Sns4b4JuNR",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_453503076918640640l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_445900371408728064l",
+          "text": "$PETR4 - Petrobras: Produção é prioridade no momento [Newsletter ADVFN] http://t.co/GSFIVOj2pd",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_445900371408728064l::produção::1",
+          "predicate": {
+            "form": "Produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453514589926199296l",
+          "text": "Petrobras reinicia produção na P-20  A PETROBRAS (PETR4) informou ontem à noite, após o fechamento do mercado,... http://t.co/LzbDonGJdB",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_453514589926199296l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_464864356438519808l",
+          "text": "Notas gerais da ADVFN - 09/05: • A VALE (VALE5) suspendeu grande parte de sua produção de… http://t.co/BydhapQktp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_464864356438519808l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 3,
-        "S": 25,
-        "instances_total": 28,
-        "regular_argument_instances": 25,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "syntactic_profile": {}
+    },
+    {
+      "pt_roleset": "produção.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "production.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/production.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "CREATOR"
+        },
+        {
+          "id": "Arg1",
+          "desc": "CREATION"
+        },
+        {
+          "id": "Arg2",
+          "desc": "BENEFICIARY"
+        },
+        {
+          "id": "Arg3",
+          "desc": "SOURCE, THING CHANGED"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441559785218244608l",
+          "text": "$PETR3 - Petrobras (petr) - Producao De Petroleo E Gas Natural Em Janeiro http://t.co/wf0dVBgd7F",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Petroleo E Gas Natural",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441559785218244608l::produção::1",
+          "predicate": {
+            "form": "Producao"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453685323869200385l",
+          "text": "#OIL #AL #BR #PETR4 Royalties totalizam R$ 4,657 bilhões no 1º tri. devido ao crescimento da produção de petróleo. http://t.co/8bqYjafWaY",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de petróleo",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_453685323869200385l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_456877196523491329l",
+          "text": "#PETR3 #PETR4 - Petrobras bate recorde no pré-sal com produção de 428 mil barris/dia - http://t.co/GqHcGaBnhX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 428 mil barris dia",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_456877196523491329l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_472473292683886592l",
+          "text": "$PETR3 - Petrobras (petr)- Prod. De Petroleo No Pre-sal Cresceu 4% E Foi Recorde Em Abril http://t.co/xpXSY2lAIr",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Petroleo",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_472473292683886592l::produção::1",
+          "predicate": {
+            "form": "Prod."
+          }
+        },
+        {
+          "sent_ID": "dante_01_450969372144967680l",
+          "text": "$PETR3 - Petrobras (petr) - Producao De Petroleo E Gas Natural Em Fevereiro http://t.co/GZjy04UwUv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Petroleo E Gas Natural",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_450969372144967680l::produção::1",
+          "predicate": {
+            "form": "Producao"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453144121008746496l",
+          "text": "$PETR3 - Petrobras (petr) - Novo Recorde De Producao Mensal No Pre-sal http://t.co/7KW3u72c6R",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_453144121008746496l::produção::1",
+          "predicate": {
+            "form": "Producao"
+          }
+        },
+        {
+          "sent_ID": "dante_01_456490837195509760l",
+          "text": "Pessimismo com China não se justifica, diz presidente da Vale: 'Estamos comemorando a produç... http://t.co/qxxUF3Iefq #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_456490837195509760l::produção::1",
+          "predicate": {
+            "form": "produç"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441551076610027520l",
+          "text": "$PETR3 - Petrobras (petr) - Producao De 40 Mil Barris Por Dia Em Cascade & Chinook http://t.co/pN8dvarHzp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De 40 Mil Barris",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441551076610027520l::produção::1",
+          "predicate": {
+            "form": "Producao"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441563014731665408l",
+          "text": "Essa notícia do recorde de produção da #PETR4 no pré sal ta com uma cara de ter vindo pra tentar defender fundo...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441563014731665408l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441589989944860673l",
+          "text": "$PETR3 - Petrobras (petr) - Prod De 40 Mil Barris Dia Cascade E Chinook - Reapresentacao http://t.co/RBAlmZx1OK",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441589989944860673l::produção::1",
+          "predicate": {
+            "form": "Prod"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441595881222332416l",
+          "text": "#PETR3 #PETR4 - Produção de petróleo da Petrobras cai 2,4% em janeiro - http://t.co/N7EiRfUM90",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441595881222332416l::produção::1",
+          "predicate": {
+            "form": "Produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441917006304927744l",
+          "text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441917006304927744l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_441917006304927744l",
+          "text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de petróleo",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_441917006304927744l::produção::2",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_450978152383533056l",
+          "text": "Notas gerais  A produção total de petróleo e gás natural da PETROBRAS (PETR4) no Brasil no mês de fevereiro foi... http://t.co/qEEHshr7en",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de petróleo e gás natural",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_450978152383533056l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_451041767530700800l",
+          "text": "#PETR3 #PETR4 - Produção de petróleo da Petrobras sobe 0,3% em fevereiro ante janeiro - http://t.co/CDckhrhhWc",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_451041767530700800l::produção::1",
+          "predicate": {
+            "form": "Produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453201841292328960l",
+          "text": "#PETR3 #PETR4 - Petrobras atinge recorde de produção de combustíveis em março - http://t.co/zQKbucIEKs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de combustíveis",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_453201841292328960l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_457101197456199680l",
+          "text": "$PETR3 - Petrobras (petr) - Producao No Pre-sal Bate Novo Recorde http://t.co/q5KXhuIGpK",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_457101197456199680l::produção::1",
+          "predicate": {
+            "form": "Producao"
+          }
+        },
+        {
+          "sent_ID": "dante_01_462318214954119168l",
+          "text": "4 horas depois a #PETR4 envia uma errata ao mercado modificando a produção de 0,2% para 2,4%. Estava subindo antes por que?? Só no Brasil...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_462318214954119168l::produção::1",
+          "predicate": {
+            "form": "produção"
+          }
+        },
+        {
+          "sent_ID": "dante_01_463767842274689024l",
+          "text": "#PETR4 RT @PortalOTempo: Produção de petróleo cresce 14,4% e a de gás natural bate recorde  http://t.co/fK3TH9zYgq",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de petróleo",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_463767842274689024l::produção::1",
+          "predicate": {
+            "form": "Produção"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 10
+        }
+      }
     }
-  }
+  ]
 }

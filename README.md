@@ -1,31 +1,16 @@
 # NounBank.DS Expanded
 
-**NounBank.DS Expanded** amplia o [NounBank.DS](https://github.com/bryankhelven/NounBank.DS), mantendo as 145 entradas da versão original e acrescentando 564 novos lemas do DANTEStocks.
+**NounBank.DS Expanded** amplia o [NounBank.DS](https://github.com/bryankhelven/NounBank.DS).
 
-## Recurso
+## Publicação sanitizada provisória
 
-- 709 lemas;
-- 6.416 ocorrências analisadas;
-- 3.618 ocorrências predicadoras e 2.798 não predicadoras;
-- 2.669 realizações argumentais observadas;
-- mapeamento para rolesets do NomBank em inglês quando há correspondência adequada;
-- exemplos reais com REL, Arg0...Arg4 e relações sintáticas da Universal Dependencies.
+- 494 nomes predicadores: 145 da versão original + 349 novos;
+- 3.618 ocorrências predicadoras;
+- 3.524 ocorrências com representação regular;
+- 94 ocorrências predicadoras aguardando resolução de sense e/ou roleset;
+- 2.669 argumentos realizados;
+- 215 candidatos sem qualquer ocorrência atualmente identificada como predicadora foram retirados desta publicação.
 
-As 564 entradas acrescentadas pela expansão aparecem com a marca **NEW** na interface.
+A interface e os JSONs seguem a lógica pública da V1: rolesets, papéis semânticos, exemplos, REL, realização dos argumentos e relações sintáticas da Universal Dependencies. Ocorrências não predicadoras não são publicadas.
 
-## Consulta
-
-A interface permite navegar pelos lemas, consultar rolesets e papéis semânticos, observar exemplos do corpus e examinar as realizações sintáticas dos argumentos.
-
-A página **Estatísticas** reúne uma visão visual da expansão do inventário e das distribuições observadas no recurso.
-
-## Dados
-
-Os dados podem ser baixados em JSON pela própria interface.
-
-## Documentação
-
-- [Compatibilidade com o NounBank.DS original](docs/V1_COMPATIBILITY.md)
-- [Formato dos dados](docs/PUBLIC_JSON_SCHEMA.md)
-- [Definições das estatísticas](docs/STATISTICS_DEFINITIONS.md)
-- [Como citar](docs/CITATION.md)
+As 349 novas entradas aparecem com **NEW**; entradas que ainda exigem decisão manual aparecem com **REVISAR**.

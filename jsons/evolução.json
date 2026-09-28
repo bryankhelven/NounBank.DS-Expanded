@@ -1,389 +1,135 @@
 {
   "lemma": "evolução",
   "lemma_base": "evolução",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "evolução",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 3,
-      "S": 3,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 1,
-      "argument_ABSTAIN": 8
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "evolução.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "evolution.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/evolution.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING CHANGING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END STATE",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START STATE",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "evolution.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Evolução",
-          "sent_id": "dante_01_446800231372705792l",
-          "sentence_text": "Evolução dos preços das ações da #Bovespa ñ são mais feitas c/ base dos preços ou nos balanços, são feitas c/ base no Ibope da #Dilma #PETR4",
-          "split": "dev",
-          "token_id": "1",
-          "token_instance_id": "dev::dante_01_446800231372705792l::1",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0295-S005",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
+          "id": "Arg1",
+          "desc": "THING CHANGING"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING CHANGING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END STATE",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START STATE",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "evolution.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "evolução",
-          "sent_id": "dante_01_459291826718273536l",
-          "sentence_text": "Carteira de Crédito Expandida, em março de 2014, atingiu R$ 432,297 bilhões, evolução de 10,4% em relação ao mesmo período de 2013. #BBDC4",
-          "split": "train",
-          "token_id": "16",
-          "token_instance_id": "train::dante_01_459291826718273536l::16",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0295-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
+          "id": "Arg2",
+          "desc": "END STATE"
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 3,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING CHANGING",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END STATE",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START STATE",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
+          "id": "Arg3",
+          "desc": "START STATE"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446800231372705792l",
+          "text": "Evolução dos preços das ações da #Bovespa ñ são mais feitas c/ base dos preços ou nos balanços, são feitas c/ base no Ibope da #Dilma #PETR4",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "evolution.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
           },
-          "form": "evolução",
-          "sent_id": "dante_01_467772096224194560l",
-          "sentence_text": "Comparado com o fechamento de 2006 caiu pouco mais de USD 3bi! Nossa que 'evolução' em dona Petro! #PETR4 #Petromico http://t.co/jD7XdwpvBR",
-          "split": "train",
-          "token_id": "17",
-          "token_instance_id": "train::dante_01_467772096224194560l::17",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0295-S007",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_446800231372705792l::evolução::1",
+          "predicate": {
+            "form": "Evolução"
           }
         }
       ],
-      "lemma": "evolução",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "evolução",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
+      "syntactic_profile": {}
+    },
+    {
+      "pt_roleset": "evolução.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "evolution.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/evolution.xml",
+      "roles": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "evolution.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "evolução",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING CHANGING",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END STATE",
-              "generalized_description": "PRODUCT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START STATE",
-              "generalized_description": "MATERIAL",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0295-S005"
+          "id": "Arg1",
+          "desc": "THING CHANGING"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "evolution.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "evolução",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING CHANGING",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END STATE",
-              "generalized_description": "PRODUCT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START STATE",
-              "generalized_description": "MATERIAL",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0295-S006"
+          "id": "Arg2",
+          "desc": "END STATE"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "evolution.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "evolução",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING CHANGING",
-              "generalized_description": "THEME",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END STATE",
-              "generalized_description": "PRODUCT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START STATE",
-              "generalized_description": "MATERIAL",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0295-S007"
+          "id": "Arg3",
+          "desc": "START STATE"
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 3,
-        "instances_total": 3,
-        "regular_argument_instances": 3,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "examples": [
+        {
+          "sent_ID": "dante_01_459291826718273536l",
+          "text": "Carteira de Crédito Expandida, em março de 2014, atingiu R$ 432,297 bilhões, evolução de 10,4% em relação ao mesmo período de 2013. #BBDC4",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_459291826718273536l::evolução::1",
+          "predicate": {
+            "form": "evolução"
+          }
+        }
+      ],
+      "syntactic_profile": {}
+    },
+    {
+      "pt_roleset": "evolução.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "english_roleset": "evolution.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/evolution.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "THING CHANGING"
+        },
+        {
+          "id": "Arg2",
+          "desc": "END STATE"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START STATE"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_467772096224194560l",
+          "text": "Comparado com o fechamento de 2006 caiu pouco mais de USD 3bi! Nossa que 'evolução' em dona Petro! #PETR4 #Petromico http://t.co/jD7XdwpvBR",
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_467772096224194560l::evolução::1",
+          "predicate": {
+            "form": "evolução"
+          }
+        }
+      ],
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

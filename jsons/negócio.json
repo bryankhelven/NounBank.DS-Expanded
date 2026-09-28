@@ -1,842 +1,213 @@
 {
   "lemma": "negócio",
   "lemma_base": "negócio",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "negócio",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS_ONLY",
-      "source_legos": "YES",
-      "source_morph": "NO",
-      "dupb_source_unit_id": "lemma::negócio::NOUN_SENSE::08",
-      "dupb_source_locator": "L1102_0161",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 20,
-      "S": 7,
-      "N": 13,
-      "argument_YES": 1,
-      "argument_NO": 18,
-      "argument_ABSTAIN": 5
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "negócio.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "business.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/business.xml",
+      "roles": [
         {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_459046521259184129l",
-          "sentence_text": "RT @ConselhoDaBR: Concluímos que o melhor negócio do mundo é uma petroleira bem administrada. O segundo, é uma mal administrada. A #PETR4 é…",
-          "split": "dev",
-          "token_id": "8",
-          "token_instance_id": "dev::dante_01_459046521259184129l::8"
+          "id": "Arg0",
+          "desc": "AGENT"
         },
         {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negocio",
-          "sent_id": "dante_01_453162550851805184l",
-          "sentence_text": "melhor negocio do mundo e uma cia petrolifera bem administrada o segundo melhor uma cia petrolifera mal administrada #PETR4",
-          "split": "test",
-          "token_id": "2",
-          "token_instance_id": "test::dante_01_453162550851805184l::2"
-        },
+          "id": "Arg1",
+          "desc": "ACTION"
+        }
+      ],
+      "examples": [
         {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_456168774593708032l",
-          "sentence_text": "Gata, você não é Pasadena. Mas é sempre um bom negócio ter você em minha vida. #CantadasDaBolsa #Petrobras #PETR4 #Pasadena",
-          "split": "test",
-          "token_id": "13",
-          "token_instance_id": "test::dante_01_456168774593708032l::13"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_441254749862514688l",
-          "sentence_text": "O negócio é investir em PUTs de boas empresas!! #VALE5 #PETR4",
-          "split": "train",
-          "token_id": "2",
-          "token_instance_id": "train::dante_01_441254749862514688l::2"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_441257030935121920l",
-          "sentence_text": "KKKK Na mosca! RT @picapautrader: O negócio é investir em PUTs de boas empresas!! #VALE5 #PETR4",
-          "split": "train",
-          "token_id": "10",
-          "token_instance_id": "train::dante_01_441257030935121920l::10"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_444603654902140928l",
-          "sentence_text": "@mobilon Pior é que comprei ações BBAS3 e, no momento, são um péssimo negócio",
-          "split": "train",
-          "token_id": "17",
-          "token_instance_id": "train::dante_01_444603654902140928l::17"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_446682542805356545l",
-          "sentence_text": "@ClaudioRAE tô achando mais negócio vender PETR4 e comprar CIEL3, que daqui a 90 dias vai valorizar bastante.",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_446682542805356545l::5"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_448205455220015105l",
-          "sentence_text": "#petr4 14,43 tá bom?  rsrsr RT @clubedopairico: @Live_Trade pô ... se ela for lá mesmo ... O teu negócio só pode ser bruxaria ... ,) hehehe",
-          "split": "train",
-          "token_id": "21",
-          "token_instance_id": "train::dante_01_448205455220015105l::21"
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CONTACTOR, AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY CONTACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_471988686855630849l",
+          "text": "Bom Dia seus habitantes da Papuda ligados aos negócios da #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "contact.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "negócios",
-          "sent_id": "dante_01_456148682857914368l",
-          "sentence_text": "Quarentena de diretores?! Para ñ terem negócios com a petr4... Q solução hein Senador Valadares?! Jesuis...",
-          "split": "train",
-          "token_id": "9",
-          "token_instance_id": "train::dante_01_456148682857914368l::9",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S008",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_456387515193106432l",
-          "sentence_text": "Presidente da #PETR4 dizer que compra da refinaria de pasadena não foi um bom negócio é palhaçada. Mau negócio é ter que aturar ela.",
-          "split": "train",
-          "token_id": "17",
-          "token_instance_id": "train::dante_01_456387515193106432l::17"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_456387515193106432l",
-          "sentence_text": "Presidente da #PETR4 dizer que compra da refinaria de pasadena não foi um bom negócio é palhaçada. Mau negócio é ter que aturar ela.",
-          "split": "train",
-          "token_id": "22",
-          "token_instance_id": "train::dante_01_456387515193106432l::22"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_458670503268716546l",
-          "sentence_text": "#ABEV3 ótimo negócio!",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_458670503268716546l::3"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_458784090238767104l",
-          "sentence_text": "Concluímos que o melhor negócio do mundo é uma petroleira bem administrada. O segundo, é uma mal administrada. A #PETR4 é o terceiro!",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_458784090238767104l::5"
-        },
-        {
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "N",
-          "form": "negócio",
-          "sent_id": "dante_01_459317170187816960l",
-          "sentence_text": "caraca ... o negócio começou tenso na #PETR4 ! O jogo tá pesado !! o.O",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_459317170187816960l::4"
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 1,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY PERFORMING THE TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING TRANSACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CO-TRANSACTOR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "VALUE OF TRANSACTION",
-                "head_token_id": "5",
-                "role": "ARG3",
-                "span_text": "R$ 15,12",
-                "span_token_ids": [
-                  5,
-                  6
-                ],
-                "status": "YES",
-                "head_form": "R$",
-                "head_lemma": "R$",
-                "head_deprel": "nmod"
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "transaction.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Negócios",
-          "sent_id": "dante_01_460225661630947328l",
-          "sentence_text": "#PETROBRAS ON PETR3 Preço  R$ 15,12 #Oscilação -1,11% Nº de Negócios 16.661",
-          "split": "train",
-          "token_id": "13",
-          "token_instance_id": "train::dante_01_460225661630947328l::13",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY PERFORMING THE TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING TRANSACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CO-TRANSACTOR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "VALUE OF TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "transaction.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "negócios",
-          "sent_id": "dante_01_461213331479887873l",
-          "sentence_text": "O volume de negócios c/ as opções serie E da #PETROBRAS é realmente incrível!Dá para entender um pouco o q. o ativo virou ultimamente #PETR4",
-          "split": "train",
-          "token_id": "4",
-          "token_instance_id": "train::dante_01_461213331479887873l::4",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY PERFORMING THE TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING TRANSACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CO-TRANSACTOR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "VALUE OF TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "transaction.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "negócios",
-          "sent_id": "dante_01_467340956761874432l",
-          "sentence_text": "Minhas posições: #alll3 stop 8,41. #hype3 stop 17,69. #mglu3 stop 8,23. #bbas3 23,71. #petr4 não sei oq fazer hehe. Bons negócios a todos.",
-          "split": "train",
-          "token_id": "28",
-          "token_instance_id": "train::dante_01_467340956761874432l::28",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY PERFORMING THE TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING TRANSACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CO-TRANSACTOR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "VALUE OF TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "transaction.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "negócio",
-          "sent_id": "dante_01_468782261589266432l",
-          "sentence_text": "#EMBR3 - Embraer vende 28 cargueiros ao Brasil em negócio de R$7,2 bi - http://t.co/6b1QZNgkX3",
-          "split": "train",
-          "token_id": "11",
-          "token_instance_id": "train::dante_01_468782261589266432l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 0,
-            "role_slots": 4,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ENTITY PERFORMING THE TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING TRANSACTED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CO-TRANSACTOR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "VALUE OF TRANSACTION",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "transaction.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "negócio",
-          "sent_id": "dante_01_468808060279218176l",
-          "sentence_text": "#BOVESPA #EMBR3 Embraer vende 28 cargueiros ao Brasil em negócio de R$ 7,2 bi. http://t.co/U1t7Xj8iOH",
-          "split": "train",
-          "token_id": "11",
-          "token_instance_id": "train::dante_01_468808060279218176l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S002",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 0,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "ACTION",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "business.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "negócios",
-          "sent_id": "dante_01_471988686855630849l",
-          "sentence_text": "Bom Dia seus habitantes da Papuda ligados aos negócios da #PETR4",
-          "split": "train",
-          "token_id": "11",
-          "token_instance_id": "train::dante_01_471988686855630849l::11",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0450-S001",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_471988686855630849l::negócio::1",
+          "predicate": {
+            "form": "negócios"
           }
         }
       ],
-      "lemma": "negócio",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L1102_0161",
-        "dupb_source_unit_id": "lemma::negócio::NOUN_SENSE::08",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "negócio",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS_ONLY",
-        "source_legos": "YES",
-        "source_morph": "NO"
-      },
-      "observed_semantic_units": [
+      "syntactic_profile": {}
+    },
+    {
+      "pt_roleset": "negócio.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "transaction.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/transaction.xml",
+      "roles": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "business.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "negócio",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AGENT",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ACTION",
-              "generalized_description": "ACTION",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0450-S001"
+          "id": "Arg0",
+          "desc": "ENTITY PERFORMING THE TRANSACTION"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "transaction.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "negócio",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ENTITY PERFORMING THE TRANSACTION",
-              "generalized_description": "PERFORMER",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING TRANSACTED",
-              "generalized_description": "TRANSACTED",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CO-TRANSACTOR",
-              "generalized_description": "CO",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "VALUE OF TRANSACTION",
-              "generalized_description": "ACTION",
-              "role_label": "ARG3",
-              "role_number": "3"
-            }
-          ],
-          "observed_instance_count": 5,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0450-S002"
+          "id": "Arg1",
+          "desc": "THING TRANSACTED"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "contact.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "negócio",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CONTACTOR, AGENT",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "ENTITY CONTACTED",
-              "generalized_description": "CONTACTED",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0450-S008"
+          "id": "Arg2",
+          "desc": "CO-TRANSACTOR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "VALUE OF TRANSACTION"
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 13,
-        "S": 7,
-        "instances_total": 20,
-        "regular_argument_instances": 7,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "examples": [
+        {
+          "sent_ID": "dante_01_460225661630947328l",
+          "text": "#PETROBRAS ON PETR3 Preço  R$ 15,12 #Oscilação -1,11% Nº de Negócios 16.661",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "R$ 15,12"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod"
+          },
+          "instance_id": "dante_01_460225661630947328l::negócio::1",
+          "predicate": {
+            "form": "Negócios"
+          }
+        },
+        {
+          "sent_ID": "dante_01_461213331479887873l",
+          "text": "O volume de negócios c/ as opções serie E da #PETROBRAS é realmente incrível!Dá para entender um pouco o q. o ativo virou ultimamente #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_461213331479887873l::negócio::1",
+          "predicate": {
+            "form": "negócios"
+          }
+        },
+        {
+          "sent_ID": "dante_01_467340956761874432l",
+          "text": "Minhas posições: #alll3 stop 8,41. #hype3 stop 17,69. #mglu3 stop 8,23. #bbas3 23,71. #petr4 não sei oq fazer hehe. Bons negócios a todos.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_467340956761874432l::negócio::1",
+          "predicate": {
+            "form": "negócios"
+          }
+        },
+        {
+          "sent_ID": "dante_01_468782261589266432l",
+          "text": "#EMBR3 - Embraer vende 28 cargueiros ao Brasil em negócio de R$7,2 bi - http://t.co/6b1QZNgkX3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_468782261589266432l::negócio::1",
+          "predicate": {
+            "form": "negócio"
+          }
+        },
+        {
+          "sent_ID": "dante_01_468808060279218176l",
+          "text": "#BOVESPA #EMBR3 Embraer vende 28 cargueiros ao Brasil em negócio de R$ 7,2 bi. http://t.co/U1t7Xj8iOH",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_468808060279218176l::negócio::1",
+          "predicate": {
+            "form": "negócio"
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg3": {
+          "nmod": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "negócio.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "english_roleset": "contact.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/contact.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "CONTACTOR, AGENT"
+        },
+        {
+          "id": "Arg1",
+          "desc": "ENTITY CONTACTED"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_456148682857914368l",
+          "text": "Quarentena de diretores?! Para ñ terem negócios com a petr4... Q solução hein Senador Valadares?! Jesuis...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_456148682857914368l::negócio::1",
+          "predicate": {
+            "form": "negócios"
+          }
+        }
+      ],
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

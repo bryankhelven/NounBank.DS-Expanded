@@ -1,866 +1,232 @@
 {
   "lemma": "crescimento",
   "lemma_base": "crescimento",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "crescimento",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "current_authority": "LEGOS",
-      "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "",
-      "dupb_source_locator": "",
-      "legacy_authority_primary": "LEGOS",
-      "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 6,
-      "S": 6,
-      "N": 0,
-      "argument_YES": 4,
-      "argument_NO": 22,
-      "argument_ABSTAIN": 10
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "crescimento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "growth.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/growth.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 3,
-            "realized_yes": 2,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": "20",
-                "role": "ARG1",
-                "span_text": "de a produção de petróleo",
-                "span_token_ids": [
-                  18,
-                  19,
-                  20,
-                  21,
-                  22
-                ],
-                "status": "YES",
-                "head_form": "produção",
-                "head_lemma": "produção",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": "9",
-                "role": "ARG2",
-                "span_text": "R$ 4,657 bilhões",
-                "span_token_ids": [
-                  7,
-                  8,
-                  9
-                ],
-                "status": "YES",
-                "head_form": "bilhões",
-                "head_lemma": "bilhão",
-                "head_deprel": "obj"
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "id": "Arg0",
+          "desc": "CAUSER OF GROWTH - SHOULD BE POSSIBLE"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING GROWN"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT, END STATE OF ARG1"
+        },
+        {
+          "id": "Arg5",
+          "desc": "SECONDARY-THEME"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453685323869200385l",
+          "text": "#OIL #AL #BR #PETR4 Royalties totalizam R$ 4,657 bilhões no 1º tri. devido ao crescimento da produção de petróleo. http://t.co/8bqYjafWaY",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a produção de petróleo",
+            "Arg2": "R$ 4,657 bilhões",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "obj",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "crescimento",
-          "sent_id": "dante_01_453685323869200385l",
-          "sentence_text": "#OIL #AL #BR #PETR4 Royalties totalizam R$ 4,657 bilhões no 1º tri. devido ao crescimento da produção de petróleo. http://t.co/8bqYjafWaY",
-          "split": "dev",
-          "token_id": "17",
-          "token_instance_id": "dev::dante_01_453685323869200385l::17",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_453685323869200385l::crescimento::1",
+          "predicate": {
+            "form": "crescimento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": "20",
-                "role": "ARG2",
-                "span_text": "de 3,1 %",
-                "span_token_ids": [
-                  18,
-                  19,
-                  20
-                ],
-                "status": "YES",
-                "head_form": "%",
-                "head_lemma": "%",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
+          "sent_ID": "dante_01_459291618378805249l",
+          "text": "Os Ativos Totais, em março de 2014, registraram saldo de R$ 922,229 bilhões, crescimento de 3,1% em relação ao mesmo período de 2013. #BBDC4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de 3,1 %",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "crescimento",
-          "sent_id": "dante_01_459291618378805249l",
-          "sentence_text": "Os Ativos Totais, em março de 2014, registraram saldo de R$ 922,229 bilhões, crescimento de 3,1% em relação ao mesmo período de 2013. #BBDC4",
-          "split": "dev",
-          "token_id": "17",
-          "token_instance_id": "dev::dante_01_459291618378805249l::17",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_459291618378805249l::crescimento::1",
+          "predicate": {
+            "form": "crescimento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 1,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "EXPLICIT_SEMANTIC_AND_STRUCTURAL_LICENSING",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": "6",
-                "role": "ARG1",
-                "span_text": "de a produção",
-                "span_token_ids": [
-                  4,
-                  5,
-                  6
-                ],
-                "status": "YES",
-                "head_form": "produção",
-                "head_lemma": "produção",
-                "head_deprel": "nmod"
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 3
+          "sent_ID": "dante_01_441917006304927744l",
+          "text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a produção",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "crescimento",
-          "sent_id": "dante_01_441917006304927744l",
-          "sentence_text": "Petrobras reafirma crescimento da produção em 2014  A PETROBRAS (PETR4) reafirmou que sua produção de petróleo no... http://t.co/iLl0ciFreU",
-          "split": "train",
-          "token_id": "3",
-          "token_instance_id": "train::dante_01_441917006304927744l::3",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_441917006304927744l::crescimento::1",
+          "predicate": {
+            "form": "crescimento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 6,
-            "realized_yes": 0,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "sent_ID": "dante_01_461491747722256385l",
+          "text": "As Lojas Renner (LREN3) registrou lucro líquido consolidado de R$ 50,9 milhões (R$ 0,40 por ação) no primeiro trimestre de 2014, cresciment…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "crescimento",
-          "sent_id": "dante_01_450708320639533056l",
-          "sentence_text": "#SANB11 - Santander avalia novas oportunidades de crescimento na Espanha e no Brasil - http://t.co/6YPpquY5Op",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_450708320639533056l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S006",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_461491747722256385l::crescimento::1",
+          "predicate": {
+            "form": "cresciment"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 4,
-            "realized_yes": 0,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 2
+          "sent_ID": "dante_01_463664480288006145l",
+          "text": "Entrei em #petr4, com projeção de crescimento. #hype3 ta maravilhosa, continua na tendência de alta.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
           },
-          "form": "cresciment",
-          "sent_id": "dante_01_461491747722256385l",
-          "sentence_text": "As Lojas Renner (LREN3) registrou lucro líquido consolidado de R$ 50,9 milhões (R$ 0,40 por ação) no primeiro trimestre de 2014, cresciment…",
-          "split": "train",
-          "token_id": "28",
-          "token_instance_id": "train::dante_01_461491747722256385l::28",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 5,
-            "realized_yes": 0,
-            "role_slots": 6,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING GROWN",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "WEAK_OR_AMBIGUOUS_CONTEXTUAL_REALIZATION",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "AMOUNT INCREASED BY, EXT OR MNR",
-                "head_token_id": null,
-                "role": "ARG2",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "START POINT",
-                "head_token_id": null,
-                "role": "ARG3",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "END POINT, END STATE OF ARG1",
-                "head_token_id": null,
-                "role": "ARG4",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "SECONDARY-THEME",
-                "head_token_id": null,
-                "role": "ARG5",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "growth.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "crescimento",
-          "sent_id": "dante_01_463664480288006145l",
-          "sentence_text": "Entrei em #petr4, com projeção de crescimento. #hype3 ta maravilhosa, continua na tendência de alta.",
-          "split": "train",
-          "token_id": "8",
-          "token_instance_id": "train::dante_01_463664480288006145l::8",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0183-S004",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_463664480288006145l::crescimento::1",
+          "predicate": {
+            "form": "crescimento"
           }
         }
       ],
-      "lemma": "crescimento",
-      "lexical_authority": {
-        "current_authority": "LEGOS",
-        "current_authority_class": "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "current_authority_family": "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY",
-        "dupb_source_locator": "",
-        "dupb_source_unit_id": "",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "LEGOS",
-        "legacy_authority_primary_class": "LEGOS_POSITIVE_WITHOUT_DUPB_POSITIVE",
-        "legacy_status": "RESOLVED",
-        "lemma": "crescimento",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        },
+        "Arg2": {
+          "obj": 1,
+          "nmod": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "crescimento.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "growth.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/growth.xml",
+      "roles": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "growth.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "crescimento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING GROWN",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT, END STATE OF ARG1",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "SECONDARY-THEME",
-              "generalized_description": "THEME2",
-              "role_label": "ARG5",
-              "role_number": "5"
-            }
-          ],
-          "observed_instance_count": 5,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0183-S004"
+          "id": "Arg0",
+          "desc": "CAUSER OF GROWTH - SHOULD BE POSSIBLE"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "growth.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "crescimento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "CAUSER OF GROWTH - SHOULD BE POSSIBLE",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING GROWN",
-              "generalized_description": "PATIENT",
-              "role_label": "ARG1",
-              "role_number": "1"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "AMOUNT INCREASED BY, EXT OR MNR",
-              "generalized_description": "EXTENT",
-              "role_label": "ARG2",
-              "role_number": "2"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "START POINT",
-              "generalized_description": "START",
-              "role_label": "ARG3",
-              "role_number": "3"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "END POINT, END STATE OF ARG1",
-              "generalized_description": "END",
-              "role_label": "ARG4",
-              "role_number": "4"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "SECONDARY-THEME",
-              "generalized_description": "THEME2",
-              "role_label": "ARG5",
-              "role_number": "5"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0183-S006"
+          "id": "Arg1",
+          "desc": "THING GROWN"
+        },
+        {
+          "id": "Arg2",
+          "desc": "AMOUNT INCREASED BY, EXT OR MNR"
+        },
+        {
+          "id": "Arg3",
+          "desc": "START POINT"
+        },
+        {
+          "id": "Arg4",
+          "desc": "END POINT, END STATE OF ARG1"
+        },
+        {
+          "id": "Arg5",
+          "desc": "SECONDARY-THEME"
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 6,
-        "instances_total": 6,
-        "regular_argument_instances": 6,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "examples": [
+        {
+          "sent_ID": "dante_01_450708320639533056l",
+          "text": "#SANB11 - Santander avalia novas oportunidades de crescimento na Espanha e no Brasil - http://t.co/6YPpquY5Op",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null,
+            "Arg5": null
+          },
+          "instance_id": "dante_01_450708320639533056l::crescimento::1",
+          "predicate": {
+            "form": "crescimento"
+          }
+        }
+      ],
+      "syntactic_profile": {}
     }
-  }
+  ]
 }

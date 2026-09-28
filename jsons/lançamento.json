@@ -1,303 +1,96 @@
 {
   "lemma": "lançamento",
   "lemma_base": "lançamento",
-  "senses": [],
-  "expanded_v2": {
-    "schema_version": "nbe-ds-expanded-public-json/2.0",
-    "science_authority": "ORCH_RECON_000158",
-    "productization_authority": "ORCH_RECON_000159",
-    "target_corpus": "DANTEStocks_ONLY",
-    "lineage": {
-      "inventory_partition": "NEW_564",
-      "extends_canonical_nounbank_ds": true,
-      "canonical_v1_repository": "https://github.com/bryankhelven/NounBank.DS",
-      "v1_legacy_payload_preserved": false
-    },
-    "lexical_authority": {
-      "lemma": "lançamento",
-      "inventory_partition": "NEW_564",
-      "current_authority_family": "DUPB_BACKED",
-      "current_authority": "DUPB",
-      "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "source_combination_v10_imported": "LEGOS+MORPH",
-      "source_legos": "YES",
-      "source_morph": "YES",
-      "dupb_source_unit_id": "lemma::lançamento::NOUN_SENSE::01",
-      "dupb_source_locator": "L0957_0084",
-      "legacy_authority_primary": "DUPB",
-      "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-      "legacy_status": "RESOLVED",
-      "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE"
-    },
-    "summary": {
-      "contextual_instances": 3,
-      "S": 3,
-      "N": 0,
-      "argument_YES": 0,
-      "argument_NO": 4,
-      "argument_ABSTAIN": 2
-    },
-    "current_record": {
-      "instances": [
+  "senses": [
+    {
+      "pt_roleset": "lançamento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "launch.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/launch.xml",
+      "roles": [
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 2,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "STARTER, AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING BEING LAUNCHED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 0
+          "id": "Arg0",
+          "desc": "STARTER, AGENT"
+        },
+        {
+          "id": "Arg1",
+          "desc": "THING BEING LAUNCHED"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_472032216202362880l",
+          "text": "$JBSS3 - Jbs (jbss-nm) - Retirada Temporaria Do Lancamento Das Notas Seniores http://t.co/UsqXkOxaWA",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "launch.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "lançamento",
-          "sent_id": "dante_01_459041599486697472l",
-          "sentence_text": "VOLTEI! Após uma semana de férias no Rio, tô de volta. E já entrei em VALE5 a $27,63, com lançamento VALEE29, exerc. $28,70. Ô trem bão!",
-          "split": "test",
-          "token_id": "26",
-          "token_instance_id": "test::dante_01_459041599486697472l::26",
-          "wsd": {
-            "authority": "ORCH56_WSD117_PROMOTED_FOR_MASTER_BY_ORCH133",
-            "confidence": "MEDIUM",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "lemma::lançamento::NOUN_SENSE::05",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_WSD117"
+          "instance_id": "dante_01_472032216202362880l::lançamento::1",
+          "predicate": {
+            "form": "Lancamento"
           }
         },
         {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "STARTER, AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING BEING LAUNCHED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
+          "sent_ID": "dante_01_458764455326007297l",
+          "text": "$GOLL4 - GOL Anuncia Lançamento de Voo Direto entre Fortaleza e Buenos Aires http://t.co/P08eltfYsP",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "launch.01",
-            "status": "VALIDATED_ALIGNMENT"
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
           },
-          "form": "Lancamento",
-          "sent_id": "dante_01_472032216202362880l",
-          "sentence_text": "$JBSS3 - Jbs (jbss-nm) - Retirada Temporaria Do Lancamento Das Notas Seniores http://t.co/UsqXkOxaWA",
-          "split": "test",
-          "token_id": "12",
-          "token_instance_id": "test::dante_01_472032216202362880l::12",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0399-S005",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
-          }
-        },
-        {
-          "argument_resource": {
-            "lane": "EXPANDED_NEW_1730",
-            "realized_no": 1,
-            "realized_yes": 0,
-            "role_slots": 2,
-            "roles": [
-              {
-                "adjudication_reason": "NO_LICENSED_EXPLICIT_REALIZATION_FOUND",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "STARTER, AGENT",
-                "head_token_id": null,
-                "role": "ARG0",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "NO",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              },
-              {
-                "adjudication_reason": "PLAUSIBLE_BUT_NOT_DIAGNOSTICALLY_UNIQUE",
-                "authority": "ORCH151_ROLEINV+CURRENT_CONTEXTUAL_STRUCTURAL_ADJUDICATION",
-                "description": "THING BEING LAUNCHED",
-                "head_token_id": null,
-                "role": "ARG1",
-                "span_text": null,
-                "span_token_ids": [],
-                "status": "ABSTAIN",
-                "head_form": null,
-                "head_lemma": null,
-                "head_deprel": null
-              }
-            ],
-            "status": "REGULAR_ARGUMENT_RESOURCE",
-            "terminal_abstain": 1
-          },
-          "contextual_authority_lineage": "PRESERVED_ORCH40",
-          "contextual_predicativity": "S",
-          "english_alignment": {
-            "authority": "ORCH_RECON_000150",
-            "english_nombank_roleset": "launch.01",
-            "status": "VALIDATED_ALIGNMENT"
-          },
-          "form": "Lançamento",
-          "sent_id": "dante_01_458764455326007297l",
-          "sentence_text": "$GOLL4 - GOL Anuncia Lançamento de Voo Direto entre Fortaleza e Buenos Aires http://t.co/P08eltfYsP",
-          "split": "train",
-          "token_id": "5",
-          "token_instance_id": "train::dante_01_458764455326007297l::5",
-          "wsd": {
-            "authority": "ORCH54_GATE_C_WSD1735_TRANSVERSAL_ACCEPTED_BY_ORCH133",
-            "confidence": "HIGH",
-            "generic_abstain": "NO",
-            "semantic_unit_id": "NBDS2-L0399-S005",
-            "terminal_category": "EXACT_RESOLUTION",
-            "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_POST_READJUDICATION"
+          "instance_id": "dante_01_458764455326007297l::lançamento::1",
+          "predicate": {
+            "form": "Lançamento"
           }
         }
       ],
-      "lemma": "lançamento",
-      "lexical_authority": {
-        "current_authority": "DUPB",
-        "current_authority_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "current_authority_family": "DUPB_BACKED",
-        "dupb_source_locator": "L0957_0084",
-        "dupb_source_unit_id": "lemma::lançamento::NOUN_SENSE::01",
-        "inventory_partition": "NEW_564",
-        "legacy_authority_primary": "DUPB",
-        "legacy_authority_primary_class": "DUPB_POSITIVE_LEXICAL_AUTHORITY",
-        "legacy_status": "RESOLVED",
-        "lemma": "lançamento",
-        "lineage_authority": "ORCH_RECON_000144_CURRENT_LEXICAL_PROVENANCE_FREEZE",
-        "source_combination_v10_imported": "LEGOS+MORPH",
-        "source_legos": "YES",
-        "source_morph": "YES"
-      },
-      "observed_semantic_units": [
+      "syntactic_profile": {}
+    },
+    {
+      "pt_roleset": "lançamento.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "launch.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/launch.xml",
+      "roles": [
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "launch.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "lançamento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "STARTER, AGENT",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING BEING LAUNCHED",
-              "generalized_description": "LAUNCHED",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 2,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "NBDS2-L0399-S005"
+          "id": "Arg0",
+          "desc": "STARTER, AGENT"
         },
         {
-          "authority": "ORCH_RECON_000150",
-          "english_nombank_roleset": "launch.01",
-          "enmap_status": "VALIDATED_ALIGNMENT",
-          "lemma": "lançamento",
-          "licensed_role_inventory": [
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "STARTER, AGENT",
-              "generalized_description": "AGENT",
-              "role_label": "ARG0",
-              "role_number": "0"
-            },
-            {
-              "authority": "ORCH_RECON_000151_ROLEINV001",
-              "description": "THING BEING LAUNCHED",
-              "generalized_description": "LAUNCHED",
-              "role_label": "ARG1",
-              "role_number": "1"
-            }
-          ],
-          "observed_instance_count": 1,
-          "pt_wsd_status": "EXACT",
-          "roleset_alignment_scope": "NEW_564_ENMAP001",
-          "semantic_unit_id": "lemma::lançamento::NOUN_SENSE::05"
+          "id": "Arg1",
+          "desc": "THING BEING LAUNCHED"
         }
       ],
-      "resource": "NounBank.DS Expanded",
-      "schema_version": "nbe-expanded-release/2.0-rc.2",
-      "statistics": {
-        "N": 0,
-        "S": 3,
-        "instances_total": 3,
-        "regular_argument_instances": 3,
-        "terminal_semantic_exceptions": 0
-      },
-      "target_corpus": "DANTEStocks_ONLY"
+      "examples": [
+        {
+          "sent_ID": "dante_01_459041599486697472l",
+          "text": "VOLTEI! Após uma semana de férias no Rio, tô de volta. E já entrei em VALE5 a $27,63, com lançamento VALEE29, exerc. $28,70. Ô trem bão!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_459041599486697472l::lançamento::1",
+          "predicate": {
+            "form": "lançamento"
+          }
+        }
+      ],
+      "syntactic_profile": {}
     }
-  }
+  ]
 }
