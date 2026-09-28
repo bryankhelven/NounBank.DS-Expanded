@@ -1,39 +1,33 @@
 {
-  "schema_version": "nbe-ds-expanded-public-stats/1.0",
-  "lexical": {
+  "schema_version": "nbe-ds-expanded-public-stats/2.0",
+  "inventory": {
     "lemmas": 709,
-    "inherited_v1": 145,
-    "new": 564,
-    "new_dupb_backed": 295,
-    "new_legos_only_without_dupb_backed": 269,
-    "authority_family": {
-      "NOUNBANK_DS_V1_PUBLISHED": 145,
-      "DUPB_BACKED": 295,
-      "LEGOS_ONLY_WITHOUT_DUPB_BACKED_AUTHORITY": 269
-    },
-    "authority_class": {
-      "INHERITED_V1": 145,
-      "DUPB_POSITIVE_LEXICAL_AUTHORITY": 291,
-      "LEGOS_POSITIVE_WITHOUT_DUPB_BACKED_AUTHORITY": 269,
-      "DUPB_ADJUDICATED_DERIVED_AUTHORITY": 4
-    }
+    "original": 145,
+    "new": 564
   },
-  "contextual": {
-    "instances": 6416,
-    "S": 3618,
-    "N": 2798
+  "occurrences": {
+    "total": 6416,
+    "predicative": 3618,
+    "non_predicative": 2798
   },
-  "wsd": {
-    "S_instances": 3618,
+  "sense_identification": {
+    "predicative_occurrences": 3618,
     "exact": 3595,
-    "terminal_nonexact": 23
+    "without_exact_identification": 23
+  },
+  "english_nombank_mapping": {
+    "semantic_units": 389,
+    "validated": 327,
+    "exact": 1,
+    "reviewed_approximate": 24,
+    "without_safe_mapping": 16,
+    "without_nombank_match": 13,
+    "construction_specific": 7,
+    "ambiguous": 1
   },
   "arguments": {
-    "regular_instances": 3524,
-    "licensed_role_slots": 14984,
-    "YES": 2669,
-    "NO": 11015,
-    "ABSTAIN": 1300,
+    "regular_occurrences": 3524,
+    "realized_total": 2669,
     "realized_role_labels": {
       "ARG0": 512,
       "ARG1": 1591,
@@ -42,19 +36,19 @@
       "ARG4": 9,
       "ARGM": 1
     },
-    "numbered_overt_arguments_per_instance": {
+    "numbered_arguments_per_occurrence": {
       "0": 1602,
       "1": 1233,
       "2": 632,
       "3": 57
     },
-    "lemma_max_numbered_overt_arguments": {
+    "maximum_numbered_arguments_per_lemma": {
       "0": 248,
       "1": 111,
       "2": 73,
       "3": 28
     },
-    "lemma_distinct_numbered_role_labels_realized": {
+    "distinct_numbered_roles_per_lemma": {
       "0": 248,
       "1": 96,
       "2": 74,
@@ -62,79 +56,26 @@
       "4": 7,
       "5": 2
     },
-    "licensed_role_inventory_size_new_352_units": {
+    "roles_per_mapped_semantic_unit": {
       "1": 5,
       "2": 101,
       "3": 142,
       "4": 55,
       "5": 41,
       "6": 8
-    },
-    "argument_lineage": {
-      "V1_REUSE_1747": {
-        "instances": 1747,
-        "role_slots": 8721,
-        "YES": 1863,
-        "description": "Gold publicado V1 reutilizado"
-      },
-      "V1_IDENTITY_REPAIRED_9": {
-        "instances": 9,
-        "role_slots": 45,
-        "YES": 11,
-        "description": "Gold V1 preservado após reparo de identidade"
-      },
-      "V1_INHERITED_NEW_38": {
-        "instances": 38,
-        "role_slots": 190,
-        "YES": 33,
-        "NO": 148,
-        "ABSTAIN": 9,
-        "description": "Novos contextos de predicadores herdados"
-      },
-      "EXPANDED_NEW_1730": {
-        "instances": 1730,
-        "role_slots": 6028,
-        "YES": 762,
-        "NO": 3975,
-        "ABSTAIN": 1291,
-        "description": "Novos predicadores da expansão"
-      }
     }
   },
-  "enmap_new_units": {
-    "units": 389,
-    "status_counts": {
-      "VALIDATED_ALIGNMENT": 327,
-      "NO_SAFE_ALIGNMENT": 16,
-      "APPROXIMATE_REVIEWED": 24,
-      "NO_ENGLISH_NOMBANK_MATCH": 13,
-      "CONSTRUCTION_SPECIFIC": 7,
-      "EXACT": 1,
-      "AMBIGUOUS": 1
-    }
+  "outside_regular_argument_statistics": {
+    "total": 94,
+    "without_exact_sense_identification": 23,
+    "without_regular_english_mapping": 52,
+    "construction_specific": 19
   },
-  "terminal_semantic_exceptions": {
-    "instances": 94,
-    "type_counts": {
-      "WSD_TERMINAL_NONEXACT": 23,
-      "ENMAP_TERMINAL_NONALIGNED": 52,
-      "CONSTRUCTION_SPECIFIC": 19
-    }
-  },
-  "compatibility": {
-    "canonical_v1_lemmas": 145,
-    "canonical_v1_examples": 1756,
+  "comparison_with_original": {
+    "original_lemmas": 145,
+    "original_examples": 1756,
     "expanded_lemmas": 709,
     "added_lemmas": 564,
-    "v1_payload_compatibility": "145/145 PASS",
-    "lexical_multiplier": 4.889655172413793,
-    "lexical_growth_percent": 388.9655172413793
-  },
-  "methodology": {
-    "HEAD_SPAN_required_for_YES": true,
-    "V1_span_reanchors": 96,
-    "V1_heads_derived_inside_frozen_span": 104,
-    "generic_unresolved": 0,
-    "target_corpus": "DANTEStocks_ONLY"
+    "original_entries_preserved": 145
   }
 }
