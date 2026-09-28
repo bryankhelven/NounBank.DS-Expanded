@@ -1,0 +1,29 @@
+name: Rebuild V1-compatible lemma layout
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - tools/_rebuild_v1_compatible_layout.py
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Rebuild static pages
+        run: python3 tools/_rebuild_v1_compatible_layout.py
+      - name: Commit pages
+        run: |
+          rm -f tools/_rebuild_v1_compatible_layout.py
+          rm -f .github/workflows/rebuild-v1-compatible-layout.yml
+          git config user.name "NounBank.DS Expanded Bot"
+          git config user.email "noreply@github.com"
+          git add -A
+          git commit -m "Restore V1-compatible semantic block layout"
+          git push origin HEAD:main
