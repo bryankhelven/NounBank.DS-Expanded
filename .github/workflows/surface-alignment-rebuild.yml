@@ -1,0 +1,29 @@
+name: Surface alignment rebuild
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - tools/_surface_alignment_rebuild.py
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Rebuild pages
+        run: python3 tools/_surface_alignment_rebuild.py
+      - name: Commit pages
+        run: |
+          rm -f tools/_surface_alignment_rebuild.py
+          rm -f .github/workflows/surface-alignment-rebuild.yml
+          git config user.name "NounBank.DS Expanded Bot"
+          git config user.email "noreply@github.com"
+          git add -A
+          git commit -m "Fix surface alignment for REL and arguments"
+          git push origin HEAD:main
