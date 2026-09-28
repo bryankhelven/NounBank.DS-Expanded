@@ -1,1 +1,28 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sobre - NounBank.DS Expanded</title><link rel="stylesheet" href="styles.css"></head><body><header class="header"><nav><a href="index.html">NounBank.DS<sup class="brand-power">Expanded</sup></a><a href="statistics.html">Estatísticas</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a class="download-all-btn" href="jsons/nounbank.ds_expanded_all_jsons.zip" download>Download JSONs</a></nav></header><main class="content page-top"><h1>Sobre o NounBank.DS<sup class="brand-power">Expanded</sup></h1><p>O <strong>NounBank.DS Expanded</strong> é uma expansão do <a href="https://github.com/bryankhelven/NounBank.DS">NounBank.DS canônico</a>, preservando seus 145 nomes predicadores e acrescentando 564 novos lemas no mesmo domínio DANTEStocks.</p><p>A expansão adiciona decisões contextuais S/N, unidades semânticas em português, alinhamentos validados com NomBank 1.0, inventários de papéis licenciados e realização argumental com HEAD e SPAN. Casos sem alinhamento seguro permanecem tipados, em vez de serem forçados.</p><h2>Relação com o recurso original</h2><p>Nos lemas herdados, o payload público V1 é preservado e a camada atual aparece sob <code>expanded_v2</code>. O Expanded funciona como uma potenciação do recurso original, não como um recurso sem lineage.</p><h2>Como citar</h2><p>Barbosa, B. K. S.; Di Felippo, A. (2025). <em>NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese</em>. STIL 2025.</p></main></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sobre — NounBank.DS Expanded</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header"><nav>
+<a href="index.html">NounBank.DS<sup class="brand-power">Expanded</sup></a>
+<a href="statistics.html">Estatísticas</a>
+<a href="sobre.html" class="active">Sobre</a>
+<a href="contato.html">Contato</a>
+<a class="download-all-btn" href="jsons/nounbank.ds_expanded_all_jsons.zip" download>Download JSONs</a>
+</nav></header>
+<main class="content page-top">
+<h1>Sobre o NounBank.DS<sup class="brand-power">Expanded</sup></h1>
+<p>O <strong>NounBank.DS<sup>Expanded</sup></strong> amplia o <a href="https://github.com/bryankhelven/NounBank.DS">NounBank.DS</a>, um repositório de nomes predicadores extraídos do corpus DANTEStocks, formado por textos do domínio financeiro.</p>
+<p>A versão original reúne 145 nomes predicadores. A expansão mantém essas entradas e acrescenta 564 novos lemas, totalizando <strong>709 nomes</strong> analisados em <strong>6.416 ocorrências</strong> do corpus.</p>
+<p>Para cada nome predicador, o recurso apresenta os <strong>rolesets</strong>, os papéis semânticos <strong>Arg0, Arg1, Arg2, Arg3 e Arg4</strong> quando licenciados, exemplos reais do DANTEStocks e a <strong>realização sintática</strong> dos argumentos com rótulos da Universal Dependencies, como <em>nsubj</em>, <em>nmod</em>, <em>obj</em> e outros. Nos exemplos, o nome predicador é identificado como <strong>REL</strong>, seguindo a convenção da versão original.</p>
+<p>A expansão também distingue, no contexto, ocorrências em que o nome funciona como predicador e ocorrências em que não manifesta uso predicador. Quando há correspondência adequada, a entrada informa ainda o mapeamento para um roleset do <a href="https://nlp.cs.nyu.edu/meyers/nombank/">NomBank</a> em inglês.</p>
+<h2>O que mudou em relação ao NounBank.DS?</h2>
+<p>Os 145 lemas da versão original foram preservados e podem ser reconhecidos na nova interface. As 564 novas entradas são marcadas com <strong>NEW</strong>. A página <a href="statistics.html">Estatísticas</a> apresenta uma visão geral da ampliação do inventário, dos usos predicadores e das realizações argumentais observadas.</p>
+<h2>Como citar</h2>
+<p>Barbosa, B. K. S.; Di Felippo, A. (2025). <em>NounBank.DS: a Lexical Repository of Nominal Frames from Stock Market Tweets in Brazilian Portuguese</em>. Proceedings of STIL 2025.</p>
+<h2>Agradecimentos</h2>
+<p>Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São Paulo (C4AI), com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation. O projeto também contou com apoio do Ministério da Ciência, Tecnologia e Inovações no âmbito do PPI-SOFTEX.</p>
+</main>
+</body></html>
