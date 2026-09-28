@@ -60,3 +60,26 @@ body,html{margin:0;min-height:100%;font-family:Arial,sans-serif;background:#333;
 @media(max-width:420px){
   #content-box.hidden-content-box{column-count:1}
 }
+
+
+/* V1-compatible semantic block separation */
+.sense-divider{
+  height:1px;
+  margin:34px 0 30px;
+  background:linear-gradient(90deg,transparent,#8d98b7 12%,#8d98b7 88%,transparent);
+  box-shadow:0 1px 0 rgba(255,255,255,.06);
+}
+.roleset-line{
+  line-height:1.7;
+  padding:12px 14px;
+  background:#353b46;
+  border-left:4px solid #7583c5;
+  border-radius:8px;
+}
+.letter-button.selected{
+  background:#3f4f7f;
+  box-shadow:0 0 0 2px #8b98df inset;
+}
+.back-floating:hover{
+  background:#3f4f7f;
+}
