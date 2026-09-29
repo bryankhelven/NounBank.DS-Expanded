@@ -1,0 +1,21 @@
+name: Audit lexical identity history
+on:
+  push:
+    branches:
+      - lexical-history-audit-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: python tools/lexical_history_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_LEXICAL_IDENTITY_HISTORY_AUDIT
+          path: |
+            LEXICAL_IDENTITY_HISTORY_AUDIT.tsv
+            LEXICAL_IDENTITY_HISTORY_SHORTLIST.tsv
