@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import json, shutil, hashlib, urllib.request, zipfile, csv
+import json, shutil, hashlib, urllib.request, zipfile, csv, ssl
 
 ROOT=Path.cwd()
 V1=ROOT/"v1repo"
@@ -91,7 +91,7 @@ def download_xmls(pkg, xml_rows):
             err=""
             for u in urls:
                 try:
-                    with urllib.request.urlopen(u,timeout=30) as resp:
+                    ctx=ssl._create_unverified_context()\n                    with urllib.request.urlopen(u,timeout=30,context=ctx) as resp:
                         data=resp.read()
                     if b"<" not in data:
                         raise RuntimeError("not xml-like")
