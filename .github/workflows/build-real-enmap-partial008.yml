@@ -1,0 +1,28 @@
+name: Build real ENMAP partial 008
+on:
+  push:
+    branches:
+      - nbe-v2h-real-enmap-audit-20260929
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: work
+      - uses: actions/checkout@v4
+        with:
+          repository: bryankhelven/NounBank.DS-Expanded
+          ref: 46c8074f1d89d86dc7a2a619f4b1147d8d046d38
+          path: src
+      - run: python work/tools/build_real_enmap_partial008.py
+      - run: |
+          cat real_enmap_partial_008/VALIDATION.json
+          unzip -t NBE_V2H_REAL_ENMAP_PARTIAL_008.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_REAL_ENMAP_PARTIAL_008
+          path: NBE_V2H_REAL_ENMAP_PARTIAL_008.zip
+          compression-level: 0
