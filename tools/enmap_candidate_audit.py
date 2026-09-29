@@ -4,6 +4,19 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "antecipação3":["bringing_forward.xml","advance.xml","advancement.xml","acceleration.xml","rescheduling.xml","scheduling.xml"],
+ "burrice3":["blunder.xml","mistake.xml","error.xml","folly.xml","absurdity.xml","nonsense.xml"],
+ "congestão3":["stagnation.xml","flatness.xml","pause.xml","plateau.xml","consolidation.xml","range.xml"],
+ "convergência3":["narrowing.xml","closing.xml","alignment.xml","equalization.xml","matching.xml","merging.xml"],
+ "empate3":["stalemate.xml","deadlock.xml","equality.xml","balance.xml","parity.xml"],
+ "esperteza3":["shrewdness.xml","cunning.xml","craftiness.xml","cleverness.xml","guile.xml","deception.xml"],
+ "estrangulamento3":["squeeze.xml","pressure.xml","restriction.xml","constraint.xml","cutoff.xml","shortage.xml"],
+ "evasão3":["capital_flight.xml","flight.xml","outflow.xml","transfer.xml","remittance.xml","movement.xml"],
+ "exceção3":["outlier.xml","exception.xml","exemption.xml","deviation.xml","anomaly.xml","departure.xml"],
+ "movimento3":["movement.xml","move.xml","motion.xml","shift.xml","event.xml","occurrence.xml"],
+ "palhaçada3":["absurdity.xml","nonsense.xml","farce.xml","sham.xml","mockery.xml","joke.xml"],
+ "vertigem3":["dizziness.xml","vertigo.xml","nausea.xml","sickness.xml","disorientation.xml"],
+
  "festa3":["party.xml","celebration.xml","festivity.xml"],
  "giro3":["turnover.xml","trading.xml","trade.xml","rotation.xml","volume.xml"],
  "impulsão3":["momentum.xml","thrust.xml","impulse.xml","push.xml","drive.xml"],
