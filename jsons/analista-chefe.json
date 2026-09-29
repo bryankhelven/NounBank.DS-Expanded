@@ -1,0 +1,61 @@
+{
+  "lemma": "analista-chefe",
+  "lemma_base": "analista-chefe",
+  "senses": [
+    {
+      "pt_roleset": "analista.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "analyst.01",
+      "english_roleset_source": "INHERITED_COMPATIBLE_BASE_ROLESET",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/analyst.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "STUDENT"
+        },
+        {
+          "id": "Arg1",
+          "desc": "SUBJECT"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ANALYSIS FIRM"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459055184279506946l",
+          "text": "Flávio Conde, analista-chefe da Gradual, recomenda a compra de ações da MRV (MRVE3) com atenção a uma possível alta na abertura.",
+          "realization": {
+            "Arg0": "analista-chefe",
+            "Arg1": null,
+            "Arg2": "da Gradual"
+          },
+          "syntax": {
+            "Arg0": "appos",
+            "Arg1": null,
+            "Arg2": "nmod"
+          },
+          "instance_id": "dante_01_459055184279506946l::analista-chefe::1",
+          "predicate": {
+            "form": "analista-chefe",
+            "char_start": 14,
+            "char_end": 28
+          },
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "appos": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ],
+  "projection_status": "FUNCTIONAL_DERIVED_DANTE_ADJUDICATED",
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_003R1"
+}

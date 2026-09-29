@@ -1,0 +1,137 @@
+{
+  "lemma": "ex-diretor",
+  "lemma_base": "ex-diretor",
+  "senses": [
+    {
+      "pt_roleset": "diretor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "director.01",
+      "english_roleset_source": "INHERITED_COMPATIBLE_BASE_ROLESET",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/director.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446668654244270080l",
+          "text": "RT @Igorcrp: #PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t…",
+          "realization": {
+            "Arg0": "ex-diretor",
+            "Arg1": null,
+            "Arg2": "da Petro",
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null
+          },
+          "instance_id": "dante_01_446668654244270080l::ex-diretor::1",
+          "predicate": {
+            "form": "ex-diretor",
+            "char_start": 53,
+            "char_end": 63
+          },
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+        },
+        {
+          "sent_ID": "dante_01_448274532756115457l",
+          "text": "Se dizer enganada é ingenuidade ou esperteza demais exdirtr #PETR4 http://t.co/aiHc8DoM0m http://t.co/ahMKEhYbF0 #SomosTodosContraMarcoCivil",
+          "realization": {
+            "Arg0": "exdirtr",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_448274532756115457l::ex-diretor::1",
+          "predicate": {
+            "form": "exdirtr",
+            "char_start": 52,
+            "char_end": 59
+          },
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+        },
+        {
+          "sent_ID": "dante_01_456450491590119424l",
+          "text": "Cerveró ex diretor da Petrobras  falando na Câmara #petr4 acao sobe 1,89%",
+          "realization": {
+            "Arg0": "ex diretor",
+            "Arg1": null,
+            "Arg2": "da Petrobras",
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": "appos",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null
+          },
+          "instance_id": "dante_01_456450491590119424l::ex-diretor::1",
+          "predicate": {
+            "form": "ex diretor",
+            "char_start": 8,
+            "char_end": 18
+          },
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+        },
+        {
+          "sent_ID": "dante_01_446654593817399296l",
+          "text": "#PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t.co/YHocJpiEkv",
+          "realization": {
+            "Arg0": "ex-diretor",
+            "Arg1": null,
+            "Arg2": "da Petro",
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null
+          },
+          "instance_id": "dante_01_446654593817399296l::ex-diretor::1",
+          "predicate": {
+            "form": "ex-diretor",
+            "char_start": 40,
+            "char_end": 50
+          },
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "obj": 2,
+          "appos": 1
+        },
+        "Arg2": {
+          "nmod": 3
+        }
+      }
+    }
+  ],
+  "projection_status": "FUNCTIONAL_DERIVED_DANTE_ADJUDICATED",
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_003R1"
+}
