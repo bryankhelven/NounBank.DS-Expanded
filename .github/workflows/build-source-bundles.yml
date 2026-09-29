@@ -1,0 +1,64 @@
+name: Build source bundles
+on:
+  push:
+    branches:
+      - artifact-packaging-v1-expanded-closed-20260929
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout workflow branch
+        uses: actions/checkout@v4
+        with:
+          path: workrepo
+
+      - name: Checkout NounBank.DS V1
+        uses: actions/checkout@v4
+        with:
+          repository: bryankhelven/NounBank.DS
+          ref: main
+          path: v1repo
+
+      - name: Checkout Expanded pre-V2H authority
+        uses: actions/checkout@v4
+        with:
+          repository: bryankhelven/NounBank.DS-Expanded
+          ref: 7a8d6ad22d176b2b208405153740250a6b2a408a
+          path: exprepo
+
+      - name: Checkout DANTEStocks pinned corpus
+        uses: actions/checkout@v4
+        with:
+          repository: bryankhelven/UD_Portuguese-DANTEStocks
+          ref: 4268e8e1b2c95708136e34f38b8e8af96de86dd2
+          path: udrepo
+
+      - name: Build bundles
+        run: python workrepo/tools/build_source_bundles.py
+
+      - name: Show manifests
+        run: |
+          cat artifact_out/NOUNBANK_DS_V1_SOURCE_BUNDLE/MANIFEST.json
+          cat artifact_out/NOUNBANK_DS_EXPANDED_PREV_CLOSED_SOURCE_BUNDLE/MANIFEST.json
+          unzip -t artifact_out/NOUNBANK_DS_V1_SOURCE_BUNDLE.zip
+          unzip -t artifact_out/NOUNBANK_DS_EXPANDED_PREV_CLOSED_SOURCE_BUNDLE.zip
+
+      - name: Upload V1 bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: NOUNBANK_DS_V1_SOURCE_BUNDLE
+          path: artifact_out/NOUNBANK_DS_V1_SOURCE_BUNDLE.zip
+          if-no-files-found: error
+          compression-level: 0
+
+      - name: Upload Expanded previously closed bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: NOUNBANK_DS_EXPANDED_PREV_CLOSED_SOURCE_BUNDLE
+          path: artifact_out/NOUNBANK_DS_EXPANDED_PREV_CLOSED_SOURCE_BUNDLE.zip
+          if-no-files-found: error
+          compression-level: 0
