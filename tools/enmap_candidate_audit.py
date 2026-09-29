@@ -4,6 +4,12 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "festa3":["party.xml","celebration.xml","festivity.xml"],
+ "giro3":["turnover.xml","trading.xml","trade.xml","rotation.xml","volume.xml"],
+ "impulsão3":["momentum.xml","thrust.xml","impulse.xml","push.xml","drive.xml"],
+ "movimento3":["movement.xml","motion.xml","shift.xml","event.xml","move.xml"],
+ "antecipação3":["advance.xml","advancement.xml","acceleration.xml","timing.xml","preemption.xml"],
+
  "exceção3":["anomaly.xml","rarity.xml","deviation.xml","exceptional.xml","exception.xml","outlier.xml"],
  "gripe3":["infection.xml","disease.xml","illness.xml","sickness.xml","virus.xml","contagion.xml"],
  "desmoralização3":["discredit.xml","disgrace.xml","humiliation.xml","damage.xml","erosion.xml"],
