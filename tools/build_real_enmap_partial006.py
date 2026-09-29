@@ -95,3 +95,4 @@ with zipfile.ZipFile(z,"w",zipfile.ZIP_DEFLATED,compresslevel=9) as zz:
         if p.is_file(): zz.write(p,arcname=f"{OUT.name}/{p.relative_to(OUT).as_posix()}")
 print(json.dumps(validation,ensure_ascii=False,indent=2))
 print("ZIP_SHA256",sha(z))
+
