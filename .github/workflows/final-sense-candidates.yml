@@ -1,0 +1,19 @@
+name: Audit final awaiting sense candidates
+on:
+  push:
+    branches:
+      - nbe-v2h-final-awaiting-sense-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/final_sense_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_FINAL_SENSE_CANDIDATES
+          path: |
+            FINAL_SENSE_CANDIDATES.json
+            sense_xml/
