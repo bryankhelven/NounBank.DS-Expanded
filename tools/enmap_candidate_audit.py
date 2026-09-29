@@ -4,6 +4,11 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "calor_sense":["pressure.xml","heat.xml","stress.xml","strain.xml","trouble.xml","loss.xml"],
+ "concorrencia_sense":["competition.xml","contest.xml","race.xml"],
+ "desafio_sense":["challenge.xml","difficulty.xml","obstacle.xml","problem.xml"],
+ "bonificacao_ex":["bonus.xml","distribution.xml","issuance.xml","entitlement.xml","right.xml"],
+
  "agulhada_sense":["signal.xml","setup.xml","pattern.xml","formation.xml","configuration.xml","crossing.xml","cross.xml","breakout.xml"],
  "beliscada_compra":["purchase.xml","buy.xml","buying.xml","investment.xml","entry.xml"],
  "beliscada_toque":["touch.xml","hit.xml","reach.xml","test.xml","contact.xml"],
