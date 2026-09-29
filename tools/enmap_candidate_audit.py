@@ -4,6 +4,11 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "agulhada_sense":["signal.xml","setup.xml","pattern.xml","formation.xml","configuration.xml","crossing.xml","cross.xml","breakout.xml"],
+ "beliscada_compra":["purchase.xml","buy.xml","buying.xml","investment.xml","entry.xml"],
+ "beliscada_toque":["touch.xml","hit.xml","reach.xml","test.xml","contact.xml"],
+ "bicada_compra":["purchase.xml","buy.xml","buying.xml","investment.xml","entry.xml"],
+
  "esperteza5":["savvy.xml","acumen.xml","ingenuity.xml","astuteness.xml","wit.xml","wisdom.xml","deception.xml","trickery.xml"],
  "vertigem5":["thrill.xml","excitement.xml","exhilaration.xml","fear.xml","anxiety.xml","shock.xml","emotion.xml","sensation.xml"],
  "movimento5":["movement.xml","move.xml","shift.xml","spill.xml","event.xml","occurrence.xml","incident.xml"],
