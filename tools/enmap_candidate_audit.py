@@ -4,6 +4,10 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "esperteza5":["savvy.xml","acumen.xml","ingenuity.xml","astuteness.xml","wit.xml","wisdom.xml","deception.xml","trickery.xml"],
+ "vertigem5":["thrill.xml","excitement.xml","exhilaration.xml","fear.xml","anxiety.xml","shock.xml","emotion.xml","sensation.xml"],
+ "movimento5":["movement.xml","move.xml","shift.xml","spill.xml","event.xml","occurrence.xml","incident.xml"],
+
  "antecipação4":["advance.xml","advancement.xml","acceleration.xml","rescheduling.xml","scheduling.xml","prematurity.xml","earliness.xml","expedition.xml"],
  "esperteza4":["deception.xml","guile.xml","craft.xml","craftiness.xml","cunning.xml","shrewdness.xml","cleverness.xml","trickery.xml"],
  "estrangulamento4":["squeeze.xml","pressure.xml","restriction.xml","constraint.xml","cutoff.xml","shortage.xml","starvation.xml","drain.xml"],
