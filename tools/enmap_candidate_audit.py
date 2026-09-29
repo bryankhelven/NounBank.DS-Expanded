@@ -4,6 +4,18 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "adeus":["farewell.xml","goodbye.xml","departure.xml"],
+ "asneira":["remark.xml","statement.xml","nonsense.xml","comment.xml"],
+ "burrice":["stupidity.xml","foolishness.xml","mistake.xml","error.xml"],
+ "congestão":["congestion.xml","consolidation.xml","range.xml","stagnation.xml"],
+ "convergência":["convergence.xml","alignment.xml","agreement.xml","consensus.xml"],
+ "estrangulamento":["squeeze.xml","restriction.xml","constraint.xml","pressure.xml","choke.xml"],
+ "ingenuidade":["naivety.xml","naivete.xml","innocence.xml","gullibility.xml"],
+ "loucura":["madness.xml","insanity.xml","craziness.xml","folly.xml"],
+ "palhaçada":["farce.xml","joke.xml","mockery.xml","charade.xml"],
+ "preguiça":["laziness.xml","reluctance.xml","sloth.xml"],
+ "vertigem":["dizziness.xml","vertigo.xml"],
+
  "acomodação":["stabilization.xml","stability.xml","consolidation.xml","pause.xml"],
  "animada":["boost.xml","pickup.xml","rally.xml","rise.xml"],
  "congestão":["congestion.xml","consolidation.xml","range.xml"],
