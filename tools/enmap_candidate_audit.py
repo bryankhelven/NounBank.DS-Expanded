@@ -4,6 +4,13 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "antecipação4":["advance.xml","advancement.xml","acceleration.xml","rescheduling.xml","scheduling.xml","prematurity.xml","earliness.xml","expedition.xml"],
+ "esperteza4":["deception.xml","guile.xml","craft.xml","craftiness.xml","cunning.xml","shrewdness.xml","cleverness.xml","trickery.xml"],
+ "estrangulamento4":["squeeze.xml","pressure.xml","restriction.xml","constraint.xml","cutoff.xml","shortage.xml","starvation.xml","drain.xml"],
+ "exceção4":["outlier.xml","deviation.xml","anomaly.xml","departure.xml","exception.xml","exemption.xml","rarity.xml","oddity.xml"],
+ "movimento4":["movement.xml","move.xml","motion.xml","shift.xml","event.xml","occurrence.xml","incident.xml","leak.xml","spill.xml"],
+ "vertigem4":["dizziness.xml","vertigo.xml","nausea.xml","sickness.xml","disorientation.xml","giddiness.xml","lightheadedness.xml"],
+
  "antecipação3":["bringing_forward.xml","advance.xml","advancement.xml","acceleration.xml","rescheduling.xml","scheduling.xml"],
  "burrice3":["blunder.xml","mistake.xml","error.xml","folly.xml","absurdity.xml","nonsense.xml"],
  "congestão3":["stagnation.xml","flatness.xml","pause.xml","plateau.xml","consolidation.xml","range.xml"],
