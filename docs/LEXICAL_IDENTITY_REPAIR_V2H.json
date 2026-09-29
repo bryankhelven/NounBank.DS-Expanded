@@ -1,0 +1,54 @@
+{
+  "status": "CLOSED_LEXICAL_IDENTITY_REPAIR",
+  "base_commit": "46c8074f1d89d86dc7a2a619f4b1147d8d046d38",
+  "confirmed_collapses": [
+    {
+      "wrong_lemma": "descoberto",
+      "correct_lemma": "descoberta",
+      "action": "MOVE_3_PREDICATIVE_EXAMPLES_AND_REMOVE_FALSE_LEMMA",
+      "moved": 3,
+      "note": "descoberta (event noun) != descoberto (form in venda a descoberto); sole verdadeiro 'descoberto' occurrence is N"
+    },
+    {
+      "wrong_lemma": "retirado",
+      "correct_lemma": "retirada",
+      "action": "MERGE_AND_REMOVE_FALSE_LEMMA",
+      "moved": 1,
+      "note": "retirada is the event noun in corpus"
+    },
+    {
+      "wrong_lemma": "virado",
+      "correct_lemma": "virada",
+      "action": "MERGE_AND_REMOVE_FALSE_LEMMA",
+      "moved": 4,
+      "note": "virada is the nominal event/change noun"
+    },
+    {
+      "wrong_lemma": "alternativo",
+      "correct_lemma": "alternativa",
+      "action": "RENAME_LEXICAL_ENTRY",
+      "moved": 1,
+      "note": "noun in corpus is alternativa 'option', not masculine adjective alternativo"
+    },
+    {
+      "wrong_lemma": "representação",
+      "correct_lemma": "reapresentação",
+      "action": "MOVE_TO_NEW_SENSE_REAPRESENTACAO_02_AND_REMOVE_FALSE_LEMMA",
+      "moved": 2,
+      "note": "reapresentação is a distinct prefixed noun; financial-statement uses map to restatement.01"
+    }
+  ],
+  "reviewed_mismatch_files": 57,
+  "confirmed_real_collapses": 5,
+  "other_mismatch_files_classification": "SURFACE_VARIATION_OR_INFLECTION_NOT_LEXICAL_IDENTITY_COLLAPSE",
+  "inventory_before": 520,
+  "inventory_after": 516,
+  "new_before": 375,
+  "new_after": 371,
+  "predicative_occurrences_before": 3708,
+  "predicative_occurrences_after": 3707,
+  "pending_before": 133,
+  "pending_after": 132,
+  "awaiting_sense_before": 23,
+  "awaiting_sense_after": 22
+}
