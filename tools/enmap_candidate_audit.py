@@ -5,7 +5,10 @@ from pathlib import Path
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
  "antecipação":["anticipation.xml","advance.xml","advancement.xml","acceleration.xml"],
- "aviso":["notice.xml","warning.xml","announcement.xml"],\n "adeus":["farewell.xml","goodbye.xml"],\n "asneira":["nonsense.xml","remark.xml","statement.xml"],\n "burrice":["stupidity.xml","foolishness.xml"],
+ "aviso":["notice.xml","warning.xml","announcement.xml"],
+ "adeus":["farewell.xml","goodbye.xml"],
+ "asneira":["nonsense.xml","remark.xml","statement.xml"],
+ "burrice":["stupidity.xml","foolishness.xml"],
  "concentração":["concentration.xml","consolidation.xml","merger.xml","combination.xml"],
  "cura":["cure.xml"],
  "decolagem":["takeoff.xml","departure.xml","liftoff.xml","lift-off.xml"],
