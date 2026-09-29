@@ -4,19 +4,19 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
- "antecipação":["anticipation.xml"],
- "aviso":["notice.xml","warning.xml","announcement.xml"],
- "concentração":["concentration.xml"],
+ "antecipação":["anticipation.xml","advance.xml","advancement.xml","acceleration.xml"],
+ "aviso":["notice.xml","warning.xml","announcement.xml"],\n "adeus":["farewell.xml","goodbye.xml"],\n "asneira":["nonsense.xml","remark.xml","statement.xml"],\n "burrice":["stupidity.xml","foolishness.xml"],
+ "concentração":["concentration.xml","consolidation.xml","merger.xml","combination.xml"],
  "cura":["cure.xml"],
- "decolagem":["takeoff.xml","departure.xml"],
+ "decolagem":["takeoff.xml","departure.xml","liftoff.xml","lift-off.xml"],
  "desmoralização":["demoralization.xml"],
- "empate":["tie.xml","draw.xml"],
+ "empate":["tie.xml","draw.xml","deadlock.xml"],
  "estrangulamento":["strangulation.xml","choking.xml"],
- "evasão":["evasion.xml","escape.xml"],
+ "evasão":["evasion.xml","escape.xml","flight.xml","outflow.xml","transfer.xml","remittance.xml"],
  "exceção":["exception.xml"],
- "gripe":["flu.xml"],
- "impulso":["impulse.xml","push.xml"],
- "retração":["retraction.xml","contraction.xml"]
+ "gripe":["flu.xml","influenza.xml"],
+ "impulso":["impulse.xml","push.xml","momentum.xml","thrust.xml","surge.xml","drive.xml"],
+ "retração":["retraction.xml","contraction.xml","pullback.xml","retreat.xml","decline.xml"]
 }
 ctx=ssl._create_unverified_context()
 out={}
