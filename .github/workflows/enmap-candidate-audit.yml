@@ -1,0 +1,19 @@
+name: Audit real NomBank candidates
+on:
+  push:
+    branches:
+      - nbe-v2h-real-enmap-audit-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/enmap_candidate_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_REAL_ENMAP_CANDIDATES
+          path: |
+            ENMAP_CANDIDATE_FRAMES.json
+            enmap_xml/
