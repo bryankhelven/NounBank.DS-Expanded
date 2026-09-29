@@ -4,6 +4,13 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "adeus2":["leave.xml","leaving.xml","exit.xml","departure.xml","parting.xml"],
+ "ingenuidade2":["innocence.xml","belief.xml","trust.xml","credibility.xml","credulity.xml"],
+ "palhaçada2":["sham.xml","farce.xml","fraud.xml","mockery.xml","joke.xml","ridicule.xml"],
+ "loucura2":["frenzy.xml","craze.xml","mania.xml","madness.xml","insanity.xml"],
+ "vertigem2":["dizziness.xml","vertigo.xml","spin.xml","spinning.xml"],
+ "empate2":["draw.xml","deadlock.xml","stalemate.xml","tie.xml"],
+
  "adeus":["farewell.xml","goodbye.xml","departure.xml","leave.xml"],
  "burrice":["stupidity.xml","foolishness.xml","mistake.xml","error.xml","blunder.xml"],
  "convergência":["convergence.xml","alignment.xml","agreement.xml","consensus.xml","convergence_point.xml"],
