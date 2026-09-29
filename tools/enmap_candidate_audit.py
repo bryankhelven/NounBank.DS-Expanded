@@ -4,6 +4,18 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "adeus":["farewell.xml","goodbye.xml","departure.xml","leave.xml"],
+ "burrice":["stupidity.xml","foolishness.xml","mistake.xml","error.xml","blunder.xml"],
+ "convergência":["convergence.xml","alignment.xml","agreement.xml","consensus.xml","convergence_point.xml"],
+ "ingenuidade":["naivety.xml","naivete.xml","innocence.xml","gullibility.xml","credulity.xml"],
+ "loucura":["madness.xml","insanity.xml","craziness.xml","folly.xml","mania.xml"],
+ "palhaçada":["farce.xml","joke.xml","mockery.xml","charade.xml","nonsense.xml"],
+ "vertigem":["dizziness.xml","vertigo.xml","giddiness.xml"],
+ "gripe":["flu.xml","influenza.xml","illness.xml","sickness.xml"],
+ "exceção":["exception.xml","exemption.xml","exclusion.xml"],
+ "desmoralização":["demoralization.xml","discredit.xml","disgrace.xml"],
+ "empate":["draw.xml","tie.xml","deadlock.xml","stalemate.xml"],
+
  "adeus":["farewell.xml","goodbye.xml","departure.xml"],
  "asneira":["remark.xml","statement.xml","nonsense.xml","comment.xml"],
  "burrice":["stupidity.xml","foolishness.xml","mistake.xml","error.xml"],
