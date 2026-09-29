@@ -1,0 +1,19 @@
+name: Short targeted ENMAP audit
+on:
+  push:
+    branches:
+      - nbe-v2h-real-enmap-audit-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/short_enmap_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_SHORT_ENMAP_AUDIT
+          path: |
+            SHORT_ENMAP.json
+            short_xml/
