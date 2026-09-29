@@ -4,6 +4,11 @@ from pathlib import Path
 
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 candidates={
+ "exceção3":["anomaly.xml","rarity.xml","deviation.xml","exceptional.xml","exception.xml","outlier.xml"],
+ "gripe3":["infection.xml","disease.xml","illness.xml","sickness.xml","virus.xml","contagion.xml"],
+ "desmoralização3":["discredit.xml","disgrace.xml","humiliation.xml","damage.xml","erosion.xml"],
+ "vertigem3":["nausea.xml","illness.xml","sickness.xml","confusion.xml"],
+
  "adeus2":["leave.xml","leaving.xml","exit.xml","departure.xml","parting.xml"],
  "ingenuidade2":["innocence.xml","belief.xml","trust.xml","credibility.xml","credulity.xml"],
  "palhaçada2":["sham.xml","farce.xml","fraud.xml","mockery.xml","joke.xml","ridicule.xml"],
