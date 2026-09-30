@@ -1,0 +1,19 @@
+name: Audit construction candidates
+on:
+  push:
+    branches:
+      - nbe-v2h-construction-specific-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/construction_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_CONSTRUCTION_CANDIDATES
+          path: |
+            CONSTRUCTION_CANDIDATES.json
+            construction_xml/
