@@ -3,6 +3,7 @@ import ssl,urllib.request,xml.etree.ElementTree as ET,json
 from pathlib import Path
 BASE="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/"
 cands={
+ "realizacao":["profit.xml","sale.xml","selling.xml","sell.xml","liquidation.xml","exit.xml","withdrawal.xml","realization.xml","taking.xml","cashout.xml","cash-out.xml"],
  "fogo":["fire.xml","burning.xml","blaze.xml","heat.xml"],
  "caso":["case.xml","scenario.xml","event.xml","condition.xml"],
  "vontade":["ease.xml","desire.xml"],
