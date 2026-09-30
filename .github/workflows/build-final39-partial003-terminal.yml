@@ -1,0 +1,28 @@
+name: Build final39 partial 003 terminal
+on:
+  push:
+    branches:
+      - nbe-v2h-final39-batch3-20260929
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: work
+      - uses: actions/checkout@v4
+        with:
+          repository: bryankhelven/NounBank.DS-Expanded
+          ref: df5a3ca7cbaced21f7018b60c63fcaa52615def6
+          path: src
+      - run: python work/tools/build_final39_partial003_terminal.py
+      - run: |
+          cat final39_partial_003_terminal/VALIDATION.json
+          unzip -t NBE_V2H_FINAL39_PARTIAL_003_TERMINAL.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_FINAL39_PARTIAL_003_TERMINAL
+          path: NBE_V2H_FINAL39_PARTIAL_003_TERMINAL.zip
+          compression-level: 0
