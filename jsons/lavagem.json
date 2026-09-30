@@ -1,34 +1,96 @@
 {
   "lemma": "lavagem",
   "lemma_base": "lavagem",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_446668654244270080l",
-      "text": "RT @Igorcrp: #PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t…",
-      "instance_id": "dante_01_446668654244270080l::lavagem::1",
-      "predicate": {
-        "form": "lavagem"
+      "pt_roleset": "lavagem.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "lavagem de dinheiro / ocultação da origem ilícita de recursos",
+      "english_roleset": "laundering.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/laundering.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446668654244270080l",
+          "text": "RT @Igorcrp: #PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de dinheiro"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_446668654244270080l::lavagem::1",
+          "predicate": {
+            "form": "lavagem"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_441604957410963456l",
+          "text": "@clubedopairico #PETR4 com muitos processos la fora sobre lavagem de dinheiro...mas pouco divulgado aqui...pq será? rsrs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de dinheiro"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_441604957410963456l::lavagem::1",
+          "predicate": {
+            "form": "lavagem"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_446654593817399296l",
+          "text": "#PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t.co/YHocJpiEkv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de dinheiro"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_446654593817399296l::lavagem::1",
+          "predicate": {
+            "form": "lavagem"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 3
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_441604957410963456l",
-      "text": "@clubedopairico #PETR4 com muitos processos la fora sobre lavagem de dinheiro...mas pouco divulgado aqui...pq será? rsrs",
-      "instance_id": "dante_01_441604957410963456l::lavagem::1",
-      "predicate": {
-        "form": "lavagem"
-      },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_446654593817399296l",
-      "text": "#PETR4 : EXCLUSIVO, em @VEJA: PF prende ex-diretor da Petro em operação de lavagem de dinheiro http://t.co/3wGEVANwmT http://t.co/YHocJpiEkv",
-      "instance_id": "dante_01_446654593817399296l::lavagem::1",
-      "predicate": {
-        "form": "lavagem"
-      },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "wash",
+        "nombank_roleset_source": "verb-launder.01",
+        "note": "NomBank laundering.01 explicitly includes money-laundering charges and laundering of drug money.",
+        "nombank_examples": [
+          "The firm was indicted in Tampa , Fla. , on money-laundering charges .",
+          "the laundering of drug money"
+        ]
+      }
     }
   ]
 }

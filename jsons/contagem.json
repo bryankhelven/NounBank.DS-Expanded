@@ -9,21 +9,47 @@
       "english_roleset": "countdown.01",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/countdown.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_443022819564486656l",
           "text": "Contagem regressiva de PETR4 para os $13. faltam $0,10, 0,09, 0,08, 0,07, 0,06, 0,05, 0,04, 0,03, 0,02…",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de PETR4 para os $13"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod"
+          },
           "instance_id": "dante_01_443022819564486656l::contagem::1",
           "predicate": {
             "form": "Contagem"
-          }
+          },
+          "construction_resolution": "CONTAGEM_REGRESSIVA_COUNTDOWN_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "The whole complement specifies the countdown theme/event: PETR4 reaching $13.",
+        "nombank_examples": [
+          "NASA resumed the countdown for today 's launch of the space shuttle Atlantis"
+        ]
+      }
     }
   ]
 }

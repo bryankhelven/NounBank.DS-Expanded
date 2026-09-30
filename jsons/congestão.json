@@ -6,34 +6,58 @@
       "pt_roleset": "congestão.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "stagnation.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/stagnation.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "thing stagnating"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_446669672440930304l",
           "text": "Ctip3 deixando p tras uma longa congestao! Anual diga se d passagem",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg1": null
+          },
           "instance_id": "dante_01_446669672440930304l::congestão::1",
           "predicate": {
             "form": "congestao"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_464740621018992640l",
           "text": "#VALE5 testou a MME21 com um engolfo de baixa, mas em viés de congestão. Diário. http://t.co/v1mzYHJOl6",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg1": null
+          },
           "instance_id": "dante_01_464740621018992640l::congestão::1",
           "predicate": {
             "form": "congestão"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "stagnation.xml",
+        "roleset_name": "stagnate",
+        "roleset_source": "verb-stagnate.01",
+        "rationale": "Technical-analysis 'congestão' denotes prolonged sideways/stagnant market state; stagnation.01 includes economic stagnation examples.",
+        "nombank_examples": [
+          "the developing world 's largest debtor , teetering on the brink of hyperinflation , mired in deficits and stagnation , with huge economic inequalities and social discontent boiling under the surface",
+          "the economic stagnation of the 1970s"
+        ]
+      }
     }
   ]
 }

@@ -1,43 +1,83 @@
 {
   "lemma": "metade",
   "lemma_base": "metade",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_456148929336205312l",
-      "text": "Metade dos traders do Brazil trocando figurinhas da Copa. Por isso que a PETR4 nao sobe...",
-      "instance_id": "dante_01_456148929336205312l::metade::pending",
-      "predicate": {
-        "form": "Metade",
-        "char_start": 0,
-        "char_end": 6
+      "pt_roleset": "metade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "metade/parte correspondente a um meio",
+      "english_roleset": "half.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/half.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "quantified"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_456148929336205312l",
+          "text": "Metade dos traders do Brazil trocando figurinhas da Copa. Por isso que a PETR4 nao sobe...",
+          "realization": {
+            "Arg1": "dos traders do Brazil",
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg3": null
+          },
+          "instance_id": "dante_01_456148929336205312l::metade::1",
+          "predicate": {
+            "form": "Metade",
+            "char_start": 0,
+            "char_end": 6
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_459373848476278785l",
+          "text": "Na metade do pregão de hj IBOVESPA ganha 0,09%, c/ volume fraco de R$2,506 bi. Petro3, +0,26%, Petr4, +0,31%, Vale3, +1,22% e Vale5, +0,61%",
+          "realization": {
+            "Arg1": "do pregão de hj",
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg3": null
+          },
+          "instance_id": "dante_01_459373848476278785l::metade::1",
+          "predicate": {
+            "form": "metade",
+            "char_start": 3,
+            "char_end": 9
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
       },
-      "semantic_unit": "lemma::metade::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_459373848476278785l",
-      "text": "Na metade do pregão de hj IBOVESPA ganha 0,09%, c/ volume fraco de R$2,506 bi. Petro3, +0,26%, Petr4, +0,31%, Vale3, +1,22% e Vale5, +0,61%",
-      "instance_id": "dante_01_459373848476278785l::metade::pending",
-      "predicate": {
-        "form": "metade",
-        "char_start": 3,
-        "char_end": 9
-      },
-      "semantic_unit": "lemma::metade::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "partitive-quant",
+        "roleset_source": null,
+        "nombank_examples": [
+          "the first half of the year",
+          "the second half of next year"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::metade::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

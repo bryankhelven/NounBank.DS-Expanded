@@ -6,24 +6,45 @@
       "pt_roleset": "adeus.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "departure.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/departure.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity leaving, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "departed from"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_441229081250906113l",
           "text": "É hoje que a #PETR4 dá adeus ao fundo de 2008? Bom, pelo menos já temos a Rússia pra culpar né?",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
           "instance_id": "dante_01_441229081250906113l::adeus::1",
           "predicate": {
             "form": "adeus"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "departure.xml",
+        "roleset_name": "to go away, leave",
+        "roleset_source": "verb-depart.01",
+        "rationale": "Metaphorical 'dar adeus ao fundo de 2008' denotes departure from a reference state. departure.01 explicitly includes nominal departure from a prior state/path."
+      }
     }
   ]
 }

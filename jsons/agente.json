@@ -1,69 +1,143 @@
 {
   "lemma": "agente",
   "lemma_base": "agente",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_461469597271867392l",
-      "text": "$AEDU3 - Anhanguera (aedu-nm) - Relatorio Do Agente Fiduciario http://t.co/ZJfgkx7xEZ",
-      "instance_id": "dante_01_461469597271867392l::agente::pending",
-      "predicate": {
-        "form": "Agente",
-        "char_start": 45,
-        "char_end": 51
-      },
-      "semantic_unit": "lemma::agente::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_461507335035555840l",
-      "text": "$RENT3 - Localiza (rent-nm) - Relatorios Do Agente Fiduciario http://t.co/qRrDpxFNLS",
-      "instance_id": "dante_01_461507335035555840l::agente::pending",
-      "predicate": {
-        "form": "Agente",
-        "char_start": 44,
-        "char_end": 50
-      },
-      "semantic_unit": "lemma::agente::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_461548302069424128l",
-      "text": "$BRML3 - Br Malls Par (brml-nm) / Concepa (cncp) - Relatorios Do Agente Fiduciario http://t.co/a3cZlkKck2",
-      "instance_id": "dante_01_461548302069424128l::agente::pending",
-      "predicate": {
-        "form": "Agente",
-        "char_start": 65,
-        "char_end": 71
-      },
-      "semantic_unit": "lemma::agente::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_462327183563042816l",
-      "text": "$RENT3 - Localiza (rent-nm) - Relatorio Do Agente Fiduciario   Reapresentacao http://t.co/Gk0aK3dHbG",
-      "instance_id": "dante_01_462327183563042816l::agente::pending",
-      "predicate": {
-        "form": "Agente",
-        "char_start": 43,
-        "char_end": 49
-      },
-      "semantic_unit": "lemma::agente::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "agente.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "pt_sense_gloss": "agente fiduciário / trustee",
+      "english_roleset": "trustee.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trustee.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_461469597271867392l",
+          "text": "$AEDU3 - Anhanguera (aedu-nm) - Relatorio Do Agente Fiduciario http://t.co/ZJfgkx7xEZ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_461469597271867392l::agente::1",
+          "predicate": {
+            "form": "Agente",
+            "char_start": 45,
+            "char_end": 51
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_461507335035555840l",
+          "text": "$RENT3 - Localiza (rent-nm) - Relatorios Do Agente Fiduciario http://t.co/qRrDpxFNLS",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_461507335035555840l::agente::1",
+          "predicate": {
+            "form": "Agente",
+            "char_start": 44,
+            "char_end": 50
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_461548302069424128l",
+          "text": "$BRML3 - Br Malls Par (brml-nm) / Concepa (cncp) - Relatorios Do Agente Fiduciario http://t.co/a3cZlkKck2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_461548302069424128l::agente::1",
+          "predicate": {
+            "form": "Agente",
+            "char_start": 65,
+            "char_end": 71
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_462327183563042816l",
+          "text": "$RENT3 - Localiza (rent-nm) - Relatorio Do Agente Fiduciario   Reapresentacao http://t.co/Gk0aK3dHbG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_462327183563042816l::agente::1",
+          "predicate": {
+            "form": "Agente",
+            "char_start": 43,
+            "char_end": 49
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "nom/subject/actrel",
+        "roleset_source": "verb-entrust.01",
+        "nombank_examples": [
+          "the Asset Trust 's executive trustee",
+          "the trust 's associate executive trustee"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::agente::NOUN_SENSE::03",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

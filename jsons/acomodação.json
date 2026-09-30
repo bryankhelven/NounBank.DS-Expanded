@@ -6,24 +6,51 @@
       "pt_roleset": "acomodação.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "stabilization.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/stabilization.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "cause of stability, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing stabilized"
+        },
+        {
+          "id": "Arg2",
+          "desc": "stabilized at"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_445869793254850560l",
           "text": "No diário #VALE5 permanece abaixo da LTB mas nos últimos pregões encontrou uma acomodação leia mais: http://t.co/JGadK4W8uT",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_445869793254850560l::acomodação::1",
           "predicate": {
             "form": "acomodação"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "stabilization.xml",
+        "roleset_name": "to make stable",
+        "roleset_source": "verb-stabilize.01",
+        "rationale": "Trading context: price action 'encontrou uma acomodação' denotes stabilization, not lodging/accommodation."
+      }
     }
   ]
 }

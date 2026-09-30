@@ -6,24 +6,51 @@
       "pt_roleset": "impulso.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "momentum.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/momentum.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_464092655044268032l",
           "text": "#bbas3  M gigante no intra de 30min. Se não perder os 24 e fizer uma recuperação nos ~24,50 com pivot de alta forma uma figura de impulso.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_464092655044268032l::impulso::1",
           "predicate": {
             "form": "impulso"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "momentum.xml",
+        "roleset_name": "attribute",
+        "roleset_source": null,
+        "rationale": "Technical-analysis context: 'figura de impulso' denotes price momentum, not a physical push or psychological impulse."
+      }
     }
   ]
 }

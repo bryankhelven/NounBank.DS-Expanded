@@ -6,24 +6,55 @@
       "pt_roleset": "impulsão.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "momentum.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/momentum.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_459695340170780672l",
           "text": "@Live_Trade adoro padroes de impulsao e reversao! FIBR3 dando aquele caldinho na venda! abs",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_459695340170780672l::impulsão::1",
           "predicate": {
             "form": "impulsao"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "momentum.xml",
+        "roleset_name": "attribute",
+        "roleset_source": null,
+        "frame_examples": [
+          "companies with earnings `` momentum ''",
+          "the company 's earnings momentum"
+        ],
+        "rationale": "Technical-analysis 'padrões de impulsão e reversão' denotes price momentum; NomBank momentum.01 is the compatible nominal attribute frame."
+      }
     }
   ]
 }

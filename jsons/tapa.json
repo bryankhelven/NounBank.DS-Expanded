@@ -1,16 +1,69 @@
 {
   "lemma": "tapa",
   "lemma_base": "tapa",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_453185594030850048l",
-      "text": "#petr4 16,02 quem vai dar o tapa p/ definir o lado à trade?",
-      "instance_id": "dante_01_453185594030850048l::tapa::1",
-      "predicate": {
-        "form": "tapa"
+      "pt_roleset": "tapa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "impulso/ação decisiva que move o mercado e define a direção do trade",
+      "english_roleset": "push.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/push.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "pusher"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing pushed"
+        },
+        {
+          "id": "Arg2",
+          "desc": "direction"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453185594030850048l",
+          "text": "#petr4 16,02 quem vai dar o tapa p/ definir o lado à trade?",
+          "realization": {
+            "Arg0": "quem",
+            "Arg1": null,
+            "Arg2": "p/ definir o lado à trade"
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "advcl"
+          },
+          "instance_id": "dante_01_453185594030850048l::tapa::1",
+          "predicate": {
+            "form": "tapa"
+          },
+          "sense_resolution_status": "RESOLVED_MARKET_METAPHOR_DECISIVE_PUSH",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg2": {
+          "advcl": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "try to) cause motion",
+        "nombank_roleset_source": "verb-push.01",
+        "note": "Metaphorical market action causing directional movement; physical slap frame rejected in favor of cause-motion push.",
+        "nombank_examples": [
+          "its big push into investigative journalism",
+          "Digital 's push into mainframes"
+        ]
+      }
     }
   ]
 }

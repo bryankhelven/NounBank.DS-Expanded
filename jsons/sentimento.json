@@ -9,21 +9,48 @@
       "english_roleset": "sympathy.01",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/sympathy.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "shared feelings or ideas"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_472398162716811264l",
           "text": "RT @ClaudioDeLucca: A funerária #IBOLESMA comunica o falecimento da #VALE5, aos comprados nossos sentimentos!!!",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": "nossos",
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null
+          },
           "instance_id": "dante_01_472398162716811264l::sentimento::1",
           "predicate": {
             "form": "sentimentos"
-          }
+          },
+          "construction_resolution": "FORMULA_NOSSOS_SENTIMENTOS_SYMPATHY_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg0": {
+          "det": 1
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "'nossos sentimentos' is a conventional expression of sympathy/condolence; formulaicity does not erase the sympathy predicate.",
+        "nombank_examples": [
+          "a distinguished supply-sider with monetarist sympathies",
+          "Chairman Gonzalez expresses sympathy for Sen. Riegle , his counterpart as chairman of the Senate Banking Committee ."
+        ]
+      }
     },
     {
       "pt_roleset": "sentimento.02",

@@ -1,30 +1,69 @@
 {
   "lemma": "desenho",
   "lemma_base": "desenho",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_468160305504464896l",
-      "text": "O desenho de queda da PETR4 está feito, @HudsonPF. Eu estou me antecipando à manada. Não jogo com as cartas viradas para o adversário !!",
-      "instance_id": "dante_01_468160305504464896l::desenho::pending",
-      "predicate": {
-        "form": "desenho",
-        "char_start": 2,
-        "char_end": 9
+      "pt_roleset": "desenho.13",
+      "pt_sense_index": 13,
+      "pt_sense_hint": 13,
+      "pt_sense_gloss": "configuração/padrão técnico de movimento de mercado",
+      "english_roleset": "pattern.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/pattern.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468160305504464896l",
+          "text": "O desenho de queda da PETR4 está feito, @HudsonPF. Eu estou me antecipando à manada. Não jogo com as cartas viradas para o adversário !!",
+          "realization": {
+            "Arg1": "de queda da PETR4",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_468160305504464896l::desenho::1",
+          "predicate": {
+            "form": "desenho",
+            "char_start": 2,
+            "char_end": 9
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "semantic_unit": "lemma::desenho::NOUN_SENSE::13",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "attribute",
+        "roleset_source": null,
+        "nombank_examples": [
+          "its current tight trading pattern",
+          "a pattern to shift insured deposits to the parent company , which used the deposits as a cache for real-estate deals"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::desenho::NOUN_SENSE::13",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

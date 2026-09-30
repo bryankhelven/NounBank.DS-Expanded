@@ -6,34 +6,78 @@
       "pt_roleset": "asneira.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "remark.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/remark.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "speaker"
+        },
+        {
+          "id": "Arg1",
+          "desc": "utterance"
+        },
+        {
+          "id": "Arg2",
+          "desc": "hearer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "attributive"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_459325692531208192l",
           "text": "É só PETR4 dar uma esticada e o Mantega solta uma asneira pra derrubar! É um PUTO esse cara! Como reduzir gasolina, com a empresa QUEBRANDO?",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_459325692531208192l::asneira::1",
           "predicate": {
             "form": "asneira"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_459330527796142080l",
           "text": "RT @lambari_trader: É só PETR4 dar uma esticada e o Mantega solta uma asneira pra derrubar! É um PUTO esse cara! Como reduzir gasolina, com…",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_459330527796142080l::asneira::1",
           "predicate": {
             "form": "asneira"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "remark.xml",
+        "roleset_name": "to express briefly",
+        "roleset_source": "verb-remark.01",
+        "rationale": "Context is an utterance event: 'Mantega solta uma asneira'. remark.01 licenses speaker, utterance, hearer, attributive."
+      }
     }
   ]
 }

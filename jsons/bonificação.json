@@ -12,15 +12,15 @@
       "roles": [
         {
           "id": "Arg0",
-          "desc": "GIVER"
+          "desc": "giver"
         },
         {
           "id": "Arg1",
-          "desc": "THING GIVEN"
+          "desc": "thing given"
         },
         {
           "id": "Arg2",
-          "desc": "ENTITY GIVEN TO"
+          "desc": "entity given to"
         }
       ],
       "examples": [
@@ -95,38 +95,73 @@
           "predicate": {
             "form": "Bonificacao"
           }
+        },
+        {
+          "sent_ID": "dante_01_458947931052457985l",
+          "text": "Ação ex-bonificação hoje: DTEX3. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_458947931052457985l::bonificação::1",
+          "predicate": {
+            "form": "ex-bonificação"
+          },
+          "sense_resolution_status": "RESOLVED_SAME_EVENT_SENSE_IN_EX_CONSTRUCTION",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_458954558325403648l",
+          "text": "dtex3 amanhace ex bonificação de 10%",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_458954558325403648l::bonificação::1",
+          "predicate": {
+            "form": "ex"
+          },
+          "sense_resolution_status": "RESOLVED_SAME_EVENT_SENSE_IN_EX_CONSTRUCTION",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_463296486709948416l",
+          "text": "Ações ex-bonificação hoje: ITSA3 e ITSA4. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_463296486709948416l::bonificação::1",
+          "predicate": {
+            "form": "ex-bonificação"
+          },
+          "sense_resolution_status": "RESOLVED_SAME_EVENT_SENSE_IN_EX_CONSTRUCTION",
+          "predicative": true
         }
       ],
       "syntactic_profile": {}
     }
   ],
-  "pending_instances": [
-    {
-      "sent_ID": "dante_01_458947931052457985l",
-      "text": "Ação ex-bonificação hoje: DTEX3. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
-      "instance_id": "dante_01_458947931052457985l::bonificação::1",
-      "predicate": {
-        "form": "ex-bonificação"
-      },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_458954558325403648l",
-      "text": "dtex3 amanhace ex bonificação de 10%",
-      "instance_id": "dante_01_458954558325403648l::bonificação::1",
-      "predicate": {
-        "form": "ex"
-      },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_463296486709948416l",
-      "text": "Ações ex-bonificação hoje: ITSA3 e ITSA4. As cotações históricas foram ajustadas. Saiba mais! http://t.co/RR6Wuao1Kv",
-      "instance_id": "dante_01_463296486709948416l::bonificação::1",
-      "predicate": {
-        "form": "ex-bonificação"
-      },
-      "resolution_status": "awaiting_sense_resolution"
-    }
-  ]
+  "sense_resolution_evidence": {
+    "predicative": "S",
+    "note": "All ex-bonificação occurrences reuse bonificação.01; construction marks post-entitlement status but still evokes the bonus event."
+  }
 }

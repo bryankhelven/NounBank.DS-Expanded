@@ -1,56 +1,113 @@
 {
   "lemma": "rumo",
   "lemma_base": "rumo",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_453583510109171713l",
-      "text": "#petr4 perdeu 16,40,  perdeu o rumo de casa!!!",
-      "instance_id": "dante_01_453583510109171713l::rumo::pending",
-      "predicate": {
-        "form": "rumo",
-        "char_start": 31,
-        "char_end": 35
+      "pt_roleset": "rumo.04",
+      "pt_sense_index": 4,
+      "pt_sense_hint": 4,
+      "pt_sense_gloss": "direção/rumo em direção a um destino ou valor",
+      "english_roleset": "direction.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/direction.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "director"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing directed"
+        },
+        {
+          "id": "Arg2",
+          "desc": "direction, towards what"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453583510109171713l",
+          "text": "#petr4 perdeu 16,40,  perdeu o rumo de casa!!!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de casa"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod"
+          },
+          "instance_id": "dante_01_453583510109171713l::rumo::1",
+          "predicate": {
+            "form": "rumo",
+            "char_start": 31,
+            "char_end": 35
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_443351728386498560l",
+          "text": "#PETR4 mais uma 'ótima' notícia para a Petrobomba!!! Rumo ao 0,01 http://t.co/ZFlkPnZLqE",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "ao 0,01"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod"
+          },
+          "instance_id": "dante_01_443351728386498560l::rumo::1",
+          "predicate": {
+            "form": "Rumo",
+            "char_start": 53,
+            "char_end": 57
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_443914851518533633l",
+          "text": "#RSID3 podridão de papel, rumo aos centavos!!! http://t.co/iaMyYpoTIj",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "aos centavos"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod"
+          },
+          "instance_id": "dante_01_443914851518533633l::rumo::1",
+          "predicate": {
+            "form": "rumo",
+            "char_start": 26,
+            "char_end": 30
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 3
+        }
       },
-      "semantic_unit": "lemma::rumo::NOUN_SENSE::04|lemma::rumo::NOUN_SENSE::05",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_443351728386498560l",
-      "text": "#PETR4 mais uma 'ótima' notícia para a Petrobomba!!! Rumo ao 0,01 http://t.co/ZFlkPnZLqE",
-      "instance_id": "dante_01_443351728386498560l::rumo::pending",
-      "predicate": {
-        "form": "Rumo",
-        "char_start": 53,
-        "char_end": 57
-      },
-      "semantic_unit": "lemma::rumo::NOUN_SENSE::04|lemma::rumo::NOUN_SENSE::05",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_443914851518533633l",
-      "text": "#RSID3 podridão de papel, rumo aos centavos!!! http://t.co/iaMyYpoTIj",
-      "instance_id": "dante_01_443914851518533633l::rumo::pending",
-      "predicate": {
-        "form": "rumo",
-        "char_start": 26,
-        "char_end": 30
-      },
-      "semantic_unit": "lemma::rumo::NOUN_SENSE::04|lemma::rumo::NOUN_SENSE::05",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "provide direction",
+        "roleset_source": "verb-direct.01",
+        "nombank_examples": [
+          "he points the gun in the wrong direction",
+          "the anti-debt direction of regulators"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::rumo::NOUN_SENSE::04|lemma::rumo::NOUN_SENSE::05",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

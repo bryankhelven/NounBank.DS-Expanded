@@ -1,43 +1,92 @@
 {
   "lemma": "dono",
   "lemma_base": "dono",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_449223768934977536l",
-      "text": "Fico pensando no coitadinho que foi incentivado a botar seu FGTS na outrora 'blue ship' PETR4 e se viu dono da tal refinaria de Pasadena.",
-      "instance_id": "dante_01_449223768934977536l::dono::pending",
-      "predicate": {
-        "form": "dono",
-        "char_start": 103,
-        "char_end": 107
+      "pt_roleset": "dono.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "proprietário de entidade/bem",
+      "english_roleset": "owner.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/owner.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "owner"
+        },
+        {
+          "id": "Arg1",
+          "desc": "possession/quantified"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449223768934977536l",
+          "text": "Fico pensando no coitadinho que foi incentivado a botar seu FGTS na outrora 'blue ship' PETR4 e se viu dono da tal refinaria de Pasadena.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "da tal refinaria de Pasadena",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_449223768934977536l::dono::1",
+          "predicate": {
+            "form": "dono",
+            "char_start": 103,
+            "char_end": 107
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_468159955246534656l",
+          "text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "OGX",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_468159955246534656l::dono::1",
+          "predicate": {
+            "form": "dono",
+            "char_start": 107,
+            "char_end": 111
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1,
+          "nsubj": 1
+        }
       },
-      "semantic_unit": "lemma::dono::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_468159955246534656l",
-      "text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!",
-      "instance_id": "dante_01_468159955246534656l::dono::pending",
-      "predicate": {
-        "form": "dono",
-        "char_start": 107,
-        "char_end": 111
-      },
-      "semantic_unit": "lemma::dono::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "nom/share",
+        "roleset_source": "verb-own.01",
+        "nombank_examples": [
+          "CNN 's distributors and part owners",
+          "the new owner"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::dono::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

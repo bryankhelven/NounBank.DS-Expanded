@@ -100,6 +100,24 @@
           "predicate": {
             "form": "jogo"
           }
+        },
+        {
+          "sent_ID": "dante_01_459317170187816960l",
+          "text": "caraca ... o negócio começou tenso na #PETR4 ! O jogo tá pesado !! o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_459317170187816960l::jogo::1",
+          "predicate": {
+            "form": "jogo"
+          },
+          "sense_resolution_status": "RESOLVED_EXISTING_FINANCIAL_GAME_SENSE",
+          "predicative": true
         }
       ],
       "syntactic_profile": {}
@@ -150,26 +168,65 @@
           "nmod": 1
         }
       }
-    }
-  ],
-  "pending_instances": [
-    {
-      "sent_ID": "dante_01_444105820939497472l",
-      "text": "um ingrediente importante entrou 'em jogo' agora: aumentou o volume da #PETR4 !! De olhoooo !",
-      "instance_id": "dante_01_444105820939497472l::jogo::1",
-      "predicate": {
-        "form": "jogo"
-      },
-      "resolution_status": "awaiting_sense_resolution"
     },
     {
-      "sent_ID": "dante_01_459317170187816960l",
-      "text": "caraca ... o negócio começou tenso na #PETR4 ! O jogo tá pesado !! o.O",
-      "instance_id": "dante_01_459317170187816960l::jogo::1",
-      "predicate": {
-        "form": "jogo"
+      "pt_roleset": "jogo.04",
+      "pt_sense_index": 4,
+      "pt_sense_hint": 4,
+      "pt_sense_gloss": "entrar em jogo = passar a atuar como fator relevante",
+      "english_roleset": "play.07",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/play.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "factorer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "domain"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444105820939497472l",
+          "text": "um ingrediente importante entrou 'em jogo' agora: aumentou o volume da #PETR4 !! De olhoooo !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "um ingrediente importante",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_444105820939497472l::jogo::1",
+          "predicate": {
+            "form": "jogo"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "nomlike-factor",
+        "nombank_roleset_source": "verb-factor.01",
+        "note": "NomBank play.07 is nomlike-factor and includes exact construction 'economic forces ... come into play'.",
+        "nombank_examples": [
+          "economic forces that have come into play since the Tiananmen Square killings June 4"
+        ]
+      }
     }
   ]
 }

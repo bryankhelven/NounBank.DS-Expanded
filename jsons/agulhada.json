@@ -1,34 +1,95 @@
 {
   "lemma": "agulhada",
   "lemma_base": "agulhada",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_453249027585236992l",
-      "text": "A  #PETR4 fêz agulhada dia 20/03 e rompeu fibos em 14,23 15,00 15,75 e tem alvos 17,20 18,20 , mas esta bem esticado http://t.co/fcDyPmNGy6",
-      "instance_id": "dante_01_453249027585236992l::agulhada::1",
-      "predicate": {
-        "form": "agulhada"
+      "pt_roleset": "agulhada.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "technical-analysis pattern occurrence",
+      "english_roleset": "pattern.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/pattern.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453249027585236992l",
+          "text": "A  #PETR4 fêz agulhada dia 20/03 e rompeu fibos em 14,23 15,00 15,75 e tem alvos 17,20 18,20 , mas esta bem esticado http://t.co/fcDyPmNGy6",
+          "realization": {
+            "Arg1": "#PETR4"
+          },
+          "syntax": {
+            "Arg1": "nsubj"
+          },
+          "instance_id": "dante_01_453249027585236992l::agulhada::1",
+          "predicate": {
+            "form": "agulhada"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_452145897422323712l",
+          "text": "tá, a agulhada da #PETR4 nos 60min, agora, é pra valer ? Ou é mais uma pegadinha do Faustão ... ? =P",
+          "realization": {
+            "Arg1": "da #PETR4"
+          },
+          "syntax": {
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_452145897422323712l::agulhada::1",
+          "predicate": {
+            "form": "agulhada"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        },
+        {
+          "sent_ID": "dante_01_472446399607369728l",
+          "text": "PETR4 pivot de baixa e agulhada do DIDI no diário http://t.co/7I8295r8lR",
+          "realization": {
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg1": null
+          },
+          "instance_id": "dante_01_472446399607369728l::agulhada::1",
+          "predicate": {
+            "form": "agulhada"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1,
+          "nmod": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_452145897422323712l",
-      "text": "tá, a agulhada da #PETR4 nos 60min, agora, é pra valer ? Ou é mais uma pegadinha do Faustão ... ? =P",
-      "instance_id": "dante_01_452145897422323712l::agulhada::1",
-      "predicate": {
-        "form": "agulhada"
-      },
-      "resolution_status": "awaiting_sense_resolution"
-    },
-    {
-      "sent_ID": "dante_01_472446399607369728l",
-      "text": "PETR4 pivot de baixa e agulhada do DIDI no diário http://t.co/7I8295r8lR",
-      "instance_id": "dante_01_472446399607369728l::agulhada::1",
-      "predicate": {
-        "form": "agulhada"
-      },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "source_note": "Agulhada do Didi: named technical pattern defined by convergence/separation of moving averages.",
+        "nombank_roleset_name": "attribute",
+        "nombank_roleset_source": null
+      }
     }
-  ]
+  ],
+  "sense_resolution_evidence": {
+    "predicative": "S",
+    "note": "Occurrence of the Didi technical-analysis pattern/configuration in an asset/timeframe."
+  }
 }

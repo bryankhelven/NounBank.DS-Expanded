@@ -6,24 +6,50 @@
       "pt_roleset": "movimento.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "move.02",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/move.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "mover"
+        },
+        {
+          "id": "Arg1",
+          "desc": "measures"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_467278962154942464l",
           "text": "Governo da Nova Caledônia recebe relatório da Vale sobre vazamento: Movimento ocorreu mais t... http://t.co/rtndP6NyW5 #infomoney #vale5",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
           "instance_id": "dante_01_467278962154942464l::movimento::1",
           "predicate": {
             "form": "Movimento"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "xml_file": "move.xml",
+        "roleset_name": "take measures",
+        "roleset_source": "verb-move.02",
+        "rationale": "Source article resolves antecedent: Vale submitted a report; 'O movimento ocorreu mais tarde...' refers to that corporate step/action. NomBank move.02 is explicitly 'take measures' and includes 'in a move to...' / 'moves to ease credit'.",
+        "nombank_examples": [
+          "Time magazine , in a move to reduce the costs of wooing new subscribers , is lowering its circulation guarantee to advertisers for the second consecutive year , increasing its subscription rates and cutting back on merchandise giveaways .",
+          "moves to ease credit"
+        ]
+      }
     },
     {
       "pt_roleset": "movimento.02",

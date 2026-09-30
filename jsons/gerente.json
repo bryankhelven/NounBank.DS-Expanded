@@ -1,30 +1,71 @@
 {
   "lemma": "gerente",
   "lemma_base": "gerente",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_446963449541959680l",
-      "text": "Dilma presidente do Conselho #PETR4 Há! @SakaBrasil2 Por experiência, colocar tartaruga chiliquenta como gerente no alto do poste é prática",
-      "instance_id": "dante_01_446963449541959680l::gerente::pending",
-      "predicate": {
-        "form": "gerente",
-        "char_start": 105,
-        "char_end": 112
-      },
-      "semantic_unit": "lemma::gerente::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "gerente.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "pessoa em função de gerência",
+      "english_roleset": "manager.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/manager.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446963449541959680l",
+          "text": "Dilma presidente do Conselho #PETR4 Há! @SakaBrasil2 Por experiência, colocar tartaruga chiliquenta como gerente no alto do poste é prática",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_446963449541959680l::gerente::1",
+          "predicate": {
+            "form": "gerente",
+            "char_start": 105,
+            "char_end": 112
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "actrel/nom",
+        "roleset_source": "verb-manage.01",
+        "nombank_examples": [
+          "general sales manager of a Chrysler dealership in Houston",
+          "the general manager of Eastman Kodak Co. 's professional photography division"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::gerente::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

@@ -6,34 +6,66 @@
       "pt_roleset": "giro.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "turnover.02",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/turnover.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_449173739771809792l",
           "text": "#PETR4 com MEGA volume. Mas não se impressionem muito não ... é 99% só no giro ... só no giro ...",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_449173739771809792l::giro::1",
           "predicate": {
             "form": "giro"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_449173739771809792l",
           "text": "#PETR4 com MEGA volume. Mas não se impressionem muito não ... é 99% só no giro ... só no giro ...",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_449173739771809792l::giro::2",
           "predicate": {
             "form": "giro"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "turnover.xml",
+        "roleset_name": "attribute",
+        "roleset_source": null,
+        "frame_examples": [
+          "slower turnover on the Tokyo Stock Exchange during July and August",
+          "turnover of 885,800"
+        ],
+        "rationale": "Financial-market giro means turnover/trading turnover. NomBank turnover.02 explicitly includes 'slower turnover on the Tokyo Stock Exchange'."
+      }
     }
   ]
 }

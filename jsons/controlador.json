@@ -1,43 +1,91 @@
 {
   "lemma": "controlador",
   "lemma_base": "controlador",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_448801043820728320l",
-      "text": "Notas gerais  A CVM autorizou os controladores da OI (OIBR4) a votar na assembleia que decidirá os detalhes da... http://t.co/88kkYQZeOn",
-      "instance_id": "dante_01_448801043820728320l::controlador::pending",
-      "predicate": {
-        "form": "controladores",
-        "char_start": 33,
-        "char_end": 46
+      "pt_roleset": "controlador.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "pt_sense_gloss": "entidade controladora de companhia",
+      "english_roleset": "controller.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/controller.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "controller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "controlled"
+        },
+        {
+          "id": "Arg2",
+          "desc": "instrumental, controlled with"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448801043820728320l",
+          "text": "Notas gerais  A CVM autorizou os controladores da OI (OIBR4) a votar na assembleia que decidirá os detalhes da... http://t.co/88kkYQZeOn",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "da OI (OIBR4)",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_448801043820728320l::controlador::1",
+          "predicate": {
+            "form": "controladores",
+            "char_start": 33,
+            "char_end": 46
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_448839735881256960l",
+          "text": "@resantosformiga CVM decidiu dar poder aos controladores na AGE q examinará o valor dos ativos da Portugal Tel. OIBR -9,75% e TIMP3 +4,89%",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_448839735881256960l::controlador::1",
+          "predicate": {
+            "form": "controladores",
+            "char_start": 43,
+            "char_end": 56
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "semantic_unit": "lemma::controlador::NOUN_SENSE::02",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_448839735881256960l",
-      "text": "@resantosformiga CVM decidiu dar poder aos controladores na AGE q examinará o valor dos ativos da Portugal Tel. OIBR -9,75% e TIMP3 +4,89%",
-      "instance_id": "dante_01_448839735881256960l::controlador::pending",
-      "predicate": {
-        "form": "controladores",
-        "char_start": 43,
-        "char_end": 56
-      },
-      "semantic_unit": "lemma::controlador::NOUN_SENSE::02",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "have power over",
+        "roleset_source": "verb-control.01",
+        "nombank_examples": [
+          "computer controllers",
+          "video controller equipment"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::controlador::NOUN_SENSE::02",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

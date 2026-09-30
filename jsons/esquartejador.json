@@ -1,30 +1,67 @@
 {
   "lemma": "esquartejador",
   "lemma_base": "esquartejador",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_468159955246534656l",
-      "text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!",
-      "instance_id": "dante_01_468159955246534656l::esquartejador::pending",
-      "predicate": {
-        "form": "esquartejador",
-        "char_start": 13,
-        "char_end": 26
-      },
-      "semantic_unit": "DUPB::L0644_0212::E01::NOUN_SENSE::NEW::001",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "esquartejador.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "agente que esquarteja/dismembra",
+      "english_roleset": null,
+      "english_roleset_source": "NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_DOCUMENTED_SEARCH",
+      "nombank_url": null,
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "ESQUARTEJADOR / AGENTE QUE ESQUARTEJA"
+        },
+        {
+          "id": "Arg1",
+          "desc": "ENTIDADE ESQUARTEJADA"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468159955246534656l",
+          "text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "instance_id": "dante_01_468159955246534656l::esquartejador::1",
+          "predicate": {
+            "form": "esquartejador",
+            "char_start": 13,
+            "char_end": 26
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "NO_COMPATIBLE_NOMBANK_ROLESET",
+        "searched_candidates": [
+          "dismemberment.xml",
+          "dismemberer.xml",
+          "butcher.xml",
+          "killer.xml",
+          "cutting.xml",
+          "cut.xml"
+        ],
+        "rejected_candidates": {
+          "killer.01": "too broad and entails killing, which is not equivalent to dismembering",
+          "cut.01": "event noun/frame, not an agentive dismemberer nominal",
+          "cutting.01": "reduction sense, semantically incompatible"
+        },
+        "note": "Null is not used as a terminal shortcut; the explicit negative decision is the terminal mapping result."
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "DUPB::L0644_0212::E01::NOUN_SENSE::NEW::001",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED_NEGATIVE_ENMAP",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

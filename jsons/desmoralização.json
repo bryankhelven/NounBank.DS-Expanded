@@ -6,24 +6,51 @@
       "pt_roleset": "desmoralização.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "disgrace.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/disgrace.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "cause"
+        },
+        {
+          "id": "Arg1",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg2",
+          "desc": "instrument, if separate from arg0"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_449299381506699265l",
           "text": "#PETR4 R$46,57 fev 2003 FHC=> Lula ‘A desmoralização e a sangria da Petrobrás’, um artigo de Rolf Kuntz http://t.co/ZWZUTDjlxe via @VEJA",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_449299381506699265l::desmoralização::1",
           "predicate": {
             "form": "desmoralização"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "disgrace.xml",
+        "roleset_name": "nom-disgrace/nomlike",
+        "roleset_source": "verb-embarrass.01",
+        "rationale": "Context 'desmoralização da Petrobras' denotes a state/process of disgrace imposed on the company; disgrace.01 licenses cause and experiencer."
+      }
     }
   ]
 }

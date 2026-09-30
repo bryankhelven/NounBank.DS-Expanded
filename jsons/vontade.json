@@ -9,21 +9,48 @@
       "english_roleset": "ease.02",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/ease.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_447028130914791424l",
           "text": "Quiserem favoritar, fiquem a vontade: Vendam CIEL3 daqui a 90 dias.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": "vocês (implícito)",
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": "nsubj:implicit",
+            "Arg1": null
+          },
           "instance_id": "dante_01_447028130914791424l::vontade::1",
           "predicate": {
             "form": "vontade"
-          }
+          },
+          "construction_resolution": "A_VONTADE_AT_EASE_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj:implicit": 1
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "'fiquem à vontade' = be at ease / feel free; NomBank ease.02 is explicitly at-ease.",
+        "nombank_examples": [
+          "By a 2-to-1 ratio , voters appear more at ease with Mr. Florio 's stance on abortion",
+          "Not everyone , however , is at ease with office massage ."
+        ]
+      }
     },
     {
       "pt_roleset": "vontade.02",

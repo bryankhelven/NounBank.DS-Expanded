@@ -6,34 +6,86 @@
       "pt_roleset": "retração.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "pullback.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/pullback.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "puller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing pulled"
+        },
+        {
+          "id": "Arg2",
+          "desc": "dir or attribute of arg1"
+        },
+        {
+          "id": "Arg3",
+          "desc": "ext, distance moved"
+        },
+        {
+          "id": "Arg4",
+          "desc": "goal, placed moved to"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_453532985275322369l",
           "text": "#PETR4 16,97 é retração de 61,8% de fibonacci. De fato preço sofreu a força vendedora por ali.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_453532985275322369l::retração::1",
           "predicate": {
             "form": "retração"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_459041967507124224l",
           "text": "#VALE5 a figura de fundo perdeu o suporte porém em retração estamos em suporte. O intra da ADR tem pivots de alta. http://t.co/DDe7ScBy3b",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_459041967507124224l::retração::1",
           "predicate": {
             "form": "retração"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "pullback.xml",
+        "roleset_name": "try to) cause motion",
+        "roleset_source": "verb-pull.01",
+        "rationale": "Technical-analysis Fibonacci retracement/pullback; NomBank pullback includes Wall Street/program-trading usage."
+      }
     }
   ]
 }

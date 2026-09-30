@@ -6,24 +6,67 @@
       "pt_roleset": "antecipação.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "acceleration.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/acceleration.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, causing acceleration"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing acceleration"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ext"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_446338005943324672l",
           "text": "Antecipação do debate político gera clima de 'Fla-Flu' no mercado, diz CEO da Vale: Murilo F... http://t.co/Kjjf3dE5HM #infomoney #vale5",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_446338005943324672l::antecipação::1",
           "predicate": {
             "form": "Antecipação"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "acceleration.xml",
+        "roleset_name": "make be faster",
+        "roleset_source": "verb-accelerate.01",
+        "rationale": "In 'Antecipação do debate político', the event is made to occur earlier/faster. NomBank acceleration.01 explicitly includes 'acceleration of planned tariff cuts', a close planned-event temporal advancement use.",
+        "nombank_examples": [
+          "The U.S. and Canada , which do more trade than any other pair of nations , are to meet next month to arrange an acceleration of planned tariff cuts under the U.S.-Canada free trade agreement .",
+          "an acceleration of revenue"
+        ]
+      }
     }
   ]
 }

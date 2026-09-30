@@ -1,16 +1,65 @@
 {
   "lemma": "resposta",
   "lemma_base": "resposta",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_449535275161907200l",
-      "text": "Aos compradores de abertura desesperados de #petr4  a rsposta",
-      "instance_id": "dante_01_449535275161907200l::resposta::1",
-      "predicate": {
-        "form": "rsposta"
+      "pt_roleset": "resposta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "resposta/reação dirigida a estímulo ou interlocutor",
+      "english_roleset": "response.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/response.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "replier"
+        },
+        {
+          "id": "Arg1",
+          "desc": "in response to"
+        },
+        {
+          "id": "Arg2",
+          "desc": "answer"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449535275161907200l",
+          "text": "Aos compradores de abertura desesperados de #petr4  a rsposta",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Aos compradores de abertura desesperados de #petr4",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_449535275161907200l::resposta::1",
+          "predicate": {
+            "form": "rsposta"
+          },
+          "sense_resolution_status": "RESOLVED_RESPONSE_EVENT",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "give an answer, reply",
+        "nombank_roleset_source": "verb-respond.01",
+        "nombank_examples": [
+          "prices dropped in response to gains in the stock market and losses in Treasury securities",
+          "the computer-guided selling in response to those developments"
+        ]
+      }
     }
   ]
 }

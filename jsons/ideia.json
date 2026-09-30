@@ -1,82 +1,158 @@
 {
   "lemma": "ideia",
   "lemma_base": "ideia",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_454596496378171393l",
-      "text": "10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva (BEEF3), o BTG... http://t.co/UAdRxUEEU2",
-      "instance_id": "dante_01_454596496378171393l::ideia::pending",
-      "predicate": {
-        "form": "ideias",
-        "char_start": 3,
-        "char_end": 9
+      "pt_roleset": "ideia.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "pt_sense_gloss": "ideia/conteúdo proposicional ou ideia de investimento",
+      "english_roleset": "idea.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/idea.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454596496378171393l",
+          "text": "10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva (BEEF3), o BTG... http://t.co/UAdRxUEEU2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de investimento",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_454596496378171393l::ideia::1",
+          "predicate": {
+            "form": "ideias",
+            "char_start": 3,
+            "char_end": 9
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_441717444034691073l",
+          "text": "Operação com BRPR3 encerrada com um ligeiro prejuízo. A ideia é não perder mais de 1% do capital... logo o stop é... http://t.co/E6s6VQqNtU",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "não perder mais de 1% do capital",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "csubj",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_441717444034691073l::ideia::1",
+          "predicate": {
+            "form": "ideia",
+            "char_start": 56,
+            "char_end": 61
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_444458618797436928l",
+          "text": "Ideia de Long&Short por Credit Suisse - PETR4 x PETR3...quem quiser o relatório é só pedir!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Long&Short por Credit Suisse - PETR4 x PETR3",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_444458618797436928l::ideia::1",
+          "predicate": {
+            "form": "Ideia",
+            "char_start": 0,
+            "char_end": 5
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_454593417712902144l",
+          "text": "Opinião - 10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva (... http://t.co/9IlIpuO96l",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de investimento",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_454593417712902144l::ideia::1",
+          "predicate": {
+            "form": "ideias",
+            "char_start": 13,
+            "char_end": 19
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_454601973732368384l",
+          "text": "10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva ... http://t.co/0UpUhDawsm #infomoney",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de investimento",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_454601973732368384l::ideia::1",
+          "predicate": {
+            "form": "ideias",
+            "char_start": 3,
+            "char_end": 9
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 4,
+          "csubj": 1
+        }
       },
-      "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_441717444034691073l",
-      "text": "Operação com BRPR3 encerrada com um ligeiro prejuízo. A ideia é não perder mais de 1% do capital... logo o stop é... http://t.co/E6s6VQqNtU",
-      "instance_id": "dante_01_441717444034691073l::ideia::pending",
-      "predicate": {
-        "form": "ideia",
-        "char_start": 56,
-        "char_end": 61
-      },
-      "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_444458618797436928l",
-      "text": "Ideia de Long&Short por Credit Suisse - PETR4 x PETR3...quem quiser o relatório é só pedir!",
-      "instance_id": "dante_01_444458618797436928l::ideia::pending",
-      "predicate": {
-        "form": "Ideia",
-        "char_start": 0,
-        "char_end": 5
-      },
-      "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_454593417712902144l",
-      "text": "Opinião - 10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva (... http://t.co/9IlIpuO96l",
-      "instance_id": "dante_01_454593417712902144l::ideia::pending",
-      "predicate": {
-        "form": "ideias",
-        "char_start": 13,
-        "char_end": 19
-      },
-      "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_454601973732368384l",
-      "text": "10 ideias de investimento, segundo o BTG Pactual: No lugar dos papéis da CPFL (CPFE3) e da Minerva ... http://t.co/0UpUhDawsm #infomoney",
-      "instance_id": "dante_01_454601973732368384l::ideia::pending",
-      "predicate": {
-        "form": "ideias",
-        "char_start": 3,
-        "char_end": 9
-      },
-      "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "work-of-art/nomadjlike-acceptable/attribute",
+        "roleset_source": null,
+        "nombank_examples": [
+          "the government 's idea of `` service",
+          "Annuities are rarely a good idea at age 35 because of the withdrawal restrictions ."
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::ideia::NOUN_SENSE::03",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

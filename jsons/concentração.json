@@ -6,34 +6,78 @@
       "pt_roleset": "concentração.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "merger.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/merger.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, mixer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "ingredient one"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ingredient two"
+        },
+        {
+          "id": "Arg3",
+          "desc": "end product"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_454228302602182656l",
           "text": "$CSNA3 - Sid Nacional (csna) - Decisao Do Cade - Ato De Concentracao http://t.co/TiZ1NR1soE",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_454228302602182656l::concentração::1",
           "predicate": {
             "form": "Concentracao"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_454606593280442368l",
           "text": "MP recomendou ao Cade, venda de ativos da Anhanguera para que a fusão com a Kroton não represente ato de concentração. #AEDU3 #KROT3",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_454606593280442368l::concentração::1",
           "predicate": {
             "form": "concentração"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "merger.xml",
+        "roleset_name": "combine, mix",
+        "roleset_source": "verb-merge.01",
+        "rationale": "Brazilian antitrust 'ato de concentração' in both examples denotes a corporate combination/merger transaction."
+      }
     }
   ]
 }

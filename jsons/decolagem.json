@@ -6,24 +6,63 @@
       "pt_roleset": "decolagem.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "liftoff.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/liftoff.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "elevator, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "logical subject, patient, thing rising"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ext, amount risen"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_448471745830588416l",
           "text": "#goll4 na agulha revertendo decolagem  , pulei de paraquedas  rs",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_448471745830588416l::decolagem::1",
           "predicate": {
             "form": "decolagem"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "liftoff.xml",
+        "roleset_name": "cause increase in elevation",
+        "roleset_source": "verb-lift.01",
+        "rationale": "Market-price takeoff metaphor preserves increase-in-elevation/liftoff event semantics."
+      }
     }
   ]
 }

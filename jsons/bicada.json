@@ -1,16 +1,78 @@
 {
   "lemma": "bicada",
   "lemma_base": "bicada",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_459322667791687680l",
-      "text": "Foi bom ter dado uma 'bicada' em VALE5 ontem. Tá barata demais pra ser ignorada.",
-      "instance_id": "dante_01_459322667791687680l::bicada::1",
-      "predicate": {
-        "form": "bicada"
+      "pt_roleset": "bicada.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "small purchase/entry",
+      "english_roleset": "purchase.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/purchase.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "purchaser"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing purchased"
+        },
+        {
+          "id": "Arg2",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459322667791687680l",
+          "text": "Foi bom ter dado uma 'bicada' em VALE5 ontem. Tá barata demais pra ser ignorada.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_459322667791687680l::bicada::1",
+          "predicate": {
+            "form": "bicada"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "source_note": "Independent market usage 'dar uma bicada nessa [ação]' occurs in explicit consideration of buying a stock.",
+        "nombank_roleset_name": "buy",
+        "nombank_roleset_source": "verb-purchase.01"
+      }
     }
-  ]
+  ],
+  "sense_resolution_evidence": {
+    "predicative": "S",
+    "note": "Small purchase/entry in an equity position."
+  }
 }

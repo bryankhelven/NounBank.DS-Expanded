@@ -49,114 +49,283 @@
       "pt_roleset": "realização.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
-      "english_roleset": "profit.01",
-      "english_roleset_source": null,
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/profit.xml",
-      "roles": [],
+      "english_roleset": "selling.01",
+      "english_roleset_source": "NOMBANK_XML_DOMAIN_PROFIT_TAKING_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/selling.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing sold"
+        },
+        {
+          "id": "Arg2",
+          "desc": "buyer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_445610417650298880l",
           "text": "Realização parcial em mrve3 no semanal http://t.co/yfvLaKRI2W",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em mrve3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_445610417650298880l::realização::1",
           "predicate": {
             "form": "Realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_447485591756632065l",
           "text": "VALE5 e BOVA11, trade que já haviam sido feita realização parcial, geraram saída do restante no lucro. vale5 a 26,95 e bova11 a 45,97",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_447485591756632065l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_442113434277007360l",
           "text": "embr3(w)_Realização frustrada no semanal http://t.co/zk9mTY9DsZ",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_442113434277007360l::realização::1",
           "predicate": {
             "form": "Realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_444566168053886976l",
           "text": "Atualização da semana: stop loss em cmig4 e realização parcial em bova11 http://t.co/2pcABF3TUi",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em bova11",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_444566168053886976l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_444567446595198976l",
           "text": "Posições que ja alcançaram realização parcial, ajuste nos stops! vale5 linda a venda! hehe http://t.co/bAFgR9MAfV",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_444567446595198976l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_447486199620325376l",
           "text": "Com a alta tivemos alguns stop loss: ITSA4, BVMF3, CCRO3. E uma realização parcial MRVE3 http://t.co/9gG2RXMrhk",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": "MRVE3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "appos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_447486199620325376l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_447488010985426944l",
           "text": "Trades em andamento sem realização parcial ou stop loss apenas a venda em bbas3. Start 20,09. Stop 21,92 e alvo 18,26",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_447488010985426944l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_449198785114415104l",
           "text": "#petr4 - Agora vou vender, não acredito que feche o dia sem realização e num preço maior do que este. Se perder, vai compensar com o ganho.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_449198785114415104l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_455334111087824898l",
           "text": "Trades em andamento, CSNA3 e GGBR4 bateram na realização parcial! MAravilha! http://t.co/B67f6lgMSL",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": "CSNA3 e GGBR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_455334111087824898l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_456214970783371265l",
           "text": "@buiux eu só tenho petr4 a $13 aqui. Zerado em todo resto. Meu problema é lá fora. E ta dando sinais de realização",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
           "instance_id": "dante_01_456214970783371265l::realização::1",
           "predicate": {
             "form": "realização"
-          }
+          },
+          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2,
+          "appos": 1,
+          "nsubj": 1
+        }
+      },
+      "pt_sense_gloss": "realização de lucros / venda total ou parcial de posição para materializar ganho",
+      "construction_evidence": {
+        "decision": "S_PREDICATIVE",
+        "domain_equivalence": "profit-taking",
+        "rationale": "Brazilian financial 'realização (parcial)' denotes selling securities to lock in/materialize gains. profit.01 denotes profit as result/value and was rejected. selling.01 models the actual selling event underlying profit-taking.",
+        "nombank_roleset_name": "commerce: seller",
+        "nombank_roleset_source": "verb-sell.01",
+        "nombank_examples": [
+          "Freddie Mac 's 17-member securities selling group",
+          "The nation 's largest short-selling operation"
+        ],
+        "rejected_mapping": "profit.01"
+      }
     }
   ]
 }

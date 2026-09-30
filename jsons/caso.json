@@ -9,51 +9,99 @@
       "english_roleset": "case.03",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/case.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "proposition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "evidence"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_444449194305409024l",
           "text": "RT @chrinvestor: A estimativa de prejuízo para a Petrobras no caso de racionamento é de R$ 620 milhões de dólares. Pobre acionista minoritá…",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": "de racionamento",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg2": null
+          },
           "instance_id": "dante_01_444449194305409024l::caso::1",
           "predicate": {
             "form": "caso"
-          }
+          },
+          "construction_resolution": "DISCOURSE_CONNECTIVE_CASE_03_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_444448840863997952l",
           "text": "A estimativa de prejuízo para a Petrobras no caso de racionamento é de R$ 620 milhões de dólares. Pobre acionista minoritário !!! #PETR4",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": "de racionamento",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": "nmod",
+            "Arg2": null
+          },
           "instance_id": "dante_01_444448840863997952l::caso::1",
           "predicate": {
             "form": "caso"
-          }
+          },
+          "construction_resolution": "DISCOURSE_CONNECTIVE_CASE_03_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_451685101416763392l",
           "text": "@Live_Trade @DiehlRdiehl Olhem #VALE5 já se aproximando dos R$ 30,00.Estão vendo a importância de saber deixar o lucro crescer qdo é o caso?",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_451685101416763392l::caso::1",
           "predicate": {
             "form": "caso"
-          }
+          },
+          "construction_resolution": "DISCOURSE_CONNECTIVE_CASE_03_PREDICATIVE"
         },
         {
           "sent_ID": "dante_01_451699558276665344l",
           "text": "@AASchwartz @Live_Trade @DiehlRdiehl ontem vendi vale5 a 29,28 e hoje vou comprar (se for o caso) ne baixa de agora (correção).",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_451699558276665344l::caso::1",
           "predicate": {
             "form": "caso"
-          }
+          },
+          "construction_resolution": "DISCOURSE_CONNECTIVE_CASE_03_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "NomBank case.03 is explicitly discourse-connective-if-then and includes in-case constructions.",
+        "nombank_examples": [
+          "-LRB- In case you have forgotten , his name was Rudolph Dirks . -RRB-",
+          "to replace that coverage in case there were any other major disasters before the end of the year"
+        ]
+      }
     }
   ]
 }

@@ -1,16 +1,62 @@
 {
   "lemma": "calor",
   "lemma_base": "calor",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_446669398133460994l",
-      "text": "@brunomaca1 E eu tomando calor na Vale5, não esperei fechar o candle de 15', não respeitei a regra...agora é esperar...",
-      "instance_id": "dante_01_446669398133460994l::calor::1",
-      "predicate": {
-        "form": "calor"
+      "pt_roleset": "calor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "pressão/aperto sofrido em uma posição de mercado",
+      "english_roleset": "heat.03",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/heat.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "recipient"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446669398133460994l",
+          "text": "@brunomaca1 E eu tomando calor na Vale5, não esperei fechar o candle de 15', não respeitei a regra...agora é esperar...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "eu"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nsubj"
+          },
+          "instance_id": "dante_01_446669398133460994l::calor::1",
+          "predicate": {
+            "form": "calor"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "nsubj": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "nomlike",
+        "nombank_roleset_source": "verb-pressure.01",
+        "note": "'tomando calor' = taking heat / being under pressure; experiencer/recipient is overt 'eu'."
+      }
     }
   ]
 }

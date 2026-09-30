@@ -1,25 +1,131 @@
 {
   "lemma": "beliscada",
   "lemma_base": "beliscada",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_462328786717904896l",
-      "text": "BELISCADA (compra) - PETR4 http://t.co/BJGz6cISsI via @OInvestmania",
-      "instance_id": "dante_01_462328786717904896l::beliscada::1",
-      "predicate": {
-        "form": "BELISCADA"
+      "pt_roleset": "beliscada.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "small purchase/entry",
+      "english_roleset": "purchase.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/purchase.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "purchaser"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing purchased"
+        },
+        {
+          "id": "Arg2",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_462328786717904896l",
+          "text": "BELISCADA (compra) - PETR4 http://t.co/BJGz6cISsI via @OInvestmania",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "appos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_462328786717904896l::beliscada::1",
+          "predicate": {
+            "form": "BELISCADA"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "appos": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "source_note": "Corpus itself glosses BELISCADA as '(compra)'.",
+        "nombank_roleset_name": "buy",
+        "nombank_roleset_source": "verb-purchase.01"
+      }
     },
     {
-      "sent_ID": "dante_01_443033075057172480l",
-      "text": "@ferrisss a #petr4 tem q chegar nos 12,50 portanto, pode esperar uma beliscada nos 44.6k no ibolixo",
-      "instance_id": "dante_01_443033075057172480l::beliscada::1",
-      "predicate": {
-        "form": "beliscada"
+      "pt_roleset": "beliscada.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "pt_sense_gloss": "brief reach/touch of a market level",
+      "english_roleset": "reach.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reach.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "thing striving"
+        },
+        {
+          "id": "Arg1",
+          "desc": "goal, end state"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443033075057172480l",
+          "text": "@ferrisss a #petr4 tem q chegar nos 12,50 portanto, pode esperar uma beliscada nos 44.6k no ibolixo",
+          "realization": {
+            "Arg0": "no ibolixo",
+            "Arg1": "nos 44.6k"
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_443033075057172480l::beliscada::1",
+          "predicate": {
+            "form": "beliscada"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "source_note": "Independent Brazilian market usage uses 'beliscada em [price]' for a brief reach/touch of that level.",
+        "nombank_roleset_name": "attain, get to",
+        "nombank_roleset_source": "verb-reach.01"
+      }
     }
-  ]
+  ],
+  "sense_resolution_evidence": {
+    "predicative": "S",
+    "note": "Two distinct financial predicates: small purchase/entry vs brief reaching/touching of a price/index level."
+  }
 }

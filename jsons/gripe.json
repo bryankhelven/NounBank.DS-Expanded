@@ -6,24 +6,45 @@
       "pt_roleset": "gripe.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "disease.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/disease.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_463383564978253824l",
           "text": "Vale pegando gripe da China… uma borboletinha bate asas na China e vira um furacao no porto da Vale5…",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_463383564978253824l::gripe::1",
           "predicate": {
             "form": "gripe"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "disease.xml",
+        "roleset_name": "attribute",
+        "roleset_source": null,
+        "rationale": "The noun denotes a disease state ('Vale pegando gripe da China'); no flu-specific NomBank frame exists, and disease.01 is the compatible nominal disease-attribute frame."
+      }
     }
   ]
 }

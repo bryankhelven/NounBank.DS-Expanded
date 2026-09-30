@@ -9,21 +9,42 @@
       "english_roleset": "respect.02",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/respect.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "topic"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_455530921698267137l",
           "text": "Apesar do pessimismo generalizado a seu respeito, a Usiminas surpreenderia favoravelmente no resultado do primeiro trimestre. #usim5",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": "seu"
+          },
+          "syntax": {
+            "Arg1": "det"
+          },
           "instance_id": "dante_01_455530921698267137l::respeito::1",
           "predicate": {
             "form": "respeito"
-          }
+          },
+          "construction_resolution": "A_RESPEITO_DE_TOPIC_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg1": {
+          "det": 1
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "'a seu respeito' = with respect to/about; NomBank respect.02 is issue/topic and includes with-respect-to uses.",
+        "nombank_examples": [
+          "respect to the ultimate value of the loans",
+          "respect to the appropriate level of loan loss reserves"
+        ]
+      }
     }
   ]
 }

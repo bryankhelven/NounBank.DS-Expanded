@@ -1,43 +1,127 @@
 {
   "lemma": "show",
   "lemma_base": "show",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_469903994593501184l",
-      "text": "#embr3 dando show desde dia 20",
-      "instance_id": "dante_01_469903994593501184l::show::pending",
-      "predicate": {
-        "form": "show",
-        "char_start": 13,
-        "char_end": 17
+      "pt_roleset": "show.05",
+      "pt_sense_index": 5,
+      "pt_sense_hint": 5,
+      "pt_sense_gloss": "dar show = apresentar desempenho excelente",
+      "english_roleset": "performance.02",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/performance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "manner"
+        },
+        {
+          "id": "Arg2",
+          "desc": "domain"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469903994593501184l",
+          "text": "#embr3 dando show desde dia 20",
+          "realization": {
+            "Arg0": "#embr3",
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_469903994593501184l::show::1",
+          "predicate": {
+            "form": "show",
+            "char_start": 13,
+            "char_end": 17
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        }
       },
-      "semantic_unit": "lemma::show::NOUN_SENSE::05",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "nom-perform/nomlike",
+        "roleset_source": "verb-behave.01",
+        "nombank_examples": [
+          "Merck , Rahway , N.J. , continued to lead the industry with a strong sales performance in the human and animal health-products segment .",
+          "the expected weak performance of Aldus Corp. , maker of a widely used computer publishing program"
+        ]
+      }
     },
     {
-      "sent_ID": "dante_01_459035339739262976l",
-      "text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show",
-      "instance_id": "dante_01_459035339739262976l::show::pending",
-      "predicate": {
-        "form": "show",
-        "char_start": 86,
-        "char_end": 90
-      },
-      "semantic_unit": "lemma::show::NOUN_SENSE::05",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "show.06",
+      "pt_sense_index": 6,
+      "pt_sense_hint": 6,
+      "pt_sense_gloss": "show = espetáculo/desenrolar de acontecimentos",
+      "english_roleset": "performance.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/performance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "instrument"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459035339739262976l",
+          "text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "instance_id": "dante_01_459035339739262976l::show::1",
+          "predicate": {
+            "form": "show",
+            "char_start": 86,
+            "char_end": 90
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "perform",
+        "roleset_source": "verb-perform.01",
+        "nombank_examples": [
+          "Robert Loggia 's riveting performance as the unlovable -- even crotchety -- veteran agent",
+          "his usual straight-from-the-shoulder performance"
+        ],
+        "note": "Metaphorical 'part of the show' denotes the ongoing performance/spectacle, not broadcast show.01."
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::show::NOUN_SENSE::05",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

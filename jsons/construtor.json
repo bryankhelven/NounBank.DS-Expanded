@@ -1,56 +1,119 @@
 {
   "lemma": "construtor",
   "lemma_base": "construtor",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_453861159608020994l",
-      "text": "RT @bovespabrokers: 20 construtoras com os melhores e piores desempenhos em 2013 http://t.co/V2lyWpLVsL #GFSA3 #VIVR3 #MEND3 #PDGR3 #JFEN3 …",
-      "instance_id": "dante_01_453861159608020994l::construtor::pending",
-      "predicate": {
-        "form": "construtoras",
-        "char_start": 23,
-        "char_end": 35
-      },
-      "semantic_unit": "lemma::construtor::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_453856143949828096l",
-      "text": "20 construtoras com os melhores e piores desempenhos em 2013 http://t.co/V2lyWpLVsL #GFSA3 #VIVR3 #MEND3 #PDGR3 #JFEN3 #CYRE3 #AZEV4 #RSID3",
-      "instance_id": "dante_01_453856143949828096l::construtor::pending",
-      "predicate": {
-        "form": "construtoras",
-        "char_start": 3,
-        "char_end": 15
-      },
-      "semantic_unit": "lemma::construtor::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_466977495292846081l",
-      "text": "Índice de ações MSCI Brasil, do Morgan Stanley, q é seguido por grandes fundos retirou da carteira a construtora MVRE3 e a Hering - HGTX3...",
-      "instance_id": "dante_01_466977495292846081l::construtor::pending",
-      "predicate": {
-        "form": "construtora",
-        "char_start": 101,
-        "char_end": 112
-      },
-      "semantic_unit": "lemma::construtor::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "construtor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "construtor/construtora",
+      "english_roleset": "builder.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/builder.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "builder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "construction"
+        },
+        {
+          "id": "Arg2",
+          "desc": "material, start state"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end state"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453861159608020994l",
+          "text": "RT @bovespabrokers: 20 construtoras com os melhores e piores desempenhos em 2013 http://t.co/V2lyWpLVsL #GFSA3 #VIVR3 #MEND3 #PDGR3 #JFEN3 …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_453861159608020994l::construtor::1",
+          "predicate": {
+            "form": "construtoras",
+            "char_start": 23,
+            "char_end": 35
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_453856143949828096l",
+          "text": "20 construtoras com os melhores e piores desempenhos em 2013 http://t.co/V2lyWpLVsL #GFSA3 #VIVR3 #MEND3 #PDGR3 #JFEN3 #CYRE3 #AZEV4 #RSID3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_453856143949828096l::construtor::1",
+          "predicate": {
+            "form": "construtoras",
+            "char_start": 3,
+            "char_end": 15
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_466977495292846081l",
+          "text": "Índice de ações MSCI Brasil, do Morgan Stanley, q é seguido por grandes fundos retirou da carteira a construtora MVRE3 e a Hering - HGTX3...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_466977495292846081l::construtor::1",
+          "predicate": {
+            "form": "construtora",
+            "char_start": 101,
+            "char_end": 112
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "construct",
+        "roleset_source": "verb-build.01",
+        "nombank_examples": [
+          "the home builders",
+          "home builders"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::construtor::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

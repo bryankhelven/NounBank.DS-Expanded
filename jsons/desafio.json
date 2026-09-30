@@ -1,16 +1,62 @@
 {
   "lemma": "desafio",
   "lemma_base": "desafio",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_468734838485561344l",
-      "text": "Empresas de pagamento e tranf. de recursos terão grandes desafios nos próximos anos... @chrinvestor Abre o olho #CIEL3",
-      "instance_id": "dante_01_468734838485561344l::desafio::1",
-      "predicate": {
-        "form": "desafios"
+      "pt_roleset": "desafio.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "tarefa/dificuldade que desafia uma entidade",
+      "english_roleset": "challenge.01",
+      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/challenge.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "challenger"
+        },
+        {
+          "id": "Arg1",
+          "desc": "challenged (champion"
+        },
+        {
+          "id": "Arg2",
+          "desc": "challenged-to, heroic task"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468734838485561344l",
+          "text": "Empresas de pagamento e tranf. de recursos terão grandes desafios nos próximos anos... @chrinvestor Abre o olho #CIEL3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Empresas de pagamento e tranf. de recursos",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_468734838485561344l::desafio::1",
+          "predicate": {
+            "form": "desafios"
+          },
+          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
+          "predicative": true
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "sense_evidence": {
+        "decision": "S_PREDICATIVE",
+        "nombank_roleset_name": "nom/nomadj-challenging",
+        "nombank_roleset_source": "verb-challenge.01",
+        "note": "Support construction 'empresas terão desafios': companies are the challenged entity."
+      }
     }
   ]
 }

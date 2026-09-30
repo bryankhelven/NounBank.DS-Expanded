@@ -6,24 +6,48 @@
       "pt_roleset": "burrice.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "folly.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/folly.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_453654222123171840l",
           "text": "@clubedopairico Pé frio!?Não,isso é sinal de guerra ao mercado ou no minimo burrice pq foi só o abrir a boca sobre petr4 q a bolsa caiu!",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
           "instance_id": "dante_01_453654222123171840l::burrice::1",
           "predicate": {
             "form": "burrice"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "folly.xml",
+        "roleset_name": "ability-with-agent",
+        "roleset_source": null,
+        "rationale": "Evaluative sense 'isso é ... burrice' = folly of an action; NomBank folly.01 licenses agent + action and includes 'economic folly'.",
+        "nombank_examples": [
+          "the economic folly of such ordinances"
+        ]
+      }
     }
   ]
 }

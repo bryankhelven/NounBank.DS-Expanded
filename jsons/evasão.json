@@ -6,34 +6,74 @@
       "pt_roleset": "evasão.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "outflow.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/outflow.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "substance (ie, water"
+        },
+        {
+          "id": "Arg2",
+          "desc": "endpoint"
+        },
+        {
+          "id": "Arg3",
+          "desc": "startpoint"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_444193554827857921l",
           "text": "RT @JJunior_SP: Eita+ um rojão na Petr4! @clubedopairico Refinaria Pasadena–MP investigará Petrobras por evasão d divisas e peculato http:/…",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_444193554827857921l::evasão::1",
           "predicate": {
             "form": "evasão"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_444171276353949696l",
           "text": "Eita+ um rojão na Petr4! @clubedopairico Refinaria Pasadena–MP investigará Petrobras por evasão d divisas e peculato http://t.co/egXYdJ7L8u",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_444171276353949696l::evasão::1",
           "predicate": {
             "form": "evasão"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "outflow.xml",
+        "roleset_name": "move like water",
+        "roleset_source": "verb-flow.01",
+        "rationale": "'evasão de divisas' is capital/currency outflow; NomBank outflow.01 explicitly includes 'Outflows of people and capital' and stock-fund outflow examples.",
+        "nombank_examples": [
+          "Outflows of people and capital from Hong Kong",
+          "Net outflows from Fidelity 's stock funds"
+        ]
+      }
     }
   ]
 }

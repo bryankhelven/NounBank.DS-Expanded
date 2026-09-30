@@ -40,7 +40,7 @@
       "syntactic_profile": {}
     }
   ],
-  "pending_instances": [
+  "nonpredicative_instances": [
     {
       "sent_ID": "dante_01_446258938812833792l",
       "text": "Novo data center da BM&FBovespa (#BVMF3) custou R$ 200 milhões e tem sala de guerra. http://t.co/BDW1VFzQy7",
@@ -48,7 +48,9 @@
       "predicate": {
         "form": "guerra"
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "predicative": false,
+      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_SALA_DE_GUERRA",
+      "decision_note": "In 'sala de guerra', guerra is part of lexicalized term war room/command room; it does not independently instantiate war.01."
     }
   ]
 }

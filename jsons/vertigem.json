@@ -7,7 +7,7 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": null,
-      "english_roleset_source": null,
+      "english_roleset_source": "EXPLICIT_NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_SEARCH_V2H",
       "nombank_url": null,
       "roles": [],
       "examples": [
@@ -19,11 +19,62 @@
           "instance_id": "dante_01_461510898428182528l::vertigem::1",
           "predicate": {
             "form": "vertigem"
-          }
+          },
+          "english_mapping_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "decision": "NO_COMPATIBLE_NOMBANK_ROLESET",
+        "rationale": "Context 'acompanhar a #OIBR4 proporciona um mix de alegria e vertigem' denotes dizziness/vertigo, literal-metaphorical bodily sensation induced by stock volatility. Direct NomBank candidates dizziness.xml, vertigo.xml, giddiness.xml, lightheadedness.xml, disorientation.xml, nausea.xml are absent. Existing thrill.01, excitement.01, anxiety.01, shock.01 and sensation.01 alter the lexical-semantic content and were rejected.",
+        "searched_candidates": [
+          {
+            "candidate": "dizziness.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "vertigo.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "giddiness.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "lightheadedness.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "disorientation.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "nausea.xml",
+            "result": "404_NO_FRAME"
+          },
+          {
+            "candidate": "thrill.01",
+            "result": "REJECTED_SEMANTIC_SHIFT_TO_EXCITEMENT"
+          },
+          {
+            "candidate": "excitement.01",
+            "result": "REJECTED_SEMANTIC_SHIFT_TO_EXCITEMENT"
+          },
+          {
+            "candidate": "anxiety.01",
+            "result": "REJECTED_SEMANTIC_SHIFT_TO_ANXIETY"
+          },
+          {
+            "candidate": "shock.01",
+            "result": "REJECTED_SEMANTIC_SHIFT_TO_SURPRISE"
+          },
+          {
+            "candidate": "sensation.01",
+            "result": "REJECTED_TOO_GENERIC_LOSS_OF_VERTIGO_SENSE"
+          }
+        ]
+      },
+      "representation_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET"
     }
   ]
 }

@@ -6,34 +6,74 @@
       "pt_roleset": "festa.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "party.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/party.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "celebrator(s"
+        },
+        {
+          "id": "Arg1",
+          "desc": "party, occasion"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_443798359951044609l",
           "text": "#PETR4 isso pq M Lynch está sossegado hj...já já começa a festa",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_443798359951044609l::festa::1",
           "predicate": {
             "form": "festa"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_443798603925311488l",
           "text": "@Live_Trade deixa o M Lynch acordar q a festa da #PETR4 acaba",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_443798603925311488l::festa::1",
           "predicate": {
             "form": "festa"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "party.xml",
+        "roleset_name": "have a party",
+        "roleset_source": "verb-celebrate.02",
+        "frame_examples": [
+          "its marble fountains and toga parties for high rollers",
+          "a pajama party"
+        ],
+        "rationale": "Metaphorical market 'festa' preserves the event sense of a party starting/ending. NomBank party.01 is 'have a party'."
+      }
     },
     {
       "pt_roleset": "festa.02",

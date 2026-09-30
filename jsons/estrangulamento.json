@@ -6,24 +6,61 @@
       "pt_roleset": "estrangulamento.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "constraint.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/constraint.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "preventer, hinderer, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme (action or object being prevented"
+        },
+        {
+          "id": "Arg2",
+          "desc": "secondary predication or action"
+        },
+        {
+          "id": "Arg3",
+          "desc": "instrument"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_454456974034624512l",
           "text": "#PETR4 indo p picas '@SakaSakamori:  Denúncia. Estrangulamento $$$ da Petrobras http://t.co/RMBjR9d80F Beira do colapso! #DilmaTemMedoDaCPI",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_454456974034624512l::estrangulamento::1",
           "predicate": {
             "form": "Estrangulamento"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "constraint.xml",
+        "roleset_name": "prevent, hinder",
+        "roleset_source": "verb-constrain.01",
+        "rationale": "Financial 'estrangulamento $$$ da Petrobras' denotes a hindering resource/financial constraint. NomBank constraint.01 = prevent/hinder and includes 'a constraint to the market'.",
+        "nombank_examples": [
+          "constraints that would prevent Tele-Communications from dropping HBO in any of its cable systems in favor of Showtime",
+          "a constraint to the market"
+        ]
+      }
     }
   ]
 }

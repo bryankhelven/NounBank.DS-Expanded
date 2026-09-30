@@ -9,24 +9,45 @@
       "english_roleset": "fire.01",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fire.xml",
-      "roles": [],
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_451437181861888000l",
           "text": "@Live_Trade petr4 fechou abaixo de 16,40 marcos? Ps. Esse vício não ta me deixando curtir o frio de NYC. To pegando fogo kkk",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": "eu"
+          },
+          "syntax": {
+            "Arg1": "nsubj"
+          },
           "instance_id": "dante_01_451437181861888000l::fogo::1",
           "predicate": {
             "form": "fogo"
-          }
+          },
+          "construction_resolution": "SUPPORT_CONSTRUCTION_PEGAR_FOGO_PREDICATIVE"
         }
       ],
-      "syntactic_profile": {},
-      "resolution_status": "construction_specific"
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
+      },
+      "construction_evidence": {
+        "decision": "S",
+        "note": "pegar fogo realizes a fire/burning state; NomBank fire.01 includes 'woods are on fire'.",
+        "nombank_examples": [
+          "forest fires",
+          "the nearby woods are on fire"
+        ]
+      }
     }
   ],
-  "pending_instances": [
+  "nonpredicative_instances": [
     {
       "sent_ID": "dante_01_459682364386713600l",
       "text": "#CYRE3 explosão ou fogo de palha? http://t.co/FrQPzVYu53",
@@ -34,7 +55,9 @@
       "predicate": {
         "form": "fogo"
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "predicative": false,
+      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_FOGO_DE_PALHA",
+      "decision_note": "Meaning is contributed by lexicalized MWE 'fogo de palha' = intense but short-lived phenomenon; fogo does not independently instantiate fire.01."
     },
     {
       "sent_ID": "dante_01_461146203745705984l",
@@ -43,7 +66,9 @@
       "predicate": {
         "form": "fogo"
       },
-      "resolution_status": "awaiting_sense_resolution"
+      "predicative": false,
+      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_FOGO_DE_PALHA",
+      "decision_note": "Meaning is contributed by lexicalized MWE 'fogo de palha' = intense but short-lived phenomenon; fogo does not independently instantiate fire.01."
     }
   ]
 }

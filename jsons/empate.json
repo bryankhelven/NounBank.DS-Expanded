@@ -6,24 +6,55 @@
       "pt_roleset": "empate.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "parity.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/parity.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "focus of equation"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other side of equation"
+        },
+        {
+          "id": "Arg3",
+          "desc": "theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_461215339838066690l",
           "text": "O melhor da bolsa: veja as ações mais lembradas pelos analistas nessa semana: Houve um empat... http://t.co/f1RsT0lbKF #infomoney #vale5",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_461215339838066690l::empate::1",
           "predicate": {
             "form": "empat"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "parity.xml",
+        "roleset_name": "equal, be the same as",
+        "roleset_source": "verb-equal.01",
+        "rationale": "Context describes equal analyst-mention counts; parity.01 models equality between compared quantities/entities.",
+        "nombank_examples": [
+          "it was promised production parity with Kuwait",
+          "brand parity"
+        ]
+      }
     }
   ]
 }

@@ -1,30 +1,63 @@
 {
   "lemma": "habitante",
   "lemma_base": "habitante",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_471988686855630849l",
-      "text": "Bom Dia seus habitantes da Papuda ligados aos negócios da #PETR4",
-      "instance_id": "dante_01_471988686855630849l::habitante::pending",
-      "predicate": {
-        "form": "habitantes",
-        "char_start": 13,
-        "char_end": 23
+      "pt_roleset": "habitante.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "habitante/residente de um lugar",
+      "english_roleset": "resident.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/resident.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity residing"
+        },
+        {
+          "id": "Arg1",
+          "desc": "location"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_471988686855630849l",
+          "text": "Bom Dia seus habitantes da Papuda ligados aos negócios da #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "da Papuda"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod"
+          },
+          "instance_id": "dante_01_471988686855630849l::habitante::1",
+          "predicate": {
+            "form": "habitantes",
+            "char_start": 13,
+            "char_end": 23
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "semantic_unit": "lemma::habitante::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "to live for an extended period",
+        "roleset_source": "verb-reside.01",
+        "nombank_examples": [
+          "Only Canadian residents",
+          "residents in Northern California"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::habitante::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

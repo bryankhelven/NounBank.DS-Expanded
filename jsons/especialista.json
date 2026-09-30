@@ -1,43 +1,103 @@
 {
   "lemma": "especialista",
   "lemma_base": "especialista",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_448849223010623488l",
-      "text": "'Quem montar uma carteira de ações agora vai morrer de rir em 10 anos', diz especialista: Se... http://t.co/CrU7flmRmc #infomoney #vale5",
-      "instance_id": "dante_01_448849223010623488l::especialista::pending",
-      "predicate": {
-        "form": "especialista",
-        "char_start": 76,
-        "char_end": 88
-      },
-      "semantic_unit": "lemma::especialista::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_463384126381633536l",
-      "text": "Plano de demissao voluntária na Petrobras já atrai 8mil… Depois vao reclamar que nao tem especialistas… petr4 virando OGX",
-      "instance_id": "dante_01_463384126381633536l::especialista::pending",
-      "predicate": {
-        "form": "especialistas",
-        "char_start": 89,
-        "char_end": 102
-      },
-      "semantic_unit": "lemma::especialista::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "pt_roleset": "especialista.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "especialista profissional/técnico",
+      "english_roleset": "specialist.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/specialist.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary/consultant"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        },
+        {
+          "id": "Arg4",
+          "desc": "employer"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448849223010623488l",
+          "text": "'Quem montar uma carteira de ações agora vai morrer de rir em 10 anos', diz especialista: Se... http://t.co/CrU7flmRmc #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_448849223010623488l::especialista::1",
+          "predicate": {
+            "form": "especialista",
+            "char_start": 76,
+            "char_end": 88
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_463384126381633536l",
+          "text": "Plano de demissao voluntária na Petrobras já atrai 8mil… Depois vao reclamar que nao tem especialistas… petr4 virando OGX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "instance_id": "dante_01_463384126381633536l::especialista::1",
+          "predicate": {
+            "form": "especialistas",
+            "char_start": 89,
+            "char_end": 102
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {},
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "actrel",
+        "roleset_source": null,
+        "nombank_examples": [
+          "a partner and merger specialist with Lazard Freres & Co",
+          "Disney specialist Robert Fagenson"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::especialista::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

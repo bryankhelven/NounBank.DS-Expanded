@@ -1,43 +1,99 @@
 {
   "lemma": "administrador",
   "lemma_base": "administrador",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_443028274214875136l",
-      "text": "Novo horário pode trazer benefícios não só p/investidores como p/os resultados da administradora do mercado de capitais brasileiros: a BVMF3",
-      "instance_id": "dante_01_443028274214875136l::administrador::pending",
-      "predicate": {
-        "form": "administradora",
-        "char_start": 82,
-        "char_end": 96
+      "pt_roleset": "administrador.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "entidade/pessoa que administra algo",
+      "english_roleset": "administrator.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/administrator.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443028274214875136l",
+          "text": "Novo horário pode trazer benefícios não só p/investidores como p/os resultados da administradora do mercado de capitais brasileiros: a BVMF3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "do mercado de capitais brasileiros",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_443028274214875136l::administrador::1",
+          "predicate": {
+            "form": "administradora",
+            "char_start": 82,
+            "char_end": 96
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        },
+        {
+          "sent_ID": "dante_01_443029061850632192l",
+          "text": "RT @garimpodeacoes: Novo horário pode trazer benefícios não só p/investidores como p/os resultados da administradora do mercado de capitais…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "do mercado de capitais brasileiros",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null
+          },
+          "instance_id": "dante_01_443029061850632192l::administrador::1",
+          "predicate": {
+            "form": "administradora",
+            "char_start": 102,
+            "char_end": 116
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
       },
-      "semantic_unit": "lemma::administrador::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
-    },
-    {
-      "sent_ID": "dante_01_443029061850632192l",
-      "text": "RT @garimpodeacoes: Novo horário pode trazer benefícios não só p/investidores como p/os resultados da administradora do mercado de capitais…",
-      "instance_id": "dante_01_443029061850632192l::administrador::pending",
-      "predicate": {
-        "form": "administradora",
-        "char_start": 102,
-        "char_end": 116
-      },
-      "semantic_unit": "lemma::administrador::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "actrel",
+        "roleset_source": null,
+        "nombank_examples": [
+          "Connecticut 's chief court administrator",
+          "the South African administrator general"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::administrador::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

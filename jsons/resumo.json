@@ -1,30 +1,69 @@
 {
   "lemma": "resumo",
   "lemma_base": "resumo",
-  "senses": [],
-  "pending_instances": [
+  "senses": [
     {
-      "sent_ID": "dante_01_468760672168202240l",
-      "text": "Resumo do q o Ex-presidente da #PETR4 já falou e vai falar na CPI: Pasadena tá tudo certo, o resto ninguém sabe,... http://t.co/SySzOET6lD",
-      "instance_id": "dante_01_468760672168202240l::resumo::pending",
-      "predicate": {
-        "form": "Resumo",
-        "char_start": 0,
-        "char_end": 6
+      "pt_roleset": "resumo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "pt_sense_gloss": "resumo de conteúdo",
+      "english_roleset": "summary.01",
+      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/summary.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "editor, summarizer, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing summarized"
+        },
+        {
+          "id": "Arg2",
+          "desc": "summary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468760672168202240l",
+          "text": "Resumo do q o Ex-presidente da #PETR4 já falou e vai falar na CPI: Pasadena tá tudo certo, o resto ninguém sabe,... http://t.co/SySzOET6lD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "do q o Ex-presidente da #PETR4 já falou e vai falar na CPI",
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null
+          },
+          "instance_id": "dante_01_468760672168202240l::resumo::1",
+          "predicate": {
+            "form": "Resumo",
+            "char_start": 0,
+            "char_end": 6
+          },
+          "predicative": true,
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
       },
-      "semantic_unit": "lemma::resumo::NOUN_SENSE::01",
-      "pending_reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-      "predicativity": "S"
+      "mapping_evidence": {
+        "decision": "COMPATIBLE_NOMBANK_ROLESET",
+        "roleset_name": "to make a summary",
+        "roleset_source": "verb-summarize.01",
+        "nombank_examples": [
+          "a summary of the Federal Reserve Board 's report on industrial production in September",
+          "The four-page news summary"
+        ]
+      }
     }
   ],
-  "pending_status": {
-    "predicativity": "CONFIRMED_S",
-    "semantic_unit": "lemma::resumo::NOUN_SENSE::01",
-    "english_mapping": null,
-    "role_inventory": null,
-    "reason": "ENMAP_ROLEINV_UNRESOLVED_EXPLICIT_NO_FABRICATION",
-    "publication_policy": "KEEP_PREDICATIVE_OCCURRENCES_VISIBLE_AS_PENDING"
-  },
-  "projection_status": "PREDICATIVE_PENDING_ENMAP_ROLEINV",
+  "projection_status": "PREDICATIVE_RESOLVED",
   "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
 }

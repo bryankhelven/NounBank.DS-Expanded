@@ -6,24 +6,48 @@
       "pt_roleset": "palhaçada.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "absurdity.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/absurdity.xml",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_456387515193106432l",
           "text": "Presidente da #PETR4 dizer que compra da refinaria de pasadena não foi um bom negócio é palhaçada. Mau negócio é ter que aturar ela.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg1": null,
+            "Arg2": null
+          },
+          "syntax": {
+            "Arg1": null,
+            "Arg2": null
+          },
           "instance_id": "dante_01_456387515193106432l::palhaçada::1",
           "predicate": {
             "form": "palhaçada"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "absurdity.xml",
+        "roleset_name": "attribute/nomadj-absurd",
+        "roleset_source": null,
+        "rationale": "Predicative evaluation 'isso é palhaçada' denotes that a proposition/action is absurd; absurdity.01 models theme + degree/value of absurdity.",
+        "nombank_examples": [
+          "The absurdity of the official rate"
+        ]
+      }
     }
   ]
 }

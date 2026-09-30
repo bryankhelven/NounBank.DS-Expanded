@@ -6,34 +6,62 @@
       "pt_roleset": "preguiça.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "reluctance.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reluctance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_449254702082187266l",
           "text": "Eu fico impressionado com a 'preguiça' de VALE5 em chegar aos $28,00. Tá quase lá, mas não vai de jeito nenhum... movida a China.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
           "instance_id": "dante_01_449254702082187266l::preguiça::1",
           "predicate": {
             "form": "preguiça"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         },
         {
           "sent_ID": "dante_01_450723202294382592l",
           "text": "Pois é, @nahasbap ! Tá duro de aguentar essa preguiça de VALE5. Mas hj ficou acima de $28, e esse dividendo aí ajuda na rentabilidade.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null
+          },
           "instance_id": "dante_01_450723202294382592l::preguiça::1",
           "predicate": {
             "form": "preguiça"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "reluctance.xml",
+        "roleset_name": "nomadj-reluctant",
+        "roleset_source": "verb-hesitate.01",
+        "rationale": "Metaphorical stock behavior: 'preguiça de VALE5 em chegar aos 28' denotes reluctance/sluggishness to perform the action. reluctance.01 licenses agent and action."
+      }
     },
     {
       "pt_roleset": "preguiça.02",

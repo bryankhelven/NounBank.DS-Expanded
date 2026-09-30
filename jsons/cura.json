@@ -6,24 +6,57 @@
       "pt_roleset": "cura.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "cure.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/cure.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "doctor (etc"
+        },
+        {
+          "id": "Arg1",
+          "desc": "patient"
+        },
+        {
+          "id": "Arg2",
+          "desc": "illness or injury"
+        },
+        {
+          "id": "Arg3",
+          "desc": "instrument, treatment"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_444246514962276352l",
           "text": "Ibov petr4 vale5  Gustavo Franco: Inflação é como alcoolismo, não tem cura, só controle.",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_444246514962276352l::cura::1",
           "predicate": {
             "form": "cura"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "cure.xml",
+        "roleset_name": "treat an illness completely",
+        "roleset_source": "verb-cure.01",
+        "rationale": "Cure for alcoholism/illness; direct treatment/remedy sense."
+      }
     }
   ]
 }

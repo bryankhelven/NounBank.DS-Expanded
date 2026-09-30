@@ -6,24 +6,51 @@
       "pt_roleset": "loucura.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": null,
-      "nombank_url": null,
-      "roles": [],
+      "english_roleset": "frenzy.01",
+      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/frenzy.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        }
+      ],
       "examples": [
         {
           "sent_ID": "dante_01_469214689206206464l",
           "text": "#BBAS3 estão batendo até na mãe nesse after. loucura 22,45 -5,39%",
-          "realization": {},
-          "syntax": {},
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg3": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg3": null
+          },
           "instance_id": "dante_01_469214689206206464l::loucura::1",
           "predicate": {
             "form": "loucura"
-          }
+          },
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
         }
       ],
       "syntactic_profile": {},
-      "resolution_status": "awaiting_english_mapping"
+      "mapping_evidence": {
+        "xml_file": "frenzy.xml",
+        "roleset_name": "nomadjlike-frantic",
+        "roleset_source": null,
+        "rationale": "After-market context with abrupt -5.39% move uses 'loucura' for a frenzied market state; frenzy.01 is the closest compatible nominal state frame."
+      }
     }
   ]
 }
