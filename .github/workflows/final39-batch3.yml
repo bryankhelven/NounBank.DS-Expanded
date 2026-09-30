@@ -1,0 +1,19 @@
+name: Audit final39 batch3
+on:
+  push:
+    branches:
+      - nbe-v2h-final39-batch3-20260929
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python tools/final39_batch3_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NBE_V2H_FINAL39_BATCH3_CANDIDATES
+          path: |
+            FINAL39_BATCH3_CANDIDATES.json
+            batch3_xml/
