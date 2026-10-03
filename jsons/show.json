@@ -42,10 +42,56 @@
           "predicate": {
             "form": "show",
             "char_start": 13,
-            "char_end": 17
+            "char_end": 17,
+            "source_token_id": "3",
+            "source_form": "show",
+            "lemma": "show",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_469903994593501184l::3",
+                "decision": "S",
+                "authority": "P009A",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "3",
+            "form": "show",
+            "lemma": "show",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "3"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_469903994593501184l",
+            "ID": "3",
+            "Form": "show",
+            "Lemma": "show",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
@@ -61,6 +107,23 @@
           "Merck , Rahway , N.J. , continued to lead the industry with a strong sales performance in the human and animal health-products segment .",
           "the expected weak performance of Aldus Corp. , maker of a widely used computer publishing program"
         ]
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_469903994593501184l::show::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_469903994593501184l::show::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     },
     {
@@ -68,45 +131,75 @@
       "pt_sense_index": 6,
       "pt_sense_hint": 6,
       "pt_sense_gloss": "show = espetáculo/desenrolar de acontecimentos",
-      "english_roleset": "performance.01",
+      "english_roleset": null,
       "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/performance.xml",
-      "roles": [
-        {
-          "id": "Arg0",
-          "desc": "agent"
-        },
-        {
-          "id": "Arg1",
-          "desc": "theme"
-        },
-        {
-          "id": "Arg2",
-          "desc": "instrument"
-        }
-      ],
+      "nombank_url": null,
+      "roles": [],
       "examples": [
         {
           "sent_ID": "dante_01_459035339739262976l",
           "text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show",
-          "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
-          },
-          "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
-          },
+          "realization": {},
+          "syntax": {},
           "instance_id": "dante_01_459035339739262976l::show::1",
           "predicate": {
             "form": "show",
             "char_start": 86,
-            "char_end": 90
+            "char_end": 90,
+            "source_token_id": "20",
+            "source_form": "show",
+            "lemma": "show",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_DOCUMENTED_NEGATIVE_ENGLISH_MAPPING",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459035339739262976l::20",
+                "decision": "S",
+                "authority": "P009A",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "20",
+            "form": "show",
+            "lemma": "show",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "20"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459035339739262976l",
+            "ID": "20",
+            "Form": "show",
+            "Lemma": "show",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "SpacesAfter=\\n"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "effective_mapping_disposition": {
+            "status": "ACCEPTED_DOCUMENTED_NEGATIVE_ENGLISH_MAPPING",
+            "source_of_authority": "ACCEPTED_SENSE_OR_CONTEXTUAL_LEDGER_PRESERVED_ORCH251"
+          },
+          "historical_resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {},
@@ -119,9 +212,45 @@
           "his usual straight-from-the-shoulder performance"
         ],
         "note": "Metaphorical 'part of the show' denotes the ongoing performance/spectacle, not broadcast show.01."
+      },
+      "english_mapping_audit": {
+        "decision": "NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_DOCUMENTED_SEARCH",
+        "rejected": {
+          "performance.01": "Execução de uma performance/representação; a queda faz parte das contingências normais do trading, não de uma atuação artística.",
+          "performance.02": "Desempenho de uma entidade; este uso não avalia desempenho, diferentemente de show.05.",
+          "show.01": "Programa/transmissão, não situação do trading.",
+          "show.02": "Exibição/manifestação, não leitura idiomática faz parte do show.",
+          "event.01": "Ocorrência específica; nominal designa a situação/processo global, não um evento individual.",
+          "process.01": "Procedimento/ação; não há processo específico denotado, apenas aceitação idiomática das contingências.",
+          "activity.01": "Atividade em domínio; substituição demasiadamente genérica para certificar equivalência deste idiomatismo.",
+          "game.01/game.05": "Jogo/atividade de jogar ou nome do jogo; metáfora adjacente não certifica equivalência.",
+          "business.01": "Atividade econômica/negócio; leitura genérica não autoriza redefinir o idiomatismo."
+        },
+        "pt_reading": "contingências normais da situação/atividade de trading"
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_459035339739262976l::show::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_459035339739262976l::show::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
   ],
   "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

@@ -37,29 +37,87 @@
           "text": "Notas gerais  A ANEEL aprovou aumento médio de 14,7% nas tarifas de energia dos consumidores da CEMIG (CMIG4),... http://t.co/nP4s3iqN6u",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": "de 14,7 %",
+            "Arg1": "nas tarifas de energia dos consumidores da CEMIG (CMIG4)",
+            "Arg2": "de 14,7%",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_453511624864051200l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 30,
+            "char_end": 37,
+            "source_token_id": "6",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453511624864051200l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453511624864051200l",
+            "ID": "6",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg2": {
+              "char_start": 44,
+              "char_end": 52,
+              "previous_tokenized_surface": "de 14,7 %",
+              "basis": "UNIQUE_EXACT_MATCH_AFTER_WHITESPACE_REMOVAL_ONLY",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_466611507988803584l",
           "text": "RTRS - MANTEGA: NÃO SE DEVE ANUNCIAR AUMENTO DA GASOLINA, 'SE DEVE FAZER' #PETR4",
           "realization": {
             "Arg0": null,
-            "Arg1": "DE A GASOLINA",
+            "Arg1": "DA GASOLINA",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -73,59 +131,215 @@
           },
           "instance_id": "dante_01_466611507988803584l::aumento::1",
           "predicate": {
-            "form": "AUMENTO"
-          }
+            "form": "AUMENTO",
+            "char_start": 37,
+            "char_end": 44,
+            "source_token_id": "9",
+            "source_form": "AUMENTO",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_466611507988803584l::9",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "9",
+            "form": "AUMENTO",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "9"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_466611507988803584l",
+            "ID": "9",
+            "Form": "AUMENTO",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 45,
+              "char_end": 56,
+              "previous_tokenized_surface": "DE A GASOLINA",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_446975198274002944l",
           "text": "já pensou, se para abafar possível 'crise' na #PETR4 a reunião de conselho de hoje decidir por um aumento nos combustíveis ? o.O",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nos combustíveis",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_446975198274002944l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 98,
+            "char_end": 105,
+            "source_token_id": "23",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446975198274002944l::23",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "23",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "23"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446975198274002944l",
+            "ID": "23",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_446353294722486272l",
           "text": "@clubedopairico O que o PT está fazendo para resolver a questão da petr4? nada. só um aumento na gasolina resolveria a curto prazo",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "na gasolina",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_446353294722486272l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 86,
+            "char_end": 93,
+            "source_token_id": "20",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446353294722486272l::20",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "20",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "20"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446353294722486272l",
+            "ID": "20",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_447358522020601857l",
           "text": "@toleranciazero6 @marisascruz  Venda PETR4 a descoberto após aumento da gasolina e divugue os podres do contrato, recompre lá embaixo.",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a gasolina",
+            "Arg1": "da gasolina",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -139,15 +353,123 @@
           },
           "instance_id": "dante_01_447358522020601857l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 61,
+            "char_end": 68,
+            "source_token_id": "8",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_447358522020601857l::8",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_447358522020601857l",
+            "ID": "8",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 69,
+              "char_end": 80,
+              "previous_tokenized_surface": "de a gasolina",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_447358522020601857l",
+                    "ID": "9-10",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_447358522020601857l",
+                      "ID": "9",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_447358522020601857l",
+                      "ID": "10",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_452135225947340800l",
           "text": "#ABEV3 - Ambev vai manter preço da cerveja sem aumento até o fim da Copa - http://t.co/uQvcMid5PG",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "preço da cerveja",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -161,15 +483,64 @@
           },
           "instance_id": "dante_01_452135225947340800l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 47,
+            "char_end": 54,
+            "source_token_id": "11",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_452135225947340800l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_452135225947340800l",
+            "ID": "11",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_461522403651104769l",
           "text": "#abev3 Governo irá aumentar novamente a tributação da cerveja e refrigerante no País. É o segundo aumento em menos de um mês.",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "a tributação da cerveja e refrigerante no País",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -183,15 +554,64 @@
           },
           "instance_id": "dante_01_461522403651104769l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 98,
+            "char_end": 105,
+            "source_token_id": "20",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_461522403651104769l::20",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "20",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "20"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_461522403651104769l",
+            "ID": "20",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_471702597414690816l",
           "text": "Organização Mundial de Saúde faz incentivo ao aumento dos impostos no tabaco para salvar mais vidas, efeito da notícia foi venda na #CRUZ3",
           "realization": {
             "Arg0": null,
-            "Arg1": "de os impostos em o tabaco",
+            "Arg1": "dos impostos no tabaco",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -205,11 +625,206 @@
           },
           "instance_id": "dante_01_471702597414690816l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 46,
+            "char_end": 53,
+            "source_token_id": "9",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_471702597414690816l::9",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "9",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "9"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_471702597414690816l",
+            "ID": "9",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 54,
+              "char_end": 76,
+              "previous_tokenized_surface": "de os impostos em o tabaco",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de os",
+                  "surface": "dos",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_471702597414690816l",
+                    "ID": "10-11",
+                    "Form": "dos",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_471702597414690816l",
+                      "ID": "10",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_471702597414690816l",
+                      "ID": "11",
+                      "Form": "os",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Plur|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "em o",
+                  "surface": "no",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_471702597414690816l",
+                    "ID": "13-14",
+                    "Form": "no",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_471702597414690816l",
+                      "ID": "13",
+                      "Form": "em",
+                      "Lemma": "em",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_471702597414690816l",
+                      "ID": "14",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
+        "Arg1": {
+          "nmod": 6
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_453511624864051200l::aumento::1",
+          "dante_01_466611507988803584l::aumento::1",
+          "dante_01_446975198274002944l::aumento::1",
+          "dante_01_446353294722486272l::aumento::1",
+          "dante_01_447358522020601857l::aumento::1",
+          "dante_01_452135225947340800l::aumento::1",
+          "dante_01_461522403651104769l::aumento::1",
+          "dante_01_471702597414690816l::aumento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_453511624864051200l::aumento::1",
+          "dante_01_466611507988803584l::aumento::1",
+          "dante_01_446975198274002944l::aumento::1",
+          "dante_01_446353294722486272l::aumento::1",
+          "dante_01_447358522020601857l::aumento::1",
+          "dante_01_452135225947340800l::aumento::1",
+          "dante_01_461522403651104769l::aumento::1",
+          "dante_01_471702597414690816l::aumento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg2": {
           "nmod": 1
         },
@@ -267,14 +882,80 @@
           },
           "instance_id": "dante_01_441675472393744384l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 72,
+            "char_end": 79,
+            "source_token_id": "12",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_441675472393744384l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_441675472393744384l",
+            "ID": "12",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 1
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_441675472393744384l::aumento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_441675472393744384l::aumento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     },
     {
@@ -312,7 +993,7 @@
           "text": "Fora das operações regulares penso seriamente em montar um Streaddle na PETR4 assim que ela mostrar aumento da volatilidade...",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a volatilidade",
+            "Arg1": "da volatilidade",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -326,55 +1007,299 @@
           },
           "instance_id": "dante_01_441961599499501568l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 100,
+            "char_end": 107,
+            "source_token_id": "19",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_441961599499501568l::19",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "19",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "19"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_441961599499501568l",
+            "ID": "19",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 108,
+              "char_end": 123,
+              "previous_tokenized_surface": "de a volatilidade",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_441961599499501568l",
+                    "ID": "20-21",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_441961599499501568l",
+                      "ID": "20",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_441961599499501568l",
+                      "ID": "21",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_445623987893469184l",
           "text": "@Smarttrade10 Qual foi o aumento do BTC de CSNA3, após o comunicado do Benjamin Steinbruch ?",
           "realization": {
             "Arg0": null,
-            "Arg1": "Qual",
-            "Arg2": null,
+            "Arg1": "do BTC de CSNA3",
+            "Arg2": "Qual",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": "nsubj",
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_445623987893469184l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 25,
+            "char_end": 32,
+            "source_token_id": "5",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_445623987893469184l::5",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "5",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "5"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_445623987893469184l",
+            "ID": "5",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_464738307692191744l",
           "text": "#GOLL4 O transporte doméstico de passageiros registrou aumento de 8,16% na demanda medida em passageiros... http://t.co/8pIYzbanHG",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": "de 8,16 %",
+            "Arg1": "na demanda medida em passageiros",
+            "Arg2": "de 8,16%",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_464738307692191744l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 55,
+            "char_end": 62,
+            "source_token_id": "8",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_464738307692191744l::8",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_464738307692191744l",
+            "ID": "8",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg2": {
+              "char_start": 63,
+              "char_end": 71,
+              "previous_tokenized_surface": "de 8,16 %",
+              "basis": "UNIQUE_EXACT_MATCH_AFTER_WHITESPACE_REMOVAL_ONLY",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
+        "Arg1": {
+          "nmod": 3
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_441961599499501568l::aumento::1",
+          "dante_01_445623987893469184l::aumento::1",
+          "dante_01_464738307692191744l::aumento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_441961599499501568l::aumento::1",
+          "dante_01_445623987893469184l::aumento::1",
+          "dante_01_464738307692191744l::aumento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg1": {
           "nmod": 1,
           "nsubj": 1
@@ -433,15 +1358,64 @@
           },
           "instance_id": "dante_01_448061183451746304l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 58,
+            "char_end": 65,
+            "source_token_id": "13",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448061183451746304l::13",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "13",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "13"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448061183451746304l",
+            "ID": "13",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_458933400754470912l",
           "text": "$DTEX3 - Duratex (dtex-nm) - Fato Relevante - Aumento Do Capital Social C/bonif Em Acoes http://t.co/Sg8gRLFTnW",
           "realization": {
             "Arg0": null,
-            "Arg1": "De o Capital Social",
+            "Arg1": "Do Capital Social",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -455,14 +1429,72 @@
           },
           "instance_id": "dante_01_458933400754470912l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 46,
+            "char_end": 53,
+            "source_token_id": "11",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_458933400754470912l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_458933400754470912l",
+            "ID": "11",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 54,
+              "char_end": 71,
+              "previous_tokenized_surface": "De o Capital Social",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_460950788429594624l",
           "text": "#BR #BOVESPA #ABEV3 Ambev fará aumento de capital para incorporar benefício fiscal:  http://t.co/6YS0n7kWf4",
           "realization": {
-            "Arg0": null,
+            "Arg0": "Ambev",
             "Arg1": "de capital",
             "Arg2": null,
             "Arg3": null,
@@ -477,16 +1509,65 @@
           },
           "instance_id": "dante_01_460950788429594624l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 31,
+            "char_end": 38,
+            "source_token_id": "6",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_460950788429594624l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_460950788429594624l",
+            "ID": "6",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_471981619243651072l",
           "text": "Gol (#GOLL4) fará aumento de capital de R$185,8 milhões. http://t.co/m9QraDXf6m",
           "realization": {
-            "Arg0": null,
+            "Arg0": "Gol (#GOLL4)",
             "Arg1": "de capital",
-            "Arg2": "de R$ 185,8 milhões",
+            "Arg2": "de R$185,8 milhões",
             "Arg3": null,
             "Arg4": null
           },
@@ -499,15 +1580,73 @@
           },
           "instance_id": "dante_01_471981619243651072l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 18,
+            "char_end": 25,
+            "source_token_id": "6",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_471981619243651072l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_471981619243651072l",
+            "ID": "6",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg2": {
+              "char_start": 37,
+              "char_end": 55,
+              "previous_tokenized_surface": "de R$ 185,8 milhões",
+              "basis": "UNIQUE_EXACT_MATCH_AFTER_WHITESPACE_REMOVAL_ONLY",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_443109051715817472l",
           "text": "$PETR3 - Petrobras (petr) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento Do Capital http://t.co/vfiIT5AhIW",
           "realization": {
             "Arg0": null,
-            "Arg1": "De o Capital",
+            "Arg1": "Do Capital",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -521,15 +1660,73 @@
           },
           "instance_id": "dante_01_443109051715817472l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 71,
+            "char_end": 78,
+            "source_token_id": "18",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_443109051715817472l::18",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "18",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "18"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_443109051715817472l",
+            "ID": "18",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 79,
+              "char_end": 89,
+              "previous_tokenized_surface": "De o Capital",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444116429194162176l",
           "text": "#Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das almas. #PETR4",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a exploração de o fisiologismo em a bacia de as almas",
+            "Arg1": "da exploração do fisiologismo na bacia das almas",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -543,15 +1740,267 @@
           },
           "instance_id": "dante_01_444116429194162176l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 70,
+            "char_end": 77,
+            "source_token_id": "13",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444116429194162176l::13",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "13",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "13"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444116429194162176l",
+            "ID": "13",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 78,
+              "char_end": 126,
+              "previous_tokenized_surface": "de a exploração de o fisiologismo em a bacia de as almas",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de as",
+                  "surface": "das",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444116429194162176l",
+                    "ID": "23-24",
+                    "Form": "das",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "23",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "24",
+                      "Form": "as",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Plur|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444116429194162176l",
+                    "ID": "14-15",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "14",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "15",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "de o",
+                  "surface": "do",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444116429194162176l",
+                    "ID": "17-18",
+                    "Form": "do",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "17",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "18",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "em a",
+                  "surface": "na",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444116429194162176l",
+                    "ID": "20-21",
+                    "Form": "na",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "20",
+                      "Form": "em",
+                      "Lemma": "em",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444116429194162176l",
+                      "ID": "21",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444118685725507584l",
           "text": "RT @ppaulovagner: #Petrobrás anuncia descoberta de nova jazida de #propina no pré-sal e aumento da exploração do fisiologismo na bacia das …",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a exploração de o fisiologismo em a bacia de as",
+            "Arg1": "da exploração do fisiologismo na bacia das",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -565,8 +2014,260 @@
           },
           "instance_id": "dante_01_444118685725507584l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 88,
+            "char_end": 95,
+            "source_token_id": "16",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444118685725507584l::16",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "16",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "16"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444118685725507584l",
+            "ID": "16",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 96,
+              "char_end": 138,
+              "previous_tokenized_surface": "de a exploração de o fisiologismo em a bacia de as",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de as",
+                  "surface": "das",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444118685725507584l",
+                    "ID": "26-27",
+                    "Form": "das",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "26",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "27",
+                      "Form": "as",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Plur|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444118685725507584l",
+                    "ID": "17-18",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "17",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "18",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "de o",
+                  "surface": "do",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444118685725507584l",
+                    "ID": "20-21",
+                    "Form": "do",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "20",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "21",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                },
+                {
+                  "expanded_form": "em a",
+                  "surface": "na",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_444118685725507584l",
+                    "ID": "23-24",
+                    "Form": "na",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "23",
+                      "Form": "em",
+                      "Lemma": "em",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_444118685725507584l",
+                      "ID": "24",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444119089167212544l",
@@ -587,8 +2288,57 @@
           },
           "instance_id": "dante_01_444119089167212544l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 83,
+            "char_end": 90,
+            "source_token_id": "15",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444119089167212544l::15",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "15",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "15"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444119089167212544l",
+            "ID": "15",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448822972179304448l",
@@ -609,15 +2359,64 @@
           },
           "instance_id": "dante_01_448822972179304448l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 33,
+            "char_end": 40,
+            "source_token_id": "10",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448822972179304448l::10",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "10",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "10"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448822972179304448l",
+            "ID": "10",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_453539784531927041l",
           "text": "$SBSP3 - Sabesp (sbsp-nm)-ago/e-30/04/2014 - 10h00 - Aumento Capital Sem Emissao De Acoes http://t.co/jpD54JYXa4",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "Capital",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -631,15 +2430,64 @@
           },
           "instance_id": "dante_01_453539784531927041l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 53,
+            "char_end": 60,
+            "source_token_id": "14",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453539784531927041l::14",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "14",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "14"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453539784531927041l",
+            "ID": "14",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456399910208675840l",
           "text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social Atraves Do Plano De Opcao De Compra http://t.co/fk1RgIHH78",
           "realization": {
             "Arg0": null,
-            "Arg1": "De o Capital Social",
+            "Arg1": "Do Capital Social",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -653,15 +2501,73 @@
           },
           "instance_id": "dante_01_456399910208675840l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 27,
+            "char_end": 34,
+            "source_token_id": "8",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456399910208675840l::8",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456399910208675840l",
+            "ID": "8",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 35,
+              "char_end": 52,
+              "previous_tokenized_surface": "De o Capital Social",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_464744370223480832l",
           "text": "$CTIP3 - Cetip (ctip-nm) - Aumento Do Capital Social / Periodo De Preferencia http://t.co/aWk9ESEXJP",
           "realization": {
             "Arg0": null,
-            "Arg1": "De o Capital Social",
+            "Arg1": "Do Capital Social",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -675,33 +2581,189 @@
           },
           "instance_id": "dante_01_464744370223480832l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 27,
+            "char_end": 34,
+            "source_token_id": "8",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_464744370223480832l::8",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_464744370223480832l",
+            "ID": "8",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 35,
+              "char_end": 52,
+              "previous_tokenized_surface": "De o Capital Social",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_471998284022964224l",
           "text": "#BOVESPA #GOLL4 Gol faz aumento de capital de R$ 185,7 mi e prevê investimento da AirFrance. http://t.co/0Kro8OpwaD",
           "realization": {
-            "Arg0": null,
+            "Arg0": "Gol",
             "Arg1": "de capital",
-            "Arg2": null,
+            "Arg2": "de R$ 185,7 mi",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
           },
           "instance_id": "dante_01_471998284022964224l::aumento::1",
           "predicate": {
-            "form": "aumento"
-          }
+            "form": "aumento",
+            "char_start": 24,
+            "char_end": 31,
+            "source_token_id": "5",
+            "source_form": "aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_471998284022964224l::5",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "5",
+            "form": "aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "5"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_471998284022964224l",
+            "ID": "5",
+            "Form": "aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
+        "Arg1": {
+          "nmod": 11
+        },
+        "Arg2": {
+          "nmod": 2
+        }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_448061183451746304l::aumento::1",
+          "dante_01_458933400754470912l::aumento::1",
+          "dante_01_460950788429594624l::aumento::1",
+          "dante_01_471981619243651072l::aumento::1",
+          "dante_01_443109051715817472l::aumento::1",
+          "dante_01_444116429194162176l::aumento::1",
+          "dante_01_444118685725507584l::aumento::1",
+          "dante_01_444119089167212544l::aumento::1",
+          "dante_01_448822972179304448l::aumento::1",
+          "dante_01_453539784531927041l::aumento::1",
+          "dante_01_456399910208675840l::aumento::1",
+          "dante_01_464744370223480832l::aumento::1",
+          "dante_01_471998284022964224l::aumento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_448061183451746304l::aumento::1",
+          "dante_01_458933400754470912l::aumento::1",
+          "dante_01_460950788429594624l::aumento::1",
+          "dante_01_471981619243651072l::aumento::1",
+          "dante_01_443109051715817472l::aumento::1",
+          "dante_01_444116429194162176l::aumento::1",
+          "dante_01_444118685725507584l::aumento::1",
+          "dante_01_444119089167212544l::aumento::1",
+          "dante_01_448822972179304448l::aumento::1",
+          "dante_01_453539784531927041l::aumento::1",
+          "dante_01_456399910208675840l::aumento::1",
+          "dante_01_464744370223480832l::aumento::1",
+          "dante_01_471998284022964224l::aumento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg1": {
           "nmod": 11
         },
@@ -745,7 +2807,7 @@
           "text": "$HGTX3 - Cia Hering (hgtx-nm) - Age - 2a Convocacao - 07/05/2014 - 15h / Aumento Do Cap. http://t.co/dyHY6t7JGO",
           "realization": {
             "Arg0": null,
-            "Arg1": "De o Cap",
+            "Arg1": "Do Cap",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -759,15 +2821,94 @@
           },
           "instance_id": "dante_01_459711941817417728l::aumento::1",
           "predicate": {
-            "form": "Aumento"
-          }
+            "form": "Aumento",
+            "char_start": 73,
+            "char_end": 80,
+            "source_token_id": "18",
+            "source_form": "Aumento",
+            "lemma": "aumento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459711941817417728l::18",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "18",
+            "form": "Aumento",
+            "lemma": "aumento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "18"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459711941817417728l",
+            "ID": "18",
+            "Form": "Aumento",
+            "Lemma": "aumento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 81,
+              "char_end": 87,
+              "previous_tokenized_surface": "De o Cap",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 1
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_459711941817417728l::aumento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_459711941817417728l::aumento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

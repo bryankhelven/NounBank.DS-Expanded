@@ -25,7 +25,7 @@
           "text": "$JBSS3 - Jbs (jbss-nm) - Retirada Temporaria Do Lancamento Das Notas Seniores http://t.co/UsqXkOxaWA",
           "realization": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "Das Notas Seniores"
           },
           "syntax": {
             "Arg0": null,
@@ -33,15 +33,71 @@
           },
           "instance_id": "dante_01_472032216202362880l::lançamento::1",
           "predicate": {
-            "form": "Lancamento"
-          }
+            "form": "Lancamento",
+            "source_token_id": "12",
+            "source_form": "Lancamento",
+            "lemma": "lançamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_472032216202362880l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "Lancamento",
+            "lemma": "lançamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_472032216202362880l",
+            "ID": "12",
+            "Form": "Lancamento",
+            "Lemma": "lançamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Typo=Yes",
+            "Misc": "CorrectForm=Lançamento"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 59,
+              "char_end": 77,
+              "previous_tokenized_surface": "das Notas Seniores",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_458764455326007297l",
           "text": "$GOLL4 - GOL Anuncia Lançamento de Voo Direto entre Fortaleza e Buenos Aires http://t.co/P08eltfYsP",
           "realization": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "de Voo Direto entre Fortaleza e Buenos Aires"
           },
           "syntax": {
             "Arg0": null,
@@ -49,27 +105,97 @@
           },
           "instance_id": "dante_01_458764455326007297l::lançamento::1",
           "predicate": {
-            "form": "Lançamento"
-          }
+            "form": "Lançamento",
+            "source_token_id": "5",
+            "source_form": "Lançamento",
+            "lemma": "lançamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_458764455326007297l::5",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "5",
+            "form": "Lançamento",
+            "lemma": "lançamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "5"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_458764455326007297l",
+            "ID": "5",
+            "Form": "Lançamento",
+            "Lemma": "lançamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_472032216202362880l::lançamento::1",
+          "dante_01_458764455326007297l::lançamento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_472032216202362880l::lançamento::1",
+          "dante_01_458764455326007297l::lançamento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     },
     {
       "pt_roleset": "lançamento.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
-      "english_roleset": "launch.01",
+      "english_roleset": "writing.01",
       "english_roleset_source": null,
-      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/launch.xml",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/writing.xml",
       "roles": [
         {
           "id": "Arg0",
-          "desc": "STARTER, AGENT"
+          "desc": "writer"
         },
         {
           "id": "Arg1",
-          "desc": "THING BEING LAUNCHED"
+          "desc": "thing written"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
         }
       ],
       "examples": [
@@ -78,19 +204,89 @@
           "text": "VOLTEI! Após uma semana de férias no Rio, tô de volta. E já entrei em VALE5 a $27,63, com lançamento VALEE29, exerc. $28,70. Ô trem bão!",
           "realization": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "VALEE29",
+            "Arg2": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": null,
+            "Arg2": null
           },
           "instance_id": "dante_01_459041599486697472l::lançamento::1",
           "predicate": {
-            "form": "lançamento"
-          }
+            "form": "lançamento",
+            "source_token_id": "26",
+            "source_form": "lançamento",
+            "lemma": "lançamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459041599486697472l::26",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "26",
+            "form": "lançamento",
+            "lemma": "lançamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "26"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459041599486697472l",
+            "ID": "26",
+            "Form": "lançamento",
+            "Lemma": "lançamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_459041599486697472l::lançamento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_459041599486697472l::lançamento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

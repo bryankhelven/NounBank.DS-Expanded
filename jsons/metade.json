@@ -36,10 +36,56 @@
           "predicate": {
             "form": "Metade",
             "char_start": 0,
-            "char_end": 6
+            "char_end": 6,
+            "source_token_id": "1",
+            "source_form": "Metade",
+            "lemma": "metade",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456148929336205312l::1",
+                "decision": "S",
+                "authority": "P009B",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "1",
+            "form": "Metade",
+            "lemma": "metade",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "1"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456148929336205312l",
+            "ID": "1",
+            "Form": "Metade",
+            "Lemma": "metade",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459373848476278785l",
@@ -56,10 +102,56 @@
           "predicate": {
             "form": "metade",
             "char_start": 3,
-            "char_end": 9
+            "char_end": 9,
+            "source_token_id": "3",
+            "source_form": "metade",
+            "lemma": "metade",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459373848476278785l::3",
+                "decision": "S",
+                "authority": "P009B",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "3",
+            "form": "metade",
+            "lemma": "metade",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "3"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459373848476278785l",
+            "ID": "3",
+            "Form": "metade",
+            "Lemma": "metade",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
@@ -75,9 +167,32 @@
           "the first half of the year",
           "the second half of next year"
         ]
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_456148929336205312l::metade::1",
+          "dante_01_459373848476278785l::metade::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_456148929336205312l::metade::1",
+          "dante_01_459373848476278785l::metade::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
   ],
   "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

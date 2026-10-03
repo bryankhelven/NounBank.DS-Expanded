@@ -39,15 +39,62 @@
           },
           "instance_id": "dante_01_448577247528878080l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448577247528878080l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448577247528878080l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_453521129505030144l",
           "text": "#PETR4 e #VALE5 abrindo com fortes gaps de alta. O fechamento destes gaps para a continuidade da alta parece o mais provável.",
           "realization": {
             "Arg0": null,
-            "Arg1": "de estes gaps",
+            "Arg1": "destes gaps",
             "Arg2": null
           },
           "syntax": {
@@ -57,8 +104,114 @@
           },
           "instance_id": "dante_01_453521129505030144l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "12",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453521129505030144l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453521129505030144l",
+            "ID": "12",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 62,
+              "char_end": 73,
+              "previous_tokenized_surface": "de estes gaps",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de estes",
+                  "surface": "destes",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_453521129505030144l",
+                    "ID": "13-14",
+                    "Form": "destes",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_453521129505030144l",
+                      "ID": "13",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_453521129505030144l",
+                      "ID": "14",
+                      "Form": "estes",
+                      "Lemma": "este",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Gender=Masc|Number=Plur|PronType=Dem",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_462314687338917888l",
@@ -75,8 +228,55 @@
           },
           "instance_id": "dante_01_462314687338917888l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "23",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_462314687338917888l::23",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "23",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "23"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_462314687338917888l",
+            "ID": "23",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_441553962857025537l",
@@ -93,15 +293,62 @@
           },
           "instance_id": "dante_01_441553962857025537l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "22",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_441553962857025537l::22",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "22",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "22"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_441553962857025537l",
+            "ID": "22",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_443814850951925760l",
           "text": "Divulgamos os resultados do 4T13 no dia 20, após o fechamento do mercado. Veja o convite: http://t.co/8GpACqyhkN $ESTC3 #Resultados #4T13",
           "realization": {
             "Arg0": null,
-            "Arg1": "de o mercado",
+            "Arg1": "do mercado",
             "Arg2": null
           },
           "syntax": {
@@ -111,8 +358,114 @@
           },
           "instance_id": "dante_01_443814850951925760l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "14",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_443814850951925760l::14",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "14",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "14"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_443814850951925760l",
+            "ID": "14",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 62,
+              "char_end": 72,
+              "previous_tokenized_surface": "de o mercado",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de o",
+                  "surface": "do",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_443814850951925760l",
+                    "ID": "15-16",
+                    "Form": "do",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_443814850951925760l",
+                      "ID": "15",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_443814850951925760l",
+                      "ID": "16",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444474400981938176l",
@@ -129,8 +482,55 @@
           },
           "instance_id": "dante_01_444474400981938176l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "8",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444474400981938176l::8",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444474400981938176l",
+            "ID": "8",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_449302698001580032l",
@@ -147,8 +547,55 @@
           },
           "instance_id": "dante_01_449302698001580032l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_449302698001580032l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_449302698001580032l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_461138340071604224l",
@@ -165,8 +612,55 @@
           },
           "instance_id": "dante_01_461138340071604224l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "11",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_461138340071604224l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_461138340071604224l",
+            "ID": "11",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444319640353652736l",
@@ -183,8 +677,55 @@
           },
           "instance_id": "dante_01_444319640353652736l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444319640353652736l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444319640353652736l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444319692685967360l",
@@ -201,8 +742,55 @@
           },
           "instance_id": "dante_01_444319692685967360l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444319692685967360l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444319692685967360l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444319866720620544l",
@@ -219,8 +807,55 @@
           },
           "instance_id": "dante_01_444319866720620544l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444319866720620544l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444319866720620544l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444643488555339776l",
@@ -237,8 +872,64 @@
           },
           "instance_id": "dante_01_444643488555339776l::fechamento::1",
           "predicate": {
-            "form": "fech."
-          }
+            "form": "fech.",
+            "source_token_id": "6",
+            "source_form": "fech.",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444643488555339776l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              },
+              {
+                "key": "dante_01_444643488555339776l::15",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": true,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "source_token_ids": [
+              "6"
+            ],
+            "form": "fech.",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "binding_evidence": "NEW_EXPLICIT_ORDER_STABLE_EQUIVALENT_GROUP_CONVENTION",
+            "binding_authority": "ORCH_RECON_000250",
+            "historical_generator_recovered": false,
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444643488555339776l",
+            "ID": "6",
+            "Form": "fech.",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Abbr=Yes",
+            "Misc": "FullForm=fechamento"
+          },
+          "binding_convention_scope": "EXACT_ORCH250_LIST_ONLY_NOT_A_GENERAL_RULE",
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_444643488555339776l",
@@ -255,8 +946,64 @@
           },
           "instance_id": "dante_01_444643488555339776l::fechamento::2",
           "predicate": {
-            "form": "fech."
-          }
+            "form": "fech.",
+            "source_token_id": "15",
+            "source_form": "fech.",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_444643488555339776l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              },
+              {
+                "key": "dante_01_444643488555339776l::15",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": true,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "15",
+            "source_token_ids": [
+              "15"
+            ],
+            "form": "fech.",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "binding_evidence": "NEW_EXPLICIT_ORDER_STABLE_EQUIVALENT_GROUP_CONVENTION",
+            "binding_authority": "ORCH_RECON_000250",
+            "historical_generator_recovered": false,
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_444643488555339776l",
+            "ID": "15",
+            "Form": "fech.",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Abbr=Yes",
+            "Misc": "FullForm=fechamento"
+          },
+          "binding_convention_scope": "EXACT_ORCH250_LIST_ONLY_NOT_A_GENERAL_RULE",
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448564191511576577l",
@@ -273,8 +1020,55 @@
           },
           "instance_id": "dante_01_448564191511576577l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448564191511576577l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448564191511576577l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448572500159365120l",
@@ -291,8 +1085,55 @@
           },
           "instance_id": "dante_01_448572500159365120l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448572500159365120l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448572500159365120l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448574904150290433l",
@@ -309,8 +1150,55 @@
           },
           "instance_id": "dante_01_448574904150290433l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448574904150290433l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448574904150290433l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448778144963510273l",
@@ -327,8 +1215,55 @@
           },
           "instance_id": "dante_01_448778144963510273l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "11",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448778144963510273l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448778144963510273l",
+            "ID": "11",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448931951911923712l",
@@ -345,8 +1280,55 @@
           },
           "instance_id": "dante_01_448931951911923712l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448931951911923712l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448931951911923712l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448934252709543936l",
@@ -363,8 +1345,55 @@
           },
           "instance_id": "dante_01_448934252709543936l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448934252709543936l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448934252709543936l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448941965317382144l",
@@ -381,8 +1410,55 @@
           },
           "instance_id": "dante_01_448941965317382144l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448941965317382144l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448941965317382144l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_448944405660311552l",
@@ -399,15 +1475,62 @@
           },
           "instance_id": "dante_01_448944405660311552l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "6",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_448944405660311552l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_448944405660311552l",
+            "ID": "6",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_449278725813985280l",
           "text": "Fechamento das estatais na Bovespa: PETR3, +7,54%, PETR4, +8,12%, Banco do Brasil, +6,63%, Eletrobrás ON, +9,84% e Eletrobrás PNB, +3,51%",
           "realization": {
             "Arg0": null,
-            "Arg1": "de as estatais",
+            "Arg1": "das estatais",
             "Arg2": null
           },
           "syntax": {
@@ -417,8 +1540,114 @@
           },
           "instance_id": "dante_01_449278725813985280l::fechamento::1",
           "predicate": {
-            "form": "Fechamento"
-          }
+            "form": "Fechamento",
+            "source_token_id": "1",
+            "source_form": "Fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_449278725813985280l::1",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "1",
+            "form": "Fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "1"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_449278725813985280l",
+            "ID": "1",
+            "Form": "Fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 11,
+              "char_end": 23,
+              "previous_tokenized_surface": "de as estatais",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de as",
+                  "surface": "das",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_449278725813985280l",
+                    "ID": "2-3",
+                    "Form": "das",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_449278725813985280l",
+                      "ID": "2",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_449278725813985280l",
+                      "ID": "3",
+                      "Form": "as",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Plur|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_451703359612157952l",
@@ -435,8 +1664,55 @@
           },
           "instance_id": "dante_01_451703359612157952l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "12",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_451703359612157952l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_451703359612157952l",
+            "ID": "12",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_451751146777247744l",
@@ -453,15 +1729,62 @@
           },
           "instance_id": "dante_01_451751146777247744l::fechamento::1",
           "predicate": {
-            "form": "fech."
-          }
+            "form": "fech.",
+            "source_token_id": "6",
+            "source_form": "fech.",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_451751146777247744l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "fech.",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_451751146777247744l",
+            "ID": "6",
+            "Form": "fech.",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Abbr=Yes",
+            "Misc": "FullForm=fechamento"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_453514589926199296l",
           "text": "Petrobras reinicia produção na P-20  A PETROBRAS (PETR4) informou ontem à noite, após o fechamento do mercado,... http://t.co/LzbDonGJdB",
           "realization": {
             "Arg0": null,
-            "Arg1": "de o mercado",
+            "Arg1": "do mercado",
             "Arg2": null
           },
           "syntax": {
@@ -471,8 +1794,114 @@
           },
           "instance_id": "dante_01_453514589926199296l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "20",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453514589926199296l::20",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "20",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "20"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453514589926199296l",
+            "ID": "20",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 99,
+              "char_end": 109,
+              "previous_tokenized_surface": "de o mercado",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de o",
+                  "surface": "do",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_453514589926199296l",
+                    "ID": "21-22",
+                    "Form": "do",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_453514589926199296l",
+                      "ID": "21",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_453514589926199296l",
+                      "ID": "22",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456159880961744896l",
@@ -489,8 +1918,55 @@
           },
           "instance_id": "dante_01_456159880961744896l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "7",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456159880961744896l::7",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "7"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456159880961744896l",
+            "ID": "7",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_458620477104066560l",
@@ -507,8 +1983,55 @@
           },
           "instance_id": "dante_01_458620477104066560l::fechamento::1",
           "predicate": {
-            "form": "fech."
-          }
+            "form": "fech.",
+            "source_token_id": "6",
+            "source_form": "fech.",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_458620477104066560l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "fech.",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_458620477104066560l",
+            "ID": "6",
+            "Form": "fech.",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Abbr=Yes",
+            "Misc": "FullForm=fechamento"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_460783018320220160l",
@@ -525,8 +2048,55 @@
           },
           "instance_id": "dante_01_460783018320220160l::fechamento::1",
           "predicate": {
-            "form": "fech."
-          }
+            "form": "fech.",
+            "source_token_id": "6",
+            "source_form": "fech.",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_460783018320220160l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "fech.",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_460783018320220160l",
+            "ID": "6",
+            "Form": "fech.",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing|Abbr=Yes",
+            "Misc": "FullForm=fechamento"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_461619392502333440l",
@@ -543,15 +2113,62 @@
           },
           "instance_id": "dante_01_461619392502333440l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "12",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_461619392502333440l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_461619392502333440l",
+            "ID": "12",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_464497769613631489l",
           "text": "Todos os dias no fechamento do mercado #ITUB4 mesmo caindo tem uma puxada no pregão. Estranho, dia todo em baixa e pregao puxando pra cima.",
           "realization": {
             "Arg0": null,
-            "Arg1": "de o mercado",
+            "Arg1": "do mercado",
             "Arg2": null
           },
           "syntax": {
@@ -561,8 +2178,114 @@
           },
           "instance_id": "dante_01_464497769613631489l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "6",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_464497769613631489l::6",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "6",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "6"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_464497769613631489l",
+            "ID": "6",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 28,
+              "char_end": 38,
+              "previous_tokenized_surface": "de o mercado",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de o",
+                  "surface": "do",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_464497769613631489l",
+                    "ID": "7-8",
+                    "Form": "do",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_464497769613631489l",
+                      "ID": "7",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_464497769613631489l",
+                      "ID": "8",
+                      "Form": "o",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_467772096224194560l",
@@ -579,15 +2302,143 @@
           },
           "instance_id": "dante_01_467772096224194560l::fechamento::1",
           "predicate": {
-            "form": "fechamento"
-          }
+            "form": "fechamento",
+            "source_token_id": "4",
+            "source_form": "fechamento",
+            "lemma": "fechamento",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_467772096224194560l::4",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "4",
+            "form": "fechamento",
+            "lemma": "fechamento",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "4"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_467772096224194560l",
+            "ID": "4",
+            "Form": "fechamento",
+            "Lemma": "fechamento",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 8
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_448577247528878080l::fechamento::1",
+          "dante_01_453521129505030144l::fechamento::1",
+          "dante_01_462314687338917888l::fechamento::1",
+          "dante_01_441553962857025537l::fechamento::1",
+          "dante_01_443814850951925760l::fechamento::1",
+          "dante_01_444474400981938176l::fechamento::1",
+          "dante_01_449302698001580032l::fechamento::1",
+          "dante_01_461138340071604224l::fechamento::1",
+          "dante_01_444319640353652736l::fechamento::1",
+          "dante_01_444319692685967360l::fechamento::1",
+          "dante_01_444319866720620544l::fechamento::1",
+          "dante_01_444643488555339776l::fechamento::1",
+          "dante_01_444643488555339776l::fechamento::2",
+          "dante_01_448564191511576577l::fechamento::1",
+          "dante_01_448572500159365120l::fechamento::1",
+          "dante_01_448574904150290433l::fechamento::1",
+          "dante_01_448778144963510273l::fechamento::1",
+          "dante_01_448931951911923712l::fechamento::1",
+          "dante_01_448934252709543936l::fechamento::1",
+          "dante_01_448941965317382144l::fechamento::1",
+          "dante_01_448944405660311552l::fechamento::1",
+          "dante_01_449278725813985280l::fechamento::1",
+          "dante_01_451703359612157952l::fechamento::1",
+          "dante_01_451751146777247744l::fechamento::1",
+          "dante_01_453514589926199296l::fechamento::1",
+          "dante_01_456159880961744896l::fechamento::1",
+          "dante_01_458620477104066560l::fechamento::1",
+          "dante_01_460783018320220160l::fechamento::1",
+          "dante_01_461619392502333440l::fechamento::1",
+          "dante_01_464497769613631489l::fechamento::1",
+          "dante_01_467772096224194560l::fechamento::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_448577247528878080l::fechamento::1",
+          "dante_01_453521129505030144l::fechamento::1",
+          "dante_01_462314687338917888l::fechamento::1",
+          "dante_01_441553962857025537l::fechamento::1",
+          "dante_01_443814850951925760l::fechamento::1",
+          "dante_01_444474400981938176l::fechamento::1",
+          "dante_01_449302698001580032l::fechamento::1",
+          "dante_01_461138340071604224l::fechamento::1",
+          "dante_01_444319640353652736l::fechamento::1",
+          "dante_01_444319692685967360l::fechamento::1",
+          "dante_01_444319866720620544l::fechamento::1",
+          "dante_01_444643488555339776l::fechamento::1",
+          "dante_01_444643488555339776l::fechamento::2",
+          "dante_01_448564191511576577l::fechamento::1",
+          "dante_01_448572500159365120l::fechamento::1",
+          "dante_01_448574904150290433l::fechamento::1",
+          "dante_01_448778144963510273l::fechamento::1",
+          "dante_01_448931951911923712l::fechamento::1",
+          "dante_01_448934252709543936l::fechamento::1",
+          "dante_01_448941965317382144l::fechamento::1",
+          "dante_01_448944405660311552l::fechamento::1",
+          "dante_01_449278725813985280l::fechamento::1",
+          "dante_01_451703359612157952l::fechamento::1",
+          "dante_01_451751146777247744l::fechamento::1",
+          "dante_01_453514589926199296l::fechamento::1",
+          "dante_01_456159880961744896l::fechamento::1",
+          "dante_01_458620477104066560l::fechamento::1",
+          "dante_01_460783018320220160l::fechamento::1",
+          "dante_01_461619392502333440l::fechamento::1",
+          "dante_01_464497769613631489l::fechamento::1",
+          "dante_01_467772096224194560l::fechamento::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

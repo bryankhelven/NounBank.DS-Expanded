@@ -29,7 +29,7 @@
           "text": "$PETR4 RT @valor_economico: Ministra do STF determina instalação de CPI exclusiva da Petrobras http://t.co/WCdgonkilB",
           "realization": {
             "Arg0": null,
-            "Arg1": "de CPI exclusiva de a Petrobras",
+            "Arg1": "de CPI exclusiva da Petrobras",
             "Arg2": null
           },
           "syntax": {
@@ -39,15 +39,142 @@
           },
           "instance_id": "dante_01_459147328612753408l::instalação::1",
           "predicate": {
-            "form": "instalação"
-          }
+            "form": "instalação",
+            "source_token_id": "10",
+            "source_form": "instalação",
+            "lemma": "instalação",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459147328612753408l::10",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "10",
+            "form": "instalação",
+            "lemma": "instalação",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "10"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459147328612753408l",
+            "ID": "10",
+            "Form": "instalação",
+            "Lemma": "instalação",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 65,
+              "char_end": 94,
+              "previous_tokenized_surface": "de CPI exclusiva de a Petrobras",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_459147328612753408l",
+                    "ID": "14-15",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_459147328612753408l",
+                      "ID": "14",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_459147328612753408l",
+                      "ID": "15",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 1
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_459147328612753408l::instalação::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_459147328612753408l::instalação::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

@@ -33,9 +33,9 @@
           "text": "#OIBR4 uma pena o papel ficar assim, só me resta uma alternativa comprar mais para abaixar minha média.",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "comprar mais",
             "Arg2": null,
-            "Arg3": null
+            "Arg3": "para abaixar minha média"
           },
           "syntax": {
             "Arg0": null,
@@ -45,11 +45,106 @@
           },
           "instance_id": "dante_01_456848399242133504l::alternativa::1",
           "predicate": {
-            "form": "alternativa"
-          }
+            "form": "alternativa",
+            "source_token_id": "13",
+            "source_form": "alternativa",
+            "lemma": "alternativo",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456848399242133504l::13",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "13",
+            "form": "alternativa",
+            "lemma": "alternativo",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "13"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456848399242133504l",
+            "ID": "13",
+            "Form": "alternativa",
+            "Lemma": "alternativo",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "identity_pos_reconciliation": {
+            "status": "RESOLVED_TARGETED_ORCH251",
+            "basis": "Form=alternativa, UPOS=NOUN, Gender=Fem, nominal choice reading. Preserve source lemma alternativo as source annotation; keep canonical nominal entry alternativa.",
+            "authority": "ORCH_RECON_000251",
+            "source_identity_preserved": true,
+            "pending_authority": false,
+            "superseded_stage12": {
+              "status": "OPEN_TARGETED_IDENTITY_AUTHORITY_REQUIRED",
+              "basis": "Direct source lemma differs from canonical audit entry; no new entry, mapping, or normalization convention silently authorized.",
+              "review_checkpoint": "STAGE12_ORCH250",
+              "source_identity_preserved": true,
+              "pending_authority": true
+            }
+          },
+          "identity_disposition": {
+            "authority": "ORCH_RECON_000251",
+            "source_form": "alternativa",
+            "source_lemma": "alternativo",
+            "source_upos": "NOUN",
+            "source_features": "Gender=Fem|Number=Sing",
+            "canonical_audit_entry": "alternativa",
+            "canonical_roleset": "alternativa.01",
+            "identity_relation": "SOURCE_LEMMA_PRESERVED__CANONICAL_NOMINAL_ALIAS_ALTERNATIVA",
+            "publication_disposition": "KEEP_IN_ALTERNATIVA_01",
+            "rationale": "Form=alternativa, UPOS=NOUN, Gender=Fem, nominal choice reading. Preserve source lemma alternativo as source annotation; keep canonical nominal entry alternativa.",
+            "status": "CLOSED_TARGETED_AUTHORITY"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_456848399242133504l::alternativa::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_456848399242133504l::alternativa::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

@@ -7,7 +7,7 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "president.01",
-      "english_roleset_source": null,
+      "english_roleset_source": "ACCEPTED_Q266_Q275_ORCH229_REPLAY_ORCH246",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/president.xml",
       "roles": [
         {
@@ -25,10 +25,6 @@
         {
           "id": "Arg3",
           "desc": "rank"
-        },
-        {
-          "id": "Arg4",
-          "desc": null
         }
       ],
       "examples": [
@@ -36,100 +32,315 @@
           "sent_ID": "dante_01_447193082044633089l",
           "text": "Car*, comé q'essa mulher ganhou p Presidente da República? '@AryAntiPT: #DilmaNacadeia #PETR4 demite diretor envolvid http://t.co/hgG5EYSd1f",
           "realization": {
-            "Arg0": "Presidente",
+            "Arg0": "essa mulher",
             "Arg1": null,
             "Arg2": "da República",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "obl",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_447193082044633089l::presidente::1",
           "predicate": {
             "form": "Presidente",
             "char_start": 34,
-            "char_end": 44
-          }
+            "char_end": 44,
+            "source_token_id": "11",
+            "source_form": "Presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_447193082044633089l::11",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "Presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_447193082044633089l",
+            "ID": "11",
+            "Form": "Presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459033882185445376l",
           "text": "Dia 28 de abril  (segunda) haverá divulgacao de Pesquisa Eleitoral para Presidente contratada pela CNT… #Petr4 Talvez recupere",
           "realization": {
-            "Arg0": "Presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nmod",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_459033882185445376l::presidente::1",
           "predicate": {
             "form": "Presidente",
             "char_start": 72,
-            "char_end": 82
-          }
+            "char_end": 82,
+            "source_token_id": "14",
+            "source_form": "Presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459033882185445376l::14",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "14",
+            "form": "Presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "14"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459033882185445376l",
+            "ID": "14",
+            "Form": "Presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_452161915763314689l",
           "text": "@Live_Trade @will_vs imagina se data-folha falhar em fraudar pesq. mostrando presidenta ¨lula¨ ganhando no 1 turno. put petr4 vira mega sena",
           "realization": {
-            "Arg0": "presidenta",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "obj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_452161915763314689l::presidente::1",
           "predicate": {
             "form": "presidenta",
             "char_start": 77,
-            "char_end": 87
-          }
+            "char_end": 87,
+            "source_token_id": "11",
+            "source_form": "presidenta",
+            "lemma": "presidenta",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_452161915763314689l::11",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "presidenta",
+            "lemma": "presidenta",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_452161915763314689l",
+            "ID": "11",
+            "Form": "presidenta",
+            "Lemma": "presidenta",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "identity_pos_reconciliation": {
+            "status": "RESOLVED_ACCEPTED_GENDER_VARIANT",
+            "basis": "P003 exact carry/restoration and Q266–Q275 accepted ledger explicitly preserve presidente mapping; source presidenta retained.",
+            "review_checkpoint": "STAGE12_ORCH250",
+            "source_identity_preserved": true,
+            "pending_authority": false
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_458630671448428544l",
           "text": "Bom,o pessoal recomendando compra de petr4 sei!! isso ta cheirando a pesquisas novas para eleição a presidente e não deve ser favorável...",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nmod",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_458630671448428544l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 100,
-            "char_end": 110
-          }
+            "char_end": 110,
+            "source_token_id": "21",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_458630671448428544l::21",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "21",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "21"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_458630671448428544l",
+            "ID": "21",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
+        "Arg2": {
+          "nmod": 1
+        }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_447193082044633089l::presidente::1",
+          "dante_01_459033882185445376l::presidente::1",
+          "dante_01_452161915763314689l::presidente::1",
+          "dante_01_458630671448428544l::presidente::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_447193082044633089l::presidente::1",
+          "dante_01_459033882185445376l::presidente::1",
+          "dante_01_452161915763314689l::presidente::1",
+          "dante_01_458630671448428544l::presidente::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg0": {
           "obl": 1,
           "nmod": 2,
@@ -145,7 +356,7 @@
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
       "english_roleset": "president.01",
-      "english_roleset_source": null,
+      "english_roleset_source": "ACCEPTED_Q266_Q275_ORCH229_REPLAY_ORCH246",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/president.xml",
       "roles": [
         {
@@ -163,10 +374,6 @@
         {
           "id": "Arg3",
           "desc": "rank"
-        },
-        {
-          "id": "Arg4",
-          "desc": null
         }
       ],
       "examples": [
@@ -174,340 +381,1034 @@
           "sent_ID": "dante_01_445923755190001664l",
           "text": "Petrobras: Produção é prioridade no momento  Maria das Graças Foster, presidente da PETROBRAS (PETR4), afirmou... http://t.co/acGt0E4NHH",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": "Maria das Graças Foster",
             "Arg1": null,
             "Arg2": "da PETROBRAS (PETR4)",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "appos",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_445923755190001664l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 70,
-            "char_end": 80
-          }
+            "char_end": 80,
+            "source_token_id": "15",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_445923755190001664l::15",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "15",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "15"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_445923755190001664l",
+            "ID": "15",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456490837195509760l",
           "text": "Pessimismo com China não se justifica, diz presidente da Vale: 'Estamos comemorando a produç... http://t.co/qxxUF3Iefq #infomoney #vale5",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da Vale",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456490837195509760l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 43,
-            "char_end": 53
-          }
+            "char_end": 53,
+            "source_token_id": "9",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456490837195509760l::9",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "9",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "9"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456490837195509760l",
+            "ID": "9",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_446323386281496577l",
           "text": "Quem crê na queda da China vai afundar junto com suas projeções, diz presidente da Vale: Pre... http://t.co/vC4FQxoti0 #infomoney #vale5",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da Vale",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_446323386281496577l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 69,
-            "char_end": 79
-          }
+            "char_end": 79,
+            "source_token_id": "17",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446323386281496577l::17",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "17",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "17"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446323386281496577l",
+            "ID": "17",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_446323386281496577l",
           "text": "Quem crê na queda da China vai afundar junto com suas projeções, diz presidente da Vale: Pre... http://t.co/vC4FQxoti0 #infomoney #vale5",
           "realization": {
-            "Arg0": "Pre",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "parataxis",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_446323386281496577l::presidente::2",
           "predicate": {
             "form": "Pre",
             "char_start": 89,
-            "char_end": 92
-          }
+            "char_end": 92,
+            "source_token_id": "22",
+            "source_form": "Pre",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446323386281496577l::22",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "22",
+            "form": "Pre",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "22"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446323386281496577l",
+            "ID": "22",
+            "Form": "Pre",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "Trunc=Yes"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_449613428878217216l",
           "text": "#ELET3 - Eletrobras vai captar cerca de R$ 4 bilhões neste ano, diz presidente - http://t.co/Mvatua7YRb",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_449613428878217216l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 68,
-            "char_end": 78
-          }
+            "char_end": 78,
+            "source_token_id": "16",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_449613428878217216l::16",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "16",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "16"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_449613428878217216l",
+            "ID": "16",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456038713605120000l",
           "text": "Presidente da Petrobras fala hoje sobre Pasadena, Vale distribuirá bilhões em proventos: Ain... http://t.co/II9lkXkw1D #infomoney #vale5",
           "realization": {
-            "Arg0": "Presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da Petrobras",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456038713605120000l::presidente::1",
           "predicate": {
             "form": "Presidente",
             "char_start": 0,
-            "char_end": 10
-          }
+            "char_end": 10,
+            "source_token_id": "1",
+            "source_form": "Presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456038713605120000l::1",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "1",
+            "form": "Presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "1"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456038713605120000l",
+            "ID": "1",
+            "Form": "Presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456387515193106432l",
           "text": "Presidente da #PETR4 dizer que compra da refinaria de pasadena não foi um bom negócio é palhaçada. Mau negócio é ter que aturar ela.",
           "realization": {
-            "Arg0": "Presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da #PETR4",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456387515193106432l::presidente::1",
           "predicate": {
             "form": "Presidente",
             "char_start": 0,
-            "char_end": 10
-          }
+            "char_end": 10,
+            "source_token_id": "1",
+            "source_form": "Presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456387515193106432l::1",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "1",
+            "form": "Presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "1"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456387515193106432l",
+            "ID": "1",
+            "Form": "Presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456408236615143424l",
           "text": "$PETR4 - Petrobras: O que disse a presidente no Senado? [Newsletter ADVFN] http://t.co/qimRhSixxR",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456408236615143424l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 34,
-            "char_end": 44
-          }
+            "char_end": 44,
+            "source_token_id": "9",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456408236615143424l::9",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "9",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "9"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456408236615143424l",
+            "ID": "9",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456411922074566656l",
           "text": "Petrobras: O que disse a presidente no Senado?  Em audiência no Senado, a presidente da PETROBRAS (PETR4), Maria... http://t.co/F4cV0UmQwu",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456411922074566656l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 25,
-            "char_end": 35
-          }
+            "char_end": 35,
+            "source_token_id": "7",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456411922074566656l::7",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              },
+              {
+                "key": "dante_01_456411922074566656l::19",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": true,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "source_token_ids": [
+              "7"
+            ],
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "char_start": 25,
+            "char_end": 35,
+            "binding_evidence": "ACCEPTED_STORED_CHAR_OFFSETS_PLUS_UNIQUE_EXACT_SOURCE_WINDOW",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456411922074566656l",
+            "ID": "7",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_456411922074566656l",
           "text": "Petrobras: O que disse a presidente no Senado?  Em audiência no Senado, a presidente da PETROBRAS (PETR4), Maria... http://t.co/F4cV0UmQwu",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": "Maria...",
             "Arg1": null,
             "Arg2": "da PETROBRAS (PETR4)",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "parataxis",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_456411922074566656l::presidente::2",
           "predicate": {
             "form": "presidente",
             "char_start": 74,
-            "char_end": 84
-          }
+            "char_end": 84,
+            "source_token_id": "19",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456411922074566656l::7",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              },
+              {
+                "key": "dante_01_456411922074566656l::19",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": true,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "19",
+            "source_token_ids": [
+              "19"
+            ],
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "char_start": 74,
+            "char_end": 84,
+            "binding_evidence": "ACCEPTED_STORED_CHAR_OFFSETS_PLUS_UNIQUE_EXACT_SOURCE_WINDOW",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456411922074566656l",
+            "ID": "19",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459392747989131264l",
           "text": "#USIM5): O presidente da cia, disse há pouco, em teleconferência com analistas e investidores, que a venda de... http://t.co/EAW0g7gmqh",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da cia",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_459392747989131264l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 11,
-            "char_end": 21
-          }
+            "char_end": 21,
+            "source_token_id": "4",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459392747989131264l::4",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "4",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "4"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459392747989131264l",
+            "ID": "4",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459395158002257920l",
           "text": "#SBSP3 A presidente da cia confirmou que a concessionária sofrerá uma perda nas receitas em decorrência da atual... http://t.co/eYSHg9kQhR",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da cia",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_459395158002257920l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 9,
-            "char_end": 19
-          }
+            "char_end": 19,
+            "source_token_id": "3",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459395158002257920l::3",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "3",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "3"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459395158002257920l",
+            "ID": "3",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459396230943358976l",
           "text": "#FIBR3 O cenário de preço para a celulose é estável em abril, na comparação com março, afirmou o presidente da... http://t.co/HjpD6gPU9O",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nsubj",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_459396230943358976l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 97,
-            "char_end": 107
-          }
+            "char_end": 107,
+            "source_token_id": "22",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459396230943358976l::22",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "22",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "22"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459396230943358976l",
+            "ID": "22",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_461467831213629440l",
           "text": "Leilão de energia, fala de presidente da Petrobras, Vale e mais 5 movimentam radar: Graça Fo... http://t.co/6nFS1FZVJK #infomoney #vale5",
           "realization": {
-            "Arg0": "presidente",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "da Petrobras",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nmod",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_461467831213629440l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 27,
-            "char_end": 37
-          }
+            "char_end": 37,
+            "source_token_id": "7",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_461467831213629440l::7",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "7"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_461467831213629440l",
+            "ID": "7",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
+        "Arg2": {
+          "nmod": 9
+        }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_445923755190001664l::presidente::1",
+          "dante_01_456490837195509760l::presidente::1",
+          "dante_01_446323386281496577l::presidente::1",
+          "dante_01_446323386281496577l::presidente::2",
+          "dante_01_449613428878217216l::presidente::1",
+          "dante_01_456038713605120000l::presidente::1",
+          "dante_01_456387515193106432l::presidente::1",
+          "dante_01_456408236615143424l::presidente::1",
+          "dante_01_456411922074566656l::presidente::1",
+          "dante_01_456411922074566656l::presidente::2",
+          "dante_01_459392747989131264l::presidente::1",
+          "dante_01_459395158002257920l::presidente::1",
+          "dante_01_459396230943358976l::presidente::1",
+          "dante_01_461467831213629440l::presidente::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_445923755190001664l::presidente::1",
+          "dante_01_456490837195509760l::presidente::1",
+          "dante_01_446323386281496577l::presidente::1",
+          "dante_01_446323386281496577l::presidente::2",
+          "dante_01_449613428878217216l::presidente::1",
+          "dante_01_456038713605120000l::presidente::1",
+          "dante_01_456387515193106432l::presidente::1",
+          "dante_01_456408236615143424l::presidente::1",
+          "dante_01_456411922074566656l::presidente::1",
+          "dante_01_456411922074566656l::presidente::2",
+          "dante_01_459392747989131264l::presidente::1",
+          "dante_01_459395158002257920l::presidente::1",
+          "dante_01_459396230943358976l::presidente::1",
+          "dante_01_461467831213629440l::presidente::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg0": {
           "appos": 1,
           "nsubj": 10,
@@ -524,7 +1425,7 @@
       "pt_sense_index": 3,
       "pt_sense_hint": 3,
       "english_roleset": "president.01",
-      "english_roleset_source": null,
+      "english_roleset_source": "ACCEPTED_Q266_Q275_ORCH229_REPLAY_ORCH246",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/president.xml",
       "roles": [
         {
@@ -542,10 +1443,6 @@
         {
           "id": "Arg3",
           "desc": "rank"
-        },
-        {
-          "id": "Arg4",
-          "desc": null
         }
       ],
       "examples": [
@@ -553,28 +1450,91 @@
           "sent_ID": "dante_01_446963449541959680l",
           "text": "Dilma presidente do Conselho #PETR4 Há! @SakaBrasil2 Por experiência, colocar tartaruga chiliquenta como gerente no alto do poste é prática",
           "realization": {
-            "Arg0": "presidente",
-            "Arg1": "do Conselho",
-            "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg0": "Dilma",
+            "Arg1": null,
+            "Arg2": "do Conselho",
+            "Arg3": null
           },
           "syntax": {
-            "Arg0": "nmod",
-            "Arg1": "nmod",
+            "Arg0": null,
+            "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
-            "Arg4": null
+            "Arg3": null
           },
           "instance_id": "dante_01_446963449541959680l::presidente::1",
           "predicate": {
             "form": "presidente",
             "char_start": 6,
-            "char_end": 16
-          }
+            "char_end": 16,
+            "source_token_id": "2",
+            "source_form": "presidente",
+            "lemma": "presidente",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446963449541959680l::2",
+                "decision": "S",
+                "authority": "P003",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "2",
+            "form": "presidente",
+            "lemma": "presidente",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "2"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446963449541959680l",
+            "ID": "2",
+            "Form": "presidente",
+            "Lemma": "presidente",
+            "U-PoS": "NOUN",
+            "Features": "Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_446963449541959680l::presidente::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_446963449541959680l::presidente::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg0": {
           "nmod": 1
         },
@@ -585,5 +1545,9 @@
     }
   ],
   "projection_status": "FUNCTIONAL_SOURCE_BACKED_FINALIZER",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_004"
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_004",
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

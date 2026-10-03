@@ -40,10 +40,56 @@
           },
           "instance_id": "dante_01_468734838485561344l::desafio::1",
           "predicate": {
-            "form": "desafios"
+            "form": "desafios",
+            "source_token_id": "10",
+            "source_form": "desafios",
+            "lemma": "desafio",
+            "upos": "NOUN"
           },
           "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
-          "predicative": true
+          "predicative": true,
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_468734838485561344l::10",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "10",
+            "form": "desafios",
+            "lemma": "desafio",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "10"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_468734838485561344l",
+            "ID": "10",
+            "Form": "desafios",
+            "Lemma": "desafio",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Plur",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
@@ -56,7 +102,28 @@
         "nombank_roleset_name": "nom/nomadj-challenging",
         "nombank_roleset_source": "verb-challenge.01",
         "note": "Support construction 'empresas terão desafios': companies are the challenged entity."
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_468734838485561344l::desafio::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_468734838485561344l::desafio::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

@@ -20,23 +20,97 @@
           "sent_ID": "dante_01_451437181861888000l",
           "text": "@Live_Trade petr4 fechou abaixo de 16,40 marcos? Ps. Esse vício não ta me deixando curtir o frio de NYC. To pegando fogo kkk",
           "realization": {
-            "Arg1": "eu"
+            "Arg1": null
           },
           "syntax": {
-            "Arg1": "nsubj"
+            "Arg1": null
           },
           "instance_id": "dante_01_451437181861888000l::fogo::1",
           "predicate": {
-            "form": "fogo"
+            "form": "fogo",
+            "source_token_id": "24",
+            "source_form": "fogo",
+            "lemma": "fogo",
+            "upos": "NOUN"
           },
-          "construction_resolution": "SUPPORT_CONSTRUCTION_PEGAR_FOGO_PREDICATIVE"
+          "construction_resolution": "SUPPORT_CONSTRUCTION_PEGAR_FOGO_PREDICATIVE",
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_451437181861888000l::24",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "24",
+            "form": "fogo",
+            "lemma": "fogo",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "24"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_451437181861888000l",
+            "ID": "24",
+            "Form": "fogo",
+            "Lemma": "fogo",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "implicit_realization": {
+            "Arg1": {
+              "referent": "eu",
+              "person": 1,
+              "number": "Sing",
+              "license_source_token_id": "22",
+              "license_source_token": {
+                "Sent_ID": "dante_01_451437181861888000l",
+                "ID": "22",
+                "Form": "To",
+                "Lemma": "estar",
+                "U-PoS": "AUX",
+                "X-PoS": "nan",
+                "Features": "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Typo=Yes|Abbr=Yes",
+                "Head": "nan",
+                "Deprel": "nan",
+                "Deps": "nan",
+                "Misc": "CorrectForm=tô|FullForm=estou",
+                "Comment": ""
+              },
+              "basis": "PRESERVE_PREVIOUSLY_ANNOTATED_IMPLICIT_PARTICIPANT_WITH_FIRST_PERSON_SINGULAR_VERBAL_LICENSE",
+              "previous_representation": "eu",
+              "semantic_attachment_qa": "ACCEPTED_IMPLICIT_PARTICIPANT_PRESERVED_LICENSE_VERIFIED"
+            }
+          },
+          "implicit_syntax": {
+            "Arg1": {
+              "previous_annotation": "nsubj",
+              "surface_dependency_not_asserted": true
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {
-        "Arg1": {
-          "nsubj": 1
-        }
-      },
+      "syntactic_profile": {},
       "construction_evidence": {
         "decision": "S",
         "note": "pegar fogo realizes a fire/burning state; NomBank fire.01 includes 'woods are on fire'.",
@@ -44,31 +118,33 @@
           "forest fires",
           "the nearby woods are on fire"
         ]
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_451437181861888000l::fogo::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_451437181861888000l::fogo::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
       }
     }
   ],
-  "nonpredicative_instances": [
-    {
-      "sent_ID": "dante_01_459682364386713600l",
-      "text": "#CYRE3 explosão ou fogo de palha? http://t.co/FrQPzVYu53",
-      "instance_id": "dante_01_459682364386713600l::fogo::1",
-      "predicate": {
-        "form": "fogo"
-      },
-      "predicative": false,
-      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_FOGO_DE_PALHA",
-      "decision_note": "Meaning is contributed by lexicalized MWE 'fogo de palha' = intense but short-lived phenomenon; fogo does not independently instantiate fire.01."
-    },
-    {
-      "sent_ID": "dante_01_461146203745705984l",
-      "text": "#CYRE3 explosão ou fogo de palha?!?!?!? http://t.co/mCFtO8U5m3",
-      "instance_id": "dante_01_461146203745705984l::fogo::1",
-      "predicate": {
-        "form": "fogo"
-      },
-      "predicative": false,
-      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_FOGO_DE_PALHA",
-      "decision_note": "Meaning is contributed by lexicalized MWE 'fogo de palha' = intense but short-lived phenomenon; fogo does not independently instantiate fire.01."
-    }
-  ]
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

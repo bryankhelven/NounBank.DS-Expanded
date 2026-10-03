@@ -21,6 +21,10 @@
         {
           "id": "Arg2",
           "desc": "NUMERICAL COUNT OF VOTE, MARGIN"
+        },
+        {
+          "id": "ArgA",
+          "desc": "proxy voter"
         }
       ],
       "examples": [
@@ -29,39 +33,160 @@
           "text": "#OIL #BR #PETR4 Conselho da Petrobras aprova balanço de 2013, 1 voto contra:  http://t.co/m9siDgEHTZ",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg1": "balanço de 2013",
+            "Arg2": "1",
+            "ArgA": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null
+            "Arg2": null,
+            "ArgA": null
           },
           "instance_id": "dante_01_445716482119704576l::voto::1",
           "predicate": {
-            "form": "voto"
-          }
+            "form": "voto",
+            "source_token_id": "14",
+            "source_form": "voto",
+            "lemma": "voto",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_445716482119704576l::14",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "14",
+            "form": "voto",
+            "lemma": "voto",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "14"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_445716482119704576l",
+            "ID": "14",
+            "Form": "voto",
+            "Lemma": "voto",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_459089917663248384l",
           "text": "RT @reminiscences: A partir das 14h vamos ver o voto da Ministra Rosa Weber… CPI da Petrobras exclusiva ou escancarada… Petr4 sobe com CPI?",
           "realization": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg0": "da Ministra Rosa Weber",
+            "Arg1": "CPI da Petrobras exclusiva ou escancarada",
+            "Arg2": null,
+            "ArgA": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null
+            "Arg2": null,
+            "ArgA": null
           },
           "instance_id": "dante_01_459089917663248384l::voto::1",
           "predicate": {
-            "form": "voto"
-          }
+            "form": "voto",
+            "source_token_id": "12",
+            "source_form": "voto",
+            "lemma": "voto",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459089917663248384l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "voto",
+            "lemma": "voto",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459089917663248384l",
+            "ID": "12",
+            "Form": "voto",
+            "Lemma": "voto",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_445716482119704576l::voto::1",
+          "dante_01_459089917663248384l::voto::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_445716482119704576l::voto::1",
+          "dante_01_459089917663248384l::voto::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

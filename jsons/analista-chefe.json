@@ -28,12 +28,12 @@
           "sent_ID": "dante_01_459055184279506946l",
           "text": "Flávio Conde, analista-chefe da Gradual, recomenda a compra de ações da MRV (MRVE3) com atenção a uma possível alta na abertura.",
           "realization": {
-            "Arg0": "analista-chefe",
+            "Arg0": "Flávio Conde",
             "Arg1": null,
             "Arg2": "da Gradual"
           },
           "syntax": {
-            "Arg0": "appos",
+            "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -41,21 +41,86 @@
           "predicate": {
             "form": "analista-chefe",
             "char_start": 14,
-            "char_end": 28
+            "char_end": 28,
+            "source_token_id": "4",
+            "source_form": "analista-chefe",
+            "lemma": "analista-chefe",
+            "upos": "NOUN"
           },
-          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED"
+          "representation_status": "FUNCTIONAL_DANTE_ADJUDICATED",
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_459055184279506946l::4",
+                "decision": "S",
+                "authority": "NO_REOPEN",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "4",
+            "form": "analista-chefe",
+            "lemma": "analista-chefe",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "4"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_459055184279506946l",
+            "ID": "4",
+            "Form": "analista-chefe",
+            "Lemma": "analista-chefe",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Masc|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
-          "appos": 1
-        },
         "Arg2": {
           "nmod": 1
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_459055184279506946l::analista-chefe::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_459055184279506946l::analista-chefe::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
   ],
   "projection_status": "FUNCTIONAL_DERIVED_DANTE_ADJUDICATED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_003R1"
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_003R1",
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

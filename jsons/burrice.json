@@ -25,20 +25,73 @@
           "text": "@clubedopairico Pé frio!?Não,isso é sinal de guerra ao mercado ou no minimo burrice pq foi só o abrir a boca sobre petr4 q a bolsa caiu!",
           "realization": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "isso"
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nsubj"
           },
           "instance_id": "dante_01_453654222123171840l::burrice::1",
           "predicate": {
-            "form": "burrice"
+            "form": "burrice",
+            "char_start": 76,
+            "char_end": 83,
+            "source_token_id": "20",
+            "source_form": "burrice",
+            "lemma": "burrice",
+            "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453654222123171840l::20",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "20",
+            "form": "burrice",
+            "lemma": "burrice",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "20"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453654222123171840l",
+            "ID": "20",
+            "Form": "burrice",
+            "Lemma": "burrice",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
+      },
       "mapping_evidence": {
         "xml_file": "folly.xml",
         "roleset_name": "ability-with-agent",
@@ -47,7 +100,28 @@
         "nombank_examples": [
           "the economic folly of such ordinances"
         ]
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_453654222123171840l::burrice::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_453654222123171840l::burrice::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

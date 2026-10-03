@@ -28,22 +28,146 @@
           "sent_ID": "dante_01_456114609389600768l",
           "text": "#EMBR3 - Entregas da Embraer sobem 17% no 1º tri sobre um ano antes - http://t.co/DfRuX1LNrR",
           "realization": {
-            "Arg0": null,
-            "Arg1": "de a Embraer",
+            "Arg0": "da Embraer",
+            "Arg1": null,
             "Arg2": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": "nmod",
+            "Arg1": null,
             "Arg2": null
           },
           "instance_id": "dante_01_456114609389600768l::entrega::1",
           "predicate": {
-            "form": "Entregas"
-          }
+            "form": "Entregas",
+            "source_token_id": "3",
+            "source_form": "Entregas",
+            "lemma": "entrega",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456114609389600768l::3",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "3",
+            "form": "Entregas",
+            "lemma": "entrega",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "3"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456114609389600768l",
+            "ID": "3",
+            "Form": "Entregas",
+            "Lemma": "entrega",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Plur",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg0": {
+              "char_start": 18,
+              "char_end": 28,
+              "previous_tokenized_surface": "de a Embraer",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_456114609389600768l",
+                    "ID": "4-5",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_456114609389600768l",
+                      "ID": "4",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_456114609389600768l",
+                      "ID": "5",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_456114609389600768l::entrega::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_456114609389600768l::entrega::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg1": {
           "nmod": 1
         }
@@ -53,25 +177,21 @@
       "pt_roleset": "entrega.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
-      "english_roleset": "award.02",
+      "english_roleset": "delivery.01",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/award.xml",
       "roles": [
         {
           "id": "Arg0",
-          "desc": "GIVER"
+          "desc": "SENDER"
         },
         {
           "id": "Arg1",
-          "desc": "AWARD"
+          "desc": "SENT"
         },
         {
           "id": "Arg2",
-          "desc": "BENEFICIARY"
-        },
-        {
-          "id": "Arg3",
-          "desc": "REASON"
+          "desc": "SENT-TO"
         }
       ],
       "examples": [
@@ -80,23 +200,89 @@
           "text": "$PETR4: Batemos recorde mensal de entrega de gás natural ao mercado com a média diária de 95,5 milhões de m³/dia http://t.co/xIRbXmNbVG",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null
+            "Arg1": "de gás natural",
+            "Arg2": "ao mercado"
           },
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null,
-            "Arg3": null
+            "Arg2": null
           },
           "instance_id": "dante_01_454412289559777280l::entrega::1",
           "predicate": {
-            "form": "entrega"
-          }
+            "form": "entrega",
+            "source_token_id": "7",
+            "source_form": "entrega",
+            "lemma": "entrega",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_454412289559777280l::7",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "form": "entrega",
+            "lemma": "entrega",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "7"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_454412289559777280l",
+            "ID": "7",
+            "Form": "entrega",
+            "Lemma": "entrega",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_454412289559777280l::entrega::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_454412289559777280l::entrega::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

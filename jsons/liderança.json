@@ -24,7 +24,7 @@
           "sent_ID": "dante_01_455712621023723520l",
           "text": "Natura perdeu a liderança no segmento de perfumes para O Boticário, segundo pesquisa da Euromonitor. #NATU3,  -0,12% em 2014.",
           "realization": {
-            "Arg0": null,
+            "Arg0": "Natura",
             "Arg1": null
           },
           "syntax": {
@@ -33,31 +33,158 @@
           },
           "instance_id": "dante_01_455712621023723520l::liderança::1",
           "predicate": {
-            "form": "liderança"
-          }
+            "form": "liderança",
+            "source_token_id": "4",
+            "source_form": "liderança",
+            "lemma": "liderança",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_455712621023723520l::4",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "4",
+            "form": "liderança",
+            "lemma": "liderança",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "4"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_455712621023723520l",
+            "ID": "4",
+            "Form": "liderança",
+            "Lemma": "liderança",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_462225933689454592l",
           "text": "Terceira prévia do Ibovespa (#IBOV) confirma liderança de Itaú PN (#ITUB4). http://t.co/CrYyAdgz50  (Valor)",
           "realization": {
-            "Arg0": null,
-            "Arg1": "de Itaú PN #ITUB4"
+            "Arg0": "de Itaú PN (#ITUB4)",
+            "Arg1": null
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": "nmod"
+            "Arg1": null
           },
           "instance_id": "dante_01_462225933689454592l::liderança::1",
           "predicate": {
-            "form": "liderança"
-          }
+            "form": "liderança",
+            "source_token_id": "10",
+            "source_form": "liderança",
+            "lemma": "liderança",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_462225933689454592l::10",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "10",
+            "form": "liderança",
+            "lemma": "liderança",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "10"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_462225933689454592l",
+            "ID": "10",
+            "Form": "liderança",
+            "Lemma": "liderança",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg0": {
+              "char_start": 55,
+              "char_end": 74,
+              "previous_tokenized_surface": "de Itaú PN #ITUB4",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_455712621023723520l::liderança::1",
+          "dante_01_462225933689454592l::liderança::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_455712621023723520l::liderança::1",
+          "dante_01_462225933689454592l::liderança::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
         "Arg1": {
           "nmod": 1
         }
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

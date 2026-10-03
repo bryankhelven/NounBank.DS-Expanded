@@ -28,7 +28,7 @@
           "sent_ID": "dante_01_456091970478551040l",
           "text": "Eu queria ver a @dilmabr sentada ali, dando explicações tb. #petr4 GloboNews - Ao Vivo http://t.co/aowYM5nMKW",
           "realization": {
-            "Arg0": null,
+            "Arg0": "@dilmabr",
             "Arg1": null,
             "Arg2": null
           },
@@ -39,14 +39,61 @@
           },
           "instance_id": "dante_01_456091970478551040l::explicação::1",
           "predicate": {
-            "form": "explicações"
-          }
+            "form": "explicações",
+            "source_token_id": "10",
+            "source_form": "explicações",
+            "lemma": "explicação",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_456091970478551040l::10",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "10",
+            "form": "explicações",
+            "lemma": "explicação",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "10"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_456091970478551040l",
+            "ID": "10",
+            "Form": "explicações",
+            "Lemma": "explicação",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Plur",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_465879564858966016l",
           "text": "A Graça na verdade, foi contratada p/ ser a RP da #PETR4.  Como é boa p/ dar explicações",
           "realization": {
-            "Arg0": null,
+            "Arg0": "A Graça",
             "Arg1": null,
             "Arg2": null
           },
@@ -57,11 +104,81 @@
           },
           "instance_id": "dante_01_465879564858966016l::explicação::1",
           "predicate": {
-            "form": "explicações"
-          }
+            "form": "explicações",
+            "source_token_id": "22",
+            "source_form": "explicações",
+            "lemma": "explicação",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_465879564858966016l::22",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "22",
+            "form": "explicações",
+            "lemma": "explicação",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "22"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_465879564858966016l",
+            "ID": "22",
+            "Form": "explicações",
+            "Lemma": "explicação",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Plur",
+            "Misc": "SpacesAfter=\\n"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_456091970478551040l::explicação::1",
+          "dante_01_465879564858966016l::explicação::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_456091970478551040l::explicação::1",
+          "dante_01_465879564858966016l::explicação::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

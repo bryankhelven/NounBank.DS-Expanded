@@ -1,16 +1,13 @@
 # NounBank.DS Expanded
 
-**NounBank.DS Expanded** amplia o [NounBank.DS](https://github.com/bryankhelven/NounBank.DS).
+Correções aceitas em ORCH255, integradas por autorização explícita do responsável pelo recurso.
 
-## Publicação sanitizada provisória
+- 518 nomes predicadores: 145 originais + 373 revisados;
+- 3693 ocorrências predicadoras;
+- 3678 argumentos com realização literal;
+- 2 participantes implícitos preservados separadamente e 1 realização PT-local;
+- JSONs individuais, JSONL e ZIP recalculados do mesmo conjunto.
 
-- 494 nomes predicadores: 145 da versão original + 349 novos;
-- 3.618 ocorrências predicadoras;
-- 3.524 ocorrências com representação regular;
-- 94 ocorrências predicadoras aguardando resolução de sense e/ou roleset;
-- 2.669 argumentos realizados;
-- 215 candidatos sem qualquer ocorrência atualmente identificada como predicadora foram retirados desta publicação.
+A expansão revisada contém 373 entradas /425 sentidos /1894 ocorrências. O inventário integral de auditoria permanece 373/426/1905, com 11 ocorrências excluídas da projeção nominal predicadora. Decisão negativa de mapeamento inglês não é caso pendente.
 
-A interface e os JSONs seguem a lógica pública da V1: rolesets, papéis semânticos, exemplos, REL, realização dos argumentos e relações sintáticas da Universal Dependencies. Ocorrências não predicadoras não são publicadas.
-
-As 349 novas entradas aparecem com **NEW**; entradas que ainda exigem decisão manual aparecem com **REVISAR**.
+A projeção pública preserva a ciência e os IDs aceitos.

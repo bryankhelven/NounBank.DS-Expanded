@@ -6,17 +6,21 @@
       "pt_roleset": "pressão.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": "pressure.02",
-      "english_roleset_source": null,
+      "english_roleset": "pressure.01",
+      "english_roleset_source": "ACCEPTED_Q266_Q275_ORCH229_REPLAY_ORCH246",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/pressure.xml",
       "roles": [
         {
+          "id": "Arg0",
+          "desc": "presser"
+        },
+        {
           "id": "Arg1",
-          "desc": "THEME"
+          "desc": "pressed on"
         },
         {
           "id": "Arg2",
-          "desc": "VALUE"
+          "desc": "goal, pressed-for"
         }
       ],
       "examples": [
@@ -24,36 +28,106 @@
           "sent_ID": "dante_01_443017127906512897l",
           "text": "IBOVESPA, c/dados ruins da CHINA sofre maior pressão de bx, das ações da Vale, q representam 11,78% do índice: VALE3, -3,04% e VALE5, -2,80%",
           "realization": {
-            "Arg1": null,
-            "Arg2": null
+            "Arg0": "das ações da Vale",
+            "Arg1": "IBOVESPA",
+            "Arg2": "de bx"
           },
           "syntax": {
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null
           },
           "instance_id": "dante_01_443017127906512897l::pressão::1",
           "predicate": {
-            "form": "pressão"
-          }
+            "form": "pressão",
+            "source_token_id": "11",
+            "source_form": "pressão",
+            "lemma": "pressão",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_443017127906512897l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "pressão",
+            "lemma": "pressão",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_443017127906512897l",
+            "ID": "11",
+            "Form": "pressão",
+            "Lemma": "pressão",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_443017127906512897l::pressão::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_443017127906512897l::pressão::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     },
     {
       "pt_roleset": "pressão.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
-      "english_roleset": "pressure.02",
-      "english_roleset_source": null,
+      "english_roleset": "pressure.01",
+      "english_roleset_source": "ACCEPTED_Q266_Q275_ORCH229_REPLAY_ORCH246",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/pressure.xml",
       "roles": [
         {
+          "id": "Arg0",
+          "desc": "presser"
+        },
+        {
           "id": "Arg1",
-          "desc": "THEME"
+          "desc": "pressed on"
         },
         {
           "id": "Arg2",
-          "desc": "VALUE"
+          "desc": "goal, pressed-for"
         }
       ],
       "examples": [
@@ -61,20 +135,90 @@
           "sent_ID": "dante_01_466930863381708800l",
           "text": "Oibr4: Gosto do papel e compraria na faixa de R$ 1,75-1,78.  Respondendo a tantas perguntas. Hoje está sobre pressão de um resultado péssimo",
           "realization": {
+            "Arg0": "de um resultado péssimo",
             "Arg1": null,
             "Arg2": null
           },
           "syntax": {
+            "Arg0": null,
             "Arg1": null,
             "Arg2": null
           },
           "instance_id": "dante_01_466930863381708800l::pressão::1",
           "predicate": {
-            "form": "pressão"
-          }
+            "form": "pressão",
+            "source_token_id": "24",
+            "source_form": "pressão",
+            "lemma": "pressão",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_466930863381708800l::24",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "24",
+            "form": "pressão",
+            "lemma": "pressão",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "24"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_466930863381708800l",
+            "ID": "24",
+            "Form": "pressão",
+            "Lemma": "pressão",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_466930863381708800l::pressão::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_466930863381708800l::pressão::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

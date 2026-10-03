@@ -24,8 +24,8 @@
           "sent_ID": "dante_01_449254702082187266l",
           "text": "Eu fico impressionado com a 'preguiça' de VALE5 em chegar aos $28,00. Tá quase lá, mas não vai de jeito nenhum... movida a China.",
           "realization": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "VALE5",
+            "Arg1": "em chegar aos $28,00"
           },
           "syntax": {
             "Arg0": null,
@@ -33,15 +33,62 @@
           },
           "instance_id": "dante_01_449254702082187266l::preguiça::1",
           "predicate": {
-            "form": "preguiça"
+            "form": "preguiça",
+            "source_token_id": "7",
+            "source_form": "preguiça",
+            "lemma": "preguiça",
+            "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_449254702082187266l::7",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "form": "preguiça",
+            "lemma": "preguiça",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "7"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_449254702082187266l",
+            "ID": "7",
+            "Form": "preguiça",
+            "Lemma": "preguiça",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_450723202294382592l",
           "text": "Pois é, @nahasbap ! Tá duro de aguentar essa preguiça de VALE5. Mas hj ficou acima de $28, e esse dividendo aí ajuda na rentabilidade.",
           "realization": {
-            "Arg0": null,
+            "Arg0": "VALE5",
             "Arg1": null
           },
           "syntax": {
@@ -50,9 +97,56 @@
           },
           "instance_id": "dante_01_450723202294382592l::preguiça::1",
           "predicate": {
-            "form": "preguiça"
+            "form": "preguiça",
+            "source_token_id": "11",
+            "source_form": "preguiça",
+            "lemma": "preguiça",
+            "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET"
+          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_450723202294382592l::11",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "11",
+            "form": "preguiça",
+            "lemma": "preguiça",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "11"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_450723202294382592l",
+            "ID": "11",
+            "Form": "preguiça",
+            "Lemma": "preguiça",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {},
@@ -61,6 +155,25 @@
         "roleset_name": "nomadj-reluctant",
         "roleset_source": "verb-hesitate.01",
         "rationale": "Metaphorical stock behavior: 'preguiça de VALE5 em chegar aos 28' denotes reluctance/sluggishness to perform the action. reluctance.01 licenses agent and action."
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_449254702082187266l::preguiça::1",
+          "dante_01_450723202294382592l::preguiça::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_449254702082187266l::preguiça::1",
+          "dante_01_450723202294382592l::preguiça::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     },
     {
@@ -94,11 +207,79 @@
           },
           "instance_id": "dante_01_454770378611904512l::preguiça::1",
           "predicate": {
-            "form": "preguiça"
-          }
+            "form": "preguiça",
+            "source_token_id": "31",
+            "source_form": "preguiça",
+            "lemma": "preguiça",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_454770378611904512l::31",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "31",
+            "form": "preguiça",
+            "lemma": "preguiça",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "31"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_454770378611904512l",
+            "ID": "31",
+            "Form": "preguiça",
+            "Lemma": "preguiça",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "SpacesAfter=\\n"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_454770378611904512l::preguiça::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_454770378611904512l::preguiça::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

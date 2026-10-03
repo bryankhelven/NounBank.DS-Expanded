@@ -25,7 +25,7 @@
           "text": "@clubedopairico Pé frio!?Não,isso é sinal de guerra ao mercado ou no minimo burrice pq foi só o abrir a boca sobre petr4 q a bolsa caiu!",
           "realization": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "ao mercado"
           },
           "syntax": {
             "Arg0": null,
@@ -33,24 +33,88 @@
           },
           "instance_id": "dante_01_453654222123171840l::guerra::1",
           "predicate": {
-            "form": "guerra"
-          }
+            "form": "guerra",
+            "source_token_id": "12",
+            "source_form": "guerra",
+            "lemma": "guerra",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_453654222123171840l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "guerra",
+            "lemma": "guerra",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_453654222123171840l",
+            "ID": "12",
+            "Form": "guerra",
+            "Lemma": "guerra",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 52,
+              "char_end": 62,
+              "previous_tokenized_surface": "a o mercado",
+              "basis": "UNIQUE_EXACT_MATCH_AFTER_WHITESPACE_REMOVAL_ONLY",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
-      "syntactic_profile": {}
+      "syntactic_profile": {},
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_453654222123171840l::guerra::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_453654222123171840l::guerra::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      }
     }
   ],
-  "nonpredicative_instances": [
-    {
-      "sent_ID": "dante_01_446258938812833792l",
-      "text": "Novo data center da BM&FBovespa (#BVMF3) custou R$ 200 milhões e tem sala de guerra. http://t.co/BDW1VFzQy7",
-      "instance_id": "dante_01_446258938812833792l::guerra::1",
-      "predicate": {
-        "form": "guerra"
-      },
-      "predicative": false,
-      "sense_resolution_status": "RESOLVED_NONPREDICATIVE_MWE_SALA_DE_GUERRA",
-      "decision_note": "In 'sala de guerra', guerra is part of lexicalized term war room/command room; it does not independently instantiate war.01."
-    }
-  ]
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

@@ -29,8 +29,8 @@
           "text": "Dilma não sabe, mas a imagem que está suja é a dela e do PT. Não da Petrobrás. A PETR4 seria muito melhor trabalhando sozinha...",
           "realization": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg1": "dela e do PT",
+            "Arg2": "suja"
           },
           "syntax": {
             "Arg0": null,
@@ -39,15 +39,71 @@
           },
           "instance_id": "dante_01_455852251442315264l::imagem::1",
           "predicate": {
-            "form": "imagem"
-          }
+            "form": "imagem",
+            "source_token_id": "7",
+            "source_form": "imagem",
+            "lemma": "imagem",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_455852251442315264l::7",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "7",
+            "form": "imagem",
+            "lemma": "imagem",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "7"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_455852251442315264l",
+            "ID": "7",
+            "Form": "imagem",
+            "Lemma": "imagem",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 47,
+              "char_end": 59,
+              "previous_tokenized_surface": "de ela e de o PT",
+              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_449303069973831680l",
           "text": "Maior alta desde Tupi pra PETR4 hoje. Tá boa a imagem da GIlma.",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a GIlma",
+            "Arg1": "da GIlma",
             "Arg2": null
           },
           "syntax": {
@@ -57,15 +113,121 @@
           },
           "instance_id": "dante_01_449303069973831680l::imagem::1",
           "predicate": {
-            "form": "imagem"
-          }
+            "form": "imagem",
+            "source_token_id": "12",
+            "source_form": "imagem",
+            "lemma": "imagem",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_449303069973831680l::12",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "imagem",
+            "lemma": "imagem",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_449303069973831680l",
+            "ID": "12",
+            "Form": "imagem",
+            "Lemma": "imagem",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 54,
+              "char_end": 62,
+              "previous_tokenized_surface": "de a GIlma",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_449303069973831680l",
+                    "ID": "13-14",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_449303069973831680l",
+                      "ID": "13",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_449303069973831680l",
+                      "ID": "14",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_455776463086559232l",
           "text": "E os CCs q estão liquidando minhas ações PETR4? @blogplanalto: Dilma ñ permitirá q se utilizem ações p/ tentar destruir imagem da @petrobras",
           "realization": {
             "Arg0": null,
-            "Arg1": "de a @petrobras",
+            "Arg1": "da @petrobras",
             "Arg2": null
           },
           "syntax": {
@@ -75,8 +237,114 @@
           },
           "instance_id": "dante_01_455776463086559232l::imagem::1",
           "predicate": {
-            "form": "imagem"
-          }
+            "form": "imagem",
+            "source_token_id": "23",
+            "source_form": "imagem",
+            "lemma": "imagem",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_455776463086559232l::23",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "23",
+            "form": "imagem",
+            "lemma": "imagem",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "23"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_455776463086559232l",
+            "ID": "23",
+            "Form": "imagem",
+            "Lemma": "imagem",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "argument_span_materialization": {
+            "Arg1": {
+              "char_start": 127,
+              "char_end": 140,
+              "previous_tokenized_surface": "de a @petrobras",
+              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
+              "source_contractions": [
+                {
+                  "expanded_form": "de a",
+                  "surface": "da",
+                  "mwt_row": {
+                    "Sent_ID": "dante_01_455776463086559232l",
+                    "ID": "24-25",
+                    "Form": "da",
+                    "Lemma": "nan",
+                    "U-PoS": "nan",
+                    "X-PoS": "nan",
+                    "Features": "nan",
+                    "Head": "nan",
+                    "Deprel": "nan",
+                    "Deps": "nan",
+                    "Misc": "nan",
+                    "Comment": ""
+                  },
+                  "component_rows": [
+                    {
+                      "Sent_ID": "dante_01_455776463086559232l",
+                      "ID": "24",
+                      "Form": "de",
+                      "Lemma": "de",
+                      "U-PoS": "ADP",
+                      "X-PoS": "nan",
+                      "Features": "nan",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    },
+                    {
+                      "Sent_ID": "dante_01_455776463086559232l",
+                      "ID": "25",
+                      "Form": "a",
+                      "Lemma": "o",
+                      "U-PoS": "DET",
+                      "X-PoS": "nan",
+                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+                      "Head": "nan",
+                      "Deprel": "nan",
+                      "Deps": "nan",
+                      "Misc": "nan",
+                      "Comment": ""
+                    }
+                  ]
+                }
+              ],
+              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+            }
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_455777441169285121l",
@@ -93,15 +361,89 @@
           },
           "instance_id": "dante_01_455777441169285121l::imagem::1",
           "predicate": {
-            "form": "imag"
-          }
+            "form": "imag",
+            "source_token_id": "26",
+            "source_form": "imag",
+            "lemma": "imagem",
+            "upos": "NOUN"
+          },
+          "predication": "Predicador",
+          "predicative": true,
+          "predication_evidence": {
+            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_455777441169285121l::26",
+                "decision": "S",
+                "authority": "PRESERVED_ORCH40",
+                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "26",
+            "form": "imag",
+            "lemma": "imagem",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "26"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_455777441169285121l",
+            "ID": "26",
+            "Form": "imag",
+            "Lemma": "imagem",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "FullForm=imagem|Trunc=Yes"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 2
         }
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_455852251442315264l::imagem::1",
+          "dante_01_449303069973831680l::imagem::1",
+          "dante_01_455776463086559232l::imagem::1",
+          "dante_01_455777441169285121l::imagem::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_455852251442315264l::imagem::1",
+          "dante_01_449303069973831680l::imagem::1",
+          "dante_01_455776463086559232l::imagem::1",
+          "dante_01_455777441169285121l::imagem::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
       }
     }
-  ]
+  ],
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }

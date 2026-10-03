@@ -36,36 +36,127 @@
           "predicate": {
             "form": "maioria",
             "char_start": 33,
-            "char_end": 40
+            "char_end": 40,
+            "source_token_id": "8",
+            "source_form": "maioria",
+            "lemma": "maioria",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_446064765740515328l::8",
+                "decision": "S",
+                "authority": "P009A",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "8",
+            "form": "maioria",
+            "lemma": "maioria",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "8"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_446064765740515328l",
+            "ID": "8",
+            "Form": "maioria",
+            "Lemma": "maioria",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         },
         {
           "sent_ID": "dante_01_452474138251522048l",
           "text": "Exceto alguns papeis e setores, tipo brin3 e estc3 a maioria chegou numa regiao de fibo! Na qual o indice se inclui!",
           "realization": {
-            "Arg1": "alguns papeis e setores",
+            "Arg1": null,
             "Arg3": null
           },
           "syntax": {
-            "Arg1": "nsubj:ellipsis",
+            "Arg1": null,
             "Arg3": null
           },
           "instance_id": "dante_01_452474138251522048l::maioria::1",
           "predicate": {
             "form": "maioria",
             "char_start": 53,
-            "char_end": 60
+            "char_end": 60,
+            "source_token_id": "12",
+            "source_form": "maioria",
+            "lemma": "maioria",
+            "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY"
+          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
+          "predication": "Predicador",
+          "predication_evidence": {
+            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
+            "historical_source_decisions": [
+              {
+                "key": "dante_01_452474138251522048l::12",
+                "decision": "S",
+                "authority": "P009A",
+                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
+              }
+            ],
+            "later_override_preserved": false,
+            "source_binding_independent": false,
+            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+          },
+          "rel": {
+            "source_token_id": "12",
+            "form": "maioria",
+            "lemma": "maioria",
+            "predication": "Predicador",
+            "source_token_ids": [
+              "12"
+            ],
+            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
+            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
+          },
+          "source_identity": {
+            "Sent_ID": "dante_01_452474138251522048l",
+            "ID": "12",
+            "Form": "maioria",
+            "Lemma": "maioria",
+            "U-PoS": "NOUN",
+            "Features": "Gender=Fem|Number=Sing",
+            "Misc": "nan"
+          },
+          "publication_eligibility": {
+            "eligible_for_nominal_predicative_projection": true,
+            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
+            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
+            "integration_and_publication_authorized": false
+          },
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {
         "Arg1": {
-          "nmod": 1,
-          "nsubj:ellipsis": 1
+          "nmod": 1
         }
       },
       "mapping_evidence": {
@@ -76,9 +167,38 @@
           "a majority of the Addison council",
           "the high court 's majority"
         ]
+      },
+      "predication": "Predicador",
+      "predication_evidence": {
+        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
+        "instance_ids": [
+          "dante_01_446064765740515328l::maioria::1",
+          "dante_01_452474138251522048l::maioria::1"
+        ],
+        "contextual_nonpredicator_exceptions": [],
+        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
+      },
+      "publication_eligibility": {
+        "eligible_for_nominal_predicative_projection": true,
+        "eligible_occurrence_ids": [
+          "dante_01_446064765740515328l::maioria::1",
+          "dante_01_452474138251522048l::maioria::1"
+        ],
+        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
+        "integration_and_publication_authorized": false
+      },
+      "historical_syntactic_profile": {
+        "Arg1": {
+          "nmod": 1,
+          "nsubj:ellipsis": 1
+        }
       }
     }
   ],
   "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR"
+  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
+  "publication_eligibility": {
+    "eligible_for_nominal_predicative_projection": true,
+    "integration_and_publication_authorized": false
+  }
 }
