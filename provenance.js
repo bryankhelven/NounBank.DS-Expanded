@@ -59,6 +59,14 @@
     data.grupos_origem.forEach(group=>{const option=document.createElement('option');option.value=group.id;option.textContent=`${group.rotulo} (${group.total})`;$('source-filter').append(option);});
     const termLabels={roleset:'Roleset',frame_nominal:'Frame nominal',antecedente_verbal:'Antecedente verbal',justificativa_retrospectiva:'Justificativa retrospectiva',padding:'Campo vazio (padding)',Arg0_Arg1:'Arg0, Arg1 e seguintes',PtArg0:'PtArg0',fonte_publicada:'Fonte publicada',record_id:'Chave de ligação',origem_documental_e_historica:'Origem documental × origem histórica'};
     $('glossary').innerHTML='<dl>'+Object.entries(glossary).map(([key,value])=>`<div><dt>${escape(termLabels[key] || key)}</dt><dd>${escape(value)}</dd></div>`).join('')+'</dl>';
-    render();const hash=decodeURIComponent(location.hash.slice(1));if(hash){$('provenance-search').value=hash;render();const detail=$('provenance-results').querySelector('.record');if(detail)detail.open=true;}
+    function openLinkedRecord() {
+      let hash;try {hash=decodeURIComponent(location.hash.slice(1));}catch {return;}
+      const row=data.registros.find(x=>x.roleset===hash);if(!row)return;
+      $('source-filter').value='all';$('record-view').value='published';$('provenance-search').value=row.roleset;render();
+      const detail=$('provenance-results').querySelector('.record');if(!detail)return;
+      detail.querySelector('.record-body').innerHTML=body(row,false);detail.dataset.loaded='true';detail.open=true;
+      detail.scrollIntoView({block:'start'});
+    }
+    render();openLinkedRecord();window.addEventListener('hashchange',openLinkedRecord);
   }).catch(error=>{$('result-count').textContent='As fichas não puderam ser carregadas.';$('load-error').hidden=false;$('load-error').textContent='Tente recarregar a página. Os arquivos para download continuam disponíveis abaixo.';console.error(error);});
 })();
