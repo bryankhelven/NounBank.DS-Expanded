@@ -1,0 +1,577 @@
+{
+  "authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+  "original_scientific_base": "ORCH279; V27 public snapshot",
+  "decisions": [
+    {
+      "record_id": "alta::alta.02",
+      "sense": "Recuperação figurada de ativo de estado desfavorável, expressa por recebeu alta/saiu da UTI.",
+      "roles": [
+        {
+          "id": "Arg1",
+          "desc": "entidade cujo estado é avaliado como recuperado"
+        },
+        {
+          "id": "Arg2",
+          "desc": "estado desfavorável anterior, quando expresso"
+        },
+        {
+          "id": "Arg3",
+          "desc": "estado/resultante de recuperação, quando expresso"
+        }
+      ],
+      "why": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_448595371955343360l::alta::1",
+          "sent_ID": "dante_01_448595371955343360l",
+          "text": "Sinal dos tempos, hoje a PETR3 recebeu alta, saiu da UTI e entrou no canal de variação estatístico de suas cotações, muito bom!"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "alta.02",
+        "design_identifier": "LOCAL_V20_RECUPERACAO_FIGURADA",
+        "creation_stage": "V20 definitions, now materialized in scientific release V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": "rise.01",
+        "english_roleset_source": null,
+        "roles": [
+          {
+            "id": "Arg1",
+            "desc": "LOGICAL SUBJECT, PATIENT, THING RISING"
+          },
+          {
+            "id": "Arg2",
+            "desc": "EXT, AMOUNT RISEN"
+          },
+          {
+            "id": "Arg3",
+            "desc": "START POINT"
+          },
+          {
+            "id": "Arg4",
+            "desc": "END POINT"
+          },
+          {
+            "id": "ArgM",
+            "desc": "MEDIUM"
+          }
+        ],
+        "pt_local_roles": null,
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "ameaça::ameaça.01",
+      "sense": "Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "origem/fator do risco, quando expresso como entidade ou evento"
+        },
+        {
+          "id": "Arg1",
+          "desc": "entidade afetada pelo risco"
+        },
+        {
+          "id": "Arg2",
+          "desc": "resultado adverso prospectivo"
+        }
+      ],
+      "why": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_443019898613030914l::ameaça::1",
+          "sent_ID": "dante_01_443019898613030914l",
+          "text": "Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses: Nesta sessão, ações re... http://t.co/A4BqAgI8fY #infomoney #vale5"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "ameaça.01",
+        "design_identifier": "LOCAL_V20_AMEACA_ECONOMICA",
+        "creation_stage": "V20 definitions, now materialized in scientific release V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": "threat.01",
+        "english_roleset_source": null,
+        "roles": [
+          {
+            "id": "Arg0",
+            "desc": "AGENT, ENTITY MAKING A THREAT"
+          },
+          {
+            "id": "Arg1",
+            "desc": "THREAT"
+          },
+          {
+            "id": "Arg2",
+            "desc": "BENEFICIARY', ENTITY THREATENED"
+          }
+        ],
+        "pt_local_roles": null,
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "quebra::quebra.02",
+      "sense": "Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada.",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "participante que promove a ruptura, se expresso"
+        },
+        {
+          "id": "Arg1",
+          "desc": "proteção/conteúdo protegido cuja confidencialidade é rompida"
+        },
+        {
+          "id": "Arg2",
+          "desc": "titular a que o conteúdo protegido se refere"
+        },
+        {
+          "id": "Arg3",
+          "desc": "destinatário de acesso, se expresso"
+        }
+      ],
+      "why": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_464744617909690368l::quebra::1",
+          "sent_ID": "dante_01_464744617909690368l",
+          "text": "Quebra de sigilo bancário da #PETR4.. E foi aberta a caixa de PANDORA!!"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "quebra.02",
+        "design_identifier": "LOCAL_V20_RUPTURA_CONFIDENCIALIDADE",
+        "creation_stage": "V20 definitions, now materialized in scientific release V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": "violation.01",
+        "english_roleset_source": null,
+        "roles": [
+          {
+            "id": "Arg0",
+            "desc": "VIOLATOR"
+          },
+          {
+            "id": "Arg1",
+            "desc": "THING VIOLATED, USUALLY A RULE"
+          }
+        ],
+        "pt_local_roles": null,
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "vergonha::vergonha.02",
+      "sense": "Qualificação moral depreciativa na construção sem vergonha.",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "avaliador, quando expresso"
+        },
+        {
+          "id": "Arg1",
+          "desc": "entidade alvo da qualificação"
+        },
+        {
+          "id": "Arg2",
+          "desc": "conduta atribuída, quando expressa"
+        }
+      ],
+      "why": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_456944206700101633l::vergonha::1",
+          "sent_ID": "dante_01_456944206700101633l",
+          "text": "Petrobrás (PETR4) segue nas manchetes de capa da @RevistaEpoca, segundo o q nos informa o competente @diegoescosteguy. Brasil sem vergonha!"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "vergonha.02",
+        "design_identifier": "LOCAL_V20_QUALIFICACAO_MORAL",
+        "creation_stage": "V20 definitions, now materialized in scientific release V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": "shame.01",
+        "english_roleset_source": null,
+        "roles": [
+          {
+            "id": "Arg0",
+            "desc": "CAUSE"
+          },
+          {
+            "id": "Arg1",
+            "desc": "EXPERIENCER"
+          },
+          {
+            "id": "Arg2",
+            "desc": "INSTRUMENT, IF SEPARATE FROM ARG0"
+          }
+        ],
+        "pt_local_roles": null,
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "razão::razão.01",
+      "sense": "estar correto, na construção “ter razão”",
+      "roles": [
+        {
+          "id": "PtArg0",
+          "desc": "entidade caracterizada como correta"
+        }
+      ],
+      "why": "A construção “ter razão” caracteriza uma entidade como correta. Não descreve uma justificativa nem uma razão como causa; por isso justification.01, reason.01 e right.01 não foram usados como inventário inglês. O papel local preserva a função de “Vc” nessa construção.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_445670953092407296l::razão::1",
+          "sent_ID": "dante_01_445670953092407296l",
+          "text": "@Fontes_ Vc tem razão, a gente fala mto. Como não opero derivativos não entrei vendido na PETR4 esperei cair e comprei usiminas de novo"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "razão.01",
+        "design_identifier": "razão.01",
+        "creation_stage": "Local role preserved from ORCH250; unified effective inventory in V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "A construção “ter razão” caracteriza uma entidade como correta. Não descreve uma justificativa nem uma razão como causa; por isso justification.01, reason.01 e right.01 não foram usados como inventário inglês. O papel local preserva a função de “Vc” nessa construção.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": null,
+        "english_roleset_source": "Q292_ACCEPTED_NEGATIVE_SEARCH_ORCH229_PRESERVED_ORCH246",
+        "roles": [],
+        "pt_local_roles": [
+          {
+            "id": "PtArg0",
+            "desc": "entidade caracterizada como correta"
+          }
+        ],
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "freio::freio.01",
+      "sense": "dispositivo de frenagem associado a um veículo ou sistema móvel",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "operador que aciona o dispositivo, quando expresso"
+        },
+        {
+          "id": "Arg1",
+          "desc": "veículo ou sistema móvel cujo movimento o dispositivo controla"
+        }
+      ],
+      "why": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_445717662233264128l::freio::1",
+          "sent_ID": "dante_01_445717662233264128l",
+          "text": "Ladeira abaixo! #petr4 = caminhão velho com problemas nos freios descendo a rua CARREGADO de sardinhas atordoadas ! Vamos aos 10 pila msm?"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "freio.01",
+        "design_identifier": "freio.01",
+        "creation_stage": "V28 current corrective definition",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
+        "lexical_support_urls": [
+          "https://dicionario.priberam.org/freio"
+        ],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": null,
+        "english_roleset_source": "EXPLICIT_NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_SEARCH_V2L",
+        "roles": [],
+        "pt_local_roles": null,
+        "mapping_evidence": null,
+        "pt_sense_gloss": null,
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "show::show.06",
+      "sense": "conjunto de acontecimentos e contingências próprios de uma situação ou atividade, na construção figurada “faz parte do show”",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "atividade ou situação a que pertencem as contingências"
+        },
+        {
+          "id": "Arg1",
+          "desc": "acontecimento apresentado como parte das contingências dessa atividade ou situação"
+        }
+      ],
+      "why": "Na ocorrência, a queda de uma ação é apresentada como parte normal da atividade de trading. O nome não designa uma apresentação artística, uma transmissão nem uma avaliação de desempenho. Criamos um roleset para a construção figurada, com a atividade ou situação de referência e o acontecimento que integra suas contingências. Esses papéis vêm da leitura contextual do projeto, não do inventário de performance.01 ou performance.02.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_459035339739262976l::show::1",
+          "sent_ID": "dante_01_459035339739262976l",
+          "text": "@rgponte continua sendo... Desde que não perca o stop, a queda de #abev3 faz parte do show"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "show.06",
+        "design_identifier": "show.06",
+        "creation_stage": "V28 current corrective definition",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "Na ocorrência, a queda de uma ação é apresentada como parte normal da atividade de trading. O nome não designa uma apresentação artística, uma transmissão nem uma avaliação de desempenho. Criamos um roleset para a construção figurada, com a atividade ou situação de referência e o acontecimento que integra suas contingências. Esses papéis vêm da leitura contextual do projeto, não do inventário de performance.01 ou performance.02.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": null,
+        "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
+        "roles": [],
+        "pt_local_roles": null,
+        "mapping_evidence": {
+          "decision": "COMPATIBLE_NOMBANK_ROLESET",
+          "roleset_name": "perform",
+          "roleset_source": "verb-perform.01",
+          "nombank_examples": [
+            "Robert Loggia 's riveting performance as the unlovable -- even crotchety -- veteran agent",
+            "his usual straight-from-the-shoulder performance"
+          ],
+          "note": "Metaphorical 'part of the show' denotes the ongoing performance/spectacle, not broadcast show.01."
+        },
+        "pt_sense_gloss": "show = espetáculo/desenrolar de acontecimentos",
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "vertigem::vertigem.01",
+      "sense": "sensação figurada de instabilidade ou desorientação provocada pela experiência de acompanhar um ativo volátil",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "pessoa ou entidade que experimenta a sensação figurada"
+        },
+        {
+          "id": "Arg1",
+          "desc": "estímulo ou situação que provoca a sensação figurada"
+        }
+      ],
+      "why": "A expressão “acompanhar a #OIBR4 proporciona um mix de alegria e vertigem” apresenta uma sensação induzida pela experiência de acompanhar a ação. Criamos um roleset de sensação figurada com experienciador e estímulo ou situação desencadeadora. O contexto não autoriza um diagnóstico médico, nem trocar vertigem por excitação, ansiedade ou surpresa. O dicionário confirma o domínio lexical de sensação; a leitura figurada e os papéis são definições do projeto baseadas nesta ocorrência.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_461510898428182528l::vertigem::1",
+          "sent_ID": "dante_01_461510898428182528l",
+          "text": "acompanhar a #OIBR4 proporciona um mix de alegria e vertigem"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "vertigem.01",
+        "design_identifier": "vertigem.01",
+        "creation_stage": "V28 current corrective definition",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "A expressão “acompanhar a #OIBR4 proporciona um mix de alegria e vertigem” apresenta uma sensação induzida pela experiência de acompanhar a ação. Criamos um roleset de sensação figurada com experienciador e estímulo ou situação desencadeadora. O contexto não autoriza um diagnóstico médico, nem trocar vertigem por excitação, ansiedade ou surpresa. O dicionário confirma o domínio lexical de sensação; a leitura figurada e os papéis são definições do projeto baseadas nesta ocorrência.",
+        "lexical_support_urls": [
+          "https://dicionario.priberam.org/vertigem"
+        ],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": null,
+        "english_roleset_source": "EXPLICIT_NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_SEARCH_V2H",
+        "roles": [],
+        "pt_local_roles": null,
+        "mapping_evidence": {
+          "decision": "NO_COMPATIBLE_NOMBANK_ROLESET",
+          "rationale": "Context 'acompanhar a #OIBR4 proporciona um mix de alegria e vertigem' denotes dizziness/vertigo, literal-metaphorical bodily sensation induced by stock volatility. Direct NomBank candidates dizziness.xml, vertigo.xml, giddiness.xml, lightheadedness.xml, disorientation.xml, nausea.xml are absent. Existing thrill.01, excitement.01, anxiety.01, shock.01 and sensation.01 alter the lexical-semantic content and were rejected.",
+          "searched_candidates": [
+            {
+              "candidate": "dizziness.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "vertigo.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "giddiness.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "lightheadedness.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "disorientation.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "nausea.xml",
+              "result": "404_NO_FRAME"
+            },
+            {
+              "candidate": "thrill.01",
+              "result": "REJECTED_SEMANTIC_SHIFT_TO_EXCITEMENT"
+            },
+            {
+              "candidate": "excitement.01",
+              "result": "REJECTED_SEMANTIC_SHIFT_TO_EXCITEMENT"
+            },
+            {
+              "candidate": "anxiety.01",
+              "result": "REJECTED_SEMANTIC_SHIFT_TO_ANXIETY"
+            },
+            {
+              "candidate": "shock.01",
+              "result": "REJECTED_SEMANTIC_SHIFT_TO_SURPRISE"
+            },
+            {
+              "candidate": "sensation.01",
+              "result": "REJECTED_TOO_GENERIC_LOSS_OF_VERTIGO_SENSE"
+            }
+          ]
+        },
+        "pt_sense_gloss": null,
+        "representation_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET"
+      },
+      "new_span_annotation_claimed": false
+    },
+    {
+      "record_id": "esquartejador::esquartejador.01",
+      "sense": "agente que esquarteja uma entidade",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "ESQUARTEJADOR / AGENTE QUE ESQUARTEJA"
+        },
+        {
+          "id": "Arg1",
+          "desc": "ENTIDADE ESQUARTEJADA"
+        }
+      ],
+      "why": "A busca comparou dismemberment, dismemberer, butcher, killer, cutting e cut. killer.01 é amplo e pressupõe matar, o que não equivale a esquartejar; cut.01 representa evento de corte, não o nominal de agente; cutting.01 tem sentido de redução. Os papéis locais explicitam os participantes da leitura portuguesa documentada.",
+      "source_evidence": [
+        {
+          "instance_id": "dante_01_468159955246534656l::esquartejador::1",
+          "sent_ID": "dante_01_468159955246534656l",
+          "text": "Como diria o esquartejador, vamos por partes, @HudsonPF: OGX vai a R$ 0,11 antes de ser vendida e ter novo dono e PETR4 vai a R$ 17 real !!"
+        }
+      ],
+      "provenance": {
+        "origin_resource": "NounBank.DS-Expanded",
+        "relation": "LOCAL_FRAME_CREATION",
+        "identifier": "esquartejador.01",
+        "design_identifier": "esquartejador.01",
+        "creation_stage": "Existing local inventory preserved and explicitly traced in V28",
+        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
+        "rationale_pt": "A busca comparou dismemberment, dismemberer, butcher, killer, cutting e cut. killer.01 é amplo e pressupõe matar, o que não equivale a esquartejar; cut.01 representa evento de corte, não o nominal de agente; cutting.01 tem sentido de redução. Os papéis locais explicitam os participantes da leitura portuguesa documentada.",
+        "lexical_support_urls": [],
+        "lexical_support_imports_role_inventory": false,
+        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+      },
+      "superseded_inventory": {
+        "english_roleset": null,
+        "english_roleset_source": "NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_DOCUMENTED_SEARCH",
+        "roles": [
+          {
+            "id": "Arg0",
+            "desc": "ESQUARTEJADOR / AGENTE QUE ESQUARTEJA"
+          },
+          {
+            "id": "Arg1",
+            "desc": "ENTIDADE ESQUARTEJADA"
+          }
+        ],
+        "pt_local_roles": null,
+        "mapping_evidence": {
+          "decision": "NO_COMPATIBLE_NOMBANK_ROLESET",
+          "searched_candidates": [
+            "dismemberment.xml",
+            "dismemberer.xml",
+            "butcher.xml",
+            "killer.xml",
+            "cutting.xml",
+            "cut.xml"
+          ],
+          "rejected_candidates": {
+            "killer.01": "too broad and entails killing, which is not equivalent to dismembering",
+            "cut.01": "event noun/frame, not an agentive dismemberer nominal",
+            "cutting.01": "reduction sense, semantically incompatible"
+          },
+          "note": "Null is not used as a terminal shortcut; the explicit negative decision is the terminal mapping result."
+        },
+        "pt_sense_gloss": "agente que esquarteja/dismembra",
+        "representation_status": null
+      },
+      "new_span_annotation_claimed": false
+    }
+  ],
+  "alta_split_occurrence_id": "dante_01_448595371955343360l::alta::1",
+  "new_original_annotation_intent_claimed": false
+}

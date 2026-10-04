@@ -1,11 +1,11 @@
 {
   "idioma": "pt-BR",
-  "explicacao": "Os textos de rolesets_pt.json são a mesma fonte usada pela página. As sínteses editoriais descrevem evidência já registrada e não criam novos mappings ou papéis.",
+  "explicacao": "A página e a vista computacional usam as mesmas definições atuais, incluindo os inventários locais materializados. Os arquivos ORCH279 são evidência histórica, preservada separadamente.",
   "joins": {
-    "rolesets_pt.record_id": "orch279.rolesets.record_id; orch279.role_definitions.roleset_record_id; orch279.annotations.roleset_record_id",
-    "papeis_pt.role_definition_record_id": "orch279.role_definitions.role_definition_record_id; marcacoes_pt.role_definition_origin_ref",
-    "marcacoes_pt.annotation_id": "orch279.annotations.annotation_id",
-    "marcacoes_pt.occurrence_id": "orch279.occurrences.occurrence_id",
+    "rolesets_pt.record_id": "v28.rolesets.record_id; v28.role_definitions.roleset_record_id; v28.annotations.roleset_record_id",
+    "papeis_pt.role_definition_record_id": "v28.role_definitions.role_definition_record_id; marcacoes_pt.effective_role_definition_origin_ref",
+    "marcacoes_pt.annotation_id": "v28.annotations.annotation_id; orch279.annotations.annotation_id (identidade histórica preservada)",
+    "marcacoes_pt.occurrence_id": "v28.occurrence_bindings.occurrence_id; orch279.occurrences.occurrence_id",
     "sentidos_rolesets_criados_pt.registro_pai": "rolesets_pt.record_id"
   },
   "campos": {
@@ -20,5 +20,7 @@
     "criacao_local": "Sentido e inventário de papéis criados no projeto, com definição, base contextual, identificador próprio e referência anterior conservada para comparação.",
     "definicoes_individuais_de_papeis_recuperadas": "Distingue existência do roleset local e disponibilidade das descrições individuais no acervo recuperado."
   },
-  "original_annotation_changed": false
+  "original_annotation_changed": false,
+  "original_annotation_values_changed": false,
+  "scientific_inventory_changed": true
 }

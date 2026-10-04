@@ -6,21 +6,21 @@
       "pt_roleset": "ameaça.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": null,
-      "english_roleset_source": "LOCAL_ROLESET_NOUNBANK_DS_EXPANDED",
-      "nombank_url": null,
+      "english_roleset": "threat.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/threat.xml",
       "roles": [
         {
           "id": "Arg0",
-          "desc": "origem/fator do risco, quando expresso como entidade ou evento"
+          "desc": "AGENT, ENTITY MAKING A THREAT"
         },
         {
           "id": "Arg1",
-          "desc": "entidade afetada pelo risco"
+          "desc": "THREAT"
         },
         {
           "id": "Arg2",
-          "desc": "resultado adverso prospectivo"
+          "desc": "BENEFICIARY', ENTITY THREATENED"
         }
       ],
       "examples": [
@@ -87,12 +87,7 @@
             "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
             "integration_and_publication_authorized": false
           },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251",
-          "historical_effective_mapping_disposition": null,
-          "effective_mapping_disposition": {
-            "status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-            "source_of_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28"
-          }
+          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
         }
       ],
       "syntactic_profile": {},
@@ -112,49 +107,6 @@
         ],
         "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
         "integration_and_publication_authorized": false
-      },
-      "superseded_inventory_V27": {
-        "english_roleset": "threat.01",
-        "english_roleset_source": null,
-        "roles": [
-          {
-            "id": "Arg0",
-            "desc": "AGENT, ENTITY MAKING A THREAT"
-          },
-          {
-            "id": "Arg1",
-            "desc": "THREAT"
-          },
-          {
-            "id": "Arg2",
-            "desc": "BENEFICIARY', ENTITY THREATENED"
-          }
-        ],
-        "pt_local_roles": null,
-        "mapping_evidence": null,
-        "pt_sense_gloss": null,
-        "representation_status": null
-      },
-      "pt_sense_gloss": "Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.",
-      "roleset_resolution_status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-      "representation_status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-      "roleset_provenance": {
-        "origin_resource": "NounBank.DS-Expanded",
-        "relation": "LOCAL_FRAME_CREATION",
-        "identifier": "ameaça.01",
-        "design_identifier": "LOCAL_V20_AMEACA_ECONOMICA",
-        "creation_stage": "V20 definitions, now materialized in scientific release V28",
-        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
-        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
-        "rationale_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
-        "lexical_support_urls": [],
-        "lexical_support_imports_role_inventory": false,
-        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
-      },
-      "mapping_evidence": {
-        "decision": "LOCAL_ROLESET_CREATED_AND_MATERIALIZED",
-        "rationale": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
-        "english_mapping_disposition": "No English frame is asserted as equivalent; local inventory is defined."
       }
     }
   ],

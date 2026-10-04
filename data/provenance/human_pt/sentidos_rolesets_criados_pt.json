@@ -1,34 +1,31 @@
 {
   "idioma": "pt-BR",
-  "origem": "NounBank.DS-Expanded",
-  "total": 7,
-  "total_papeis_definidos": 16,
+  "total": 9,
+  "total_papeis_definidos": 22,
   "registros": [
     {
-      "record_id": "alta::alta.01",
-      "identificador": "LOCAL_V20_RECUPERACAO_FIGURADA",
+      "record_id": "alta::alta.02",
+      "identificador": "alta.02",
+      "identificador_do_desenho": "LOCAL_V20_RECUPERACAO_FIGURADA",
       "sentido": "Recuperação figurada de ativo de estado desfavorável, expressa por recebeu alta/saiu da UTI.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
+      "origem": "NounBank.DS-Expanded",
       "como": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
       "por_que": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
       "papeis": [
         {
           "id": "Arg1",
-          "descricao_pt": "entidade cujo estado é avaliado como recuperado",
-          "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
+          "descricao_pt": "entidade cujo estado é avaliado como recuperado"
         },
         {
           "id": "Arg2",
-          "descricao_pt": "estado desfavorável anterior, quando expresso",
-          "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
+          "descricao_pt": "estado desfavorável anterior, quando expresso"
         },
         {
           "id": "Arg3",
-          "descricao_pt": "estado/resultante de recuperação, quando expresso",
-          "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
+          "descricao_pt": "estado/resultante de recuperação, quando expresso"
         }
       ],
-      "registro_pai": "alta::alta.01",
+      "registro_pai": "alta::alta.02",
       "referencia_anterior": "rise.01",
       "inventario_anterior": [
         {
@@ -77,31 +74,29 @@
           "referencia_fonte": "rise.01"
         }
       ],
-      "tipo": "sentido_e_roleset_criados",
-      "incorporacao_ao_json_cientifico_original": false
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
     },
     {
       "record_id": "ameaça::ameaça.01",
-      "identificador": "LOCAL_V20_AMEACA_ECONOMICA",
+      "identificador": "ameaça.01",
+      "identificador_do_desenho": "LOCAL_V20_AMEACA_ECONOMICA",
       "sentido": "Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
+      "origem": "NounBank.DS-Expanded",
       "como": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
       "por_que": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
       "papeis": [
         {
           "id": "Arg0",
-          "descricao_pt": "origem/fator do risco, quando expresso como entidade ou evento",
-          "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
+          "descricao_pt": "origem/fator do risco, quando expresso como entidade ou evento"
         },
         {
           "id": "Arg1",
-          "descricao_pt": "entidade afetada pelo risco",
-          "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
+          "descricao_pt": "entidade afetada pelo risco"
         },
         {
           "id": "Arg2",
-          "descricao_pt": "resultado adverso prospectivo",
-          "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
+          "descricao_pt": "resultado adverso prospectivo"
         }
       ],
       "registro_pai": "ameaça::ameaça.01",
@@ -135,15 +130,16 @@
           "referencia_fonte": "threat.01"
         }
       ],
-      "tipo": "sentido_e_roleset_criados",
-      "incorporacao_ao_json_cientifico_original": false
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
     },
     {
       "record_id": "esquartejador::esquartejador.01",
       "identificador": "esquartejador.01",
-      "sentido": "Foram definidos dois papéis locais: Arg0, o agente que esquarteja, e Arg1, a entidade esquartejada. Eles já estão no inventário publicado; não são papéis importados de killer.01 ou cut.01.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
-      "como": "Sim: há um inventário de papéis local já publicado. O registro não identifica individualmente quem redigiu primeiro cada descrição.",
+      "identificador_do_desenho": "esquartejador.01",
+      "sentido": "agente que esquarteja uma entidade",
+      "origem": "NounBank.DS-Expanded",
+      "como": "A busca comparou dismemberment, dismemberer, butcher, killer, cutting e cut. killer.01 é amplo e pressupõe matar, o que não equivale a esquartejar; cut.01 representa evento de corte, não o nominal de agente; cutting.01 tem sentido de redução. Os papéis locais explicitam os participantes da leitura portuguesa documentada.",
       "por_que": "A busca comparou dismemberment, dismemberer, butcher, killer, cutting e cut. killer.01 é amplo e pressupõe matar, o que não equivale a esquartejar; cut.01 representa evento de corte, não o nominal de agente; cutting.01 tem sentido de redução. Os papéis locais explicitam os participantes da leitura portuguesa documentada.",
       "papeis": [
         {
@@ -156,36 +152,80 @@
         }
       ],
       "registro_pai": "esquartejador::esquartejador.01",
-      "tipo": "sentido_roleset_ou_papeis_criados",
-      "definicoes_individuais_de_papeis_recuperadas": true
+      "referencia_anterior": null,
+      "inventario_anterior": [
+        {
+          "id": "Arg0",
+          "descricao_publicada": "ESQUARTEJADOR / AGENTE QUE ESQUARTEJA",
+          "descricao_fonte": null,
+          "origem_pt": "Definição local em português",
+          "transformacao_pt": "Papel local criado para a leitura portuguesa documentada",
+          "role_definition_record_id": "esquartejador::esquartejador.01::ROLE_DEFINITION::Arg0",
+          "referencia_fonte": null
+        },
+        {
+          "id": "Arg1",
+          "descricao_publicada": "ENTIDADE ESQUARTEJADA",
+          "descricao_fonte": null,
+          "origem_pt": "Definição local em português",
+          "transformacao_pt": "Papel local criado para a leitura portuguesa documentada",
+          "role_definition_record_id": "esquartejador::esquartejador.01::ROLE_DEFINITION::Arg1",
+          "referencia_fonte": null
+        }
+      ],
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
+    },
+    {
+      "record_id": "freio::freio.01",
+      "identificador": "freio.01",
+      "identificador_do_desenho": "freio.01",
+      "sentido": "dispositivo de frenagem associado a um veículo ou sistema móvel",
+      "origem": "NounBank.DS-Expanded",
+      "como": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
+      "por_que": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
+      "papeis": [
+        {
+          "id": "Arg0",
+          "descricao_pt": "operador que aciona o dispositivo, quando expresso"
+        },
+        {
+          "id": "Arg1",
+          "descricao_pt": "veículo ou sistema móvel cujo movimento o dispositivo controla"
+        }
+      ],
+      "registro_pai": "freio::freio.01",
+      "referencia_anterior": null,
+      "inventario_anterior": [],
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": [
+        "https://dicionario.priberam.org/freio"
+      ]
     },
     {
       "record_id": "quebra::quebra.02",
-      "identificador": "LOCAL_V20_RUPTURA_CONFIDENCIALIDADE",
+      "identificador": "quebra.02",
+      "identificador_do_desenho": "LOCAL_V20_RUPTURA_CONFIDENCIALIDADE",
       "sentido": "Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
+      "origem": "NounBank.DS-Expanded",
       "como": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
       "por_que": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
       "papeis": [
         {
           "id": "Arg0",
-          "descricao_pt": "participante que promove a ruptura, se expresso",
-          "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
+          "descricao_pt": "participante que promove a ruptura, se expresso"
         },
         {
           "id": "Arg1",
-          "descricao_pt": "proteção/conteúdo protegido cuja confidencialidade é rompida",
-          "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
+          "descricao_pt": "proteção/conteúdo protegido cuja confidencialidade é rompida"
         },
         {
           "id": "Arg2",
-          "descricao_pt": "titular a que o conteúdo protegido se refere",
-          "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
+          "descricao_pt": "titular a que o conteúdo protegido se refere"
         },
         {
           "id": "Arg3",
-          "descricao_pt": "destinatário de acesso, se expresso",
-          "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
+          "descricao_pt": "destinatário de acesso, se expresso"
         }
       ],
       "registro_pai": "quebra::quebra.02",
@@ -210,15 +250,16 @@
           "referencia_fonte": "violation.01"
         }
       ],
-      "tipo": "sentido_e_roleset_criados",
-      "incorporacao_ao_json_cientifico_original": false
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
     },
     {
       "record_id": "razão::razão.01",
       "identificador": "razão.01",
-      "sentido": "Definimos o sentido “estar correto” e criamos o papel PtArg0 para a entidade caracterizada como correta. Na ocorrência, “Vc” realiza esse participante.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
-      "como": "Sim. O sentido, o roleset razão.01 e o papel PtArg0 foram definidos localmente. A definição do papel é “entidade caracterizada como correta”.",
+      "identificador_do_desenho": "razão.01",
+      "sentido": "estar correto, na construção “ter razão”",
+      "origem": "NounBank.DS-Expanded",
+      "como": "A construção “ter razão” caracteriza uma entidade como correta. Não descreve uma justificativa nem uma razão como causa; por isso justification.01, reason.01 e right.01 não foram usados como inventário inglês. O papel local preserva a função de “Vc” nessa construção.",
       "por_que": "A construção “ter razão” caracteriza uma entidade como correta. Não descreve uma justificativa nem uma razão como causa; por isso justification.01, reason.01 e right.01 não foram usados como inventário inglês. O papel local preserva a função de “Vc” nessa construção.",
       "papeis": [
         {
@@ -227,31 +268,65 @@
         }
       ],
       "registro_pai": "razão::razão.01",
-      "tipo": "sentido_roleset_ou_papeis_criados",
-      "definicoes_individuais_de_papeis_recuperadas": true
+      "referencia_anterior": null,
+      "inventario_anterior": [
+        {
+          "id": "PtArg0",
+          "descricao_publicada": "entidade caracterizada como correta",
+          "descricao_fonte": null,
+          "origem_pt": "Definição local em português",
+          "transformacao_pt": "Papel local criado para a leitura portuguesa documentada",
+          "role_definition_record_id": "razão::razão.01::ROLE_DEFINITION::PtArg0",
+          "referencia_fonte": null
+        }
+      ],
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
+    },
+    {
+      "record_id": "show::show.06",
+      "identificador": "show.06",
+      "identificador_do_desenho": "show.06",
+      "sentido": "conjunto de acontecimentos e contingências próprios de uma situação ou atividade, na construção figurada “faz parte do show”",
+      "origem": "NounBank.DS-Expanded",
+      "como": "Na ocorrência, a queda de uma ação é apresentada como parte normal da atividade de trading. O nome não designa uma apresentação artística, uma transmissão nem uma avaliação de desempenho. Criamos um roleset para a construção figurada, com a atividade ou situação de referência e o acontecimento que integra suas contingências. Esses papéis vêm da leitura contextual do projeto, não do inventário de performance.01 ou performance.02.",
+      "por_que": "Na ocorrência, a queda de uma ação é apresentada como parte normal da atividade de trading. O nome não designa uma apresentação artística, uma transmissão nem uma avaliação de desempenho. Criamos um roleset para a construção figurada, com a atividade ou situação de referência e o acontecimento que integra suas contingências. Esses papéis vêm da leitura contextual do projeto, não do inventário de performance.01 ou performance.02.",
+      "papeis": [
+        {
+          "id": "Arg0",
+          "descricao_pt": "atividade ou situação a que pertencem as contingências"
+        },
+        {
+          "id": "Arg1",
+          "descricao_pt": "acontecimento apresentado como parte das contingências dessa atividade ou situação"
+        }
+      ],
+      "registro_pai": "show::show.06",
+      "referencia_anterior": null,
+      "inventario_anterior": [],
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
     },
     {
       "record_id": "vergonha::vergonha.02",
-      "identificador": "LOCAL_V20_QUALIFICACAO_MORAL",
+      "identificador": "vergonha.02",
+      "identificador_do_desenho": "LOCAL_V20_QUALIFICACAO_MORAL",
       "sentido": "Qualificação moral depreciativa na construção sem vergonha.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
+      "origem": "NounBank.DS-Expanded",
       "como": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
       "por_que": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
       "papeis": [
         {
           "id": "Arg0",
-          "descricao_pt": "avaliador, quando expresso",
-          "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
+          "descricao_pt": "avaliador, quando expresso"
         },
         {
           "id": "Arg1",
-          "descricao_pt": "entidade alvo da qualificação",
-          "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
+          "descricao_pt": "entidade alvo da qualificação"
         },
         {
           "id": "Arg2",
-          "descricao_pt": "conduta atribuída, quando expressa",
-          "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
+          "descricao_pt": "conduta atribuída, quando expressa"
         }
       ],
       "registro_pai": "vergonha::vergonha.02",
@@ -285,20 +360,34 @@
           "referencia_fonte": "shame.01"
         }
       ],
-      "tipo": "sentido_e_roleset_criados",
-      "incorporacao_ao_json_cientifico_original": false
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": []
     },
     {
       "record_id": "vertigem::vertigem.01",
       "identificador": "vertigem.01",
-      "sentido": "Criamos o sentido de vertigem figurada na experiência de acompanhar um ativo volátil e o registramos como vertigem.01. A descrição foi construída a partir do contexto, em vez de importar um sentido inglês com significado diferente.",
-      "origem": "Criação do projeto NounBank.DS-Expanded",
-      "como": "Sim. O sentido e o roleset vertigem.01 são uma criação do projeto. O arquivo recuperado registra esse roleset, mas não enumera descrições individuais de papéis; essa lacuna documental não equivale à inexistência do sentido ou do roleset.",
-      "por_que": "Aqui, vertigem é a sensação figurada provocada por acompanhar um ativo volátil. A busca não encontrou os frames dizziness, vertigo, giddiness, lightheadedness, disorientation e nausea. thrill/excitement mudariam o sentido para excitação; anxiety para ansiedade; shock para surpresa; sensation e outros hiperônimos seriam genéricos demais.",
-      "papeis": [],
+      "identificador_do_desenho": "vertigem.01",
+      "sentido": "sensação figurada de instabilidade ou desorientação provocada pela experiência de acompanhar um ativo volátil",
+      "origem": "NounBank.DS-Expanded",
+      "como": "A expressão “acompanhar a #OIBR4 proporciona um mix de alegria e vertigem” apresenta uma sensação induzida pela experiência de acompanhar a ação. Criamos um roleset de sensação figurada com experienciador e estímulo ou situação desencadeadora. O contexto não autoriza um diagnóstico médico, nem trocar vertigem por excitação, ansiedade ou surpresa. O dicionário confirma o domínio lexical de sensação; a leitura figurada e os papéis são definições do projeto baseadas nesta ocorrência.",
+      "por_que": "A expressão “acompanhar a #OIBR4 proporciona um mix de alegria e vertigem” apresenta uma sensação induzida pela experiência de acompanhar a ação. Criamos um roleset de sensação figurada com experienciador e estímulo ou situação desencadeadora. O contexto não autoriza um diagnóstico médico, nem trocar vertigem por excitação, ansiedade ou surpresa. O dicionário confirma o domínio lexical de sensação; a leitura figurada e os papéis são definições do projeto baseadas nesta ocorrência.",
+      "papeis": [
+        {
+          "id": "Arg0",
+          "descricao_pt": "pessoa ou entidade que experimenta a sensação figurada"
+        },
+        {
+          "id": "Arg1",
+          "descricao_pt": "estímulo ou situação que provoca a sensação figurada"
+        }
+      ],
       "registro_pai": "vertigem::vertigem.01",
-      "tipo": "sentido_roleset_ou_papeis_criados",
-      "definicoes_individuais_de_papeis_recuperadas": false
+      "referencia_anterior": null,
+      "inventario_anterior": [],
+      "incorporacao_ao_json_cientifico_original": true,
+      "lexical_support_urls": [
+        "https://dicionario.priberam.org/vertigem"
+      ]
     }
   ]
 }
