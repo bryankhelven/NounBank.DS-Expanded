@@ -1,0 +1,21 @@
+{
+  "idioma": "pt-BR",
+  "explicacao": "Os textos de rolesets_pt.json são a mesma fonte usada pela página. As sínteses editoriais descrevem evidência já registrada e não criam novos mappings ou papéis.",
+  "joins": {
+    "rolesets_pt.record_id": "orch279.rolesets.record_id; orch279.role_definitions.roleset_record_id; orch279.annotations.roleset_record_id",
+    "papeis_pt.role_definition_record_id": "orch279.role_definitions.role_definition_record_id; marcacoes_pt.role_definition_origin_ref",
+    "marcacoes_pt.annotation_id": "orch279.annotations.annotation_id",
+    "marcacoes_pt.occurrence_id": "orch279.occurrences.occurrence_id"
+  },
+  "campos": {
+    "de_onde_veio": "Origem documental explicada para humanos",
+    "o_que_foi_feito": "Materialização/decisão documentada, com distinção entre publicação e revisão posterior",
+    "por_que": "Justificativa aceita ou síntese editorial de evidência explícita; ausência de justificativa não é preenchida por inferência",
+    "foi_criado": "Distingue identificador português, inventário local e referência de frame existente",
+    "evidencias": "Chave e JSON pointer dos registros originais",
+    "descricao_publicada": "Literal do papel na publicação; não é tradução ou novo rótulo",
+    "descricao_fonte": "Literal encontrado no comparador nativo documentado",
+    "sintese_editorial_nao_nova_decisao_cientifica": "Explicação da evidência preservada, sem mudança do recurso científico"
+  },
+  "original_annotation_changed": false
+}

@@ -1,0 +1,87 @@
+{
+  "tipo": "EXCERTOS_LITERAIS_DO_HISTORICO_RECUPERADO",
+  "nova_decisao_cientifica": false,
+  "items": [
+    {
+      "source_filename": "01178_REPLAY_LOG.json",
+      "source_sha256": "227dd91c729519e6919cb17ec6cf5bdf0fe140a6e598842691913302aeab0a04",
+      "literal": {
+        "q": "Q177",
+        "lemma": "freio",
+        "pt_roleset": "freio.01",
+        "op": "replace_english_mapping",
+        "before": {
+          "english_roleset": "restraint.01",
+          "nombank_url": ".../restraint.xml"
+        },
+        "after": {
+          "english_roleset": null,
+          "english_roleset_source": "EXPLICIT_NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_SEARCH_V2L",
+          "nombank_url": null,
+          "english_mapping_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET"
+        },
+        "rationale": "The occurrence denotes the physical brakes of a truck. NomBank restraint.01 is a prevention/restraint EVENT frame, not the physical braking device. No exact compatible NomBank nominal frame was found after explicit candidate search; null is therefore an explicit negative mapping decision, not a closure shortcut.",
+        "evidence": {
+          "searched": [
+            "brake.xml=404_NO_NOMBANK_FRAME",
+            "braking.xml=404_NO_NOMBANK_FRAME",
+            "barrier.01=REJECT_EVENT/INSTRUMENT_FRAME",
+            "stopper.01=REJECT_AGENTIVE_STOPPER",
+            "constraint.01=REJECT_PREVENTION_EVENT",
+            "restriction.01=REJECT_LIMITATION_EVENT",
+            "control.01=REJECT_CONTROL_EVENT",
+            "device.01=REJECT_TOO_GENERIC"
+          ],
+          "rejected_current": "restraint.01=REJECT_PREVENTION_EVENT"
+        }
+      }
+    },
+    {
+      "source_filename": "01178_REPLAY_LOG.json",
+      "source_sha256": "227dd91c729519e6919cb17ec6cf5bdf0fe140a6e598842691913302aeab0a04",
+      "literal": {
+        "q": "Q177",
+        "lemma": "freio",
+        "instance_id": "dante_01_445717662233264128l::freio::1",
+        "op": "replace_role_inventory_and_set_realization",
+        "before": {
+          "roles": [
+            "Arg0=AGENT",
+            "Arg1=THEME (ACTION OR OBJECT BEING PREVENTED",
+            "Arg2=SECONDARY PREDICATION OR ACTION",
+            "Arg3=INSTRUMENT"
+          ],
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "com problemas em os"
+          }
+        },
+        "after": {
+          "roles": [],
+          "realization": {},
+          "syntax": {},
+          "syntactic_profile": {}
+        },
+        "rationale": "After the ENMAP correction there is no licensed NomBank core-role inventory to project. The previous Arg3 span 'com problemas em os' is not an instrument of restraint and is removed rather than relabeled."
+      }
+    },
+    {
+      "source_filename": "01162_ACCEPTED_Q286_Q295_LEDGER.json",
+      "source_sha256": "6ac4bf585be50241ad08ca63f1dfd57df9320fb22f0476c66a0dff3d9323d81e",
+      "literal": {
+        "q": "Q292",
+        "lemma": "razão",
+        "status": "ENMAP_REPAIRED_WITH_NEGATIVE_EVIDENCE",
+        "repairs": [
+          "Current justification.01 mapping rejected for idiom 'ter razão' (= be correct/right), because justification.01 denotes a justification/reason that shows something to be right.",
+          "reason.01 was also searched and rejected: NomBank reason.01 is ability/action/reasoning, not the correctness-state idiom.",
+          "right.01 was searched but rejected as a legal/ability-with-agent rights frame, not correctness.",
+          "english_roleset set to null with explicit NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_DOCUMENTED_SEARCH for this occurrence/sense.",
+          "Local semantic participant 'Vc' retained as the entity characterized as correct in the PT-local role inventory; no English role projection is forced."
+        ]
+      }
+    }
+  ]
+}
