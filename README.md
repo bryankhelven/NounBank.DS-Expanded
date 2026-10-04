@@ -11,3 +11,7 @@ Correções aceitas em ORCH255, integradas por autorização explícita do respo
 A expansão revisada contém 373 entradas /425 sentidos /1894 ocorrências. O inventário integral de auditoria permanece 373/426/1905, com 11 ocorrências excluídas da projeção nominal predicadora. Decisão negativa de mapeamento inglês não é caso pendente.
 
 A projeção pública preserva a ciência e os IDs aceitos.
+
+## Provenance documental
+
+A documentação de fontes, papéis e justificativas aceitas está em [Provenance — ORCH279](docs/PROVENANCE_ORCH279.md). A fila original de398 issues está fechada; os limites históricos e semânticos permanecem explícitos.
