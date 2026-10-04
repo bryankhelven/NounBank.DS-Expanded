@@ -1,15 +1,13 @@
-# Provenance para leitura humana
+# Provenance para leitores humanos
 
-A página `provenance.html` usa diretamente `data/provenance/human_pt/rolesets_pt.json`. Seus textos em português e seus grupos são a mesma vista disponível para processamento computacional. Não há um segundo conjunto independente de explicações no HTML.
+As fichas usam diretamente o JSON em português. A documentação de criação informa sentido, roleset, papéis definidos, origem e base contextual. Não usa linguagem de proposta nem mensagens de controle do fluxo de trabalho.
 
-Cada ficha responde à origem, ao que foi materializado/publicado, à criação local e à justificativa documentada. A referência inglesa, o identificador português, a descrição do papel e a origem histórica da marcação são eixos distintos. Um identificador português sem correspondente inglês não é automaticamente um frame local com papéis.
+Alta (recuperação figurada), ameaça (risco econômico), quebra (confidencialidade) e vergonha (qualificação moral) têm quatro inventários locais com 13 definições de papéis, preservadas com seus identificadores próprios em `sentidos_rolesets_criados_pt.json`. As referências anteriores ficam disponíveis para comparação, sem confundir as descrições antigas com as definições criadas.
 
-Os grupos de origem têm partição exclusiva: 570 registros com referência ao NomBank, 2 com papéis locais publicados e 3 sem equivalente inglês e sem inventário de papéis. A consulta também agrupa por tratamento do inventário, referência do NomBank, antecedente verbal declarado e nome português. As 4 propostas locais não ativadas aparecem em uma consulta separada e não aumentam o total de 575 sentidos publicados.
+Razão na construção “ter razão” tem o papel local PtArg0, entidade caracterizada como correta. Vertigem tem o sentido e o roleset locais registrados; as descrições individuais de papéis não aparecem no arquivo recuperado, limitação documental registrada sem negar a existência do roleset.
 
-`papeis_pt.json` conserva 2.068 chaves de registros de papel: 1.810 descrições semânticas e 258 campos vazios de preenchimento. `marcacoes_pt.jsonl.gz` conserva 36.983 chaves, valores e localizadores, acrescentando o significado do tipo de campo e explicando a limitação da origem histórica individual. `schema_pt.json` e `glossario_pt.json` explicam os campos e as ligações.
+O arquivo de criações reúne 7 fichas locais: as quatro definições descritas acima, razão, vertigem e esquartejador. São 16 descrições de papéis disponíveis nesse conjunto.
 
-As justificativas retrospectivas aceitas são distinguidas de explicações já presentes no sentido e de sínteses editoriais em português. Traduções ou resumos de evidência não constituem nova adjudicação. Quando a justificativa histórica não foi recuperada, isso permanece explícito. Descrições de papéis na fonte e na publicação são mostradas literalmente no idioma original, sem substituir os rótulos científicos por tradução.
+A consulta agrupa as 575 fichas por origem, tratamento, referência, antecedente verbal e nome. A origem local inclui fichas com sentidos, rolesets ou papéis criados no projeto; não se restringe à origem das descrições antigas.
 
-Os excertos Q177 (freio) e Q292 (razão) reproduzem literalmente registros do histórico estruturado recuperado, com hashes dos arquivos de origem. Em show.06 a evidência atual que rejeita performance prevalece sobre o registro anterior favorável a essa associação; a ficha conserva essa distinção. Em carteira.01 a correção histórica documentada para portfolio.01 não é confundida com o mapping ainda publicado portfolio.04.
-
-Os arquivos originais em `data/provenance/orch279` permanecem intactos. As sínteses editoriais têm indicadores e localizadores para a evidência original. A correção da interface foi solicitada pelo usuário após ORCH283; a ciência continua sob ORCH279. Nenhum nome, mapping, gold, inventário científico ou marcação foi alterado.
+Os 2.068 registros originais de papéis (1.810 descrições e 258 campos vazios), as 36.983 marcações e os sidecars ORCH279 são preservados. As 13 definições de criação têm namespace próprio. Não foram atribuídos spans novos, substituídos mappings científicos nem inferida a intenção original de anotadores.

@@ -17,29 +17,34 @@
     {
       "id": "nombank",
       "rotulo": "Referência do NomBank em inglês",
-      "total": 570
+      "total": 566
     },
     {
       "id": "local",
-      "rotulo": "Papéis definidos localmente em português",
-      "total": 2
+      "rotulo": "Sentidos, rolesets ou papéis criados no projeto",
+      "total": 7
     },
     {
       "id": "sem_papeis",
       "rotulo": "Sem equivalente no NomBank e sem papéis definidos",
-      "total": 3
+      "total": 2
     }
   ],
   "grupos_tratamento": [
     {
-      "id": "equivalente",
-      "rotulo": "Descrições equivalentes à fonte; diferenças de caixa/padding",
-      "total": 524
-    },
-    {
       "id": "adaptacao",
       "rotulo": "Diferenças de descrição documentadas",
       "total": 45
+    },
+    {
+      "id": "equivalente",
+      "rotulo": "Descrições equivalentes à fonte; diferenças de caixa/padding",
+      "total": 520
+    },
+    {
+      "id": "local",
+      "rotulo": "Criação local baseada no contexto português",
+      "total": 7
     },
     {
       "id": "referencia_divergente",
@@ -47,14 +52,9 @@
       "total": 1
     },
     {
-      "id": "local",
-      "rotulo": "Definição local de papéis",
-      "total": 2
-    },
-    {
       "id": "nenhum",
       "rotulo": "Nenhum inventário de papéis criado",
-      "total": 3
+      "total": 2
     }
   ],
   "registros": [
@@ -3493,19 +3493,19 @@
       "record_id": "alta::alta.01",
       "nome": "alta",
       "roleset": "alta.01",
-      "origem_id": "nombank",
-      "origem_pt": "Referência do NomBank em inglês",
-      "tratamento_id": "equivalente",
-      "tratamento_pt": "Descrições equivalentes à fonte; diferenças de caixa/padding",
+      "origem_id": "local",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
+      "tratamento_id": "local",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": "rise.01",
       "antecedente_id": "verbal",
       "antecedente_verbal_original": "verb-rise.01",
-      "antecedente_explicacao_pt": "O XML do NomBank registra verb-rise.01 como antecedente do frame nominal. O prefixo verb- aponta para um sentido verbal de base; não significa que o projeto tenha importado diretamente um frame do PropBank.",
-      "de_onde_veio": "O sentido português alta.01 foi associado à referência rise.01 do English NomBank, versão 1.0.",
-      "o_que_foi_feito": "As descrições publicadas dos papéis são equivalentes às da fonte recuperada, desconsiderando maiúsculas/minúsculas e campos vazios de preenchimento. Não foi recuperada neste conjunto uma planilha com correspondência comprovada ao inventário atual. A referência do XML, por si só, não prova como cada rótulo chegou ao JSON.",
-      "por_que": "As duas ocorrências já têm limites/IDs no gold ORCH251: token 9, chars43:47, é alta em gaps de alta; token21, chars97:101, é continuidade da alta. São alvo direcional e continuidade de aumento, ambos em extensão financeira de rise.01. V20 deixou essa delimitação aberta embora a evidência já estivesse disponível; corrigir a análise, sem alterar os alvos.",
-      "foi_criado": "O identificador português pertence ao projeto. A referência inglesa e o inventário nominal já existiam no NomBank; isso não é uma criação local de frame.",
-      "justificativa_tipo_pt": "Justificativa retrospectiva aceita",
+      "antecedente_explicacao_pt": "A referência inglesa anterior foi comparada com o contexto português. O sentido criado e seus papéis têm origem no projeto.",
+      "de_onde_veio": "Este sentido e seu roleset foram criados no projeto NounBank.DS-Expanded a partir da leitura contextual das ocorrências do DANTEStocks.",
+      "o_que_foi_feito": "Criamos o sentido “Recuperação figurada de ativo de estado desfavorável, expressa por recebeu alta/saiu da UTI.” e definimos seu inventário de papéis em português. A referência rise.01 foi usada como termo de comparação, não como fonte das definições locais.",
+      "por_que": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
+      "foi_criado": "Sim. O sentido e o roleset LOCAL_V20_RECUPERACAO_FIGURADA foram criados no projeto. Cada papel foi definido pela função do participante na construção descrita abaixo.",
+      "justificativa_tipo_pt": "Base linguística da criação",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": "ORCH_RECON_000279",
       "autoridade_inventario": null,
@@ -3627,29 +3627,80 @@
       "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
       "justificativa_literal_original": "As duas ocorrências já têm limites/IDs no gold ORCH251: token 9, chars43:47, é alta em gaps de alta; token21, chars97:101, é continuidade da alta. São alvo direcional e continuidade de aumento, ambos em extensão financeira de rise.01. V20 deixou essa delimitação aberta embora a evidência já estivesse disponível; corrigir a análise, sem alterar os alvos.",
       "url_entrada": "site_pages/alta.html",
-      "proposta_local_inativa": {
+      "criacao_local": {
         "identificador": "LOCAL_V20_RECUPERACAO_FIGURADA",
-        "significado_pt": "Recuperação figurada de ativo de estado desfavorável, expressa por recebeu alta/saiu da UTI.",
-        "base_pt": "Construção textual completa de alta ordinal 8; contraste com rise.01 quantitativo e discharge.01 elétrico/efluente. Não constitui diagnóstico médico ou importação de frame médico.",
-        "autoria_pt": "Proposta retrospectiva redigida por Codex durante a revisão V20",
+        "sentido": "Recuperação figurada de ativo de estado desfavorável, expressa por recebeu alta/saiu da UTI.",
+        "origem": "Criação do projeto NounBank.DS-Expanded",
+        "como": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
+        "por_que": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos.",
         "papeis": [
           {
             "id": "Arg1",
             "descricao_pt": "entidade cujo estado é avaliado como recuperado",
-            "base_pt": "Construção textual completa de alta ordinal 8; contraste com rise.01 quantitativo e discharge.01 elétrico/efluente. Não constitui diagnóstico médico ou importação de frame médico."
+            "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
           },
           {
             "id": "Arg2",
             "descricao_pt": "estado desfavorável anterior, quando expresso",
-            "base_pt": "Construção textual completa de alta ordinal 8; contraste com rise.01 quantitativo e discharge.01 elétrico/efluente. Não constitui diagnóstico médico ou importação de frame médico."
+            "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
           },
           {
             "id": "Arg3",
             "descricao_pt": "estado/resultante de recuperação, quando expresso",
-            "base_pt": "Construção textual completa de alta ordinal 8; contraste com rise.01 quantitativo e discharge.01 elétrico/efluente. Não constitui diagnóstico médico ou importação de frame médico."
+            "base_pt": "Criamos o sentido de recuperação figurada de um ativo a partir da construção “recebeu alta, saiu da UTI”, usada para PETR3. A metáfora descreve a saída de um estado desfavorável, além de uma simples subida de preço. rise.01 descreve aumento; discharge.01 descreve descarga elétrica ou de efluente. Nenhum deles expressa essa construção. Os papéis locais distinguem a entidade recuperada, o estado anterior e o estado resultante, quando expressos."
           }
         ],
-        "ativa": false
+        "registro_pai": "alta::alta.01",
+        "referencia_anterior": "rise.01",
+        "inventario_anterior": [
+          {
+            "id": "Arg1",
+            "descricao_publicada": "LOGICAL SUBJECT, PATIENT, THING RISING",
+            "descricao_fonte": "logical subject, patient, thing rising",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "alta::alta.01::ROLE_DEFINITION::Arg1",
+            "referencia_fonte": "rise.01"
+          },
+          {
+            "id": "Arg2",
+            "descricao_publicada": "EXT, AMOUNT RISEN",
+            "descricao_fonte": "ext, amount risen",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "alta::alta.01::ROLE_DEFINITION::Arg2",
+            "referencia_fonte": "rise.01"
+          },
+          {
+            "id": "Arg3",
+            "descricao_publicada": "START POINT",
+            "descricao_fonte": "start point",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "alta::alta.01::ROLE_DEFINITION::Arg3",
+            "referencia_fonte": "rise.01"
+          },
+          {
+            "id": "Arg4",
+            "descricao_publicada": "END POINT",
+            "descricao_fonte": "end point",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "alta::alta.01::ROLE_DEFINITION::Arg4",
+            "referencia_fonte": "rise.01"
+          },
+          {
+            "id": "ArgM",
+            "descricao_publicada": "MEDIUM",
+            "descricao_fonte": "medium",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "alta::alta.01::ROLE_DEFINITION::ArgM",
+            "referencia_fonte": "rise.01"
+          }
+        ],
+        "tipo": "sentido_e_roleset_criados",
+        "incorporacao_ao_json_cientifico_original": false
       }
     },
     {
@@ -3933,19 +3984,19 @@
       "record_id": "ameaça::ameaça.01",
       "nome": "ameaça",
       "roleset": "ameaça.01",
-      "origem_id": "nombank",
-      "origem_pt": "Referência do NomBank em inglês",
-      "tratamento_id": "equivalente",
-      "tratamento_pt": "Descrições equivalentes à fonte; diferenças de caixa/padding",
+      "origem_id": "local",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
+      "tratamento_id": "local",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": "threat.01",
       "antecedente_id": "verbal",
       "antecedente_verbal_original": "verb-threaten.01",
-      "antecedente_explicacao_pt": "O XML do NomBank registra verb-threaten.01 como antecedente do frame nominal. O prefixo verb- aponta para um sentido verbal de base; não significa que o projeto tenha importado diretamente um frame do PropBank.",
-      "de_onde_veio": "O sentido português ameaça.01 foi associado à referência threat.01 do English NomBank, versão 1.0.",
-      "o_que_foi_feito": "As descrições publicadas dos papéis são equivalentes às da fonte recuperada, desconsiderando maiúsculas/minúsculas e campos vazios de preenchimento. Não foi recuperada neste conjunto uma planilha com correspondência comprovada ao inventário atual. A referência do XML, por si só, não prova como cada rótulo chegou ao JSON.",
-      "por_que": "Propor frame local de risco econômico atribuído a um fator; não há fala de um ameaçador. threat.01 exige agente que ameaça; risk.01 não oferece identidade automática com hazard impessoal. A manchete e o contexto econômico fundamentam a criação atual.",
-      "foi_criado": "O identificador português pertence ao projeto. A referência inglesa e o inventário nominal já existiam no NomBank; isso não é uma criação local de frame.",
-      "justificativa_tipo_pt": "Justificativa retrospectiva aceita",
+      "antecedente_explicacao_pt": "A referência inglesa anterior foi comparada com o contexto português. O sentido criado e seus papéis têm origem no projeto.",
+      "de_onde_veio": "Este sentido e seu roleset foram criados no projeto NounBank.DS-Expanded a partir da leitura contextual das ocorrências do DANTEStocks.",
+      "o_que_foi_feito": "Criamos o sentido “Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.” e definimos seu inventário de papéis em português. A referência threat.01 foi usada como termo de comparação, não como fonte das definições locais.",
+      "por_que": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
+      "foi_criado": "Sim. O sentido e o roleset LOCAL_V20_AMEACA_ECONOMICA foram criados no projeto. Cada papel foi definido pela função do participante na construção descrita abaixo.",
+      "justificativa_tipo_pt": "Base linguística da criação",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": "ORCH_RECON_000277",
       "autoridade_inventario": null,
@@ -4044,29 +4095,62 @@
       "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
       "justificativa_literal_original": "Propor frame local de risco econômico atribuído a um fator; não há fala de um ameaçador. threat.01 exige agente que ameaça; risk.01 não oferece identidade automática com hazard impessoal. A manchete e o contexto econômico fundamentam a criação atual.",
       "url_entrada": "site_pages/ameaça.html",
-      "proposta_local_inativa": {
+      "criacao_local": {
         "identificador": "LOCAL_V20_AMEACA_ECONOMICA",
-        "significado_pt": "Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.",
-        "base_pt": "Manchete gold e EXT-V20-001: contexto econômico chinês; threat.01 exige ameaça agentiva. Adjetivo chinesa isolado não recebe certificação como entidade Arg0.",
-        "autoria_pt": "Proposta retrospectiva redigida por Codex durante a revisão V20",
+        "sentido": "Fator descrito como risco de resultado econômico adverso, sem ato comunicativo de ameaçar.",
+        "origem": "Criação do projeto NounBank.DS-Expanded",
+        "como": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
+        "por_que": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível.",
         "papeis": [
           {
             "id": "Arg0",
             "descricao_pt": "origem/fator do risco, quando expresso como entidade ou evento",
-            "base_pt": "Manchete gold e EXT-V20-001: contexto econômico chinês; threat.01 exige ameaça agentiva. Adjetivo chinesa isolado não recebe certificação como entidade Arg0."
+            "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
           },
           {
             "id": "Arg1",
             "descricao_pt": "entidade afetada pelo risco",
-            "base_pt": "Manchete gold e EXT-V20-001: contexto econômico chinês; threat.01 exige ameaça agentiva. Adjetivo chinesa isolado não recebe certificação como entidade Arg0."
+            "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
           },
           {
             "id": "Arg2",
             "descricao_pt": "resultado adverso prospectivo",
-            "base_pt": "Manchete gold e EXT-V20-001: contexto econômico chinês; threat.01 exige ameaça agentiva. Adjetivo chinesa isolado não recebe certificação como entidade Arg0."
+            "base_pt": "Criamos o sentido de risco econômico a partir da manchete “Ameaça chinesa leva siderúrgicas e Vale a mínimas em mais de 5 meses”. Nesse uso, um fator econômico põe entidades em risco; não há uma pessoa fazendo uma ameaça verbal. threat.01 pressupõe um agente que ameaça. Os papéis locais descrevem o fator do risco, a entidade afetada e o resultado adverso possível."
           }
         ],
-        "ativa": false
+        "registro_pai": "ameaça::ameaça.01",
+        "referencia_anterior": "threat.01",
+        "inventario_anterior": [
+          {
+            "id": "Arg0",
+            "descricao_publicada": "AGENT, ENTITY MAKING A THREAT",
+            "descricao_fonte": "agent, entity making a threat",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "ameaça::ameaça.01::ROLE_DEFINITION::Arg0",
+            "referencia_fonte": "threat.01"
+          },
+          {
+            "id": "Arg1",
+            "descricao_publicada": "THREAT",
+            "descricao_fonte": "threat",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "ameaça::ameaça.01::ROLE_DEFINITION::Arg1",
+            "referencia_fonte": "threat.01"
+          },
+          {
+            "id": "Arg2",
+            "descricao_publicada": "BENEFICIARY', ENTITY THREATENED",
+            "descricao_fonte": "beneficiary', entity threatened",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "ameaça::ameaça.01::ROLE_DEFINITION::Arg2",
+            "referencia_fonte": "threat.01"
+          }
+        ],
+        "tipo": "sentido_e_roleset_criados",
+        "incorporacao_ao_json_cientifico_original": false
       }
     },
     {
@@ -31588,9 +31672,9 @@
       "nome": "esquartejador",
       "roleset": "esquartejador.01",
       "origem_id": "local",
-      "origem_pt": "Papéis definidos localmente em português",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
       "tratamento_id": "local",
-      "tratamento_pt": "Definição local de papéis",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": null,
       "antecedente_id": "nao_aplicavel",
       "antecedente_verbal_original": null,
@@ -58608,19 +58692,19 @@
       "record_id": "quebra::quebra.02",
       "nome": "quebra",
       "roleset": "quebra.02",
-      "origem_id": "nombank",
-      "origem_pt": "Referência do NomBank em inglês",
-      "tratamento_id": "equivalente",
-      "tratamento_pt": "Descrições equivalentes à fonte; diferenças de caixa/padding",
+      "origem_id": "local",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
+      "tratamento_id": "local",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": "violation.01",
       "antecedente_id": "verbal",
       "antecedente_verbal_original": "verb-violate.01",
-      "antecedente_explicacao_pt": "O XML do NomBank registra verb-violate.01 como antecedente do frame nominal. O prefixo verb- aponta para um sentido verbal de base; não significa que o projeto tenha importado diretamente um frame do PropBank.",
-      "de_onde_veio": "O sentido português quebra.02 foi associado à referência violation.01 do English NomBank, versão 1.0.",
-      "o_que_foi_feito": "As descrições publicadas dos papéis são equivalentes às da fonte recuperada, desconsiderando maiúsculas/minúsculas e campos vazios de preenchimento. Não foi recuperada neste conjunto uma planilha com correspondência comprovada ao inventário atual. A referência do XML, por si só, não prova como cada rótulo chegou ao JSON.",
-      "por_que": "Propor frame local de levantamento/ruptura de confidencialidade bancária. violation.01 como transgressão de regra não permite supor ilicitude; disclosure.01 não prova conteúdo já divulgado. Papéis locais descrevem alvo protegido/participantes opcionais, sem juízo jurídico ou conclusão factual.",
-      "foi_criado": "O identificador português pertence ao projeto. A referência inglesa e o inventário nominal já existiam no NomBank; isso não é uma criação local de frame.",
-      "justificativa_tipo_pt": "Justificativa retrospectiva aceita",
+      "antecedente_explicacao_pt": "A referência inglesa anterior foi comparada com o contexto português. O sentido criado e seus papéis têm origem no projeto.",
+      "de_onde_veio": "Este sentido e seu roleset foram criados no projeto NounBank.DS-Expanded a partir da leitura contextual das ocorrências do DANTEStocks.",
+      "o_que_foi_feito": "Criamos o sentido “Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada.” e definimos seu inventário de papéis em português. A referência violation.01 foi usada como termo de comparação, não como fonte das definições locais.",
+      "por_que": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
+      "foi_criado": "Sim. O sentido e o roleset LOCAL_V20_RUPTURA_CONFIDENCIALIDADE foram criados no projeto. Cada papel foi definido pela função do participante na construção descrita abaixo.",
+      "justificativa_tipo_pt": "Base linguística da criação",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": "ORCH_RECON_000277",
       "autoridade_inventario": null,
@@ -58710,34 +58794,58 @@
       "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
       "justificativa_literal_original": "Propor frame local de levantamento/ruptura de confidencialidade bancária. violation.01 como transgressão de regra não permite supor ilicitude; disclosure.01 não prova conteúdo já divulgado. Papéis locais descrevem alvo protegido/participantes opcionais, sem juízo jurídico ou conclusão factual.",
       "url_entrada": "site_pages/quebra.html",
-      "proposta_local_inativa": {
+      "criacao_local": {
         "identificador": "LOCAL_V20_RUPTURA_CONFIDENCIALIDADE",
-        "significado_pt": "Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada.",
-        "base_pt": "Quebra de sigilo bancário no único texto gold; comparação negativa com violation.01 e disclosure.01. Papéis de participantes são desenho local atual, não spans recuperados.",
-        "autoria_pt": "Proposta retrospectiva redigida por Codex durante a revisão V20",
+        "sentido": "Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada.",
+        "origem": "Criação do projeto NounBank.DS-Expanded",
+        "como": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
+        "por_que": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos.",
         "papeis": [
           {
             "id": "Arg0",
             "descricao_pt": "participante que promove a ruptura, se expresso",
-            "base_pt": "Quebra de sigilo bancário no único texto gold; comparação negativa com violation.01 e disclosure.01. Papéis de participantes são desenho local atual, não spans recuperados."
+            "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
           },
           {
             "id": "Arg1",
             "descricao_pt": "proteção/conteúdo protegido cuja confidencialidade é rompida",
-            "base_pt": "Quebra de sigilo bancário no único texto gold; comparação negativa com violation.01 e disclosure.01. Papéis de participantes são desenho local atual, não spans recuperados."
+            "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
           },
           {
             "id": "Arg2",
             "descricao_pt": "titular a que o conteúdo protegido se refere",
-            "base_pt": "Quebra de sigilo bancário no único texto gold; comparação negativa com violation.01 e disclosure.01. Papéis de participantes são desenho local atual, não spans recuperados."
+            "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
           },
           {
             "id": "Arg3",
             "descricao_pt": "destinatário de acesso, se expresso",
-            "base_pt": "Quebra de sigilo bancário no único texto gold; comparação negativa com violation.01 e disclosure.01. Papéis de participantes são desenho local atual, não spans recuperados."
+            "base_pt": "Criamos o sentido de ruptura ou levantamento de confidencialidade a partir da construção “quebra de sigilo bancário”. violation.01 pressupõe transgressão, que a expressão não permite afirmar; disclosure.01 poderia pressupor uma divulgação já ocorrida. Os papéis locais distinguem quem promove a ruptura, o conteúdo protegido, seu titular e o destinatário do acesso, quando expressos."
           }
         ],
-        "ativa": false
+        "registro_pai": "quebra::quebra.02",
+        "referencia_anterior": "violation.01",
+        "inventario_anterior": [
+          {
+            "id": "Arg0",
+            "descricao_publicada": "VIOLATOR",
+            "descricao_fonte": "violator",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "quebra::quebra.02::ROLE_DEFINITION::Arg0",
+            "referencia_fonte": "violation.01"
+          },
+          {
+            "id": "Arg1",
+            "descricao_publicada": "THING VIOLATED, USUALLY A RULE",
+            "descricao_fonte": "thing violated, usually a rule",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "quebra::quebra.02::ROLE_DEFINITION::Arg1",
+            "referencia_fonte": "violation.01"
+          }
+        ],
+        "tipo": "sentido_e_roleset_criados",
+        "incorporacao_ao_json_cientifico_original": false
       }
     },
     {
@@ -59786,17 +59894,17 @@
       "nome": "razão",
       "roleset": "razão.01",
       "origem_id": "local",
-      "origem_pt": "Papéis definidos localmente em português",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
       "tratamento_id": "local",
-      "tratamento_pt": "Definição local de papéis",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": null,
       "antecedente_id": "nao_aplicavel",
       "antecedente_verbal_original": null,
       "antecedente_explicacao_pt": "Não se aplica: não há frame inglês do NomBank associado a esse sentido português.",
-      "de_onde_veio": "Definição local para a construção portuguesa “ter razão”, isto é, estar correto. O papel PtArg0 foi autorizado sob ORCH250; a análise contextual está no item Q292.",
-      "o_que_foi_feito": "Foi retirada a referência a justification.01 e preservado o participante “Vc” como a entidade caracterizada como correta. Esse participante recebeu o papel local PtArg0, em uma camada portuguesa distinta dos papéis ingleses antigos.",
-      "por_que": "justification.01 descreve uma justificativa, não o estado de estar correto; reason.01 descreve raciocínio/capacidade de raciocinar; right.01 descreve direitos legais ou de ação. Nenhum deles representa a leitura de “Vc tem razão”.",
-      "foi_criado": "Sim: foi definido o papel português PtArg0 para a entidade caracterizada como correta. Os papéis ingleses anteriores foram preservados apenas como histórico, não como inventário ativo desse sentido.",
+      "de_onde_veio": "O sentido de razão na construção “ter razão” e seu roleset razão.01 foram criados no projeto NounBank.DS-Expanded a partir do contexto português.",
+      "o_que_foi_feito": "Definimos o sentido “estar correto” e criamos o papel PtArg0 para a entidade caracterizada como correta. Na ocorrência, “Vc” realiza esse participante.",
+      "por_que": "A construção “ter razão” caracteriza uma entidade como correta. Não descreve uma justificativa nem uma razão como causa; por isso justification.01, reason.01 e right.01 não foram usados como inventário inglês. O papel local preserva a função de “Vc” nessa construção.",
+      "foi_criado": "Sim. O sentido, o roleset razão.01 e o papel PtArg0 foram definidos localmente. A definição do papel é “entidade caracterizada como correta”.",
       "justificativa_tipo_pt": "Explicação da evidência documentada, em português",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": null,
@@ -72089,19 +72197,19 @@
       "record_id": "vergonha::vergonha.02",
       "nome": "vergonha",
       "roleset": "vergonha.02",
-      "origem_id": "nombank",
-      "origem_pt": "Referência do NomBank em inglês",
-      "tratamento_id": "equivalente",
-      "tratamento_pt": "Descrições equivalentes à fonte; diferenças de caixa/padding",
+      "origem_id": "local",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
+      "tratamento_id": "local",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": "shame.01",
       "antecedente_id": "verbal",
       "antecedente_verbal_original": "verb-embarrass.01",
-      "antecedente_explicacao_pt": "O XML do NomBank registra verb-embarrass.01 como antecedente do frame nominal. O prefixo verb- aponta para um sentido verbal de base; não significa que o projeto tenha importado diretamente um frame do PropBank.",
-      "de_onde_veio": "O sentido português vergonha.02 foi associado à referência shame.01 do English NomBank, versão 1.0.",
-      "o_que_foi_feito": "As descrições publicadas dos papéis são equivalentes às da fonte recuperada, desconsiderando maiúsculas/minúsculas e campos vazios de preenchimento. Não foi recuperada neste conjunto uma planilha com correspondência comprovada ao inventário atual. A referência do XML, por si só, não prova como cada rótulo chegou ao JSON.",
-      "por_que": "Propor frame local de qualificação moral em Brasil sem vergonha no contexto de crítica política. O Brasil é alvo avaliado, não automaticamente experienciador emocional de shame.01. Texto completo já estava no baseline; esta é nova decisão retrospectiva, não recuperação de contexto ausente.",
-      "foi_criado": "O identificador português pertence ao projeto. A referência inglesa e o inventário nominal já existiam no NomBank; isso não é uma criação local de frame.",
-      "justificativa_tipo_pt": "Justificativa retrospectiva aceita",
+      "antecedente_explicacao_pt": "A referência inglesa anterior foi comparada com o contexto português. O sentido criado e seus papéis têm origem no projeto.",
+      "de_onde_veio": "Este sentido e seu roleset foram criados no projeto NounBank.DS-Expanded a partir da leitura contextual das ocorrências do DANTEStocks.",
+      "o_que_foi_feito": "Criamos o sentido “Qualificação moral depreciativa na construção sem vergonha.” e definimos seu inventário de papéis em português. A referência shame.01 foi usada como termo de comparação, não como fonte das definições locais.",
+      "por_que": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
+      "foi_criado": "Sim. O sentido e o roleset LOCAL_V20_QUALIFICACAO_MORAL foram criados no projeto. Cada papel foi definido pela função do participante na construção descrita abaixo.",
+      "justificativa_tipo_pt": "Base linguística da criação",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": "ORCH_RECON_000277",
       "autoridade_inventario": null,
@@ -72200,29 +72308,62 @@
       "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
       "justificativa_literal_original": "Propor frame local de qualificação moral em Brasil sem vergonha no contexto de crítica política. O Brasil é alvo avaliado, não automaticamente experienciador emocional de shame.01. Texto completo já estava no baseline; esta é nova decisão retrospectiva, não recuperação de contexto ausente.",
       "url_entrada": "site_pages/vergonha.html",
-      "proposta_local_inativa": {
+      "criacao_local": {
         "identificador": "LOCAL_V20_QUALIFICACAO_MORAL",
-        "significado_pt": "Qualificação moral depreciativa na construção sem vergonha.",
-        "base_pt": "Texto gold completo com manchetes/crítica e Brasil sem vergonha; shame.01 não garante estado emocional. O frame local é proposta de leitura atual, não intenção do anotador.",
-        "autoria_pt": "Proposta retrospectiva redigida por Codex durante a revisão V20",
+        "sentido": "Qualificação moral depreciativa na construção sem vergonha.",
+        "origem": "Criação do projeto NounBank.DS-Expanded",
+        "como": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
+        "por_que": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos.",
         "papeis": [
           {
             "id": "Arg0",
             "descricao_pt": "avaliador, quando expresso",
-            "base_pt": "Texto gold completo com manchetes/crítica e Brasil sem vergonha; shame.01 não garante estado emocional. O frame local é proposta de leitura atual, não intenção do anotador."
+            "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
           },
           {
             "id": "Arg1",
             "descricao_pt": "entidade alvo da qualificação",
-            "base_pt": "Texto gold completo com manchetes/crítica e Brasil sem vergonha; shame.01 não garante estado emocional. O frame local é proposta de leitura atual, não intenção do anotador."
+            "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
           },
           {
             "id": "Arg2",
             "descricao_pt": "conduta atribuída, quando expressa",
-            "base_pt": "Texto gold completo com manchetes/crítica e Brasil sem vergonha; shame.01 não garante estado emocional. O frame local é proposta de leitura atual, não intenção do anotador."
+            "base_pt": "Criamos o sentido de qualificação moral depreciativa a partir de “Brasil sem vergonha”, em um contexto de crítica política. Brasil é a entidade avaliada, não alguém necessariamente experimentando a emoção de vergonha descrita por shame.01. Os papéis locais distinguem o avaliador, a entidade qualificada e a conduta atribuída, quando expressos."
           }
         ],
-        "ativa": false
+        "registro_pai": "vergonha::vergonha.02",
+        "referencia_anterior": "shame.01",
+        "inventario_anterior": [
+          {
+            "id": "Arg0",
+            "descricao_publicada": "CAUSE",
+            "descricao_fonte": "cause",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "vergonha::vergonha.02::ROLE_DEFINITION::Arg0",
+            "referencia_fonte": "shame.01"
+          },
+          {
+            "id": "Arg1",
+            "descricao_publicada": "EXPERIENCER",
+            "descricao_fonte": "experiencer",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "vergonha::vergonha.02::ROLE_DEFINITION::Arg1",
+            "referencia_fonte": "shame.01"
+          },
+          {
+            "id": "Arg2",
+            "descricao_publicada": "INSTRUMENT, IF SEPARATE FROM ARG0",
+            "descricao_fonte": "instrument, if separate from arg0",
+            "origem_pt": "English NomBank 1.0",
+            "transformacao_pt": "Variação de maiúsculas/minúsculas",
+            "role_definition_record_id": "vergonha::vergonha.02::ROLE_DEFINITION::Arg2",
+            "referencia_fonte": "shame.01"
+          }
+        ],
+        "tipo": "sentido_e_roleset_criados",
+        "incorporacao_ao_json_cientifico_original": false
       }
     },
     {
@@ -72345,18 +72486,18 @@
       "record_id": "vertigem::vertigem.01",
       "nome": "vertigem",
       "roleset": "vertigem.01",
-      "origem_id": "sem_papeis",
-      "origem_pt": "Sem equivalente no NomBank e sem papéis definidos",
-      "tratamento_id": "nenhum",
-      "tratamento_pt": "Nenhum inventário de papéis criado",
+      "origem_id": "local",
+      "origem_pt": "Sentidos, rolesets ou papéis criados no projeto",
+      "tratamento_id": "local",
+      "tratamento_pt": "Criação local baseada no contexto português",
       "referencia_nombank": null,
       "antecedente_id": "nao_aplicavel",
       "antecedente_verbal_original": null,
       "antecedente_explicacao_pt": "Não se aplica: não há frame inglês do NomBank associado a esse sentido português.",
-      "de_onde_veio": "O sentido português vem da ocorrência do DANTEStocks “acompanhar a #OIBR4 proporciona um mix de alegria e vertigem”. Não veio de um roleset inglês do NomBank.",
-      "o_que_foi_feito": "O projeto registrou o identificador português vertigem.01 e conservou a leitura predicadora dessa ocorrência. A busca foi encerrada com uma decisão explícita de ausência de equivalente no NomBank. Nenhum inventário de papéis foi criado para esse sentido.",
+      "de_onde_veio": "O sentido e o roleset vertigem.01 foram criados no projeto NounBank.DS-Expanded a partir do uso figurado de vertigem no DANTEStocks.",
+      "o_que_foi_feito": "Criamos o sentido de vertigem figurada na experiência de acompanhar um ativo volátil e o registramos como vertigem.01. A descrição foi construída a partir do contexto, em vez de importar um sentido inglês com significado diferente.",
       "por_que": "Aqui, vertigem é a sensação figurada provocada por acompanhar um ativo volátil. A busca não encontrou os frames dizziness, vertigo, giddiness, lightheadedness, disorientation e nausea. thrill/excitement mudariam o sentido para excitação; anxiety para ansiedade; shock para surpresa; sensation e outros hiperônimos seriam genéricos demais.",
-      "foi_criado": "Foi criado/registrado um identificador de sentido português. Não foi criado um frame com papéis e não houve importação de um frame inglês.",
+      "foi_criado": "Sim. O sentido e o roleset vertigem.01 são uma criação do projeto. O arquivo recuperado registra esse roleset, mas não enumera descrições individuais de papéis; essa lacuna documental não equivale à inexistência do sentido ou do roleset.",
       "justificativa_tipo_pt": "Explicação da evidência documentada, em português",
       "documentacao_posterior_pt": null,
       "autoridade_justificativa": null,
@@ -72463,7 +72604,9 @@
       "sintese_editorial_nao_nova_decisao_cientifica": true,
       "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
       "justificativa_literal_original": "Context 'acompanhar a #OIBR4 proporciona um mix de alegria e vertigem' denotes dizziness/vertigo, literal-metaphorical bodily sensation induced by stock volatility. Direct NomBank candidates dizziness.xml, vertigo.xml, giddiness.xml, lightheadedness.xml, disorientation.xml, nausea.xml are absent. Existing thrill.01, excitement.01, anxiety.01, shock.01 and sensation.01 alter the lexical-semantic content and were rejected.",
-      "url_entrada": "site_pages/vertigem.html"
+      "url_entrada": "site_pages/vertigem.html",
+      "roleset_criado_no_projeto": true,
+      "definicoes_individuais_de_papeis_recuperadas": false
     },
     {
       "record_id": "viagem::viagem.01",
@@ -74475,5 +74618,6 @@
       "justificativa_literal_original": "Ódio do PT atribui aversão política no comentário sobre investidores. hatred.01 contém experienciador/alvo e sustenta estado afetivo; genitivo do PT não certifica por si quem odeia quem. Preservar ambiguidade sem alterar papéis gold nem validar avaliação do falante.",
       "url_entrada": "site_pages/ódio.html"
     }
-  ]
+  ],
+  "criacao_local_documentada": 7
 }

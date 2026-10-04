@@ -1,5 +1,5 @@
 {
-  "roleset": "Inventário de papéis associado a um sentido; o identificador português e a referência inglesa são campos distintos.",
+  "roleset": "Sentido identificado no recurso e seu inventário de papéis. Pode ser importado, adaptado ou criado no projeto; ausência de equivalente inglês não significa inexistência de roleset português.",
   "frame_nominal": "Descrição de um sentido de nome e de seus participantes, no recurso de referência.",
   "antecedente_verbal": "Sentido verbal citado no atributo source do frame do NomBank. Não é prova de importação direta do PropBank.",
   "justificativa_retrospectiva": "Explicação formulada durante a revisão e aceita com um escopo; não é atribuída ao anotador original.",
@@ -8,5 +8,6 @@
   "PtArg0": "Identificador de papel definido na camada portuguesa local; não é automaticamente equivalente a Arg0 de um frame inglês.",
   "fonte_publicada": "JSON científico de origem, com commit, caminho, posição no JSON e hash.",
   "record_id": "Chave que liga o sentido nesta consulta ao registro de provenance completo.",
-  "origem_documental_e_historica": "Sabemos onde o campo está publicado. Isso não equivale a saber quem o criou e como foi anotado historicamente."
+  "origem_documental_e_historica": "Sabemos onde o campo está publicado. Isso não equivale a saber quem o criou e como foi anotado historicamente.",
+  "criacao_local": "Sentido, roleset ou papel definido no projeto com base no contexto português. A ficha identifica a definição e a justificativa da criação."
 }
