@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "idioma": "pt-BR",
   "tipo": "VISTA_DOCUMENTAL_HUMANA_ALINHADA_AOS_LITERAIS",
-  "autoridade_ciencia": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+  "autoridade_ciencia": "USER_DIRECTED_ARGUMENT_DISPLAY_AND_SOURCE_REPAIR_20261005_V32",
   "registro_publicacao_anterior": "ORCH_RECON_000283",
   "science_mutated": true,
   "populacao": {
@@ -6729,11 +6729,11 @@
       "candidatos_rejeitados": [],
       "fonte_publicada": {
         "resource": "NounBank.DS-Expanded",
-        "release": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
-        "base_commit": "a2ab575c86068440f5f73117932363d4271fb59c",
+        "release": "USER_DIRECTED_ARGUMENT_DISPLAY_AND_SOURCE_REPAIR_20261005_V32",
+        "base_commit": "7e08d45c29e3e2962a89adef5de8d436cc36b8d3",
         "path": "jsons/aquisição.json",
         "json_pointer": "/senses/0",
-        "sha256": "3f132a55ce21214c951a2aeb5184419adf6a29705698fcec12de1f664d838088"
+        "sha256": "8f625186c42d3d596a93680d3e258c6e48b6150c9f391dbf51215b882f3817bd"
       },
       "fontes_nombank_urls": [
         "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/acquisition.xml"
@@ -6794,9 +6794,12 @@
         }
       ],
       "sintese_editorial_nao_nova_decisao_cientifica": true,
-      "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
+      "origem_historica_de_cada_marcacao_pt": "Os valores históricos permanecem disponíveis para comparação. As correções das ocorrências estão descritas nesta ficha; o arquivo de marcações inclui valor original e valor atual, com localização exata no JSON. A autoria histórica dos campos individuais não é certificada.",
       "justificativa_literal_original": "Aquisição de direitos, refinaria, empresas, ações e quotas é obtenção de ativo/entidade. acquisition.01/get acquire exemplifica aquisição empresarial com vendedor e preço. Preservar pedidos, hipóteses, aprovação e conclusão, sem completar participantes omitidos ou confundir aquisição com incorporação.",
-      "url_entrada": "site_pages/aquisição.html"
+      "url_entrada": "site_pages/aquisição.html",
+      "correcoes_de_ocorrencias_pt": [
+        "A frase publicada estava vinculada à ocorrência errada. Recuperamos o texto do registro histórico com o mesmo identificador; os papéis anotados correspondem ao Banco Santander e às ações."
+      ]
     },
     {
       "record_id": "arbitragem::arbitragem.01",
@@ -50048,11 +50051,11 @@
       "candidatos_rejeitados": [],
       "fonte_publicada": {
         "resource": "NounBank.DS-Expanded",
-        "release": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
-        "base_commit": "a2ab575c86068440f5f73117932363d4271fb59c",
+        "release": "USER_DIRECTED_ARGUMENT_DISPLAY_AND_SOURCE_REPAIR_20261005_V32",
+        "base_commit": "7e08d45c29e3e2962a89adef5de8d436cc36b8d3",
         "path": "jsons/oferta.json",
         "json_pointer": "/senses/0",
-        "sha256": "9e2f8e65f4583fb75520222340dab5a4e378d2b47882b328c7ce732905bc0373"
+        "sha256": "f85807c8bc9fcb57ccfb18c09e606e5cc6734c7e9ad726168f2fe7085ba3842d"
       },
       "fontes_nombank_urls": [
         "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/offer.xml"
@@ -50113,9 +50116,13 @@
         }
       ],
       "sintese_editorial_nao_nova_decisao_cientifica": true,
-      "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
+      "origem_historica_de_cada_marcacao_pt": "Os valores históricos permanecem disponíveis para comparação. As correções das ocorrências estão descritas nesta ficha; o arquivo de marcações inclui valor original e valor atual, com localização exata no JSON. A autoria histórica dos campos individuais não é certificada.",
       "justificativa_literal_original": "Oferta envolve compra de empresa/refinaria, emissão de bônus e ações e recompra. offer.01/transaction contém oferta de aquisição e preço por ação. Proposta transacional com limite para oferta de venda versus compra, que não determina a orientação de todos os participantes pela forma nominal; não afirmar conclusão.",
-      "url_entrada": "site_pages/oferta.html"
+      "url_entrada": "site_pages/oferta.html",
+      "correcoes_de_ocorrencias_pt": [
+        "O papel de item ofertado é realizado por bônus. A expressão no exterior não está na frase e foi retirada do trecho marcado.",
+        "O papel de valor é realizado pela faixa de preços 2,4 - 2,8. O número anterior não ocorre na frase; a fonte histórica também registra os dois preços, 2,40 e 2,80."
+      ]
     },
     {
       "record_id": "olhada::olhada.01",

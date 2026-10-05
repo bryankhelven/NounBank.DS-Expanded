@@ -1,0 +1,357 @@
+{
+  "authority": "USER_DIRECTED_ARGUMENT_DISPLAY_AND_SOURCE_REPAIR_20261005_V32",
+  "base_commit": "7e08d45c29e3e2962a89adef5de8d436cc36b8d3",
+  "corrections": [
+    {
+      "lemma": "aquisição",
+      "roleset": "aquisição.01",
+      "sent_ID": "dante_01_461125555522240512l",
+      "source_path": "jsons/aquisição.json",
+      "json_pointer": "/senses/0/examples/9/text",
+      "previous_value": "$RENT3 - Localiza ( rent-nm ) - Aquisicao De Quotas E Incorporacao De Subsidiarias http://t.co/nA90jlYptHc",
+      "current_value": "(+) Banco Santander (SANB11): Oferta para aquisição de ações.   O banco anunciou nesta terça-feira que está... http://t.co/4beWp1clzY",
+      "explanation_pt": "A frase publicada estava vinculada à ocorrência errada. Recuperamos o texto do registro histórico com o mesmo identificador; os papéis anotados correspondem ao Banco Santander e às ações.",
+      "evidence_commit": "4295edf",
+      "historical_source_record": {
+        "argument_resource": {
+          "lane": "V1_REUSE_1747",
+          "realized_no": 3,
+          "realized_yes": 2,
+          "role_slots": 5,
+          "roles": [
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg0",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "14",
+              "role": "Arg1",
+              "span_text": "ações",
+              "span_token_ids": [
+                14
+              ],
+              "status": "YES",
+              "head_form": "ações",
+              "head_lemma": "ação",
+              "head_deprel": "nmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "4",
+              "role": "Arg2",
+              "span_text": "Banco Santander ( SANB11 )",
+              "span_token_ids": [
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "status": "YES",
+              "head_form": "Banco",
+              "head_lemma": "Banco",
+              "head_deprel": "nmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg3",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg4",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            }
+          ],
+          "status": "REGULAR_ARGUMENT_RESOURCE",
+          "terminal_abstain": 0
+        },
+        "contextual_authority_lineage": "PRESERVED_ORCH40",
+        "contextual_predicativity": "S",
+        "english_alignment": {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "acquisition.01",
+          "status": "INHERITED_V1_ALIGNMENT"
+        },
+        "form": "aquisição",
+        "sent_id": "dante_01_461125555522240512l",
+        "sentence_text": "(+) Banco Santander (SANB11): Oferta para aquisição de ações.   O banco anunciou nesta terça-feira que está... http://t.co/4beWp1clzY",
+        "split": "train",
+        "token_id": "12",
+        "token_instance_id": "train::dante_01_461125555522240512l::12",
+        "wsd": {
+          "authority": "ORCH106_EFFECTIVE_SEM006",
+          "confidence": "ACCEPTED",
+          "generic_abstain": "NO",
+          "semantic_unit_id": "NBDS2-L0048-S001",
+          "terminal_category": "EXACT_RESOLUTION",
+          "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+        }
+      },
+      "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+    },
+    {
+      "lemma": "oferta",
+      "roleset": "oferta.01",
+      "sent_ID": "dante_01_443125288709279744l",
+      "source_path": "jsons/oferta.json",
+      "json_pointer": "/senses/0/examples/1/realization/Arg1",
+      "previous_value": "bônus no exterior",
+      "current_value": "bônus",
+      "explanation_pt": "O papel de item ofertado é realizado por bônus. A expressão no exterior não está na frase e foi retirada do trecho marcado.",
+      "evidence_commit": "4295edf",
+      "historical_source_record": {
+        "argument_resource": {
+          "lane": "V1_REUSE_1747",
+          "realized_no": 2,
+          "realized_yes": 3,
+          "role_slots": 5,
+          "roles": [
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg0",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "16",
+              "role": "Arg1",
+              "span_text": "US$ 8,5 bilhões",
+              "span_token_ids": [
+                "14 15 16"
+              ],
+              "status": "YES",
+              "head_form": "bilhões",
+              "head_lemma": "bilhão",
+              "head_deprel": "nmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "16",
+              "role": "Arg2",
+              "span_text": "US$ 8,5 bilhões",
+              "span_token_ids": [
+                "14 15 16"
+              ],
+              "status": "YES",
+              "head_form": "bilhões",
+              "head_lemma": "bilhão",
+              "head_deprel": "nmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "1",
+              "role": "Arg3",
+              "span_text": "Petrobras",
+              "span_token_ids": [
+                1
+              ],
+              "status": "YES",
+              "head_form": "Petrobras",
+              "head_lemma": "Petrobras",
+              "head_deprel": "nsubj"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg4",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            }
+          ],
+          "status": "REGULAR_ARGUMENT_RESOURCE",
+          "terminal_abstain": 0
+        },
+        "contextual_authority_lineage": "PRESERVED_ORCH40",
+        "contextual_predicativity": "S",
+        "english_alignment": {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "offer.01",
+          "status": "INHERITED_V1_ALIGNMENT"
+        },
+        "form": "oferta",
+        "sent_id": "dante_01_443125288709279744l",
+        "sentence_text": "Petrobras (PETR4) lançou nesta segunda-feira (10) oferta de US$ 8,5 bilhões em bônus, em uma operação em seis etapas http://t.co/it9boXQdSp",
+        "split": "train",
+        "token_id": "12",
+        "token_instance_id": "train::dante_01_443125288709279744l::12",
+        "wsd": {
+          "authority": "ORCH106_EFFECTIVE_SEM006",
+          "confidence": "ACCEPTED",
+          "generic_abstain": "NO",
+          "semantic_unit_id": "NBDS2-L0459-S001",
+          "terminal_category": "EXACT_RESOLUTION",
+          "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+        }
+      },
+      "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+    },
+    {
+      "lemma": "oferta",
+      "roleset": "oferta.01",
+      "sent_ID": "dante_01_451887387464179712l",
+      "source_path": "jsons/oferta.json",
+      "json_pointer": "/senses/0/examples/9/realization/Arg2",
+      "previous_value": "-5.199999999999999",
+      "current_value": "2,4 - 2,8",
+      "explanation_pt": "O papel de valor é realizado pela faixa de preços 2,4 - 2,8. O número anterior não ocorre na frase; a fonte histórica também registra os dois preços, 2,40 e 2,80.",
+      "evidence_commit": "4295edf",
+      "historical_source_record": {
+        "argument_resource": {
+          "lane": "V1_REUSE_1747",
+          "realized_no": 3,
+          "realized_yes": 2,
+          "role_slots": 5,
+          "roles": [
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg0",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "7",
+              "role": "Arg1",
+              "span_text": "oibr4",
+              "span_token_ids": [
+                7
+              ],
+              "status": "YES",
+              "head_form": "oibr4",
+              "head_lemma": "oibr4",
+              "head_deprel": "nmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": "8",
+              "role": "Arg2",
+              "span_text": "-",
+              "span_token_ids": [
+                8
+              ],
+              "status": "YES",
+              "head_form": "-",
+              "head_lemma": "-",
+              "head_deprel": "advmod"
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg3",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            },
+            {
+              "adjudication_reason": "V1_PUBLISHED_GOLD_REUSED__TECHNICAL_REANCHOR_WHERE_REQUIRED",
+              "authority": "NOUNBANK_DS_V1_PUBLISHED_GOLD",
+              "description": "",
+              "head_token_id": null,
+              "role": "Arg4",
+              "span_text": null,
+              "span_token_ids": [],
+              "status": "NO",
+              "head_form": null,
+              "head_lemma": null,
+              "head_deprel": null
+            }
+          ],
+          "status": "REGULAR_ARGUMENT_RESOURCE",
+          "terminal_abstain": 0
+        },
+        "contextual_authority_lineage": "PRESERVED_ORCH40",
+        "contextual_predicativity": "S",
+        "english_alignment": {
+          "authority": "V1_PUBLISHED_149_CROSSWALK",
+          "english_nombank_roleset": "offer.01",
+          "status": "INHERITED_V1_ALIGNMENT"
+        },
+        "form": "oferta",
+        "sent_id": "dante_01_451887387464179712l",
+        "sentence_text": "@garimpodeacoes vazou preço da oferta oibr4 - 2,40 - 2,80",
+        "split": "train",
+        "token_id": "6",
+        "token_instance_id": "train::dante_01_451887387464179712l::6",
+        "wsd": {
+          "authority": "ORCH106_EFFECTIVE_SEM006",
+          "confidence": "ACCEPTED",
+          "generic_abstain": "NO",
+          "semantic_unit_id": "NBDS2-L0459-S001",
+          "terminal_category": "EXACT_RESOLUTION",
+          "terminal_disposition": "EXACT_SEMANTIC_UNIT_RESOLVED_ORCH106"
+        }
+      },
+      "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
+    }
+  ],
+  "historical_records_mutated": false,
+  "occurrence_ids_changed": false,
+  "role_inventory_changed": false
+}
