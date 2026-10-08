@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "obl"
           },
           "instance_id": "dante_01_447268375631523840l::esperança::1",
           "predicate": {
@@ -63,6 +63,31 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_447268375631523840l::esperança::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_447268375631523840l",
+              "predicate_token_id": "23",
+              "token_ids": [
+                "24",
+                "25",
+                "26",
+                "27"
+              ],
+              "heads": [
+                {
+                  "id": "27",
+                  "form": "PDVESA",
+                  "head": "22",
+                  "deprel": "obl"
+                }
+              ],
+              "deprels": [
+                "obl"
+              ]
+            }
           }
         },
         {
@@ -137,6 +162,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "det",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_460875085273137152l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "muita",
+                    "head": "16",
+                    "deprel": "det"
+                  }
+                ],
+                "deprels": [
+                  "det"
+                ]
               }
             }
           ],
@@ -146,7 +192,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 1
+        },
+        "ARGM-EXT": {
+          "det": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

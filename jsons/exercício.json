@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_443753956582629376l::exercício::1",
           "predicate": {
@@ -91,12 +91,58 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_443753956582629376l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "segunda",
+                    "head": "5",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_443753956582629376l::exercício::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_443753956582629376l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "Serie",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -200,7 +246,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_445584702460944384l::exercício::1",
           "predicate": {
@@ -283,12 +329,72 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obj + obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_445584702460944384l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "minutos",
+                    "head": "1",
+                    "deprel": "obj"
+                  },
+                  {
+                    "id": "6",
+                    "form": "prazo",
+                    "head": "1",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obj",
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_445584702460944384l::exercício::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445584702460944384l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "série",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -300,7 +406,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_445584702460944384l::exercício::2",
           "predicate": {
@@ -335,6 +441,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445584702460944384l::exercício::2"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445584702460944384l",
+              "predicate_token_id": "29",
+              "token_ids": [
+                "30",
+                "31",
+                "32"
+              ],
+              "heads": [
+                {
+                  "id": "32",
+                  "form": "C13",
+                  "head": "29",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -438,7 +568,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_458659231336783872l::exercício::1",
           "predicate": {
@@ -524,16 +654,73 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458659231336783872l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "8",
+                  "9",
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "Bovespa",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_458659231336783872l::exercício::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_458659231336783872l",
+              "predicate_token_id": "1",
+              "token_ids": [
+                "2",
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "opções",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 4
+        },
+        "ARGM-TMP": {
+          "obj": 1,
+          "obl": 2
+        },
+        "ARGM-LOC": {
+          "obl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

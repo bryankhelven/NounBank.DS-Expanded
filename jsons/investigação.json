@@ -33,7 +33,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_451402901903392769l::investigação::1",
@@ -69,6 +69,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_451402901903392769l::investigação::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_451402901903392769l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "Petrobras",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -81,7 +105,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_443757143075065856l::investigação::1",
@@ -117,6 +141,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443757143075065856l::investigação::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443757143075065856l",
+              "predicate_token_id": "3",
+              "token_ids": [
+                "4",
+                "5",
+                "6"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "#PETR4",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -263,6 +311,29 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_460832924657790976l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "15",
+                  "16",
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "Chile",
+                    "head": "11",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -417,6 +488,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_460833163959619584l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "18",
+                  "19",
+                  "20"
+                ],
+                "heads": [
+                  {
+                    "id": "20",
+                    "form": "Chile",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -476,6 +570,9 @@
       ],
       "syntactic_profile": {
         "Arg1": {
+          "nmod": 4
+        },
+        "ARGM-LOC": {
           "nmod": 2
         }
       },

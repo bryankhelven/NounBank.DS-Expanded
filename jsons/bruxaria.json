@@ -95,6 +95,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "parataxis",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_448205455220015105l",
+                "predicate_token_id": "25",
+                "token_ids": [
+                  "22",
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "23",
+                    "form": "pode",
+                    "head": "4",
+                    "deprel": "parataxis"
+                  }
+                ],
+                "deprels": [
+                  "parataxis"
+                ]
               }
             }
           ],
@@ -107,6 +129,9 @@
       "syntactic_profile": {
         "Arg1": {
           "nsubj": 1
+        },
+        "ARGM-ADV": {
+          "parataxis": 1
         }
       },
       "predication": "Predicador"

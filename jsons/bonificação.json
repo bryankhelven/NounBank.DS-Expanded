@@ -32,7 +32,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null
           },
@@ -69,6 +69,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458933400754470912l::bonificação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_458933400754470912l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Duratex",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -80,7 +102,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -117,6 +139,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_441566478580875265l::bonificação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_441566478580875265l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Cielo",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -176,7 +220,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": "nmod",
             "Arg2": null
           },
@@ -213,15 +257,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448129883009716224l::bonificação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448129883009716224l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Duratex",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nmod": 3,
+          "nsubj": 1
+        },
         "Arg1": {
           "nmod": 3
-        },
-        "Arg0": {
-          "nsubj": 1
         }
       },
       "predication": "Predicador"

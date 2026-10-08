@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_472032216202362880l::lançamento::1",
           "predicate": {
@@ -63,6 +63,31 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_472032216202362880l::lançamento::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_472032216202362880l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "Notas",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -74,7 +99,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_458764455326007297l::lançamento::1",
           "predicate": {
@@ -109,10 +134,43 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458764455326007297l::lançamento::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_458764455326007297l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "Voo",
+                  "head": "5",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -146,7 +204,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_459041599486697472l::lançamento::1",
@@ -182,10 +240,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459041599486697472l::lançamento::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_459041599486697472l",
+              "predicate_token_id": "26",
+              "token_ids": [
+                "27"
+              ],
+              "heads": [
+                {
+                  "id": "27",
+                  "form": "VALEE29",
+                  "head": "26",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -103,6 +103,30 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_455017195706523648l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "17",
+                  "18",
+                  "19",
+                  "20"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "Edifício",
+                    "head": "13",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
@@ -112,7 +136,11 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-LOC": {
+          "obl": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -140,7 +168,7 @@
             "Arg1": "do seu valor de valer sempre 2x a PETR4"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod"
           },
           "instance_id": "dante_01_452024713548926976l::busca::1",
@@ -176,10 +204,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_452024713548926976l::busca::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_452024713548926976l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "VALE",
+                  "head": "18",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
         "Arg1": {
           "nmod": 1
         }

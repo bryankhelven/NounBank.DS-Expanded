@@ -38,7 +38,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "ArgA": null
           },
@@ -75,10 +75,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443551844603035648l::votação::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443551844603035648l",
+              "predicate_token_id": "18",
+              "token_ids": [
+                "19",
+                "20",
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "21",
+                  "form": "Petr4",
+                  "head": "18",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -27,8 +27,8 @@
             "Arg1": "de queda"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nsubj",
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_468732080285687808l::trajetória::1",
           "predicate": {
@@ -103,16 +103,100 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_468732080285687808l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "16",
+                  "17",
+                  "18",
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "ontem",
+                    "head": "13",
+                    "deprel": "advmod"
+                  },
+                  {
+                    "id": "19",
+                    "form": "hoje",
+                    "head": "13",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_468732080285687808l::trajetória::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_468732080285687808l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "2",
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "minério",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_468732080285687808l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "10",
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "11",
+                  "form": "queda",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        },
+        "ARGM-TMP": {
+          "advmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

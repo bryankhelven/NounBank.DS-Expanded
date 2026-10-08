@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_468816498992353280l::quebra::1",
           "predicate": {
@@ -63,10 +63,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_468816498992353280l::quebra::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_468816498992353280l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "LTB",
+                  "head": "8",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -103,7 +131,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_464744617909690368l::quebra::1",
           "predicate": {
@@ -138,10 +166,41 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_464744617909690368l::quebra::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_464744617909690368l",
+              "predicate_token_id": "1",
+              "token_ids": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "sigilo",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador",
       "pt_sense_gloss": "Ruptura/levantamento de proteção de confidencialidade, sem pressupor autorização, ilicitude ou divulgação consumada."
     }

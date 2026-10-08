@@ -32,7 +32,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -69,6 +69,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444585490273271809l::reação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444585490273271809l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "18",
+                "19",
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "setor",
+                  "head": "17",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -80,7 +104,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -117,10 +141,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445536830776434688l::reação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445536830776434688l",
+              "predicate_token_id": "20",
+              "token_ids": [
+                "21",
+                "22",
+                "23"
+              ],
+              "heads": [
+                {
+                  "id": "23",
+                  "form": "setor",
+                  "head": "20",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

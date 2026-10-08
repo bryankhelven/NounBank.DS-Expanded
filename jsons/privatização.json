@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nsubj"
           },
           "instance_id": "dante_01_446025920248565760l::privatização::1",
           "predicate": {
@@ -63,10 +63,37 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_446025920248565760l::privatização::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446025920248565760l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Bancos",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

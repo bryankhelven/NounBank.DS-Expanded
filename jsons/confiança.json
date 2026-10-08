@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nsubj"
           },
           "instance_id": "dante_01_444857428518387715l::confiança::1",
           "predicate": {
@@ -63,10 +63,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444857428518387715l::confiança::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_444857428518387715l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "#petr4",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -101,7 +127,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
-            "Arg2": null
+            "Arg2": "det"
           },
           "instance_id": "dante_01_456844261141774336l::confiança::1",
           "predicate": {
@@ -168,18 +194,74 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456844261141774336l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "2",
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "2",
+                    "form": "Agora",
+                    "head": "4",
+                    "deprel": "advmod"
+                  },
+                  {
+                    "id": "3",
+                    "form": "já",
+                    "head": "4",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_456844261141774336l::confiança::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456844261141774336l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "mais",
+                  "head": "8",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 1
+        },
+        "Arg2": {
+          "det": 1
+        },
+        "ARGM-TMP": {
+          "advmod": 1
         }
       },
       "predication": "Predicador"

@@ -97,6 +97,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_466826770734252032l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "líquida",
+                    "head": "3",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -165,6 +186,32 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_466826770734252032l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "trimestre",
+                    "head": "9",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
@@ -174,7 +221,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-MNR": {
+          "amod": 1
+        },
+        "ARGM-TMP": {
+          "obl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

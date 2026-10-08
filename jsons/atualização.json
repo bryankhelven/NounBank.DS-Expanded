@@ -165,6 +165,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "parataxis",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_447000185927766016l",
+                "predicate_token_id": "21",
+                "token_ids": [
+                  "1",
+                  "2"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "TEMPO",
+                    "head": "9",
+                    "deprel": "parataxis"
+                  }
+                ],
+                "deprels": [
+                  "parataxis"
+                ]
               }
             }
           ],
@@ -273,6 +295,29 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444566168053886976l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "semana",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -416,6 +461,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "parataxis",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_448817200397172736l",
+                "predicate_token_id": "22",
+                "token_ids": [
+                  "1",
+                  "2"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "TEMPO",
+                    "head": "5",
+                    "deprel": "parataxis"
+                  }
+                ],
+                "deprels": [
+                  "parataxis"
+                ]
               }
             }
           ],
@@ -505,6 +572,28 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449531433103527936l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "18",
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "27/03/14",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -622,6 +711,12 @@
       "syntactic_profile": {
         "Arg1": {
           "nmod": 5
+        },
+        "ARGM-MNR": {
+          "parataxis": 2
+        },
+        "ARGM-TMP": {
+          "nmod": 2
         }
       },
       "predication": "Predicador"

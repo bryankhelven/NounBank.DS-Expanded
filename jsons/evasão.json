@@ -32,7 +32,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null
           },
@@ -69,6 +69,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444193554827857921l::evasão::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_444193554827857921l",
+              "predicate_token_id": "20",
+              "token_ids": [
+                "21",
+                "22"
+              ],
+              "heads": [
+                {
+                  "id": "22",
+                  "form": "divisas",
+                  "head": "20",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -80,7 +103,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null
           },
@@ -117,10 +140,37 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444171276353949696l::evasão::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444171276353949696l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "18",
+                "19"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "divisas",
+                  "head": "17",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

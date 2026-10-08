@@ -27,7 +27,7 @@
             "Arg1": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "parataxis",
             "Arg1": null
           },
           "instance_id": "dante_01_464089554719215617l::capacidade::1",
@@ -63,6 +63,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_464089554719215617l::capacidade::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_464089554719215617l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "18",
+                  "form": "navios",
+                  "head": "2",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         },
         {
@@ -113,6 +136,9 @@
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "parataxis": 1
+        },
         "Arg1": {
           "nmod": 1
         }

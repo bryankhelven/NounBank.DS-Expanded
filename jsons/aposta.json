@@ -39,7 +39,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "parataxis",
             "Arg3": null
           },
           "instance_id": "dante_01_442018542826045440l::aposta::1",
@@ -75,6 +75,35 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_442018542826045440l::aposta::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442018542826045440l",
+              "predicate_token_id": "3",
+              "token_ids": [
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "vai",
+                  "head": "1",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         },
         {
@@ -89,7 +118,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "parataxis",
             "Arg3": null
           },
           "instance_id": "dante_01_446993570827100161l::aposta::1",
@@ -125,10 +154,43 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_446993570827100161l::aposta::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446993570827100161l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "virá",
+                  "head": "1",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg2": {
+          "parataxis": 2
+        }
+      },
       "predication": "Predicador"
     },
     {

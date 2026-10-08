@@ -81,7 +81,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_454240307111276544l::previsão::1",
@@ -117,6 +117,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_454240307111276544l::previsão::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_454240307111276544l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "8",
+                "9"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "petr4",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -128,8 +151,8 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "det",
+            "Arg1": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_461511886916558848l::previsão::1",
@@ -165,10 +188,60 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_461511886916558848l::previsão::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_461511886916558848l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "sua",
+                  "head": "4",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_461511886916558848l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "5",
+                "6"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "OIBR4",
+                  "head": "4",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "det": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

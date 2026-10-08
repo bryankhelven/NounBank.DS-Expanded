@@ -27,7 +27,7 @@
             "Arg1": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null
           },
           "instance_id": "dante_01_455712621023723520l::liderança::1",
@@ -63,6 +63,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455712621023723520l::liderança::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455712621023723520l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Natura",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -73,7 +95,7 @@
             "Arg1": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null
           },
           "instance_id": "dante_01_462225933689454592l::liderança::1",
@@ -109,10 +131,42 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_462225933689454592l::liderança::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_462225933689454592l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "Itaú",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1,
+          "nsubj": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

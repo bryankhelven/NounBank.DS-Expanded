@@ -34,7 +34,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null
+            "Arg2": "nmod"
           },
           "instance_id": "dante_01_454629008538603520l::implicação::1",
           "predicate": {
@@ -97,16 +97,70 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_454629008538603520l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "grande",
+                    "head": "14",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_454629008538603520l::implicação::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_454629008538603520l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "guvêrno",
+                  "head": "14",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 1
+        },
+        "ARGM-MNR": {
+          "amod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -146,7 +146,7 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
@@ -185,6 +185,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443753866043981824l::captação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443753866043981824l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "9"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "PETROBRAS",
+                  "head": "13",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -198,7 +220,7 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": null,
             "Arg3": null,
@@ -288,6 +310,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_452099943684001792l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "8",
+                  "9",
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "vez",
+                    "head": "13",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             },
             {
@@ -344,12 +389,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_452099943684001792l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "11",
+                  "12",
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "Brasil",
+                    "head": "3",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_452099943684001792l::captação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_452099943684001792l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Petrobras",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -433,6 +523,28 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453209522497421312l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "18",
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "março",
+                    "head": "15",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
                 ]
               }
             }
@@ -543,6 +655,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459298442406539264l",
+                "predicate_token_id": "22",
+                "token_ids": [
+                  "23",
+                  "24",
+                  "25"
+                ],
+                "heads": [
+                  {
+                    "id": "25",
+                    "form": "Espanha",
+                    "head": "22",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -553,8 +688,19 @@
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 2
+        },
         "Arg1": {
           "nmod": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 1,
+          "obl": 1
+        },
+        "ARGM-LOC": {
+          "nmod": 1,
+          "obl": 1
         }
       },
       "predication": "Predicador"

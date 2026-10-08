@@ -32,8 +32,8 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg1": null,
-            "Arg2": null,
+            "Arg1": "acl",
+            "Arg2": "amod",
             "Arg3": null
           },
           "instance_id": "dante_01_444857428518387715l::clima::1",
@@ -69,6 +69,49 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444857428518387715l::clima::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_444857428518387715l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "23",
+                "24"
+              ],
+              "heads": [
+                {
+                  "id": "24",
+                  "form": "investir",
+                  "head": "21",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_444857428518387715l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "22"
+              ],
+              "heads": [
+                {
+                  "id": "22",
+                  "form": "atrativo",
+                  "head": "21",
+                  "deprel": "amod"
+                }
+              ],
+              "deprels": [
+                "amod"
+              ]
+            }
           }
         },
         {
@@ -121,7 +164,11 @@
         }
       ],
       "syntactic_profile": {
+        "Arg1": {
+          "acl": 1
+        },
         "Arg2": {
+          "amod": 1,
           "nmod": 1
         }
       },

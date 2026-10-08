@@ -38,7 +38,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null
           },
@@ -75,6 +75,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444171983803412480l::importância::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444171983803412480l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "3",
+                "4",
+                "5"
+              ],
+              "heads": [
+                {
+                  "id": "5",
+                  "form": "disciplina",
+                  "head": "2",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -88,7 +112,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "acl",
             "Arg2": null,
             "Arg3": null
           },
@@ -125,10 +149,46 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_451685101416763392l::importância::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_451685101416763392l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26"
+              ],
+              "heads": [
+                {
+                  "id": "18",
+                  "form": "saber",
+                  "head": "16",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "acl": 1,
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

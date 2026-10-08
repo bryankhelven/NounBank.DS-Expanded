@@ -313,10 +313,32 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_445910769411293184l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "22"
+              ],
+              "heads": [
+                {
+                  "id": "22",
+                  "form": "rompimrnto",
+                  "head": "21",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -1429,10 +1451,32 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445921872178610176l",
+              "predicate_token_id": "18",
+              "token_ids": [
+                "19"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "rompimrnto",
+                  "head": "18",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -2716,34 +2760,34 @@
       ],
       "syntactic_profile": {
         "Arg1": {
-          "obl:strunc": 1,
-          "nmod:wtrunc": 2,
-          "nmod": 55,
-          "nsubj": 4,
-          "root": 1,
-          "obj": 3,
-          "flat:name": 3,
-          "nmod:strunc": 1,
-          "discourse": 2,
           "amod": 1,
-          "case:strunc": 1
+          "case:strunc": 1,
+          "discourse": 2,
+          "flat:name": 3,
+          "nmod": 57,
+          "nmod:strunc": 1,
+          "nmod:wtrunc": 2,
+          "nsubj": 4,
+          "obj": 3,
+          "obl:strunc": 1,
+          "root": 1
         },
         "Arg0": {
-          "nsubj": 3,
-          "nmod": 5,
+          "det": 1,
           "flat:name": 1,
-          "det": 1
+          "nmod": 5,
+          "nsubj": 3
         },
         "Arg3": {
-          "parataxis": 1,
           "ccomp": 1,
-          "obl": 1,
           "nmod": 2,
+          "obl": 1,
+          "parataxis": 1,
           "punct": 1
         },
         "Arg4": {
-          "nsubj": 1,
-          "nmod": 1
+          "nmod": 1,
+          "nsubj": 1
         }
       }
     }

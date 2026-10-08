@@ -32,7 +32,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "obl",
             "Arg1": "nmod",
             "Arg2": null
           },
@@ -69,10 +69,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443757143075065856l::barganha::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443757143075065856l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "17",
+                "18",
+                "19",
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "PMDB",
+                  "head": "8",
+                  "deprel": "obl"
+                }
+              ],
+              "deprels": [
+                "obl"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "obl": 1
+        },
         "Arg1": {
           "nmod": 1
         }

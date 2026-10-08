@@ -227,6 +227,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_441917006304927744l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "7",
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "2014",
+                    "head": "3",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -349,6 +371,9 @@
           "nmod": 2
         },
         "Arg2": {
+          "nmod": 1
+        },
+        "ARGM-TMP": {
           "nmod": 1
         }
       },
@@ -490,6 +515,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_450708320639533056l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "Espanha",
+                    "head": "6",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             },
             {
@@ -546,6 +594,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "conj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_450708320639533056l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "13",
+                  "14",
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Brasil",
+                    "head": "11",
+                    "deprel": "conj"
+                  }
+                ],
+                "deprels": [
+                  "conj"
+                ]
               }
             }
           ],
@@ -555,7 +626,12 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-LOC": {
+          "conj": 1,
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

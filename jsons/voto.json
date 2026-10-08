@@ -38,8 +38,8 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null,
+            "Arg1": "obj",
+            "Arg2": "nummod",
             "ArgA": null
           },
           "instance_id": "dante_01_445716482119704576l::voto::1",
@@ -75,6 +75,50 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445716482119704576l::voto::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445716482119704576l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "9",
+                "10",
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "balanço",
+                  "head": "8",
+                  "deprel": "obj"
+                }
+              ],
+              "deprels": [
+                "obj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445716482119704576l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "1",
+                  "head": "14",
+                  "deprel": "nummod"
+                }
+              ],
+              "deprels": [
+                "nummod"
+              ]
+            }
           }
         },
         {
@@ -87,8 +131,8 @@
             "ArgA": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nmod",
+            "Arg1": "parataxis",
             "Arg2": null,
             "ArgA": null
           },
@@ -125,10 +169,73 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459089917663248384l::voto::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459089917663248384l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "Ministra",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459089917663248384l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "CPI",
+                  "head": "10",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "obj": 1,
+          "parataxis": 1
+        },
+        "Arg2": {
+          "nummod": 1
+        },
+        "Arg0": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -103,6 +103,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_443546875632029696l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "suposto",
+                    "head": "14",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -159,6 +180,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_443546875632029696l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15",
+                  "16",
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "Petrobras",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -168,7 +212,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-ADV": {
+          "amod": 1
+        },
+        "ARGM-LOC": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

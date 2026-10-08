@@ -74,7 +74,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "det"
           },
           "instance_id": "dante_01_450638876106055680l::amigo::1",
           "predicate": {
@@ -109,6 +109,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_450638876106055680l::amigo::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_450638876106055680l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "meu",
+                  "head": "5",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -488,7 +510,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "det"
           },
           "instance_id": "dante_01_453570078781743104l::amigo::1",
           "predicate": {
@@ -523,6 +545,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453570078781743104l::amigo::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_453570078781743104l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "5"
+              ],
+              "heads": [
+                {
+                  "id": "5",
+                  "form": "seu",
+                  "head": "6",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -626,7 +670,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "det"
           },
           "instance_id": "dante_01_459023285372866560l::amigo::1",
           "predicate": {
@@ -661,10 +705,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459023285372866560l::amigo::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459023285372866560l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "minha",
+                  "head": "5",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "det": 3
+        }
+      },
       "predication": "Predicador"
     }
   ]

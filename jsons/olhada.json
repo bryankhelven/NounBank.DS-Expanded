@@ -60,11 +60,33 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "vocative",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_447046296122445825l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "@Live_Trade",
+                  "head": "2",
+                  "deprel": "vocative"
+                }
+              ],
+              "deprels": [
+                "vocative"
+              ]
+            }
           }
         },
         {
@@ -141,11 +163,12 @@
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1,
+          "vocative": 1
+        },
         "Arg1": {
           "nmod": 3
-        },
-        "Arg0": {
-          "nmod": 1
         }
       }
     }

@@ -32,9 +32,9 @@
             "Arg2": "IBOVESPA"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
-            "Arg2": null
+            "Arg2": "nsubj"
           },
           "instance_id": "dante_01_448116395377958912l::colaboração::1",
           "predicate": {
@@ -97,16 +97,91 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "case",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_448116395377958912l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "sem",
+                    "head": "11",
+                    "deprel": "case"
+                  }
+                ],
+                "deprels": [
+                  "case"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_448116395377958912l::colaboração::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448116395377958912l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "12",
+                "13",
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "PETR4",
+                  "head": "11",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448116395377958912l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "IBOVESPA",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nsubj": 1
+        },
+        "ARGM-NEG": {
+          "case": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

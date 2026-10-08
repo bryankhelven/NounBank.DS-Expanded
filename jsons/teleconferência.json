@@ -32,7 +32,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "det",
             "Arg1": null,
             "Arg2": null
           },
@@ -69,6 +69,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444428349222690816l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_444428349222690816l",
+              "predicate_token_id": "18",
+              "token_ids": [
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "sua",
+                  "head": "18",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -80,7 +102,7 @@
             "Arg2": "sobre os Resultados"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "det",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -117,6 +139,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456076763580600320l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_456076763580600320l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "sua",
+                  "head": "15",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -128,9 +172,9 @@
             "Arg2": "sobre os resultados do 1T14"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
-            "Arg2": null
+            "Arg2": "nmod"
           },
           "instance_id": "dante_01_459648470736187392l::teleconferência::1",
           "predicate": {
@@ -193,6 +237,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_459648470736187392l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "Hoje",
+                    "head": "11",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             },
             {
@@ -249,12 +314,83 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_459648470736187392l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "5",
+                  "6",
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "9h",
+                    "head": "11",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_459648470736187392l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_459648470736187392l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "9",
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "Bradesco",
+                  "head": "11",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_459648470736187392l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "resultados",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -268,7 +404,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null
+            "Arg2": "parataxis"
           },
           "instance_id": "dante_01_459317257609703424l::teleconferência::1",
           "predicate": {
@@ -303,6 +439,40 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459317257609703424l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459317257609703424l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "Resultados",
+                  "head": "3",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         },
         {
@@ -314,7 +484,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod",
             "Arg2": null
           },
@@ -383,12 +553,60 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advcl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459392747989131264l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "10",
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "há",
+                    "head": "9",
+                    "deprel": "advcl"
+                  }
+                ],
+                "deprels": [
+                  "advcl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_459392747989131264l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459392747989131264l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "presidente",
+                  "head": "9",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -400,7 +618,7 @@
             "Arg2": "sobre os Resultados"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "det",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -437,6 +655,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459618577256304640l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459618577256304640l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "sua",
+                  "head": "16",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -448,7 +688,7 @@
             "Arg2": "sobre os Resultados"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "det",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -485,6 +725,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459619017305915392l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459619017305915392l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "sua",
+                  "head": "16",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         },
         {
@@ -496,9 +758,9 @@
             "Arg2": "sobre os resultados do 1T14"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
-            "Arg2": null
+            "Arg2": "nmod"
           },
           "instance_id": "dante_01_459642242068922368l::teleconferência::1",
           "predicate": {
@@ -561,6 +823,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459642242068922368l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "Hoje",
+                    "head": "9",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             },
             {
@@ -617,12 +900,83 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459642242068922368l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "9h",
+                    "head": "9",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_459642242068922368l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459642242068922368l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "7",
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "Bradesco",
+                  "head": "9",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459642242068922368l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "resultados",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -634,7 +988,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "det",
             "Arg1": null,
             "Arg2": null
           },
@@ -671,12 +1025,44 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_465869606159417344l::teleconferência::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_465869606159417344l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "16",
+                  "form": "sua",
+                  "head": "17",
+                  "deprel": "det"
+                }
+              ],
+              "deprels": [
+                "det"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "det": 5,
+          "nsubj": 3
+        },
         "Arg2": {
-          "nmod": 3
+          "nmod": 5,
+          "parataxis": 1
+        },
+        "ARGM-TMP": {
+          "advcl": 1,
+          "advmod": 2,
+          "obl": 2
         },
         "Arg1": {
           "nmod": 1

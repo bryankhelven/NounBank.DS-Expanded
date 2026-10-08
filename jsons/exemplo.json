@@ -43,10 +43,32 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "parataxis",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456587938256535553l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "ex",
+                  "head": "11",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         },
         {
@@ -133,10 +155,32 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "obl",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_456588244985995264l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "ex",
+                  "head": "14",
+                  "deprel": "obl"
+                }
+              ],
+              "deprels": [
+                "obl"
+              ]
+            }
           }
         },
         {
@@ -179,13 +223,13 @@
       "syntactic_profile": {
         "Arg1": {
           "nmod": 2,
-          "obl": 3,
-          "parataxis": 1
+          "obl": 4,
+          "parataxis": 2
         },
         "Arg2": {
-          "parataxis": 1,
+          "advmod": 1,
           "nmod": 2,
-          "advmod": 1
+          "parataxis": 1
         }
       }
     }

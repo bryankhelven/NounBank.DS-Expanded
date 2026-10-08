@@ -106,7 +106,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "parataxis",
             "Arg2": null
           },
           "instance_id": "dante_01_456944206700101633l::vergonha::1",
@@ -142,10 +142,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456944206700101633l::vergonha::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456944206700101633l",
+              "predicate_token_id": "26",
+              "token_ids": [
+                "24"
+              ],
+              "heads": [
+                {
+                  "id": "24",
+                  "form": "Brasil",
+                  "head": "5",
+                  "deprel": "parataxis"
+                }
+              ],
+              "deprels": [
+                "parataxis"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "parataxis": 1
+        }
+      },
       "predication": "Predicador",
       "pt_sense_gloss": "Qualificação moral depreciativa na construção sem vergonha."
     },
@@ -179,8 +205,8 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "acl",
+            "Arg1": "nsubj",
             "Arg2": null
           },
           "instance_id": "dante_01_458225692044705793l::vergonha::1",
@@ -216,10 +242,60 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458225692044705793l::vergonha::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_458225692044705793l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "20",
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "21",
+                  "form": "perguntar",
+                  "head": "19",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_458225692044705793l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "vc",
+                  "head": "9",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "acl": 1
+        },
+        "Arg1": {
+          "nsubj": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

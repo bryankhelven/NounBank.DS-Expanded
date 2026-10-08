@@ -109,6 +109,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_445952104105275392l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "fabuloso",
+                    "head": "12",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -215,6 +236,32 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "acl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456162878261710848l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24"
+                ],
+                "heads": [
+                  {
+                    "id": "21",
+                    "form": "ficado",
+                    "head": "18",
+                    "deprel": "acl"
+                  }
+                ],
+                "deprels": [
+                  "acl"
+                ]
               }
             }
           ],
@@ -224,7 +271,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-MNR": {
+          "amod": 1
+        },
+        "ARGM-CAU": {
+          "acl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -88,7 +88,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null
           },
@@ -125,10 +125,35 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_454606593280442368l::concentração::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_454606593280442368l",
+              "predicate_token_id": "24",
+              "token_ids": [
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "Anhanguera",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
         "Arg2": {
           "nmod": 1
         }

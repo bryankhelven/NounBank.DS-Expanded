@@ -128,7 +128,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -165,6 +165,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_441891559420600321l::dívida::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_441891559420600321l",
+              "predicate_token_id": "1",
+              "token_ids": [
+                "2",
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Petrobras",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -176,7 +200,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -213,6 +237,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_441945453010370560l::dívida::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_441945453010370560l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "5",
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "Petrobras",
+                  "head": "4",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -224,7 +272,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -261,6 +309,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443006627583889408l::dívida::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443006627583889408l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "9",
+                "10",
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "11",
+                  "form": "Petrobras",
+                  "head": "8",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -384,6 +456,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443519036333514752l",
+                "predicate_token_id": "27",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Hoje",
+                    "head": "17",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
                 ]
               }
             }
@@ -826,7 +919,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 3
+        },
+        "ARGM-TMP": {
+          "advmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

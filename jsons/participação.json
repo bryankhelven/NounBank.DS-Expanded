@@ -42,10 +42,10 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
+            "Arg3": "nmod",
             "Arg4": null
           },
           "instance_id": "dante_01_453998678693675010l::participação::1",
@@ -81,6 +81,50 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453998678693675010l::participação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_453998678693675010l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "CSN",
+                  "head": "14",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_453998678693675010l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "18",
+                "19",
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "USIMINAS",
+                  "head": "17",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -149,7 +193,7 @@
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
+            "Arg3": "nmod",
             "Arg4": null
           },
           "instance_id": "dante_01_455676245368664065l::participação::1",
@@ -185,6 +229,32 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455676245368664065l::participação::1"
+          },
+          "syntax_provenance": {
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455676245368664065l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "Ute",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -198,7 +268,7 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": null,
             "Arg3": null,
@@ -237,6 +307,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456412254607777792l::participação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456412254607777792l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "1",
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "setor",
+                  "head": "3",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -302,10 +395,10 @@
             "Arg4": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
-            "Arg2": null,
-            "Arg3": null,
+            "Arg2": "nmod",
+            "Arg3": "nmod",
             "Arg4": null
           },
           "instance_id": "dante_01_469111242159046658l::participação::1",
@@ -392,12 +485,101 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_469111242159046658l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "momento",
+                    "head": "7",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_469111242159046658l::participação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_469111242159046658l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "#ITUB4",
+                  "head": "7",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_469111242159046658l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "16",
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "18",
+                  "form": "%",
+                  "head": "15",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_469111242159046658l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "#IBOVESPA",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -453,7 +635,20 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3
+        },
+        "Arg3": {
+          "nmod": 3
+        },
+        "Arg2": {
+          "nmod": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -27,7 +27,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": null
           },
           "instance_id": "dante_01_452929461605134336l::verdade::1",
@@ -63,10 +63,44 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_452929461605134336l::verdade::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_452929461605134336l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "ferro",
+                  "head": "4",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "conj": 1
+        }
+      },
       "predication": "Predicador"
     },
     {

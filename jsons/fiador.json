@@ -32,8 +32,8 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_443353184283934720l::fiador::1",
@@ -69,10 +69,61 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443353184283934720l::fiador::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443353184283934720l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "2",
+                  "form": "quem",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443353184283934720l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "6",
+                "7",
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "empréstimo",
+                  "head": "5",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

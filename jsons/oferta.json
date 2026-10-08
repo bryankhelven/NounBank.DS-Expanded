@@ -206,9 +206,33 @@
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_451887387464179712l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "9",
+                "10",
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "2,40",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -286,23 +310,23 @@
       ],
       "syntactic_profile": {
         "Arg0": {
-          "parataxis": 1,
-          "nsubj": 4,
           "flat:name": 1,
-          "nmod": 1
+          "nmod": 1,
+          "nsubj": 4,
+          "parataxis": 1
         },
         "Arg1": {
-          "nmod": 12,
-          "flat:name": 1
+          "flat:name": 1,
+          "nmod": 12
         },
         "Arg2": {
-          "nmod": 2,
-          "amod": 2
+          "amod": 2,
+          "nmod": 3
         },
         "Arg3": {
-          "nsubj": 3,
+          "flat:name": 1,
           "nmod": 1,
-          "flat:name": 1
+          "nsubj": 3
         }
       }
     }

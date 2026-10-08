@@ -184,6 +184,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451706550327836672l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "16",
+                  "17",
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "pesquisas",
+                    "head": "13",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -345,6 +368,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453640745803472896l",
+                "predicate_token_id": "26",
+                "token_ids": [
+                  "30",
+                  "31",
+                  "32"
+                ],
+                "heads": [
+                  {
+                    "id": "32",
+                    "form": "pesq",
+                    "head": "26",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -431,6 +477,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456874763085176832l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "possível",
+                    "head": "9",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -463,6 +530,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456874763085176832l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "nova",
+                    "head": "9",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
                 ]
               }
             }
@@ -528,6 +616,15 @@
       "syntactic_profile": {
         "Arg1": {
           "nmod": 6
+        },
+        "ARGM-LOC": {
+          "nmod": 2
+        },
+        "ARGM-ADV": {
+          "amod": 1
+        },
+        "ARGM-TMP": {
+          "amod": 1
         }
       },
       "predication": "Predicador"
@@ -639,6 +736,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_441209700580077569l",
+                "predicate_token_id": "26",
+                "token_ids": [
+                  "27"
+                ],
+                "heads": [
+                  {
+                    "id": "27",
+                    "form": "seguidas",
+                    "head": "26",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -658,7 +776,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -729,12 +847,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_441315359602143232l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "8",
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "carnaval",
+                    "head": "3",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_441315359602143232l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_441315359602143232l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "1",
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "2",
+                  "form": "ações",
+                  "head": "3",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -852,7 +1015,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -891,6 +1054,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448577247528878080l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_448577247528878080l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Bbdc4",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -1008,7 +1193,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -1098,6 +1283,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_456115106880188416l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "23",
+                  "24",
+                  "25"
+                ],
+                "heads": [
+                  {
+                    "id": "25",
+                    "form": "momento",
+                    "head": "17",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             },
             {
@@ -1154,12 +1362,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_456115106880188416l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "26",
+                  "27",
+                  "28"
+                ],
+                "heads": [
+                  {
+                    "id": "28",
+                    "form": "Bovespa",
+                    "head": "17",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_456115106880188416l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_456115106880188416l",
+              "predicate_token_id": "18",
+              "token_ids": [
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "16",
+                  "form": "PETR4",
+                  "head": "15",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -1381,7 +1634,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -1460,12 +1713,58 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_441244662418796544l",
+                "predicate_token_id": "26",
+                "token_ids": [
+                  "27",
+                  "28",
+                  "29",
+                  "30"
+                ],
+                "heads": [
+                  {
+                    "id": "28",
+                    "form": "linha",
+                    "head": "26",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_441244662418796544l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_441244662418796544l",
+              "predicate_token_id": "26",
+              "token_ids": [
+                "25"
+              ],
+              "heads": [
+                {
+                  "id": "25",
+                  "form": "#BRSR6",
+                  "head": "26",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -1554,6 +1853,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_446658495862292480l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16",
+                  "17",
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "década",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -1640,6 +1962,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_448932128404037633l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "21"
+                ],
+                "heads": [
+                  {
+                    "id": "21",
+                    "form": "hoje",
+                    "head": "17",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             },
             {
@@ -1695,6 +2038,29 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_448932128404037633l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "22",
+                  "23",
+                  "24"
+                ],
+                "heads": [
+                  {
+                    "id": "24",
+                    "form": "Bovespa",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -1767,7 +2133,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -1806,6 +2172,32 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_449180716912619520l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_449180716912619520l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "popularidade",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -1885,6 +2277,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_451716260364296192l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "boa",
+                    "head": "15",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
                 ]
               }
             }
@@ -2024,6 +2437,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_471738020191019010l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "forte",
+                    "head": "12",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -2043,7 +2477,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -2110,12 +2544,65 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_441230709789700096l",
+                "predicate_token_id": "24",
+                "token_ids": [
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "23",
+                    "form": "nova",
+                    "head": "24",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_441230709789700096l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_441230709789700096l",
+              "predicate_token_id": "24",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "nível",
+                  "head": "22",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -2129,7 +2616,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -2168,6 +2655,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_441253624878878721l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_441253624878878721l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "Petrobras",
+                  "head": "9",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -2300,6 +2809,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443028707977216000l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "amanhã",
+                    "head": "16",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
@@ -2409,6 +2939,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443714729400631296l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "5",
+                  "6",
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "ano",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -2495,6 +3048,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443751525878620160l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "iminente",
+                    "head": "15",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -2567,6 +3141,33 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443751525878620160l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "fuga",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -2638,7 +3239,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "root",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -2677,6 +3278,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444319640353652736l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444319640353652736l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Oibr4",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            }
           }
         },
         {
@@ -2690,7 +3313,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -2729,6 +3352,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444319692685967360l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444319692685967360l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Bbas3",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -2742,7 +3387,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -2781,6 +3426,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444319866720620544l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444319866720620544l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Petr4",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -2794,7 +3461,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -2833,6 +3500,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_444519209742381056l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444519209742381056l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "5",
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "5",
+                  "form": "Investimento",
+                  "head": "8",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -2965,6 +3656,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_445985201743986688l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "livre",
+                    "head": "10",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -2997,6 +3709,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_445985201743986688l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "meses",
+                    "head": "6",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
                 ]
               }
             }
@@ -3188,6 +3921,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_446694812100460544l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "forte",
+                    "head": "17",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -3251,6 +4005,31 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_446694812100460544l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "23",
+                    "form": "dias",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -3375,7 +4154,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -3414,6 +4193,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448817200397172736l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448817200397172736l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Oi",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -3427,7 +4228,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -3466,6 +4267,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448934252709543936l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448934252709543936l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Vale5",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -3479,7 +4302,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -3518,6 +4341,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448941965317382144l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448941965317382144l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Petr4",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -3635,7 +4480,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "root",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -3674,6 +4519,31 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_449318115688865792l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_449318115688865792l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Popularidade",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            }
           }
         },
         {
@@ -3933,6 +4803,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451834281447280640l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "5ª",
+                    "head": "10",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -3952,7 +4845,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -4019,12 +4912,56 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451862879978131456l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "leve",
+                    "head": "10",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_451862879978131456l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_451862879978131456l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "IBOV",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -4038,7 +4975,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -4105,12 +5042,56 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_454368737052073984l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "10/04",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_454368737052073984l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_454368737052073984l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "2",
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Ibovespa",
+                  "head": "4",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -4124,7 +5105,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -4163,6 +5144,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455799739674415105l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455799739674415105l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "9"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "#bbas3",
+                  "head": "1",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -4176,7 +5179,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -4215,6 +5218,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455799739674415105l::queda::2"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455799739674415105l",
+              "predicate_token_id": "20",
+              "token_ids": [
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "#petr4",
+                  "head": "1",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -4228,7 +5253,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -4267,6 +5292,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455799739674415105l::queda::3"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455799739674415105l",
+              "predicate_token_id": "29",
+              "token_ids": [
+                "24"
+              ],
+              "heads": [
+                {
+                  "id": "24",
+                  "form": "#ibovespa",
+                  "head": "1",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -4280,7 +5327,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -4319,6 +5366,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456062648455802880l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456062648455802880l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "BOVESPA",
+                  "head": "13",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -4332,7 +5401,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -4371,6 +5440,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456069180350279680l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456069180350279680l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "VALE5",
+                  "head": "10",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -4451,6 +5544,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456071979452596224l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "forte",
+                    "head": "6",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             },
             {
@@ -4515,6 +5629,31 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456071979452596224l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "manhã",
+                    "head": "6",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -4534,7 +5673,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -4624,6 +5763,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456113957775101952l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "24",
+                  "25",
+                  "26"
+                ],
+                "heads": [
+                  {
+                    "id": "26",
+                    "form": "momento",
+                    "head": "18",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             },
             {
@@ -4680,12 +5842,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456113957775101952l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "27",
+                  "28",
+                  "29"
+                ],
+                "heads": [
+                  {
+                    "id": "29",
+                    "form": "Bove",
+                    "head": "18",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_456113957775101952l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456113957775101952l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "PETR4",
+                  "head": "16",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -4803,7 +6010,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -4842,6 +6049,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458688687774396416l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_458688687774396416l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "#Ibovespa",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -4922,6 +6151,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458959162043801600l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "ontem",
+                    "head": "13",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             },
             {
@@ -4955,6 +6205,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458959162043801600l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "fortes",
+                    "head": "16",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -4974,7 +6245,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "root",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -5013,6 +6284,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459024422691954688l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459024422691954688l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "#IBOV",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            }
           }
         },
         {
@@ -5168,6 +6461,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459674239814344704l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "13",
+                  "14",
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "ano",
+                    "head": "9",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -5291,7 +6607,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -5358,12 +6674,56 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "parataxis",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459843145094950912l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "25/04",
+                    "head": "4",
+                    "deprel": "parataxis"
+                  }
+                ],
+                "deprels": [
+                  "parataxis"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_459843145094950912l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_459843145094950912l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "2",
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Ibovespa",
+                  "head": "4",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -5443,6 +6803,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_460855444723236864l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "brava",
+                    "head": "4",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
                 ]
               }
             }
@@ -5557,6 +6938,30 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461101925199380480l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "7",
+                  "8",
+                  "9",
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "trimestre",
+                    "head": "3",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
@@ -5642,6 +7047,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461128955505168384l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "2"
+                ],
+                "heads": [
+                  {
+                    "id": "2",
+                    "form": "ainda",
+                    "head": "4",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
                 ]
               }
             }
@@ -5756,6 +7182,30 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461489131474792449l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "trimestre",
+                    "head": "2",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
@@ -5842,6 +7292,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461496624309882881l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "Hoje",
+                    "head": "11",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
@@ -5861,7 +7332,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
@@ -5927,6 +7398,27 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463386045631840257l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "pequena",
+                    "head": "18",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
                 ]
               }
             },
@@ -6014,12 +7506,67 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463386045631840257l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28"
+                ],
+                "heads": [
+                  {
+                    "id": "24",
+                    "form": "mercado",
+                    "head": "18",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 2,
             "provenance_ref": "../argm-provenance.html#dante_01_463386045631840257l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_463386045631840257l",
+              "predicate_token_id": "18",
+              "token_ids": [
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "preço",
+                  "head": "12",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -6033,8 +7580,8 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
-            "Arg2": null,
+            "Arg1": "nsubj",
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
             "ArgM": null
@@ -6072,6 +7619,53 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_463669474844233728l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_463669474844233728l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "1",
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Ações",
+                  "head": "8",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_463669474844233728l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "10",
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "%",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -6137,7 +7731,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -6176,6 +7770,34 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_466303583311654913l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_466303583311654913l",
+              "predicate_token_id": "23",
+              "token_ids": [
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+              ],
+              "heads": [
+                {
+                  "id": "26",
+                  "form": "#petr4",
+                  "head": "23",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -6189,7 +7811,7 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null,
@@ -6228,6 +7850,33 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_466303667726213120l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_466303667726213120l",
+              "predicate_token_id": "26",
+              "token_ids": [
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32"
+              ],
+              "heads": [
+                {
+                  "id": "29",
+                  "form": "#petr4",
+                  "head": "26",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -6241,8 +7890,8 @@
             "ArgM": null
           },
           "syntax": {
-            "Arg1": null,
-            "Arg2": null,
+            "Arg1": "nsubj",
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null,
             "ArgM": null
@@ -6308,12 +7957,79 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_467057874699816960l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "15/05",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_467057874699816960l::queda::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_467057874699816960l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "2",
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "Ibovespa",
+                  "head": "4",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_467057874699816960l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "7",
+                "8",
+                "9",
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "%",
+                  "head": "6",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -6579,12 +8295,32 @@
       ],
       "syntactic_profile": {
         "Arg1": {
-          "nsubj": 8,
-          "nmod": 14
+          "conj": 3,
+          "nmod": 27,
+          "nsubj": 20,
+          "root": 3
+        },
+        "ARGM-MNR": {
+          "amod": 10,
+          "nmod": 1
+        },
+        "ARGM-TMP": {
+          "advmod": 5,
+          "amod": 2,
+          "nmod": 6,
+          "obl": 8,
+          "parataxis": 1
         },
         "Arg2": {
-          "nmod": 21,
+          "nmod": 23,
           "obj": 1
+        },
+        "ARGM-LOC": {
+          "nmod": 2,
+          "obl": 2
+        },
+        "ARGM-CAU": {
+          "nmod": 1
         },
         "Arg4": {
           "nmod": 1

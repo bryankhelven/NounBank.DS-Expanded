@@ -32,7 +32,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null,
             "Arg2": null
           },
@@ -124,16 +124,71 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456114609389600768l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "10",
+                  "11",
+                  "12",
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "tri",
+                    "head": "7",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_456114609389600768l::entrega::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456114609389600768l",
+              "predicate_token_id": "3",
+              "token_ids": [
+                "4",
+                "5",
+                "6"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "Embraer",
+                  "head": "3",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "ARGM-TMP": {
+          "obl": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -167,8 +222,8 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg1": "nmod",
+            "Arg2": "nmod"
           },
           "instance_id": "dante_01_454412289559777280l::entrega::1",
           "predicate": {
@@ -203,10 +258,63 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_454412289559777280l::entrega::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_454412289559777280l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "8",
+                "9",
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "gás",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_454412289559777280l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "mercado",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

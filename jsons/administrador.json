@@ -38,7 +38,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "appos",
             "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null
@@ -76,6 +76,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443028274214875136l::administrador::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443028274214875136l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "24",
+                "25"
+              ],
+              "heads": [
+                {
+                  "id": "25",
+                  "form": "BVMF3",
+                  "head": "16",
+                  "deprel": "appos"
+                }
+              ],
+              "deprels": [
+                "appos"
+              ]
+            }
           }
         },
         {
@@ -89,7 +112,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null
           },
@@ -126,12 +149,41 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443029061850632192l::administrador::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443029061850632192l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+              ],
+              "heads": [
+                {
+                  "id": "22",
+                  "form": "mercado",
+                  "head": "19",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "appos": 1
+        },
         "Arg1": {
-          "nmod": 1
+          "nmod": 2
         }
       },
       "predication": "Predicador"

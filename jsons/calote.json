@@ -39,7 +39,7 @@
           "syntax": {
             "Arg1": "nmod",
             "Arg2": null,
-            "Arg3": null,
+            "Arg3": "nsubj",
             "Arg4": null
           },
           "instance_id": "dante_01_448117004852273153l::calote::1",
@@ -75,12 +75,37 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448117004852273153l::calote::1"
+          },
+          "syntax_provenance": {
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_448117004852273153l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Petrobras",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
         "Arg1": {
           "nmod": 1
+        },
+        "Arg3": {
+          "nsubj": 1
         }
       },
       "predication": "Predicador"

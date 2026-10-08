@@ -33,7 +33,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "appos",
             "Arg2": null
           },
           "instance_id": "dante_01_447066056914653184l::tratamento::1",
@@ -97,12 +97,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_447066056914653184l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "desigual",
+                    "head": "13",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_447066056914653184l::tratamento::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_447066056914653184l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "7",
+                "8",
+                "9"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "#OGXP3",
+                  "head": "5",
+                  "deprel": "appos"
+                }
+              ],
+              "deprels": [
+                "appos"
+              ]
+            }
           }
         },
         {
@@ -115,7 +160,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "appos",
             "Arg2": null
           },
           "instance_id": "dante_01_447075762408271872l::tratamento::1",
@@ -179,16 +224,68 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_447075762408271872l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "desigual",
+                    "head": "16",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_447075762408271872l::tratamento::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_447075762408271872l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "#OGXP3",
+                  "head": "8",
+                  "deprel": "appos"
+                }
+              ],
+              "deprels": [
+                "appos"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "appos": 2
+        },
+        "ARGM-MNR": {
+          "amod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

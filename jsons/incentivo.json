@@ -189,7 +189,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_463297321254809600l::incentivo::1",
@@ -225,6 +225,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_463297321254809600l::incentivo::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_463297321254809600l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "Deslig.",
+                  "head": "14",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -237,9 +260,9 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_471702597414690816l::incentivo::1",
@@ -315,12 +338,89 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advcl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_471702597414690816l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "16",
+                  "17",
+                  "18",
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "salvar",
+                    "head": "5",
+                    "deprel": "advcl"
+                  }
+                ],
+                "deprels": [
+                  "advcl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_471702597414690816l::incentivo::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_471702597414690816l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Organização",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_471702597414690816l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "aumento",
+                  "head": "6",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -335,7 +435,7 @@
           "syntax": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_471785265049382912l::incentivo::1",
@@ -371,10 +471,48 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_471785265049382912l::incentivo::1"
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_471785265049382912l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "redução",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 3
+        },
+        "Arg0": {
+          "nsubj": 1
+        },
+        "ARGM-PNC": {
+          "advcl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -107,6 +107,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443081767936081920l",
+                "predicate_token_id": "20",
+                "token_ids": [
+                  "21",
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "agosto",
+                    "head": "20",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -194,6 +216,28 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443118494348242944l",
+                "predicate_token_id": "23",
+                "token_ids": [
+                  "24",
+                  "25"
+                ],
+                "heads": [
+                  {
+                    "id": "25",
+                    "form": "agosto",
+                    "head": "23",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -304,7 +348,11 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-TMP": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

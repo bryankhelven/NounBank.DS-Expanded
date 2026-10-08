@@ -80,9 +80,31 @@
           "syntax": {
             "Arg0": "flat:name",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_460783757025624064l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "Ago/e",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -186,17 +208,17 @@
       ],
       "syntactic_profile": {
         "Arg0": {
-          "nmod": 5,
           "flat:name": 1,
+          "nmod": 5,
           "nsubj": 1
         },
         "Arg1": {
-          "nmod": 3,
           "amod": 2,
+          "nmod": 3,
           "parataxis": 1
         },
         "Arg2": {
-          "nmod": 4
+          "nmod": 5
         }
       }
     }

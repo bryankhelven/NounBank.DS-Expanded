@@ -32,7 +32,7 @@
             "Arg2": "de Vale e BSGR"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -69,6 +69,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456842896021278720l::concessão::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_456842896021278720l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Guiné",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -80,7 +102,7 @@
             "Arg2": "da Vale"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -168,12 +190,60 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_460058959152685056l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "país",
+                    "head": "6",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_460058959152685056l::concessão::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_460058959152685056l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "República",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -234,7 +304,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_453581504170717184l::concessão::1",
@@ -270,6 +340,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453581504170717184l::concessão::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_453581504170717184l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "Aeroporto",
+                  "head": "13",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -281,7 +375,7 @@
             "Arg2": "da Vale"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": "nmod"
           },
@@ -318,15 +412,43 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_460752061437456385l::concessão::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_460752061437456385l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "9"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "Guiné",
+                  "head": "10",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3
+        },
         "Arg2": {
           "nmod": 3
         },
-        "Arg1": {
+        "ARGM-LOC": {
           "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 2
         }
       },
       "predication": "Predicador"

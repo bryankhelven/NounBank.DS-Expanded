@@ -91,6 +91,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "case",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_444857428518387715l",
+                "predicate_token_id": "2",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "Sem",
+                    "head": "2",
+                    "deprel": "case"
+                  }
+                ],
+                "deprels": [
+                  "case"
+                ]
               }
             }
           ],
@@ -107,8 +128,8 @@
             "Arg1": "q o #IBOLESMA está a cara do PT"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nsubj",
+            "Arg1": "acl"
           },
           "instance_id": "dante_01_443436776175443968l::dúvida::1",
           "predicate": {
@@ -143,6 +164,56 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443436776175443968l::dúvida::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_443436776175443968l",
+              "predicate_token_id": "3",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Vc",
+                  "head": "2",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_443436776175443968l",
+              "predicate_token_id": "3",
+              "token_ids": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "cara",
+                  "head": "3",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            }
           }
         },
         {
@@ -217,6 +288,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443150664760578048l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "Ainda",
+                    "head": "4",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
@@ -233,8 +325,8 @@
             "Arg1": "q o #IBOLESMA está a cara do PT"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nsubj",
+            "Arg1": "acl"
           },
           "instance_id": "dante_01_443438174216671233l::dúvida::1",
           "predicate": {
@@ -269,10 +361,73 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443438174216671233l::dúvida::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443438174216671233l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Vc",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443438174216671233l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "cara",
+                  "head": "6",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-NEG": {
+          "case": 1
+        },
+        "Arg0": {
+          "nsubj": 2
+        },
+        "Arg1": {
+          "acl": 2
+        },
+        "ARGM-TMP": {
+          "advmod": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -386,6 +541,29 @@
                     ],
                     "covers_extra_multiword_tokens": false
                   }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_447055159643107328l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "5",
+                  "6",
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "dia",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
                 ]
               }
             }
@@ -536,6 +714,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_446844413659316226l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "dia",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -545,7 +746,11 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-TMP": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

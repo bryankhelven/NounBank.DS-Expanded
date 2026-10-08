@@ -229,6 +229,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453626591411990529l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "pura",
+                    "head": "16",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -313,6 +334,28 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "acl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456628814420787200l",
+                "predicate_token_id": "20",
+                "token_ids": [
+                  "21",
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "sucedida",
+                    "head": "20",
+                    "deprel": "acl"
+                  }
+                ],
+                "deprels": [
+                  "acl"
+                ]
               }
             }
           ],
@@ -368,7 +411,14 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-ADV": {
+          "amod": 1
+        },
+        "ARGM-MNR": {
+          "acl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

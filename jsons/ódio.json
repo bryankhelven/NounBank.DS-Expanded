@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_453223554793111553l::ódio::1",
           "predicate": {
@@ -63,6 +63,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453223554793111553l::ódio::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_453223554793111553l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "16",
+                  "form": "#PT",
+                  "head": "13",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -74,7 +98,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_453225465537634306l::ódio::1",
           "predicate": {
@@ -109,10 +133,38 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453225465537634306l::ódio::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_453225465537634306l",
+              "predicate_token_id": "16",
+              "token_ids": [
+                "17",
+                "18",
+                "19"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "#PT",
+                  "head": "16",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

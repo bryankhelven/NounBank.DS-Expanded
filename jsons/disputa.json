@@ -32,8 +32,8 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nmod",
+            "Arg1": "conj",
             "Arg2": null
           },
           "instance_id": "dante_01_458603499581083648l::disputa::1",
@@ -69,6 +69,49 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458603499581083648l::disputa::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_458603499581083648l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "18",
+                  "form": "Petrobras",
+                  "head": "8",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_458603499581083648l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "ANP",
+                  "head": "18",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -80,7 +123,7 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": null
           },
@@ -168,12 +211,57 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_448795866648686592l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16",
+                  "17",
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "STJ",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_448795866648686592l::disputa::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448795866648686592l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "Vale",
+                  "head": "12",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -185,8 +273,8 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nmod",
+            "Arg1": "conj",
             "Arg2": null
           },
           "instance_id": "dante_01_458658192898400259l::disputa::1",
@@ -222,10 +310,64 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_458658192898400259l::disputa::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_458658192898400259l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "20",
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "21",
+                  "form": "Petrobras",
+                  "head": "11",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_458658192898400259l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "23"
+              ],
+              "heads": [
+                {
+                  "id": "23",
+                  "form": "ANP",
+                  "head": "21",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 2,
+          "nsubj": 1
+        },
+        "Arg1": {
+          "conj": 2
+        },
+        "ARGM-LOC": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

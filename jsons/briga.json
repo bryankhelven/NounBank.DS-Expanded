@@ -44,9 +44,31 @@
           "syntax": {
             "Arg0": "nsubj",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_444463565375033344l",
+              "predicate_token_id": "4",
+              "token_ids": [
+                "6"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "12,94",
+                  "head": "4",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -62,9 +84,31 @@
           "syntax": {
             "Arg0": "flat:name",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_449601961852403713l",
+              "predicate_token_id": "10",
+              "token_ids": [
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "15,35",
+                  "head": "9",
+                  "deprel": "obl"
+                }
+              ],
+              "deprels": [
+                "obl"
+              ]
+            }
           }
         },
         {
@@ -80,9 +124,31 @@
           "syntax": {
             "Arg0": "flat:name",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_449627192734265344l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "21",
+                  "form": "15,35",
+                  "head": "19",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -152,9 +218,31 @@
           "syntax": {
             "Arg0": "obj",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nummod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_446999581071790081l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "13,50",
+                  "head": "11",
+                  "deprel": "nummod"
+                }
+              ],
+              "deprels": [
+                "nummod"
+              ]
+            }
           }
         },
         {
@@ -196,13 +284,15 @@
       ],
       "syntactic_profile": {
         "Arg0": {
-          "nsubj": 4,
           "flat:name": 2,
-          "obj": 1,
-          "nmod": 2
+          "nmod": 2,
+          "nsubj": 4,
+          "obj": 1
         },
         "Arg2": {
-          "nmod": 3
+          "nmod": 5,
+          "nummod": 1,
+          "obl": 1
         },
         "Arg1": {
           "nmod": 1

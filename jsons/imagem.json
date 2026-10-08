@@ -33,8 +33,8 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg1": "nmod",
+            "Arg2": "acl:relcl"
           },
           "instance_id": "dante_01_455852251442315264l::imagem::1",
           "predicate": {
@@ -69,6 +69,53 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455852251442315264l::imagem::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_455852251442315264l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "ela",
+                  "head": "12",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_455852251442315264l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "suja",
+                  "head": "7",
+                  "deprel": "acl:relcl"
+                }
+              ],
+              "deprels": [
+                "acl:relcl"
+              ]
+            }
           }
         },
         {
@@ -218,7 +265,10 @@
       ],
       "syntactic_profile": {
         "Arg1": {
-          "nmod": 2
+          "nmod": 3
+        },
+        "Arg2": {
+          "acl:relcl": 1
         }
       },
       "predication": "Predicador"

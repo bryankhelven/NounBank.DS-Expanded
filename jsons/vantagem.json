@@ -33,7 +33,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "root",
             "Arg2": null
           },
           "instance_id": "dante_01_445950090096963584l::vantagem::1",
@@ -69,6 +69,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445950090096963584l::vantagem::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445950090096963584l",
+              "predicate_token_id": "5",
+              "token_ids": [
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "2",
+                  "form": "Opções",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            }
           }
         },
         {
@@ -81,7 +103,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_446670423242317824l::vantagem::1",
@@ -117,10 +139,39 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_446670423242317824l::vantagem::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446670423242317824l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "8",
+                "9",
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "opções",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1,
+          "root": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

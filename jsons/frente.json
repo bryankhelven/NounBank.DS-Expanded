@@ -27,8 +27,8 @@
             "Arg1": "do cons…"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nsubj",
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_448077868644700160l::frente::1",
           "predicate": {
@@ -63,6 +63,53 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448077868644700160l::frente::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_448077868644700160l",
+              "predicate_token_id": "23",
+              "token_ids": [
+                "18",
+                "19",
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "19",
+                  "form": "Sra.",
+                  "head": "23",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_448077868644700160l",
+              "predicate_token_id": "23",
+              "token_ids": [
+                "24",
+                "25",
+                "26",
+                "27"
+              ],
+              "heads": [
+                {
+                  "id": "26",
+                  "form": "cons",
+                  "head": "23",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -73,8 +120,8 @@
             "Arg1": "do conselho da #PETR4"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nsubj",
+            "Arg1": "nmod"
           },
           "instance_id": "dante_01_448099516752101377l::frente::1",
           "predicate": {
@@ -109,10 +156,66 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_448099516752101377l::frente::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448099516752101377l",
+              "predicate_token_id": "20",
+              "token_ids": [
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "16",
+                  "form": "Sra.",
+                  "head": "20",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_448099516752101377l",
+              "predicate_token_id": "20",
+              "token_ids": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26"
+              ],
+              "heads": [
+                {
+                  "id": "23",
+                  "form": "conselho",
+                  "head": "20",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 2
+        },
+        "Arg1": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

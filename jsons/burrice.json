@@ -114,6 +114,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453654222123171840l",
+                "predicate_token_id": "20",
+                "token_ids": [
+                  "17",
+                  "18",
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "minimo",
+                    "head": "20",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -126,6 +149,9 @@
       "syntactic_profile": {
         "Arg1": {
           "nsubj": 1
+        },
+        "ARGM-ADV": {
+          "nmod": 1
         }
       },
       "predication": "Predicador"

@@ -32,9 +32,9 @@
             "Arg3": "na área da Cessão Onerosa"
           },
           "syntax": {
-            "Arg1": null,
-            "Arg2": null,
-            "Arg3": null
+            "Arg1": "nmod",
+            "Arg2": "amod",
+            "Arg3": "nmod"
           },
           "instance_id": "dante_01_442067541457117185l::qualidade::1",
           "predicate": {
@@ -69,6 +69,74 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_442067541457117185l::qualidade::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442067541457117185l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "11"
+              ],
+              "heads": [
+                {
+                  "id": "11",
+                  "form": "petróleo",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442067541457117185l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "boa",
+                  "head": "14",
+                  "deprel": "amod"
+                }
+              ],
+              "deprels": [
+                "amod"
+              ]
+            },
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442067541457117185l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "heads": [
+                {
+                  "id": "17",
+                  "form": "área",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -80,9 +148,9 @@
             "Arg3": "Na Area Da Cessao Onerosa"
           },
           "syntax": {
-            "Arg1": null,
+            "Arg1": "nmod",
             "Arg2": null,
-            "Arg3": null
+            "Arg3": "nmod"
           },
           "instance_id": "dante_01_442991311898308608l::qualidade::1",
           "predicate": {
@@ -117,10 +185,68 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_442991311898308608l::qualidade::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442991311898308608l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "Petroleo",
+                  "head": "8",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_442991311898308608l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ],
+              "heads": [
+                {
+                  "id": "15",
+                  "form": "Area",
+                  "head": "8",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        },
+        "Arg2": {
+          "amod": 1
+        },
+        "Arg3": {
+          "nmod": 2
+        }
+      },
       "predication": "Predicador"
     }
   ]

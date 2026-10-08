@@ -22,7 +22,7 @@
             "Arg1": "isso"
           },
           "syntax": {
-            "Arg1": null
+            "Arg1": "nsubj"
           },
           "instance_id": "dante_01_445626237487427584l::coincidência::1",
           "predicate": {
@@ -57,6 +57,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445626237487427584l::coincidência::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_445626237487427584l",
+              "predicate_token_id": "21",
+              "token_ids": [
+                "20"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "isso",
+                  "head": "21",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -66,7 +88,7 @@
             "Arg1": "isso"
           },
           "syntax": {
-            "Arg1": null
+            "Arg1": "nsubj"
           },
           "instance_id": "dante_01_445626541658365952l::coincidência::1",
           "predicate": {
@@ -101,6 +123,28 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445626541658365952l::coincidência::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_445626541658365952l",
+              "predicate_token_id": "25",
+              "token_ids": [
+                "24"
+              ],
+              "heads": [
+                {
+                  "id": "24",
+                  "form": "isso",
+                  "head": "25",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -110,7 +154,7 @@
             "Arg1": "o papel subir logo depois do exercício"
           },
           "syntax": {
-            "Arg1": null
+            "Arg1": "csubj"
           },
           "instance_id": "dante_01_445998715699220480l::coincidência::1",
           "predicate": {
@@ -145,6 +189,35 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445998715699220480l::coincidência::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445998715699220480l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+              ],
+              "heads": [
+                {
+                  "id": "20",
+                  "form": "subir",
+                  "head": "17",
+                  "deprel": "csubj"
+                }
+              ],
+              "deprels": [
+                "csubj"
+              ]
+            }
           }
         },
         {
@@ -217,6 +290,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453531201522139136l",
+                "predicate_token_id": "24",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "Apenas",
+                    "head": "24",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
@@ -226,7 +320,15 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "csubj": 1,
+          "nsubj": 2
+        },
+        "ARGM-ADV": {
+          "advmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

@@ -88,7 +88,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "obj",
             "Arg2": null,
             "Arg3": null
           },
@@ -153,16 +153,73 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "case",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_472433847343140864l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "sem",
+                    "head": "14",
+                    "deprel": "case"
+                  }
+                ],
+                "deprels": [
+                  "case"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_472433847343140864l::restrição::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_472433847343140864l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "5",
+                  "form": "compra",
+                  "head": "4",
+                  "deprel": "obj"
+                }
+              ],
+              "deprels": [
+                "obj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "obj": 1
+        },
+        "ARGM-NEG": {
+          "case": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

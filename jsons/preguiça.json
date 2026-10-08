@@ -27,8 +27,8 @@
             "Arg1": "em chegar aos $28,00"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null
+            "Arg0": "nmod",
+            "Arg1": "acl"
           },
           "instance_id": "dante_01_449254702082187266l::preguiça::1",
           "predicate": {
@@ -63,6 +63,53 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_449254702082187266l::preguiça::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_449254702082187266l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "VALE5",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_449254702082187266l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "chegar",
+                  "head": "7",
+                  "deprel": "acl"
+                }
+              ],
+              "deprels": [
+                "acl"
+              ]
+            }
           }
         },
         {
@@ -73,7 +120,7 @@
             "Arg1": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nmod",
             "Arg1": null
           },
           "instance_id": "dante_01_450723202294382592l::preguiça::1",
@@ -109,10 +156,39 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_450723202294382592l::preguiça::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_450723202294382592l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "VALE5",
+                  "head": "11",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 2
+        },
+        "Arg1": {
+          "acl": 1
+        }
+      },
       "predication": "Predicador"
     },
     {

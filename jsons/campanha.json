@@ -27,7 +27,7 @@
             "Arg1": "contra Dilma"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod"
           },
           "instance_id": "dante_01_453546592155738113l::campanha::1",
@@ -63,6 +63,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_453546592155738113l::campanha::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_453546592155738113l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "Graça",
+                  "head": "8",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -73,7 +96,7 @@
             "Arg1": "contra Dilma e PT"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod"
           },
           "instance_id": "dante_01_455744272138907648l::campanha::1",
@@ -109,10 +132,41 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_455744272138907648l::campanha::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_455744272138907648l",
+              "predicate_token_id": "12",
+              "token_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Quem",
+                  "head": "8",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 2
+        },
         "Arg1": {
           "nmod": 2
         }

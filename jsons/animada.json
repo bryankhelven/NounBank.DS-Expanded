@@ -43,7 +43,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "advcl",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
@@ -81,10 +81,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_449224885110603776l::animada::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_449224885110603776l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "7"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "#hrt",
+                  "head": "4",
+                  "deprel": "advcl"
+                }
+              ],
+              "deprels": [
+                "advcl"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "advcl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

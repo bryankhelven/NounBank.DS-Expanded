@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null
+            "Arg1": "xcomp"
           },
           "instance_id": "dante_01_447028130914791424l::vontade::1",
           "predicate": {
@@ -63,10 +63,36 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_447028130914791424l::vontade::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_447028130914791424l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "2",
+                  "form": "favoritar",
+                  "head": "1",
+                  "deprel": "xcomp"
+                }
+              ],
+              "deprels": [
+                "xcomp"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg1": {
+          "xcomp": 1
+        }
+      },
       "predication": "Predicador"
     },
     {
@@ -158,6 +184,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449610986434359296l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "só",
+                    "head": "6",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
               }
             }
           ],
@@ -170,6 +217,9 @@
       "syntactic_profile": {
         "Arg1": {
           "nsubj": 1
+        },
+        "ARGM-ADV": {
+          "advmod": 1
         }
       },
       "predication": "Predicador"

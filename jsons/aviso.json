@@ -138,7 +138,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": "nmod",
             "Arg3": null
           },
@@ -175,6 +175,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_459664701614731264l::aviso::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_459664701614731264l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "heads": [
+                {
+                  "id": "14",
+                  "form": "Distribuicao",
+                  "head": "9",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -287,8 +311,8 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nsubj",
+            "Arg1": "amod",
             "Arg2": "nmod",
             "Arg3": null
           },
@@ -325,6 +349,57 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445656190060883969l::aviso::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445656190060883969l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Embraer",
+                  "head": "5",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_445656190060883969l",
+              "predicate_token_id": "6",
+              "token_ids": [
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "referente",
+                  "head": "6",
+                  "deprel": "amod"
+                }
+              ],
+              "deprels": [
+                "amod"
+              ]
+            }
           }
         },
         {
@@ -388,7 +463,7 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "conj",
             "Arg2": "nmod",
             "Arg3": null
           },
@@ -425,6 +500,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456788707576532992l::aviso::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456788707576532992l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "13",
+                  "form": "Distribuicao",
+                  "head": "8",
+                  "deprel": "conj"
+                }
+              ],
+              "deprels": [
+                "conj"
+              ]
+            }
           }
         },
         {
@@ -580,10 +679,15 @@
       ],
       "syntactic_profile": {
         "Arg1": {
+          "amod": 1,
+          "conj": 2,
           "nmod": 8
         },
         "Arg2": {
           "nmod": 3
+        },
+        "Arg0": {
+          "nsubj": 1
         }
       },
       "predication": "Predicador"

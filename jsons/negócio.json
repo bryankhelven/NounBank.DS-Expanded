@@ -274,6 +274,27 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_467340956761874432l",
+                "predicate_token_id": "28",
+                "token_ids": [
+                  "27"
+                ],
+                "heads": [
+                  {
+                    "id": "27",
+                    "form": "Bons",
+                    "head": "28",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
               }
             }
           ],
@@ -388,6 +409,9 @@
           "nmod": 1,
           "support-object": 2
         },
+        "ARGM-MNR": {
+          "amod": 1
+        },
         "Arg0": {
           "support-subject": 2
         },
@@ -430,8 +454,8 @@
             "Arg2": null
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
+            "Arg0": "nmod",
+            "Arg1": "nmod",
             "Arg2": null
           },
           "instance_id": "dante_01_456148682857914368l::negócio::1",
@@ -467,10 +491,61 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456148682857914368l::negócio::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456148682857914368l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "3"
+              ],
+              "heads": [
+                {
+                  "id": "3",
+                  "form": "diretores",
+                  "head": "1",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456148682857914368l",
+              "predicate_token_id": "9",
+              "token_ids": [
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "12",
+                  "form": "petr4",
+                  "head": "9",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

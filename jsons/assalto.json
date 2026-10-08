@@ -99,6 +99,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_446090815488917504l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15",
+                  "16",
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "mão",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -108,7 +131,11 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-MNR": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

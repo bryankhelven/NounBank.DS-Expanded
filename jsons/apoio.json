@@ -27,7 +27,7 @@
             "Arg1": "à oferta da Oi"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": "nmod"
           },
           "instance_id": "dante_01_451012516542697472l::apoio::1",
@@ -63,10 +63,37 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_451012516542697472l::apoio::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_451012516542697472l",
+              "predicate_token_id": "13",
+              "token_ids": [
+                "8",
+                "9",
+                "10"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "Bradesco",
+                  "head": "11",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
         "Arg1": {
           "nmod": 1
         }

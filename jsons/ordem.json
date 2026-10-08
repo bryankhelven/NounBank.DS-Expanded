@@ -32,9 +32,9 @@
             "Arg2": "Mantega"
           },
           "syntax": {
-            "Arg0": null,
-            "Arg1": null,
-            "Arg2": null
+            "Arg0": "nmod",
+            "Arg1": "root",
+            "Arg2": "nsubj"
           },
           "instance_id": "dante_01_443019897816109057l::ordem::1",
           "predicate": {
@@ -69,10 +69,91 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443019897816109057l::ordem::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_443019897816109057l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "3",
+                "4"
+              ],
+              "heads": [
+                {
+                  "id": "4",
+                  "form": "Dilma",
+                  "head": "2",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            },
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_443019897816109057l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "heads": [
+                {
+                  "id": "7",
+                  "form": "fará",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_443019897816109057l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "6"
+              ],
+              "heads": [
+                {
+                  "id": "6",
+                  "form": "Mantega",
+                  "head": "7",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "root": 1
+        },
+        "Arg2": {
+          "nsubj": 1
+        }
+      },
       "predication": "Predicador"
     },
     {

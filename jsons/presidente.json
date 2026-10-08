@@ -37,7 +37,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": "nmod",
             "Arg3": null
@@ -75,6 +75,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_447193082044633089l::presidente::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+              "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+              "sent_id": "dante_01_447193082044633089l",
+              "predicate_token_id": "11",
+              "token_ids": [
+                "7",
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "mulher",
+                  "head": "9",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -229,6 +252,9 @@
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
         "Arg2": {
           "nmod": 1
         }
@@ -270,7 +296,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": "nmod",
             "Arg3": null
@@ -308,6 +334,32 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_445923755190001664l::presidente::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_445923755190001664l",
+              "predicate_token_id": "15",
+              "token_ids": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+              ],
+              "heads": [
+                {
+                  "id": "9",
+                  "form": "Maria",
+                  "head": "23",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -720,7 +772,7 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "appos",
             "Arg1": null,
             "Arg2": "nmod",
             "Arg3": null
@@ -758,6 +810,29 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_456411922074566656l::presidente::2"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_456411922074566656l",
+              "predicate_token_id": "19",
+              "token_ids": [
+                "27",
+                "28"
+              ],
+              "heads": [
+                {
+                  "id": "27",
+                  "form": "Maria",
+                  "head": "19",
+                  "deprel": "appos"
+                }
+              ],
+              "deprels": [
+                "appos"
+              ]
+            }
           }
         },
         {
@@ -962,6 +1037,10 @@
         }
       ],
       "syntactic_profile": {
+        "Arg0": {
+          "appos": 1,
+          "nsubj": 1
+        },
         "Arg2": {
           "nmod": 9
         }
@@ -1003,9 +1082,9 @@
             "Arg3": null
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "root",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null
           },
           "instance_id": "dante_01_446963449541959680l::presidente::1",
@@ -1041,10 +1120,61 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_446963449541959680l::presidente::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446963449541959680l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "1"
+              ],
+              "heads": [
+                {
+                  "id": "1",
+                  "form": "Dilma",
+                  "head": "0",
+                  "deprel": "root"
+                }
+              ],
+              "deprels": [
+                "root"
+              ]
+            },
+            "Arg2": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446963449541959680l",
+              "predicate_token_id": "2",
+              "token_ids": [
+                "3",
+                "4",
+                "5"
+              ],
+              "heads": [
+                {
+                  "id": "5",
+                  "form": "Conselho",
+                  "head": "2",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg0": {
+          "root": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

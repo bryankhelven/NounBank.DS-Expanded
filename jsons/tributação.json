@@ -40,7 +40,7 @@
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null
+            "Arg3": "nmod"
           },
           "instance_id": "dante_01_450995902124408832l::tributação::1",
           "predicate": {
@@ -75,6 +75,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_450995902124408832l::tributação::1"
+          },
+          "syntax_provenance": {
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_450995902124408832l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "15",
+                "16",
+                "17"
+              ],
+              "heads": [
+                {
+                  "id": "16",
+                  "form": "bebidas",
+                  "head": "14",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         },
         {
@@ -87,10 +111,10 @@
             "Arg3": "da cerveja e refrigerante"
           },
           "syntax": {
-            "Arg0": null,
+            "Arg0": "nsubj",
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null
+            "Arg3": "nmod"
           },
           "instance_id": "dante_01_461522403651104769l::tributação::1",
           "predicate": {
@@ -176,16 +200,95 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461522403651104769l",
+                "predicate_token_id": "7",
+                "token_ids": [
+                  "13",
+                  "14",
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "País",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
               }
             }
           ],
           "argm_review": {
             "annotation_count": 1,
             "provenance_ref": "../argm-provenance.html#dante_01_461522403651104769l::tributação::1"
+          },
+          "syntax_provenance": {
+            "Arg0": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_461522403651104769l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "2"
+              ],
+              "heads": [
+                {
+                  "id": "2",
+                  "form": "Governo",
+                  "head": "4",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            },
+            "Arg3": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_461522403651104769l",
+              "predicate_token_id": "7",
+              "token_ids": [
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "heads": [
+                {
+                  "id": "10",
+                  "form": "cerveja",
+                  "head": "7",
+                  "deprel": "nmod"
+                }
+              ],
+              "deprels": [
+                "nmod"
+              ]
+            }
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "Arg3": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "nsubj": 1
+        },
+        "ARGM-LOC": {
+          "obl": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

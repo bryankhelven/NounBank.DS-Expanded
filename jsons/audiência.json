@@ -120,6 +120,29 @@
                     "covers_extra_multiword_tokens": false
                   }
                 ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456411922074566656l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "Senado",
+                    "head": "13",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
               }
             }
           ],
@@ -129,7 +152,11 @@
           }
         }
       ],
-      "syntactic_profile": {},
+      "syntactic_profile": {
+        "ARGM-LOC": {
+          "nmod": 1
+        }
+      },
       "predication": "Predicador"
     }
   ]

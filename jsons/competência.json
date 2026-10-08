@@ -28,7 +28,7 @@
           },
           "syntax": {
             "Arg0": "nsubj",
-            "Arg1": null
+            "Arg1": "acl:relcl"
           },
           "instance_id": "dante_01_443020718650163200l::competência::1",
           "predicate": {
@@ -63,6 +63,30 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443020718650163200l::competência::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+              "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+              "sent_id": "dante_01_443020718650163200l",
+              "predicate_token_id": "17",
+              "token_ids": [
+                "25",
+                "26",
+                "27"
+              ],
+              "heads": [
+                {
+                  "id": "25",
+                  "form": "administrando",
+                  "head": "17",
+                  "deprel": "acl:relcl"
+                }
+              ],
+              "deprels": [
+                "acl:relcl"
+              ]
+            }
           }
         },
         {
@@ -74,7 +98,7 @@
           },
           "syntax": {
             "Arg0": "nsubj",
-            "Arg1": null
+            "Arg1": "advcl"
           },
           "instance_id": "dante_01_443018719959474176l::competência::1",
           "predicate": {
@@ -109,12 +133,43 @@
           "argm_review": {
             "annotation_count": 0,
             "provenance_ref": "../argm-provenance.html#dante_01_443018719959474176l::competência::1"
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_443018719959474176l",
+              "predicate_token_id": "14",
+              "token_ids": [
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27"
+              ],
+              "heads": [
+                {
+                  "id": "22",
+                  "form": "administrando",
+                  "head": "21",
+                  "deprel": "advcl"
+                }
+              ],
+              "deprels": [
+                "advcl"
+              ]
+            }
           }
         }
       ],
       "syntactic_profile": {
         "Arg0": {
           "nsubj": 2
+        },
+        "Arg1": {
+          "acl:relcl": 1,
+          "advcl": 1
         }
       },
       "predication": "Predicador"

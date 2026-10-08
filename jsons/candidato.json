@@ -151,10 +151,32 @@
           },
           "syntax": {
             "Arg0": null,
-            "Arg1": null,
+            "Arg1": "nsubj",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "syntax_provenance": {
+            "Arg1": {
+              "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+              "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+              "sent_id": "dante_01_446349257180606464l",
+              "predicate_token_id": "8",
+              "token_ids": [
+                "8"
+              ],
+              "heads": [
+                {
+                  "id": "8",
+                  "form": "candidatos",
+                  "head": "13",
+                  "deprel": "nsubj"
+                }
+              ],
+              "deprels": [
+                "nsubj"
+              ]
+            }
           }
         },
         {
@@ -215,6 +237,7 @@
       "syntactic_profile": {
         "Arg1": {
           "nmod": 5,
+          "nsubj": 1,
           "parataxis": 1,
           "root": 3
         },
