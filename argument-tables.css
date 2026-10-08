@@ -39,3 +39,8 @@
 .lemma-page .interactive-argument-table .argument-prefix{white-space:nowrap}
 .lemma-page .expanded-arguments.interactive-argument-table th[data-argument-group]{font-size:.85rem}
 .lemma-page .expanded-arguments.interactive-argument-table th.texto{text-align:center}
+/* Preserve complete words in argument realizations. Let real content determine column needs. */
+.lemma-page .expanded-arguments.interactive-argument-table{table-layout:auto}
+.lemma-page .expanded-arguments.interactive-argument-table [data-argument-group]{overflow-wrap:normal;word-break:normal;hyphens:none}
+.lemma-page .expanded-arguments.interactive-argument-table [data-argument-group] .deprel{white-space:nowrap;overflow-wrap:normal;word-break:normal}
+.instance-argument dd{overflow-wrap:normal;word-break:normal;hyphens:none}

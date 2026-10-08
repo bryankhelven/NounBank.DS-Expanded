@@ -11,6 +11,7 @@
   document.querySelectorAll('.sense-section').forEach(section => {
     const main = section.querySelector('.expanded-arguments');
     if (!main) return;
+    section.querySelectorAll('.argm-provenance-link').forEach(link => link.remove());
     const wrap = main.closest('.argument-table-scroll');
     const tables = [...section.querySelectorAll('.expanded-arguments,.syntax-table')];
     const columns = [];
