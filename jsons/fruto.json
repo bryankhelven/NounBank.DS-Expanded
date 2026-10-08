@@ -47,6 +47,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452154691905126400l::fruto::token=12",
+          "predicate": {
+            "form": "frutos",
+            "source_token_id": "12",
+            "source_form": "frutos",
+            "lemma": "fruto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-4db0a36f634d33d7efcbb79f",
+              "native_instance_id": "dante_01_452154691905126400l::fruto::token=12",
+              "label": "ARGM-TMP",
+              "realization": "começando",
+              "integration_binding": {
+                "source_predicate_token_id": "12",
+                "source_token_ids": [
+                  "9"
+                ],
+                "source_head_token_id": "9",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 53,
+                    "end": 62,
+                    "text_literal": "começando",
+                    "token_ids": [
+                      "9"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "conj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_452154691905126400l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "começando",
+                    "head": "8",
+                    "deprel": "conj"
+                  }
+                ],
+                "deprels": [
+                  "conj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "O XML fruit.01 inclui fruits of your labor e fruits of prosperity: trata-se de resultados produzidos, não recompensa dada a alguém. Propõe-se fruto.02 com todos os papéis herdados de fruit.01: vendinha Arg0 e frutos Arg1 incorporado. Começando marca início da produção dos resultados como TMP; preço da venda não vira valor dos frutos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_452154691905126400l",
+                "source_argument_token_id": "9",
+                "source_predicate_token_id": "12",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_452154691905126400l::fruto::token=12"
           }
         },
         {
@@ -65,6 +141,86 @@
             "Arg2": "acl:relcl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471628526152454144l::fruto::token=6",
+          "predicate": {
+            "form": "frutos",
+            "source_token_id": "6",
+            "source_form": "frutos",
+            "lemma": "fruto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a01870bdda417dc2bc2ce22e",
+              "native_instance_id": "dante_01_471628526152454144l::fruto::token=6",
+              "label": "ARGM-EXT",
+              "realization": "muitos",
+              "integration_binding": {
+                "source_predicate_token_id": "6",
+                "source_token_ids": [
+                  "5"
+                ],
+                "source_head_token_id": "5",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 18,
+                    "end": 24,
+                    "text_literal": "muitos",
+                    "token_ids": [
+                      "5"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "det",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_471628526152454144l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "muitos",
+                    "head": "6",
+                    "deprel": "det"
+                  }
+                ],
+                "deprels": [
+                  "det"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-a01870bdda417dc2bc2ce22e"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-a01870bdda417dc2bc2ce22e"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_471628526152454144l",
+                "source_argument_token_id": "5",
+                "source_predicate_token_id": "6",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_471628526152454144l::fruto::token=6"
           }
         },
         {
@@ -83,10 +239,93 @@
             "Arg2": "acl:relcl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471708570082639873l::fruto::token=6",
+          "predicate": {
+            "form": "frutos",
+            "source_token_id": "6",
+            "source_form": "frutos",
+            "lemma": "fruto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-14973ae5801fda4ffa529d87",
+              "native_instance_id": "dante_01_471708570082639873l::fruto::token=6",
+              "label": "ARGM-EXT",
+              "realization": "muitos",
+              "integration_binding": {
+                "source_predicate_token_id": "6",
+                "source_token_ids": [
+                  "5"
+                ],
+                "source_head_token_id": "5",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 18,
+                    "end": 24,
+                    "text_literal": "muitos",
+                    "token_ids": [
+                      "5"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_471708570082639873l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "muitos",
+                    "head": "6",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-14973ae5801fda4ffa529d87"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-14973ae5801fda4ffa529d87"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_471708570082639873l",
+                "source_argument_token_id": "5",
+                "source_predicate_token_id": "6",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_471708570082639873l::fruto::token=6"
           }
         }
       ],
       "syntactic_profile": {
+        "ARGM-TMP": {
+          "conj": 1
+        },
         "Arg0": {
           "nsubj": 2
         },
@@ -95,6 +334,10 @@
         },
         "Arg2": {
           "acl:relcl": 2
+        },
+        "ARGM-EXT": {
+          "det": 1,
+          "amod": 1
         }
       }
     }

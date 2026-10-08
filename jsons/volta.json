@@ -47,6 +47,84 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_458580699046367233l::volta::token=5",
+          "predicate": {
+            "form": "volta",
+            "source_token_id": "5",
+            "source_form": "volta",
+            "lemma": "volta",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-bc85302ab3d6a1c016ee697d",
+              "native_instance_id": "dante_01_458580699046367233l::volta::token=5",
+              "label": "ARGM-TMP",
+              "realization": "feriado",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 24,
+                    "end": 31,
+                    "text_literal": "feriado",
+                    "token_ids": [
+                      "8"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458580699046367233l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "feriado",
+                    "head": "5",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-e72044b30245eea49bcec0ae"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Volta do feriado é retomada após intervalo, não origem espacial. Feriado passa de Arg3 a TMP. O controle U-0175 já distingue retorno após férias; o adjunto temporal próprio fornece marcação realizada sem inventar quem volta.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_458580699046367233l",
+                "source_argument_token_id": "8",
+                "source_predicate_token_id": "5",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_458580699046367233l::volta::token=5"
           }
         },
         {
@@ -136,12 +214,113 @@
           "predicate": {
             "form": "volta"
           }
+        },
+        {
+          "sent_ID": "dante_01_459041599486697472l",
+          "text": "VOLTEI! Após uma semana de férias no Rio, tô de volta. E já entrei em VALE5 a $27,63, com lançamento VALEE29, exerc. $28,70. Ô trem bão!",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "recovery_provenance": {
+            "reason": "Predicador revisto na camada histórica e ausente da projeção pública; recuperado da sentença e do token exatos.",
+            "source_roleset": "volta.01"
+          },
+          "instance_id": "dante_01_459041599486697472l::volta::token=14",
+          "predicate": {
+            "form": "volta",
+            "source_token_id": "14",
+            "source_form": "volta",
+            "lemma": "volta",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1f779d4822357234e2daefe1",
+              "native_instance_id": "dante_01_459041599486697472l::volta::token=14",
+              "label": "ARGM-TMP",
+              "realization": "semana",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "5"
+                ],
+                "source_head_token_id": "5",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 17,
+                    "end": 23,
+                    "text_literal": "semana",
+                    "token_ids": [
+                      "5"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_459041599486697472l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "semana",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Após uma semana de férias situa a volta. Semana é o núcleo da expressão temporal; Rio de Janeiro situa as férias, não o destino da volta. Propor TMP:volta, sem copiar LOC das férias.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_459041599486697472l",
+                "source_argument_token_id": "5",
+                "source_predicate_token_id": "14",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_459041599486697472l::volta::token=14"
+          }
         }
       ],
       "syntactic_profile": {
         "Arg3": {
           "nmod": 1,
           "obl": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 2
         },
         "Arg1": {
           "nmod": 1

@@ -1,0 +1,95 @@
+[
+  {
+    "record_id": "hora::hora.02",
+    "nome": "hora",
+    "roleset": "hora.02",
+    "origem_id": "nombank",
+    "origem_pt": "Referência do NomBank em inglês",
+    "tratamento_id": "adaptacao",
+    "tratamento_pt": "Diferenças de descrição documentadas",
+    "referencia_nombank": "hour.01",
+    "antecedente_id": "sem_verbal",
+    "antecedente_verbal_original": null,
+    "antecedente_explicacao_pt": "Não há antecedente verbal declarado na documentação desse frame do NomBank. Isso não significa que o frame não tenha papéis.",
+    "de_onde_veio": "Adaptação explícita do frame hour.01 do English NomBank 1.0, recuperada da revisão contextual anterior.",
+    "o_que_foi_feito": "Recuperado o sentido de momento oportuno, distinguido da unidade de duração. Os papéis foram adaptados ao sentido português e a anotação está vinculada à sentença e ao predicador exatos.",
+    "por_que": "Uma hora/qquer hora não mede duração. A construção adverbial nominal liga o momento à ação explicitamente escrita (§4.8), sem inventar expansão ou horário.",
+    "foi_criado": "A distinção hora.02 foi criada pelo projeto por adaptação de uma referência nominal existente; não é uma herança literal do sentido português original.",
+    "justificativa_tipo_pt": "Justificativa histórica não recuperada neste registro",
+    "documentacao_posterior_pt": "A proposta usa o texto literal do XML no campo de descrição EN e conserva o texto publicado no campo de variante legada. Nenhum papel ou argumento muda. secondary-theme → secondary theme.",
+    "papeis": [
+      {
+        "id": "Arg1",
+        "descricao_publicada": "Ação/proposição situada no momento",
+        "descricao_fonte": "action",
+        "origem_pt": "English NomBank 1.0, com adaptação contextual do projeto",
+        "transformacao_pt": "Descrição em português e adaptação ao sentido de momento oportuno, documentadas na revisão.",
+        "role_definition_record_id": "hora::hora.02::ROLE_DEFINITION::Arg1",
+        "referencia_fonte": "hour.01"
+      },
+      {
+        "id": "Arg2",
+        "descricao_publicada": "Valor ou limite ordinal do momento, quando expresso",
+        "descricao_fonte": "value",
+        "origem_pt": "English NomBank 1.0, com adaptação contextual do projeto",
+        "transformacao_pt": "Descrição em português e adaptação ao sentido de momento oportuno, documentadas na revisão.",
+        "role_definition_record_id": "hora::hora.02::ROLE_DEFINITION::Arg2",
+        "referencia_fonte": "hour.01"
+      },
+      {
+        "id": "Arg3",
+        "descricao_publicada": "Tema secundário",
+        "descricao_fonte": "secondary-theme",
+        "origem_pt": "English NomBank 1.0, com adaptação contextual do projeto",
+        "transformacao_pt": "Descrição em português e adaptação ao sentido de momento oportuno, documentadas na revisão.",
+        "role_definition_record_id": "hora::hora.02::ROLE_DEFINITION::Arg3",
+        "referencia_fonte": "hour.01"
+      }
+    ],
+    "limites_pt": [
+      "A quantidade de papéis descritos não é a quantidade obrigatória de argumentos. Campos vazios não criam papéis semânticos.",
+      "A origem de uma definição de papel não prova a autoria histórica de cada span ou marcação sintática.",
+      "A documentação retrospectiva explica ou ratifica o inventário legado; seu aceite não aplica automaticamente um novo mapping nem certifica todos os spans."
+    ],
+    "historico": [
+      {
+        "data": "2025-09-02T22:41:10-03:00",
+        "explicacao_pt": "Primeiro registro encontrado no histórico Git; não prova a data de criação original.",
+        "commit": "31d455b7324317b742ed14312b90d949e3cb23e0",
+        "recurso": "NounBank.DS",
+        "path": "jsons/hora.json"
+      },
+      {
+        "data": "2026-09-24T12:05:24-03:00",
+        "explicacao_pt": "Primeiro registro encontrado no histórico Git; não prova a data de criação original.",
+        "commit": "b7a277a15b8075cec8deb17fc22b89d6b4bfc893",
+        "recurso": "NounBank.DS-Expanded",
+        "path": "jsons/hora.json"
+      }
+    ],
+    "candidatos_rejeitados": [],
+    "fonte_publicada": {
+      "resource": "NounBank.DS-Expanded",
+      "release": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
+      "base_commit": "a2ab575c86068440f5f73117932363d4271fb59c",
+      "path": "jsons/hora.json",
+      "json_pointer": "/senses/0",
+      "sha256": "c0ee4751e9899caa199c69d63cc89029c059b071198792718743630e75b28a91"
+    },
+    "fontes_nombank_urls": [
+      "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/hour.xml"
+    ],
+    "total_ocorrencias": 1,
+    "total_marcacoes": 2,
+    "exemplos": [
+      {
+        "occurrence_id": "dante_01_446740477451448320l::hora::token=9",
+        "sent_ID": "dante_01_446740477451448320l",
+        "texto": "@ferrisss Tá voltando a chover e na hora certa. Está chegando a hora de plantar mais um lote. E a #PETR4 fazendo Graça! hehehehe"
+      }
+    ],
+    "origem_historica_de_cada_marcacao_pt": "Os campos publicados e seus localizadores foram preservados. A autoria/execução histórica de cada campo individual ainda não é certificada; o arquivo de marcações torna esse limite explícito.",
+    "justificativa_literal_original": null,
+    "url_entrada": "site_pages/hora.html"
+  }
+]

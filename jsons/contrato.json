@@ -83,6 +83,152 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461484549030297600l::contrato::token=18",
+          "predicate": {
+            "form": "contratos",
+            "source_token_id": "18",
+            "source_form": "contratos",
+            "lemma": "contrato",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-ca36e4033b43ac5260df839d",
+              "native_instance_id": "dante_01_461484549030297600l::contrato::token=18",
+              "label": "ARGM-MNR",
+              "realization": "estáveis",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 114,
+                    "end": 122,
+                    "text_literal": "estáveis",
+                    "token_ids": [
+                      "19"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_461484549030297600l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "estáveis",
+                    "head": "18",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-ca36e4033b43ac5260df839d"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-ca36e4033b43ac5260df839d"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_461484549030297600l",
+                "source_argument_token_id": "19",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-ec5372f4b656391bafa8b3fc",
+              "native_instance_id": "dante_01_461484549030297600l::contrato::token=18",
+              "label": "ARGM-MNR",
+              "realization": "margem",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 128,
+                    "end": 134,
+                    "text_literal": "margem",
+                    "token_ids": [
+                      "22"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "conj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_461484549030297600l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "margem",
+                    "head": "18",
+                    "deprel": "conj"
+                  }
+                ],
+                "deprels": [
+                  "conj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_NORMALIZADO_POR_NOS",
+                "inherited_literally": false,
+                "original_annotation_refs": [
+                  "REPO-5430a5e2a52ce69b33452d2a"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-5430a5e2a52ce69b33452d2a"
+                ],
+                "relation_to_original": "CASE_NORMALIZATION",
+                "reason": "Normalização de alias ARGM do alvo revisado; fonte preservada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_461484549030297600l",
+                "source_argument_token_id": "22",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_461484549030297600l::contrato::token=18"
           }
         },
         {
@@ -155,6 +301,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472334907549954048l::contrato::token=21",
+          "predicate": {
+            "form": "contratos",
+            "source_token_id": "21",
+            "source_form": "contratos",
+            "lemma": "contrato",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-58c8b9ca4120651e1f96f4db",
+              "native_instance_id": "dante_01_472334907549954048l::contrato::token=21",
+              "label": "ARGM-MNR",
+              "realization": "sem",
+              "integration_binding": {
+                "source_predicate_token_id": "21",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 114,
+                    "end": 117,
+                    "text_literal": "sem",
+                    "token_ids": [
+                      "22"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_472334907549954048l",
+                "predicate_token_id": "21",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "sem",
+                    "head": "21",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-41d00af8cd20692dc0859b84"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "O usuário fornece a continuação dois contratos sem licitação com as construtoras Galvão Engenharia e Queiroz Galvão. Sem22 é fragmento de qualificação privativa MNR do contrato21, não Arg1 nem negação da existência de contratos. Licitação e construtoras entram no contexto complementar, não como tokens inventados. Hoje continua da contestação e 14 dias da aprovação; não atribuir datas aos contratos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_472334907549954048l",
+                "source_argument_token_id": "22",
+                "source_predicate_token_id": "21",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_472334907549954048l::contrato::token=21"
           }
         },
         {
@@ -235,6 +459,74 @@
           "instance_id": "dante_01_453164729242894336l::contrato::1",
           "predicate": {
             "form": "contratos"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-40f6a7d9f5fa6ac057f35482",
+              "native_instance_id": "dante_01_453164729242894336l::contrato::1",
+              "label": "ARGM-MNR",
+              "realization": "licitação",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 91,
+                    "end": 100,
+                    "text_literal": "licitação",
+                    "token_ids": [
+                      "19"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453164729242894336l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "licitação",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Sem licitação caracteriza o procedimento de contratação, não inexistência dos contratos. Propor MNR em licitação; desde 2011 exige escopo separado e não entra nesta proposta.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453164729242894336l",
+                "source_argument_token_id": "19",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453164729242894336l::contrato::1"
           }
         },
         {
@@ -257,6 +549,74 @@
           "instance_id": "dante_01_456146151402524674l::contrato::1",
           "predicate": {
             "form": "contratos"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-e2177c6fdfb5920f9da82016",
+              "native_instance_id": "dante_01_456146151402524674l::contrato::1",
+              "label": "ARGM-MNR",
+              "realization": "licitação",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 24,
+                    "end": 33,
+                    "text_literal": "licitação",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456146151402524674l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "licitação",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Os contratos existem e foram celebrados sem licitação; descreve procedimento, não nega o contrato. Núcleo licitação.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_456146151402524674l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_456146151402524674l::contrato::1"
           }
         },
         {
@@ -384,6 +744,11 @@
         },
         "Arg2": {
           "flat:name": 1,
+          "nmod": 3
+        },
+        "ARGM-MNR": {
+          "amod": 1,
+          "conj": 1,
           "nmod": 3
         },
         "Arg3": {

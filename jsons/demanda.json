@@ -47,6 +47,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446682266539143169l::demanda::token=23",
+          "predicate": {
+            "form": "demanda",
+            "source_token_id": "23",
+            "source_form": "demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-65d93c0657cbc8f15424d53a",
+              "native_instance_id": "dante_01_446682266539143169l::demanda::token=23",
+              "label": "ARGM-EXT",
+              "realization": "larga",
+              "integration_binding": {
+                "source_predicate_token_id": "23",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 105,
+                    "end": 110,
+                    "text_literal": "larga",
+                    "token_ids": [
+                      "22"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_446682266539143169l",
+                "predicate_token_id": "23",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "larga",
+                    "head": "23",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "De é preposição, não núcleo de grau. Remover EXT em de e propor EXT no adjetivo larga que gradua demanda; guia 4.1 e 4.2.4.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_446682266539143169l",
+                "source_argument_token_id": "22",
+                "source_predicate_token_id": "23",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_446682266539143169l::demanda::token=23"
           }
         },
         {
@@ -65,6 +141,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464738307692191744l::demanda::token=14",
+          "predicate": {
+            "form": "demanda",
+            "source_token_id": "14",
+            "source_form": "demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-89eb6fe18997849ca89c5955",
+              "native_instance_id": "dante_01_464738307692191744l::demanda::token=14",
+              "label": "ARGM-MNR",
+              "realization": "medida",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 86,
+                    "end": 92,
+                    "text_literal": "medida",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "acl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_464738307692191744l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "medida",
+                    "head": "14",
+                    "deprel": "acl"
+                  }
+                ],
+                "deprels": [
+                  "acl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-89eb6fe18997849ca89c5955"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-89eb6fe18997849ca89c5955"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_464738307692191744l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "14",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_464738307692191744l::demanda::token=14"
           }
         },
         {
@@ -83,6 +239,152 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470183485622460416l::demanda::token=15",
+          "predicate": {
+            "form": "Demanda",
+            "source_token_id": "15",
+            "source_form": "Demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a5ac650d9b7e93c43d610a3f",
+              "native_instance_id": "dante_01_470183485622460416l::demanda::token=15",
+              "label": "ARGM-MNR",
+              "realization": "fraca",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 82,
+                    "text_literal": "fraca",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_470183485622460416l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "fraca",
+                    "head": "15",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-a5ac650d9b7e93c43d610a3f"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-a5ac650d9b7e93c43d610a3f"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_470183485622460416l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-9331e9a8adbb1b2421cc0ebe",
+              "native_instance_id": "dante_01_470183485622460416l::demanda::token=15",
+              "label": "ARGM-TMP",
+              "realization": "trimestre",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "20"
+                ],
+                "source_head_token_id": "20",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 94,
+                    "end": 103,
+                    "text_literal": "trimestre",
+                    "token_ids": [
+                      "20"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_470183485622460416l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "20"
+                ],
+                "heads": [
+                  {
+                    "id": "20",
+                    "form": "trimestre",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-9331e9a8adbb1b2421cc0ebe"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-9331e9a8adbb1b2421cc0ebe"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_470183485622460416l",
+                "source_argument_token_id": "20",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_470183485622460416l::demanda::token=15"
           }
         },
         {
@@ -101,6 +403,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443166622409560064l::demanda::token=12",
+          "predicate": {
+            "form": "demanda",
+            "source_token_id": "12",
+            "source_form": "demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-7c7f019d7b9b59df6f707086",
+              "native_instance_id": "dante_01_443166622409560064l::demanda::token=12",
+              "label": "ARGM-EXT",
+              "realization": "bi",
+              "integration_binding": {
+                "source_predicate_token_id": "12",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "text_literal": "bi",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_443166622409560064l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "bi",
+                    "head": "13",
+                    "deprel": "obj"
+                  }
+                ],
+                "deprels": [
+                  "obj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-1c77cc4fa3037a1ae9ff419c"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Demand.01 inclui demanda por produtos nos próprios exemplos. US$22 bi mede a demanda, não é o produto demandado: retira-se Arg1 do montante e propõe-se EXT em bi, núcleo da medida. Nenhum título, comprador ou destinatário ausente é acrescentado.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_443166622409560064l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "12",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443166622409560064l::demanda::token=12"
           }
         },
         {
@@ -119,6 +499,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443052011161157632l::demanda::token=10",
+          "predicate": {
+            "form": "demanda",
+            "source_token_id": "10",
+            "source_form": "demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f4c5f9be3462f66f227ae2ca",
+              "native_instance_id": "dante_01_443052011161157632l::demanda::token=10",
+              "label": "ARGM-EXT",
+              "realization": "bi",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 83,
+                    "end": 85,
+                    "text_literal": "bi",
+                    "token_ids": [
+                      "14"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443052011161157632l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "bi",
+                    "head": "11",
+                    "deprel": "obj"
+                  }
+                ],
+                "deprels": [
+                  "obj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "O XML demand.01 licencia demanda por produtos; bônus é o objeto em Arg1. US$12 bi é a magnitude da demanda: propõe-se EXT em bi, preservando bônus e sem inferir investidores.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_443052011161157632l",
+                "source_argument_token_id": "14",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443052011161157632l::demanda::token=10"
           }
         },
         {
@@ -155,6 +611,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443069104740917248l::demanda::token=8",
+          "predicate": {
+            "form": "demanda",
+            "source_token_id": "8",
+            "source_form": "demanda",
+            "lemma": "demanda",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-2a07a7f99ddc30e91c32ebb7",
+              "native_instance_id": "dante_01_443069104740917248l::demanda::token=8",
+              "label": "ARGM-EXT",
+              "realization": "bi",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 80,
+                    "end": 82,
+                    "text_literal": "bi",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443069104740917248l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "bi",
+                    "head": "9",
+                    "deprel": "obj"
+                  }
+                ],
+                "deprels": [
+                  "obj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Demanda por bônus está coberta pelos exemplos de demand.01. Bônus permanece Arg1; US$12 bi é medida da demanda, não o montante R$12 no comentário posterior. EXT é proposto apenas em bi da primeira oração.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_443069104740917248l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443069104740917248l::demanda::token=8"
           }
         }
       ],
@@ -166,6 +698,17 @@
           "amod": 1,
           "obj": 1,
           "nmod": 5
+        },
+        "ARGM-EXT": {
+          "amod": 1,
+          "obj": 3
+        },
+        "ARGM-MNR": {
+          "acl": 1,
+          "amod": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 1
         }
       }
     }

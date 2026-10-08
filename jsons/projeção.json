@@ -65,6 +65,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462312886463787008l::projeção::token=12",
+          "predicate": {
+            "form": "projeções",
+            "source_token_id": "12",
+            "source_form": "projeções",
+            "lemma": "projeção",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c993f2c74ad56d05dee9293c",
+              "native_instance_id": "dante_01_462312886463787008l::projeção::token=12",
+              "label": "ARGM-MNR",
+              "realization": "#Fibonacci",
+              "integration_binding": {
+                "source_predicate_token_id": "12",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 87,
+                    "text_literal": "#Fibonacci",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_462312886463787008l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "#Fibonacci",
+                    "head": "12",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-92d0097f3e521d75cd99d0ac"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Fibonacci identifica o método técnico empregado nas projeções do gráfico, não o autor vivo nem o conteúdo previsto. A leitura metonímica local recebe MNR de método; PETR4 permanece secondary-theme Arg3 da proposta V8. Manhã data receber o gráfico. A interpretação é adjudicação contextual, não intenção original recuperada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_462312886463787008l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "12",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_462312886463787008l::projeção::token=12"
           }
         },
         {
@@ -119,6 +197,146 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464362361244381184l::projeção::token=11",
+          "predicate": {
+            "form": "Projecoes",
+            "source_token_id": "11",
+            "source_form": "Projecoes",
+            "lemma": "projeção",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c684d43e7cfed81fd5d0da1a",
+              "native_instance_id": "dante_01_464362361244381184l::projeção::token=11",
+              "label": "ARGM-MNR",
+              "realization": "Financeiras",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 61,
+                    "end": 72,
+                    "text_literal": "Financeiras",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_464362361244381184l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "Financeiras",
+                    "head": "11",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-71e3c17e4236ca0d17b6571e"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Financeiras classifica o tema das projeções e recebe MNR conforme TOPICADJ do manual, que exemplifica financial. Não é conteúdo previsto Arg1. Ano de 2014 é horizonte temporal da projeção e mantém TMP, sem inventar data de publicação.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_464362361244381184l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "11",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-0619ca5f8e6ffb3ed27e8ae4",
+              "native_instance_id": "dante_01_464362361244381184l::projeção::token=11",
+              "label": "ARGM-TMP",
+              "realization": "Ano",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 80,
+                    "end": 83,
+                    "text_literal": "Ano",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_464362361244381184l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Ano",
+                    "head": "11",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Para o Ano de 2014 delimita o horizonte temporal das projeções; o núcleo UD do sintagma é Ano, não 2014.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_464362361244381184l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "11",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_464362361244381184l::projeção::token=11"
           }
         },
         {
@@ -173,6 +391,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453198293934559232l::projeção::token=10",
+          "predicate": {
+            "form": "projeção",
+            "source_token_id": "10",
+            "source_form": "projeção",
+            "lemma": "projeção",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-e9b5efd847c1fe8a8b006265",
+              "native_instance_id": "dante_01_453198293934559232l::projeção::token=10",
+              "label": "ARGM-TMP",
+              "realization": "ainda",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 31,
+                    "end": 36,
+                    "text_literal": "ainda",
+                    "token_ids": [
+                      "8"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453198293934559232l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "ainda",
+                    "head": "9",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Ainda expressa persistência temporal de ter projeção de baixa. Só, na oração anterior, não pertence a projeção.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453198293934559232l",
+                "source_argument_token_id": "8",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453198293934559232l::projeção::token=10"
           }
         },
         {
@@ -209,6 +503,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441221519025262592l::projeção::token=1",
+          "predicate": {
+            "form": "Projeção",
+            "source_token_id": "1",
+            "source_form": "Projeção",
+            "lemma": "projeção",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-419d9db842262783af9034f8",
+              "native_instance_id": "dante_01_441221519025262592l::projeção::token=1",
+              "label": "ARGM-CAU",
+              "realization": "função",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 49,
+                    "end": 55,
+                    "text_literal": "função",
+                    "token_ids": [
+                      "11"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_441221519025262592l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "função",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-419d9db842262783af9034f8"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-419d9db842262783af9034f8"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_441221519025262592l",
+                "source_argument_token_id": "11",
+                "source_predicate_token_id": "1",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_441221519025262592l::projeção::token=1"
           }
         }
       ],
@@ -223,7 +597,18 @@
           "nmod": 7,
           "discourse": 1
         },
+        "ARGM-MNR": {
+          "nmod": 1,
+          "amod": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 1,
+          "advmod": 1
+        },
         "Arg3": {
+          "nmod": 1
+        },
+        "ARGM-CAU": {
           "nmod": 1
         }
       }

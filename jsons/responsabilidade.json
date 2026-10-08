@@ -47,6 +47,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461138223201533952l::responsabilidade::token=9",
+          "predicate": {
+            "form": "RESPONSABILIDADE",
+            "source_token_id": "9",
+            "source_form": "RESPONSABILIDADE",
+            "lemma": "responsabilidade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-367171a9ad364211367743ea",
+              "native_instance_id": "dante_01_461138223201533952l::responsabilidade::token=9",
+              "label": "ARGM-SRC",
+              "realization": "%",
+              "integration_binding": {
+                "source_predicate_token_id": "9",
+                "source_token_ids": [
+                  "5"
+                ],
+                "source_head_token_id": "5",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 17,
+                    "end": 18,
+                    "text_literal": "%",
+                    "token_ids": [
+                      "5"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461138223201533952l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "5"
+                ],
+                "heads": [
+                  {
+                    "id": "5",
+                    "form": "%",
+                    "head": "8",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Para 33,4% expressa a parcela dos respondentes que atribui responsabilidade a Dilma: é fonte da avaliação, não intensidade da responsabilidade. Propõe-se SRC no núcleo %; RTRS é veículo e CNT/MDA é identificação da pesquisa, sem duplicação automática de todos como fontes da mesma predicação.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_461138223201533952l",
+                "source_argument_token_id": "5",
+                "source_predicate_token_id": "9",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_461138223201533952l::responsabilidade::token=9"
           }
         }
       ],
@@ -56,6 +132,9 @@
         },
         "Arg1": {
           "nmod": 1
+        },
+        "ARGM-SRC": {
+          "obl": 1
         }
       }
     }

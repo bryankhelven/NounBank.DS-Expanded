@@ -101,6 +101,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449250160464625664l::daytrade::token=2",
+          "predicate": {
+            "form": "trade",
+            "source_token_id": "2",
+            "source_form": "trade",
+            "lemma": "daytrade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1c1f019467061f859c7179d9",
+              "native_instance_id": "dante_01_449250160464625664l::daytrade::token=2",
+              "label": "ARGM-TMP",
+              "realization": "27-03-14",
+              "integration_binding": {
+                "source_predicate_token_id": "2",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 82,
+                    "end": 90,
+                    "text_literal": "27-03-14",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_449250160464625664l",
+                "predicate_token_id": "2",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "27-03-14",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "27-03-14 data o Day Trade VALE5 do título. A avaliação da liquidez aparece em oração distinta. Propor apenas TMP no token 16.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_449250160464625664l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "2",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449250160464625664l::daytrade::token=2"
           }
         },
         {
@@ -119,6 +195,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448159009464664064l::daytrade::token=2",
+          "predicate": {
+            "form": "trade",
+            "source_token_id": "2",
+            "source_form": "trade",
+            "lemma": "daytrade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-717bb01544806d69f238748f",
+              "native_instance_id": "dante_01_448159009464664064l::daytrade::token=2",
+              "label": "ARGM-TMP",
+              "realization": "24/03/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "2",
+                "source_token_ids": [
+                  "20"
+                ],
+                "source_head_token_id": "20",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 94,
+                    "end": 104,
+                    "text_literal": "24/03/2014",
+                    "token_ids": [
+                      "20"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_448159009464664064l",
+                "predicate_token_id": "2",
+                "token_ids": [
+                  "20"
+                ],
+                "heads": [
+                  {
+                    "id": "20",
+                    "form": "24-03-14",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "24-03-14 data o trade apresentado no título Day trade VALE5. É data da operação descrita, não data de indicação ou postagem subordinada. Propor TMP no token 20. Espetacular, no início, não justifica sozinho um segundo ARGM.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_448159009464664064l",
+                "source_argument_token_id": "20",
+                "source_predicate_token_id": "2",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_448159009464664064l::daytrade::token=2"
           }
         },
         {
@@ -163,6 +315,74 @@
           "instance_id": "dante_01_446350618240630784l::daytrade::1",
           "predicate": {
             "form": "#daytrade"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-0da8d1832d1ec619edfd0676",
+              "native_instance_id": "dante_01_446350618240630784l::daytrade::1",
+              "label": "ARGM-TMP",
+              "realization": "hj",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 79,
+                    "text_literal": "hj",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_446350618240630784l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "hj",
+                    "head": "13",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Hj situa se dar bem no daytrade, a operação explicitamente descrita no segundo enunciado. Propor TMP no token 16 para daytrade (19). Muito bem é avaliação do resultado, não maneira de executar o trade.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_446350618240630784l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "19",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_446350618240630784l::daytrade::1"
           }
         }
       ],
@@ -171,6 +391,10 @@
           "root": 2,
           "nmod": 4,
           "obj": 1
+        },
+        "ARGM-TMP": {
+          "obl": 2,
+          "advmod": 1
         }
       }
     }

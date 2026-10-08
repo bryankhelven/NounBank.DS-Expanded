@@ -69,6 +69,84 @@
                 "nmod"
               ]
             }
+          },
+          "instance_id": "dante_01_444463565375033344l::briga::token=4",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "4",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c979e0dfa6e2cb42d15e1657",
+              "native_instance_id": "dante_01_444463565375033344l::briga::token=4",
+              "label": "ARGM-LOC",
+              "realization": "12,94",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 20,
+                    "end": 25,
+                    "text_literal": "12,94",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444463565375033344l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "12,94",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-bdf2a3d9ab8fa6eea3c900ca"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "12,94 é nível de preço na briga metafórica; harmonizar Arg2 para LOC virtual. Petr4 permanece participante metonímico literal.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_444463565375033344l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444463565375033344l::briga::token=4"
           }
         },
         {
@@ -109,6 +187,84 @@
                 "obl"
               ]
             }
+          },
+          "instance_id": "dante_01_449601961852403713l::briga::token=10",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "10",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-465725113b321b7a37b39011",
+              "native_instance_id": "dante_01_449601961852403713l::briga::token=10",
+              "label": "ARGM-LOC",
+              "realization": "15,35",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 46,
+                    "end": 51,
+                    "text_literal": "15,35",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449601961852403713l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "15,35",
+                    "head": "9",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-33467d041583faf531b1ae2e"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Preço 15,35 é a mesma coordenada do retweet 58; harmonizar Arg2 para LOC virtual. Agora data vi, não briga.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449601961852403713l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449601961852403713l::briga::token=10"
           }
         },
         {
@@ -149,6 +305,84 @@
                 "nmod"
               ]
             }
+          },
+          "instance_id": "dante_01_449627192734265344l::briga::token=19",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "19",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-03f9b8ebfd95f320d41d3c4f",
+              "native_instance_id": "dante_01_449627192734265344l::briga::token=19",
+              "label": "ARGM-LOC",
+              "realization": "15,35",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "21"
+                ],
+                "source_head_token_id": "21",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 82,
+                    "text_literal": "15,35",
+                    "token_ids": [
+                      "21"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449627192734265344l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "21"
+                ],
+                "heads": [
+                  {
+                    "id": "21",
+                    "form": "15,35",
+                    "head": "19",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-92c46231f647456fe49a265f"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Adjudicação local de extensão de LOC virtual (§11.2): em 15,35 localiza a disputa num nível de preço; não é objeto disputado/spoils. Acrescenta-se ARGM-LOC no núcleo 15,35 para briga:19. King Kong permanece participante escrito, sem expansão para fundo ou investidor. Não se cria papel numerado nem se altera fight.01; a metáfora não suprime o participante expresso.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449627192734265344l",
+                "source_argument_token_id": "21",
+                "source_predicate_token_id": "19",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449627192734265344l::briga::token=19"
           }
         },
         {
@@ -243,6 +477,84 @@
                 "nummod"
               ]
             }
+          },
+          "instance_id": "dante_01_446999581071790081l::briga::token=8",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "8",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-7123fbca1f7f3a542b4eaa89",
+              "native_instance_id": "dante_01_446999581071790081l::briga::token=8",
+              "label": "ARGM-LOC",
+              "realization": "13,5",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 39,
+                    "end": 43,
+                    "text_literal": "13,5",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nummod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_446999581071790081l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "13,50",
+                    "head": "11",
+                    "deprel": "nummod"
+                  }
+                ],
+                "deprels": [
+                  "nummod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-3404d241ccf8954b15bb4d42"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "13,50 é coordenada de preço onde se trava briga metafórica, não espólio disputado; harmonizar LOC virtual com V12.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_446999581071790081l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_446999581071790081l::briga::token=8"
           }
         },
         {
@@ -261,6 +573,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458619519691685888l::briga::token=26",
+          "predicate": {
+            "form": "Briga",
+            "source_token_id": "26",
+            "source_form": "Briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-4a982171999d9497e7023a44",
+              "native_instance_id": "dante_01_458619519691685888l::briga::token=26",
+              "label": "ARGM-MNR",
+              "realization": "pesada",
+              "integration_binding": {
+                "source_predicate_token_id": "26",
+                "source_token_ids": [
+                  "27"
+                ],
+                "source_head_token_id": "27",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 123,
+                    "end": 129,
+                    "text_literal": "pesada",
+                    "token_ids": [
+                      "27"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458619519691685888l",
+                "predicate_token_id": "26",
+                "token_ids": [
+                  "27"
+                ],
+                "heads": [
+                  {
+                    "id": "27",
+                    "form": "pesada",
+                    "head": "26",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-4a982171999d9497e7023a44"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-4a982171999d9497e7023a44"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_458619519691685888l",
+                "source_argument_token_id": "27",
+                "source_predicate_token_id": "26",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_458619519691685888l::briga::token=26"
           }
         },
         {
@@ -279,23 +671,212 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450996130533613569l::briga::token=14",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "14",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c3fca40975029e5096994fb2",
+              "native_instance_id": "dante_01_450996130533613569l::briga::token=14",
+              "label": "ARGM-MNR",
+              "realization": "boa",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 57,
+                    "end": 60,
+                    "text_literal": "boa",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_450996130533613569l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "boa",
+                    "head": "14",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-c3fca40975029e5096994fb2"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-c3fca40975029e5096994fb2"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_450996130533613569l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "14",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_450996130533613569l::briga::token=14"
+          }
+        },
+        {
+          "sent_ID": "dante_01_453145450930245632l",
+          "text": "@Live_Trade @brunomaca1 RS, briga até o final deste mandato! Tadinha da petr4...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "recovery_provenance": {
+            "reason": "Predicador revisto na camada histórica e ausente da projeção pública; recuperado da sentença e do token exatos.",
+            "source_roleset": "briga.01"
+          },
+          "instance_id": "dante_01_453145450930245632l::briga::token=5",
+          "predicate": {
+            "form": "briga",
+            "source_token_id": "5",
+            "source_form": "briga",
+            "lemma": "briga",
+            "upos": "VERB"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c8b697fec819f7c43b4d1e63",
+              "native_instance_id": "dante_01_453145450930245632l::briga::token=5",
+              "label": "ARGM-TMP",
+              "realization": "final",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 40,
+                    "end": 45,
+                    "text_literal": "final",
+                    "token_ids": [
+                      "8"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453145450930245632l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "final",
+                    "head": "5",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "O usuário explica briga como exclamação descritiva equivalente a só tem briga até o final do mandato, não ordem para alguém brigar. Adotar leitura nominal elíptica briga.01; final8 é limite temporal TMP. Não criar combatentes por vocativos ou mandato.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453145450930245632l",
+                "source_argument_token_id": "8",
+                "source_predicate_token_id": "5",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453145450930245632l::briga::token=5"
           }
         }
       ],
       "syntactic_profile": {
         "Arg0": {
-          "flat:name": 2,
-          "nmod": 2,
           "nsubj": 4,
-          "obj": 1
+          "flat:name": 2,
+          "obj": 1,
+          "nmod": 2
         },
         "Arg2": {
           "nmod": 5,
-          "nummod": 1,
-          "obl": 1
+          "obl": 1,
+          "nummod": 1
+        },
+        "ARGM-LOC": {
+          "nmod": 2,
+          "obl": 1,
+          "nummod": 1
         },
         "Arg1": {
           "nmod": 1
+        },
+        "ARGM-MNR": {
+          "amod": 2
+        },
+        "ARGM-TMP": {
+          "obl": 1
         }
       }
     }

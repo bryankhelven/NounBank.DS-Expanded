@@ -65,6 +65,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446658495862292480l::medo::token=3",
+          "predicate": {
+            "form": "medo",
+            "source_token_id": "3",
+            "source_form": "medo",
+            "lemma": "medo",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-83c8b9d6ef6c14a28ded0cd1",
+              "native_instance_id": "dante_01_446658495862292480l::medo::token=3",
+              "label": "ARGM-NEG",
+              "realization": "sem",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "2"
+                ],
+                "source_head_token_id": "2",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 7,
+                    "end": 10,
+                    "text_literal": "sem",
+                    "token_ids": [
+                      "2"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "case",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_446658495862292480l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "2"
+                ],
+                "heads": [
+                  {
+                    "id": "2",
+                    "form": "sem",
+                    "head": "3",
+                    "deprel": "case"
+                  }
+                ],
+                "deprels": [
+                  "case"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Sem medo nega expressamente a presença do medo de errar. O marcador é sem (2); errar permanece o tema de medo. A negação não deve ser perdida porque não usa a palavra não.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_446658495862292480l",
+                "source_argument_token_id": "2",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_446658495862292480l::medo::token=3"
           }
         },
         {
@@ -101,6 +177,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449629179051790336l::medo::token=6",
+          "predicate": {
+            "form": "medo",
+            "source_token_id": "6",
+            "source_form": "medo",
+            "lemma": "medo",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-755f48a489275c0c0d4bec7b",
+              "native_instance_id": "dante_01_449629179051790336l::medo::token=6",
+              "label": "ARGM-EXT",
+              "realization": "cagando",
+              "integration_binding": {
+                "source_predicate_token_id": "6",
+                "source_token_ids": [
+                  "4"
+                ],
+                "source_head_token_id": "4",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 18,
+                    "end": 25,
+                    "text_literal": "cagando",
+                    "token_ids": [
+                      "4"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "root",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449629179051790336l",
+                "predicate_token_id": "6",
+                "token_ids": [
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "cagando",
+                    "head": "0",
+                    "deprel": "root"
+                  }
+                ],
+                "deprels": [
+                  "root"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Cagando de medo é expressão intensificadora do medo, não descrição literal de uma maneira de sentir. O frame descreve experiencer e theme, sem slot de intensidade definido. Propor EXT no núcleo verbal cagando (4); a data 24/03 refere-se à posição na oração seguinte.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449629179051790336l",
+                "source_argument_token_id": "4",
+                "source_predicate_token_id": "6",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449629179051790336l::medo::token=6"
           }
         }
       ],
@@ -110,8 +262,14 @@
           "acl": 1,
           "nmod": 2
         },
+        "ARGM-NEG": {
+          "case": 1
+        },
         "Arg0": {
           "nsubj": 1
+        },
+        "ARGM-EXT": {
+          "root": 1
         }
       }
     }

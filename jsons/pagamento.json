@@ -101,6 +101,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448080834743238656l::pagamento::token=15",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "15",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-af08460ee90b8e5422402347",
+              "native_instance_id": "dante_01_448080834743238656l::pagamento::token=15",
+              "label": "ARGM-TMP",
+              "realization": "21/05/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 80,
+                    "end": 90,
+                    "text_literal": "21/05/2014",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_448080834743238656l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "21/5/2014",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Data 21/5/2014 é explicitamente o campo de pagamento, não data-ex ou aprovação.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_448080834743238656l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_448080834743238656l::pagamento::token=15"
           }
         },
         {
@@ -155,6 +231,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449160391227346944l::pagamento::token=10",
+          "predicate": {
+            "form": "pg",
+            "source_token_id": "10",
+            "source_form": "pg",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-08a8975926488bea9966083c",
+              "native_instance_id": "dante_01_449160391227346944l::pagamento::token=10",
+              "label": "ARGM-TMP",
+              "realization": "28/8/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 51,
+                    "end": 60,
+                    "text_literal": "28/8/2014",
+                    "token_ids": [
+                      "11"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449160391227346944l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "28/8/2014",
+                    "head": "10",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-08a8975926488bea9966083c"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-08a8975926488bea9966083c"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449160391227346944l",
+                "source_argument_token_id": "11",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449160391227346944l::pagamento::token=10"
           }
         },
         {
@@ -227,6 +383,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446638880327229441l::pagamento::token=18",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "18",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f47096386089707ac293023c",
+              "native_instance_id": "dante_01_446638880327229441l::pagamento::token=18",
+              "label": "ARGM-TMP",
+              "realization": "22/4/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 106,
+                    "text_literal": "22/4/2014",
+                    "token_ids": [
+                      "19"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_446638880327229441l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "22/4/2014",
+                    "head": "18",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-f47096386089707ac293023c"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-f47096386089707ac293023c"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_446638880327229441l",
+                "source_argument_token_id": "19",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_446638880327229441l::pagamento::token=18"
           }
         },
         {
@@ -263,6 +499,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449175205903335427l::pagamento::token=13",
+          "predicate": {
+            "form": "pg",
+            "source_token_id": "13",
+            "source_form": "pg",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-5a841fa477c3f9a136f98f82",
+              "native_instance_id": "dante_01_449175205903335427l::pagamento::token=13",
+              "label": "ARGM-TMP",
+              "realization": "28/8/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "13",
+                "source_token_ids": [
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 70,
+                    "end": 79,
+                    "text_literal": "28/8/2014",
+                    "token_ids": [
+                      "14"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449175205903335427l",
+                "predicate_token_id": "13",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "28/8/2014",
+                    "head": "13",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-5a841fa477c3f9a136f98f82"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-5a841fa477c3f9a136f98f82"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449175205903335427l",
+                "source_argument_token_id": "14",
+                "source_predicate_token_id": "13",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449175205903335427l::pagamento::token=13"
           }
         },
         {
@@ -299,6 +615,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462227745637138432l::pagamento::token=14",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "14",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-035895e79f9f0fe87d671163",
+              "native_instance_id": "dante_01_462227745637138432l::pagamento::token=14",
+              "label": "ARGM-TMP",
+              "realization": "16/06/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 73,
+                    "end": 83,
+                    "text_literal": "16/06/2014",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_462227745637138432l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "16/6/2014",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Data-ex é data de negociação sem direito ao provento, não data do pagamento. Remover ligação da data-ex a pagto; não marcar evento ausente por inferência.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_462227745637138432l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "14",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_462227745637138432l::pagamento::token=14"
           }
         },
         {
@@ -335,6 +727,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461553439965974528l::pagamento::token=14",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "14",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-2a371de098b5f8ee420e3dbd",
+              "native_instance_id": "dante_01_461553439965974528l::pagamento::token=14",
+              "label": "ARGM-TMP",
+              "realization": "15/05/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 81,
+                    "end": 91,
+                    "text_literal": "15/05/2014",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461553439965974528l",
+                "predicate_token_id": "14",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "15/5/2014",
+                    "head": "14",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Data 15/5/2014 é explicitamente o campo de pagamento; aprovação e data-ex são separados.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_461553439965974528l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "14",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_461553439965974528l::pagamento::token=14"
           }
         },
         {
@@ -353,6 +821,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449657325595660288l::pagamento::token=15",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "15",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-230f2a18092df5997103c8b4",
+              "native_instance_id": "dante_01_449657325595660288l::pagamento::token=15",
+              "label": "ARGM-TMP",
+              "realization": "28/05/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 80,
+                    "end": 90,
+                    "text_literal": "28/05/2014",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449657325595660288l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "28/5/2014",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-230f2a18092df5997103c8b4"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-230f2a18092df5997103c8b4"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449657325595660288l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449657325595660288l::pagamento::token=15"
           }
         },
         {
@@ -371,6 +919,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459684982190268416l::pagamento::token=15",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "15",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-5701c35214c79d587e325b78",
+              "native_instance_id": "dante_01_459684982190268416l::pagamento::token=15",
+              "label": "ARGM-TMP",
+              "realization": "15/5/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 83,
+                    "end": 92,
+                    "text_literal": "15/5/2014",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459684982190268416l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "15/5/2014",
+                    "head": "15",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-5701c35214c79d587e325b78"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-5701c35214c79d587e325b78"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_459684982190268416l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_459684982190268416l::pagamento::token=15"
           }
         },
         {
@@ -407,6 +1035,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461555333207707648l::pagamento::token=17",
+          "predicate": {
+            "form": "pagto",
+            "source_token_id": "17",
+            "source_form": "pagto",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-afc106f28b714411cfeeeb91",
+              "native_instance_id": "dante_01_461555333207707648l::pagamento::token=17",
+              "label": "ARGM-TMP",
+              "realization": "15/05/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "18"
+                ],
+                "source_head_token_id": "18",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 100,
+                    "end": 110,
+                    "text_literal": "15/05/2014",
+                    "token_ids": [
+                      "18"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461555333207707648l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "15/5/2014",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-afc106f28b714411cfeeeb91"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-afc106f28b714411cfeeeb91"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_461555333207707648l",
+                "source_argument_token_id": "18",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_461555333207707648l::pagamento::token=17"
           }
         },
         {
@@ -497,6 +1205,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445913773539598336l::pagamento::token=8",
+          "predicate": {
+            "form": "Pagamento",
+            "source_token_id": "8",
+            "source_form": "Pagamento",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f4ef6affd9a66f9634765293",
+              "native_instance_id": "dante_01_445913773539598336l::pagamento::token=8",
+              "label": "ARGM-TMP",
+              "realization": "Mensais",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 75,
+                    "end": 82,
+                    "text_literal": "Mensais",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_445913773539598336l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Mensais",
+                    "head": "10",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Juros são natureza Arg3 e mensais frequência TMP do pagamento; capital próprio completa juros, não é quantia paga. Apoio de domínio: RI oficial distingue JCP mensais e datas de pagamento; notícia contemporânea de 2014 descreve sistemática mensal. Isso sustenta periodicidade TMP, sem recuperar o shortlink nem importar data.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_445913773539598336l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_445913773539598336l::pagamento::token=8"
           }
         },
         {
@@ -515,6 +1299,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456409905574854656l::pagamento::token=8",
+          "predicate": {
+            "form": "Pagamento",
+            "source_token_id": "8",
+            "source_form": "Pagamento",
+            "lemma": "pagamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-bde500577696a235293b8ba9",
+              "native_instance_id": "dante_01_456409905574854656l::pagamento::token=8",
+              "label": "ARGM-TMP",
+              "realization": "Mensais",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 75,
+                    "end": 82,
+                    "text_literal": "Mensais",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456409905574854656l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Mensais",
+                    "head": "10",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Juros Arg3 e Mensais TMP como controle25; não inferir datas diárias. Apoio de domínio: RI oficial distingue JCP mensais e datas de pagamento; notícia contemporânea de 2014 descreve sistemática mensal. Isso sustenta periodicidade TMP, sem recuperar o shortlink nem importar data.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_456409905574854656l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_456409905574854656l::pagamento::token=8"
           }
         },
         {
@@ -673,6 +1533,10 @@
           "nmod": 3,
           "case": 1,
           "amod": 6
+        },
+        "ARGM-TMP": {
+          "nmod": 9,
+          "amod": 2
         },
         "Arg1": {
           "nmod": 1,

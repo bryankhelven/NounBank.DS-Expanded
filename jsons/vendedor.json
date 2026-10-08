@@ -65,6 +65,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444100391253585920l::vendedor::token=8",
+          "predicate": {
+            "form": "vendedor",
+            "source_token_id": "8",
+            "source_form": "vendedor",
+            "lemma": "vendedor",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-aef18056c34a485bfaad87d0",
+              "native_instance_id": "dante_01_444100391253585920l::vendedor::token=8",
+              "label": "ARGM-TMP",
+              "realization": "longo",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "13"
+                ],
+                "source_head_token_id": "13",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 68,
+                    "end": 73,
+                    "text_literal": "longo",
+                    "token_ids": [
+                      "13"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444100391253585920l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "13"
+                ],
+                "heads": [
+                  {
+                    "id": "13",
+                    "form": "longo",
+                    "head": "8",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-aef18056c34a485bfaad87d0"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-aef18056c34a485bfaad87d0"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_444100391253585920l",
+                "source_argument_token_id": "13",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444100391253585920l::vendedor::token=8"
           }
         },
         {
@@ -93,6 +173,9 @@
       "syntactic_profile": {
         "Arg1": {
           "nmod": 3
+        },
+        "ARGM-TMP": {
+          "nmod": 1
         },
         "Arg0": {
           "nsubj": 1

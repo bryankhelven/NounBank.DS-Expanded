@@ -47,6 +47,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443754762396508160l::decisão::token=16",
+          "predicate": {
+            "form": "decisão",
+            "source_token_id": "16",
+            "source_form": "decisão",
+            "lemma": "decisão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-bf86766825632271c8bc67da",
+              "native_instance_id": "dante_01_443754762396508160l::decisão::token=16",
+              "label": "ARGM-TMP",
+              "realization": "Hj",
+              "integration_binding": {
+                "source_predicate_token_id": "16",
+                "source_token_ids": [
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 73,
+                    "end": 75,
+                    "text_literal": "Hj",
+                    "token_ids": [
+                      "14"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443754762396508160l",
+                "predicate_token_id": "16",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "Hj",
+                    "head": "15",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Hj delimita a disponibilização da decisão expressa por sai decisão. Proposta circunscrita a esse evento nominal, sem transferir a data ao julgamento.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_443754762396508160l",
+                "source_argument_token_id": "14",
+                "source_predicate_token_id": "16",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443754762396508160l::decisão::token=16"
           }
         },
         {
@@ -164,6 +240,9 @@
         },
         "Arg1": {
           "nmod": 4
+        },
+        "ARGM-TMP": {
+          "advmod": 1
         }
       }
     }

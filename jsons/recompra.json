@@ -83,6 +83,86 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_444471063641333760l::recompra::token=8",
+          "predicate": {
+            "form": "recompra",
+            "source_token_id": "8",
+            "source_form": "recompra",
+            "lemma": "recompra",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-d056fb9b13baf0ef44a4c823",
+              "native_instance_id": "dante_01_444471063641333760l::recompra::token=8",
+              "label": "ARGM-TMP",
+              "realization": "mês",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 68,
+                    "end": 71,
+                    "text_literal": "mês",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444471063641333760l",
+                "predicate_token_id": "8",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "mês",
+                    "head": "8",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-d056fb9b13baf0ef44a4c823"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-d056fb9b13baf0ef44a4c823"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_444471063641333760l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "8",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444471063641333760l::recompra::token=8"
           }
         },
         {
@@ -173,6 +253,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468731360044384256l::recompra::token=22",
+          "predicate": {
+            "form": "recompra",
+            "source_token_id": "22",
+            "source_form": "recompra",
+            "lemma": "recompra",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a5d88e8b54830615789f6817",
+              "native_instance_id": "dante_01_468731360044384256l::recompra::token=22",
+              "label": "ARGM-TMP",
+              "realization": "semana",
+              "integration_binding": {
+                "source_predicate_token_id": "22",
+                "source_token_ids": [
+                  "26"
+                ],
+                "source_head_token_id": "26",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 127,
+                    "end": 133,
+                    "text_literal": "semana",
+                    "token_ids": [
+                      "26"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "appos",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_468731360044384256l",
+                "predicate_token_id": "22",
+                "token_ids": [
+                  "26"
+                ],
+                "heads": [
+                  {
+                    "id": "26",
+                    "form": "semana",
+                    "head": "19",
+                    "deprel": "appos"
+                  }
+                ],
+                "deprels": [
+                  "appos"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Uma semana é o período explicitamente indicado para a segunda menção recompra (22), que não tem âncora na fonte. Não transferir por conveniência o tempo à primeira menção (7). Propor recompra.01 em 22 e TMP em semana (26), com restauração de âncora registrada separadamente; o início 20/05 é detalhe interno do intervalo.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_468731360044384256l",
+                "source_argument_token_id": "26",
+                "source_predicate_token_id": "22",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_468731360044384256l::recompra::token=22"
           }
         },
         {
@@ -191,6 +347,150 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472016320159285248l::recompra::token=11",
+          "predicate": {
+            "form": "recompras",
+            "source_token_id": "11",
+            "source_form": "recompras",
+            "lemma": "recompra",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-fc844e78b003ef350d188d6a",
+              "native_instance_id": "dante_01_472016320159285248l::recompra::token=11",
+              "label": "ARGM-MNR",
+              "realization": "monstruosas",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 52,
+                    "end": 63,
+                    "text_literal": "monstruosas",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_472016320159285248l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "monstruosas",
+                    "head": "11",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-458f48fe6d35be6b2e538380"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Monstruosas avaliação de recompra recebeMNR em lugarADV; meses é janelaTMP; e seocorreram questiona execução, nãoNEG nominal.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_472016320159285248l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "11",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-a7ad68d9c06dec73677ea35e",
+              "native_instance_id": "dante_01_472016320159285248l::recompra::token=11",
+              "label": "ARGM-TMP",
+              "realization": "meses",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "18"
+                ],
+                "source_head_token_id": "18",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 89,
+                    "end": 94,
+                    "text_literal": "meses",
+                    "token_ids": [
+                      "18"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_472016320159285248l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "meses",
+                    "head": "11",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-a7ad68d9c06dec73677ea35e"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-a7ad68d9c06dec73677ea35e"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_472016320159285248l",
+                "source_argument_token_id": "18",
+                "source_predicate_token_id": "11",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_472016320159285248l::recompra::token=11"
           }
         },
         {
@@ -263,6 +563,144 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444495896227885056l::recompra::token=4",
+          "predicate": {
+            "form": "Recompra",
+            "source_token_id": "4",
+            "source_form": "Recompra",
+            "lemma": "recompra",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-94e95b9401d1425c3a54a8e6",
+              "native_instance_id": "dante_01_444495896227885056l::recompra::token=4",
+              "label": "ARGM-TMP",
+              "realization": "14/03/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 103,
+                    "end": 113,
+                    "text_literal": "14/03/2014",
+                    "token_ids": [
+                      "19"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "appos",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444495896227885056l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "14/03/2014",
+                    "head": "11",
+                    "deprel": "appos"
+                  }
+                ],
+                "deprels": [
+                  "appos"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Janela14/03/2014–14/04/2014 explicitada como prazoderealização do programa; propor doislimitesTMP com span/metadado, sem certificar operações executadas.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_444495896227885056l",
+                "source_argument_token_id": "19",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-5d43b81adcafd251739ec9cd",
+              "native_instance_id": "dante_01_444495896227885056l::recompra::token=4",
+              "label": "ARGM-TMP",
+              "realization": "14/04/2014",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "21"
+                ],
+                "source_head_token_id": "21",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 116,
+                    "end": 126,
+                    "text_literal": "14/04/2014",
+                    "token_ids": [
+                      "21"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "conj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_444495896227885056l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "21"
+                ],
+                "heads": [
+                  {
+                    "id": "21",
+                    "form": "14/04/2014",
+                    "head": "19",
+                    "deprel": "conj"
+                  }
+                ],
+                "deprels": [
+                  "conj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Janela14/03/2014–14/04/2014 explicitada como prazoderealização do programa; propor doislimitesTMP com span/metadado, sem certificar operações executadas.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_444495896227885056l",
+                "source_argument_token_id": "21",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_444495896227885056l::recompra::token=4"
           }
         },
         {
@@ -532,6 +970,14 @@
         "Arg3": {
           "nummod": 1,
           "nmod": 1
+        },
+        "ARGM-TMP": {
+          "nmod": 2,
+          "appos": 2,
+          "conj": 1
+        },
+        "ARGM-MNR": {
+          "amod": 1
         }
       }
     }

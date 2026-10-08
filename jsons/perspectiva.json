@@ -83,6 +83,87 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456867956006588416l::perspectiva::token=4",
+          "predicate": {
+            "form": "perspectiva",
+            "source_token_id": "4",
+            "source_form": "perspectiva",
+            "lemma": "perspectiva",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a642d5a369595ed2ed54746e",
+              "native_instance_id": "dante_01_456867956006588416l::perspectiva::token=4",
+              "label": "ARGM-ADV",
+              "realization": "Apenas",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "2"
+                ],
+                "source_head_token_id": "2",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 15,
+                    "end": 21,
+                    "text_literal": "Apenas",
+                    "token_ids": [
+                      "2"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_456867956006588416l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "2"
+                ],
+                "heads": [
+                  {
+                    "id": "2",
+                    "form": "Apenas",
+                    "head": "4",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-5380e11a73be7c4ccd301eba"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-11dfdf56c551ff271782acaf",
+                  "REPO-5380e11a73be7c4ccd301eba"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Frase e tokens marcados examinados; triagem não equivale a aceite científico. Repetições da indicação verificadas pelo padrão e pela identidade dos dois alvos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_456867956006588416l",
+                "source_argument_token_id": "2",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_456867956006588416l::perspectiva::token=4"
           }
         },
         {
@@ -149,6 +230,9 @@
           "nmod": 2,
           "obj": 1,
           "obj:wtrunc": 1
+        },
+        "ARGM-ADV": {
+          "advmod": 1
         }
       }
     }

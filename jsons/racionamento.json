@@ -63,6 +63,153 @@
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null
+          },
+          "instance_id": "dante_01_455700825927872512l::racionamento::token=7",
+          "predicate": {
+            "form": "racionamento",
+            "source_token_id": "7",
+            "source_form": "racionamento",
+            "lemma": "racionamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-93d2ed9bc74b79f8541fd1ac",
+              "native_instance_id": "dante_01_455700825927872512l::racionamento::token=7",
+              "label": "ARGM-ADV",
+              "realization": "provável",
+              "integration_binding": {
+                "source_predicate_token_id": "7",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 24,
+                    "end": 32,
+                    "text_literal": "provável",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_455700825927872512l",
+                "predicate_token_id": "7",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "provável",
+                    "head": "7",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-93d2ed9bc74b79f8541fd1ac"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-93d2ed9bc74b79f8541fd1ac"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_455700825927872512l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "7",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-ae68df3e4f10af7cc37c4867",
+              "native_instance_id": "dante_01_455700825927872512l::racionamento::token=7",
+              "label": "ARGM-LOC",
+              "realization": "SP",
+              "integration_binding": {
+                "source_predicate_token_id": "7",
+                "source_token_ids": [
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 57,
+                    "end": 59,
+                    "text_literal": "SP",
+                    "token_ids": [
+                      "11"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_455700825927872512l",
+                "predicate_token_id": "7",
+                "token_ids": [
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "SP",
+                    "head": "7",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-1ae2103e233496bf998fa3c1"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-73a05dd1ea933f1880856a3f",
+                  "REPO-1ae2103e233496bf998fa3c1"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Racionamento é distribuição sujeita a limite, não shortage. Propõe-se racionamento.02: distribuidor, produto e destinatário são herdados de distribution.01, e limite de restriction.01 (Arg2 inglês adaptado a Arg3 português). Ration.01 do PropBank, com alias nominal rationing, corrobora a acepção; não substitui a primeira autoridade nominal. São Paulo é lugar, não destinatário nem limite; água é o produto.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_455700825927872512l",
+                "source_argument_token_id": "11",
+                "source_predicate_token_id": "7",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_455700825927872512l::racionamento::token=7"
           }
         },
         {
@@ -105,6 +252,82 @@
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null
+          },
+          "instance_id": "dante_01_442003384850468864l::racionamento::token=12",
+          "predicate": {
+            "form": "racionamento",
+            "source_token_id": "12",
+            "source_form": "racionamento",
+            "lemma": "racionamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-6340e7456e95b337bb9db587",
+              "native_instance_id": "dante_01_442003384850468864l::racionamento::token=12",
+              "label": "ARGM-LOC",
+              "realization": "São",
+              "integration_binding": {
+                "source_predicate_token_id": "12",
+                "source_token_ids": [
+                  "9"
+                ],
+                "source_head_token_id": "9",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 42,
+                    "end": 45,
+                    "text_literal": "São",
+                    "token_ids": [
+                      "9"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_442003384850468864l",
+                "predicate_token_id": "12",
+                "token_ids": [
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "São",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Racionamento é distribuição sujeita a limite, não shortage. Propõe-se racionamento.02: distribuidor, produto e destinatário são herdados de distribution.01, e limite de restriction.01 (Arg2 inglês adaptado a Arg3 português). Ration.01 do PropBank, com alias nominal rationing, corrobora a acepção; não substitui a primeira autoridade nominal. São Paulo é lugar, não destinatário nem limite; água é o produto.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_442003384850468864l",
+                "source_argument_token_id": "9",
+                "source_predicate_token_id": "12",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_442003384850468864l::racionamento::token=12"
           }
         },
         {
@@ -119,6 +342,153 @@
             "Arg0": null,
             "Arg1": "nmod",
             "Arg2": null
+          },
+          "instance_id": "dante_01_455700682084204544l::racionamento::token=4",
+          "predicate": {
+            "form": "racionamento",
+            "source_token_id": "4",
+            "source_form": "racionamento",
+            "lemma": "racionamento",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-89f5fe41b9a6581b214df5e0",
+              "native_instance_id": "dante_01_455700682084204544l::racionamento::token=4",
+              "label": "ARGM-ADV",
+              "realization": "provável",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 6,
+                    "end": 14,
+                    "text_literal": "provável",
+                    "token_ids": [
+                      "3"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_455700682084204544l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "provável",
+                    "head": "4",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-89f5fe41b9a6581b214df5e0"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-89f5fe41b9a6581b214df5e0"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_455700682084204544l",
+                "source_argument_token_id": "3",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-6c6d07f7ff6435ddaf448fc7",
+              "native_instance_id": "dante_01_455700682084204544l::racionamento::token=4",
+              "label": "ARGM-LOC",
+              "realization": "#SP",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 39,
+                    "end": 42,
+                    "text_literal": "#SP",
+                    "token_ids": [
+                      "8"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_455700682084204544l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "#SP",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-7b10683b94a0a091e8335297"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-96ea70cdde9bf6b59c68c175",
+                  "REPO-7b10683b94a0a091e8335297"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Racionamento é distribuição sujeita a limite, não shortage. Propõe-se racionamento.02: distribuidor, produto e destinatário são herdados de distribution.01, e limite de restriction.01 (Arg2 inglês adaptado a Arg3 português). Ration.01 do PropBank, com alias nominal rationing, corrobora a acepção; não substitui a primeira autoridade nominal. São Paulo é lugar, não destinatário nem limite; água é o produto.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_455700682084204544l",
+                "source_argument_token_id": "8",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_455700682084204544l::racionamento::token=4"
           }
         }
       ],
@@ -127,6 +497,12 @@
           "nsubj": 1
         },
         "Arg1": {
+          "nmod": 3
+        },
+        "ARGM-ADV": {
+          "amod": 2
+        },
+        "ARGM-LOC": {
           "nmod": 3
         }
       }

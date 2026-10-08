@@ -65,6 +65,146 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449196737367146496l::alavancagem::token=17",
+          "predicate": {
+            "form": "alavancagem",
+            "source_token_id": "17",
+            "source_form": "alavancagem",
+            "lemma": "alavancagem",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f1b66f8cd07d34c988966ea5",
+              "native_instance_id": "dante_01_449196737367146496l::alavancagem::token=17",
+              "label": "ARGM-EXT",
+              "realization": "20X",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 74,
+                    "end": 77,
+                    "text_literal": "20X",
+                    "token_ids": [
+                      "19"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449196737367146496l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "19"
+                ],
+                "heads": [
+                  {
+                    "id": "19",
+                    "form": "20X",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-e0327d8487d29d000995300b"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Leverage.01 distingue agente e coisa alavancada. 20X é magnitude da alavancagem e passa de Arg1 para EXT; PETR4 é o ativo referido e recebe Arg1. Na CLEAR situa a operação na corretora/plataforma, como LOC institucional, sem afirmar endereço físico ou converter o fornecedor em operador.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449196737367146496l",
+                "source_argument_token_id": "19",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-f9df183cb9dc08f2384a587b",
+              "native_instance_id": "dante_01_449196737367146496l::alavancagem::token=17",
+              "label": "ARGM-LOC",
+              "realization": "CLEAR",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 83,
+                    "end": 88,
+                    "text_literal": "CLEAR",
+                    "token_ids": [
+                      "22"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449196737367146496l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "CLEAR",
+                    "head": "17",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Leverage.01 distingue agente e coisa alavancada. 20X é magnitude da alavancagem e passa de Arg1 para EXT; PETR4 é o ativo referido e recebe Arg1. Na CLEAR situa a operação na corretora/plataforma, como LOC institucional, sem afirmar endereço físico ou converter o fornecedor em operador.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449196737367146496l",
+                "source_argument_token_id": "22",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_449196737367146496l::alavancagem::token=17"
           }
         }
       ],
@@ -73,6 +213,12 @@
           "nsubj": 1
         },
         "Arg1": {
+          "nmod": 1
+        },
+        "ARGM-EXT": {
+          "nmod": 1
+        },
+        "ARGM-LOC": {
           "nmod": 1
         }
       }

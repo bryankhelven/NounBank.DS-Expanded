@@ -65,6 +65,86 @@
             "Arg2": "nmod",
             "Arg3": "flat:name",
             "Arg4": null
+          },
+          "instance_id": "dante_01_453546592155738113l::sugestão::token=4",
+          "predicate": {
+            "form": "Sugestao",
+            "source_token_id": "4",
+            "source_form": "Sugestao",
+            "lemma": "sugestão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1d3f8c32714727f096e58b1f",
+              "native_instance_id": "dante_01_453546592155738113l::sugestão::token=4",
+              "label": "ARGM-PNC",
+              "realization": "melhorar",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 47,
+                    "end": 55,
+                    "text_literal": "melhorar",
+                    "token_ids": [
+                      "8"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "acl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453546592155738113l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "8"
+                ],
+                "heads": [
+                  {
+                    "id": "8",
+                    "form": "melhorar",
+                    "head": "4",
+                    "deprel": "acl"
+                  }
+                ],
+                "deprels": [
+                  "acl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-1d3f8c32714727f096e58b1f"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-1d3f8c32714727f096e58b1f"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453546592155738113l",
+                "source_argument_token_id": "8",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453546592155738113l::sugestão::token=4"
           }
         }
       ],
@@ -78,6 +158,9 @@
         },
         "Arg2": {
           "nmod": 1
+        },
+        "ARGM-PNC": {
+          "acl": 1
         }
       }
     }

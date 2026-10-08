@@ -47,6 +47,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458958698875211776l::projeto::token=21",
+          "predicate": {
+            "form": "projeto",
+            "source_token_id": "21",
+            "source_form": "projeto",
+            "lemma": "projeto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-b0de321f2dfb76ec0c083040",
+              "native_instance_id": "dante_01_458958698875211776l::projeto::token=21",
+              "label": "ARGM-EXT",
+              "realization": "parte",
+              "integration_binding": {
+                "source_predicate_token_id": "21",
+                "source_token_ids": [
+                  "18"
+                ],
+                "source_head_token_id": "18",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 95,
+                    "end": 100,
+                    "text_literal": "parte",
+                    "token_ids": [
+                      "18"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_458958698875211776l",
+                "predicate_token_id": "21",
+                "token_ids": [
+                  "18"
+                ],
+                "heads": [
+                  {
+                    "id": "18",
+                    "form": "parte",
+                    "head": "17",
+                    "deprel": "obj"
+                  }
+                ],
+                "deprels": [
+                  "obj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-b0de321f2dfb76ec0c083040"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-b0de321f2dfb76ec0c083040"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_458958698875211776l",
+                "source_argument_token_id": "18",
+                "source_predicate_token_id": "21",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_458958698875211776l::projeto::token=21"
           }
         },
         {
@@ -119,6 +199,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456115098252500992l::projeto::token=10",
+          "predicate": {
+            "form": "projetos",
+            "source_token_id": "10",
+            "source_form": "projetos",
+            "lemma": "projeto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1a8a8040c90ebdef21a079f7",
+              "native_instance_id": "dante_01_456115098252500992l::projeto::token=10",
+              "label": "ARGM-LOC",
+              "realization": "Carajás",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 66,
+                    "end": 73,
+                    "text_literal": "Carajás",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456115098252500992l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "Carajás",
+                    "head": "10",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Em Carajás situa os projetos da Vale. O lugar não é ação projetada nem agente. Propor LOC no núcleo Carajás (15). Os R$ 6,2 bi são financiamento aprovado, não EXT da execução dos projetos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_456115098252500992l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_456115098252500992l::projeto::token=10"
           }
         },
         {
@@ -137,6 +293,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468800572238610432l::projeto::token=17",
+          "predicate": {
+            "form": "projetos",
+            "source_token_id": "17",
+            "source_form": "projetos",
+            "lemma": "projeto",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-95de1c4f75a33a395293ccf4",
+              "native_instance_id": "dante_01_468800572238610432l::projeto::token=17",
+              "label": "ARGM-EXT",
+              "realization": "bilhão",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 64,
+                    "end": 70,
+                    "text_literal": "bilhão",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "conj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_468800572238610432l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "bilhão",
+                    "head": "5",
+                    "deprel": "conj"
+                  }
+                ],
+                "deprels": [
+                  "conj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-95de1c4f75a33a395293ccf4"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-95de1c4f75a33a395293ccf4"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_468800572238610432l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_468800572238610432l::projeto::token=17"
           }
         }
       ],
@@ -146,8 +382,15 @@
           "flat:name": 1,
           "parataxis:hashtag": 1
         },
+        "ARGM-EXT": {
+          "obj": 1,
+          "conj": 1
+        },
         "Arg1": {
           "nmod": 3
+        },
+        "ARGM-LOC": {
+          "nmod": 1
         }
       }
     }

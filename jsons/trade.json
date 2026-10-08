@@ -47,6 +47,87 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469104796453314561l::trade::token=9",
+          "predicate": {
+            "form": "Trade",
+            "source_token_id": "9",
+            "source_form": "Trade",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-ae7ce5806d2c50f964098644",
+              "native_instance_id": "dante_01_469104796453314561l::trade::token=9",
+              "label": "ARGM-ADV",
+              "realization": "fechado",
+              "integration_binding": {
+                "source_predicate_token_id": "9",
+                "source_token_ids": [
+                  "10"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 45,
+                    "text_literal": "fechado",
+                    "token_ids": [
+                      "10"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_469104796453314561l",
+                "predicate_token_id": "9",
+                "token_ids": [
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "fechado",
+                    "head": "9",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-e12feb4489a23b46be66137a"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-c3b89d306ff1fcc57fc147c6",
+                  "REPO-e12feb4489a23b46be66137a"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "O modificador pertence a outra predicação/oração. Retirar a ligação comprovadamente indevida; o novo alvo/etiqueta exige decisão separada, sem retarget automático.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_469104796453314561l",
+                "source_argument_token_id": "10",
+                "source_predicate_token_id": "9",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_469104796453314561l::trade::token=9"
           }
         },
         {
@@ -83,6 +164,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450723339045449729l::trade::token=15",
+          "predicate": {
+            "form": "trade",
+            "source_token_id": "15",
+            "source_form": "trade",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-11c6837d74a433d10be17692",
+              "native_instance_id": "dante_01_450723339045449729l::trade::token=15",
+              "label": "ARGM-MNR",
+              "realization": "swing",
+              "integration_binding": {
+                "source_predicate_token_id": "15",
+                "source_token_ids": [
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 61,
+                    "end": 66,
+                    "text_literal": "swing",
+                    "token_ids": [
+                      "14"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_450723339045449729l",
+                "predicate_token_id": "15",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "swing",
+                    "head": "11",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-11c6837d74a433d10be17692"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-11c6837d74a433d10be17692"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_450723339045449729l",
+                "source_argument_token_id": "14",
+                "source_predicate_token_id": "15",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_450723339045449729l::trade::token=15"
           }
         },
         {
@@ -101,6 +262,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455334111087824898l::trade::token=1",
+          "predicate": {
+            "form": "Trades",
+            "source_token_id": "1",
+            "source_form": "Trades",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-2655c18b3fd002fb724fef3e",
+              "native_instance_id": "dante_01_455334111087824898l::trade::token=1",
+              "label": "ARGM-ADV",
+              "realization": "andamento",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 10,
+                    "end": 19,
+                    "text_literal": "andamento",
+                    "token_ids": [
+                      "3"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_455334111087824898l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "andamento",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-2655c18b3fd002fb724fef3e"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-2655c18b3fd002fb724fef3e"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_455334111087824898l",
+                "source_argument_token_id": "3",
+                "source_predicate_token_id": "1",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_455334111087824898l::trade::token=1"
           }
         },
         {
@@ -119,6 +360,148 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449196737367146496l::trade::token=25",
+          "predicate": {
+            "form": "TRADE",
+            "source_token_id": "25",
+            "source_form": "TRADE",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-834fda0db7127697cc37a39a",
+              "native_instance_id": "dante_01_449196737367146496l::trade::token=25",
+              "label": "ARGM-MNR",
+              "realization": "MELHOR",
+              "integration_binding": {
+                "source_predicate_token_id": "25",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 91,
+                    "end": 97,
+                    "text_literal": "MELHOR",
+                    "token_ids": [
+                      "24"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449196737367146496l",
+                "predicate_token_id": "25",
+                "token_ids": [
+                  "24"
+                ],
+                "heads": [
+                  {
+                    "id": "24",
+                    "form": "MELHOR",
+                    "head": "25",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Petr4 tema do trade e melhor avaliaçãoMNR; anoTMP já expresso como período comparativo.6,11%resultado, alavancagem20X e15,27cotação não são preço/quantia do trade inferidos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449196737367146496l",
+                "source_argument_token_id": "24",
+                "source_predicate_token_id": "25",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-8b525418e38350f6a40dae4b",
+              "native_instance_id": "dante_01_449196737367146496l::trade::token=25",
+              "label": "ARGM-TMP",
+              "realization": "ANO",
+              "integration_binding": {
+                "source_predicate_token_id": "25",
+                "source_token_ids": [
+                  "28"
+                ],
+                "source_head_token_id": "28",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 109,
+                    "end": 112,
+                    "text_literal": "ANO",
+                    "token_ids": [
+                      "28"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_449196737367146496l",
+                "predicate_token_id": "25",
+                "token_ids": [
+                  "28"
+                ],
+                "heads": [
+                  {
+                    "id": "28",
+                    "form": "ANO",
+                    "head": "25",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-8b525418e38350f6a40dae4b"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-8b525418e38350f6a40dae4b"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_449196737367146496l",
+                "source_argument_token_id": "28",
+                "source_predicate_token_id": "25",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_449196737367146496l::trade::token=25"
           }
         },
         {
@@ -155,6 +538,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453184992144023553l::trade::token=1",
+          "predicate": {
+            "form": "Trade",
+            "source_token_id": "1",
+            "source_form": "Trade",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-240eb51ff1da9e1f0f119587",
+              "native_instance_id": "dante_01_453184992144023553l::trade::token=1",
+              "label": "ARGM-MNR",
+              "realization": "sucesso",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 31,
+                    "end": 38,
+                    "text_literal": "sucesso",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obl",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_453184992144023553l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "sucesso",
+                    "head": "4",
+                    "deprel": "obl"
+                  }
+                ],
+                "deprels": [
+                  "obl"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Com sucesso caracteriza a realização/conclusão do trade, e não preço ou participante. O núcleo é sucesso.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_453184992144023553l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "1",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453184992144023553l::trade::token=1"
           }
         },
         {
@@ -173,6 +632,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447488010985426944l::trade::token=1",
+          "predicate": {
+            "form": "Trades",
+            "source_token_id": "1",
+            "source_form": "Trades",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-39232befa657c8372a7f96e7",
+              "native_instance_id": "dante_01_447488010985426944l::trade::token=1",
+              "label": "ARGM-ADV",
+              "realization": "andamento",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 10,
+                    "end": 19,
+                    "text_literal": "andamento",
+                    "token_ids": [
+                      "3"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_447488010985426944l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "andamento",
+                    "head": "1",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-39232befa657c8372a7f96e7"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-39232befa657c8372a7f96e7"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_447488010985426944l",
+                "source_argument_token_id": "3",
+                "source_predicate_token_id": "1",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_447488010985426944l::trade::token=1"
           }
         },
         {
@@ -191,6 +730,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444474400981938176l::trade::token=19",
+          "predicate": {
+            "form": "trade",
+            "source_token_id": "19",
+            "source_form": "trade",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-21c41ab767bbf056b1c37b9c",
+              "native_instance_id": "dante_01_444474400981938176l::trade::token=19",
+              "label": "ARGM-TMP",
+              "realization": "prazo",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 122,
+                    "end": 127,
+                    "text_literal": "prazo",
+                    "token_ids": [
+                      "22"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_444474400981938176l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "22"
+                ],
+                "heads": [
+                  {
+                    "id": "22",
+                    "form": "prazo",
+                    "head": "19",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-21c41ab767bbf056b1c37b9c"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-21c41ab767bbf056b1c37b9c"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_444474400981938176l",
+                "source_argument_token_id": "22",
+                "source_predicate_token_id": "19",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444474400981938176l::trade::token=19"
           }
         },
         {
@@ -209,6 +828,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443830052690882560l::trade::token=11",
+          "predicate": {
+            "form": "trade",
+            "source_token_id": "11",
+            "source_form": "trade",
+            "lemma": "trade",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c3b77e2595b56b5c8e4881aa",
+              "native_instance_id": "dante_01_443830052690882560l::trade::token=11",
+              "label": "ARGM-TMP",
+              "realization": "3hs",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "9"
+                ],
+                "source_head_token_id": "9",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 46,
+                    "end": 49,
+                    "text_literal": "3hs",
+                    "token_ids": [
+                      "9"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "obj",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_443830052690882560l",
+                "predicate_token_id": "11",
+                "token_ids": [
+                  "9"
+                ],
+                "heads": [
+                  {
+                    "id": "9",
+                    "form": "3hs",
+                    "head": "8",
+                    "deprel": "obj"
+                  }
+                ],
+                "deprels": [
+                  "obj"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-5e872bfc24f62fb086fd32f5"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Frase e tokens marcados examinados; triagem não equivale a aceite científico. Repetições da indicação verificadas pelo padrão e pela identidade dos dois alvos.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_443830052690882560l",
+                "source_argument_token_id": "9",
+                "source_predicate_token_id": "11",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443830052690882560l::trade::token=11"
           }
         },
         {
@@ -267,9 +964,22 @@
         }
       ],
       "syntactic_profile": {
+        "ARGM-ADV": {
+          "amod": 1,
+          "nmod": 2
+        },
+        "ARGM-MNR": {
+          "nmod": 1,
+          "amod": 1,
+          "obl": 1
+        },
         "Arg1": {
           "nsubj": 2,
           "nmod": 2
+        },
+        "ARGM-TMP": {
+          "nmod": 2,
+          "obj": 1
         },
         "Arg0": {
           "root": 1

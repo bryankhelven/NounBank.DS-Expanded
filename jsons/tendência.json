@@ -209,6 +209,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441058259676303361l::tendência::token=18",
+          "predicate": {
+            "form": "Tendência",
+            "source_token_id": "18",
+            "source_form": "Tendência",
+            "lemma": "tendência",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-78d0923ce8bfc39feef3aa54",
+              "native_instance_id": "dante_01_441058259676303361l::tendência::token=18",
+              "label": "ARGM-TMP",
+              "realization": "Fevereiro",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "1"
+                ],
+                "source_head_token_id": "1",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 0,
+                    "end": 9,
+                    "text_literal": "Fevereiro",
+                    "token_ids": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "root",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_441058259676303361l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "Fevereiro",
+                    "head": "0",
+                    "deprel": "root"
+                  }
+                ],
+                "deprels": [
+                  "root"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Fevereiro 2014 é cabeçalho temporal do comentário inteiro, incluindo a tendência dos ativos enumerados. Resultados é nome coordenado, não atributo de tendência; favoráveis é a caracterização compartilhada e os ativos são portadores. Propõe-se TMP no núcleo Fevereiro e os ArgN nos núcleos correspondentes.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_441058259676303361l",
+                "source_argument_token_id": "1",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_441058259676303361l::tendência::token=18"
           }
         },
         {
@@ -245,6 +321,144 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447000792143527936l::tendência::token=18",
+          "predicate": {
+            "form": "tend.",
+            "source_token_id": "18",
+            "source_form": "tend.",
+            "lemma": "tendência",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c245755c34e0646421ebcb86",
+              "native_instance_id": "dante_01_447000792143527936l::tendência::token=18",
+              "label": "ARGM-TMP",
+              "realization": "09-2010",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 71,
+                    "end": 78,
+                    "text_literal": "09-2010",
+                    "token_ids": [
+                      "15"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_447000792143527936l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "15"
+                ],
+                "heads": [
+                  {
+                    "id": "15",
+                    "form": "09-2010",
+                    "head": "18",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Desde 09-2010 estabelece início temporal da tendência de baixa. Linda é avaliação do referente, sem ADV automático.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_447000792143527936l",
+                "source_argument_token_id": "15",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-6a99daec14abeb9d0b72fda1",
+              "native_instance_id": "dante_01_447000792143527936l::tendência::token=18",
+              "label": "ARGM-MNR",
+              "realization": "linda",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "17"
+                ],
+                "source_head_token_id": "17",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 82,
+                    "end": 87,
+                    "text_literal": "linda",
+                    "token_ids": [
+                      "17"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_447000792143527936l",
+                "predicate_token_id": "18",
+                "token_ids": [
+                  "17"
+                ],
+                "heads": [
+                  {
+                    "id": "17",
+                    "form": "linda",
+                    "head": "18",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "LLXL3 tema e baixa atributo; Desde09-2010 início TMP, linda qualifica a tendência por avaliação MNR.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_447000792143527936l",
+                "source_argument_token_id": "17",
+                "source_predicate_token_id": "18",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_447000792143527936l::tendência::token=18"
           }
         },
         {
@@ -370,6 +584,13 @@
           "xcomp": 1,
           "amod": 1,
           "det": 3
+        },
+        "ARGM-TMP": {
+          "root": 1,
+          "nmod": 1
+        },
+        "ARGM-MNR": {
+          "amod": 1
         }
       }
     }

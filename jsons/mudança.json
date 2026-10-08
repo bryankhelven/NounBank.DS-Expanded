@@ -101,6 +101,146 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451754343704690688l::mudança::token=17",
+          "predicate": {
+            "form": "mudan",
+            "source_token_id": "17",
+            "source_form": "mudan",
+            "lemma": "mudança",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-e4990111e1d88eb3e2794119",
+              "native_instance_id": "dante_01_451754343704690688l::mudança::token=17",
+              "label": "ARGM-NEG",
+              "realization": "não",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 70,
+                    "end": 73,
+                    "text_literal": "não",
+                    "token_ids": [
+                      "14"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451754343704690688l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "14"
+                ],
+                "heads": [
+                  {
+                    "id": "14",
+                    "form": "não",
+                    "head": "15",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "A fonte termina mudan... . Não/nenhuma negam fazer mudança e são candidatos fortes, mas a identidade truncada e a marcação nenhuma como Arg1 precisam ser resolvidas primeiro.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_451754343704690688l",
+                "source_argument_token_id": "14",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-e028d7268d3c92dcc2198c6a",
+              "native_instance_id": "dante_01_451754343704690688l::mudança::token=17",
+              "label": "ARGM-NEG",
+              "realization": "nenhuma",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 80,
+                    "end": 87,
+                    "text_literal": "nenhuma",
+                    "token_ids": [
+                      "16"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "det",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451754343704690688l",
+                "predicate_token_id": "17",
+                "token_ids": [
+                  "16"
+                ],
+                "heads": [
+                  {
+                    "id": "16",
+                    "form": "nenhuma",
+                    "head": "17",
+                    "deprel": "det"
+                  }
+                ],
+                "deprels": [
+                  "det"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-22a131fcd1c86f384e9ca974"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "A fonte termina mudan... . Não/nenhuma negam fazer mudança e são candidatos fortes, mas a identidade truncada e a marcação nenhuma como Arg1 precisam ser resolvidas primeiro.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_451754343704690688l",
+                "source_argument_token_id": "16",
+                "source_predicate_token_id": "17",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_451754343704690688l::mudança::token=17"
           }
         },
         {
@@ -187,6 +327,10 @@
           "root": 1,
           "nmod": 1,
           "parataxis": 1
+        },
+        "ARGM-NEG": {
+          "advmod": 1,
+          "det": 1
         },
         "Arg0": {
           "nmod": 1,

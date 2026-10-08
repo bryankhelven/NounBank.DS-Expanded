@@ -87,6 +87,136 @@
           "instance_id": "dante_01_463379811554320384l::falta::1",
           "predicate": {
             "form": "falta"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1ecef61c97fe20e7fb17cbe2",
+              "native_instance_id": "dante_01_463379811554320384l::falta::1",
+              "label": "ARGM-NEG",
+              "realization": "não",
+              "integration_binding": {
+                "source_predicate_token_id": "25",
+                "source_token_ids": [
+                  "23"
+                ],
+                "source_head_token_id": "23",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 114,
+                    "end": 117,
+                    "text_literal": "não",
+                    "token_ids": [
+                      "23"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463379811554320384l",
+                "predicate_token_id": "25",
+                "token_ids": [
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "23",
+                    "form": "não",
+                    "head": "24",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Não faziam falta antes contém negação e tempo da construção fazer falta; ambos têm escopo no predicado nominal.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_463379811554320384l",
+                "source_argument_token_id": "23",
+                "source_predicate_token_id": "25",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-1ebb1fa4bb8a0d1b9df30073",
+              "native_instance_id": "dante_01_463379811554320384l::falta::1",
+              "label": "ARGM-TMP",
+              "realization": "antes",
+              "integration_binding": {
+                "source_predicate_token_id": "25",
+                "source_token_ids": [
+                  "26"
+                ],
+                "source_head_token_id": "26",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 131,
+                    "end": 136,
+                    "text_literal": "antes",
+                    "token_ids": [
+                      "26"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463379811554320384l",
+                "predicate_token_id": "25",
+                "token_ids": [
+                  "26"
+                ],
+                "heads": [
+                  {
+                    "id": "26",
+                    "form": "antes",
+                    "head": "24",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Não faziam falta antes contém negação e tempo da construção fazer falta; ambos têm escopo no predicado nominal.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_463379811554320384l",
+                "source_argument_token_id": "26",
+                "source_predicate_token_id": "25",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_463379811554320384l::falta::1"
           }
         },
         {
@@ -109,6 +239,74 @@
           "instance_id": "dante_01_463379953380507649l::falta::1",
           "predicate": {
             "form": "fa"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f4b52950d13d1840d8bac469",
+              "native_instance_id": "dante_01_463379953380507649l::falta::1",
+              "label": "ARGM-NEG",
+              "realization": "não",
+              "integration_binding": {
+                "source_predicate_token_id": "28",
+                "source_token_ids": [
+                  "26"
+                ],
+                "source_head_token_id": "26",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 126,
+                    "end": 129,
+                    "text_literal": "não",
+                    "token_ids": [
+                      "26"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463379953380507649l",
+                "predicate_token_id": "28",
+                "token_ids": [
+                  "26"
+                ],
+                "heads": [
+                  {
+                    "id": "26",
+                    "form": "não",
+                    "head": "27",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "O nome termina fa… . A ocorrência completa análoga sustenta fazer falta, mas texto de outra ocorrência não autoriza reconstruir automaticamente esta; manter a identificação pendente.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_463379953380507649l",
+                "source_argument_token_id": "26",
+                "source_predicate_token_id": "28",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_463379953380507649l::falta::1"
           }
         }
       ],
@@ -117,6 +315,12 @@
           "amod": 1,
           "nmod": 1,
           "nsubj": 2
+        },
+        "ARGM-NEG": {
+          "advmod": 2
+        },
+        "ARGM-TMP": {
+          "advmod": 1
         }
       }
     }

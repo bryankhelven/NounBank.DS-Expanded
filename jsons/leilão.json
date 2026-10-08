@@ -101,6 +101,152 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461484549030297600l::leilão::token=3",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "3",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-48d4acd039693fa3d7e72633",
+              "native_instance_id": "dante_01_461484549030297600l::leilão::token=3",
+              "label": "ARGM-TMP",
+              "realization": "Hoje",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "1"
+                ],
+                "source_head_token_id": "1",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "text_literal": "Hoje",
+                    "token_ids": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_461484549030297600l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "1"
+                ],
+                "heads": [
+                  {
+                    "id": "1",
+                    "form": "Hoje",
+                    "head": "2",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-48d4acd039693fa3d7e72633"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-48d4acd039693fa3d7e72633"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_461484549030297600l",
+                "source_argument_token_id": "1",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            },
+            {
+              "annotation_id": "FINAL-9f345dce13654b178c331368",
+              "native_instance_id": "dante_01_461484549030297600l::leilão::token=3",
+              "label": "ARGM-MNR",
+              "realization": "emergencial",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "4"
+                ],
+                "source_head_token_id": "4",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 16,
+                    "end": 27,
+                    "text_literal": "emergencial",
+                    "token_ids": [
+                      "4"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_461484549030297600l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "emergencial",
+                    "head": "3",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-9f345dce13654b178c331368"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-9f345dce13654b178c331368"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_461484549030297600l",
+                "source_argument_token_id": "4",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_461484549030297600l::leilão::token=3"
           }
         },
         {
@@ -155,6 +301,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459037552989966336l::leilão::token=3",
+          "predicate": {
+            "form": "Leilao",
+            "source_token_id": "3",
+            "source_form": "Leilao",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1bec19ad8a0cbba0d37aa49b",
+              "native_instance_id": "dante_01_459037552989966336l::leilão::token=3",
+              "label": "ARGM-TMP",
+              "realization": "H",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 47,
+                    "end": 48,
+                    "text_literal": "H",
+                    "token_ids": [
+                      "11"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_459037552989966336l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "11"
+                ],
+                "heads": [
+                  {
+                    "id": "11",
+                    "form": "H",
+                    "head": "3",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-1bec19ad8a0cbba0d37aa49b"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-1bec19ad8a0cbba0d37aa49b"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_459037552989966336l",
+                "source_argument_token_id": "11",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_459037552989966336l::leilão::token=3"
           }
         },
         {
@@ -173,6 +399,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456159880961744896l::leilão::token=5",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "5",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-4d60f9fdeea47e992011c521",
+              "native_instance_id": "dante_01_456159880961744896l::leilão::token=5",
+              "label": "ARGM-TMP",
+              "realization": "fechamento",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "7"
+                ],
+                "source_head_token_id": "7",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 27,
+                    "end": 37,
+                    "text_literal": "fechamento",
+                    "token_ids": [
+                      "7"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_456159880961744896l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "fechamento",
+                    "head": "5",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-03e54df85f7e3606d74dc2ce"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Fechamento identifica a fase do leilão. Não é o bem negociado. Propor retirar Arg1 em fechamento e marcar TMP, coerente com a decisão V5 sobre final do leilão. A queda de 10% pertence à ação, não é EXT do leilão.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_456159880961744896l",
+                "source_argument_token_id": "7",
+                "source_predicate_token_id": "5",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_456159880961744896l::leilão::token=5"
           }
         },
         {
@@ -227,6 +531,87 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451813351711334400l::leilão::token=19",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "19",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a4bafa3170cf2fd9b7ca03b1",
+              "native_instance_id": "dante_01_451813351711334400l::leilão::token=19",
+              "label": "ARGM-TMP",
+              "realization": "final",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "20"
+                ],
+                "source_head_token_id": "20",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 91,
+                    "end": 96,
+                    "text_literal": "final",
+                    "token_ids": [
+                      "20"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_451813351711334400l",
+                "predicate_token_id": "19",
+                "token_ids": [
+                  "20"
+                ],
+                "heads": [
+                  {
+                    "id": "20",
+                    "form": "final",
+                    "head": "19",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_NORMALIZADO_POR_NOS",
+                "inherited_literally": false,
+                "original_annotation_refs": [
+                  "REPO-70c968a4c7ced2ff7cd4e77a"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-d7cf795c527132137525c429",
+                  "REPO-70c968a4c7ced2ff7cd4e77a"
+                ],
+                "relation_to_original": "CASE_NORMALIZATION",
+                "reason": "Normalização de alias ARGM para a grafia do manual; sem mudança semântica e sem alterar fonte.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_451813351711334400l",
+                "source_argument_token_id": "20",
+                "source_predicate_token_id": "19",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_451813351711334400l::leilão::token=19"
           }
         },
         {
@@ -299,6 +684,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461596679620542464l::leilão::token=2",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "2",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-a8b549861f397d8b3ae30ad0",
+              "native_instance_id": "dante_01_461596679620542464l::leilão::token=2",
+              "label": "ARGM-MNR",
+              "realization": "maluquinho",
+              "integration_binding": {
+                "source_predicate_token_id": "2",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 14,
+                    "end": 24,
+                    "text_literal": "maluquinho",
+                    "token_ids": [
+                      "3"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "amod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_461596679620542464l",
+                "predicate_token_id": "2",
+                "token_ids": [
+                  "3"
+                ],
+                "heads": [
+                  {
+                    "id": "3",
+                    "form": "maluquinho",
+                    "head": "2",
+                    "deprel": "amod"
+                  }
+                ],
+                "deprels": [
+                  "amod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-a8b549861f397d8b3ae30ad0"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-a8b549861f397d8b3ae30ad0"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_461596679620542464l",
+                "source_argument_token_id": "3",
+                "source_predicate_token_id": "2",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_461596679620542464l::leilão::token=2"
           }
         },
         {
@@ -353,6 +818,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441602347777925121l::leilão::token=29",
+          "predicate": {
+            "form": "leilao",
+            "source_token_id": "29",
+            "source_form": "leilao",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-f0cfed4afe9fccde516073de",
+              "native_instance_id": "dante_01_441602347777925121l::leilão::token=29",
+              "label": "ARGM-TMP",
+              "realization": "hoje",
+              "integration_binding": {
+                "source_predicate_token_id": "29",
+                "source_token_ids": [
+                  "31"
+                ],
+                "source_head_token_id": "31",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 132,
+                    "end": 136,
+                    "text_literal": "hoje",
+                    "token_ids": [
+                      "31"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "advmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_441602347777925121l",
+                "predicate_token_id": "29",
+                "token_ids": [
+                  "31"
+                ],
+                "heads": [
+                  {
+                    "id": "31",
+                    "form": "hoje",
+                    "head": "29",
+                    "deprel": "advmod"
+                  }
+                ],
+                "deprels": [
+                  "advmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-f0cfed4afe9fccde516073de"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-f0cfed4afe9fccde516073de"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_441602347777925121l",
+                "source_argument_token_id": "31",
+                "source_predicate_token_id": "29",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_441602347777925121l::leilão::token=29"
           }
         },
         {
@@ -389,6 +934,84 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_447099598587572224l::leilão::token=1",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "1",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-e5a0a5c3314091e702fe6f43",
+              "native_instance_id": "dante_01_447099598587572224l::leilão::token=1",
+              "label": "ARGM-MNR",
+              "realization": "bonito",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 22,
+                    "end": 28,
+                    "text_literal": "bonito",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "root",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_447099598587572224l",
+                "predicate_token_id": "1",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "bonito",
+                    "head": "0",
+                    "deprel": "root"
+                  }
+                ],
+                "deprels": [
+                  "root"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-34cb381338f70af8b958e1c9"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Bonito é avaliação MNR, corrigindo ADV; PETR4 objeto e 17,20 preço do estágio do leilão.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_447099598587572224l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "1",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_447099598587572224l::leilão::token=1"
           }
         },
         {
@@ -407,6 +1030,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451871894732423169l::leilão::token=3",
+          "predicate": {
+            "form": "leilao",
+            "source_token_id": "3",
+            "source_form": "leilao",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-0f9eef2f56c6a008b890aa74",
+              "native_instance_id": "dante_01_451871894732423169l::leilão::token=3",
+              "label": "ARGM-TMP",
+              "realization": "abertura",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 22,
+                    "end": 30,
+                    "text_literal": "abertura",
+                    "token_ids": [
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "goeswith",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "sent_id": "dante_01_451871894732423169l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "6"
+                ],
+                "heads": [
+                  {
+                    "id": "6",
+                    "form": "abertura",
+                    "head": "5",
+                    "deprel": "goeswith"
+                  }
+                ],
+                "deprels": [
+                  "goeswith"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Leilão.01 indica trade.01 na referência congelada. Auction.01 foi usado como comparação adicional, sem substituir a fonte declarada: vendedor/negociador, ativo, contraparte e preço precisam de span próprio. Abertura/fechamento/hoje delimitam fase/tempo do leilão; Bovespa é local da negociação. Preço anunciado não comprova liquidação. Não se cria ativo apenas pelo ticker em outra oração.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2test.conllup.conllu",
+                "source_sha256": "c6c0f4a299a1311086c5ff87285fafdd020d243ae852c6024abc688316ad3613",
+                "source_sentence_key": "test:dante_01_451871894732423169l",
+                "source_argument_token_id": "6",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_451871894732423169l::leilão::token=3"
           }
         },
         {
@@ -425,6 +1124,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443394009567088640l::leilão::token=35",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "35",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-de9191645f12a9cd49707576",
+              "native_instance_id": "dante_01_443394009567088640l::leilão::token=35",
+              "label": "ARGM-TMP",
+              "realization": "saída",
+              "integration_binding": {
+                "source_predicate_token_id": "35",
+                "source_token_ids": [
+                  "38"
+                ],
+                "source_head_token_id": "38",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 146,
+                    "end": 151,
+                    "text_literal": "saída",
+                    "token_ids": [
+                      "38"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443394009567088640l",
+                "predicate_token_id": "35",
+                "token_ids": [
+                  "38"
+                ],
+                "heads": [
+                  {
+                    "id": "38",
+                    "form": "saída",
+                    "head": "35",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-de9191645f12a9cd49707576"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-de9191645f12a9cd49707576"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_443394009567088640l",
+                "source_argument_token_id": "38",
+                "source_predicate_token_id": "35",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443394009567088640l::leilão::token=35"
           }
         },
         {
@@ -443,6 +1222,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443760585290027008l::leilão::token=3",
+          "predicate": {
+            "form": "Leilao",
+            "source_token_id": "3",
+            "source_form": "Leilao",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-c7bdec6a97500b3af81d03d3",
+              "native_instance_id": "dante_01_443760585290027008l::leilão::token=3",
+              "label": "ARGM-TMP",
+              "realization": "11:52h",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "10"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 41,
+                    "end": 47,
+                    "text_literal": "11:52h",
+                    "token_ids": [
+                      "10"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_443760585290027008l",
+                "predicate_token_id": "3",
+                "token_ids": [
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "11:52h",
+                    "head": "12",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-c7bdec6a97500b3af81d03d3"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-c7bdec6a97500b3af81d03d3"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_443760585290027008l",
+                "source_argument_token_id": "10",
+                "source_predicate_token_id": "3",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_443760585290027008l::leilão::token=3"
           }
         },
         {
@@ -461,6 +1320,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463669474844233728l::leilão::token=5",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "5",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-06f30fc219f2561d5d3dfa02",
+              "native_instance_id": "dante_01_463669474844233728l::leilão::token=5",
+              "label": "ARGM-TMP",
+              "realization": "abertura",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "7"
+                ],
+                "source_head_token_id": "7",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 31,
+                    "end": 39,
+                    "text_literal": "abertura",
+                    "token_ids": [
+                      "7"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_463669474844233728l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "abertura",
+                    "head": "5",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-06f30fc219f2561d5d3dfa02"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-06f30fc219f2561d5d3dfa02"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_463669474844233728l",
+                "source_argument_token_id": "7",
+                "source_predicate_token_id": "5",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_463669474844233728l::leilão::token=5"
           }
         },
         {
@@ -497,6 +1436,82 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461596119689342976l::leilão::token=2",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "2",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-b3b89d320a687fb4f7333d3b",
+              "native_instance_id": "dante_01_461596119689342976l::leilão::token=2",
+              "label": "ARGM-MNR",
+              "realization": "agradável",
+              "integration_binding": {
+                "source_predicate_token_id": "2",
+                "source_token_ids": [
+                  "7"
+                ],
+                "source_head_token_id": "7",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 26,
+                    "end": 35,
+                    "text_literal": "agradável",
+                    "token_ids": [
+                      "7"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "root",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_461596119689342976l",
+                "predicate_token_id": "2",
+                "token_ids": [
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "agradável",
+                    "head": "0",
+                    "deprel": "root"
+                  }
+                ],
+                "deprels": [
+                  "root"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Agradável é avaliação MNR; vendido beneficiado pela avaliação não equivale automaticamente a beneficiárioArg4 do leilão. Duas cotações são estágios distintos, não execução.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_461596119689342976l",
+                "source_argument_token_id": "7",
+                "source_predicate_token_id": "2",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_461596119689342976l::leilão::token=2"
           }
         },
         {
@@ -515,6 +1530,82 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_462318215440642049l::leilão::token=5",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "5",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-bd374a4d254b84c25e0c81b3",
+              "native_instance_id": "dante_01_462318215440642049l::leilão::token=5",
+              "label": "ARGM-TMP",
+              "realization": "novo",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "4"
+                ],
+                "source_head_token_id": "4",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 8,
+                    "end": 12,
+                    "text_literal": "novo",
+                    "token_ids": [
+                      "4"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "fixed",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_462318215440642049l",
+                "predicate_token_id": "5",
+                "token_ids": [
+                  "4"
+                ],
+                "heads": [
+                  {
+                    "id": "4",
+                    "form": "novo",
+                    "head": "3",
+                    "deprel": "fixed"
+                  }
+                ],
+                "deprels": [
+                  "fixed"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "ADICIONADO_POR_NOS_NAO_HERDADO_DAS_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Leilão.01 indica trade.01 na referência congelada. Auction.01 foi usado como comparação adicional, sem substituir a fonte declarada: vendedor/negociador, ativo, contraparte e preço precisam de span próprio. Abertura/fechamento/hoje delimitam fase/tempo do leilão; Bovespa é local da negociação. Preço anunciado não comprova liquidação. Não se cria ativo apenas pelo ticker em outra oração. De novo tem núcleo novo, não de; ambos permanecem no span.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_462318215440642049l",
+                "source_argument_token_id": "4",
+                "source_predicate_token_id": "5",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_462318215440642049l::leilão::token=5"
           }
         },
         {
@@ -569,6 +1660,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453267806331891712l::leilão::token=4",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "4",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-bbe4832a9221845351411d24",
+              "native_instance_id": "dante_01_453267806331891712l::leilão::token=4",
+              "label": "ARGM-LOC",
+              "realization": "#bovespa",
+              "integration_binding": {
+                "source_predicate_token_id": "4",
+                "source_token_ids": [
+                  "7"
+                ],
+                "source_head_token_id": "7",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 21,
+                    "end": 29,
+                    "text_literal": "#bovespa",
+                    "token_ids": [
+                      "7"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453267806331891712l",
+                "predicate_token_id": "4",
+                "token_ids": [
+                  "7"
+                ],
+                "heads": [
+                  {
+                    "id": "7",
+                    "form": "#bovespa",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-68267cbde34164e75474e226"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Bovespa já é Arg0 do leilão, mas a frase a apresenta como lugar. A troca de Arg0 para LOC deve ser proposta separadamente; não duplicar vendedor e lugar.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453267806331891712l",
+                "source_argument_token_id": "7",
+                "source_predicate_token_id": "4",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453267806331891712l::leilão::token=4"
           }
         },
         {
@@ -587,6 +1756,84 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453268042580262912l::leilão::token=7",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "7",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-56d666a2b1e35702f751fbb0",
+              "native_instance_id": "dante_01_453268042580262912l::leilão::token=7",
+              "label": "ARGM-LOC",
+              "realization": "#bovespa",
+              "integration_binding": {
+                "source_predicate_token_id": "7",
+                "source_token_ids": [
+                  "10"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 35,
+                    "end": 43,
+                    "text_literal": "#bovespa",
+                    "token_ids": [
+                      "10"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "sent_id": "dante_01_453268042580262912l",
+                "predicate_token_id": "7",
+                "token_ids": [
+                  "10"
+                ],
+                "heads": [
+                  {
+                    "id": "10",
+                    "form": "#bovespa",
+                    "head": "4",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "PROPOSTA_NOSSA_EM_CELULA_COM_MARCAS_REPO",
+                "inherited_literally": false,
+                "original_annotation_refs": [],
+                "prior_cell_annotations": [
+                  "REPO-102f233075711b613703ab93"
+                ],
+                "relation_to_original": "SEE_EXPLICIT_HISTORY; NO_AUTOMATIC_ONE_TO_ONE_ASSUMPTION",
+                "reason": "Bovespa já é Arg0 do leilão, mas a frase a apresenta como lugar. A troca de Arg0 para LOC deve ser proposta separadamente; não duplicar vendedor e lugar.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2train.conllup.conllu",
+                "source_sha256": "f722089838a57efcf6b4720a949f97886be45084187449c3a2b500fa9ac14849",
+                "source_sentence_key": "train:dante_01_453268042580262912l",
+                "source_argument_token_id": "10",
+                "source_predicate_token_id": "7",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453268042580262912l::leilão::token=7"
           }
         },
         {
@@ -605,6 +1852,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": "parataxis"
+          },
+          "instance_id": "dante_01_449531461797154816l::leilão::token=10",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "10",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-6e9f214d81a22e9a566d0d87",
+              "native_instance_id": "dante_01_449531461797154816l::leilão::token=10",
+              "label": "ARGM-TMP",
+              "realization": "abertura",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 50,
+                    "end": 58,
+                    "text_literal": "abertura",
+                    "token_ids": [
+                      "12"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_449531461797154816l",
+                "predicate_token_id": "10",
+                "token_ids": [
+                  "12"
+                ],
+                "heads": [
+                  {
+                    "id": "12",
+                    "form": "abertura",
+                    "head": "10",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-6e9f214d81a22e9a566d0d87"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-6e9f214d81a22e9a566d0d87"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_449531461797154816l",
+                "source_argument_token_id": "12",
+                "source_predicate_token_id": "10",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449531461797154816l::leilão::token=10"
           }
         },
         {
@@ -623,6 +1950,86 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462314687338917888l::leilão::token=21",
+          "predicate": {
+            "form": "leilão",
+            "source_token_id": "21",
+            "source_form": "leilão",
+            "lemma": "leilão",
+            "upos": "NOUN"
+          },
+          "argm_annotations": [
+            {
+              "annotation_id": "FINAL-1aa82834dea0e74d99a31f7f",
+              "native_instance_id": "dante_01_462314687338917888l::leilão::token=21",
+              "label": "ARGM-TMP",
+              "realization": "fechamento",
+              "integration_binding": {
+                "source_predicate_token_id": "21",
+                "source_token_ids": [
+                  "23"
+                ],
+                "source_head_token_id": "23",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 92,
+                    "end": 102,
+                    "text_literal": "fechamento",
+                    "token_ids": [
+                      "23"
+                    ]
+                  }
+                ]
+              },
+              "syntax": "nmod",
+              "syntax_provenance": {
+                "source_file": "DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "sent_id": "dante_01_462314687338917888l",
+                "predicate_token_id": "21",
+                "token_ids": [
+                  "23"
+                ],
+                "heads": [
+                  {
+                    "id": "23",
+                    "form": "fechamento",
+                    "head": "21",
+                    "deprel": "nmod"
+                  }
+                ],
+                "deprels": [
+                  "nmod"
+                ]
+              },
+              "historical_provenance": {
+                "annotation_origin": "REPOSITORIO_ISABELLA_PRESERVADO",
+                "inherited_literally": true,
+                "original_annotation_refs": [
+                  "REPO-1aa82834dea0e74d99a31f7f"
+                ],
+                "prior_cell_annotations": [
+                  "REPO-1aa82834dea0e74d99a31f7f"
+                ],
+                "relation_to_original": "IDENTITY",
+                "reason": "Marca preservada literalmente do repositório, após a revisão contextual registrada.",
+                "source_repository": "https://github.com/isasmtr/DANTEStocks-NomBank-NBDS-v2",
+                "source_commit": "24021e90cf19485d74070f09bdba1a49a243795b",
+                "source_file": "corpus anotado/DANTEStocks_NBDSv2dev.conllup.conllu",
+                "source_sha256": "3ddb401e4ab72bd17d38eb5c5aeb69404c2d7d6046c59483f8805d2713ec67fc",
+                "source_sentence_key": "dev:dante_01_462314687338917888l",
+                "source_argument_token_id": "23",
+                "source_predicate_token_id": "21",
+                "individual_annotation_author": "NOT_ESTABLISHED_PER_CELL",
+                "span_policy": "EXACT_REVIEWED_SOURCE_TOKEN; NO_INFERRED_SUBTREE"
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_462314687338917888l::leilão::token=21"
           }
         }
       ],
@@ -633,6 +2040,17 @@
           "det": 1,
           "root": 1
         },
+        "ARGM-TMP": {
+          "advmod": 2,
+          "nmod": 7,
+          "amod": 1,
+          "goeswith": 1,
+          "fixed": 1
+        },
+        "ARGM-MNR": {
+          "amod": 2,
+          "root": 2
+        },
         "Arg0": {
           "nsubj": 1,
           "nmod": 2
@@ -640,6 +2058,9 @@
         "Arg3": {
           "nummod": 2,
           "nmod": 1
+        },
+        "ARGM-LOC": {
+          "nmod": 2
         },
         "Arg4": {
           "parataxis": 1
