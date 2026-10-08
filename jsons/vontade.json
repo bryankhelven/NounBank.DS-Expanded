@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "ease.02",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/ease.xml",
       "roles": [
         {
@@ -39,23 +38,8 @@
             "lemma": "vontade",
             "upos": "NOUN"
           },
-          "construction_resolution": "A_VONTADE_AT_EASE_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_447028130914791424l::6",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "6",
             "form": "vontade",
@@ -64,7 +48,6 @@
             "source_token_ids": [
               "6"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -76,48 +59,21 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_447028130914791424l::vontade::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "construction_evidence": {
-        "decision": "S",
-        "note": "'fiquem à vontade' = be at ease / feel free; NomBank ease.02 is explicitly at-ease.",
-        "nombank_examples": [
-          "By a 2-to-1 ratio , voters appear more at ease with Mr. Florio 's stance on abortion",
-          "Not everyone , however , is at ease with office massage ."
-        ]
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_447028130914791424l::vontade::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_447028130914791424l::vontade::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     },
     {
       "pt_roleset": "vontade.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
       "english_roleset": "desire.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/desire.xml",
       "roles": [
         {
@@ -151,20 +107,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449610986434359296l::6",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "6",
             "form": "vontade",
@@ -173,7 +115,6 @@
             "source_token_ids": [
               "6"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -185,13 +126,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-533a62a6e79f311d4758b8ee",
+              "native_instance_id": "dante_01_449610986434359296l::vontade::1",
+              "label": "ARGM-ADV",
+              "realization": "só",
+              "isabella_argument_token_ids": [
+                "3"
+              ],
+              "isabella_predicate_token_id": "6",
+              "integration_binding": {
+                "source_predicate_token_id": "6",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 8,
+                    "end": 10,
+                    "text_literal": "só",
+                    "token_ids": [
+                      "3"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "3"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449610986434359296l::vontade::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -199,27 +172,7 @@
           "nsubj": 1
         }
       },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_449610986434359296l::vontade::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_449610986434359296l::vontade::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

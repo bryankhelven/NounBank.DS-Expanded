@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "stabilization.01",
-      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/stabilization.xml",
       "roles": [
         {
@@ -45,23 +44,8 @@
             "lemma": "acomodação",
             "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_445869793254850560l::17",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "17",
             "form": "acomodação",
@@ -70,7 +54,6 @@
             "source_token_ids": [
               "17"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -82,43 +65,76 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-49728942b55b8071e9c1f449",
+              "native_instance_id": "dante_01_445869793254850560l::acomodação::1",
+              "label": "ARGM-TMP",
+              "realization": "nos últimos pregões",
+              "isabella_argument_token_ids": [
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "isabella_predicate_token_id": "17",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 45,
+                    "end": 64,
+                    "text_literal": "nos últimos pregões",
+                    "token_ids": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "11-12",
+                        "nos",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_445869793254850560l::acomodação::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "mapping_evidence": {
-        "xml_file": "stabilization.xml",
-        "roleset_name": "to make stable",
-        "roleset_source": "verb-stabilize.01",
-        "rationale": "Trading context: price action 'encontrou uma acomodação' denotes stabilization, not lodging/accommodation."
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_445869793254850560l::acomodação::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_445869793254850560l::acomodação::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

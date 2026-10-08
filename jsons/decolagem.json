@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "liftoff.01",
-      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/liftoff.xml",
       "roles": [
         {
@@ -57,23 +56,8 @@
             "lemma": "decolagem",
             "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448471745830588416l::6",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "6",
             "form": "decolagem",
@@ -82,7 +66,6 @@
             "source_token_ids": [
               "6"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -94,52 +77,15 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg1": {
-              "char_start": 0,
-              "char_end": 6,
-              "previous_tokenized_surface": "#GOLL4",
-              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
-            }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_448471745830588416l::decolagem::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "mapping_evidence": {
-        "xml_file": "liftoff.xml",
-        "roleset_name": "cause increase in elevation",
-        "roleset_source": "verb-lift.01",
-        "rationale": "Market-price takeoff metaphor preserves increase-in-elevation/liftoff event semantics."
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_448471745830588416l::decolagem::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_448471745830588416l::decolagem::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

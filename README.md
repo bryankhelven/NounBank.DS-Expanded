@@ -1,22 +1,7 @@
-# NounBank.DS Expanded
+# NounBank.DS-Expanded
 
-Versão corretiva V28: 518 nomes, 576 sentidos com inventários de papéis definidos e 3.693 ocorrências. As referências de 567 sentidos foram conferidas contra o XML nativo do NomBank; 9 rolesets locais descrevem 22 papéis. A [provenance pública](provenance.html) explica origem, criação e evidência, usando os mesmos dados computacionais.
+Recurso de nomes predicadores do DANTEStocks: 518 nomes, 576 sentidos e 3.693 ocorrências. Inclui argumentos numerados, realizações sintáticas e 948 marcas ARG-M.
 
-A recuperação figurada de alta foi separada em alta.02, mantendo a ocorrência original. A referência de carteira foi corrigida para portfolio.01. JSONs individuais, JSONL e ZIP foram regenerados juntos. IDs, textos, predicadores/REL, spans e sintaxe existentes foram preservados. Os registros históricos ORCH279 permanecem disponíveis, com seus arquivos de origem fixados; a documentação atual está em data/provenance/v28.
+A consulta de proveniência dos sentidos e papéis está em `provenance.html`. O histórico de novos modificadores e marcas do corpus está em `argm-provenance.html`. Os arquivos científicos estão em `jsons/`.
 
-
-Correções aceitas em ORCH255, integradas por autorização explícita do responsável pelo recurso.
-
-- 518 nomes predicadores: 145 originais + 373 revisados;
-- 3693 ocorrências predicadoras;
-- 3678 argumentos com realização literal;
-- 2 participantes implícitos preservados separadamente e 1 realização PT-local;
-- JSONs individuais, JSONL e ZIP recalculados do mesmo conjunto.
-
-A expansão revisada contém 373 entradas /426 sentidos /1894 ocorrências. O inventário integral de auditoria permanece 373/426/1905, com 11 ocorrências excluídas da projeção nominal predicadora. Decisão negativa de mapeamento inglês não é caso pendente.
-
-A projeção pública preserva a ciência e os IDs aceitos.
-
-## Provenance documental
-
-A documentação de fontes, papéis e justificativas aceitas está em [Provenance — ORCH279](docs/PROVENANCE_ORCH279.md). A fila original de398 issues está fechada; os limites históricos e semânticos permanecem explícitos.
+Licenças e citação: LICENSE, LICENSE-DATA.md, LICENSE-CODE e docs/CITATION.md.

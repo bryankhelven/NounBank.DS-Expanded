@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "assembly.02",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/assembly.xml",
       "roles": [
         {
@@ -53,20 +52,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_468780778634375168l::11",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "form": "Montagem",
@@ -75,7 +60,6 @@
             "source_token_ids": [
               "11"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -87,51 +71,49 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg1": {
-              "char_start": 63,
-              "char_end": 72,
-              "previous_tokenized_surface": "De o Kc-390",
-              "basis": "CASE_BY_CASE_TEXT_SURFACE_PUNCTUATION_CASE_DIACRITIC_CONTRACTION_REPRESENTATION_REVIEW",
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-09b6c98ba48b76871daa0e3d",
+              "native_instance_id": "dante_01_468780778634375168l::montagem::1",
+              "label": "ARGM-TMP",
+              "realization": "Final",
+              "isabella_argument_token_ids": [
+                "12"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 57,
+                    "end": 62,
+                    "text_literal": "Final",
+                    "token_ids": [
+                      "12"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
             }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_468780778634375168l::montagem::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_468780778634375168l::montagem::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_468780778634375168l::montagem::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      },
-      "historical_syntactic_profile": {
-        "Arg3": {
-          "nmod": 1
-        }
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

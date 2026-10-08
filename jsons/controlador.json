@@ -8,7 +8,6 @@
       "pt_sense_hint": 2,
       "pt_sense_gloss": "entidade controladora de companhia",
       "english_roleset": "controller.01",
-      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/controller.xml",
       "roles": [
         {
@@ -41,30 +40,13 @@
           "instance_id": "dante_01_448801043820728320l::controlador::1",
           "predicate": {
             "form": "controladores",
-            "char_start": 33,
-            "char_end": 46,
             "source_token_id": "7",
             "source_form": "controladores",
             "lemma": "controlador",
             "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448801043820728320l::7",
-                "decision": "S",
-                "authority": "P009A",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "7",
             "form": "controladores",
@@ -73,7 +55,6 @@
             "source_token_ids": [
               "7"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -85,13 +66,11 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_448801043820728320l::controlador::1"
+          }
         },
         {
           "sent_ID": "dante_01_448839735881256960l",
@@ -109,30 +88,13 @@
           "instance_id": "dante_01_448839735881256960l::controlador::1",
           "predicate": {
             "form": "controladores",
-            "char_start": 43,
-            "char_end": 56,
             "source_token_id": "8",
             "source_form": "controladores",
             "lemma": "controlador",
             "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448839735881256960l::8",
-                "decision": "S",
-                "authority": "P009A",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "8",
             "form": "controladores",
@@ -141,7 +103,6 @@
             "source_token_ids": [
               "8"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -153,13 +114,11 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_448839735881256960l::controlador::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -167,40 +126,7 @@
           "nmod": 1
         }
       },
-      "mapping_evidence": {
-        "decision": "COMPATIBLE_NOMBANK_ROLESET",
-        "roleset_name": "have power over",
-        "roleset_source": "verb-control.01",
-        "nombank_examples": [
-          "computer controllers",
-          "video controller equipment"
-        ]
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_448801043820728320l::controlador::1",
-          "dante_01_448839735881256960l::controlador::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_448801043820728320l::controlador::1",
-          "dante_01_448839735881256960l::controlador::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

@@ -8,7 +8,6 @@
       "pt_sense_hint": 1,
       "pt_sense_gloss": "proprietário de entidade/bem",
       "english_roleset": "owner.01",
-      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/owner.xml",
       "roles": [
         {
@@ -41,30 +40,13 @@
           "instance_id": "dante_01_449223768934977536l::dono::1",
           "predicate": {
             "form": "dono",
-            "char_start": 103,
-            "char_end": 107,
             "source_token_id": "24",
             "source_form": "dono",
             "lemma": "dono",
             "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449223768934977536l::24",
-                "decision": "S",
-                "authority": "P009A",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "24",
             "form": "dono",
@@ -73,7 +55,6 @@
             "source_token_ids": [
               "24"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -85,13 +66,11 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_449223768934977536l::dono::1"
+          }
         },
         {
           "sent_ID": "dante_01_468159955246534656l",
@@ -109,30 +88,13 @@
           "instance_id": "dante_01_468159955246534656l::dono::1",
           "predicate": {
             "form": "dono",
-            "char_start": 107,
-            "char_end": 111,
             "source_token_id": "24",
             "source_form": "dono",
             "lemma": "dono",
             "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_468159955246534656l::24",
-                "decision": "S",
-                "authority": "P009A",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "24",
             "form": "dono",
@@ -141,7 +103,6 @@
             "source_token_ids": [
               "24"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -153,13 +114,45 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-688e76aa773000d76c7fbc2e",
+              "native_instance_id": "dante_01_468159955246534656l::dono::1",
+              "label": "ARGM-TMP",
+              "realization": "novo",
+              "isabella_argument_token_ids": [
+                "23"
+              ],
+              "isabella_predicate_token_id": "24",
+              "integration_binding": {
+                "source_predicate_token_id": "24",
+                "source_token_ids": [
+                  "23"
+                ],
+                "source_head_token_id": "23",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 102,
+                    "end": 106,
+                    "text_literal": "novo",
+                    "token_ids": [
+                      "23"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "23"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_468159955246534656l::dono::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -168,40 +161,7 @@
           "nsubj": 1
         }
       },
-      "mapping_evidence": {
-        "decision": "COMPATIBLE_NOMBANK_ROLESET",
-        "roleset_name": "nom/share",
-        "roleset_source": "verb-own.01",
-        "nombank_examples": [
-          "CNN 's distributors and part owners",
-          "the new owner"
-        ]
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_449223768934977536l::dono::1",
-          "dante_01_468159955246534656l::dono::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_449223768934977536l::dono::1",
-          "dante_01_468159955246534656l::dono::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

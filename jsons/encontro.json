@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "meeting.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/meeting.xml",
       "roles": [
         {
@@ -59,20 +58,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448901694802632705l::10",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "10",
             "form": "encontro",
@@ -81,7 +66,6 @@
             "source_token_ids": [
               "10"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -93,101 +77,49 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg2": {
-              "char_start": 72,
-              "char_end": 91,
-              "previous_tokenized_surface": "com ministro de o TCU",
-              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
-              "source_contractions": [
-                {
-                  "expanded_form": "de o",
-                  "surface": "do",
-                  "mwt_row": {
-                    "Sent_ID": "dante_01_448901694802632705l",
-                    "ID": "14-15",
-                    "Form": "do",
-                    "Lemma": "nan",
-                    "U-PoS": "nan",
-                    "X-PoS": "nan",
-                    "Features": "nan",
-                    "Head": "nan",
-                    "Deprel": "nan",
-                    "Deps": "nan",
-                    "Misc": "nan",
-                    "Comment": ""
-                  },
-                  "component_rows": [
-                    {
-                      "Sent_ID": "dante_01_448901694802632705l",
-                      "ID": "14",
-                      "Form": "de",
-                      "Lemma": "de",
-                      "U-PoS": "ADP",
-                      "X-PoS": "nan",
-                      "Features": "nan",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    },
-                    {
-                      "Sent_ID": "dante_01_448901694802632705l",
-                      "ID": "15",
-                      "Form": "o",
-                      "Lemma": "o",
-                      "U-PoS": "DET",
-                      "X-PoS": "nan",
-                      "Features": "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    }
-                  ]
-                }
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-0cabad716093b66bbbe37888",
+              "native_instance_id": "dante_01_448901694802632705l::encontro::1",
+              "label": "ARGM-MNR",
+              "realization": "reservado",
+              "isabella_argument_token_ids": [
+                "11"
               ],
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+              "isabella_predicate_token_id": "10",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 62,
+                    "end": 71,
+                    "text_literal": "reservado",
+                    "token_ids": [
+                      "11"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
             }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_448901694802632705l::encontro::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_448901694802632705l::encontro::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_448901694802632705l::encontro::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      },
-      "historical_syntactic_profile": {
-        "Arg2": {
-          "nmod": 1
-        }
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

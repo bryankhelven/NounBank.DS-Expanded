@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "performance.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/performance.xml",
       "roles": [
         {
@@ -47,20 +46,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_444495896227885056l::14",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "14",
             "form": "realização",
@@ -69,7 +54,6 @@
             "source_token_ids": [
               "14"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -81,40 +65,67 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-d72f861710e8632e4346d4fd",
+              "native_instance_id": "dante_01_444495896227885056l::realização::1",
+              "label": "ARGM-TMP",
+              "realization": "de 14/03/2014 e 14/04/2014",
+              "isabella_argument_token_ids": [
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "isabella_predicate_token_id": "14",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "18",
+                  "19",
+                  "20",
+                  "21"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 123,
+                    "text_literal": "de 14/03/2014 e 14/04/2014",
+                    "token_ids": [
+                      "18",
+                      "19",
+                      "20",
+                      "21"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "18",
+                      "19",
+                      "20",
+                      "21"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444495896227885056l::realização::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_444495896227885056l::realização::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_444495896227885056l::realização::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     },
     {
       "pt_roleset": "realização.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
       "english_roleset": "selling.01",
-      "english_roleset_source": "NOMBANK_XML_DOMAIN_PROFIT_TAKING_RESOLUTION_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/selling.xml",
       "roles": [
         {
@@ -164,23 +175,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_445610417650298880l::1",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Realização",
@@ -189,7 +185,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -201,13 +196,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-cf03c2a0f5369675206e7378",
+              "native_instance_id": "dante_01_445610417650298880l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "2"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "2"
+                ],
+                "source_head_token_id": "2",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 11,
+                    "end": 18,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "2"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "2"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_445610417650298880l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_447485591756632065l",
@@ -234,23 +261,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_447485591756632065l::11",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "form": "realização",
@@ -259,7 +271,6 @@
             "source_token_ids": [
               "11"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -271,13 +282,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-2ce339119ace75e1678fd4f8",
+              "native_instance_id": "dante_01_447485591756632065l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "12"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 58,
+                    "end": 65,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "12"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_447485591756632065l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_442113434277007360l",
@@ -304,23 +347,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_442113434277007360l::6",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "6",
             "form": "Realização",
@@ -329,7 +357,6 @@
             "source_token_ids": [
               "6"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -341,13 +368,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-cf42a63f31d61d53729a4071",
+              "native_instance_id": "dante_01_442113434277007360l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "frustrada",
+              "isabella_argument_token_ids": [
+                "7"
+              ],
+              "isabella_predicate_token_id": "6",
+              "integration_binding": {
+                "source_predicate_token_id": "6",
+                "source_token_ids": [
+                  "7"
+                ],
+                "source_head_token_id": "7",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 20,
+                    "end": 29,
+                    "text_literal": "frustrada",
+                    "token_ids": [
+                      "7"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "7"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_442113434277007360l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_444566168053886976l",
@@ -374,23 +433,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_444566168053886976l::11",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "form": "realização",
@@ -399,7 +443,6 @@
             "source_token_ids": [
               "11"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -411,13 +454,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-4d54c0e3128d0f565846f454",
+              "native_instance_id": "dante_01_444566168053886976l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "12"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 55,
+                    "end": 62,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "12"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444566168053886976l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_444567446595198976l",
@@ -444,23 +519,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_444567446595198976l::5",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "5",
             "form": "realização",
@@ -469,7 +529,6 @@
             "source_token_ids": [
               "5"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -481,13 +540,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-b185b1895384fc7f506a9a59",
+              "native_instance_id": "dante_01_444567446595198976l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "6"
+              ],
+              "isabella_predicate_token_id": "5",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 45,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "6"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "6"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_444567446595198976l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_447486199620325376l",
@@ -514,23 +605,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_447486199620325376l::17",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "17",
             "form": "realização",
@@ -539,7 +615,6 @@
             "source_token_ids": [
               "17"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -551,13 +626,86 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-e0723280a26b7ae1be5b9ea3",
+              "native_instance_id": "dante_01_447486199620325376l::realização::1",
+              "label": "ARGM-CAU",
+              "realization": "Com a alta",
+              "isabella_argument_token_ids": [
+                "1",
+                "2",
+                "3"
+              ],
+              "isabella_predicate_token_id": "17",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 0,
+                    "end": 10,
+                    "text_literal": "Com a alta",
+                    "token_ids": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-d3396da94ea1aaa07a1ea1d7",
+              "native_instance_id": "dante_01_447486199620325376l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "18"
+              ],
+              "isabella_predicate_token_id": "17",
+              "integration_binding": {
+                "source_predicate_token_id": "17",
+                "source_token_ids": [
+                  "18"
+                ],
+                "source_head_token_id": "18",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 75,
+                    "end": 82,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "18"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "18"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_447486199620325376l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_447488010985426944l",
@@ -584,23 +732,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_447488010985426944l::5",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "5",
             "form": "realização",
@@ -609,7 +742,6 @@
             "source_token_ids": [
               "5"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -621,13 +753,78 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-4976826f32f0cef3c06fe085",
+              "native_instance_id": "dante_01_447488010985426944l::realização::1",
+              "label": "ARGM-NEG",
+              "realization": "sem",
+              "isabella_argument_token_ids": [
+                "4"
+              ],
+              "isabella_predicate_token_id": "5",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "4"
+                ],
+                "source_head_token_id": "4",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 20,
+                    "end": 23,
+                    "text_literal": "sem",
+                    "token_ids": [
+                      "4"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "4"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-8a90c5605526b45bd50fe43f",
+              "native_instance_id": "dante_01_447488010985426944l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "6"
+              ],
+              "isabella_predicate_token_id": "5",
+              "integration_binding": {
+                "source_predicate_token_id": "5",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 35,
+                    "end": 42,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "6"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "6"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_447488010985426944l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_449198785114415104l",
@@ -654,23 +851,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449198785114415104l::14",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "14",
             "form": "realização",
@@ -679,7 +861,6 @@
             "source_token_ids": [
               "14"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -691,13 +872,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-68a4ea2a57f005019a6f6c22",
+              "native_instance_id": "dante_01_449198785114415104l::realização::1",
+              "label": "ARGM-NEG",
+              "realization": "sem",
+              "isabella_argument_token_ids": [
+                "13"
+              ],
+              "isabella_predicate_token_id": "14",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "13"
+                ],
+                "source_head_token_id": "13",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 59,
+                    "text_literal": "sem",
+                    "token_ids": [
+                      "13"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "13"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449198785114415104l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_455334111087824898l",
@@ -724,23 +937,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_455334111087824898l::11",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "form": "realização",
@@ -749,7 +947,6 @@
             "source_token_ids": [
               "11"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -761,13 +958,45 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-d1403b16ec162e7fbc4b5a1d",
+              "native_instance_id": "dante_01_455334111087824898l::realização::1",
+              "label": "ARGM-MNR",
+              "realization": "parcial",
+              "isabella_argument_token_ids": [
+                "12"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12"
+                ],
+                "source_head_token_id": "12",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 57,
+                    "end": 64,
+                    "text_literal": "parcial",
+                    "token_ids": [
+                      "12"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_455334111087824898l::realização::1"
+          }
         },
         {
           "sent_ID": "dante_01_456214970783371265l",
@@ -794,23 +1023,8 @@
             "lemma": "realização",
             "upos": "NOUN"
           },
-          "construction_resolution": "PROFIT_TAKING_SELLING_PREDICATIVE",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_456214970783371265l::27",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "27",
             "form": "realização",
@@ -819,7 +1033,6 @@
             "source_token_ids": [
               "27"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -831,13 +1044,11 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "SpacesAfter=\\n"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_456214970783371265l::realização::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -848,57 +1059,7 @@
         }
       },
       "pt_sense_gloss": "realização de lucros / venda total ou parcial de posição para materializar ganho",
-      "construction_evidence": {
-        "decision": "S_PREDICATIVE",
-        "domain_equivalence": "profit-taking",
-        "rationale": "Brazilian financial 'realização (parcial)' denotes selling securities to lock in/materialize gains. profit.01 denotes profit as result/value and was rejected. selling.01 models the actual selling event underlying profit-taking.",
-        "nombank_roleset_name": "commerce: seller",
-        "nombank_roleset_source": "verb-sell.01",
-        "nombank_examples": [
-          "Freddie Mac 's 17-member securities selling group",
-          "The nation 's largest short-selling operation"
-        ],
-        "rejected_mapping": "profit.01"
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_445610417650298880l::realização::1",
-          "dante_01_447485591756632065l::realização::1",
-          "dante_01_442113434277007360l::realização::1",
-          "dante_01_444566168053886976l::realização::1",
-          "dante_01_444567446595198976l::realização::1",
-          "dante_01_447486199620325376l::realização::1",
-          "dante_01_447488010985426944l::realização::1",
-          "dante_01_449198785114415104l::realização::1",
-          "dante_01_455334111087824898l::realização::1",
-          "dante_01_456214970783371265l::realização::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_445610417650298880l::realização::1",
-          "dante_01_447485591756632065l::realização::1",
-          "dante_01_442113434277007360l::realização::1",
-          "dante_01_444566168053886976l::realização::1",
-          "dante_01_444567446595198976l::realização::1",
-          "dante_01_447486199620325376l::realização::1",
-          "dante_01_447488010985426944l::realização::1",
-          "dante_01_449198785114415104l::realização::1",
-          "dante_01_455334111087824898l::realização::1",
-          "dante_01_456214970783371265l::realização::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

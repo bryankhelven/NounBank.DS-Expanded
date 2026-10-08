@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "merger.01",
-      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/merger.xml",
       "roles": [
         {
@@ -46,31 +45,13 @@
           "instance_id": "dante_01_454228302602182656l::concentração::1",
           "predicate": {
             "form": "Concentracao",
-            "char_start": 56,
-            "char_end": 68,
             "source_token_id": "16",
             "source_form": "Concentracao",
             "lemma": "concentração",
             "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
-          "argument_audit_note": "Bare legal label 'Ato de Concentração' in headline metadata; no merger participants are overtly recoverable.",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_454228302602182656l::16",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "16",
             "form": "Concentracao",
@@ -79,7 +60,6 @@
             "source_token_ids": [
               "16"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -91,13 +71,11 @@
             "Features": "Gender=Fem|Number=Sing|Typo=Yes",
             "Misc": "CorrectForm=Concentração"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_454228302602182656l::concentração::1"
+          }
         },
         {
           "sent_ID": "dante_01_454606593280442368l",
@@ -117,30 +95,13 @@
           "instance_id": "dante_01_454606593280442368l::concentração::1",
           "predicate": {
             "form": "concentração",
-            "char_start": 105,
-            "char_end": 117,
             "source_token_id": "24",
             "source_form": "concentração",
             "lemma": "concentração",
             "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_454606593280442368l::24",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "24",
             "form": "concentração",
@@ -149,7 +110,6 @@
             "source_token_ids": [
               "24"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -161,13 +121,11 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_454606593280442368l::concentração::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -175,35 +133,7 @@
           "nmod": 1
         }
       },
-      "mapping_evidence": {
-        "xml_file": "merger.xml",
-        "roleset_name": "combine, mix",
-        "roleset_source": "verb-merge.01",
-        "rationale": "Brazilian antitrust 'ato de concentração' in both examples denotes a corporate combination/merger transaction."
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_454228302602182656l::concentração::1",
-          "dante_01_454606593280442368l::concentração::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_454228302602182656l::concentração::1",
-          "dante_01_454606593280442368l::concentração::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

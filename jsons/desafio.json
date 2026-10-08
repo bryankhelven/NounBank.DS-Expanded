@@ -8,7 +8,6 @@
       "pt_sense_hint": 1,
       "pt_sense_gloss": "tarefa/dificuldade que desafia uma entidade",
       "english_roleset": "challenge.01",
-      "english_roleset_source": "NOMBANK_XML_AFTER_DOMAIN_SENSE_RESOLUTION_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/challenge.xml",
       "roles": [
         {
@@ -46,23 +45,8 @@
             "lemma": "desafio",
             "upos": "NOUN"
           },
-          "sense_resolution_status": "RESOLVED_DOMAIN_SENSE_AND_PREDICATIVITY",
           "predicative": true,
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_468734838485561344l::10",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "10",
             "form": "desafios",
@@ -71,7 +55,6 @@
             "source_token_ids": [
               "10"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -83,13 +66,72 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-00fa2175ad0f2abcb72a8ef7",
+              "native_instance_id": "dante_01_468734838485561344l::desafio::1",
+              "label": "ARGM-TMP",
+              "realization": "nos próximos anos",
+              "isabella_argument_token_ids": [
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "isabella_predicate_token_id": "10",
+              "integration_binding": {
+                "source_predicate_token_id": "10",
+                "source_token_ids": [
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 66,
+                    "end": 83,
+                    "text_literal": "nos próximos anos",
+                    "token_ids": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "11-12",
+                        "nos",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_468734838485561344l::desafio::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -97,33 +139,7 @@
           "nsubj": 1
         }
       },
-      "sense_evidence": {
-        "decision": "S_PREDICATIVE",
-        "nombank_roleset_name": "nom/nomadj-challenging",
-        "nombank_roleset_source": "verb-challenge.01",
-        "note": "Support construction 'empresas terão desafios': companies are the challenged entity."
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_468734838485561344l::desafio::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_468734838485561344l::desafio::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

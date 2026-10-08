@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "growth.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/growth.xml",
       "roles": [
         {
@@ -65,20 +64,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453685323869200385l::17",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "17",
             "form": "crescimento",
@@ -87,7 +72,6 @@
             "source_token_ids": [
               "17"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -99,72 +83,11 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg1": {
-              "char_start": 90,
-              "char_end": 113,
-              "previous_tokenized_surface": "de a produção de petróleo",
-              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
-              "source_contractions": [
-                {
-                  "expanded_form": "de a",
-                  "surface": "da",
-                  "mwt_row": {
-                    "Sent_ID": "dante_01_453685323869200385l",
-                    "ID": "18-19",
-                    "Form": "da",
-                    "Lemma": "nan",
-                    "U-PoS": "nan",
-                    "X-PoS": "nan",
-                    "Features": "nan",
-                    "Head": "nan",
-                    "Deprel": "nan",
-                    "Deps": "nan",
-                    "Misc": "nan",
-                    "Comment": ""
-                  },
-                  "component_rows": [
-                    {
-                      "Sent_ID": "dante_01_453685323869200385l",
-                      "ID": "18",
-                      "Form": "de",
-                      "Lemma": "de",
-                      "U-PoS": "ADP",
-                      "X-PoS": "nan",
-                      "Features": "nan",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    },
-                    {
-                      "Sent_ID": "dante_01_453685323869200385l",
-                      "ID": "19",
-                      "Form": "a",
-                      "Lemma": "o",
-                      "U-PoS": "DET",
-                      "X-PoS": "nan",
-                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    }
-                  ]
-                }
-              ],
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
-            }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_453685323869200385l::crescimento::1"
+          }
         },
         {
           "sent_ID": "dante_01_459291618378805249l",
@@ -195,20 +118,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_459291618378805249l::17",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "17",
             "form": "crescimento",
@@ -217,7 +126,6 @@
             "source_token_ids": [
               "17"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -229,22 +137,11 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg2": {
-              "char_start": 89,
-              "char_end": 96,
-              "previous_tokenized_surface": "de 3,1 %",
-              "basis": "UNIQUE_EXACT_MATCH_AFTER_WHITESPACE_REMOVAL_ONLY",
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
-            }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_459291618378805249l::crescimento::1"
+          }
         },
         {
           "sent_ID": "dante_01_441917006304927744l",
@@ -275,20 +172,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_441917006304927744l::3",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "3",
             "form": "crescimento",
@@ -297,7 +180,6 @@
             "source_token_ids": [
               "3"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -309,72 +191,49 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg1": {
-              "char_start": 31,
-              "char_end": 42,
-              "previous_tokenized_surface": "de a produção",
-              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
-              "source_contractions": [
-                {
-                  "expanded_form": "de a",
-                  "surface": "da",
-                  "mwt_row": {
-                    "Sent_ID": "dante_01_441917006304927744l",
-                    "ID": "4-5",
-                    "Form": "da",
-                    "Lemma": "nan",
-                    "U-PoS": "nan",
-                    "X-PoS": "nan",
-                    "Features": "nan",
-                    "Head": "nan",
-                    "Deprel": "nan",
-                    "Deps": "nan",
-                    "Misc": "nan",
-                    "Comment": ""
-                  },
-                  "component_rows": [
-                    {
-                      "Sent_ID": "dante_01_441917006304927744l",
-                      "ID": "4",
-                      "Form": "de",
-                      "Lemma": "de",
-                      "U-PoS": "ADP",
-                      "X-PoS": "nan",
-                      "Features": "nan",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    },
-                    {
-                      "Sent_ID": "dante_01_441917006304927744l",
-                      "ID": "5",
-                      "Form": "a",
-                      "Lemma": "o",
-                      "U-PoS": "DET",
-                      "X-PoS": "nan",
-                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    }
-                  ]
-                }
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-48a56567b7fffb96ebbb4bb3",
+              "native_instance_id": "dante_01_441917006304927744l::crescimento::1",
+              "label": "ARGM-TMP",
+              "realization": "em 2014",
+              "isabella_argument_token_ids": [
+                "7",
+                "8"
               ],
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+              "isabella_predicate_token_id": "3",
+              "integration_binding": {
+                "source_predicate_token_id": "3",
+                "source_token_ids": [
+                  "7",
+                  "8"
+                ],
+                "source_head_token_id": "8",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 43,
+                    "end": 50,
+                    "text_literal": "em 2014",
+                    "token_ids": [
+                      "7",
+                      "8"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "7",
+                      "8"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
             }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_441917006304927744l::crescimento::1"
+          }
         },
         {
           "sent_ID": "dante_01_461491747722256385l",
@@ -405,20 +264,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_461491747722256385l::28",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "28",
             "form": "cresciment",
@@ -427,7 +272,6 @@
             "source_token_ids": [
               "28"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -439,13 +283,11 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "FullForm=crescimento|Trunc=Yes"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_461491747722256385l::crescimento::1"
+          }
         },
         {
           "sent_ID": "dante_01_463664480288006145l",
@@ -476,20 +318,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_463664480288006145l::8",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "8",
             "form": "crescimento",
@@ -498,7 +326,6 @@
             "source_token_ids": [
               "8"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -510,13 +337,11 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_463664480288006145l::crescimento::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -527,47 +352,13 @@
           "nmod": 1
         }
       },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_453685323869200385l::crescimento::1",
-          "dante_01_459291618378805249l::crescimento::1",
-          "dante_01_441917006304927744l::crescimento::1",
-          "dante_01_461491747722256385l::crescimento::1",
-          "dante_01_463664480288006145l::crescimento::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_453685323869200385l::crescimento::1",
-          "dante_01_459291618378805249l::crescimento::1",
-          "dante_01_441917006304927744l::crescimento::1",
-          "dante_01_461491747722256385l::crescimento::1",
-          "dante_01_463664480288006145l::crescimento::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      },
-      "historical_syntactic_profile": {
-        "Arg1": {
-          "nmod": 2
-        },
-        "Arg2": {
-          "obj": 1,
-          "nmod": 1
-        }
-      }
+      "predication": "Predicador"
     },
     {
       "pt_roleset": "crescimento.02",
       "pt_sense_index": 2,
       "pt_sense_hint": 2,
       "english_roleset": "growth.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/growth.xml",
       "roles": [
         {
@@ -625,20 +416,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_450708320639533056l::8",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "8",
             "form": "crescimento",
@@ -647,7 +424,6 @@
             "source_token_ids": [
               "8"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -659,37 +435,128 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-f776d6092bf290e6519d079f",
+              "native_instance_id": "dante_01_450708320639533056l::crescimento::1",
+              "label": "ARGM-LOC",
+              "realization": "na Espanha",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "8",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 62,
+                    "end": 72,
+                    "text_literal": "na Espanha",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-d91d8974109e8783a0d649a7",
+              "native_instance_id": "dante_01_450708320639533056l::crescimento::1",
+              "label": "ARGM-LOC",
+              "realization": "no Brasil",
+              "isabella_argument_token_ids": [
+                "13",
+                "14",
+                "15"
+              ],
+              "isabella_predicate_token_id": "8",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "13",
+                  "14",
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 75,
+                    "end": 84,
+                    "text_literal": "no Brasil",
+                    "token_ids": [
+                      "13",
+                      "14",
+                      "15"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "13-14",
+                        "no",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "13",
+                      "14",
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_450708320639533056l::crescimento::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_450708320639533056l::crescimento::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_450708320639533056l::crescimento::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

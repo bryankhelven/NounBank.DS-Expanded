@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "turnover.02",
-      "english_roleset_source": "NOMBANK_XML_CONTEXTUAL_SEMANTIC_MATCH_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/turnover.xml",
       "roles": [
         {
@@ -37,33 +36,10 @@
             "source_token_id": "19",
             "source_form": "giro",
             "lemma": "giro",
-            "upos": "NOUN",
-            "char_start": 74,
-            "char_end": 78
+            "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449173739771809792l::19",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              },
-              {
-                "key": "dante_01_449173739771809792l::24",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": true,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "19",
             "source_token_ids": [
@@ -72,9 +48,6 @@
             "form": "giro",
             "lemma": "giro",
             "predication": "Predicador",
-            "char_start": 74,
-            "char_end": 78,
-            "binding_evidence": "ACCEPTED_OCCURRENCE_ARGUMENT_PLUS_UNIQUE_LOCAL_CONSTRUCTION",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -86,13 +59,45 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-14a2d966028d18b03b9667f2",
+              "native_instance_id": "dante_01_449173739771809792l::giro::1",
+              "label": "ARGM-ADV",
+              "realization": "só",
+              "isabella_argument_token_ids": [
+                "16"
+              ],
+              "isabella_predicate_token_id": "19",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 68,
+                    "end": 70,
+                    "text_literal": "só",
+                    "token_ids": [
+                      "16"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449173739771809792l::giro::1"
+          }
         },
         {
           "sent_ID": "dante_01_449173739771809792l",
@@ -111,33 +116,10 @@
             "source_token_id": "24",
             "source_form": "giro",
             "lemma": "giro",
-            "upos": "NOUN",
-            "char_start": 89,
-            "char_end": 93
+            "upos": "NOUN"
           },
-          "english_mapping_status": "RESOLVED_REAL_NOMBANK_ROLESET",
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449173739771809792l::19",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              },
-              {
-                "key": "dante_01_449173739771809792l::24",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": true,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "24",
             "source_token_ids": [
@@ -146,9 +128,6 @@
             "form": "giro",
             "lemma": "giro",
             "predication": "Predicador",
-            "char_start": 89,
-            "char_end": 93,
-            "binding_evidence": "EXACT_COMPLETE_GROUP_BIJECTION_AFTER_INDEPENDENT_BINDINGS",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -160,49 +139,49 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-f55b97ec62909e2b49ed7047",
+              "native_instance_id": "dante_01_449173739771809792l::giro::2",
+              "label": "ARGM-ADV",
+              "realization": "só",
+              "isabella_argument_token_ids": [
+                "21"
+              ],
+              "isabella_predicate_token_id": "24",
+              "integration_binding": {
+                "source_predicate_token_id": "24",
+                "source_token_ids": [
+                  "21"
+                ],
+                "source_head_token_id": "21",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 83,
+                    "end": 85,
+                    "text_literal": "só",
+                    "token_ids": [
+                      "21"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "21"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_449173739771809792l::giro::2"
+          }
         }
       ],
       "syntactic_profile": {},
-      "mapping_evidence": {
-        "xml_file": "turnover.xml",
-        "roleset_name": "attribute",
-        "roleset_source": null,
-        "frame_examples": [
-          "slower turnover on the Tokyo Stock Exchange during July and August",
-          "turnover of 885,800"
-        ],
-        "rationale": "Financial-market giro means turnover/trading turnover. NomBank turnover.02 explicitly includes 'slower turnover on the Tokyo Stock Exchange'."
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_449173739771809792l::giro::1",
-          "dante_01_449173739771809792l::giro::2"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_449173739771809792l::giro::1",
-          "dante_01_449173739771809792l::giro::2"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

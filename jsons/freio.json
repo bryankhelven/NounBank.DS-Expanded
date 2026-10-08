@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": null,
-      "english_roleset_source": "LOCAL_ROLESET_NOUNBANK_DS_EXPANDED",
       "nombank_url": null,
       "roles": [
         {
@@ -35,20 +34,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_445717662233264128l::12",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "12",
             "form": "freios",
@@ -57,7 +42,6 @@
             "source_token_ids": [
               "12"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -69,83 +53,16 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "effective_mapping_disposition": {
-            "status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-            "source_of_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28"
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251",
-          "historical_effective_mapping_disposition": {
-            "status": "ACCEPTED_DOCUMENTED_NEGATIVE_ENGLISH_MAPPING",
-            "source_of_authority": "ACCEPTED_SENSE_OR_CONTEXTUAL_LEDGER_PRESERVED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_445717662233264128l::freio::1"
           }
         }
       ],
       "syntactic_profile": {},
-      "english_mapping_status": "RESOLVED_NO_COMPATIBLE_NOMBANK_ROLESET",
       "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_445717662233264128l::freio::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_445717662233264128l::freio::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      },
-      "historical_syntactic_profile": {
-        "Arg3": {
-          "nmod": 1
-        }
-      },
-      "superseded_inventory_V27": {
-        "english_roleset": null,
-        "english_roleset_source": "EXPLICIT_NO_COMPATIBLE_NOMBANK_ROLESET_AFTER_SEARCH_V2L",
-        "roles": [],
-        "pt_local_roles": null,
-        "mapping_evidence": null,
-        "pt_sense_gloss": null,
-        "representation_status": null
-      },
-      "pt_sense_gloss": "dispositivo de frenagem associado a um veículo ou sistema móvel",
-      "roleset_resolution_status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-      "representation_status": "RESOLVED_LOCAL_ROLESET_WITH_DEFINED_ROLES",
-      "roleset_provenance": {
-        "origin_resource": "NounBank.DS-Expanded",
-        "relation": "LOCAL_FRAME_CREATION",
-        "identifier": "freio.01",
-        "design_identifier": "freio.01",
-        "creation_stage": "V28 current corrective definition",
-        "definition_authority": "USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28",
-        "based_on": "DANTEStocks occurrence context; documented negative NomBank comparison",
-        "rationale_pt": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
-        "lexical_support_urls": [
-          "https://dicionario.priberam.org/freio"
-        ],
-        "lexical_support_imports_role_inventory": false,
-        "original_annotator_intent": "NOT_RECOVERED_NOT_INFERRED"
-      },
-      "mapping_evidence": {
-        "decision": "LOCAL_ROLESET_CREATED_AND_MATERIALIZED",
-        "rationale": "O contexto descreve um caminhão com problemas nos freios. O nome designa o dispositivo que controla seu movimento, não um evento abstrato de contenção. Por isso o inventário de restraint.01 foi rejeitado. Criamos um roleset nominal de dispositivo: distingue o operador que aciona o freio e o veículo ou sistema sobre o qual ele atua. Os participantes podem não ser expressos junto ao nome.",
-        "english_mapping_disposition": "No English frame is asserted as equivalent; local inventory is defined."
-      }
+      "pt_sense_gloss": "dispositivo de frenagem associado a um veículo ou sistema móvel"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

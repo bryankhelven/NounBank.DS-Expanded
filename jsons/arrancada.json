@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "surge.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/surge.xml",
       "roles": [
         {
@@ -52,8 +51,6 @@
           "instance_id": "dante_01_448167613152387073l::arrancada::1",
           "predicate": {
             "form": "arrancada",
-            "char_start": 26,
-            "char_end": 35,
             "source_token_id": "6",
             "source_form": "arrancada",
             "lemma": "arrancada",
@@ -61,20 +58,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448167613152387073l::6",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "6",
             "form": "arrancada",
@@ -83,7 +66,6 @@
             "source_token_ids": [
               "6"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -95,13 +77,11 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_448167613152387073l::arrancada::1"
+          }
         },
         {
           "sent_ID": "dante_01_449175888555692032l",
@@ -123,8 +103,6 @@
           "instance_id": "dante_01_449175888555692032l::arrancada::1",
           "predicate": {
             "form": "arrancada",
-            "char_start": 72,
-            "char_end": 81,
             "source_token_id": "19",
             "source_form": "arrancada",
             "lemma": "arrancada",
@@ -132,20 +110,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_449175888555692032l::19",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "19",
             "form": "arrancada",
@@ -154,7 +118,6 @@
             "source_token_ids": [
               "19"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -166,13 +129,109 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-6754efc89d3225005a3bd907",
+              "native_instance_id": "dante_01_449175888555692032l::arrancada::1",
+              "label": "ARGM-ADV",
+              "realization": "doida",
+              "isabella_argument_token_ids": [
+                "20"
+              ],
+              "isabella_predicate_token_id": "19",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "20"
+                ],
+                "source_head_token_id": "20",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 82,
+                    "end": 87,
+                    "text_literal": "doida",
+                    "token_ids": [
+                      "20"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "20"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-9c3ad1c31c78ebd3d4073614",
+              "native_instance_id": "dante_01_449175888555692032l::arrancada::1",
+              "label": "ARGM-CAU",
+              "realization": "por causa do IBOPE",
+              "isabella_argument_token_ids": [
+                "23",
+                "24",
+                "25",
+                "26",
+                "27"
+              ],
+              "isabella_predicate_token_id": "19",
+              "integration_binding": {
+                "source_predicate_token_id": "19",
+                "source_token_ids": [
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 95,
+                    "end": 113,
+                    "text_literal": "por causa do IBOPE",
+                    "token_ids": [
+                      "23",
+                      "24",
+                      "25",
+                      "26",
+                      "27"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "25-26",
+                        "do",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "23",
+                      "24",
+                      "25",
+                      "26",
+                      "27"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_449175888555692032l::arrancada::1"
+          }
         },
         {
           "sent_ID": "dante_01_460867123427147776l",
@@ -194,8 +253,6 @@
           "instance_id": "dante_01_460867123427147776l::arrancada::1",
           "predicate": {
             "form": "arrancada",
-            "char_start": 28,
-            "char_end": 37,
             "source_token_id": "9",
             "source_form": "arrancada",
             "lemma": "arrancada",
@@ -203,20 +260,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_460867123427147776l::9",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "9",
             "form": "arrancada",
@@ -225,7 +268,6 @@
             "source_token_ids": [
               "9"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -237,72 +279,49 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "argument_span_materialization": {
-            "Arg1": {
-              "char_start": 46,
-              "char_end": 55,
-              "previous_tokenized_surface": "de a #PETR4",
-              "basis": "PINNED_SOURCE_MWT_EXPANSION_PLUS_UNIQUE_TEXT_MATCH",
-              "source_contractions": [
-                {
-                  "expanded_form": "de a",
-                  "surface": "da",
-                  "mwt_row": {
-                    "Sent_ID": "dante_01_460867123427147776l",
-                    "ID": "12-13",
-                    "Form": "da",
-                    "Lemma": "nan",
-                    "U-PoS": "nan",
-                    "X-PoS": "nan",
-                    "Features": "nan",
-                    "Head": "nan",
-                    "Deprel": "nan",
-                    "Deps": "nan",
-                    "Misc": "nan",
-                    "Comment": ""
-                  },
-                  "component_rows": [
-                    {
-                      "Sent_ID": "dante_01_460867123427147776l",
-                      "ID": "12",
-                      "Form": "de",
-                      "Lemma": "de",
-                      "U-PoS": "ADP",
-                      "X-PoS": "nan",
-                      "Features": "nan",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    },
-                    {
-                      "Sent_ID": "dante_01_460867123427147776l",
-                      "ID": "13",
-                      "Form": "a",
-                      "Lemma": "o",
-                      "U-PoS": "DET",
-                      "X-PoS": "nan",
-                      "Features": "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
-                      "Head": "nan",
-                      "Deprel": "nan",
-                      "Deps": "nan",
-                      "Misc": "nan",
-                      "Comment": ""
-                    }
-                  ]
-                }
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-09b852734748d92ea553ffc8",
+              "native_instance_id": "dante_01_460867123427147776l::arrancada::1",
+              "label": "ARGM-TMP",
+              "realization": "de hoje",
+              "isabella_argument_token_ids": [
+                "10",
+                "11"
               ],
-              "semantic_attachment_qa": "ACCEPTED_SCIENTIFIC_ATTACHMENT_PRESERVED_SURFACE_VERIFIED_NO_NEW_READJUDICATION"
+              "isabella_predicate_token_id": "9",
+              "integration_binding": {
+                "source_predicate_token_id": "9",
+                "source_token_ids": [
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 45,
+                    "text_literal": "de hoje",
+                    "token_ids": [
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
             }
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_460867123427147776l::arrancada::1"
+          }
         },
         {
           "sent_ID": "dante_01_460867123427147776l",
@@ -324,8 +343,6 @@
           "instance_id": "dante_01_460867123427147776l::arrancada::2",
           "predicate": {
             "form": "arrancadão",
-            "char_start": 96,
-            "char_end": 106,
             "source_token_id": "22",
             "source_form": "arrancadão",
             "lemma": "arrancadão",
@@ -333,20 +350,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_460867123427147776l::22",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "22",
             "form": "arrancadão",
@@ -355,7 +358,6 @@
             "source_token_ids": [
               "22"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -367,40 +369,45 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "identity_pos_reconciliation": {
-            "status": "RESOLVED_TARGETED_ORCH251",
-            "basis": "Form/Lemma arrancadão is a genuine source lexical augmentative. Preserve the source identity, but use the already authorized compatible-augmentative-scale projection to arrancada.01; no separate canonical audit entry is needed for this occurrence.",
-            "authority": "ORCH_RECON_000251",
-            "source_identity_preserved": true,
-            "pending_authority": false,
-            "superseded_stage12": {
-              "status": "OPEN_TARGETED_IDENTITY_AUTHORITY_REQUIRED",
-              "basis": "Direct source lemma differs from canonical audit entry; no new entry, mapping, or normalization convention silently authorized.",
-              "review_checkpoint": "STAGE12_ORCH250",
-              "source_identity_preserved": true,
-              "pending_authority": true
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-642fd9ecc0ef897fcdc69126",
+              "native_instance_id": "dante_01_460867123427147776l::arrancada::2",
+              "label": "ARGM-TMP",
+              "realization": "Normalmente",
+              "isabella_argument_token_ids": [
+                "19"
+              ],
+              "isabella_predicate_token_id": "22",
+              "integration_binding": {
+                "source_predicate_token_id": "22",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 71,
+                    "end": 82,
+                    "text_literal": "Normalmente",
+                    "token_ids": [
+                      "19"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "19"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
             }
-          },
-          "identity_disposition": {
-            "authority": "ORCH_RECON_000251",
-            "source_form": "arrancadão",
-            "source_lemma": "arrancadão",
-            "source_upos": "NOUN",
-            "source_features": "Gender=Masc|Number=Sing",
-            "canonical_audit_entry": "arrancada",
-            "canonical_roleset": "arrancada.01",
-            "identity_relation": "DISTINCT_SOURCE_AUGMENTATIVE_VARIANT__COMPATIBLE_AUGMENTATIVE_SCALE_ALIAS",
-            "publication_disposition": "PROJECT_UNDER_ARRANCADA_01_WITH_SOURCE_VARIANT_PRESERVED",
-            "rationale": "Form/Lemma arrancadão is a genuine source lexical augmentative. Preserve the source identity, but use the already authorized compatible-augmentative-scale projection to arrancada.01; no separate canonical audit entry is needed for this occurrence.",
-            "status": "CLOSED_TARGETED_AUTHORITY"
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_460867123427147776l::arrancada::2"
+          }
         }
       ],
       "syntactic_profile": {
@@ -408,33 +415,7 @@
           "nmod": 1
         }
       },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_448167613152387073l::arrancada::1",
-          "dante_01_449175888555692032l::arrancada::1",
-          "dante_01_460867123427147776l::arrancada::1",
-          "dante_01_460867123427147776l::arrancada::2"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_448167613152387073l::arrancada::1",
-          "dante_01_449175888555692032l::arrancada::1",
-          "dante_01_460867123427147776l::arrancada::1",
-          "dante_01_460867123427147776l::arrancada::2"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "performance.02",
-      "english_roleset_source": "verb-behave.01",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/performance.xml",
       "roles": [
         {
@@ -52,8 +51,6 @@
           "instance_id": "dante_01_453255148840960000l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -61,20 +58,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453255148840960000l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -83,7 +66,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -95,13 +77,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-137b83c05046624c0a0bebc6",
+              "native_instance_id": "dante_01_453255148840960000l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-d68c788b937230016d9a04ae",
+              "native_instance_id": "dante_01_453255148840960000l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-cbf0ab94c13ba6e7a86fa7a6",
+              "native_instance_id": "dante_01_453255148840960000l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "28",
+                "29",
+                "30"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "28",
+                  "29",
+                  "30"
+                ],
+                "source_head_token_id": "30",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 96,
+                    "end": 103,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "28-29",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_453255148840960000l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_453861159608020994l",
@@ -123,8 +276,6 @@
           "instance_id": "dante_01_453861159608020994l::desempenho::1",
           "predicate": {
             "form": "desempenhos",
-            "char_start": 61,
-            "char_end": 72,
             "source_token_id": "11",
             "source_form": "desempenhos",
             "lemma": "desempenho",
@@ -132,20 +283,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453861159608020994l::11",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "form": "desempenhos",
@@ -154,7 +291,6 @@
             "source_token_ids": [
               "11"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -166,13 +302,49 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-cd21e75edec3c386c431fd88",
+              "native_instance_id": "dante_01_453861159608020994l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "em 2013",
+              "isabella_argument_token_ids": [
+                "12",
+                "13"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12",
+                  "13"
+                ],
+                "source_head_token_id": "13",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 73,
+                    "end": 80,
+                    "text_literal": "em 2013",
+                    "token_ids": [
+                      "12",
+                      "13"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "12",
+                      "13"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453861159608020994l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_443012288078172160l",
@@ -194,8 +366,6 @@
           "instance_id": "dante_01_443012288078172160l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -203,20 +373,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_443012288078172160l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -225,7 +381,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -237,13 +392,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-01be249fdd7180454c49827d",
+              "native_instance_id": "dante_01_443012288078172160l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-7b30aca5a6220f85c51d2139",
+              "native_instance_id": "dante_01_443012288078172160l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-1339fe8ba549be3262a6c61e",
+              "native_instance_id": "dante_01_443012288078172160l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "29",
+                "30",
+                "31"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "29",
+                  "30",
+                  "31"
+                ],
+                "source_head_token_id": "31",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 93,
+                    "end": 100,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "29",
+                      "30",
+                      "31"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "29-30",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "29",
+                      "30",
+                      "31"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_443012288078172160l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_445539473678696448l",
@@ -265,8 +591,6 @@
           "instance_id": "dante_01_445539473678696448l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -274,20 +598,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_445539473678696448l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -296,7 +606,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -308,13 +617,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-105ddf6c7f7737af6cf3881d",
+              "native_instance_id": "dante_01_445539473678696448l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-ae7085b639ad31c82344f6b6",
+              "native_instance_id": "dante_01_445539473678696448l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-c158e3f81219fee008f68dd9",
+              "native_instance_id": "dante_01_445539473678696448l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "30",
+                "31",
+                "32"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "30",
+                  "31",
+                  "32"
+                ],
+                "source_head_token_id": "32",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 104,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "30",
+                      "31",
+                      "32"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "30-31",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "30",
+                      "31",
+                      "32"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_445539473678696448l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_455700188712402945l",
@@ -336,8 +816,6 @@
           "instance_id": "dante_01_455700188712402945l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -345,20 +823,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_455700188712402945l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -367,7 +831,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -379,13 +842,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-7c9e3fc68a0b46f2282589c4",
+              "native_instance_id": "dante_01_455700188712402945l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-55f981116e773503b5bc95da",
+              "native_instance_id": "dante_01_455700188712402945l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-b30988337ca41dc16c8b2e24",
+              "native_instance_id": "dante_01_455700188712402945l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_455700188712402945l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_458588380897763330l",
@@ -407,8 +995,6 @@
           "instance_id": "dante_01_458588380897763330l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -416,20 +1002,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_458588380897763330l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -438,7 +1010,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -450,13 +1021,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-a318d167b95f67ef9b61e260",
+              "native_instance_id": "dante_01_458588380897763330l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-e2019b1c84a9387d8bec2484",
+              "native_instance_id": "dante_01_458588380897763330l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-a33c4f41cd2e64b99d4a8d1a",
+              "native_instance_id": "dante_01_458588380897763330l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "29",
+                "30",
+                "31"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "29",
+                  "30",
+                  "31"
+                ],
+                "source_head_token_id": "31",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 104,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "29",
+                      "30",
+                      "31"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "29-30",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "29",
+                      "30",
+                      "31"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_458588380897763330l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_460766289255202816l",
@@ -478,8 +1220,6 @@
           "instance_id": "dante_01_460766289255202816l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -487,20 +1227,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_460766289255202816l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -509,7 +1235,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -521,13 +1246,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-a12adfd8b666c20882cd25a0",
+              "native_instance_id": "dante_01_460766289255202816l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-c33b4b8d37134f0d5f91805b",
+              "native_instance_id": "dante_01_460766289255202816l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-5ca2cf56eb912fd492138e64",
+              "native_instance_id": "dante_01_460766289255202816l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_460766289255202816l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_460773462240669696l",
@@ -549,8 +1399,6 @@
           "instance_id": "dante_01_460773462240669696l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -558,20 +1406,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_460773462240669696l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -580,7 +1414,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -592,13 +1425,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-578e045d60dbb01762e4a9de",
+              "native_instance_id": "dante_01_460773462240669696l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-a2c052ee7d301025ecbdbf2e",
+              "native_instance_id": "dante_01_460773462240669696l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-8a8c5ababf85ff38df04e577",
+              "native_instance_id": "dante_01_460773462240669696l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "28",
+                "29",
+                "30"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "28",
+                  "29",
+                  "30"
+                ],
+                "source_head_token_id": "30",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 96,
+                    "end": 103,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "28-29",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_460773462240669696l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_443095643087978496l",
@@ -620,8 +1624,6 @@
           "instance_id": "dante_01_443095643087978496l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -629,20 +1631,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_443095643087978496l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -651,7 +1639,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -663,13 +1650,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-5b26f8b57d9489adb392fffb",
+              "native_instance_id": "dante_01_443095643087978496l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-91d38aa9914455d431124d7c",
+              "native_instance_id": "dante_01_443095643087978496l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-e67217ee642dbaec3226c6e6",
+              "native_instance_id": "dante_01_443095643087978496l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_443095643087978496l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_445558270699507712l",
@@ -691,8 +1803,6 @@
           "instance_id": "dante_01_445558270699507712l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -700,20 +1810,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_445558270699507712l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -722,7 +1818,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -734,13 +1829,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-8b51a30646392a001d6958b9",
+              "native_instance_id": "dante_01_445558270699507712l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-45a9660299ab5ca8cfb96554",
+              "native_instance_id": "dante_01_445558270699507712l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-5b29b94b25eee3116d669fac",
+              "native_instance_id": "dante_01_445558270699507712l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_445558270699507712l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_448198823203311616l",
@@ -762,8 +1982,6 @@
           "instance_id": "dante_01_448198823203311616l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -771,20 +1989,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_448198823203311616l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -793,7 +1997,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -805,13 +2008,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-dff0e8103a0a82c980e73e55",
+              "native_instance_id": "dante_01_448198823203311616l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-02be7d0108974b080ab74b24",
+              "native_instance_id": "dante_01_448198823203311616l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-639f0c07b20a230c1beb7527",
+              "native_instance_id": "dante_01_448198823203311616l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_448198823203311616l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_450640734966673408l",
@@ -833,8 +2161,6 @@
           "instance_id": "dante_01_450640734966673408l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -842,20 +2168,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_450640734966673408l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -864,7 +2176,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -876,13 +2187,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-6b2d68c8dd95efde7a0d5cc0",
+              "native_instance_id": "dante_01_450640734966673408l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-21bac1450bbf6d6bbd811fb1",
+              "native_instance_id": "dante_01_450640734966673408l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-b5ffb232baaaa577856fbe61",
+              "native_instance_id": "dante_01_450640734966673408l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "28",
+                "29",
+                "30"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "28",
+                  "29",
+                  "30"
+                ],
+                "source_head_token_id": "30",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 104,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "28-29",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_450640734966673408l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_450734572830199811l",
@@ -904,8 +2386,6 @@
           "instance_id": "dante_01_450734572830199811l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -913,20 +2393,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_450734572830199811l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -935,7 +2401,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -947,13 +2412,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-a52577186bcc3ae3cd0c17bd",
+              "native_instance_id": "dante_01_450734572830199811l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-40c60da44f68475c51a5a05b",
+              "native_instance_id": "dante_01_450734572830199811l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-e44c440841c703634f862840",
+              "native_instance_id": "dante_01_450734572830199811l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_450734572830199811l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_451686121500856320l",
@@ -975,8 +2565,6 @@
           "instance_id": "dante_01_451686121500856320l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 57,
-            "char_end": 67,
             "source_token_id": "14",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -984,20 +2572,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_451686121500856320l::14",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "14",
             "form": "Desempenho",
@@ -1006,7 +2580,6 @@
             "source_token_ids": [
               "14"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1018,13 +2591,72 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-e676da3fd6ef5462a07b1c5a",
+              "native_instance_id": "dante_01_451686121500856320l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "Do 1o. T/2014",
+              "isabella_argument_token_ids": [
+                "15",
+                "16",
+                "17",
+                "18"
+              ],
+              "isabella_predicate_token_id": "14",
+              "integration_binding": {
+                "source_predicate_token_id": "14",
+                "source_token_ids": [
+                  "15",
+                  "16",
+                  "17",
+                  "18"
+                ],
+                "source_head_token_id": "18",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 68,
+                    "end": 81,
+                    "text_literal": "Do 1o. T/2014",
+                    "token_ids": [
+                      "15",
+                      "16",
+                      "17",
+                      "18"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "15-16",
+                        "Do",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "15",
+                      "16",
+                      "17",
+                      "18"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_451686121500856320l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_453214616798392321l",
@@ -1046,8 +2678,6 @@
           "instance_id": "dante_01_453214616798392321l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -1055,20 +2685,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453214616798392321l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -1077,7 +2693,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1089,13 +2704,138 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-708ba782283086182c93b981",
+              "native_instance_id": "dante_01_453214616798392321l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "8",
+                "9",
+                "10",
+                "11"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 28,
+                    "end": 45,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "8-9",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "8",
+                      "9",
+                      "10",
+                      "11"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-02a7d50cde44140363fcab69",
+              "native_instance_id": "dante_01_453214616798392321l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "Bovespa",
+              "isabella_argument_token_ids": [
+                "15"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "15"
+                ],
+                "source_head_token_id": "15",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 54,
+                    "end": 61,
+                    "text_literal": "Bovespa",
+                    "token_ids": [
+                      "15"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-ae42b1eb1cd25cb93a2bfed9",
+              "native_instance_id": "dante_01_453214616798392321l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "NYSE",
+              "isabella_argument_token_ids": [
+                "24"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "24"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 77,
+                    "end": 81,
+                    "text_literal": "NYSE",
+                    "token_ids": [
+                      "24"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "24"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_453214616798392321l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_453856143949828096l",
@@ -1117,8 +2857,6 @@
           "instance_id": "dante_01_453856143949828096l::desempenho::1",
           "predicate": {
             "form": "desempenhos",
-            "char_start": 41,
-            "char_end": 52,
             "source_token_id": "8",
             "source_form": "desempenhos",
             "lemma": "desempenho",
@@ -1126,20 +2864,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453856143949828096l::8",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "8",
             "form": "desempenhos",
@@ -1148,7 +2872,6 @@
             "source_token_ids": [
               "8"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1160,13 +2883,49 @@
             "Features": "Gender=Masc|Number=Plur",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-ec42f166d81f94913b9aa817",
+              "native_instance_id": "dante_01_453856143949828096l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "em 2013",
+              "isabella_argument_token_ids": [
+                "9",
+                "10"
+              ],
+              "isabella_predicate_token_id": "8",
+              "integration_binding": {
+                "source_predicate_token_id": "8",
+                "source_token_ids": [
+                  "9",
+                  "10"
+                ],
+                "source_head_token_id": "10",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 53,
+                    "end": 60,
+                    "text_literal": "em 2013",
+                    "token_ids": [
+                      "9",
+                      "10"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453856143949828096l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_455757277522575360l",
@@ -1188,8 +2947,6 @@
           "instance_id": "dante_01_455757277522575360l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -1197,20 +2954,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_455757277522575360l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -1219,7 +2962,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1231,13 +2973,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-c1baa96901dc037fd481fe93",
+              "native_instance_id": "dante_01_455757277522575360l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-5068cf3dfd325a87c006dbcb",
+              "native_instance_id": "dante_01_455757277522575360l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 57,
+                    "end": 67,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-2e7fbc03657f59e8b7833795",
+              "native_instance_id": "dante_01_455757277522575360l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "28",
+                "29",
+                "30"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "28",
+                  "29",
+                  "30"
+                ],
+                "source_head_token_id": "30",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 104,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "28-29",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "28",
+                      "29",
+                      "30"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_455757277522575360l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_458274836494946305l",
@@ -1259,8 +3172,6 @@
           "instance_id": "dante_01_458274836494946305l::desempenho::1",
           "predicate": {
             "form": "desempenho",
-            "char_start": 56,
-            "char_end": 66,
             "source_token_id": "11",
             "source_form": "desempenho",
             "lemma": "desempenho",
@@ -1268,26 +3179,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_458274836494946305l::11",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              },
-              {
-                "key": "dante_01_458274836494946305l::18",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": true,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "11",
             "source_token_ids": [
@@ -1296,9 +3187,6 @@
             "form": "desempenho",
             "lemma": "desempenho",
             "predication": "Predicador",
-            "char_start": 56,
-            "char_end": 66,
-            "binding_evidence": "ACCEPTED_STORED_CHAR_OFFSETS_PLUS_UNIQUE_EXACT_SOURCE_WINDOW",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1310,13 +3198,105 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-e0ee2d287031b3a80eeee82b",
+              "native_instance_id": "dante_01_458274836494946305l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "13Q4",
+              "isabella_argument_token_ids": [
+                "6"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 41,
+                    "end": 45,
+                    "text_literal": "13Q4",
+                    "token_ids": [
+                      "6"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "6"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-1ee096c4bdc9bf59adc3c65f",
+              "native_instance_id": "dante_01_458274836494946305l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "nas divisões externas",
+              "isabella_argument_token_ids": [
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "isabella_predicate_token_id": "11",
+              "integration_binding": {
+                "source_predicate_token_id": "11",
+                "source_token_ids": [
+                  "12",
+                  "13",
+                  "14",
+                  "15"
+                ],
+                "source_head_token_id": "14",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 67,
+                    "end": 88,
+                    "text_literal": "nas divisões externas",
+                    "token_ids": [
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "12-13",
+                        "nas",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 2,
+            "provenance_ref": "../argm-provenance.html#dante_01_458274836494946305l::desempenho::1"
+          }
         },
         {
           "sent_ID": "dante_01_458274836494946305l",
@@ -1338,8 +3318,6 @@
           "instance_id": "dante_01_458274836494946305l::desempenho::2",
           "predicate": {
             "form": "desempenho",
-            "char_start": 94,
-            "char_end": 104,
             "source_token_id": "18",
             "source_form": "desempenho",
             "lemma": "desempenho",
@@ -1347,26 +3325,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_458274836494946305l::11",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              },
-              {
-                "key": "dante_01_458274836494946305l::18",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": true,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "18",
             "source_token_ids": [
@@ -1375,9 +3333,6 @@
             "form": "desempenho",
             "lemma": "desempenho",
             "predication": "Predicador",
-            "char_start": 94,
-            "char_end": 104,
-            "binding_evidence": "ACCEPTED_STORED_CHAR_OFFSETS_PLUS_UNIQUE_EXACT_SOURCE_WINDOW",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1389,13 +3344,146 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-1b6f368c79a109e52d465e96",
+              "native_instance_id": "dante_01_458274836494946305l::desempenho::2",
+              "label": "ARGM-TMP",
+              "realization": "13Q4",
+              "isabella_argument_token_ids": [
+                "6"
+              ],
+              "isabella_predicate_token_id": "18",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "6"
+                ],
+                "source_head_token_id": "6",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 41,
+                    "end": 45,
+                    "text_literal": "13Q4",
+                    "token_ids": [
+                      "6"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "6"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-040f57f83d7516a5c26307de",
+              "native_instance_id": "dante_01_458274836494946305l::desempenho::2",
+              "label": "ARGM-LOC",
+              "realization": "no Mercosul",
+              "isabella_argument_token_ids": [
+                "19",
+                "20",
+                "21"
+              ],
+              "isabella_predicate_token_id": "18",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "19",
+                  "20",
+                  "21"
+                ],
+                "source_head_token_id": "21",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 105,
+                    "end": 116,
+                    "text_literal": "no Mercosul",
+                    "token_ids": [
+                      "19",
+                      "20",
+                      "21"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "19-20",
+                        "no",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "19",
+                      "20",
+                      "21"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-42a4bd551e7c61fd855eb524",
+              "native_instance_id": "dante_01_458274836494946305l::desempenho::2",
+              "label": "ARGM-MNR",
+              "realization": "com adição de Seara",
+              "isabella_argument_token_ids": [
+                "23",
+                "24",
+                "25",
+                "26"
+              ],
+              "isabella_predicate_token_id": "18",
+              "integration_binding": {
+                "source_predicate_token_id": "18",
+                "source_token_ids": [
+                  "23",
+                  "24",
+                  "25",
+                  "26"
+                ],
+                "source_head_token_id": "24",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 118,
+                    "end": 137,
+                    "text_literal": "com adição de Seara",
+                    "token_ids": [
+                      "23",
+                      "24",
+                      "25",
+                      "26"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "23",
+                      "24",
+                      "25",
+                      "26"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_458274836494946305l::desempenho::2"
+          }
         },
         {
           "sent_ID": "dante_01_470921189024874497l",
@@ -1417,8 +3505,6 @@
           "instance_id": "dante_01_470921189024874497l::desempenho::1",
           "predicate": {
             "form": "Desempenho",
-            "char_start": 0,
-            "char_end": 10,
             "source_token_id": "1",
             "source_form": "Desempenho",
             "lemma": "desempenho",
@@ -1426,20 +3512,6 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "ACCEPTED_HISTORICAL_INSTANCE_DECISION_CONSENSUS_PRESERVED_UNDER_ORCH246",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_470921189024874497l::1",
-                "decision": "S",
-                "authority": "P001/P002",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "1",
             "form": "Desempenho",
@@ -1448,7 +3520,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -1460,13 +3531,184 @@
             "Features": "Gender=Masc|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-8d31a840a977963feace4597",
+              "native_instance_id": "dante_01_470921189024874497l::desempenho::1",
+              "label": "ARGM-TMP",
+              "realization": "na semana passada",
+              "isabella_argument_token_ids": [
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "source_head_token_id": "11",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 38,
+                    "end": 55,
+                    "text_literal": "na semana passada",
+                    "token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "9-10",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "9",
+                      "10",
+                      "11",
+                      "12"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-9edeb256bc87ac53d997f583",
+              "native_instance_id": "dante_01_470921189024874497l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na Bovespa",
+              "isabella_argument_token_ids": [
+                "14",
+                "15",
+                "16"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "14",
+                  "15",
+                  "16"
+                ],
+                "source_head_token_id": "16",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 56,
+                    "end": 66,
+                    "text_literal": "na Bovespa",
+                    "token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "14-15",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "14",
+                      "15",
+                      "16"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            },
+            {
+              "annotation_id": "NEW-ARGM-e9802fb14d1e2b59b716f167",
+              "native_instance_id": "dante_01_470921189024874497l::desempenho::1",
+              "label": "ARGM-LOC",
+              "realization": "na NYSE",
+              "isabella_argument_token_ids": [
+                "30",
+                "31",
+                "32"
+              ],
+              "isabella_predicate_token_id": "1",
+              "integration_binding": {
+                "source_predicate_token_id": "1",
+                "source_token_ids": [
+                  "30",
+                  "31",
+                  "32"
+                ],
+                "source_head_token_id": "32",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 97,
+                    "end": 104,
+                    "text_literal": "na NYSE",
+                    "token_ids": [
+                      "30",
+                      "31",
+                      "32"
+                    ],
+                    "multiword_units_literal": [
+                      [
+                        "30-31",
+                        "na",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_",
+                        "_"
+                      ]
+                    ],
+                    "multiword_cover_token_ids": [
+                      "30",
+                      "31",
+                      "32"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
+              }
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 3,
+            "provenance_ref": "../argm-provenance.html#dante_01_470921189024874497l::desempenho::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -1480,67 +3722,7 @@
           "nmod": 2
         }
       },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_453255148840960000l::desempenho::1",
-          "dante_01_453861159608020994l::desempenho::1",
-          "dante_01_443012288078172160l::desempenho::1",
-          "dante_01_445539473678696448l::desempenho::1",
-          "dante_01_455700188712402945l::desempenho::1",
-          "dante_01_458588380897763330l::desempenho::1",
-          "dante_01_460766289255202816l::desempenho::1",
-          "dante_01_460773462240669696l::desempenho::1",
-          "dante_01_443095643087978496l::desempenho::1",
-          "dante_01_445558270699507712l::desempenho::1",
-          "dante_01_448198823203311616l::desempenho::1",
-          "dante_01_450640734966673408l::desempenho::1",
-          "dante_01_450734572830199811l::desempenho::1",
-          "dante_01_451686121500856320l::desempenho::1",
-          "dante_01_453214616798392321l::desempenho::1",
-          "dante_01_453856143949828096l::desempenho::1",
-          "dante_01_455757277522575360l::desempenho::1",
-          "dante_01_458274836494946305l::desempenho::1",
-          "dante_01_458274836494946305l::desempenho::2",
-          "dante_01_470921189024874497l::desempenho::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_453255148840960000l::desempenho::1",
-          "dante_01_453861159608020994l::desempenho::1",
-          "dante_01_443012288078172160l::desempenho::1",
-          "dante_01_445539473678696448l::desempenho::1",
-          "dante_01_455700188712402945l::desempenho::1",
-          "dante_01_458588380897763330l::desempenho::1",
-          "dante_01_460766289255202816l::desempenho::1",
-          "dante_01_460773462240669696l::desempenho::1",
-          "dante_01_443095643087978496l::desempenho::1",
-          "dante_01_445558270699507712l::desempenho::1",
-          "dante_01_448198823203311616l::desempenho::1",
-          "dante_01_450640734966673408l::desempenho::1",
-          "dante_01_450734572830199811l::desempenho::1",
-          "dante_01_451686121500856320l::desempenho::1",
-          "dante_01_453214616798392321l::desempenho::1",
-          "dante_01_453856143949828096l::desempenho::1",
-          "dante_01_455757277522575360l::desempenho::1",
-          "dante_01_458274836494946305l::desempenho::1",
-          "dante_01_458274836494946305l::desempenho::2",
-          "dante_01_470921189024874497l::desempenho::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "projection_status": "FUNCTIONAL_SOURCE_BACKED_FINALIZER",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_004",
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

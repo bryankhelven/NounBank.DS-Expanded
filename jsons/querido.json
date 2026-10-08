@@ -8,7 +8,6 @@
       "pt_sense_hint": 1,
       "pt_sense_gloss": "entidade favorita/queridinha de alguém ou de um mercado",
       "english_roleset": "favorite.01",
-      "english_roleset_source": "NOMBANK_XML_FINAL39_REPAIR_V2H",
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/favorite.xml",
       "roles": [
         {
@@ -41,37 +40,13 @@
           "instance_id": "dante_01_454616552483323904l::queridinho::1",
           "predicate": {
             "form": "queridinha",
-            "char_start": 10,
-            "char_end": 20,
-            "source_identity": {
-              "token_id": "3",
-              "form": "queridinha",
-              "lemma": "querido",
-              "upos": "NOUN"
-            },
             "source_token_id": "3",
             "source_form": "queridinha",
             "lemma": "querido",
             "upos": "NOUN"
           },
           "predicative": true,
-          "resolution_status": "RESOLVED_REAL_NOMBANK_ROLESET_AND_ROLE_INVENTORY",
-          "publication_pos_eligibility": "PENDING_GLOBAL_QA",
           "predication": "Predicador",
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_454616552483323904l::3",
-                "decision": "S",
-                "authority": "NO_REOPEN",
-                "basis": "EXACT_RESTORED_OR_CARRY_MEMBERSHIP_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
           "rel": {
             "source_token_id": "3",
             "form": "queridinha",
@@ -80,7 +55,6 @@
             "source_token_ids": [
               "3"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -92,13 +66,11 @@
             "Features": "Gender=Fem|Number=Sing",
             "Misc": "nan"
           },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_454616552483323904l::queridinho::1"
+          }
         }
       ],
       "syntactic_profile": {
@@ -107,44 +79,7 @@
           "det": 1
         }
       },
-      "mapping_evidence": {
-        "decision": "COMPATIBLE_NOMBANK_ROLESET",
-        "roleset_name": "like, prefer",
-        "roleset_source": "verb-favor.01",
-        "nombank_examples": [
-          "their favorites",
-          "Other favorites of growth-stock analysts and money managers"
-        ]
-      },
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_454616552483323904l::queridinho::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_454616552483323904l::queridinho::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      }
+      "predication": "Predicador"
     }
-  ],
-  "projection_status": "PREDICATIVE_RESOLVED",
-  "projection_authority": "NBE_V2H_FINALIZER_PARTIAL_006_TEXT_REPAIR",
-  "entry_identity_lineage": {
-    "previous_entry": "queridinho",
-    "accepted_repair": "Q288_SOURCE_LEMMA_QUERIDO",
-    "authority": "ORCH229_PRESERVED_UNDER_ORCH246",
-    "stable_pt_roleset_policy": "PRESERVE_EXISTING_SENSE_IDENTIFIER_UNTIL_EXPLICIT_RENAME_AUTHORITY"
-  },
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

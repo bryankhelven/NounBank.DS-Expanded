@@ -7,7 +7,6 @@
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "turnaround.01",
-      "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/turnaround.xml",
       "roles": [
         {
@@ -39,7 +38,6 @@
             "upos": "NOUN",
             "source_form": "virada"
           },
-          "legacy_inventory_entry": "virada",
           "rel": {
             "source_token_id": "2",
             "form": "virada",
@@ -48,7 +46,6 @@
             "source_token_ids": [
               "2"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -62,27 +59,45 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_452175656374505473l::2",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-4d9fc03c13ea79c5fac767a1",
+              "native_instance_id": "dante_01_452175656374505473l::virada::1",
+              "label": "ARGM-TMP",
+              "realization": "final",
+              "isabella_argument_token_ids": [
+                "3"
+              ],
+              "isabella_predicate_token_id": "2",
+              "integration_binding": {
+                "source_predicate_token_id": "2",
+                "source_token_ids": [
+                  "3"
+                ],
+                "source_head_token_id": "3",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 12,
+                    "end": 17,
+                    "text_literal": "final",
+                    "token_ids": [
+                      "3"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "3"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
               }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_452175656374505473l::virada::1"
+          }
         },
         {
           "sent_ID": "dante_01_446694551160233985l",
@@ -103,7 +118,6 @@
             "upos": "NOUN",
             "source_form": "Virada"
           },
-          "legacy_inventory_entry": "virada",
           "rel": {
             "source_token_id": "1",
             "form": "Virada",
@@ -112,7 +126,6 @@
             "source_token_ids": [
               "1"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -126,27 +139,11 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_446694551160233985l::1",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
-              }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+          "argm_annotations": [],
+          "argm_review": {
+            "annotation_count": 0,
+            "provenance_ref": "../argm-provenance.html#dante_01_446694551160233985l::virada::1"
+          }
         },
         {
           "sent_ID": "dante_01_453524797348392960l",
@@ -167,7 +164,6 @@
             "upos": "NOUN",
             "source_form": "virada"
           },
-          "legacy_inventory_entry": "virada",
           "rel": {
             "source_token_id": "20",
             "form": "virada",
@@ -176,7 +172,6 @@
             "source_token_ids": [
               "20"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -190,27 +185,45 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453524797348392960l::20",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-b0b0225632544554e6c3c776",
+              "native_instance_id": "dante_01_453524797348392960l::virada::1",
+              "label": "ARGM-ADV",
+              "realization": "possível",
+              "isabella_argument_token_ids": [
+                "19"
+              ],
+              "isabella_predicate_token_id": "20",
+              "integration_binding": {
+                "source_predicate_token_id": "20",
+                "source_token_ids": [
+                  "19"
+                ],
+                "source_head_token_id": "19",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 91,
+                    "end": 99,
+                    "text_literal": "possível",
+                    "token_ids": [
+                      "19"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "19"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
               }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453524797348392960l::virada::1"
+          }
         },
         {
           "sent_ID": "dante_01_453525676910706688l",
@@ -231,7 +244,6 @@
             "upos": "NOUN",
             "source_form": "virada"
           },
-          "legacy_inventory_entry": "virada",
           "rel": {
             "source_token_id": "23",
             "form": "virada",
@@ -240,7 +252,6 @@
             "source_token_ids": [
               "23"
             ],
-            "binding_evidence": "UNIQUE_EXACT_SENTENCE_AND_CASE_SENSITIVE_FORM_IN_PINNED_SOURCE",
             "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
           },
           "source_identity": {
@@ -254,63 +265,49 @@
           },
           "predication": "Predicador",
           "predicative": true,
-          "predication_evidence": {
-            "basis": "PRESERVED_CURRENT_EXPLICIT_OCCURRENCE_DECISION",
-            "historical_source_decisions": [
-              {
-                "key": "dante_01_453525676910706688l::23",
-                "decision": "S",
-                "authority": "PRESERVED_ORCH40",
-                "basis": "EXACT_CONTEXTUAL_INSTANCE_AUTHORITY_PRESERVED_UNDER_ORCH246"
+          "argm_annotations": [
+            {
+              "annotation_id": "NEW-ARGM-141442b130996dd51c3fb82f",
+              "native_instance_id": "dante_01_453525676910706688l::virada::1",
+              "label": "ARGM-ADV",
+              "realization": "possível",
+              "isabella_argument_token_ids": [
+                "22"
+              ],
+              "isabella_predicate_token_id": "23",
+              "integration_binding": {
+                "source_predicate_token_id": "23",
+                "source_token_ids": [
+                  "22"
+                ],
+                "source_head_token_id": "22",
+                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
+                "text_intervals": [
+                  {
+                    "start": 108,
+                    "end": 116,
+                    "text_literal": "possível",
+                    "token_ids": [
+                      "22"
+                    ],
+                    "multiword_units_literal": [],
+                    "multiword_cover_token_ids": [
+                      "22"
+                    ],
+                    "covers_extra_multiword_tokens": false
+                  }
+                ]
               }
-            ],
-            "later_override_preserved": false,
-            "source_binding_independent": false,
-            "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-          },
-          "publication_eligibility": {
-            "eligible_for_nominal_predicative_projection": true,
-            "reason": "ACCEPTED_PREDICATOR_IN_NOUN_LAYER",
-            "authority": "ORCH_RECON_000251_WITH_ORCH245_246_250_PRESERVED",
-            "integration_and_publication_authorized": false
-          },
-          "candidate_verification_status": "REPLAY_AND_REPRESENTATION_CHECKS_PASSED_ORCH251"
+            }
+          ],
+          "argm_review": {
+            "annotation_count": 1,
+            "provenance_ref": "../argm-provenance.html#dante_01_453525676910706688l::virada::1"
+          }
         }
       ],
       "syntactic_profile": {},
-      "legacy_pt_roleset": "virada.01",
-      "predication": "Predicador",
-      "predication_evidence": {
-        "basis": "ACCEPTED_INSTANCE_DECISIONS_FOR_THIS_ENTRY_SCOPED_SENSE",
-        "instance_ids": [
-          "dante_01_452175656374505473l::virada::1",
-          "dante_01_446694551160233985l::virada::1",
-          "dante_01_453524797348392960l::virada::1",
-          "dante_01_453525676910706688l::virada::1"
-        ],
-        "contextual_nonpredicator_exceptions": [],
-        "release_status": "VERIFIED_REGENERATED_CANDIDATE_ORCH251"
-      },
-      "publication_eligibility": {
-        "eligible_for_nominal_predicative_projection": true,
-        "eligible_occurrence_ids": [
-          "dante_01_452175656374505473l::virada::1",
-          "dante_01_446694551160233985l::virada::1",
-          "dante_01_453524797348392960l::virada::1",
-          "dante_01_453525676910706688l::virada::1"
-        ],
-        "authority": "DERIVED_FROM_ACCEPTED_OCCURRENCE_SCIENCE_ORCH251",
-        "integration_and_publication_authorized": false
-      },
-      "historical_syntactic_profile": {
-        "Arg0": {},
-        "Arg1": {}
-      }
+      "predication": "Predicador"
     }
-  ],
-  "lexical_identity_basis": "Exact source Lemma=virado, U-PoS=NOUN for four occurrences. Surface virada/Virada preserved; not silently merged with virada.",
-  "publication_eligibility": {
-    "eligible_for_nominal_predicative_projection": true,
-    "integration_and_publication_authorized": false
-  }
+  ]
 }

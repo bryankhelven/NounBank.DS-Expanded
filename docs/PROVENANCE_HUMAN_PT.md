@@ -8,8 +8,8 @@ Alta.02 distingue a recuperação figurada na expressão “recebeu alta, saiu d
 
 A origem dos papéis, a base contextual e o motivo da criação estão em cada ficha e no JSON. Dicionários foram consultados apenas para confirmar o domínio lexical de freio e vertigem. Eles não fornecem os inventários criados: a interpretação contextual e os papéis são decisões do projeto.
 
-A vista efetiva fica em data/provenance/v28. Os registros ORCH279 e seus snapshots de origem conservam a evidência histórica. As 36.983 marcações preservam valores e IDs, com ponteiros atualizados para os JSONs atuais e referências históricas disponíveis para comparação. Definições novas não são apresentadas como intenção original recuperada de anotadores.
+A vista efetiva fica em data/provenance/v28. Os registros registro documental e seus snapshots de origem conservam a evidência histórica. As 36.983 marcações preservam valores e IDs, com ponteiros atualizados para os JSONs atuais e referências históricas disponíveis para comparação. Definições novas não são apresentadas como intenção original recuperada de anotadores.
 
 Há 2.079 registros de definição de papel: 1.821 descrições semânticas e 258 campos vazios de preenchimento. O número de papéis descritos não afirma realização obrigatória em todas as ocorrências. Não foram acrescentados spans ou relações sintáticas; a revalidação independente de todos os bindings semânticos antigos é um escopo distinto da cobertura de inventários aqui verificada.
 
-A correção científica foi solicitada explicitamente pelo usuário após identificar os vazios da publicação V27. Sua autoridade de release é USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28, com base histórica ORCH279. Não se declara um novo ACK do orquestrador.
+A correção científica foi solicitada explicitamente pelo usuário após identificar os vazios da publicação V27. Sua autoridade de release é USER_DIRECTED_LOCAL_ROLESET_CORRECTION_20261004_V28, com base histórica registro documental. Não se declara um novo ACK do orquestrador.
