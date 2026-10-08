@@ -44,34 +44,10 @@
           "predicate": {
             "form": "remuneração",
             "source_token_id": "15",
-            "source_form": "remuneração",
-            "lemma": "remuneração",
-            "upos": "NOUN",
             "char_start": 70,
             "char_end": 81,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "15",
-            "form": "remuneração",
-            "lemma": "remuneração",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "15"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_450619682769625088l",
-            "ID": "15",
-            "Form": "remuneração",
-            "Lemma": "remuneração",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Fem|Number=Sing",
-            "Misc": "nan"
           },
           "argm_annotations": [
             {
@@ -90,7 +66,6 @@
                   "21"
                 ],
                 "source_head_token_id": "21",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 104,
@@ -133,10 +108,6 @@
               }
             }
           ],
-          "argm_review": {
-            "annotation_count": 1,
-            "provenance_ref": "../argm-provenance.html#dante_01_450619682769625088l::remuneração::1"
-          },
           "syntax_provenance": {
             "Arg0": {
               "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
@@ -194,8 +165,7 @@
         "ARGM-TMP": {
           "obl": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

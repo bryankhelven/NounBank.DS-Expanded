@@ -38,34 +38,10 @@
           "predicate": {
             "form": "deposito",
             "source_token_id": "6",
-            "source_form": "deposito",
-            "lemma": "depósito",
-            "upos": "NOUN",
             "char_start": 31,
             "char_end": 39,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "6",
-            "form": "deposito",
-            "lemma": "depósito",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "6"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_468935926518132737l",
-            "ID": "6",
-            "Form": "deposito",
-            "Lemma": "depósito",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Masc|Number=Sing|Typo=Yes",
-            "Misc": "CorrectForm=depósito"
           },
           "argm_annotations": [
             {
@@ -84,7 +60,6 @@
                   "3"
                 ],
                 "source_head_token_id": null,
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 10,
@@ -152,7 +127,6 @@
                   "10"
                 ],
                 "source_head_token_id": "8",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 40,
@@ -200,11 +174,7 @@
                 ]
               }
             }
-          ],
-          "argm_review": {
-            "annotation_count": 2,
-            "provenance_ref": "../argm-provenance.html#dante_01_468935926518132737l::depósito::1"
-          }
+          ]
         }
       ],
       "syntactic_profile": {
@@ -214,8 +184,7 @@
         "ARGM-PNC": {
           "acl": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

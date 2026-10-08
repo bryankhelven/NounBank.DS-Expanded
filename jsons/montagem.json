@@ -44,34 +44,10 @@
           "predicate": {
             "form": "Montagem",
             "source_token_id": "11",
-            "source_form": "Montagem",
-            "lemma": "montagem",
-            "upos": "NOUN",
             "char_start": 48,
             "char_end": 56,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "11",
-            "form": "Montagem",
-            "lemma": "montagem",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "11"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_468780778634375168l",
-            "ID": "11",
-            "Form": "Montagem",
-            "Lemma": "montagem",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Fem|Number=Sing",
-            "Misc": "nan"
           },
           "argm_annotations": [
             {
@@ -88,7 +64,6 @@
                   "12"
                 ],
                 "source_head_token_id": "12",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 57,
@@ -128,10 +103,6 @@
               }
             }
           ],
-          "argm_review": {
-            "annotation_count": 1,
-            "provenance_ref": "../argm-provenance.html#dante_01_468780778634375168l::montagem::1"
-          },
           "syntax_provenance": {
             "Arg1": {
               "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
@@ -165,8 +136,7 @@
         "ARGM-TMP": {
           "amod": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

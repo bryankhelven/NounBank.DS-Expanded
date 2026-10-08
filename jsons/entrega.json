@@ -38,34 +38,10 @@
           "predicate": {
             "form": "Entregas",
             "source_token_id": "3",
-            "source_form": "Entregas",
-            "lemma": "entrega",
-            "upos": "NOUN",
             "char_start": 9,
             "char_end": 17,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "3",
-            "form": "Entregas",
-            "lemma": "entrega",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "3"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_456114609389600768l",
-            "ID": "3",
-            "Form": "Entregas",
-            "Lemma": "entrega",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Fem|Number=Plur",
-            "Misc": "nan"
           },
           "argm_annotations": [
             {
@@ -88,7 +64,6 @@
                   "13"
                 ],
                 "source_head_token_id": "13",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 39,
@@ -152,10 +127,6 @@
               }
             }
           ],
-          "argm_review": {
-            "annotation_count": 1,
-            "provenance_ref": "../argm-provenance.html#dante_01_456114609389600768l::entrega::1"
-          },
           "syntax_provenance": {
             "Arg0": {
               "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
@@ -189,8 +160,7 @@
         "ARGM-TMP": {
           "obl": 1
         }
-      },
-      "predication": "Predicador"
+      }
     },
     {
       "pt_roleset": "entrega.02",
@@ -229,39 +199,10 @@
           "predicate": {
             "form": "entrega",
             "source_token_id": "7",
-            "source_form": "entrega",
-            "lemma": "entrega",
-            "upos": "NOUN",
             "char_start": 34,
             "char_end": 41,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "7",
-            "form": "entrega",
-            "lemma": "entrega",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "7"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_454412289559777280l",
-            "ID": "7",
-            "Form": "entrega",
-            "Lemma": "entrega",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Fem|Number=Sing",
-            "Misc": "nan"
-          },
-          "argm_annotations": [],
-          "argm_review": {
-            "annotation_count": 0,
-            "provenance_ref": "../argm-provenance.html#dante_01_454412289559777280l::entrega::1"
           },
           "syntax_provenance": {
             "Arg1": {
@@ -318,8 +259,7 @@
         "Arg2": {
           "nmod": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

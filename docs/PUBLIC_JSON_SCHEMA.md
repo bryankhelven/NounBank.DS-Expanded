@@ -24,7 +24,11 @@ Todos os exemplos têm `sent_ID`, `text` e `predicate`, inclusive quando o nome 
 - `occurrence_index` começa em 1 e identifica a aparição nominal do lema pela ordem no texto, considerando suas formas flexionadas e todas as acepções reconhecidas na sentença.
 - `occurrence_count` informa o total dessas aparições reconhecidas. Uma aparição única recebe índice 1 e total 1. A contagem é feita sobre o texto da própria instância; versões textuais diferentes mantêm seus respectivos limites e contagens.
 
-Campos de origem como `source_token_id`, `source_form`, `lemma` e `upos` são preservados quando já disponíveis. O token deve ser interpretado na versão de corpus que o produziu.
+O predicador é identificado uma única vez, em `predicate`. `source_token_id` é preservado quando disponível; predicadores com vários tokens mantêm `source_token_ids`. `source_form` e `lemma` aparecem apenas quando diferem da forma publicada e do lema da entrada, respectivamente. O token deve ser interpretado na versão de corpus que o produziu.
+
+Este recurso publica apenas usos predicadores nominais. Por isso, não repete `predication: Predicador`, `predicative: true` nem um bloco `rel` equivalente. A cópia de identificação do corpus `source_identity` foi retirada do JSON de consulta; o corpus e o histórico do repositório permanecem disponíveis. `argm_review`, suas referências de página e as listas de ARG-M vazias foram retirados. Sem `argm_annotations`, a instância não contém marcações ARG-M publicadas.
+
+`source_commit`, `provenance_ref` e convenções de caracteres repetidas não fazem parte dos JSONs de lemas. As anotações preservam sua origem, relação com as marcações anteriores, justificativa, tokens e evidência sintática. Os arquivos separados de histórico de proveniência permanecem intactos.
 
 Os exemplos públicos não precisam de um ID artificial de instância. A combinação de sentença e posição do predicador permite distinguir nomes repetidos. Os campos `instance_id`, `native_instance_id` e o bloco de operação técnica `instance_identity_provenance` foram retirados dos JSONs de lemas e dos downloads agregados. A proveniência científica dos sentidos, papéis e modificadores permanece preservada. Os arquivos de histórico mantêm seus vínculos anteriores para recuperar a origem e as alterações efetivamente feitas.
 

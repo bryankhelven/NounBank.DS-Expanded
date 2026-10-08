@@ -50,34 +50,10 @@
           "predicate": {
             "form": "subidinha",
             "source_token_id": "19",
-            "source_form": "subidinha",
-            "lemma": "subida",
-            "upos": "NOUN",
             "char_start": 77,
             "char_end": 86,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "19",
-            "form": "subidinha",
-            "lemma": "subida",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "19"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_453743655421878273l",
-            "ID": "19",
-            "Form": "subidinha",
-            "Lemma": "subida",
-            "U-PoS": "NOUN",
-            "Features": "Gender=Fem|Number=Sing",
-            "Misc": "nan"
           },
           "argm_annotations": [
             {
@@ -96,7 +72,6 @@
                   "5"
                 ],
                 "source_head_token_id": "5",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 9,
@@ -139,10 +114,6 @@
               }
             }
           ],
-          "argm_review": {
-            "annotation_count": 1,
-            "provenance_ref": "../argm-provenance.html#dante_01_453743655421878273l::subida::1"
-          },
           "syntax_provenance": {
             "Arg1": {
               "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
@@ -175,8 +146,7 @@
         "ARGM-TMP": {
           "obl": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

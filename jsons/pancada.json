@@ -32,34 +32,10 @@
           "predicate": {
             "form": "pancada",
             "source_token_id": "4",
-            "source_form": "pancada",
-            "lemma": "pancada",
-            "upos": "NOUN",
             "char_start": 5,
             "char_end": 12,
             "occurrence_index": 1,
             "occurrence_count": 1
-          },
-          "predication": "Predicador",
-          "predicative": true,
-          "rel": {
-            "source_token_id": "4",
-            "form": "pancada",
-            "lemma": "pancada",
-            "predication": "Predicador",
-            "source_token_ids": [
-              "4"
-            ],
-            "source_commit": "3469da504e955a667f16ea0730fbd045ab1c2ff7"
-          },
-          "source_identity": {
-            "Sent_ID": "dante_01_456162878261710848l",
-            "ID": "4",
-            "Form": "pancada",
-            "Lemma": "pancada",
-            "U-PoS": "NOUN",
-            "Features": "Number=Sing",
-            "Misc": "nan"
           },
           "argm_annotations": [
             {
@@ -76,7 +52,6 @@
                   "7"
                 ],
                 "source_head_token_id": "7",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 22,
@@ -129,7 +104,6 @@
                   "9"
                 ],
                 "source_head_token_id": "9",
-                "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE",
                 "text_intervals": [
                   {
                     "start": 31,
@@ -169,10 +143,6 @@
               }
             }
           ],
-          "argm_review": {
-            "annotation_count": 2,
-            "provenance_ref": "../argm-provenance.html#dante_01_456162878261710848l::pancada::1"
-          },
           "syntax_provenance": {
             "Arg1": {
               "source_file": "DANTEStocks_NBDSv2train.conllup.conllu",
@@ -208,8 +178,7 @@
         "ARGM-EXT": {
           "root": 1
         }
-      },
-      "predication": "Predicador"
+      }
     }
   ]
 }

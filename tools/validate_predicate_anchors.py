@@ -5,6 +5,17 @@ import sys
 import zipfile
 
 
+def validate_public_structure(value, location):
+    if isinstance(value, dict):
+        forbidden = {'source_commit', 'provenance_ref', 'char_offset_unit', 'predication', 'predicative', 'rel', 'source_identity', 'argm_review'}
+        assert not forbidden.intersection(value), f'{location}: redundant public fields {forbidden.intersection(value)}'
+        for key, child in value.items():
+            validate_public_structure(child, location + '/' + key)
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            validate_public_structure(child, location + '/' + str(index))
+
+
 def validate(root):
     root = Path(root)
     entries = json.loads((root / 'jsons/_manifest.json').read_text())['lemmas']
@@ -14,6 +25,7 @@ def validate(root):
         path = root / 'jsons' / entry['filename']
         document = json.loads(path.read_text())
         assert 'lemma_base' not in document, f'{path}: redundant lemma_base'
+        validate_public_structure(document, str(path))
         documents.append(document)
         for sense in document['senses']:
             for example in sense['examples']:
