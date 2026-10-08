@@ -12,16 +12,19 @@
 .argument-view-status,.argument-view-note{flex-basis:100%;margin:0;font-size:.86rem;line-height:1.5;overflow-wrap:anywhere;color:#d8e0ed}
 .argument-view-note{color:#bfc8d9}
 .lemma-page .interactive-argument-table [hidden],.instance-list-mobile [hidden]{display:none!important}
-.lemma-page .expanded-arguments.interactive-argument-table{min-width:0;width:max-content;max-width:none}
-.lemma-page .expanded-arguments.interactive-argument-table .texto{min-width:420px;width:420px;max-width:520px;text-align:left}
-.lemma-page .expanded-arguments.interactive-argument-table [data-argument-group]{min-width:130px;max-width:230px;text-align:left}
-.lemma-page .expanded-arguments.interactive-argument-table th[data-argument-group]{text-align:center}
-.lemma-page .interactive-argument-table thead th{position:sticky;top:0;z-index:2;background:#292e38}
-.lemma-page .expanded-arguments.interactive-argument-table tr>:first-child{position:sticky;left:0;z-index:1;background:#292e38}
-.lemma-page .expanded-arguments.interactive-argument-table thead tr>:first-child{z-index:3}
-.lemma-page .argument-table-scroll:has(.interactive-argument-table){max-height:72vh;overflow:auto;border:1px solid #606a7d;border-radius:6px}
-.lemma-page .interactive-argument-table tbody tr:nth-child(even){background:#ffffff04}
-.lemma-page .interactive-argument-table tbody tr:hover{background:#ffffff09}
+.lemma-page .expanded-arguments.interactive-argument-table{min-width:0;width:100%;max-width:100%;table-layout:fixed}
+.lemma-page .expanded-arguments.interactive-argument-table .texto{min-width:0;width:var(--sentence-width,60%);max-width:none;text-align:left;overflow-wrap:anywhere}
+.lemma-page .expanded-arguments.interactive-argument-table [data-argument-group]{min-width:0;max-width:none;text-align:center;overflow-wrap:anywhere}
+.lemma-page .expanded-arguments.interactive-argument-table th{white-space:normal;background:transparent}
+.lemma-page .expanded-arguments.interactive-argument-table tr>:first-child{width:2rem;min-width:0}
+.lemma-page .expanded-arguments.interactive-argument-table th,.lemma-page .expanded-arguments.interactive-argument-table td{border:0;border-bottom:1px solid #9398a2;padding:8px 5px;position:static}
+.lemma-page .expanded-arguments.interactive-argument-table thead th{border-bottom:0}
+.lemma-page .argument-table-scroll:has(.interactive-argument-table){max-height:none;overflow-x:auto;border:0;border-radius:0}
+.lemma-page .syntax-table.interactive-argument-table{width:100%;min-width:0;max-width:100%;table-layout:fixed}
+.lemma-page .syntax-table.interactive-argument-table tr>:first-child{width:30%;min-width:0;overflow-wrap:anywhere;white-space:normal}
+.lemma-page .syntax-table.interactive-argument-table th,.lemma-page .syntax-table.interactive-argument-table td{padding:7px 3px;text-align:center;white-space:normal;overflow-wrap:anywhere}
+.lemma-page .interactive-argument-table .argument-prefix,.lemma-page .interactive-argument-table .argument-type{display:block;line-height:1.25}
+.lemma-page .interactive-argument-table .deprel{white-space:normal;overflow-wrap:anywhere}
 .instance-list-mobile{display:none}
 .instance-detail{border:1px solid #606a7d;border-radius:6px;margin:10px 0;background:#252b35}
 .instance-detail summary{padding:14px;cursor:pointer;min-height:24px;font-weight:600;color:#f5f7fb}
@@ -32,3 +35,7 @@
 .instance-argument dt{font-weight:600}.instance-argument dd{margin:0;overflow-wrap:anywhere;line-height:1.6}
 @media(max-width:720px){.instance-table-desktop{display:none}.instance-list-mobile{display:block}.argument-view-controls{padding:10px;gap:6px 16px}.argument-view-shortcuts button{min-height:44px}.lemma-page .syntax-table.interactive-argument-table{min-width:0}.argument-view-check{min-height:44px}}
 @media print{.argument-view-controls,.instance-list-mobile{display:none}.instance-table-desktop{display:block!important}.lemma-page .interactive-argument-table [hidden]{display:table-cell!important}.lemma-page .argument-table-scroll:has(.interactive-argument-table){max-height:none;overflow:visible}.lemma-page .interactive-argument-table th,.lemma-page .interactive-argument-table tr>:first-child{position:static!important}}
+
+.lemma-page .interactive-argument-table .argument-prefix{white-space:nowrap}
+.lemma-page .expanded-arguments.interactive-argument-table th[data-argument-group]{font-size:.85rem}
+.lemma-page .expanded-arguments.interactive-argument-table th.texto{text-align:center}

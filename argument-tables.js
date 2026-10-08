@@ -18,13 +18,17 @@
       if (table === main) {
         [...table.rows].forEach(row => {
           const text = row.querySelector('.texto') || (row.parentElement.tagName === 'THEAD' && [...row.cells].find(c => c.textContent.trim() === 'Texto'));
-          if (text) row.insertBefore(text, row.cells[1] || null);
+          if (text) { row.append(text); text.classList.add('texto'); }
         });
       }
       const headers = [...table.querySelectorAll('thead tr:first-child > th')];
       headers.forEach((th, i) => {
         const group = groupOf(th);
         if (!group) return;
+        const label = th.textContent.trim();
+        if (/^ARGM-/.test(label)) {
+          th.replaceChildren(element('span', 'argument-prefix', 'ARGM-'), element('span', 'argument-type', label.slice(5)));
+        }
         const cells = [...table.querySelectorAll('tbody > tr')].map(row => row.cells[i]).filter(Boolean);
         const empty = cells.every(cell => table === main ? !cell.textContent.trim() : !Number(cell.textContent.trim()));
         const column = {label: th.textContent.trim(), group, empty, cells: [th, ...cells]};
@@ -87,6 +91,8 @@
       mobile.querySelectorAll('[data-argument-group]').forEach(e => { e.hidden = !checks[e.dataset.argumentGroup].checked; });
       const mainColumns = columns.filter(c => c.cells[0].closest('table') === main);
       const hidden = mainColumns.filter(c => c.cells[0].hidden);
+      const visible = mainColumns.length - hidden.length;
+      main.style.setProperty('--sentence-width', Math.max(50, 82 - visible * 4) + '%');
       status.textContent = hidden.length ? 'Colunas ocultas: ' + hidden.map(c => c.label).join(', ') + '.' : 'Todas as colunas de argumentos estão visíveis.';
       shortcuts.querySelectorAll('button').forEach(button => {
         const active = button.textContent === 'Todos' ? checks.core.checked && (checks.argm.checked || checks.argm.disabled)
