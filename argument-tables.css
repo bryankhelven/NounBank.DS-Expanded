@@ -44,3 +44,10 @@
 .lemma-page .expanded-arguments.interactive-argument-table [data-argument-group]{overflow-wrap:normal;word-break:normal;hyphens:none}
 .lemma-page .expanded-arguments.interactive-argument-table [data-argument-group] .deprel{white-space:nowrap;overflow-wrap:normal;word-break:normal}
 .instance-argument dd{overflow-wrap:normal;word-break:normal;hyphens:none}
+
+/* Keep both download formats accessible on narrow screens. */
+.lemma-page .site-nav{flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
+.lemma-page .site-nav .page-title{flex:1;min-width:0}
+@media(max-width:720px){.lemma-page .site-nav .page-title{min-width:120px}}
+
+.lemma-downloads{display:flex;gap:8px;margin-left:auto;max-width:100%;flex-shrink:0}

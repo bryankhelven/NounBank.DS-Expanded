@@ -105,3 +105,43 @@
     update();
   });
 })();
+
+/* The lemma download keeps exactly the same content as its JSON record. */
+(() => {
+  document.querySelectorAll('[data-instance-id]').forEach(e => e.removeAttribute('data-instance-id'));
+  const source = document.querySelector('.site-nav .download-json');
+  if (!source) return;
+  const link = document.createElement('a');
+  link.className = 'download-json download-jsonl';
+  link.href = '#download-jsonl';
+  link.textContent = 'Download JSONL';
+  link.title = 'Dados deste lema no formato JSONL';
+  let content;
+  link.addEventListener('click', async event => {
+    event.preventDefault();
+    if (link.getAttribute('aria-busy') === 'true') return;
+    link.setAttribute('aria-busy', 'true');
+    try {
+      if (!content) {
+        const response = await fetch(source.href, {cache: 'no-store'});
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        content = JSON.stringify(await response.json()) + '\n';
+      }
+      const blob = new Blob([content], {type: 'application/x-ndjson;charset=utf-8'});
+      const url = URL.createObjectURL(blob);
+      const download = document.createElement('a');
+      download.href = url;
+      download.download = decodeURIComponent(new URL(source.href).pathname.split('/').pop()).replace(/\.json$/, '.jsonl');
+      document.body.append(download); download.click(); download.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      link.textContent = 'Download JSONL';
+    } catch (error) {
+      link.textContent = 'Tentar JSONL novamente';
+      console.error('Download JSONL:', error);
+    } finally { link.removeAttribute('aria-busy'); }
+  });
+  const downloads = document.createElement('span');
+  downloads.className = 'lemma-downloads';
+  source.before(downloads);
+  downloads.append(source, link);
+})();

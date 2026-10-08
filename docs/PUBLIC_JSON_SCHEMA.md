@@ -1,18 +1,14 @@
 # Formato dos dados
 
-Os JSONs públicos do NounBank.DS Expanded seguem a organização da versão original: `lemma`, `lemma_base` e `senses`. Cada sense reúne `pt_roleset`, `english_roleset` quando resolvido, `roles`, `examples`, `realization`, `syntax`, `predicate` e `syntactic_profile`.
+Cada JSON de lema contém `lemma` e `senses`. Cada acepção reúne seu roleset, os papéis semânticos, os exemplos, suas realizações e relações sintáticas e o perfil de frequência. O campo `lemma_base`, que repetia `lemma` em todos os arquivos, foi retirado.
 
-Durante esta etapa de revisão, `pending_instances` preserva apenas ocorrências já identificadas como predicadoras que ainda aguardam resolução manual de sense e/ou roleset.
+## Predicador de cada exemplo
 
-Ocorrências não predicadoras e metadados internos de construção não são publicados.
-
-## Identificação obrigatória de cada instância
-
-Todos os exemplos, tanto dos lemas herdados quanto dos novos, têm `instance_id` e `predicate`. A identificação é preenchida também quando há apenas uma aparição do nome na frase.
+Todos os exemplos têm `sent_ID`, `text` e `predicate`, inclusive quando o nome aparece apenas uma vez.
 
 ```json
 {
-  "instance_id": "dante_01_464089901571788800l::desova::1",
+  "sent_ID": "dante_01_464089901571788800l",
   "predicate": {
     "form": "desova",
     "char_start": 17,
@@ -24,16 +20,21 @@ Todos os exemplos, tanto dos lemas herdados quanto dos novos, têm `instance_id`
 }
 ```
 
-- `form` é a sequência literal encontrada em `text`, preservando sua grafia, inclusive abreviações, formas truncadas e espaços de expressões compostas.
-- `char_start` começa em zero e inclui o primeiro caractere; `char_end` exclui o último limite. Os índices contam caracteres Unicode, não bytes nem unidades UTF-16. A expressão Python `text[char_start:char_end]` deve ser exatamente igual a `form`.
-- `occurrence_index` começa em 1 e identifica a aparição do lema pela ordem no texto. A contagem reúne suas formas nominais reconhecidas na sentença, incluindo flexões, e considera todas as acepções. Não é o número da linha na tabela nem o índice da acepção.
-- `occurrence_count` informa o total dessas aparições reconhecidas. Uma sentença pode conter uma aparição nominal que não esteja publicada como instância desta acepção; nesse caso o índice ainda identifica a posição na frase.
-- `instance_id` é um identificador estável e opaco. Os identificadores anteriores foram preservados, inclusive aqueles com `::token=...`, para manter todos os vínculos de proveniência e de ARG-M. Não se deve extrair sua posição pelo sufixo: use `occurrence_index` e os limites do texto. Os identificadores anteriormente ausentes foram criados no formato `sent_ID::lemma::occurrence_index`.
+- `form` reproduz literalmente a forma em `text`, incluindo abreviações e truncamentos.
+- `char_start` começa em zero e inclui o primeiro caractere; `char_end` é o limite exclusivo. Os índices contam caracteres Unicode. Em Python, `text[char_start:char_end]` deve ser igual a `form`.
+- `occurrence_index` começa em 1 e identifica a aparição nominal do lema pela ordem no texto, considerando suas formas flexionadas e todas as acepções reconhecidas na sentença.
+- `occurrence_count` informa o total dessas aparições reconhecidas. Uma aparição única recebe índice 1 e total 1. A contagem é feita sobre o texto da própria instância; versões textuais diferentes mantêm seus respectivos limites e contagens.
 
-Campos anteriores de `predicate`, como `source_token_id`, `source_form`, `lemma` e `upos`, continuam preservados quando disponíveis. Um token de origem deve ser interpretado na versão de corpus que o produziu; ele não substitui os limites no `text` publicado.
+Campos de origem como `source_token_id`, `source_form`, `lemma` e `upos` são preservados quando já disponíveis. O token deve ser interpretado na versão de corpus que o produziu.
 
-`instance_identity_provenance` documenta o método e a justificativa da recuperação, o commit anterior, o caminho e o ponteiro JSON da instância original, e informa se seu identificador foi preservado. Esses registros permitem distinguir o conteúdo herdado dos campos materializados nesta padronização. A forma literal pode ter sua capitalização ajustada para reproduzir exatamente `text`, sem alterar o texto original.
+Os exemplos públicos não precisam de um ID artificial de instância. A combinação de sentença e posição do predicador permite distinguir nomes repetidos. Os campos `instance_id`, `native_instance_id` e o bloco de operação técnica `instance_identity_provenance` foram retirados dos JSONs de lemas e dos downloads agregados. A proveniência científica dos sentidos, papéis e modificadores permanece preservada. Os arquivos de histórico mantêm seus vínculos anteriores para recuperar a origem e as alterações efetivamente feitas.
 
-A apresentação utiliza os limites explícitos para destacar REL. Ao passar o cursor sobre o predicador, o título informa sua aparição e o total na frase. A ausência de ARG-M não implica ausência de identificador do predicador.
+Na página, REL aponta para a posição literal do predicador. Seu título informa a aparição e o total na frase.
 
-Antes de publicar novos exemplos ou regenerar os downloads, execute `python3 tools/validate_instance_identity.py`. O verificador rejeita qualquer exemplo sem os campos obrigatórios, identidade duplicada, limites incompatíveis com a forma literal, vínculo ARG-M quebrado ou divergência entre arquivos individuais, JSONL e ZIP.
+## JSON e JSONL
+
+Cada página oferece o JSON do lema e o JSONL correspondente. O JSONL por lema contém o mesmo objeto em uma única linha, terminada por uma quebra de linha. Mantém todos os sentidos e exemplos do lema, sem perda de informação, e segue o mesmo formato do JSONL global: um lema por linha.
+
+O ZIP global contém todos os JSONs individuais. O JSONL global contém os mesmos lemas, na ordem do inventário.
+
+Antes de publicar novos exemplos ou regenerar os downloads, execute `python3 tools/validate_predicate_anchors.py`. A verificação exige os limites literais em todos os predicadores e compara os dados individuais, o JSONL global e o ZIP.

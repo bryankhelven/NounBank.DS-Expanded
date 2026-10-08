@@ -1,4 +1,4 @@
-"""Validate the universal public predicate identity contract before publication."""
+"""Validate literal predicate anchors and consistent public downloads."""
 from pathlib import Path
 import json
 import sys
@@ -8,19 +8,17 @@ import zipfile
 def validate(root):
     root = Path(root)
     entries = json.loads((root / 'jsons/_manifest.json').read_text())['lemmas']
-    identifiers = set()
     instances = 0
     documents = []
     for entry in entries:
         path = root / 'jsons' / entry['filename']
         document = json.loads(path.read_text())
+        assert 'lemma_base' not in document, f'{path}: redundant lemma_base'
         documents.append(document)
         for sense in document['senses']:
             for example in sense['examples']:
-                identifier = example.get('instance_id')
-                assert isinstance(identifier, str) and identifier, f'{path}: missing instance_id'
-                assert identifier not in identifiers, f'{path}: repeated instance_id {identifier}'
-                identifiers.add(identifier)
+                identifier = f"{entry['filename']}:{sense.get('pt_roleset')}:{instances + 1}"
+                assert 'instance_id' not in example and 'instance_identity_provenance' not in example, f'{identifier}: internal migration fields in public example'
                 predicate = example.get('predicate', {})
                 for field in ('form', 'char_start', 'char_end', 'occurrence_index', 'occurrence_count', 'char_offset_unit'):
                     assert field in predicate, f'{identifier}: missing predicate.{field}'
@@ -32,7 +30,7 @@ def validate(root):
                 assert type(index) is int and type(count) is int and 1 <= index <= count, f'{identifier}: invalid occurrence ordinal'
                 assert predicate['char_offset_unit'] == 'UNICODE_CODEPOINT_END_EXCLUSIVE', f'{identifier}: wrong offset convention'
                 for annotation in example.get('argm_annotations', []):
-                    assert annotation['native_instance_id'] == identifier, f'{identifier}: broken ARG-M identity link'
+                    assert 'native_instance_id' not in annotation, f'{identifier}: internal instance ID in public modifier'
                 instances += 1
     aggregate = [json.loads(line) for line in (root / 'jsons/nounbank.ds_expanded_all.jsonl').read_text().splitlines()]
     assert aggregate == documents, 'JSONL differs from the individual JSONs'
@@ -45,4 +43,4 @@ def validate(root):
 
 if __name__ == '__main__':
     root = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
-    print('INSTANCE IDENTITY PASS:', validate(root))
+    print('PREDICATE ANCHORS PASS:', validate(root))

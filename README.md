@@ -6,4 +6,4 @@ A consulta de proveniência dos sentidos e papéis está em `provenance.html`. O
 
 Licenças e citação: LICENSE, LICENSE-DATA.md, LICENSE-CODE e docs/CITATION.md.
 
-Todos os exemplos expõem identidade estável, forma literal, limites no texto e ordinal da aparição do predicador. Consulte `docs/PUBLIC_JSON_SCHEMA.md`.
+Todos os exemplos expõem a forma literal, os limites no texto e o ordinal da aparição do predicador. As páginas oferecem downloads em JSON e JSONL. Consulte `docs/PUBLIC_JSON_SCHEMA.md`.
