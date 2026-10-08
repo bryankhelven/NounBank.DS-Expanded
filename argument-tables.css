@@ -1,0 +1,34 @@
+/* Argument views share rows and leave all corpus content available. */
+.argument-view-controls{margin:12px 0 16px;padding:12px 16px;border:1px solid #69758b;border-radius:8px;background:#252b35;display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;min-width:0}
+.argument-view-controls legend{padding:0 6px;font-weight:600;color:#f5f7fb}
+.argument-view-check{display:inline-flex;align-items:center;gap:8px;color:#f5f7fb;min-height:36px;cursor:pointer}
+.argument-view-check input{width:18px;height:18px;accent-color:#a7b9ff}
+.argument-view-check:has(input:disabled){opacity:.55;cursor:default}
+.argument-view-shortcuts{display:flex;flex-wrap:wrap;gap:8px}
+.argument-view-shortcuts button{border:1px solid #8996b0;border-radius:6px;background:#343e50;color:#fff;padding:9px 12px;min-height:40px;cursor:pointer;font:inherit}
+.argument-view-shortcuts button[aria-pressed=true]{background:#455987;border-color:#b9caff}
+.argument-view-shortcuts button:disabled{opacity:.5;cursor:default}
+.argument-view-controls :focus-visible,.instance-detail summary:focus-visible{outline:3px solid #c6d2ff;outline-offset:3px}
+.argument-view-status,.argument-view-note{flex-basis:100%;margin:0;font-size:.86rem;line-height:1.5;overflow-wrap:anywhere;color:#d8e0ed}
+.argument-view-note{color:#bfc8d9}
+.lemma-page .interactive-argument-table [hidden],.instance-list-mobile [hidden]{display:none!important}
+.lemma-page .expanded-arguments.interactive-argument-table{min-width:0;width:max-content;max-width:none}
+.lemma-page .expanded-arguments.interactive-argument-table .texto{min-width:420px;width:420px;max-width:520px;text-align:left}
+.lemma-page .expanded-arguments.interactive-argument-table [data-argument-group]{min-width:130px;max-width:230px;text-align:left}
+.lemma-page .expanded-arguments.interactive-argument-table th[data-argument-group]{text-align:center}
+.lemma-page .interactive-argument-table thead th{position:sticky;top:0;z-index:2;background:#292e38}
+.lemma-page .expanded-arguments.interactive-argument-table tr>:first-child{position:sticky;left:0;z-index:1;background:#292e38}
+.lemma-page .expanded-arguments.interactive-argument-table thead tr>:first-child{z-index:3}
+.lemma-page .argument-table-scroll:has(.interactive-argument-table){max-height:72vh;overflow:auto;border:1px solid #606a7d;border-radius:6px}
+.lemma-page .interactive-argument-table tbody tr:nth-child(even){background:#ffffff04}
+.lemma-page .interactive-argument-table tbody tr:hover{background:#ffffff09}
+.instance-list-mobile{display:none}
+.instance-detail{border:1px solid #606a7d;border-radius:6px;margin:10px 0;background:#252b35}
+.instance-detail summary{padding:14px;cursor:pointer;min-height:24px;font-weight:600;color:#f5f7fb}
+.instance-detail[open] summary{border-bottom:1px solid #606a7d}
+.instance-sentence{margin:14px;line-height:1.75;overflow-wrap:anywhere;color:#f5f7fb}
+.instance-argument-list{margin:14px}
+.instance-argument{display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px;padding:8px 0;border-top:1px solid #606a7d}
+.instance-argument dt{font-weight:600}.instance-argument dd{margin:0;overflow-wrap:anywhere;line-height:1.6}
+@media(max-width:720px){.instance-table-desktop{display:none}.instance-list-mobile{display:block}.argument-view-controls{padding:10px;gap:6px 16px}.argument-view-shortcuts button{min-height:44px}.lemma-page .syntax-table.interactive-argument-table{min-width:0}.argument-view-check{min-height:44px}}
+@media print{.argument-view-controls,.instance-list-mobile{display:none}.instance-table-desktop{display:block!important}.lemma-page .interactive-argument-table [hidden]{display:table-cell!important}.lemma-page .argument-table-scroll:has(.interactive-argument-table){max-height:none;overflow:visible}.lemma-page .interactive-argument-table th,.lemma-page .interactive-argument-table tr>:first-child{position:static!important}}
