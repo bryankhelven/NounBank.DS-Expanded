@@ -20,7 +20,7 @@ def validate(root):
                 identifier = f"{entry['filename']}:{sense.get('pt_roleset')}:{instances + 1}"
                 assert 'instance_id' not in example and 'instance_identity_provenance' not in example, f'{identifier}: internal migration fields in public example'
                 predicate = example.get('predicate', {})
-                for field in ('form', 'char_start', 'char_end', 'occurrence_index', 'occurrence_count', 'char_offset_unit'):
+                for field in ('form', 'char_start', 'char_end', 'occurrence_index', 'occurrence_count'):
                     assert field in predicate, f'{identifier}: missing predicate.{field}'
                 start, end = predicate['char_start'], predicate['char_end']
                 assert type(start) is int and type(end) is int, f'{identifier}: noninteger limits'
@@ -28,7 +28,7 @@ def validate(root):
                 assert example['text'][start:end] == predicate['form'], f'{identifier}: wrong literal anchor'
                 index, count = predicate['occurrence_index'], predicate['occurrence_count']
                 assert type(index) is int and type(count) is int and 1 <= index <= count, f'{identifier}: invalid occurrence ordinal'
-                assert predicate['char_offset_unit'] == 'UNICODE_CODEPOINT_END_EXCLUSIVE', f'{identifier}: wrong offset convention'
+                assert 'char_offset_unit' not in predicate, f'{identifier}: redundant per-predicate offset convention'
                 for annotation in example.get('argm_annotations', []):
                     assert 'native_instance_id' not in annotation, f'{identifier}: internal instance ID in public modifier'
                 instances += 1

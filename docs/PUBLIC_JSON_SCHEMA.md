@@ -14,14 +14,13 @@ Todos os exemplos têm `sent_ID`, `text` e `predicate`, inclusive quando o nome 
     "char_start": 17,
     "char_end": 23,
     "occurrence_index": 1,
-    "occurrence_count": 1,
-    "char_offset_unit": "UNICODE_CODEPOINT_END_EXCLUSIVE"
+    "occurrence_count": 1
   }
 }
 ```
 
 - `form` reproduz literalmente a forma em `text`, incluindo abreviações e truncamentos.
-- `char_start` começa em zero e inclui o primeiro caractere; `char_end` é o limite exclusivo. Os índices contam caracteres Unicode. Em Python, `text[char_start:char_end]` deve ser igual a `form`.
+- `char_start` começa em zero e inclui o primeiro caractere; `char_end` é o limite exclusivo. Os índices contam caracteres Unicode (pontos de código). Esta convenção vale para todos os exemplos e é definida aqui, sem um campo repetido em cada predicador. Em Python, `text[char_start:char_end]` deve ser igual a `form`.
 - `occurrence_index` começa em 1 e identifica a aparição nominal do lema pela ordem no texto, considerando suas formas flexionadas e todas as acepções reconhecidas na sentença.
 - `occurrence_count` informa o total dessas aparições reconhecidas. Uma aparição única recebe índice 1 e total 1. A contagem é feita sobre o texto da própria instância; versões textuais diferentes mantêm seus respectivos limites e contagens.
 
